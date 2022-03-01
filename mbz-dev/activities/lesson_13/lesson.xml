@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="7" moduleid="13" modulename="lesson" contextid="33">
-  <lesson id="7">
+<activity id="8" moduleid="13" modulename="lesson" contextid="33">
+  <lesson id="8">
     <course>2</course>
-    <name>Lesson 2.3 Teacher Guide: Solving Systems by Elimination (Part 1)</name>
+    <name>Lesson 2.3: Solving Systems by Elimination (Part 1)</name>
     <intro></intro>
     <introformat>1</introformat>
-    <practice>0</practice>
-    <modattempts>0</modattempts>
+    <practice>1</practice>
+    <modattempts>1</modattempts>
     <usepassword>0</usepassword>
     <password></password>
     <dependency>0</dependency>
@@ -33,532 +33,199 @@
     <width>640</width>
     <height>480</height>
     <bgcolor>#FFFFFF</bgcolor>
-    <displayleft>0</displayleft>
+    <displayleft>1</displayleft>
     <displayleftif>0</displayleftif>
-    <progressbar>0</progressbar>
+    <progressbar>1</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1638387473</timemodified>
+    <timemodified>1643209374</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="35">
+      <page id="38">
         <prevpageid>0</prevpageid>
-        <nextpageid>36</nextpageid>
+        <nextpageid>39</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1638357583</timecreated>
-        <timemodified>1641326748</timemodified>
+        <timecreated>1638365905</timecreated>
+        <timemodified>1641331698</timemodified>
         <title>Lesson Overview</title>
-        <contents>&lt;div&gt;
-    &lt;div class="main"&gt;
-        &lt;div class="preparation"&gt;
-            &lt;h3&gt;Lesson Narrative&lt;/h3&gt;
-            &lt;div class="body"&gt;
-                &lt;p&gt;This is the first of three lessons that develop the idea of solving systems of linear equations in two variables by &lt;strong&gt;elimination&lt;/strong&gt;.&lt;/p&gt;
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Solve systems of equations by adding or subtracting them to eliminate a variable.&lt;/li&gt;&lt;li&gt;Know that adding or subtracting equations in a system creates a new equation, where one of the solutions to this equation is the solution to the system.&lt;/li&gt;&lt;/ul&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;Here are the activities that will help you reach those goals:&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Activity 2.3.1: Notice and Wonder: Hanger Diagrams&lt;/li&gt;
+        &lt;li&gt;Activity 2.3.2: Adding Equations&lt;/li&gt;
+        &lt;li&gt;Activity 2.3.3: Adding and Subtracting Equations to Solve Systems&lt;/li&gt;
+        &lt;li&gt;Activity 2.3.4: What to Do with This System?&lt;/li&gt;&lt;li&gt;Activity 2.3.4: What to Do with This System? - Worked Solution&lt;/li&gt;&lt;li&gt;Lesson 2.3 Online Interactive Activities&lt;/li&gt;&lt;li&gt;Lesson 2.3 Practice&lt;/li&gt;
+      &lt;li&gt;Lesson 2.3 Summary&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="79">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638365905</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Activity 2.3.1</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="39">
+        <prevpageid>38</prevpageid>
+        <nextpageid>44</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637613527</timecreated>
+        <timemodified>1641262942</timemodified>
+        <title>Activity 2.3.1: Notice and Wonder: Hanger Diagrams</title>
+        <contents>&lt;p&gt;What do you notice? What do you wonder?&lt;/p&gt;
 
-                &lt;p&gt;Students warm up to the idea of adding equations visually. They examine a diagram of three hangers where the third hanger contains the combined contents of the first two hangers and all three hangers are balanced. Then, they analyze the result of adding two linear equations in standard form and notice that doing so &lt;strong&gt;eliminates&lt;/strong&gt; one of the variables, enabling them to solve for the other variable and, consequently, to solve the system. In studying and testing a new strategy of adding equations and then offering their analyses, students construct viable arguments and critique the reasoning of others (MP3).&lt;/p&gt;
+                &lt;div class="imgrid"&gt;
+                    &lt;div class="g--row g--row-1"&gt;
+                        &lt;div class="g--col-1 g--column g--content g--one-third g--row-1"&gt;
+                            &lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img alt="Balanced hanger diagram. Two red circles on the left side. One blue square on the right side." class="h-max-height--4-lines" height="151" src="https://s3.amazonaws.com/im-ims-export/uE947T7rTUQrCy86nCose98H" width="183"&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+                        &lt;/div&gt;
 
-                &lt;p&gt;Next, students connect the solution they found using this method to the graphs of the equations in a system and the graph of the third equation (that results from adding or subtracting the original equations). They observe that the solution they found is the solution to the system and that the graph of the third equation intersects the other two graphs at the identical point: the intersection of the first two.&lt;/p&gt;
+                        &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
+                            &lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img alt="Balanced hanger diagram. One red circle and a green triangle on the left side. One yellow pentagon on the right side." class="h-max-height--4-lines" height="151" src="https://s3.amazonaws.com/im-ims-export/WF8JxNpou6wa1Y9bX4rphrvY" width="190"&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+                        &lt;/div&gt;
 
-                &lt;p&gt;The foundational idea is that adding or subtracting equations in a system creates a new equation whose solutions coincide with those of the original system. Students begin using this insight to solve systems, but they are not yet expected to construct an argument as to why this approach works.&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;h3&gt;Learning Goals (Teacher Facing)&lt;/h3&gt;
-            &lt;p&gt;Students will be able to:&lt;/p&gt;
-            &lt;ul&gt;
-                &lt;li&gt;Recognize that adding or subtracting equations in a system creates a new equation with a solution that coincides with that of the original system, so the new equation can be used to solve the original system.&lt;/li&gt;
-                &lt;li&gt;Solve systems of equations by adding or subtracting the equations strategically to eliminate a variable.&lt;/li&gt;
-                &lt;li&gt;Use graphing technology to graph the sums and differences of the equations in a system and analyze and describe (orally and in writing) the behaviors of the graphs.&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;p&gt;&lt;/p&gt;
-            &lt;h3&gt;Learning Targets (Student Facing)&lt;/h3&gt;
-            &lt;ul&gt;
-                &lt;li&gt;I can solve systems of equations by adding or subtracting them to eliminate a variable.&lt;/li&gt;
-                &lt;li&gt;I know that adding or subtracting equations in a system creates a new equation, where one of the solutions to this equation is the solution to the system.&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;h3&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h3&gt;
-            &lt;div&gt;
-                &lt;ul&gt;
-                    &lt;li&gt;A.5(C) solve systems of two linear equations with two variables for mathematical and real-world problems.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/div&gt;
-            &lt;h3&gt;Required Materials&lt;/h3&gt;
-            &lt;ul&gt;
-                &lt;li&gt;Graphing technology&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;h3&gt;Required Preparation&lt;/h3&gt;
-            &lt;div class="body"&gt;
-                &lt;p&gt;Acquire devices that can run Desmos (recommended) or other graphing technology. It is ideal if each student has their own device. (If students typically access the digital version of the materials, Desmos is always available under Math Tools.)&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="body"&gt;
-                &lt;ul&gt;
-                &lt;/ul&gt;
-            &lt;/div&gt;
+                        &lt;div class="g--col-3 g--column g--content g--one-third g--row-1"&gt;
+                            &lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img alt="Balanced hanger diagram. 3 red circles and a green triangle on the left side. One blue square and a yellow pentagon on the right side." class="h-max-height--7-lines" height="259" src="https://s3.amazonaws.com/im-ims-export/rmjTYBnBfY1AwQdH2YxaKXbT" width="190"&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="74">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637613527</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Lesson Overview</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="80">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637613527</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Activity 2.3.2</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="44">
+        <prevpageid>39</prevpageid>
+        <nextpageid>40</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637613588</timecreated>
+        <timemodified>1641328077</timemodified>
+        <title>Activity 2.3.2: Adding Equations</title>
+        <contents>&lt;p&gt;Diego is solving this system of equations:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} \begin {align}4x + 3y &amp;amp;= 10\\ -4x + 5y &amp;amp;= 6 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is his work:&lt;/p&gt;
+
+&lt;div class="imgrid"&gt;
+    &lt;div class="g--row g--row-1"&gt;
+        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math"&gt;\( \begin {align}4x + 3y &amp;amp;= 10\\ -4x + 5y &amp;amp;= \hspace{2mm}6 \quad+\\ \overline {\quad 0 + 8y} &amp;amp;\overline{ \hspace{1mm}= 16 \qquad}\\ y &amp;amp;= 2 \end{align} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math"&gt;\( \begin {align}4x + 3(2) &amp;amp;= 10\\ 4x + 6 &amp;amp;= 10\\ 4x &amp;amp;= 4\\ x &amp;amp;= 1 \end{align} \)&lt;/span&gt;&lt;/p&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;/p&gt;
-&lt;div class="editor-indent" style="margin-left: 30px;"&gt;&lt;h3&gt;Lesson Activities&lt;/h3&gt;&lt;/div&gt;
-                &lt;div class="body"&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: calc(0.90375rem + 0.045vw);"&gt;Activity 2.3.1: Notice and Wonder: Hanger Diagrams&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: calc(0.90375rem + 0.045vw);"&gt;Activity 2.3.2: Adding Equations&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: calc(0.90375rem + 0.045vw);"&gt;Activity 2.3.3: Adding and Subtracting Equations to Solve Systems&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: calc(0.90375rem + 0.045vw);"&gt;Activity 2.3.4: What to Do with This System?&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: calc(0.90375rem + 0.045vw);"&gt;Lesson 2.3 Online Interactive Activities&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: calc(0.90375rem + 0.045vw);"&gt;Lesson 2.3 Practice&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: calc(0.90375rem + 0.045vw);"&gt;Lesson 2.3 Summary&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;
-    &lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="68">
-            <jumpto>36</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1638357583</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Lesson Activities</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="69">
-            <jumpto>37</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1638357583</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Lesson Summary</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="36">
-        <prevpageid>35</prevpageid>
-        <nextpageid>37</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1638364022</timecreated>
-        <timemodified>1641333183</timemodified>
-        <title>Lesson Activities</title>
-        <contents>&lt;div class="activities"&gt;
-    &lt;div class="hero"&gt;
-        &lt;h2&gt;Activity 2.3.1: Notice and Wonder: Hanger Diagrams&lt;/h2&gt;
+&lt;ol&gt;
+    &lt;li&gt;
+        &lt;p&gt;Make sense of Diego’s work and discuss with a partner:&lt;/p&gt;
 
-    &lt;/div&gt;
-    &lt;h3&gt;Warm-up&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;5 minutes&lt;/p&gt;
-        &lt;p&gt;The purpose of this warm-up is to give students an intuitive and concrete way to think about combining two equations that are both true.&lt;/p&gt;
-
-        &lt;p&gt;Students are presented with diagrams of three balanced hangers, which suggest that the weights on the two sides of each hanger are equal. Each side of the last hanger shows the combined objects from the corresponding side of the first two hangers. Students can reason that if 2 circles weigh the same as 1 square, and 1 circle and 1 triangle weigh the same as 1 pentagon, then the combined weight of 3 circles and 1 triangle should be equal to the combined weight of 1 square and 1 pentagon.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Launch&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Display the hanger diagrams for all to see. Ask students to think of at least one thing they notice and at least one thing they wonder. Give students 1 minute of quiet think time and then 1 minute to discuss the things they notice and wonder with their partner, followed by a whole-class discussion.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Student-Facing Statement&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;What do you notice? What do you wonder?&lt;/p&gt;
-
-        &lt;div class="imgrid"&gt;
-            &lt;div class="g--row g--row-1"&gt;
-                &lt;div class="g--col-1 g--column g--content g--one-third g--row-1"&gt;
-                    &lt;div&gt;&lt;img alt="Balanced hanger diagram. Two red circles on the left side. One blue square on the right side." class="h-max-height--4-lines" src="https://s3.amazonaws.com/im-ims-export/uE947T7rTUQrCy86nCose98H" width="183" height="151"&gt;&lt;/div&gt;
-                &lt;/div&gt;
-
-                &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
-                    &lt;div&gt;&lt;img alt="Balanced hanger diagram. One red circle and a green triangle on the left side. One yellow pentagon on the right side." class="h-max-height--4-lines" src="https://s3.amazonaws.com/im-ims-export/WF8JxNpou6wa1Y9bX4rphrvY" width="190" height="151"&gt;&lt;/div&gt;
-                &lt;/div&gt;
-
-                &lt;div class="g--col-3 g--column g--content g--one-third g--row-1"&gt;
-                    &lt;div&gt;&lt;img alt="Balanced hanger diagram. 3 red circles and a green triangle on the left side. One blue square and a yellow pentagon on the right side." class="h-max-height--7-lines" src="https://s3.amazonaws.com/im-ims-export/rmjTYBnBfY1AwQdH2YxaKXbT" width="190" height="259"&gt;&lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Student Response&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Things students may notice:&lt;/p&gt;
-
-        &lt;ul&gt;
-            &lt;li&gt;All the hangers are balanced.&lt;/li&gt;
-            &lt;li&gt;There are circles on the left side of every hanger and none on the right side of any hanger.&lt;/li&gt;
-            &lt;li&gt;There is a triangle on the left side of the second and third hangers.&lt;/li&gt;
-            &lt;li&gt;There is a square on the right side of the first and third hangers.&lt;/li&gt;
-            &lt;li&gt;The third hanger has all the shapes from the first two hangers.&lt;/li&gt;
-            &lt;li&gt;The shapes from the left side of the first two hangers end up on the left side of the last hanger. (The same can be said about the right side.)&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;Things students may wonder:&lt;/p&gt;
-
-        &lt;ul&gt;
-            &lt;li&gt;How much does each shape weigh?&lt;/li&gt;
-            &lt;li&gt;Is the circle the lightest shape?&lt;/li&gt;
-            &lt;li&gt;Which shape weighs the most?&lt;/li&gt;
-            &lt;li&gt;Why does the last hanger have many more shapes than the other two hangers?&lt;/li&gt;
-            &lt;li&gt;Why is the last hanger is still balanced if it has shapes added to each side?&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Activity Synthesis&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Ask students to share the things they noticed and wondered. Record and display their responses for all to see. If possible, record the relevant reasoning on or near the image. After all responses have been recorded without commentary or editing, ask students, “Is there anything on this list that you are wondering about now?” Encourage students to respectfully disagree, ask for clarification, or point out contradicting information. &lt;/p&gt;
-
-        &lt;p&gt;The idea to emphasize is that the weights on each side of the third hanger come from combining the weights on the corresponding sides of the first two hangers. If no one points this out, raise it as a point for discussion. Ask students:&lt;/p&gt;
-
-        &lt;ul&gt;
-            &lt;li&gt;“What do you notice about the left side of the last hanger? What about the right side?”&lt;/li&gt;
-            &lt;li&gt;“If we only saw the first two hangers but knew that the third hanger has the combined weights from the corresponding side of the first two hangers, could we predict whether the weights on the third hanger would balance? Why or why not?” (Yes. We can think of it as adding the weights from the second hanger to the first one, or vice versa. If the same weight is added to each side of a balanced hanger, the hanger would still be balanced.)&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;hr&gt;
-    &lt;div class="hero"&gt;
-        &lt;h2&gt;Activity 2.3.2: Adding Equations&lt;/h2&gt;
-
-    &lt;/div&gt;
-    &lt;h3&gt;Activity&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;15 minutes&lt;/p&gt;
-        &lt;p&gt;In the warm-up of this lesson, students saw a visual representation of two equations being added to form a third equation. Because the first two equations are balanced, the third is also balanced. In this activity, students continue to develop the idea of adding two equations to form a third equation and use it to help them solve systems of linear equations.&lt;/p&gt;
-
-        &lt;p&gt;Along the way, students examine the work of others and practice explaining their reasoning and critiquing that of others (MP3). They also see that sometimes adding equations is a productive way to solve systems, but other times it isn’t.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Launch&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Arrange students in groups of 2. Give students 2 minutes of quiet time to think about the first set of questions and then time to share their thinking with their partner. Follow with a whole-class discussion before students proceed to the second set of questions. &lt;/p&gt;
-
-        &lt;p&gt;Invite students to share their analysis of Diego’s work: what Diego has done to solve the system and why he might have done it that way. Discuss questions such as:&lt;/p&gt;
-
-        &lt;ul&gt;
-            &lt;li&gt;“In this case, what happens when the equations are added? Why might it be helpful to do so?” (The expressions with &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt; add up to 0, so it’s removed from the equation, making it possible to solve for &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;.) &lt;/li&gt;
-            &lt;li&gt;“How does finding the value of &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; help with solving the system?” (Once we know the value of one variable, we can use it to find the value of the other by substituting it back into one of the equations and solving that equation.)&lt;/li&gt;
-            &lt;li&gt;“How can we be sure that &lt;span class="math math-repaired"&gt;\( x=1 \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( y=2 \)&lt;/span&gt; simultaneously make both equations true and is a solution to the system?” (We can substitute those values into the equations and see if the equations are true. We can also graph the system and see if it intersects at &lt;span class="math math-repaired"&gt;\( (1,2) \)&lt;/span&gt;.)&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;Next, ask students to complete the remainder of the activity.&lt;/p&gt;
-
-        &lt;h4&gt;Support for Students with Disabilities&lt;/h4&gt;
-        &lt;div class="c-annotation c-annotation--swd"&gt;
-            &lt;em&gt;Representation: Internalize Comprehension.&lt;/em&gt; Begin the activity with concrete or familiar contexts: Explicitly link the warm-up to the representation involved in analyzing Diego’s work. Connect the intuitive understanding of balance to familiar mathematical statements that do not require solving. Present strategically, in the same format as Diego’s work. For instance, ask students if &lt;span class="math"&gt;\( 2 + 2 = 4 \)&lt;/span&gt; is a true and balanced statement. Then, ask them if &lt;span class="math"&gt;\( 3 + 1 = 4 \)&lt;/span&gt; is also a true and balanced statement. Once students have labeled these as true, add them together in the same arrangement as the upcoming problems and ask students if the result,&amp;nbsp;&lt;span class="math"&gt;\( (5 + 3 = 8) \)&lt;/span&gt;, will therefore also be true and balanced. Then, introduce Diego’s work. &lt;br&gt;&lt;em&gt;Supports accessibility for: Conceptual processing; Memory&lt;/em&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Student-Facing Statement&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Diego is solving this system of equations:&lt;/p&gt;
-
-        &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} \begin {align}4x + 3y &amp;amp;= 10\\ -4x + 5y &amp;amp;= 6 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
-
-        &lt;p&gt;Here is his work:&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;What did Diego do to solve the system?&lt;/li&gt;
+            &lt;li&gt;Is the pair of &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; values that Diego found actually a solution to the system? How do you know?
+            &lt;/li&gt;
+          &lt;br&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;p&gt;Does Diego’s method work for solving these systems? Be prepared to explain or show your reasoning.&lt;/p&gt;
 
         &lt;div class="imgrid"&gt;
             &lt;div class="g--row g--row-1"&gt;
                 &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
-                    &lt;p&gt;&lt;span class="math"&gt;\( \begin {align}4x + 3y &amp;amp;= 10\\ -4x + 5y &amp;amp;= \hspace{2mm}6 \quad+\\ \overline {\quad 0 + 8y} &amp;amp;\overline{ \hspace{1mm}= 16 \qquad}\\ y &amp;amp;= 2 \end{align} \)&lt;/span&gt;&lt;/p&gt;
+                    &lt;p&gt;a. &lt;span class="math"&gt;\( \begin {cases} \begin {align}2x + y &amp;amp;= 4\\ x - y &amp;amp;= 11 \end {align} \end {cases} \)&lt;/span&gt;&lt;/p&gt;
                 &lt;/div&gt;
 
                 &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
-                    &lt;p&gt;&lt;span class="math"&gt;\( \begin {align}4x + 3(2) &amp;amp;= 10\\ 4x + 6 &amp;amp;= 10\\ 4x &amp;amp;= 4\\ x &amp;amp;= 1 \end{align} \)&lt;/span&gt;&lt;/p&gt;
+                    &lt;p&gt;b. &lt;span class="math"&gt;\( \begin {cases} \begin{align} 8x + 11y &amp;amp;= 37\\ 8x + \hspace{4.5mm} y &amp;amp;= \hspace{2mm} 7 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
 
-        &lt;ol&gt;
-            &lt;li&gt;
-                &lt;p&gt;Make sense of Diego’s work and discuss with a partner:&lt;/p&gt;
-
-                &lt;ol&gt;
-                    &lt;li&gt;What did Diego do to solve the system?&lt;/li&gt;
-                    &lt;li&gt;Is the pair of &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; values that Diego found actually a solution to the system? How do you know?
-                    &lt;/li&gt;
-                &lt;/ol&gt;
-            &lt;/li&gt;
-            &lt;li&gt;
-                &lt;p&gt;Does Diego’s method work for solving these systems? Be prepared to explain or show your reasoning.&lt;/p&gt;
-
-                &lt;div class="imgrid"&gt;
-                    &lt;div class="g--row g--row-1"&gt;
-                        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
-                            &lt;p&gt;a. &lt;span class="math"&gt;\( \begin {cases} \begin {align}2x + y &amp;amp;= 4\\ x - y &amp;amp;= 11 \end {align} \end {cases} \)&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-
-                        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
-                            &lt;p&gt;b. &lt;span class="math"&gt;\( \begin {cases} \begin{align} 8x + 11y &amp;amp;= 37\\ 8x + \hspace{4.5mm} y &amp;amp;= \hspace{2mm} 7 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-
-            &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Student Response&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;ol&gt;
-            &lt;li&gt;Sample response:
-                &lt;ol&gt;
-                    &lt;li&gt;Diego added the two equations and the sum is an equation with only one variable, &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;, which can be solved. He then substituted the &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; value into the first equation and solved for &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt;.&lt;/li&gt;
-                    &lt;li&gt;Yes, when the values are substituted back to the equations in the system, they make the equations true.&lt;/li&gt;
-                &lt;/ol&gt;
-            &lt;/li&gt;
-            &lt;li&gt;
-                &lt;ol&gt;
-                    &lt;li&gt;Yes. &lt;span class="math math-repaired"&gt;\( x=5, y=-6 \)&lt;/span&gt;. Sample reasoning: Adding the two equations give &lt;span class="math math-repaired"&gt;\( 3x = 15 \)&lt;/span&gt; or &lt;span class="math math-repaired"&gt;\( x = 5 \)&lt;/span&gt;. Substituting 5 for &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt; in either one of the original equations gives &lt;span class="math math-repaired"&gt;\( y=-6 \)&lt;/span&gt;.&lt;/li&gt;
-                    &lt;li&gt;Sample responses:
-                        &lt;ol&gt;
-                            &lt;li&gt;No, adding the two equations doesn’t get us anywhere. The sum is &lt;span class="math math-repaired"&gt;\( 16x + 12y = 44 \)&lt;/span&gt;, which doesn’t make it easier to solve.&lt;/li&gt;
-                            &lt;li&gt;It works if the second equation is subtracted from the first instead of added to the first. The difference is &lt;span class="math math-repaired"&gt;\( 10y = 30 \)&lt;/span&gt; or &lt;span class="math math-repaired"&gt;\( y=3 \)&lt;/span&gt;. If we substitute 3 for &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; in one of the original equations, we get &lt;span class="math math-repaired"&gt;\( x=\frac12 \)&lt;/span&gt;.&lt;/li&gt;
-                        &lt;/ol&gt;
-                    &lt;/li&gt;
-                &lt;/ol&gt;
-            &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Activity Synthesis&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Invite students to share their responses to the last set of questions and discuss whether Diego’s method works for solving the two systems. Ask students:&lt;/p&gt;
-
-        &lt;ul&gt;
-            &lt;li&gt;“Why does adding the equations work for solving the system with &lt;span class="math math-repaired"&gt;\( 2x + y =4 \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( x-y=11 \)&lt;/span&gt;&amp;nbsp;but doesn’t work for &lt;span class="math math-repaired"&gt;\( 8x + 11y = 37 \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( 8x + y =7 \)&lt;/span&gt;?” (In the resulting equation, there are still two variables whose values we don’t know.)&lt;/li&gt;
-            &lt;li&gt;“What if we subtract the equations? Would that help us solve the last system?” (Yes, subtracting the second equation from the first gives &lt;span class="math math-repaired"&gt;\( 10y=30 \)&lt;/span&gt; or &lt;span class="math math-repaired"&gt;\( y=3 \)&lt;/span&gt;, which we can then use to find the &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt;-value.)&lt;/li&gt;
-            &lt;li&gt;“How is adding the two equations here like and unlike combining the shapes in the two hanger diagrams earlier? How is it different?” (It is alike in that the result is another equation with the combined parts on the left side staying on the left and combined parts on the right staying on the right. It is unlike the hanger diagrams in that these equations use numbers and variables, and one of the parts on the left adds up to 0 and disappears from the third equations.)&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;Make sure students see that if we choose to add or subtract strategically, in each of the new equations one variable is eliminated, making it possible to solve for the other variable. When the value of that variable is substituted in either of the original equations, we can solve for the variable that was eliminated. Tell students that this method of solving a system is called solving by &lt;strong&gt;elimination&lt;/strong&gt;.&lt;/p&gt;
-
-        &lt;p&gt;Point out that there is nothing wrong about adding the equations in the last system. It simply doesn’t get us anywhere closer to the solution and is therefore unproductive.&lt;/p&gt;
-
-        &lt;h4&gt;Support for English Language Learners&lt;/h4&gt;
-        &lt;div class="c-annotation c-annotation--ell"&gt;
-            &lt;em&gt;Writing, Conversing: MLR1 Stronger and Clearer Each Time. &lt;/em&gt;Use this routine to help students improve their writing by providing them with multiple opportunities to clarify their explanations through conversation. Give students time to meet with 1–2 partners to share their response to the final question about Diego’s method. Provide listeners with prompts for feedback that will help their partner add detail to strengthen and clarify their ideas. For example, students can ask their partner: “How did you use Diego’s method to solve this problem?” or “Can you say more about . . .?” Give students 2–3 minutes to revise their initial draft based on feedback from their peers. This will help students produce a written generalization for how they can determine whether adding equations is a useful strategy for solving a linear system.&lt;br&gt;&lt;em&gt;Design Principle(s): Support sense-making; Optimize output (for explanation)&lt;/em&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;hr&gt;
-    &lt;div class="hero"&gt;
-        &lt;h2&gt;Activity 2.3.3: Adding and Subtracting Equations to Solve Systems&lt;/h2&gt;
-
-    &lt;/div&gt;
-    &lt;h3&gt;Activity&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;15 minutes&lt;/p&gt;
-        &lt;p&gt;Earlier, students saw that adding or subtracting the equations in a system creates a third equation that can help us solve the system. In this activity, students reconnect the idea of the solution to a system to the intersection of the graphs of the equations. They graph each original pair of equations and the equation that results from adding or subtracting them. They then observe that the graph of the third equation intersects the other two graphs at the identical point: the intersection of the first two.&lt;/p&gt;
-
-        &lt;p&gt;At this point, students simply get a graphical confirmation that adding or subtracting equations can help them find the solution to a system. They are not yet expected to be able to articulate why this is the case. That understanding will be developed over a few upcoming lessons.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Launch&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Remind students that earlier they added or subtracted pairs of equations to form new equations. Explain that they will now graph each pair of equations in the systems given earlier, as well as the third equation that came from adding or subtracting those equations, and then they will make some observations about them.&lt;/p&gt;
-
-        &lt;p&gt;Arrange students into groups of 3 and provide access to graphing technology. Assign one system for each group member to graph. Ask students to discuss their observations after graphing.&lt;/p&gt;
-
-        &lt;p&gt;If possible, make available graphing technology that allows users to enter linear equations in standard form, such as Desmos (available under Math Tools). Otherwise, give students time to rearrange the equations into a form that can be used with the technology and to check their equivalent equations. If time is limited, provide these equivalent equations:&lt;/p&gt;
-
-        &lt;div class="imgrid"&gt;
-            &lt;div class="g--row g--row-1"&gt;
-                &lt;div class="g--col-1 g--column g--content g--one-third g--row-1"&gt;
-                    &lt;p&gt;System A&lt;/p&gt;
-
-                    &lt;p&gt;&lt;span class="math"&gt;\( \begin {cases}\begin {align}y &amp;amp;= -\frac43x+\frac{10}{3}\\ y&amp;amp;=\hspace{2mm}\frac45x + \frac65 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
-                &lt;/div&gt;
-
-                &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
-                    &lt;p&gt;System B&lt;/p&gt;
-
-                    &lt;p&gt;&lt;span class="math"&gt;\( \begin {cases}\begin {align}y &amp;amp;= -2x+4\\ y&amp;amp;=\hspace{3mm}x-11 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
-                &lt;/div&gt;
-
-                &lt;div class="g--col-3 g--column g--content g--one-third g--row-1"&gt;
-                    &lt;p&gt;System C&lt;/p&gt;
-
-                    &lt;p&gt;&lt;span class="math"&gt;\( \begin {cases}\begin {align}y &amp;amp;= -\frac{8}{11}x+\frac{37}{11}\\ y&amp;amp;=\hspace{3.7mm}-8x + 7 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-        &lt;h4&gt;Support for Students with Disabilities&lt;/h4&gt;
-        &lt;div class="c-annotation c-annotation--swd"&gt;
-            &lt;em&gt;Action and Expression: Internalize Executive Functions. &lt;/em&gt;To support development of organizational skills, check in with students within the first 2–3 minutes of work time. Look for students who are able to find the sum or difference of the equations with ease. If students struggle, direct students to use parentheses around the entirety of the equation being added or subtracted to enhance clarity and reduce errors.&lt;br&gt;&lt;em&gt;Supports accessibility for: Memory; Organization&lt;/em&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Student-Facing Statement&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Here are three systems of equations you saw earlier.&lt;/p&gt;
-
-        &lt;div class="imgrid"&gt;
-            &lt;div class="g--row g--row-1"&gt;
-                &lt;div class="g--col-1 g--column g--content g--one-third g--row-1"&gt;
-                    &lt;p&gt;System A&lt;/p&gt;
-
-                    &lt;p&gt;&lt;span class="math"&gt;\( \begin {cases}\begin {align}4x + 3y &amp;amp;= 10\\ -4x + 5y &amp;amp;= \hspace{2mm}6 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
-                &lt;/div&gt;
-
-                &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
-                    &lt;p&gt;System B&lt;/p&gt;
-
-                    &lt;p&gt;&lt;span class="math"&gt;\( \begin {cases} \begin {align}2x + y &amp;amp;= 4\\ x - y &amp;amp;= 11 \end {align} \end {cases} \)&lt;/span&gt;&lt;/p&gt;
-                &lt;/div&gt;
-
-                &lt;div class="g--col-3 g--column g--content g--one-third g--row-1"&gt;
-                    &lt;p&gt;System C&lt;/p&gt;
-
-                    &lt;p&gt;&lt;span class="math"&gt;\( \begin {cases} \begin{align} 8x + 11y &amp;amp;= 37\\ 8x + \hspace{4mm} y &amp;amp;= \hspace{2mm} 7 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-        &lt;p&gt; &lt;/p&gt;
-
-        &lt;p&gt;For each system:&lt;/p&gt;
-
-        &lt;ol&gt;
-            &lt;li&gt;Use graphing technology to graph the original two equations in the system. Then, identify the coordinates of the solution.&lt;/li&gt;
-            &lt;li&gt;Find the sum or difference of the two original equations that would enable the system to be solved. &lt;/li&gt;
-            &lt;li&gt;Graph the third equation on the same coordinate plane. Make an observation about the graph.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Student Response&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;System A:&lt;/p&gt;
-
-        &lt;ol&gt;
-            &lt;li&gt;
-                &lt;div&gt;&lt;img alt="Graph of a linear system." src="https://s3.amazonaws.com/im-ims-export/e2FNo4v9yL6cYKf9riWyxfDR" width="114" height="107"&gt;&lt;/div&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Sample response: &lt;span class="math math-repaired"&gt;\( 8y = 16 \)&lt;/span&gt; or &lt;span class="math math-repaired"&gt;\( y = 2 \)&lt;/span&gt;, or &lt;span class="math math-repaired"&gt;\( 8x - 2y = 4 \)&lt;/span&gt;.&lt;/li&gt;
-            &lt;li&gt;Sample observations: All three lines intersect at &lt;span class="math math-repaired"&gt;\( (1, 2) \)&lt;/span&gt;. If students graph &lt;span class="math math-repaired"&gt;\( 8y = 16 \)&lt;/span&gt;, the graph of the new equation is a horizontal line. If students graph &lt;span class="math math-repaired"&gt;\( 8x - 2y = 4 \)&lt;/span&gt;, the graph of the new equation is a new line between the two original lines. &lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;System B:&lt;/p&gt;
-
-        &lt;ol&gt;
-            &lt;li&gt;
-                &lt;div&gt;&lt;img alt="Graph of a linear system." src="https://s3.amazonaws.com/im-ims-export/LdWVExfSojq3yk9Cwkh7te1c" width="118" height="110"&gt;&lt;/div&gt;
-            &lt;/li&gt;
-            &lt;li&gt;
-                &lt;span class="math math-repaired"&gt;\( 3x = 15 \)&lt;/span&gt; or &lt;span class="math math-repaired"&gt;\( x = 5 \)&lt;/span&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Sample observations: All three lines intersect at &lt;span class="math math-repaired"&gt;\( (5,-6) \)&lt;/span&gt;. If students graph &lt;span class="math math-repaired"&gt;\( 3x=15 \)&lt;/span&gt;, the graph of the new equation is a vertical line.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;System C:&lt;/p&gt;
-
-        &lt;ol&gt;
-            &lt;li&gt;
-                &lt;div&gt;&lt;img alt="Graph of a linear system.Graph of a linear system." src="https://s3.amazonaws.com/im-ims-export/zx6crsur6fj8iiyoh1z1say3zbaa" width="114" height="107"&gt;&lt;/div&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Sample response: &lt;span class="math math-repaired"&gt;\( 10y=30 \)&lt;/span&gt; or &lt;span class="math math-repaired"&gt;\( -10y=-30 \)&lt;/span&gt; or &lt;span class="math math-repaired"&gt;\( y=3 \)&lt;/span&gt;, or (if the equations are added) &lt;span class="math math-repaired"&gt;\( 16x + 12y = 46 \)&lt;/span&gt;. &lt;/li&gt;
-            &lt;li&gt;Sample observations: All three lines intersect at &lt;span class="math math-repaired"&gt;\( (\frac12,3) \)&lt;/span&gt;. If students graph &lt;span class="math math-repaired"&gt;\( 10y=30 \)&lt;/span&gt;, the graph of the new equation is a horizontal line.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Student-Facing Extension&lt;/h3&gt;
-    &lt;h4&gt;Are you ready for more?&lt;/h4&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Mai wonders what would happen if we multiply equations. That is, we multiply the expressions on the left side of the two equations and set them equal to the expressions on the right side of the two equations.&lt;/p&gt;
-
-        &lt;ol&gt;
-            &lt;li&gt;In system B, write out an equation that you would get if you multiply the two equations in this manner.
-            &lt;/li&gt;
-            &lt;li&gt;Does your original solution still work in this new equation?
-            &lt;/li&gt;
-            &lt;li&gt;Use graphing technology to graph this new equation on the same coordinate plane. Why is this approach not particularly helpful?
-            &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Extension Student Response&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;ol&gt;
-            &lt;li&gt;
-                &lt;span class="math math-repaired"&gt;\( (2x+y)(x-y)=44 \)&lt;/span&gt; or equivalent.
-            &lt;/li&gt;
-            &lt;li&gt;Yes&lt;/li&gt;
-            &lt;li&gt;Sample response: The new equation is not a line and therefore not so easy to work with. &lt;div&gt;&lt;img alt="A system of equations." src="https://s3.amazonaws.com/im-ims-export/kuA1s3fqHBSSdhuMQvb2Da24" width="118" height="110"&gt;&lt;/div&gt;
-            &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Anticipated Misconceptions&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;When solving system B, some students may not notice that the &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;-variable in one equation has a positive coefficient and the other has a negative coefficient. Consequently, they may decide to subtract the second equation from the first rather than to add the two equations. They may struggle to figure out why the solution pair they find doesn’t match what is on the graph. Suggest that they express the second equation in terms of addition, &lt;span class="math math-repaired"&gt;\( x+ (-y) = 11 \)&lt;/span&gt;, and try eliminating one variable again.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Activity Synthesis&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Display the graphs that students generated for all to see and ask students to share their observations. Highlight that the graph of the new equation intersects the graphs of the equations in the original system at the same point.&lt;/p&gt;
-
-        &lt;p&gt;Time permitting, ask students to subtract the equations they previously added (or add the equations they previously subtracted) and then to graph the resulting equation on the same coordinate plane. Ask them to comment on the graphs. Students are likely to see that the graphs of the new equations are no longer horizontal or vertical lines, but they still intersect at the same point as the original graphs. &lt;/p&gt;
-
-        &lt;p&gt;Invite students to make some conjectures as to why the graph of the new equation intersects the other two graphs at the same point. Without confirming or correcting their conjectures, tell students that they will investigate this question in the coming activities.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;hr&gt;
-    &lt;div class="hero"&gt;
-        &lt;h2&gt;Activity 2.3.4: What to Do with This System?&lt;/h2&gt;
-
-    &lt;/div&gt;
-    &lt;h3&gt;Cool-down&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;5 minutes&lt;/p&gt;
-        &lt;p&gt;Graphing technology should not be used in this cool-down.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Student-Facing Statement&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;p&gt;Here is a system of linear equations: &lt;span class="math"&gt;\( \begin{cases} \begin {align} 2x + \frac12y &amp;amp;=7\\6x - \frac12y&amp;amp;=5 \end{align} \end{cases} \)&lt;/span&gt; &lt;/p&gt;
-
-        &lt;ol&gt;
-            &lt;li&gt;Which would be a more helpful method for solving the system: adding the two equations or subtracting one from the other? Explain your reasoning.
-            &lt;/li&gt;
-            &lt;li&gt;Solve the system without graphing. Show your reasoning.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;h3&gt;Student Response&lt;/h3&gt;
-    &lt;div class="body"&gt;
-        &lt;ol&gt;
-            &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Adding the equations. Sample explanation: &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( \frac12y + -\frac12y =0 \),&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt; so adding the equations would eliminate the &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( y \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;-variable and enable solving for &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( x \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;
-            &lt;li&gt;
-                &lt;span class="math math-repaired"&gt;\( x = \frac32 \)&lt;/span&gt; (or equivalent) and &lt;span class="math math-repaired"&gt;\( y = 8 \)&lt;/span&gt;. Sample reasoning:
-                &lt;div class="imgrid"&gt;
-                    &lt;div class="g--row g--row-1"&gt;
-                        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
-                            &lt;p&gt;&lt;span class="math"&gt;\( \begin {align}2x + \frac12y &amp;amp;= 7\\ 6x - \frac12y &amp;amp;= 5 \quad+\\ \overline {8x +\hspace{2.5mm}0\hspace{1mm}} &amp;amp;\overline{ \hspace{1mm}= 12 \qquad}\\8x &amp;amp;= 12\\x &amp;amp;=\frac32 \end{align} \)&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-
-                        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
-                            &lt;p&gt;&lt;span class="math"&gt;\( \begin {align}2x +\frac12 y&amp;amp;= 7\\ 2(\frac32) +\frac12y &amp;amp;= 7\\ 3+\frac12y&amp;amp;= 7\\ \frac12y &amp;amp;= 4\\ y&amp;amp;=8 \end{align} \)&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;        
-            &lt;/li&gt;
-          &lt;li&gt;Students will be able to view the following video of this process worked out in Activity 2.3.4: What to Do with This System? - Worked Solution.&amp;nbsp;&lt;video width="720" height="345" controls="true"&gt;&lt;source src="@@PLUGINFILE@@/Algebra%20video%203_rev.mp4"&gt;@@PLUGINFILE@@/Algebra%20video%203_rev.mp4&lt;/video&gt;&amp;nbsp;&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="response-to-student-thinking"&gt;
-        &lt;h3&gt;Response to Student Thinking&lt;/h3&gt;
-    &lt;/div&gt;
-    &lt;div class="body"&gt;1. More Chances&lt;br&gt;&lt;br&gt;At the start of the next lesson, consider reviewing the strategy of rewriting equations with subtraction as equivalent equations with addition (and similarly teaching the strategy “always add” and “multiply by a negative”) for students who struggle with subtracting entire equations.&lt;/div&gt;
-    &lt;hr&gt;
-&lt;/div&gt;</contents>
+    &lt;/li&gt;
+&lt;/ol&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="70">
-            <jumpto>35</jumpto>
+          <answer id="75">
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1638364022</timecreated>
+            <timecreated>1637613588</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Lesson Overview</answer_text>
+            <answer_text>Previous: Activity 2.3.1</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
-          <answer id="71">
-            <jumpto>37</jumpto>
+          <answer id="81">
+            <jumpto>-1</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1638364022</timecreated>
+            <timecreated>1637613588</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Lesson Summary</answer_text>
+            <answer_text>Next: Activity 2.3.3</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
@@ -569,166 +236,454 @@
         <branches>
         </branches>
       </page>
-      <page id="37">
-        <prevpageid>36</prevpageid>
+      <page id="41">
+        <prevpageid>40</prevpageid>
+        <nextpageid>42</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637613692</timecreated>
+        <timemodified>1641331336</timemodified>
+        <title>Activity 2.3.4: What to Do with This System?</title>
+        <contents>&lt;p&gt;Here is a system of linear equations: &lt;span class="math"&gt;\( \begin{cases} \begin {align} 2x + \frac12y &amp;amp;=7\\6x - \frac12y&amp;amp;=5 \end{align} \end{cases} \)&lt;/span&gt; &lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Which would be a more helpful method for solving the system: adding the two equations or subtracting one from the other? Explain your reasoning.
+    &lt;/li&gt;
+  &lt;br&gt;
+    &lt;li&gt;Solve the system without graphing. Show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="77">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637613692</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Activity 2.3.3</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="83">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637613692</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Activity 2.3.4 - Worked Solution</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="42">
+        <prevpageid>41</prevpageid>
+        <nextpageid>43</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1641331207</timecreated>
+        <timemodified>1643208921</timemodified>
+        <title>Activity 2.3.4: What to Do with This System? - Worked Solution</title>
+        <contents>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;div class="h5p-placeholder" contenteditable="false"&gt;@@PLUGINFILE@@/2.3.4%20Worked%20Solution%20Video.h5p&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="89">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1641331207</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Activity 2.3.4</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="90">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1641331207</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Online Interactive Activities</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="43">
+        <prevpageid>42</prevpageid>
+        <nextpageid>46</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1638460587</timecreated>
+        <timemodified>1641331312</timemodified>
+        <title>Lesson 2.3 Online Interactive Activities</title>
+        <contents>&lt;p&gt;Here is a GeoGebra sketch that can help you visualize solutions to systems.&lt;/p&gt;
+&lt;iframe src="https://www.geogebra.org/calculator/kc6d8zru?embed" width="85%" height="600" allowfullscreen="" style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"&gt;&lt;/iframe&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="85">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638460587</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Activity 2.3.4 - Worked Solution</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="86">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638460587</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Practice</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="46">
+        <prevpageid>43</prevpageid>
+        <nextpageid>45</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1638460650</timecreated>
+        <timemodified>1641328253</timemodified>
+        <title>Lesson 2.3 Practice</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Here are&amp;nbsp;&lt;a href="https://www.geogebra.org/m/efuveugb#material/sxy33vpp" target="_blank"&gt;GeoGebra practice problems&lt;/a&gt;.&lt;/p&gt;
+&lt;p dir="ltr"&gt;For more practice, go to these OSX resources:&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;OSX 1: Problems 1–5 and 9–19&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;OSX 2: Problems 5–10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As you complete the problems, you might find that &lt;a href="https://geogebra.org/calculator" target="_blank"&gt;GeoGebra &lt;/a&gt;is helpful for visualizing graphs.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="87">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638460650</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Online Interactive Activities</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="88">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638460650</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Summary</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="40">
+        <prevpageid>44</prevpageid>
+        <nextpageid>41</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637613640</timecreated>
+        <timemodified>1641328156</timemodified>
+        <title>Activity 2.3.3: Adding and Subtracting Equations to Solve Systems</title>
+        <contents>&lt;p&gt;Here are three systems of equations you saw earlier.&lt;/p&gt;
+
+                &lt;div class="imgrid"&gt;
+                    &lt;div class="g--row g--row-1"&gt;
+                        &lt;div class="g--col-1 g--column g--content g--one-third g--row-1"&gt;
+                            &lt;p&gt;System A&lt;/p&gt;
+
+                            &lt;p&gt;&lt;span class="math"&gt;\( \begin {cases}\begin {align}4x + 3y &amp;amp;= 10\\ -4x + 5y &amp;amp;= \hspace{2mm}6 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
+                            &lt;p&gt;System B&lt;/p&gt;
+
+                            &lt;p&gt;&lt;span class="math"&gt;\( \begin {cases} \begin {align}2x + y &amp;amp;= 4\\ x - y &amp;amp;= 11 \end {align} \end {cases} \)&lt;/span&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="g--col-3 g--column g--content g--one-third g--row-1"&gt;
+                            &lt;p&gt;System C&lt;/p&gt;
+
+                            &lt;p&gt;&lt;span class="math"&gt;\( \begin {cases} \begin{align} 8x + 11y &amp;amp;= 37\\ 8x + \hspace{4mm} y &amp;amp;= \hspace{2mm} 7 \end{align} \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt; &lt;/p&gt;
+
+                &lt;p&gt;&lt;strong&gt;For each system:&lt;/strong&gt;&lt;/p&gt;
+
+                &lt;ol&gt;
+                    &lt;li&gt;Use graphing technology to graph the two original equations in the system. Then, identify the coordinates of the solution.&lt;/li&gt;
+                    &lt;li&gt;Find the sum or difference of the two original equations that would enable the system to be solved. &lt;/li&gt;
+                    &lt;li&gt;Graph the third equation on the same coordinate plane. Make an observation about the graph.&lt;/li&gt;
+                &lt;/ol&gt;
+                &lt;h4&gt;Are you ready for more?&lt;/h4&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+                &lt;p&gt;Mai wonders what would happen if we multiply equations. That is, we multiply the expressions on the left side of the two equations and set them equal to the expressions on the right side of the two equations.&lt;/p&gt;
+
+                &lt;ol&gt;
+                    &lt;li&gt;In system B, write out an equation that you would get if you multiply the two equations in this manner.
+                    &lt;/li&gt;
+                    &lt;li&gt;Does your original solution still work in this new equation?
+                    &lt;/li&gt;
+                    &lt;li&gt;Use graphing technology to graph this new equation on the same coordinate plane. Why is this approach not particularly helpful?
+                    &lt;/li&gt;
+                &lt;/ol&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="76">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637613640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Activity 2.3.2</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="82">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637613640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Activity 2.3.4</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="45">
+        <prevpageid>46</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1638364388</timecreated>
-        <timemodified>1641327466</timemodified>
-        <title>Lesson Summary</title>
-        <contents>&lt;div class="synthesis"&gt;
-            &lt;h2&gt;Lesson Synthesis&lt;/h2&gt;
-            &lt;div class="body"&gt;
-                &lt;p&gt;Now that students have an additional strategy for solving systems in their toolkit, invite students to reflect on three systems seen in the synthesis of a previous lesson, in which they made a case for solving one by substitution. &lt;/p&gt;
+        <timecreated>1637613895</timecreated>
+        <timemodified>1641328399</timemodified>
+        <title>Lesson 2.3 Summary</title>
+        <contents>&lt;p&gt;Another way to solve systems of equations algebraically is by &lt;strong&gt;elimination&lt;/strong&gt;. Just like in substitution, the idea is to eliminate one variable so that we can solve for the other. This is done by adding or subtracting equations in the system. Let’s look at an example.&lt;/p&gt;
 
-                &lt;div class="imgrid"&gt;
-                    &lt;div class="g--row g--row-1"&gt;
-                        &lt;div class="g--col-1 g--column g--content g--one-third g--row-1"&gt;
-                            &lt;p&gt;System 1&lt;/p&gt;
+&lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {cases} \begin {align}5x+7y=64\\ 0.5x - 7y = -9 \end{align} \end {cases} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 
-                            &lt;p&gt;&lt;span class="math math-repaired"&gt;\( \begin {cases} 3m + n = 71\\2m-n =30 \end {cases} \)&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
+&lt;div class="imgrid"&gt;
+    &lt;div class="g--row g--row-1"&gt;
+        &lt;div class="g--col-1 g--column g--content g--row-1 g--two-third"&gt;
+            &lt;p&gt;Notice that one equation has &lt;span class="math math-repaired"&gt;\( 7y \)&lt;/span&gt; and the other has &lt;span class="math math-repaired"&gt;\( -7y \)&lt;/span&gt;.&lt;/p&gt;
 
-                        &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
-                            &lt;p&gt;System 2&lt;/p&gt;
-
-                            &lt;p&gt;&lt;span class="math math-repaired"&gt;\( \begin {cases} 4x + y = 1\\y = -2x+9 \end {cases} \)&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-
-                        &lt;div class="g--col-3 g--column g--content g--one-third g--row-1"&gt;
-                            &lt;p&gt;System 3&lt;/p&gt;
-
-                            &lt;p&gt;&lt;span class="math"&gt;\( \displaystyle \begin{cases} 5x+4y=15 \\ 5x+11y=22 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-
-                &lt;p&gt;Ask students to discuss the following questions with a partner and be prepared to report their partner’s responses:&lt;/p&gt;
-
-                &lt;ul&gt;
-                    &lt;li&gt;“Look at a system that you would have chosen to solve by substitution. Would you still choose to solve it by substitution now? Why or why not?”&lt;/li&gt;
-                    &lt;li&gt;“Look at a system that you would &lt;em&gt;not&lt;/em&gt; have chosen to solve by substitution. Would it help to solve by elimination? Why or why not?”&lt;/li&gt;
-                &lt;/ul&gt;
-                &lt;p&gt;With a little bit of rearranging (of the equations), all of these systems could be solved by substitution or elimination. Students should at least recognize that systems 1 and 3 can be solved efficiently by elimination, while system 2 can be solved efficiently by substitution.&lt;/p&gt;
-            &lt;/div&gt;
+            &lt;p&gt;If we add the second equation to the first, the &lt;span class="math math-repaired"&gt;\( 7y \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\(t-7y \)&lt;/span&gt; add up to 0, which eliminates the &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;-variable, allowing us to solve for &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt;.&lt;/p&gt;
         &lt;/div&gt;
-        &lt;div class="student-summary"&gt;
-            &lt;h2&gt;Student Lesson Summary&lt;/h2&gt;
-            &lt;div class="body"&gt;
-                &lt;p&gt;Another way to solve systems of equations algebraically is by &lt;strong&gt;elimination&lt;/strong&gt;. Just like in substitution, the idea is to eliminate one variable so that we can solve for the other. This is done by adding or subtracting equations in the system. Let’s look at an example.&lt;/p&gt;
 
-                &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {cases} \begin {align}5x+7y=64\\ 0.5x - 7y = -9 \end{align} \end {cases} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 5x+7y&amp;amp;=64\\ 0.5 x - 7y &amp;amp;= -9 \quad+\\ \overline {5.5 x + 0} &amp;amp;\overline {\hspace{1mm}= 55}\\ 5.5x &amp;amp;= 55 \\x &amp;amp;=10 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
-                &lt;div class="imgrid"&gt;
-                    &lt;div class="g--row g--row-1"&gt;
-                        &lt;div class="g--col-1 g--column g--content g--row-1 g--two-third"&gt;
-                            &lt;p&gt;Notice that one equation has &lt;span class="math math-repaired"&gt;\( 7y \)&lt;/span&gt; and the other has &lt;span class="math math-repaired"&gt;\( -7y \)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Now that we know &lt;span class="math math-repaired"&gt;\( x = 10 \)&lt;/span&gt;, we can substitute 10 for &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt; in either of the equations and find &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;:&lt;/p&gt;
 
-                            &lt;p&gt;If we add the second equation to the first, the &lt;span class="math math-repaired"&gt;\( 7y \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( -7y \)&lt;/span&gt; add up to 0, which eliminates the &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;-variable, allowing us to solve for &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt;.&lt;/p&gt;
-                        &lt;/div&gt;
+&lt;div class="imgrid"&gt;
+    &lt;div class="g--row g--row-1"&gt;
+        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 5x+7y&amp;amp;=64\\ 5(10)+7y &amp;amp;= 64\\ 50 + 7y &amp;amp;= 64\\ 7y &amp;amp;=14 \\y &amp;amp;=2 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
 
-                        &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
-                            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 5x+7y&amp;amp;=64\\ 0.5 x - 7y &amp;amp;= -9 \quad+\\ \overline {5.5 x + 0} &amp;amp;\overline {\hspace{1mm}= 55}\\ 5.5x &amp;amp;= 55 \\x &amp;amp;=10 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
+        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 0.5 x - 7y &amp;amp;= -9\\ 0.5(10) - 7y &amp;amp;= -9\\ 5 - 7y &amp;amp;= -9\\ -7y &amp;amp;= -14\\ y &amp;amp;= 2 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In this system, the coefficient of &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; in the first equation happens to be the opposite of the coefficient of &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; in the second equation. The sum of the terms with &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;-variables is 0.&lt;/p&gt;
+
+&lt;div class="imgrid"&gt;
+    &lt;div class="g--row g--row-1"&gt;
+        &lt;div class="g--col-1 g--column g--content g--row-1 g--two-third"&gt;
+            &lt;p&gt;What if the equations don’t have opposite coefficients for the same variable, like in the following system? &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {cases}\begin {align}8r + 4s &amp;amp;= 12 \\ 8r + \hspace{2.3mm}s &amp;amp;= \hspace{1mm}-3 \end{align} \end {cases} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="imgrid"&gt;
+    &lt;div class="g--row g--row-1"&gt;
+        &lt;div class="g--col-1 g--column g--content g--row-1 g--two-third"&gt;
+            &lt;p&gt;Notice that both equations have &lt;span class="math math-repaired"&gt;\( 8r \),&lt;/span&gt; and if we subtract the second equation from the first, the variable &lt;span class="math math-repaired"&gt;\( r \)&lt;/span&gt; will be eliminated because &lt;span class="math math-repaired"&gt;\( 8r-8r \)&lt;/span&gt; is 0.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 8r + 4s &amp;amp;= 12\\ 8r + \hspace{2.3mm}s &amp;amp;= \hspace{1mm}-3 \quad-\\ \overline {\hspace{2mm}0 + 3s }&amp;amp; \overline{ \hspace{1mm}=15} \\ 3s &amp;amp;= 15 \\s &amp;amp;=5 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="g--row g--row-2"&gt;
+        &lt;div class="g--col-1 g--column g--content g--row-2 g--two-third"&gt;
+            &lt;p&gt;Substituting 5 for &lt;span class="math math-repaired"&gt;\( s \)&lt;/span&gt; in one of the equations gives us &lt;span class="math math-repaired"&gt;\( r \)&lt;/span&gt;: &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-2 g--column g--content g--one-third g--row-2"&gt;
+            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 8r + 4s &amp;amp;= 12\\ 8r + 4(5) &amp;amp;= 12\\ 8r + 20 &amp;amp;=12 \\ 8r &amp;amp;= -8 \\ r &amp;amp;= -1 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Adding or subtracting the equations in a system creates a new equation. How do we know the new equation shares a solution with the original system?&lt;/p&gt;
+
+&lt;p&gt;If we graph the original equations in the system and the new equation, we can see that all three lines intersect at the same point, but why do they?&lt;/p&gt;
+
+&lt;div class="imgrid"&gt;
+    &lt;div class="g--row g--row-1"&gt;
+        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
+            &lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img alt="Graph of 3 intersecting lines." height="146" src="https://s3.amazonaws.com/im-ims-export/fZEEvBBhmeY6RrWb7Q5Yi6ub" width="201"&gt;&lt;/div&gt;
+            &lt;div&gt;&lt;br&gt;&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
+            &lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img alt="3 lines on coordinate plane, origin O. 1 line is horizontal. The other 2 lines slope down and to the right. All 3 lines intersect at point -1 comma 5." height="155" src="https://s3.amazonaws.com/im-ims-export/1XCfFXpJ5nyM7hVgAQ3Zx5si" width="201"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;In future lessons, we will investigate why this strategy works. &lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+
+&lt;div class="glossary"&gt;
+    &lt;h3&gt;Glossary Entries&lt;/h3&gt;
+  &lt;br&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;b&gt;elimination&lt;/b&gt;&lt;span&gt;&lt;/span&gt;
+            &lt;p&gt;A method of solving a system of two equations in two variables where you add or subtract a multiple of one equation to another in order to get an equation with only one of the variables (thus eliminating the other variable).&lt;/p&gt;
+
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;b&gt;solution to a system of equations&lt;/b&gt;&lt;span&gt;&lt;/span&gt;
+            &lt;div class="imgrid"&gt;
+                &lt;div class="g--row g--row-1"&gt;
+                    &lt;div class="g--col-1 g--column g--content g--row-1 g--two-third"&gt;
+                        &lt;p&gt;A coordinate pair that makes both equations in the system true.&lt;/p&gt;
+
+                        &lt;p&gt;On the graph shown of the equations in a system, the solution is the point where the graphs intersect.&lt;/p&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
+                        &lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img alt="" height="175" src="https://s3.amazonaws.com/im-ims-export/ZctAFh2ZVd4BLcaGHtyNfQpZ" width="193"&gt;&lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
-
-                &lt;p&gt;Now that we know &lt;span class="math math-repaired"&gt;\( x = 10 \)&lt;/span&gt;, we can substitute 10 for &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt; in either of the equations and find &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;:&lt;/p&gt;
-
-                &lt;div class="imgrid"&gt;
-                    &lt;div class="g--row g--row-1"&gt;
-                        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
-                            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 5x+7y&amp;amp;=64\\ 5(10)+7y &amp;amp;= 64\\ 50 + 7y &amp;amp;= 64\\ 7y &amp;amp;=14 \\y &amp;amp;=2 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-
-                        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
-                            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 0.5 x - 7y &amp;amp;= -9\\ 0.5(10) - 7y &amp;amp;= -9\\ 5 - 7y &amp;amp;= -9\\ -7y &amp;amp;= -14\\ y &amp;amp;= 2 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-
-                &lt;p&gt;In this system, the coefficient of &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; in the first equation happens to be the opposite of the coefficient of &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; in the second equation. The sum of the terms with &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;-variables is 0.&lt;/p&gt;
-
-                &lt;div class="imgrid"&gt;
-                    &lt;div class="g--row g--row-1"&gt;
-                        &lt;div class="g--col-1 g--column g--content g--row-1 g--two-third"&gt;
-                            &lt;p&gt;What if the equations don’t have opposite coefficients for the same variable, like in the following system? &lt;/p&gt;
-                        &lt;/div&gt;
-
-                        &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
-                            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {cases}\begin {align}8r + 4s &amp;amp;= 12 \\ 8r + \hspace{2.3mm}s &amp;amp;= \hspace{1mm}-3 \end{align} \end {cases} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-
-                &lt;div class="imgrid"&gt;
-                    &lt;div class="g--row g--row-1"&gt;
-                        &lt;div class="g--col-1 g--column g--content g--row-1 g--two-third"&gt;
-                            &lt;p&gt;Notice that both equations have &lt;span class="math math-repaired"&gt;\( 8r \),&lt;/span&gt; and if we subtract the second equation from the first, the variable &lt;span class="math math-repaired"&gt;\( r \)&lt;/span&gt; will be eliminated because &lt;span class="math math-repaired"&gt;\( 8r-8r \)&lt;/span&gt; is 0.&lt;/p&gt;
-                        &lt;/div&gt;
-
-                        &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
-                            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 8r + 4s &amp;amp;= 12\\ 8r + \hspace{2.3mm}s &amp;amp;= \hspace{1mm}-3 \quad-\\ \overline {\hspace{2mm}0 + 3s }&amp;amp; \overline{ \hspace{1mm}=15} \\ 3s &amp;amp;= 15 \\s &amp;amp;=5 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-
-                    &lt;div class="g--row g--row-2"&gt;
-                        &lt;div class="g--col-1 g--column g--content g--row-2 g--two-third"&gt;
-                            &lt;p&gt;Substituting 5 for &lt;span class="math math-repaired"&gt;\( s \)&lt;/span&gt; in one of the equations gives us &lt;span class="math math-repaired"&gt;\( r \)&lt;/span&gt;: &lt;/p&gt;
-                        &lt;/div&gt;
-
-                        &lt;div class="g--col-2 g--column g--content g--one-third g--row-2"&gt;
-                            &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 8r + 4s &amp;amp;= 12\\ 8r + 4(5) &amp;amp;= 12\\ 8r + 20 &amp;amp;=12 \\ 8r &amp;amp;= -8 \\ r &amp;amp;= -1 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-
-                &lt;p&gt;Adding or subtracting the equations in a system creates a new equation. How do we know the new equation shares a solution with the original system?&lt;/p&gt;
-
-                &lt;p&gt;If we graph the original equations in the system and the new equation, we can see that all three lines intersect at the same point, but why do they?&lt;/p&gt;
-
-                &lt;div class="imgrid"&gt;
-                    &lt;div class="g--row g--row-1"&gt;
-                        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
-                            &lt;div&gt;&lt;img alt="Graph of 3 intersecting lines." height="146" src="https://s3.amazonaws.com/im-ims-export/fZEEvBBhmeY6RrWb7Q5Yi6ub" width="201"&gt;&lt;/div&gt;
-                        &lt;/div&gt;
-
-                        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
-                            &lt;div&gt;&lt;img alt="3 lines on coordinate plane, origin O. 1 line is horizontal. The other 2 lines slope down and to the right. All 3 lines intersect at point -1 comma 5." height="155" src="https://s3.amazonaws.com/im-ims-export/1XCfFXpJ5nyM7hVgAQ3Zx5si" width="201"&gt;&lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-
-                &lt;p&gt;In future lessons, we will investigate why this strategy works. &lt;/p&gt;
             &lt;/div&gt;
-        &lt;/div&gt;</contents>
+
+        &lt;/li&gt;
+        &lt;br&gt;
+        &lt;li&gt;
+            &lt;b&gt;substitution&lt;/b&gt;&lt;span&gt;&lt;/span&gt;
+            &lt;p&gt;Substitution is replacing a variable with an expression it is equal to.&lt;/p&gt;
+
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;b&gt;system of equations&lt;/b&gt;&lt;span&gt;&lt;/span&gt;
+            &lt;p&gt;Two or more equations that represent the constraints in the same situation form a system of equations. &lt;/p&gt;
+
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="72">
-            <jumpto>35</jumpto>
+          <answer id="78">
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1638364388</timecreated>
+            <timecreated>1637613895</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Lesson Overview</answer_text>
+            <answer_text>Previous: Practice</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
-          <answer id="73">
-            <jumpto>36</jumpto>
+          <answer id="84">
+            <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1638364388</timecreated>
+            <timecreated>1637613895</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Lesson Activities</answer_text>
+            <answer_text>Next: End of Lesson</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
