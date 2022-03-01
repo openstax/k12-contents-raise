@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="6" moduleid="12" modulename="lesson" contextid="32">
+  <lesson id="6">
+    <course>2</course>
+    <name>Lesson 2.2: Solving Systems by Substitution</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1637613164</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="26">
+        <prevpageid>0</prevpageid>
+        <nextpageid>31</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1638449716</timecreated>
+        <timemodified>1641331619</timemodified>
+        <title>Lesson Overview</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul&gt;
+     &lt;li&gt;Solve systems of equations by substituting a variable or an expression.&lt;/li&gt;&lt;li&gt;Know more than one way to perform a substitution and decide which way or what to substitute based on how the given equations are written.&lt;/li&gt;&lt;/ul&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;Here are the activities that will help you reach those goals:&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Activity 2.2.1: Math Talk: Is It a Match?&lt;/li&gt;
+        &lt;li&gt;Activity 2.2.2: Four Systems&lt;/li&gt;&lt;li&gt;Activity 2.2.2: Four Systems - Worked Solution&lt;/li&gt;
+        &lt;li&gt;Activity 2.2.3: What About Now?&lt;/li&gt;
+        &lt;li&gt;Activity 2.2.4: A System to Solve&lt;/li&gt;&lt;li&gt;Lesson 2.2 Online Interactive Activities&lt;/li&gt;&lt;li&gt;Lesson 2.2 Practice&lt;/li&gt;
+        &lt;li&gt;Lesson 2.2 Summary&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="56">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638449716</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Activity 2.2.1</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="31">
+        <prevpageid>26</prevpageid>
+        <nextpageid>27</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637349622</timecreated>
+        <timemodified>1641325227</timemodified>
+        <title>Activity 2.2.1: Math Talk: Is It a Match?</title>
+        <contents>&lt;p&gt;Here are graphs of two equations in a system.&lt;/p&gt;
+
+&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img alt="Graph of 2 intersecting lines." height="96" src="https://s3.amazonaws.com/im-ims-export/LzTDUWiEDGhXLDS1dARzSRwF" width="122"&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;Determine if each of these systems could be represented by the graphs. Be prepared to explain how you know.&lt;/p&gt;
+
+&lt;div class="imgrid"&gt;
+    &lt;div class="g--row g--row-1"&gt;
+        &lt;div class="g--col-1 g--column g--content g--one-fourth g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} x + 2y = 8 \\x = -5 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-2 g--column g--content g--one-fourth g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} y = -7x + 13 \\y = -1 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-3 g--column g--content g--one-fourth g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} 3x = 8\\3x + y = 15 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-4 g--column g--content g--one-fourth g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} y = 2x - 7\\4 + y = 12 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="51">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637349622</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Lesson Overview</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="57">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637349622</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Activity 2.2.2</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="28">
+        <prevpageid>27</prevpageid>
+        <nextpageid>34</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1641330886</timecreated>
+        <timemodified>1641331042</timemodified>
+        <title>Activity 2.2.2: Four Systems - Worked Solution</title>
+        <contents>&amp;nbsp;&lt;video width="720" height="345" controls="true"&gt;&lt;source src="@@PLUGINFILE@@/Algebra%20Powtoon_12102021.mp4"&gt;@@PLUGINFILE@@/Algebra%20Powtoon_12102021.mp4&lt;/video&gt;&amp;nbsp;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="66">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1641330886</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Activity 2.2.2</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="67">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1641330886</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Activity 2.2.3</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="34">
+        <prevpageid>28</prevpageid>
+        <nextpageid>29</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637350342</timecreated>
+        <timemodified>1641331062</timemodified>
+        <title>Activity 2.2.3: What About Now?</title>
+        <contents>&lt;p&gt;Solve each system without graphing.&lt;/p&gt;
+
+&lt;div class="imgrid"&gt;
+    &lt;div class="g--row g--row-1"&gt;
+        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} 5x - 2y = 26 \\ y + 4 = x \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} 2m - 2p = -6\\ p = 2m + 10 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="g--row g--row-2"&gt;
+        &lt;div class="g--col-1 g--column g--content g--half g--row-2"&gt;
+            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} 2d = 8f \\ 18 - 4f = 2d \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-2 g--column g--content g--half g--row-2"&gt;
+            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} w + \frac17z = 4 \\ z = 3w -2 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;&lt;br&gt;&lt;/h4&gt;
+&lt;h4&gt;Are you ready for more?&lt;/h4&gt;
+&lt;br&gt;
+&lt;p&gt;Solve this system with four equations.&amp;nbsp;&amp;nbsp;&lt;span class="math math-repaired"&gt;\( \begin{cases}3 x + 2y - z + 5w= 20 \\ y = 2z-3w\\ z=w+1 \\ 2w=8 \end{cases} \)&lt;/span&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="53">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350342</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Activity 2.2.2 - Worked Solution</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="59">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350342</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Activity 2.2.4</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="30">
+        <prevpageid>29</prevpageid>
+        <nextpageid>32</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1638459876</timecreated>
+        <timemodified>1641300398</timemodified>
+        <title>Lesson 2.2 Online Interactive Activities</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Here is a GeoGebra sketch that can help you visualize the solution for the systems you solve in this lesson.&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;iframe src="https://www.geogebra.org/calculator/kc6d8zru?embed" width="85%" height="600" allowfullscreen="" style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"&gt;&lt;/iframe&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="62">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638459876</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Activity 2.2.4</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="63">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638459876</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Practice</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="32">
+        <prevpageid>30</prevpageid>
+        <nextpageid>33</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1638460069</timecreated>
+        <timemodified>1641315644</timemodified>
+        <title>Lesson 2.2 Practice</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;For more practice, go to these OSX resources:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;OSX 1: Problems 1–5 and 9–19&amp;nbsp;&lt;/li&gt;&lt;li&gt;OSX 2: Problems 5–10&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;As you work through the problems, you might find that visualizing with &lt;a href="https://geogebra.org/calculator" target="_blank"&gt;GeoGebra&lt;/a&gt; can help you check your work.&lt;br&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="64">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638460069</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Online Interactive Activities</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="65">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638460069</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Summary</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="27">
+        <prevpageid>31</prevpageid>
+        <nextpageid>28</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637350130</timecreated>
+        <timemodified>1641331083</timemodified>
+        <title>Activity 2.2.2: Four Systems </title>
+        <contents>&lt;p&gt;Here are four systems of equations you saw earlier. Solve each system. Then, check your solutions by substituting them into the original equations to see if the equations are true.&lt;/p&gt;
+
+                &lt;div class="imgrid"&gt;
+                    &lt;div class="g--row g--row-1"&gt;
+                        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
+                            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} x + 2y = 8 \\x = -5 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
+                            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} y = -7x + 13 \\y = -1 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="g--row g--row-2"&gt;
+                        &lt;div class="g--col-1 g--column g--content g--half g--row-2"&gt;
+                            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} 3x = 8\\3x + y = 15 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="g--col-2 g--column g--content g--half g--row-2"&gt;
+                            &lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} y = 2x - 7\\4 + y = 12 \end{cases} \)&lt;/span&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="52">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350130</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Activity 2.2.1</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="58">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350130</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Activity 2.2.2 - Worked Solution</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="33">
+        <prevpageid>32</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637350531</timecreated>
+        <timemodified>1641325449</timemodified>
+        <title>Lesson 2.2 Summary</title>
+        <contents>&lt;p&gt;The solution to a system can usually be found by graphing, but graphing may not always be the most precise or the most efficient way to solve a system. &lt;/p&gt;
+
+&lt;div class="imgrid"&gt;
+    &lt;div class="g--row g--row-1"&gt;
+        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
+            &lt;p&gt;Here is a system of equations:&lt;/p&gt;
+
+            &lt;p&gt;&lt;span class="math math-repaired"&gt;\( \begin {cases} 3p + q = 71\\2p - q = 30 \end {cases} \)&lt;/span&gt;&lt;/p&gt;
+
+            &lt;p&gt;The graphs of the equations show an intersection at approximately 20 for &lt;span class="math math-repaired"&gt;\( p \)&lt;/span&gt; and approximately 10 for &lt;span class="math math-repaired"&gt;\( q \)&lt;/span&gt;.&lt;/p&gt;
+
+            &lt;p&gt;Without technology, however, it is not easy to tell what the exact values are.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
+            &lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;img alt="Coordinate plane, origin O. Horizontal axis from 0 to 30 by 5’s, labeled p. Vertical axis from 0 to 20 by 5’s, labeled q. Two lines intersect near 20 comma 10." height="155" src="https://s3.amazonaws.com/im-ims-export/WVP4PFj37BzC8FfKCSTm3guW" width="215"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Instead of solving by graphing, we can solve the system algebraically. Here is one way. &lt;/p&gt;
+
+&lt;p&gt;If we subtract &lt;span class="math math-repaired"&gt;\( 3p \)&lt;/span&gt; from each side of the first equation, &lt;span class="math math-repaired"&gt;\( 3p + q = 71 \)&lt;/span&gt;, we get an equivalent equation: &lt;span class="math math-repaired"&gt;\( q= 71 - 3p \)&lt;/span&gt;. Rewriting the original equation this way allows us to isolate the variable &lt;span class="math math-repaired"&gt;\( q \)&lt;/span&gt;. &lt;/p&gt;
+
+&lt;p&gt;Because &lt;span class="math math-repaired"&gt;\( q \)&lt;/span&gt; is equal to &lt;span class="math math-repaired"&gt;\( 71-3p \)&lt;/span&gt;, we can substitute the expression &lt;span class="math math-repaired"&gt;\( 71-3p \)&lt;/span&gt; in the place of &lt;span class="math math-repaired"&gt;\( q \)&lt;/span&gt; in the second equation. Doing this gives us an equation with only one variable, &lt;span class="math math-repaired"&gt;\( p \)&lt;/span&gt;, and makes it possible to find &lt;span class="math math-repaired"&gt;\( p \)&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 2p - q &amp;amp;= 30 &amp;amp;\quad&amp;amp; \text {original equation} \\ 2p - (71 - 3p) &amp;amp;=30 &amp;amp;\quad&amp;amp; \text {substitute }71-3p \text{ for }q\\ 2p - 71 + 3p &amp;amp;=30 &amp;amp;\quad&amp;amp; \text {apply distributive property}\\ 5p - 71 &amp;amp;= 30 &amp;amp;\quad&amp;amp; \text {combine like terms}\\ 5p &amp;amp;= 101 &amp;amp;\quad&amp;amp; \text {add 71 to both sides}\\ p &amp;amp;= \dfrac{101}{5} &amp;amp;\quad&amp;amp; \text {divide both sides by 5} \\ p&amp;amp;=20.2 \end {align} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that we know the value of &lt;span class="math math-repaired"&gt;\( p \)&lt;/span&gt;, we can find the value of &lt;span class="math math-repaired"&gt;\( q \)&lt;/span&gt; by substituting 20.2 for &lt;span class="math math-repaired"&gt;\( p \)&lt;/span&gt; in either of the original equations and solving the equation.&lt;/p&gt;
+
+&lt;div class="imgrid"&gt;
+    &lt;div class="g--row g--row-1"&gt;
+        &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 3(20.2) + q &amp;amp;=71\\60.6 + q &amp;amp;= 71\\ q &amp;amp;= 71 - 60.6\\ q &amp;amp;=10.4 \end{align} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
+            &lt;p&gt;&lt;span class="math math-repaired"&gt;\( \begin {align} 2(20.2) - q &amp;amp;= 30\\ 40.4 - q &amp;amp;=30\\ -q &amp;amp;= 30 - 40.4\\ -q &amp;amp;= -10.4 \\ q &amp;amp;= \dfrac {-10.4}{-1} \\ q &amp;amp;=10.4 \end {align} \)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The solution to the system is the pair &lt;span class="math math-repaired"&gt;\( p=20.2 \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( q=10.4 \)&lt;/span&gt;, or the point &lt;span class="math math-repaired"&gt;\( (20.2, 10.4) \)&lt;/span&gt; on the graph. &lt;/p&gt;
+
+&lt;p&gt;This method of solving a system of equations is called solving by &lt;strong&gt;substitution&lt;/strong&gt;&amp;nbsp;because we substituted an expression for &lt;span class="math math-repaired"&gt;\( q \)&lt;/span&gt; into the second equation.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+
+
+
+&lt;div class="glossary"&gt;
+    &lt;h3&gt;Glossary Entries&lt;/h3&gt;
+  &lt;br&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;b&gt;solution to a system of equations&lt;/b&gt;&lt;span&gt;&lt;/span&gt;
+            &lt;div class="imgrid"&gt;
+                &lt;div class="g--row g--row-1"&gt;
+                    &lt;div class="g--col-1 g--column g--content g--row-1 g--two-third"&gt;
+                        &lt;p&gt;A coordinate pair that makes both equations in the system true.&lt;/p&gt;
+
+                        &lt;p&gt;On the graph shown of the equations in a system, the solution is the point where the graphs intersect.&lt;/p&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="g--col-2 g--column g--content g--one-third g--row-1"&gt;
+                        &lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img alt="" height="175" src="https://s3.amazonaws.com/im-ims-export/ZctAFh2ZVd4BLcaGHtyNfQpZ" width="193"&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;br&gt;
+        &lt;li&gt;
+            &lt;b&gt;substitution&lt;/b&gt;&lt;span&gt;&lt;/span&gt;
+            &lt;p&gt;Substitution is replacing a variable with an expression it is equal to.&lt;/p&gt;
+
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;b&gt;system of equations&lt;/b&gt;&lt;span&gt;&lt;/span&gt;
+            &lt;p&gt;Two or more equations that represent the constraints in the same situation form a system of equations. &lt;/p&gt;
+
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="55">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350531</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Practice</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="61">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350531</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="29">
+        <prevpageid>34</prevpageid>
+        <nextpageid>30</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637350447</timecreated>
+        <timemodified>1641315534</timemodified>
+        <title>Activity 2.2.4: A System to Solve</title>
+        <contents>&lt;p&gt;Solve this system of equations without graphing and show your reasoning.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;span class="math"&gt;\( \begin{cases} \begin {align} 5x + y&amp;amp;=7 \\20x+2&amp;amp;= y \end {align}\end{cases} \)&lt;/span&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="54">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350447</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous: Activity 2.2.3</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="60">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350447</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next: Online Interactive Activities</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>
