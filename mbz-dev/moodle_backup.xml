@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <moodle_backup>
   <information>
-    <name>backup-moodle2-course-2-wwdemo-20220301-2000-nu.mbz</name>
+    <name>backup-moodle2-course-2-alg1_ww_(development)-20220301-2001-nu.mbz</name>
     <moodle_version>2021051705</moodle_version>
     <moodle_release>3.11.5 (Build: 20220117)</moodle_release>
     <backup_version>2021051700</backup_version>
     <backup_release>3.11</backup_release>
-    <backup_date>1646164825</backup_date>
+    <backup_date>1646164915</backup_date>
     <mnet_remoteusers>0</mnet_remoteusers>
     <include_files>1</include_files>
     <include_file_references_to_external_content>0</include_file_references_to_external_content>
     <original_wwwroot>http://localhost:8000</original_wwwroot>
-    <original_site_identifier_hash>ae56b67075fc4b52f0c5b2db5943ab2a</original_site_identifier_hash>
+    <original_site_identifier_hash>f4cda2cbaf5e94b03b45350d9dab2144</original_site_identifier_hash>
     <original_course_id>2</original_course_id>
     <original_course_format>topics</original_course_format>
-    <original_course_fullname>WW Sandbox</original_course_fullname>
-    <original_course_shortname>WWdemo</original_course_shortname>
+    <original_course_fullname>Algebra 1 - Wisewire (Development)</original_course_fullname>
+    <original_course_shortname>Alg1 WW (Development)</original_course_shortname>
     <original_course_startdate>1635462000</original_course_startdate>
-    <original_course_enddate>1666998000</original_course_enddate>
+    <original_course_enddate>0</original_course_enddate>
     <original_course_contextid>16</original_course_contextid>
     <original_system_contextid>1</original_system_contextid>
     <details>
-      <detail backup_id="2fede01291c2dad990999b74ff5c66f5">
+      <detail backup_id="2e9eacd3025ede77ceb49bc4ef3b93c1">
         <type>course</type>
         <format>moodle2</format>
         <interactive>1</interactive>
@@ -35,128 +35,121 @@
         <activity>
           <moduleid>1</moduleid>
           <sectionid>1</sectionid>
-          <modulename>forum</modulename>
-          <title>Announcements</title>
-          <directory>activities/forum_1</directory>
+          <modulename>glossary</modulename>
+          <title>Algebra Glossary</title>
+          <directory>activities/glossary_1</directory>
         </activity>
         <activity>
           <moduleid>2</moduleid>
-          <sectionid>1</sectionid>
-          <modulename>glossary</modulename>
-          <title>Algebra Glossary</title>
-          <directory>activities/glossary_2</directory>
+          <sectionid>2</sectionid>
+          <modulename>page</modulename>
+          <title>RAISE Algebra 1</title>
+          <directory>activities/page_2</directory>
         </activity>
         <activity>
           <moduleid>3</moduleid>
           <sectionid>2</sectionid>
           <modulename>page</modulename>
-          <title>RAISE Algebra 1</title>
+          <title>Illustrative Mathematics Algebra 1</title>
           <directory>activities/page_3</directory>
         </activity>
         <activity>
           <moduleid>4</moduleid>
-          <sectionid>2</sectionid>
-          <modulename>page</modulename>
-          <title>Illustrative Mathematics Algebra 1</title>
-          <directory>activities/page_4</directory>
+          <sectionid>3</sectionid>
+          <modulename>lesson</modulename>
+          <title>Unit 2: Teacher Unit Opener</title>
+          <directory>activities/lesson_4</directory>
         </activity>
         <activity>
           <moduleid>5</moduleid>
           <sectionid>3</sectionid>
           <modulename>lesson</modulename>
-          <title>Unit 2: Teacher Unit Opener</title>
+          <title>Unit 2 Overview and Readiness</title>
           <directory>activities/lesson_5</directory>
         </activity>
         <activity>
           <moduleid>6</moduleid>
           <sectionid>3</sectionid>
-          <modulename>lesson</modulename>
-          <title>Unit 2 Overview and Readiness</title>
-          <directory>activities/lesson_6</directory>
+          <modulename>page</modulename>
+          <title>Section A Overview: Linear Systems</title>
+          <directory>activities/page_6</directory>
         </activity>
         <activity>
           <moduleid>7</moduleid>
           <sectionid>3</sectionid>
-          <modulename>page</modulename>
-          <title>Section A Overview: Linear Systems</title>
-          <directory>activities/page_7</directory>
+          <modulename>lesson</modulename>
+          <title>Lesson 2.1 Teacher Guide: Writing and Graphing Systems of Linear Equations</title>
+          <directory>activities/lesson_7</directory>
         </activity>
         <activity>
           <moduleid>8</moduleid>
           <sectionid>3</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 2.1 Teacher Guide: Writing and Graphing Systems of Linear Equations</title>
+          <title>Lesson 2.1: Writing and Graphing Systems of Linear Equations</title>
           <directory>activities/lesson_8</directory>
         </activity>
         <activity>
           <moduleid>9</moduleid>
           <sectionid>3</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 2.1: Writing and Graphing Systems of Linear Equations</title>
+          <title>Lesson 2.2 Teacher Guide: Solving Systems by Substitution</title>
           <directory>activities/lesson_9</directory>
         </activity>
         <activity>
           <moduleid>10</moduleid>
           <sectionid>3</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 2.2 Teacher Guide: Solving Systems by Substitution</title>
+          <title>Lesson 2.2: Solving Systems by Substitution</title>
           <directory>activities/lesson_10</directory>
         </activity>
         <activity>
           <moduleid>11</moduleid>
           <sectionid>3</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 2.2: Solving Systems by Substitution</title>
+          <title>Lesson 2.3 Teacher Guide: Solving Systems by Elimination (Part 1)</title>
           <directory>activities/lesson_11</directory>
         </activity>
         <activity>
           <moduleid>12</moduleid>
           <sectionid>3</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 2.3 Teacher Guide: Solving Systems by Elimination (Part 1)</title>
+          <title>Lesson 2.3: Solving Systems by Elimination (Part 1)</title>
           <directory>activities/lesson_12</directory>
         </activity>
         <activity>
           <moduleid>13</moduleid>
           <sectionid>3</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 2.3: Solving Systems by Elimination (Part 1)</title>
+          <title>Section A Review</title>
           <directory>activities/lesson_13</directory>
         </activity>
         <activity>
           <moduleid>14</moduleid>
           <sectionid>3</sectionid>
-          <modulename>lesson</modulename>
-          <title>Section A Review</title>
-          <directory>activities/lesson_14</directory>
+          <modulename>quiz</modulename>
+          <title>Section A Quiz</title>
+          <directory>activities/quiz_14</directory>
         </activity>
         <activity>
           <moduleid>15</moduleid>
           <sectionid>3</sectionid>
-          <modulename>quiz</modulename>
-          <title>Section A Quiz</title>
-          <directory>activities/quiz_15</directory>
+          <modulename>page</modulename>
+          <title>Section B: Linear Inequalities in One Variable</title>
+          <directory>activities/page_15</directory>
         </activity>
         <activity>
           <moduleid>16</moduleid>
           <sectionid>3</sectionid>
           <modulename>page</modulename>
-          <title>Section B: Linear Inequalities in One Variable</title>
+          <title>Section C: Linear Inequalities in Two Variables</title>
           <directory>activities/page_16</directory>
         </activity>
         <activity>
           <moduleid>17</moduleid>
           <sectionid>3</sectionid>
           <modulename>page</modulename>
-          <title>Section C: Linear Inequalities in Two Variables</title>
-          <directory>activities/page_17</directory>
-        </activity>
-        <activity>
-          <moduleid>18</moduleid>
-          <sectionid>3</sectionid>
-          <modulename>page</modulename>
           <title>Section D: Systems of Linear Inequalities in Two Variables</title>
-          <directory>activities/page_18</directory>
+          <directory>activities/page_17</directory>
         </activity>
       </activities>
       <sections>
@@ -172,13 +165,13 @@
         </section>
         <section>
           <sectionid>3</sectionid>
-          <title>POC: Unit 2: Linear Inequalities and Systems</title>
+          <title>Unit 2: Linear Inequalities and Systems</title>
           <directory>sections/section_3</directory>
         </section>
       </sections>
       <course>
         <courseid>2</courseid>
-        <title>WWdemo</title>
+        <title>Alg1 WW (Development)</title>
         <directory>course</directory>
       </course>
     </contents>
@@ -186,7 +179,7 @@
       <setting>
         <level>root</level>
         <name>filename</name>
-        <value>backup-moodle2-course-2-wwdemo-20220301-2000-nu.mbz</value>
+        <value>backup-moodle2-course-2-alg1_ww_(development)-20220301-2001-nu.mbz</value>
       </setting>
       <setting>
         <level>root</level>
@@ -302,26 +295,14 @@
       </setting>
       <setting>
         <level>activity</level>
-        <activity>forum_1</activity>
-        <name>forum_1_included</name>
+        <activity>glossary_1</activity>
+        <name>glossary_1_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>forum_1</activity>
-        <name>forum_1_userinfo</name>
-        <value>0</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>glossary_2</activity>
-        <name>glossary_2_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>glossary_2</activity>
-        <name>glossary_2_userinfo</name>
+        <activity>glossary_1</activity>
+        <name>glossary_1_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
@@ -338,6 +319,18 @@
       </setting>
       <setting>
         <level>activity</level>
+        <activity>page_2</activity>
+        <name>page_2_included</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>page_2</activity>
+        <name>page_2_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
         <activity>page_3</activity>
         <name>page_3_included</name>
         <value>1</value>
@@ -346,18 +339,6 @@
         <level>activity</level>
         <activity>page_3</activity>
         <name>page_3_userinfo</name>
-        <value>0</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>page_4</activity>
-        <name>page_4_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>page_4</activity>
-        <name>page_4_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
@@ -374,6 +355,18 @@
       </setting>
       <setting>
         <level>activity</level>
+        <activity>lesson_4</activity>
+        <name>lesson_4_included</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>lesson_4</activity>
+        <name>lesson_4_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
         <activity>lesson_5</activity>
         <name>lesson_5_included</name>
         <value>1</value>
@@ -386,26 +379,26 @@
       </setting>
       <setting>
         <level>activity</level>
-        <activity>lesson_6</activity>
-        <name>lesson_6_included</name>
+        <activity>page_6</activity>
+        <name>page_6_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>lesson_6</activity>
-        <name>lesson_6_userinfo</name>
+        <activity>page_6</activity>
+        <name>page_6_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>page_7</activity>
-        <name>page_7_included</name>
+        <activity>lesson_7</activity>
+        <name>lesson_7_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>page_7</activity>
-        <name>page_7_userinfo</name>
+        <activity>lesson_7</activity>
+        <name>lesson_7_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
@@ -482,26 +475,26 @@
       </setting>
       <setting>
         <level>activity</level>
-        <activity>lesson_14</activity>
-        <name>lesson_14_included</name>
+        <activity>quiz_14</activity>
+        <name>quiz_14_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>lesson_14</activity>
-        <name>lesson_14_userinfo</name>
+        <activity>quiz_14</activity>
+        <name>quiz_14_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>quiz_15</activity>
-        <name>quiz_15_included</name>
+        <activity>page_15</activity>
+        <name>page_15_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>quiz_15</activity>
-        <name>quiz_15_userinfo</name>
+        <activity>page_15</activity>
+        <name>page_15_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
@@ -526,18 +519,6 @@
         <level>activity</level>
         <activity>page_17</activity>
         <name>page_17_userinfo</name>
-        <value>0</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>page_18</activity>
-        <name>page_18_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>page_18</activity>
-        <name>page_18_userinfo</name>
         <value>0</value>
       </setting>
     </settings>
