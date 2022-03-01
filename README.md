@@ -11,3 +11,13 @@ $ ./scripts/create_mbz.sh
 ```
 
 The script will generate files with a git short ref in the filename so it's clear what content version was used to generate the file.
+
+## Updating `mbz-dev` content
+
+The content in the `mbz-dev` directory of this repo can be updated given an input `.mbz` file:
+
+```bash
+$ /scripts/update_mbz_dev.sh content.mbz
+```
+
+The script will stage the commit which includes the stages. This can be reviewed prior to creating the commit itself.
