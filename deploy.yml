@@ -1,0 +1,18 @@
+version: 0.2
+
+env:
+  shell: bash
+  secrets-manager:
+    SLACK_WEBHOOKURL: "slack:k12stream"
+phases:
+  build:
+    commands:
+      - aws s3 cp --recursive json/ "s3://$CONTENT_S3_BUCKET/contents/raise/"
+  post_build:
+    commands:
+      - ls json/ > json_files.txt
+      - export SLACK_MESSAGE="k12-contents-raise deployment completed for commit $COMMIT_ID"
+      - "curl -X POST -H 'Content-type: application/json' --data '{\"text\":\"'\"$SLACK_MESSAGE\"'\"}' $SLACK_WEBHOOKURL"
+artifacts:
+  files:
+    - json_files.txt
