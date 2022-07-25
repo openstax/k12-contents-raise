@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="27" moduleid="33" modulename="lesson" contextid="44">
+  <lesson id="27">
+    <course>2</course>
+    <name>Lesson 1.12: Writing the Equation of a Line</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>1</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1657036857</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="231">
+        <prevpageid>0</prevpageid>
+        <nextpageid>232</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646085188</timecreated>
+        <timemodified>1656959844</timemodified>
+        <title>1.12.0: Lesson Overview</title>
+        <contents>&lt;p style="font-size: 0.9375rem; display: inline !important;"&gt;In this lesson, you will continue to examine and create linear models with linear equations relating two variables. You will also look at several ways to write the equation of a line based on the information given.&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;When you finish this lesson, you will be able to:&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write an equation of the line given the slope and \( y \)-intercept.&lt;/li&gt;&lt;li&gt;Write an equation of the line given the slope and a point.&lt;/li&gt;&lt;li&gt;Write an equation of the line given two points.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p style="font-size: 0.9375rem;"&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.1: Using the Slope Formula&lt;/li&gt;&lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.2: Writing an Equation Given the Slope and \(y\)-Intercept&lt;/li&gt;&lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.2: Self Check&lt;/li&gt;&lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.3: Writing an Equation Given the Slope and a Point&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.3: Self Check&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.4: Writing an Equation Given Two Points&lt;/li&gt;&lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.4: Self Check&lt;/li&gt;&lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.5: Choosing a Method to Write an Equation&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p style="font-size: 0.9375rem;"&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;&lt;p style="font-size: 0.9375rem;"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1.12.6: Practice&lt;/li&gt;&lt;li&gt;1.12.6: Lesson Summary&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="508">
+            <jumpto>232</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646085188</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="232">
+        <prevpageid>231</prevpageid>
+        <nextpageid>233</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646087682</timecreated>
+        <timemodified>1657721832</timemodified>
+        <title>1.12.1: Using the Slope Formula</title>
+        <contents>&lt;h4&gt;Warm-Up Activity&lt;/h4&gt;
+&lt;p&gt;Use the slope formula, \( m =\frac{y_2-y_1}{x_2-x_1}\)&lt;span style="font-size:19px;"&gt;&lt;/span&gt;, to find the slope of the line through the given points.&lt;/p&gt;
+
+&lt;p&gt;1. \(&amp;nbsp;(1, -2)&amp;nbsp;\) and \(&amp;nbsp;(3, 4)&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;&lt;p&gt;Check your answer:&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;m= 3&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;First, name \(&amp;nbsp;(1, −2)&amp;nbsp;\) as point 1 and \(&amp;nbsp;(3, 4)&amp;nbsp;\) as point 2.&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;(x_1, y_1)&amp;nbsp;\) and \(&amp;nbsp;(x_2, y_2)&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;(1,−2)&amp;nbsp;\) and \(&amp;nbsp;(3, 4)&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;Use the slope formula.&lt;/p&gt;
+      &lt;p&gt;&lt;span style="font-size:19px;"&gt;\( m=\frac{y_2-y_1}{x_2-x_1} \) &lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Substitute the values: \(&amp;nbsp;y_2 = 4, y_1 = -2, x_2 = 3, x_1 = 1&amp;nbsp;\).&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;m=\frac{4-(-2)}{3-(1)}&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;Simplify.&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;m=\frac{6}{2}&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;m=3&amp;nbsp;\)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;2. \(&amp;nbsp;(-2, -3)&amp;nbsp;\) and \(&amp;nbsp;(-7, 4)&amp;nbsp;\)&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;m=-\frac{7}{5}&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;First, name \(&amp;nbsp;(−2, −3)&amp;nbsp;\) as point 1 and \(&amp;nbsp;(−7, 4)&amp;nbsp;\) as point 2.&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;(x_1, y_1)&amp;nbsp;\) and \(&amp;nbsp;(x_2, y_2)&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;(−2,−3)\) and \(&amp;nbsp;(−7, 4)&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;Use the slope formula.&lt;/p&gt;
+      &lt;p&gt;&lt;span style="font-size:19px;"&gt;\(&amp;nbsp;m=\frac{y_2-y_1}{x_2-x_1}&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Substitute the values: \(&amp;nbsp;y_2 = 4, y_1 = −3, x_2 = −7, x_1 = −2&amp;nbsp;\).&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;m= \frac{4-(-3)}{-7-(-2)}&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;Simplify.&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;m= \frac{7}{-5}&amp;nbsp;\)&lt;/p&gt;
+&lt;p&gt;\(&amp;nbsp;m= -\frac{7}{5}&amp;nbsp;\)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="510">
+            <jumpto>231</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646087682</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="519">
+            <jumpto>233</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646087682</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="233">
+        <prevpageid>232</prevpageid>
+        <nextpageid>234</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646945769</timecreated>
+        <timemodified>1656969555</timemodified>
+        <title>1.12.2: Writing an Equation Given the Slope and y-Intercept</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Recall that the slope-intercept form of the equation of a line is \( y = mx+b \), where \(m\) is the slope and \(b\) is the \( y \)-intercept.&amp;nbsp;The \( y \)-intercept is the point where the graph crosses the \( y \)-axis. For \( y \)-intercept \( b \), the coordinates of the point are \( (0, b) \).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;1. For each of the three equations below, tell the slope, \(&amp;nbsp;m&amp;nbsp;\), and \( y \)-intercept, \(&amp;nbsp;b&amp;nbsp;\).&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;a. \(&amp;nbsp;y=2x +5&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;b. \(&amp;nbsp;y = -3x + 2&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;c. \(&amp;nbsp;y=-\frac{1}{5}x-1&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p dir="ltr"&gt;a.&amp;nbsp;\(&amp;nbsp;m=2, b = 5&amp;nbsp;\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;b.&amp;nbsp;\(&amp;nbsp;m = -3, b =2&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;c.&amp;nbsp;\(&amp;nbsp;m = - \frac{1}{5}, b = -1&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p dir="ltr"&gt;2. Here are some slopes and \( y \)-intercepts. Tell which equation matches each set of slopes and \( y \)-intercepts.&lt;/p&gt;
+&lt;p dir="ltr"&gt;a. slope: \( -2&amp;nbsp;\), \( y \)-intercept: \(&amp;nbsp;3&amp;nbsp;\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;b.&amp;nbsp;slope:&amp;nbsp;\( 3&amp;nbsp;\), \( y \)-intercept:&amp;nbsp;\(&amp;nbsp;-2&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;c.&amp;nbsp;slope:&amp;nbsp;\( 2&amp;nbsp;\), \( y \)-intercept:&amp;nbsp;\(&amp;nbsp;-3&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;d.&amp;nbsp;slope:&amp;nbsp;\(\frac{1}{2}\), \( y \)-intercept:&amp;nbsp;\(&amp;nbsp;-3&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Equations:&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;\(&amp;nbsp;y = 2x - 3&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;y = -2x +3&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;y = \frac{1}{2}x - 3&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;y = 3x - 2&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p dir="ltr"&gt;a.&amp;nbsp;\(&amp;nbsp;y = -2x +3&amp;nbsp;\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;b.&amp;nbsp;\(&amp;nbsp;y = 3x - 2&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;c.&amp;nbsp;\(&amp;nbsp;y = 2x - 3&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;d.&amp;nbsp;\(&amp;nbsp;y = \frac{1}{2}x - 3&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p dir="ltr"&gt;The \( y \)-intercept is the point where the graph crosses the \(y\)-axis. For \( y \)-intercept&amp;nbsp;\(&amp;nbsp;b&amp;nbsp;\), the coordinates of the point are \(&amp;nbsp;(0, b)&amp;nbsp;\).&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;3. Write the equation of a line with the following slope and \( y \)-intercept in slope-intercept form.&lt;/p&gt;
+&lt;p dir="ltr"&gt;a. slope \(&amp;nbsp;−9&amp;nbsp;\) and \( y \)-intercept \(&amp;nbsp;(0, −4)&amp;nbsp;\)&lt;/p&gt;
+&lt;p dir="ltr"&gt;Enter your answer here:&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p dir="ltr"&gt;Check your answer:&lt;/p&gt;
+&lt;p dir="ltr"&gt;\(&amp;nbsp;y = −9x − 4&amp;nbsp;\)&lt;/p&gt;
+&lt;p dir="ltr"&gt;First, name the slope.&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;m = −9&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Then, name the \( y \)-intercept.&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( y \)-intercept \(&amp;nbsp;(0, −4)&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Write the slope-intercept form of the equation of a line.&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;y = mx + b&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Substitute the values into \(&amp;nbsp;y = mx + b&amp;nbsp;\).&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;y = −9x + (−4)&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Write the equation.&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(y = −9x − 4&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p dir="ltr"&gt;b. slope \(&amp;nbsp;\frac{2}{5}&amp;nbsp;\) and \( y \)-intercept \(&amp;nbsp;(0, 4)&amp;nbsp;\)&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Enter your answer here:&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p dir="ltr"&gt;Check your answer:&lt;/p&gt;
+&lt;p dir="ltr"&gt;\(&amp;nbsp;y = \frac{2}{5}x + 4&amp;nbsp;\)&lt;/p&gt;
+&lt;p dir="ltr"&gt;First, name the slope.&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;m = \frac{2}{5}&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Then, name the \( y \)-intercept.&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( y \)-intercept \(&amp;nbsp;(0, 4)&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Write the slope-intercept form of the equation of a line.&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;y = mx + b&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Substitute the values into \(&amp;nbsp;y = mx + b&amp;nbsp;\).&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;y = \frac{2}{5}x + 4&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Write the equation.&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;y = \frac{2}{5}x + 4&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="522">
+            <jumpto>232</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646945769</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="523">
+            <jumpto>234</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646945769</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="234">
+        <prevpageid>233</prevpageid>
+        <nextpageid>235</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1646407842</timecreated>
+        <timemodified>1657380074</timemodified>
+        <title>1.12.2: Self Check</title>
+        <contents>&lt;p&gt;Write the equation of a line in slope-intercept form with a slope of&amp;nbsp;\(  \frac{3}{4}  \) and a \( y \)-intercept of \(&amp;nbsp;-2&amp;nbsp;\).&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="515">
+            <jumpto>239</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1646407842</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( y = - \frac{3}{4} x - 2 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The slope intercept form is \( y=mx+b \). The slope is \(&amp;nbsp;m= -\frac{3}{4}&amp;nbsp;\) and the \(y\)-intercept is \(&amp;nbsp;b=-2&amp;nbsp;\), so this is the correct equation.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="516">
+            <jumpto>235</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407842</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(&amp;nbsp;y = -\frac{3}{4} x + 2&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-f0bda1af-7fff-6a2e-67fc-083c6bc6a54b"&gt;&lt;span id="docs-internal-guid-93b60c03-7fff-856e-d037-6fcc3a0d01bb"&gt;Incorrect. Let’s try again a different way: The slope-intercept form of the equation of a line is \( y=mx+b \). Be careful with the signs during substitution. The answer is \( y = - \frac{3}{4} x - 2 \).&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="517">
+            <jumpto>235</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407842</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(&amp;nbsp;3x + 4y =-8&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-e30c4ad1-7fff-4587-4c2f-90d7401e3380"&gt;&lt;span id="docs-internal-guid-e30c4ad1-7fff-4587-4c2f-90d7401e3380" style=""&gt;Incorrect. Let’s try again a different way: Make sure to use the correct form. This is standard form, not slope-intercept form. The answer is \( y = - \frac{3}{4} x - 2 \).&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="518">
+            <jumpto>235</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407842</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(&amp;nbsp;y = \frac{3}{4} x -2&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-0b56d758-7fff-a25d-2b03-ae0497e818c7" style="font-size: 0.9375rem;"&gt;&lt;span id="docs-internal-guid-2ee7ca93-7fff-7f4e-fa9a-168d2aa0d10b"&gt;Incorrect. Let’s try again a different way: The slope-intercept form of the equation of a line is \( y=mx+b \). Be careful with the signs during substitution. The answer is \( y = - \frac{3}{4} x - 2 \).&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="539">
+            <jumpto>235</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407842</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="235">
+        <prevpageid>234</prevpageid>
+        <nextpageid>239</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646084132</timecreated>
+        <timemodified>1657733183</timemodified>
+        <title>1.12.2: Additional Resources </title>
+        <contents>&lt;h4&gt;Write Equations Given a Slope and \( y \)-Intercept&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;We can determine the slope and intercept of a line if the equation is written in slope-intercept form, \( y=mx+b \). Now we will do the reverse—we will start with the slope and \( y \)-intercept and use them to find the equation of the line.&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Example:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Find the equation of a line with slope \(&amp;nbsp;−1&amp;nbsp;\) and \( y \)-intercept \(&amp;nbsp;(0,−3)&amp;nbsp;\).&lt;/p&gt;
+&lt;p dir="ltr"&gt;Solution:&amp;nbsp;&lt;/p&gt;
+&lt;table style="border-collapse: collapse; width: 388px; height: 102px;" height="102" cellspacing="0" cellpadding="5" border="1"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style="width: 300px;" valign="top"&gt;
+                &lt;p&gt;Name the slope.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 141.953px;" valign="top"&gt;
+                &lt;p&gt;\(&amp;nbsp;m = -1&amp;nbsp;\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style="width: 300px;" valign="top"&gt;
+                &lt;p&gt;Name the \( y \)-intercept.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 141.953px;" valign="top"&gt;
+                &lt;p&gt;\(&amp;nbsp;b = -3&amp;nbsp;\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style="width: 300px;" valign="top"&gt;
+                &lt;p&gt;Substitute the values into \(&amp;nbsp;y = mx + b&amp;nbsp;\).&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 141.953px;" valign="top"&gt;
+                &lt;p&gt;\(&amp;nbsp;y = -1x + -3&amp;nbsp;\)&amp;nbsp;&lt;br&gt;\(&amp;nbsp;y = -x-3&amp;nbsp;\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p dir="ltr"&gt;&lt;br&gt;The same information can be picked up from a graph of a line.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Example:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Find the equation of the line shown in the graph.&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/2aa4ff4aed47d92a6011b39628987c2fa8ee501a" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="352" height="358"&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;Solution:&lt;/span&gt;&lt;/p&gt;
+&lt;table style="border-collapse: collapse; width: 624px;" cellspacing="0" cellpadding="5" border="1"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style="width: 311.016px;" valign="top"&gt;
+                &lt;p&gt;Find the slope by counting the rise and run.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 310.984px;" valign="top"&gt;
+                &lt;p&gt;\( m=\frac{rise}{run} \)&amp;nbsp;&lt;br&gt;&lt;br&gt;From \(&amp;nbsp;(0, -4)&amp;nbsp;\) to \(&amp;nbsp;(3,-2)&amp;nbsp;\) the slope is \&lt;br&gt;&lt;br&gt;\(m = \frac{2}{3}&amp;nbsp;\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style="width: 311.016px;" valign="top"&gt;
+                &lt;p&gt;Find the \( y \)-intercept.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 310.984px;" valign="top"&gt;
+                &lt;p&gt;\( y \)-intercept \(&amp;nbsp;(0, -4)&amp;nbsp;\)&lt;br&gt;\(&amp;nbsp;b = -4&amp;nbsp;\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style="width: 311.016px;" valign="top"&gt;
+                &lt;p&gt;Substitute the values into \(&amp;nbsp;y = mx + b&amp;nbsp;\).&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 310.984px;" valign="top"&gt;
+                &lt;p&gt;\(&amp;nbsp;y = mx +b&amp;nbsp;\)&lt;br&gt;\(&amp;nbsp;y = \frac{2}{3} x - 4&amp;nbsp;\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Try It: Write Equations Given a Slope and \( y \)-Intercept&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Write the equation of the line graphed below in slope-intercept form:&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/a2d136d8b31fa1842f0d6e000e386cbe46767603" alt="This figure has a graph of a straight line on the x y-coordinate plane. The x and y-axes run from negative 8 to 8. " class="atto_image_button_text-bottom" width="340" height="400"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Write down your answer, and then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="eventShow1" data-schema-version="1.0"&gt;
+    &lt;p dir="ltr"&gt;Here is how to write the equation of the line in slope-intercept form:&lt;/p&gt;
+    &lt;table style="border-collapse: collapse; width: 600px; height: 150px;" cellspacing="0" cellpadding="5" border="1"&gt;
+        &lt;tbody&gt;
+            &lt;tr style="height: 60.625px;"&gt;
+                &lt;td style="width: 300px; height: 60.625px;" valign="top"&gt;
+                    &lt;p&gt;Find the slope by counting the rise and run.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 300px; height: 60.625px;" valign="top"&gt;
+                    &lt;p&gt;\(&amp;nbsp;m=\frac{rise}{run}&amp;nbsp;\)&amp;nbsp;&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;From \(&amp;nbsp;(0, 1)&amp;nbsp;\) to \(&amp;nbsp;(5, 4)&amp;nbsp;\) the slope is \(&amp;nbsp;m = \frac{4}{5}&amp;nbsp;\).&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="height: 47.2969px;"&gt;
+                &lt;td style="width: 300px; height: 47.2969px;" valign="top"&gt;
+                    &lt;p&gt;Find the \( y \)-intercept.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 300px; height: 47.2969px;" valign="top"&gt;
+                    &lt;p&gt;\( y \)-intercept \(&amp;nbsp;(0, 1)&amp;nbsp;\)&lt;br&gt;\(&amp;nbsp;b = 1&amp;nbsp;\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="height: 47.2969px;"&gt;
+                &lt;td style="width: 300px; height: 47.2969px;" valign="top"&gt;
+                    &lt;p&gt;Substitute the values into \(&amp;nbsp;y = mx + b\).&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 300px; height: 47.2969px;" valign="top"&gt;
+                    &lt;p&gt;\(&amp;nbsp;y = mx +b&amp;nbsp;\)&lt;br&gt;\( y = \frac{3}{5} x + 1 \)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;br&gt;
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="506">
+            <jumpto>234</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646084132</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="507">
+            <jumpto>239</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646084132</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="239">
+        <prevpageid>235</prevpageid>
+        <nextpageid>237</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646945790</timecreated>
+        <timemodified>1656959963</timemodified>
+        <title>1.12.3: Writing an Equation Given the Slope and a Point</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;What if the point you are given isn’t a \(&amp;nbsp;y&amp;nbsp;\)-intercept? Point-slope is a great form to use when you are given the slope and any point.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;First, work to derive the point-slope formula by completing the following steps:&lt;/p&gt;
+&lt;p&gt;Start with the slope formula as&amp;nbsp;\( m= \frac{y-y_1}{x-x_1} \).&lt;/p&gt;
+
+
+&lt;p&gt;Step 1: Multiply both sides of the equation by \( x - x_1 \).&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Check your answer:&amp;nbsp;\( m(x-x_1)=\left(\frac{y-y_1}{x-x_1}\right)(x-x_1) \)&lt;span style="font-size: 0.9375rem;"&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Step 2: Simplify.&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Check your answer:&amp;nbsp;\( m(x-x_1)=y-y_1 \)&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Step 3: Rewrite the equation with the \(y\) terms on the left.&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Check your answer:&amp;nbsp;\( y - y_1 = m(x - x_1) \)&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;With your partner, you will find the equation of the line in point-slope form that goes through the point&amp;nbsp;\( (3, 4) \) and has a slope of 2 by answering the following questions.
+    &lt;br&gt;&lt;br&gt;1. Use the point and slope to graph the line on a coordinate plane using a graphing calculator or Desmos.
+&lt;/p&gt;
+&lt;p&gt;Write down your answer, and then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="eventShow1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="eventShow1" data-schema-version="1.0"&gt;
+    &lt;p&gt;&lt;/p&gt;Sample answer:&lt;br&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/50c7d9215905030c081ecfbe71d89c5923c2a6ca" alt="" width="400" height="313" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;
+    &lt;section data-depth="1" id="fs-id1170654942537"&gt;
+    &lt;/section&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;p&gt;2. Write the point-slope form.&lt;/p&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;\(&amp;nbsp;y-y_1=m(x-x_1)&amp;nbsp;\)&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;3. Name the point \(&amp;nbsp;(x_1, y_1)&amp;nbsp;\) and the slope, \(&amp;nbsp;m&amp;nbsp;\).&lt;/p&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;x_1=3,\ y_1=4,\ m =2&amp;nbsp;\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;4. Substitute the point and slope into the point-slope form.&lt;/p&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;\(&amp;nbsp;y -4 =2(x-3)&amp;nbsp;\)&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;5. Now, with your partner, each solve for \(y\) to write the equation in slope-intercept form. Compare your answers for any possible errors. Come to an agreement on your equation.&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;\(&amp;nbsp;y = 2x - 2&amp;nbsp;\)&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="524">
+            <jumpto>233</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646945790</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="525">
+            <jumpto>237</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646945790</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="241">
+        <prevpageid>236</prevpageid>
+        <nextpageid>242</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1652394197</timecreated>
+        <timemodified>1656960071</timemodified>
+        <title>1.12.4: Additional Resources</title>
+        <contents>&lt;h4&gt;Find an Equation of the Line Given Two Points&lt;/h4&gt;
+&lt;p dir="ltr"&gt;So far, you have two options for finding an equation of a line: slope-intercept or point-slope. When you start with two points, it makes more sense to use the point-slope form.&lt;/p&gt;
+&lt;p dir="ltr"&gt;But then you need the slope. You can find the slope with just two points and then use it and one of the given points to find the equation.&lt;/p&gt;
+&lt;p&gt;For example:&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Write the equation of a line that contains the points&amp;nbsp;\( (-3, -1) \) and \( (2, -2) \). Write the equation in slope-intercept form.&lt;/span&gt;&lt;/p&gt;
+&lt;table cellpadding="5" cellspacing="0" border="1" style="border-collapse: collapse; width: 654px; height: 215px;"&gt;
+    &lt;tbody&gt;
+        &lt;tr style="height: 101.594px;"&gt;
+            &lt;td valign="top" style="width: 272.75px; height: 101.594px; vertical-align: top;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt;&amp;nbsp;Find the slope using the given points.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 199.266px; height: 101.594px; vertical-align: top;"&gt;
+                &lt;p&gt;Find the slope of the line through \( (-3, -1) \) and \( (2, -2) \).&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 180.984px; height: 101.594px; vertical-align: top;"&gt;
+                &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( m = \frac{y_2 - y_1}{x_2 -x_1} \)&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( m = \frac{-2 - (-1)}{2-(-3)} \)&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( m = \frac{-1}{5} \)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( m = - \frac{1}{5} \)&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 56.2969px;"&gt;
+            &lt;td valign="top" style="width: 272.75px; height: 56.2969px; vertical-align: top;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 2:&amp;nbsp;&lt;/strong&gt;Choose one point.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 199.266px; height: 56.2969px; vertical-align: top;"&gt;
+                &lt;p&gt;Choose either point.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 180.984px; height: 56.2969px; vertical-align: top;"&gt;
+                &lt;p&gt;\( (x_1, y_1) \)&lt;br&gt;&lt;span&gt;\( (2, -2) \)&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 79.5938px;"&gt;
+            &lt;td valign="top" style="width: 272.75px; height: 79.5938px; vertical-align: top;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 3:&amp;nbsp;&lt;/strong&gt;Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \).&amp;nbsp;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 199.266px; height: 79.5938px; vertical-align: top;"&gt;
+                &lt;p&gt;Simplify.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 180.984px; height: 79.5938px; vertical-align: top;"&gt;
+                &lt;p&gt;\( y - y_1 = m(x - x_1) \)&lt;br&gt;&lt;span&gt;\( y - (-2) = \frac{1}{5}(x - 2) \)&lt;br&gt;&lt;/span&gt;&lt;span&gt;\( y + 2 = \frac{1}{5}x + \frac{2}{5} \)&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 56.2969px;"&gt;
+            &lt;td valign="top" style="width: 272.75px; height: 56.2969px; vertical-align: top;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt;&amp;nbsp;Write the equation in slope-intercept form.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 199.266px; height: 56.2969px; vertical-align: top;"&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td valign="top" style="width: 180.984px; height: 56.2969px; vertical-align: top;"&gt;
+                &lt;p&gt;\( y = \frac{1}{5}x - \frac{8}{5} \)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;Use this table for easy reference to find an equation of a line given two points.&lt;/span&gt;&lt;/p&gt;
+&lt;table cellpadding="5" cellspacing="0" border="1" style="border-collapse: collapse; width: 650px; height: 103px;"&gt;
+    &lt;tbody&gt;
+        &lt;tr style="height: 47.2969px;"&gt;
+            &lt;td valign="top" style="width: 272.75px; height: 47.2969px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 47.2969px;"&gt;
+                &lt;p&gt;Find the slope using the given points.&amp;nbsp;&lt;br&gt;\( m = \frac{y_2 - y_1}{x_2 -x_1} \)&amp;nbsp;&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 50.9531px;"&gt;
+            &lt;td valign="top" style="width: 272.75px; height: 50.9531px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 50.9531px;"&gt;
+                &lt;p&gt;Choose one point.&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 66.9375px;"&gt;
+            &lt;td valign="top" style="width: 272.75px; height: 66.9375px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 66.9375px;"&gt;
+                &lt;p&gt;Substitute the values into the point-slope form:&amp;nbsp;\( y - y_1 = m(x - x_1) \).&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 10px;"&gt;
+            &lt;td valign="top" style="width: 272.75px; height: 10px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 10px;"&gt;
+                &lt;p&gt;Write the equation in slope-intercept form.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p dir="ltr"&gt;&lt;br&gt;To find an equation of a line given the slope and a point, follow these steps:&lt;/p&gt;
+&lt;table cellpadding="5" cellspacing="0" border="1" style="border-collapse: collapse; width: 650px; height: 107.594px;"&gt;
+    &lt;tbody&gt;
+        &lt;tr style="height: 10px;"&gt;
+            &lt;td valign="top" style="width: 272.75pt; height: 10px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 337.5pt; height: 10px;"&gt;
+                &lt;p&gt;Identify the slope.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 31.3125px;"&gt;
+            &lt;td valign="top" style="width: 272.75pt; height: 31.3125px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 337.5pt; height: 31.3125px;"&gt;
+                &lt;p&gt;Identify the point.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 34.9688px;"&gt;
+            &lt;td valign="top" style="width: 272.75pt; height: 34.9688px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 337.5pt; height: 34.9688px;"&gt;
+                &lt;p&gt;Substitute the values into the point-slope form: \( y - y_1 = m(x -x_1) \).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 31.3125px;"&gt;
+            &lt;td valign="top" style="width: 272.75pt; height: 31.3125px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 337.5pt; height: 31.3125px;"&gt;
+                &lt;p&gt;Write the equation in slope-intercept form.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Try It: Writing the Equation of a Line Given Two Points&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Write the equation of a line that contains the points&amp;nbsp;\( (-3, 5) \) and \( (-3, 4) \).&lt;/p&gt;
+&lt;p dir="ltr"&gt;Write down your answer, and then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+
+
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="eventShow1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="eventShow1" data-schema-version="1.0"&gt;
+    &lt;p dir="ltr"&gt;Here is how to find an equation of a line that contains the points \( (-3, 5) \) and \( (-3, 4) \).&lt;br&gt;Again, the first step will be to find the slope.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;1. Find the slope of the line through \( (-3, 5) \) and \( (-3, 4) \).&lt;/p&gt;
+    &lt;p dir="ltr"&gt;2.&amp;nbsp;\( m = \frac{y_2 - y_1}{x_2 -x_1} \)&amp;nbsp;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;3.&amp;nbsp;\( m = \frac{4-5}{-3-(-3)} \)&amp;nbsp;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;4.&amp;nbsp;\( m = \frac{-1}{0} \)&lt;br&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;A line with undefined slope is a vertical line. Both given points have an \( x \)-coordinate of \( -3 \). So, the equation of the line is \( x = -3 \). There is no \( y \), so the equation cannot be written in slope-intercept form.&lt;/p&gt;
+    &lt;br&gt;
+  
+                    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="534">
+            <jumpto>237</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394197</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="535">
+            <jumpto>242</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394197</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="238">
+        <prevpageid>237</prevpageid>
+        <nextpageid>240</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1652387225</timecreated>
+        <timemodified>1656960005</timemodified>
+        <title>1.12.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Write the Equation of a Line Given the Slope and a Point&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Writing an equation using the slope-intercept form works well when you are given the slope and \(y\)-intercept. If you are given the slope and another point that is not the \(y\)-intercept, we need another form of the equation of a line.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;The point-slope form&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;of an equation of a line can be derived from the formula for slope. Suppose you have a line that has slope \(m\) and that contains some specific point&amp;nbsp;\( (x_1, y_1) \) as point 1 and some other point, \( (x, y) \), as point 2. You can write the slope of this line and then change it to a different form.&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;The point-slope form of an equation of a line with slope \(m\) and containing the point&amp;nbsp;\( (x_1, y_1) \) is: \( y - y_1 = m(x - x_1) \). You can use this form to find the equation of a line when you are given the slope and a point.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Example 1&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Write the equation of a line with slope&amp;nbsp;\( m = \frac{1}{3} \) that contains the point \( (6, -4) \). Write the equation in slope-intercept form.&amp;nbsp;&lt;/p&gt;
+&lt;table cellpadding="5" cellspacing="0" border="1" style="border-collapse: collapse; width: 650px; height: 103px;"&gt;
+    &lt;tbody&gt;
+        &lt;tr style="height: 47.2969px;"&gt;
+            &lt;td valign="top" style="width: 282.141px; height: 47.2969px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Identify the slope.&amp;nbsp;&lt;br&gt;The slope is given.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 47.2969px;"&gt;
+                &lt;p&gt;\( m = \frac{1}{3} \)&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 50.9531px;"&gt;
+            &lt;td valign="top" style="width: 282.141px; height: 50.9531px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 2: &lt;/strong&gt;Identify the point.&lt;br&gt;The point is given.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 50.9531px;"&gt;
+                &lt;p&gt;\( (x_1, y_1) \)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( (6, -4) \)&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 66.9375px;"&gt;
+            &lt;td valign="top" style="width: 282.141px; height: 66.9375px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 3: &lt;/strong&gt;Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \). Simplify.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 66.9375px;"&gt;
+                &lt;p&gt;\( y - y_1 = m(x - x_1) \)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( y - (-4) = \frac{1}{3}(x - 6) \)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( y + 4 = \frac{1}{3}x + 2 \)&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 10px;"&gt;
+            &lt;td valign="top" style="width: 282.141px; height: 10px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Write the equation in slope-intercept form.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 10px;"&gt;
+                &lt;p&gt;\( y = \frac{1}{3}x -2 \)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p dir="ltr"&gt;&lt;br&gt;To find an equation of a line given the slope and a point, follow these steps:&lt;/p&gt;
+&lt;table cellpadding="5" cellspacing="0" border="1" style="border-collapse: collapse; width: 650px; height: 107.594px;"&gt;
+    &lt;tbody&gt;
+        &lt;tr style="height: 10px;"&gt;
+            &lt;td valign="top" style="width: 127.5pt; height: 10px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 1: &lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 337.5pt; height: 10px;"&gt;
+                &lt;p&gt;Identify the slope.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 31.3125px;"&gt;
+            &lt;td valign="top" style="width: 127.5pt; height: 31.3125px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 2: &lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 337.5pt; height: 31.3125px;"&gt;
+                &lt;p&gt;Identify the point.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 34.9688px;"&gt;
+            &lt;td valign="top" style="width: 127.5pt; height: 34.9688px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 3: &lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 337.5pt; height: 34.9688px;"&gt;
+                &lt;p&gt;Substitute the values into the point-slope form,&amp;nbsp;\( y - y_1 = m(x - x_1) \).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 31.3125px;"&gt;
+            &lt;td valign="top" style="width: 127.5pt; height: 31.3125px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 4: &lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 337.5pt; height: 31.3125px;"&gt;
+                &lt;p&gt;Write the equation in slope-intercept form.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Example 2&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Find the equation of a horizontal line that contains the point \((-2, -6)\). Write the equation in slope-intercept form.&lt;/p&gt;
+&lt;table cellpadding="5" cellspacing="0" border="1" style="border-collapse: collapse; width: 650px; height: 103px;"&gt;
+    &lt;tbody&gt;
+        &lt;tr style="height: 47.2969px;"&gt;
+            &lt;td valign="top" style="width: 282.141px; height: 47.2969px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Identify the slope. Every horizontal line has slope 0.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 47.2969px;"&gt;
+                &lt;p&gt;&lt;i&gt;&lt;/i&gt;\(m = 0 \)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 50.9531px;"&gt;
+            &lt;td valign="top" style="width: 282.141px; height: 50.9531px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 2: &lt;/strong&gt;Identify the point.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 50.9531px;"&gt;
+                &lt;p&gt;\( (x_1, y_1) \)&lt;br&gt;&lt;span&gt;\( (-2, -6) \)&lt;/span&gt;&lt;span style="font-size: 13.3333px; font-variant-ligatures: inherit; font-variant-caps: inherit;"&gt;&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 66.9375px;"&gt;
+            &lt;td valign="top" style="width: 282.141px; height: 66.9375px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 3: &lt;/strong&gt;Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \). Simplify.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 66.9375px;"&gt;
+                &lt;p&gt;&lt;i&gt;&lt;/i&gt;\( y - y_1 = m(x - x_1) \)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( y - (-6) = 0(x - (-2)) \)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( y + 6 = 0 \)&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 10px;"&gt;
+            &lt;td valign="top" style="width: 282.141px; height: 10px;"&gt;
+                &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Write the equation in slope-intercept form.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 318.859px; height: 10px;"&gt;
+                &lt;p&gt;\( y = -6 \)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( y = 0x - 6 \)&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;&lt;br&gt;Try It: Writing the Equation of a Line Given the Slope and Point&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Write the equation of a line with slope \( m = -\frac{2}{5} \) that contains the point \( (10, -5) \). Write the equation in slope-intercept form.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Write down your answer, and then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+
+
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="eventShow1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="eventShow1" data-schema-version="1.0"&gt;
+    &lt;p dir="ltr"&gt;Here is how to write the equation of a line with a point and slope using a general strategy.&lt;/p&gt;
+    &lt;table cellpadding="5" cellspacing="0" border="1" style="border-collapse: collapse; width: 650px; height: 178px;"&gt;
+        &lt;tbody&gt;
+            &lt;tr style="height: 31.3125px;"&gt;
+                &lt;td valign="top" style="width: 318.594px; height: 31.3125px;"&gt;
+                    &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Identify the slope.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td valign="top" style="width: 166.406px; height: 31.3125px;"&gt;
+                    &lt;p&gt;\( m = -\frac{2}{5}\)&amp;nbsp;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="height: 64.2812px;"&gt;
+                &lt;td valign="top" style="width: 318.594px; height: 64.2812px;"&gt;
+                    &lt;p&gt;&lt;strong&gt;Step 2: &lt;/strong&gt;Identify the point.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td valign="top" style="width: 166.406px; height: 64.2812px;"&gt;
+                    &lt;p&gt;\( (x_1, y_1) \)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;(10, -5)&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="height: 93.5938px;"&gt;
+                &lt;td valign="top" style="width: 318.594px; height: 93.5938px;"&gt;
+                    &lt;p&gt;&lt;strong&gt;Step 3: &lt;/strong&gt;Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \). Simplify.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td valign="top" style="width: 166.406px; height: 93.5938px;"&gt;
+                    &lt;p&gt;\( y - y_1 = m(x - x_1) \)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( y - (-5) = (x - 10) \)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( y + 5 = x + 4 \)&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="height: 47.2969px;"&gt;
+                &lt;td valign="top" style="width: 318.594px; height: 47.2969px;"&gt;
+                    &lt;p&gt;&lt;strong&gt;Step 4: &lt;/strong&gt;Write the equation in slope-intercept form.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td valign="top" style="width: 166.406px; height: 47.2969px;"&gt;
+                    &lt;p&gt;\( y = x - 1 \)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;br&gt;
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="528">
+            <jumpto>237</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652387225</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="529">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652387225</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="240">
+        <prevpageid>238</prevpageid>
+        <nextpageid>236</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646945794</timecreated>
+        <timemodified>1656967510</timemodified>
+        <title>1.12.4: Writing an Equation Given Two Points</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;p&gt;Answer the following questions.&lt;/p&gt;
+
+
+&lt;p&gt;1. Use the graph below to pick two points and find the slope between the two points.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/50c7d9215905030c081ecfbe71d89c5923c2a6ca" alt="" width="400" height="313" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;The slope of the line is \( - \frac{1}{3} \).&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;2. Use your two points in the slope formula to confirm the slope is correct.&lt;/p&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Sample Answer: &lt;span style="font-size:19px;"&gt;\(&amp;nbsp;m=\frac{y_2-y_1}{x_2-x_1}=\frac{1-3}{4-(-2)}=\frac{-2}{6}=-\frac{1}{3}&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;3. Using the slope and a point, write your equation in point-slope form.&lt;/p&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Sample Answer:&lt;/p&gt;
+        &lt;p&gt;\(&amp;nbsp;m = - \frac{1}{3}&amp;nbsp;\) and \(&amp;nbsp;(4, 1)&amp;nbsp;\)&lt;/p&gt;
+        &lt;p&gt;\( y - y_1 = m(x - x_1) \) becomes: \( y - 1 = - \frac{1}{3}(x - 4) \).&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;4. Now write your equation in slope-intercept form.&lt;/p&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;\(&amp;nbsp;y =- \frac{1-3} x + \frac{7}{3}&amp;nbsp;\)&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;5. Look at your equation and the original graph. What do you notice? How can you use a graph to check your equation?&lt;/p&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The \(&amp;nbsp;y&amp;nbsp;\)-intercept of the graph is \( \frac{7}{3} \) and the slope is \(&amp;nbsp;-\frac{1}{3}&amp;nbsp;\).&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="526">
+            <jumpto>239</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646945794</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="527">
+            <jumpto>236</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646945794</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="237">
+        <prevpageid>239</prevpageid>
+        <nextpageid>238</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1646407837</timecreated>
+        <timemodified>1657380089</timemodified>
+        <title>1.12.3: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Which equation represents the slope-intercept form of the equation of a line with slope&amp;nbsp;\( m =  -\frac{3}{4} \) that contains the point \(&amp;nbsp;(4, −7)&amp;nbsp;\)?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="511">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1646407837</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(&amp;nbsp;y =-\frac{3}{4}x − 4&amp;nbsp;&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That’s correct! Check yourself: &lt;br&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \(&amp;nbsp;−7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\) to get \(&amp;nbsp;y&amp;nbsp;+ 7 = -\frac{3}{4}x + 3&amp;nbsp;\).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="512">
+            <jumpto>238</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407837</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( y =-\frac{3}{4}x - 1\frac{1}{4}&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-03407fbf-7fff-d675-7c22-7e7dfa750cbd"&gt;&lt;span id="docs-internal-guid-5a26008b-7fff-b254-dae5-8b372ad1121f"&gt;Incorrect. Let’s try again a different way: Remember the \( x \)-coordinate is the first coordinate and the \( y \)-coordinate is the second coordinate.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span&gt;&lt;span&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \( -7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\) to get \(&amp;nbsp;y&amp;nbsp;+ 7 = -\frac{3}{4}x + 3&amp;nbsp;\). &lt;br&gt;The answer is \(&amp;nbsp;y = -\frac{3}{4}x - 4&amp;nbsp;\).&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="513">
+            <jumpto>238</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407837</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(&amp;nbsp;y =-\frac{3}{4}x - 11&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-4cc4fea5-7fff-3da5-6f0e-ce5294c36d87"&gt;&lt;span id="docs-internal-guid-36e6964f-7fff-b232-d6e1-6847f3b96c04"&gt;Incorrect. Let’s try again a different way: &lt;br&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \( -7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\). &lt;br&gt;Be careful when using the Distributive Property to multiply \(&amp;nbsp;-\frac{3}{4}&amp;nbsp;\) by \(&amp;nbsp;x&amp;nbsp;\) and by \(&amp;nbsp;4&amp;nbsp;\). &lt;br&gt;The equation simplifies to \(&amp;nbsp;y + 7 = -\frac{3}{4}x + 3&amp;nbsp;\). &lt;br&gt;The answer is \(&amp;nbsp;y =-\frac{3}{4}x - 4&amp;nbsp;\).&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="514">
+            <jumpto>238</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407837</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(&amp;nbsp;y =-\frac{3}{4}x +10&amp;nbsp;&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: &lt;br&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \( -7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\). Watch the signs when simplifying. The equation simplifies to \(&amp;nbsp;y + 7 = -\frac{3}{4}x + 3&amp;nbsp;\). &lt;br&gt;The answer is \(&amp;nbsp;y =-\frac{3}{4}x- 4&amp;nbsp;\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="540">
+            <jumpto>238</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407837</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="236">
+        <prevpageid>240</prevpageid>
+        <nextpageid>241</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1652394158</timecreated>
+        <timemodified>1657380106</timemodified>
+        <title>1.12.4: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Which equation represents the slope-intercept form of the equation of a line containing the points&amp;nbsp;\( (-2, -4) \) and \( (1, -3) \)?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="530">
+            <jumpto>242</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1652394158</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( y = \frac{1}{3}x - 3\frac{1}{3} \)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That’s correct! Check yourself: &lt;br&gt;First find the slope by substituting&amp;nbsp;\( -3 \) for \( y_2 \),&amp;nbsp;\( -4 \) for \( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \) for&amp;nbsp;\( x_1 \) in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;br&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \). &lt;br&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="531">
+            <jumpto>241</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394158</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( y = \frac{1}{3}x - 2\frac{1}{3} \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way:&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;First find the slope by substituting&amp;nbsp;\( -3 \)&amp;nbsp;for&amp;nbsp;\( y_2 \),&amp;nbsp;\( -4 \)&amp;nbsp;for&amp;nbsp;\( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \)&amp;nbsp;for&amp;nbsp;\( x_1 \)&amp;nbsp;in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \). You can use the coordinates from either point. Make sure you choose the&amp;nbsp;\( x \)- and&amp;nbsp;\( y \)-value from the same point.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \). The answer is \( y =\frac{1}{3}x - 3\frac{1}{3} \).&lt;/span&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="532">
+            <jumpto>241</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394158</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( y = 7x + 10 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-4cc4fea5-7fff-3da5-6f0e-ce5294c36d87"&gt;&lt;span id="docs-internal-guid-36e6964f-7fff-b232-d6e1-6847f3b96c04"&gt;Incorrect. Let’s try again a different way:&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;First find the slope by substituting&amp;nbsp;\( -3 \)&amp;nbsp;for&amp;nbsp;\( y_2 \),&amp;nbsp;\( -4 \)&amp;nbsp;for&amp;nbsp;\( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \)&amp;nbsp;for&amp;nbsp;\( x_1 \)&amp;nbsp;in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \).&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \). The answer is&amp;nbsp;\( y =\frac{1}{3}x - 3\frac{1}{3} \).&lt;/span&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="533">
+            <jumpto>241</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394158</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( y = 3x - 6  \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way:&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;Remember, the \(x\)-coordinate is the first coordinate and the \(y\)-coordinate is the second coordinate.&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;The slope is the change in \(y\) over the change in \(x\). Find the slope by substituting&amp;nbsp;\( -3 \)&amp;nbsp;for&amp;nbsp;\( y_2 \),&amp;nbsp;\( -4 \)&amp;nbsp;for&amp;nbsp;\( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \)&amp;nbsp;for&amp;nbsp;\( x_1 \)&amp;nbsp;in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \).&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \). The answer is&amp;nbsp;\( y =\frac{1}{3}x - 3\frac{1}{3} \).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="541">
+            <jumpto>241</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394158</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="242">
+        <prevpageid>241</prevpageid>
+        <nextpageid>243</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1652400590</timecreated>
+        <timemodified>1656960092</timemodified>
+        <title>1.12.5: Choosing a Method to Write an Equation</title>
+        <contents>&lt;h4&gt;Cool-Down Activity&lt;/h4&gt;
+&lt;p dir="ltr"&gt;You have seen that you can use either the slope-intercept form or the point-slope form to find an equation of a line. Which form you use will depend on the information you are given.&lt;/p&gt;
+&lt;p dir="ltr"&gt;The table can be used as a reference.&lt;/p&gt;
+&lt;table cellpadding="5" cellspacing="0" border="1" style="border-collapse: collapse; width: 582px; height: 194.875px;"&gt;
+    &lt;tbody&gt;
+        &lt;tr style="height: 26.3125px;"&gt;
+            &lt;td colspan="3" valign="top" style="width: 436.25pt; height: 26.3125px;"&gt;
+                &lt;p style="text-align: center;"&gt;&lt;b&gt;To Write an Equation of a Line&lt;/b&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 40.3125px;"&gt;
+            &lt;td valign="top" style="width: 134.75pt; height: 40.3125px;"&gt;
+                &lt;p&gt;&lt;b&gt;If given:&lt;/b&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 117pt; height: 40.3125px;"&gt;
+                &lt;p&gt;&lt;b&gt;Use:&lt;/b&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 184.5pt; height: 40.3125px;"&gt;
+                &lt;p&gt;&lt;b&gt;Form:&lt;/b&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 40.3125px;"&gt;
+            &lt;td valign="top" style="width: 134.75pt; height: 40.3125px;"&gt;
+                &lt;p&gt;Slope and \( y\)-intercept&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 117pt; height: 40.3125px;"&gt;
+                &lt;p&gt;slope-intercept&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 184.5pt; height: 40.3125px;"&gt;
+                &lt;p&gt;\( y = mx + b \)&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 43.9688px;"&gt;
+            &lt;td valign="top" style="width: 134.75pt; height: 43.9688px;"&gt;
+                &lt;p&gt;Slope and a point&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 117pt; height: 43.9688px;"&gt;
+                &lt;p&gt;point-slope&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 184.5pt; height: 43.9688px;"&gt;
+                &lt;p&gt;\( y - y_1 = m(x - x_1) \)&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 43.9688px;"&gt;
+            &lt;td valign="top" style="width: 134.75pt; height: 43.9688px;"&gt;
+                &lt;p&gt;Two points&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 117pt; height: 43.9688px;"&gt;
+                &lt;p&gt;point-slope&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top" style="width: 184.5pt; height: 43.9688px;"&gt;
+                &lt;p&gt;\( y - y_1 = m(x - x_1) \)&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;1. Each partner should find a slip labeled “Points.” Place the remaining Equation slips in a pile face down to be used in the second step.&lt;/p&gt;
+&lt;p&gt;Find the slope of the line containing the points on your slip.&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Answers will vary, but you will use the point-slope form to find the line&amp;nbsp;\( y - y_1 = m(x - x_1) \) given the two points on your slip.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Take turns sharing with your partner the slope of your line and the method used to find the slope.&lt;/p&gt;&lt;p&gt;2. Partners take turns choosing Equation slips from the pile to see if the equation represents a line formed by the points on their Points slip.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;One partner chooses an Equation slip from the pile. Decide if the equation represents a line through the points on your Points slip. If it does, explain to your partner how you know. Keep the slip. If it does not represent a line through your points, give the Equation slip to your partner.&lt;/li&gt;&lt;li&gt;Your partner should verify the equation represents a line through the points on your partner’s Points slip. Discuss and reach an agreement. If the equation does not represent a line through either partner’s points, set it aside.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Take turns choosing Equation slips until they are all gone. (There are 6 Equation slips.) Each partner should end with a total of 2 Equation slips that match. There will be 2 Equations slips that do not match either set of points.&lt;/li&gt;&lt;li&gt;Which equations represent a line through your points?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Answers may vary. Compare your answer to the samples.&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Solution: Points:&amp;nbsp;\( (3, 4) \) and \(&amp;nbsp;(6, 2)&amp;nbsp;\): \(&amp;nbsp;y - 2 = -12(x - 6)&amp;nbsp;\); \(&amp;nbsp;y - 4 = -12(x - 3)&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Points: \(&amp;nbsp;(-3, -4)&amp;nbsp;\) and \(&amp;nbsp;(6, 2)&amp;nbsp;\): \(&amp;nbsp;y - 2 = 23(x - 6)&amp;nbsp;\); \(&amp;nbsp;y + 4 = 23(x + 3)&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Equations with no match: \(&amp;nbsp;y + 4 = -12(x + 3)&amp;nbsp;\) and \(&amp;nbsp;y - 4 = 23(x - 3)&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;3. Is identifying the slope enough to match your set of points to an equation?&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Sample response: No, the slope is not enough to identify the equation because lines with the same slope can go through different points.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="536">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652400590</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="537">
+            <jumpto>243</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652400590</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="243">
+        <prevpageid>242</prevpageid>
+        <nextpageid>244</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646416095</timecreated>
+        <timemodified>1657749400</timemodified>
+        <title>1.12.6: Practice</title>
+        <contents>&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Enter Questions Below this line--&gt;
+
+
+    &lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=3x+5\)" data-solution-options="[&amp;quot;\\(y=5x+3\\)&amp;quot;, &amp;quot;\\(y=3x+0\\)&amp;quot;, &amp;quot;\\(y=3x+5\\)&amp;quot;, &amp;quot;\\(y=0x+3\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;In questions 1-2, choose the equation of a line with the given slope and &lt;em&gt;y&lt;/em&gt;-intercept that best represents the line in slope-intercept form .&lt;/p&gt;
+            &lt;p&gt;1. slope 3 and &lt;em&gt;y&lt;/em&gt;-intercept (0,5)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! &lt;em&gt;y&lt;/em&gt;=3&lt;em&gt;x&lt;/em&gt;+5&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 1.12.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is &lt;em&gt;y&lt;/em&gt;=3&lt;em&gt;x&lt;/em&gt;+5. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+    &lt;!--Q2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=-3x-1\)" data-solution-options="[&amp;quot;\\(y=-x-3\\)&amp;quot;, &amp;quot;\\(y=-3x-1\\)&amp;quot;, &amp;quot;\\(y=-x+0\\)&amp;quot;, &amp;quot;\\(y=0x-3\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;2. slope −3 and y-intercept (0,−1)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! &lt;em&gt;y&lt;/em&gt;=-3&lt;em&gt;x&lt;/em&gt;-1&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 1.12.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is &lt;em&gt;y&lt;/em&gt;=-3&lt;em&gt;x&lt;/em&gt;-1. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+    
+
+    &lt;!--Q3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=3x-5\)" data-solution-options="[&amp;quot;\\(y=-3x+5\\)&amp;quot;, &amp;quot;\\(y=5x-3\\)&amp;quot;, &amp;quot;\\(y=-5x+3\\)&amp;quot;, &amp;quot;\\(y=3x-5\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;In questions 3-4 choose the slope-intercept form of the equation of the line, shown in each graph. &lt;/p&gt;&lt;p&gt;3.&lt;br&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/09a02347b18374d51af8598355f5cf5524859116" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="479" height="486"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(y=3x-5\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 1.12.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is &lt;em&gt;y&lt;/em&gt;=3&lt;em&gt;x&lt;/em&gt;-5. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+    &lt;!--Q4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=-2x+4\)" data-solution-options="[&amp;quot;\\(y=-2x+4\\)&amp;quot;, &amp;quot;\\(y=2x+4\\)&amp;quot;, &amp;quot;\\(y=½x -4\\)&amp;quot;, &amp;quot;\\(y=½ x+2\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;4.&lt;br&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/eeae77b746d027b94298de1aaee697496e0d56a5" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="515" height="522"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(y=-2x+4\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 1.12.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is &lt;em&gt;y&lt;/em&gt;=-2&lt;em&gt;x&lt;/em&gt;+4. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+    &lt;!--Q5--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=-7x-10\)" data-solution-options="[&amp;quot;\\(y=-7x-1\\)&amp;quot;, &amp;quot;\\(y=-7x-3\\)&amp;quot;, &amp;quot;\\(y=-3x+10\\)&amp;quot;, &amp;quot;\\(y=-7x-10\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;5. Choose the equation of a line with the given slope and containing the given point that best represents the line in slope-intercept form.
+                &lt;br&gt;m=−7, point (−1,−3)
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(y=-7x-10\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 1.12.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(y=-7x-10\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+
+    &lt;!--Q6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=-\frac72x+4\)" data-solution-options="[&amp;quot;\\(y=-\\frac72x-3\\)&amp;quot;, &amp;quot;\\(y=\\frac72x+4\\)&amp;quot;, &amp;quot;\\(y=-\\frac27x+4\\)&amp;quot;, &amp;quot;\\(y=-\\frac72x+4\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;6. Choose the equation of a line containing the given points that best represents the line in slope-intercept form.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(y=-\frac72x+4\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 1.12.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(y=-\frac72x+4\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+    &lt;!--Q7--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=-4\)" data-solution-options="[&amp;quot;\\(y=-4\\)&amp;quot;, &amp;quot;\\(y=0\\)&amp;quot;, &amp;quot;\\(x=2\\)&amp;quot;, &amp;quot;\\(x=-2\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;7. Choose the equation of a line containing the given points that best represents the line in slope-intercept form.
+                &lt;br&gt;(3,−4) and (5,−4)
+
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(y=-4\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 1.12.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(y=-4\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="520">
+            <jumpto>242</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646416095</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="521">
+            <jumpto>244</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646416095</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="244">
+        <prevpageid>243</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646087501</timecreated>
+        <timemodified>1657640880</timemodified>
+        <title>1.12.7: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;Write an equation of the line given the slope and \(y\)-intercept.&lt;/li&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;Write an equation of the line given the slope and a point.&lt;/li&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;Write an equation of the line given two points.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.1: Using the Slope Formula&lt;ul&gt;
+            &lt;li&gt;In this activity, you reviewed using the slope formula to find the slope between two points.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.2: Writing an Equation Given the Slope and \(y\)-Intercept&lt;ul&gt;
+            &lt;li&gt;In this activity, you used the given slope and \(y\)-intercept to write the equation of a line in slope-intercept form. You also worked to find the slope and \(y\)-intercept from a graph to then write the equation of the line in slope-intercept form.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.2: Self Check&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.3: Writing an Equation Given the Slope and a Point&amp;nbsp;&lt;ul&gt;
+            &lt;li&gt;In this activity, you used point-slope form to write the equation of a line given a slope and a point. You then wrote the equation in slope-intercept form.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.3: Self Check&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.4: Write an Equation Given Two Points&lt;ul&gt;
+            &lt;li&gt;In this activity, you found the slope between two points and confirmed it with the slope formula. You then used one point and the slope to write the equation of a line in point-slope form. From here, you wrote the equation in slope-intercept form and used the graph to check your equation.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.4: Self Check&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;&lt;span style="white-space:pre"&gt;&lt;/span&gt;1.12.5: Choosing a Method to Write an Equation&lt;ul&gt;
+            &lt;li&gt;In this activity, you discussed when to use each method of writing an equation. With a partner, you worked to find slopes and equations of lines using different methods.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+    &lt;p&gt;1.12.5: Practice&lt;/p&gt;
+&lt;/div&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+	
+	&lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+	
+	&lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
+	
+	  &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="509">
+            <jumpto>243</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646087501</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="538">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646087501</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>
