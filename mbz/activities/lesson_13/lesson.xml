@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="11" moduleid="13" modulename="lesson" contextid="24">
   <lesson id="11">
     <course>2</course>
     <name>Lesson 1.4 Equations and Their Solutions</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>1</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>0</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -53,7 +53,7 @@
         <timecreated>1646085188</timecreated>
         <timemodified>1656532381</timemodified>
         <title>1.4.0: Lesson Overview</title>
-        <contents>&lt;p&gt;In middle school, you learned that a solution to an equation is a value or values that make the equation true. In this lesson, you will revisit what you learned about solutions to equations in one variable and two variables. You will also continue to practice modeling relationships with equations and to make sense of equations and their solutions in context.&lt;/p&gt;&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Explain what it means for a value or pair of values to be a solution to an equation.&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Find solutions to equations by reasoning about a situation or by using algebra.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Here are the &lt;strong&gt;activities &lt;/strong&gt;that will help you reach those goals:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1.4.1: Finding the Solution to an Equation in One Variable, Part 1&lt;/li&gt;&lt;li&gt;1.4.2: Writing Equations to Represent Constraints&lt;/li&gt;&lt;li&gt;1.4.2: Self Check&amp;nbsp;&lt;/li&gt;&lt;li&gt;1.4.3: Finding the Solution to an Equation in Two Variables&lt;/li&gt;&lt;li&gt;1.4.3: Self Check&amp;nbsp;&lt;/li&gt;&lt;li&gt;1.4.4: Finding the Solution to an Equation in One Variable, Part 2&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1.4.5: Practice&lt;/li&gt;&lt;li&gt;1.4.6: Lesson Summary&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contents>&lt;p&gt;In middle school, you learned that a solution to an equation is a value or values that make the equation true. In this lesson, you will revisit what you learned about solutions to equations in one variable and two variables. You will also continue to practice modeling relationships with equations and to make sense of equations and their solutions in context.&lt;/p&gt;&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Explain what it means for a value or pair of values to be a solution to an equation.&lt;/li&gt;&lt;li&gt;&lt;span&gt;Find solutions to equations by reasoning about a situation or by using algebra.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Here are the &lt;strong&gt;activities &lt;/strong&gt;that will help you reach those goals:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1.4.1: Finding the Solution to an Equation in One Variable, Part 1&lt;/li&gt;&lt;li&gt;1.4.2: Writing Equations to Represent Constraints&lt;/li&gt;&lt;li&gt;1.4.2: Self Check&amp;nbsp;&lt;/li&gt;&lt;li&gt;1.4.3: Finding the Solution to an Equation in Two Variables&lt;/li&gt;&lt;li&gt;1.4.3: Self Check&amp;nbsp;&lt;/li&gt;&lt;li&gt;1.4.4: Finding the Solution to an Equation in One Variable, Part 2&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;After that, you&amp;rsquo;ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1.4.5: Practice&lt;/li&gt;&lt;li&gt;1.4.6: Lesson Summary&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="186">
@@ -85,57 +85,46 @@
         <timemodified>1656532426</timemodified>
         <title>1.4.1: Finding the Solution to an Equation in One Variable, Part 1</title>
         <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
-
-
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;A granola bite contains 27 calories. Most of the calories come from \( c \) grams of carbohydrates. The rest come from other ingredients. One gram of carbohydrate contains 4 calories.&lt;/p&gt;
-        &lt;p&gt;The equation \( 4c + 5= 27 \) represents the relationship between these quantities.&lt;/p&gt;
-        &lt;p&gt;&lt;/p&gt;&lt;span style="font-size: 0.9375rem;"&gt;1. What could the 5 represent in this situation?&lt;br&gt;&lt;/span&gt;&lt;br&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;Sample response: It could represent the calories from other ingredients in the granola bite.&lt;/span&gt;&lt;/p&gt;
-       &lt;span style=""&gt;&lt;span style="font-size: 0.9375rem;"&gt;
-            &lt;/span&gt;&lt;/span&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;A granola bite contains 27 calories. Most of the calories come from \( c \) grams of carbohydrates. The rest come from other ingredients. One gram of carbohydrate contains 4 calories.&lt;/p&gt;
+&lt;p&gt;The equation \( 4c + 5= 27 \) represents the relationship between these quantities.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;span&gt;1. What could the 5 represent in this situation?&lt;br&gt;&lt;/span&gt;&lt;br&gt;
 &lt;/div&gt;
-
-
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;br&gt;&lt;span&gt;Sample response: It could represent the calories from other ingredients in the granola bite.&lt;/span&gt;&lt;/p&gt;
+&lt;span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;br&gt;
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
         2.&amp;nbsp;&lt;span&gt;Priya said that neither 8 nor 3 could be the solution to the equation. Is she correct? Explain.&lt;br&gt;&lt;/span&gt;&lt;br&gt;
-
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Compare your answer:&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;Yes, she is correct that 8 and 3 could not be solutions. Sample explanation: \(&amp;nbsp;4(8)+5&amp;nbsp;\) is 37, not 27, and \(&amp;nbsp;4(3)+5&amp;nbsp;\) is 17, not 27.&lt;/span&gt;
-        &lt;p&gt;&lt;/p&gt;&lt;span style=""&gt;&lt;span style="font-size: 0.9375rem;"&gt;
-            &lt;/span&gt;&lt;/span&gt;
-    &lt;/div&gt;
 &lt;/div&gt;
-
-
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;&lt;span&gt;Compare your answer:&lt;br&gt;&lt;/span&gt;&lt;span&gt;Yes, she is correct that 8 and 3 could not be solutions. Sample explanation: \(&amp;nbsp;4(8)+5&amp;nbsp;\) is 37, not 27, and \(&amp;nbsp;4(3)+5&amp;nbsp;\) is 17, not 27.&lt;/span&gt;
+&lt;p&gt;&lt;/p&gt;&lt;span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;br&gt;
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;&lt;span&gt;
+&lt;div class="os-raise-ib-input-content"&gt;&lt;span&gt;
             3. Marcus said the solution is 5.5. Is he correct? Explain.&lt;br&gt;&lt;/span&gt;&lt;br&gt;
-
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Check your answer:&lt;/p&gt;
-        &lt;p&gt;Yes, he is correct that 5.5 is a solution. \(&amp;nbsp;4(5.5) + 5&amp;nbsp;\) is 27.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Check your answer:&lt;/p&gt;
+&lt;p&gt;Yes, he is correct that 5.5 is a solution. \(&amp;nbsp;4(5.5) + 5&amp;nbsp;\) is 27.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -182,116 +171,91 @@
         <timemodified>1656532455</timemodified>
         <title>1.4.2: Writing Equations to Represent Constraints</title>
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
-
-
-
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    
+&lt;div class="os-raise-ib-input-content"&gt;
 &lt;p dir="ltr"&gt;Jada has time on the weekends to earn some money. A local bookstore is looking for someone to help sort books and will pay $12.20 an hour. To get to and from the bookstore on a work day, however, Jada would have to spend $7.15 on bus fare.&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;span style="font-size: 0.9375rem;"&gt;1. Write an equation that represents Jada’s take-home earnings in dollars, \( E \), if she works at the bookstore for \( h \) hours in one day.&lt;br&gt;&lt;/span&gt;&lt;br&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter your answer here:&lt;/p&gt;
-
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-   &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Compare your answer:&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;span&gt;1. Write an equation that represents Jada&amp;rsquo;s take-home earnings in dollars, \( E \), if she works at the bookstore for \( h \) hours in one day.&lt;br&gt;&lt;/span&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;&lt;span&gt;Compare your answer:&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;\( E=12.20h-7.15 \)&lt;br&gt;&lt;/p&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
-
-
-
+&lt;/div&gt;
 &lt;br&gt;
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;p&gt;2. One day, Jada takes home $90.45 after working \( h \)&amp;nbsp;hours and after paying the bus fare. Write an equation to represent this situation.&lt;/p&gt;
-
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-   &lt;p&gt;Enter your answer here:&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;2. One day, Jada takes home $90.45 after working \( h \)&amp;nbsp;hours and after paying the bus fare. Write an equation to represent this situation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;\( 90.45=12.20h-7.15 \)&amp;nbsp;(or equivalent)&lt;/p&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
-
+&lt;/div&gt;
 &lt;br&gt;
-
-
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
 &lt;p&gt;3. Is 4 a solution to the last equation you wrote? What about 7?&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;If so, be prepared to explain how you know one or both of them are solutions.&lt;/li&gt;
-    &lt;li&gt;If not, be prepared to explain why they are not solutions. Then, find the solution.&lt;/li&gt;
+&lt;li&gt;If so, be prepared to explain how you know one or both of them are solutions.&lt;/li&gt;
+&lt;li&gt;If not, be prepared to explain why they are not solutions. Then, find the solution.&lt;/li&gt;
 &lt;/ul&gt;
-
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-   &lt;p&gt;Enter your answer here:&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Compare your answer:&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;&lt;/span&gt;&lt;p&gt;Neither 4 nor 7 is a solution. Sample reasoning:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;&lt;span&gt;Compare your answer:&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;p&gt;Neither 4 nor 7 is a solution. Sample reasoning:&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;Substituting 4 into the equation gives \( 90.45=12.20(4)-7.15 \) or \(&amp;nbsp;90.45=41.65&amp;nbsp;\), which is not a true statement&lt;/li&gt;
-    &lt;li&gt;Substituting 7 into the equation gives \(&amp;nbsp;90.45=78.25&amp;nbsp;\), which is also false.&lt;/li&gt;
-    &lt;li&gt;The solution is 8. Substituting 8 into the equation gives \(&amp;nbsp;90.45=90.45&amp;nbsp;\), which is true.&lt;/li&gt;
+&lt;li&gt;Substituting 4 into the equation gives \( 90.45=12.20(4)-7.15 \) or \(&amp;nbsp;90.45=41.65&amp;nbsp;\), which is not a true statement&lt;/li&gt;
+&lt;li&gt;Substituting 7 into the equation gives \(&amp;nbsp;90.45=78.25&amp;nbsp;\), which is also false.&lt;/li&gt;
+&lt;li&gt;The solution is 8. Substituting 8 into the equation gives \(&amp;nbsp;90.45=90.45&amp;nbsp;\), which is true.&lt;/li&gt;
 &lt;/ul&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
-
+&lt;/div&gt;
 &lt;br&gt;
-
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
 &lt;p&gt;4. In this situation, what does the solution to the equation tell us?&lt;/p&gt;
-
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-   &lt;p&gt;Enter your answer here:&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-&lt;p&gt;Compare your answer:&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;It tells us the number of hours that Jada worked that allowed her to take home $90.45 after paying for her bus fare.&lt;/p&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
-
-
+&lt;/div&gt;
 &lt;br&gt;
-
 &lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="eventShow1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;br&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Submit" data-wait-for-event="eventShow1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0" data-wait-for-event="eventShow1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
 &lt;p&gt;Jada has a second option to earn money. She could help some neighbors with errands and computer work for $11 an hour. After reconsidering her schedule, Jada realizes that she has about 9 hours available to work one day of the weekend.&lt;/p&gt;
 &lt;p&gt;Which option should she choose, sorting books at the bookstore or helping her neighbors? Explain your reasoning.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Write your answer here:&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;You could argue either way, depending on the assumptions you make.&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Write your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;You could argue either way, depending on the assumptions you make.&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;Sample responses:&lt;/p&gt;
 &lt;p&gt;Jada should work at the bookstore because she would earn more there. Her pay would be $109.80, and after subtracting $7.15 for the bus fare, she would still earn $102.65. She would earn $99 from the other option.&lt;/p&gt;
 &lt;p&gt;Jada should help her neighbors. Working 9 hours at the bookstore would mean a few dollars more than working 9 hours helping her neighbors, but it would also mean losing some personal time because of the travel involved.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -337,7 +301,7 @@
         <timecreated>1646407837</timecreated>
         <timemodified>1657913893</timemodified>
         <title>1.4.2: Self Check</title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Jada found a third job option and was offered a position working at a camp for $10.50 per hour. The total bus fare to and from the camp is $8.40. Write an equation that represents how much she will make in a day, \( d \), after working&amp;nbsp;\( h \) hours.&lt;br&gt;&lt;/p&gt;</contents>
+        <contents>&lt;p dir="ltr"&gt;Jada found a third job option and was offered a position working at a camp for $10.50 per hour. The total bus fare to and from the camp is $8.40. Write an equation that represents how much she will make in a day, \( d \), after working&amp;nbsp;\( h \) hours.&lt;br&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="189">
@@ -347,7 +311,7 @@
             <flags>0</flags>
             <timecreated>1646407837</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( d = 10.50h - 8.40  \)&lt;/p&gt;</answer_text>
+            <answer_text>&lt;p dir="ltr"&gt;\( d = 10.50h - 8.40  \)&lt;/p&gt;</answer_text>
             <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Jada will make $10.50 per hour (\( 10.50h \)) but must subtract the bus fare for the day of 8.40.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
@@ -361,7 +325,7 @@
             <flags>0</flags>
             <timecreated>1646407837</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( d = 10.50h + 8.40 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <answer_text>&lt;p dir="ltr"&gt;\( d = 10.50h + 8.40 \)&lt;br&gt;&lt;/p&gt;</answer_text>
             <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The bus fare should be subtracted from what Jada is making per hour. The answer is&amp;nbsp;\( d = 10.50h - 8.40 \).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
@@ -389,7 +353,7 @@
             <flags>0</flags>
             <timecreated>1646407837</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( d=8.40h +10.50 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <answer_text>&lt;p dir="ltr"&gt;\( d=8.40h +10.50 \)&lt;br&gt;&lt;/p&gt;</answer_text>
             <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-0b56d758-7fff-a25d-2b03-ae0497e818c7" style="font-size: 0.9375rem;"&gt;Incorrect. Let’s try again a different way: The amount Jada makes per hour is 10.50, so that should be multiplied by the number of hours, \( h \). The answer is \( d = 10.50h - 8.40 \).&lt;/span&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
@@ -403,8 +367,8 @@
             <flags>0</flags>
             <timecreated>1646407837</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -425,149 +389,130 @@
         <timemodified>1656968454</timemodified>
         <title>1.4.2: Additional Resources</title>
         <contents>&lt;h4&gt;Verify a Solution of an Equation&lt;/h4&gt;
-
-
-&lt;p&gt;Solving an &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;equation&lt;/span&gt; is like discovering the answer to a puzzle. The purpose in solving an equation is to find the value or values of the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;variable&lt;/span&gt; that make each side of the equation the same so that we end up with a true statement. Any value of the variable that makes the equation true is called a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;solution of an equation&lt;/span&gt;. It is the answer to the puzzle!&lt;/p&gt;
+&lt;p&gt;Solving an &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;equation&lt;/span&gt; is like discovering the answer to a puzzle. The purpose in solving an equation is to find the value or values of the &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;variable&lt;/span&gt; that make each side of the equation the same so that we end up with a true statement. Any value of the variable that makes the equation true is called a &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;solution of an equation&lt;/span&gt;. It is the answer to the puzzle!&lt;/p&gt;
 &lt;p&gt;How to determine whether a number is a solution to an equation:&lt;br&gt;&lt;/p&gt;
-&lt;table style="border-collapse: collapse; width: 624px; height: 164.219px;" cellspacing="0" cellpadding="5" border="1"&gt;
-    &lt;tbody&gt;
-        &lt;tr style="height: 22.3125px;"&gt;
-            &lt;td style="width: 99pt; height: 22.3125px;" valign="top"&gt;
-                &lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td style="width: 369pt; height: 22.3125px;" valign="top"&gt;
-                &lt;p&gt;Substitute the number in for the variable in the equation.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr style="height: 40.3125px;"&gt;
-            &lt;td style="width: 99pt; height: 40.3125px;" valign="top"&gt;
-                &lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td style="width: 369pt; height: 40.3125px;" valign="top"&gt;
-                &lt;p&gt;Simplify the expressions on both sides of the equation.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr style="height: 101.594px;"&gt;
-            &lt;td style="width: 99pt; height: 101.594px;" valign="top"&gt;
-                &lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td style="width: 369pt; height: 101.594px;" valign="top"&gt;
-                &lt;p&gt;Determine whether the resulting equation is true (the left side is equal to the right side).&lt;/p&gt;
-                &lt;ul&gt;
-                    &lt;li&gt;If it is true, the number is a solution.&lt;/li&gt;
-                    &lt;li&gt;If it is not true, the number is not a solution.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;Substitute the number in for the variable in the equation.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;Simplify the expressions on both sides of the equation.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;Determine whether the resulting equation is true (the left side is equal to the right side).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If it is true, the number is a solution.&lt;/li&gt;
+&lt;li&gt;If it is not true, the number is not a solution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;/p&gt;
-
-
 &lt;p&gt;For example, the equation&amp;nbsp;\( 2l+2w=72 \)&amp;nbsp;represents the relationship between the length, \(&amp;nbsp;l&amp;nbsp;\), and the width, \(&amp;nbsp;w&amp;nbsp;\), of a rectangle that has a perimeter of 72 units. If we know that the length is 15 units, we can rewrite the equation as:&lt;/p&gt;
 &lt;p&gt;\(&amp;nbsp;2(15)+2w=72&amp;nbsp;\)&lt;/p&gt;
-&lt;p&gt;This is an equation in one variable because \( w \) is the only quantity that we don’t know. To solve this equation means to find a value of \( w \) that makes the equation true.&lt;/p&gt;
+&lt;p&gt;This is an equation in one variable because \( w \) is the only quantity that we don&amp;rsquo;t know. To solve this equation means to find a value of \( w \) that makes the equation true.&lt;/p&gt;
 &lt;p&gt;In this case, 21 is the solution because substituting 21 for \( w \) in the equation results in a true statement.&lt;/p&gt;
 &lt;p&gt;\(&amp;nbsp;2(15)+2w=72&amp;nbsp;\)&lt;/p&gt;
 &lt;p&gt;\(&amp;nbsp;2(15)+2(21)=72&amp;nbsp;\)&lt;/p&gt;
 &lt;p&gt;\(&amp;nbsp;30+42=72&amp;nbsp;\)&lt;/p&gt;
 &lt;p&gt;\(&amp;nbsp;72=72&amp;nbsp;\)&lt;/p&gt;
-
-
 &lt;h4&gt;Try It: Verify a Solution of an Equation&lt;/h4&gt;
 &lt;p&gt;The equation&amp;nbsp;\( 2l+2w=48 \) represents the perimeter of a rectangle. If the width of the rectangle is 10, what is the length? Verify the solution.&lt;/p&gt;
 &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-
-
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="eventShow1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
 &lt;/div&gt;
-
-
-
-&lt;div class="os-raise-ib-content" data-wait-for-event="eventShow1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Here is how to solve this linear equation:&lt;/p&gt;
-    &lt;table style="border-collapse: collapse; width: 624px; height: 219.188px;" cellspacing="0" cellpadding="5" border="1"&gt;
-        &lt;tbody&gt;
-            &lt;tr style="height: 31.3125px;"&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;Original Equation&lt;/p&gt;
-                &lt;/td&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;&amp;nbsp;\( 2l+2w=48 \)&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr style="height: 31.3125px;"&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;Substitute \(&amp;nbsp;w = 10&amp;nbsp;\) for the width.&lt;/p&gt;
-                &lt;/td&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;\(&amp;nbsp;2l + 2(10) =48&amp;nbsp;\)&lt;/p&gt;
-                &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr style="height: 31.3125px;"&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;Simplify.&lt;/p&gt;
-                &lt;/td&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;\(&amp;nbsp;2l + 20 =48&amp;nbsp;\)&lt;/p&gt;
-                &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr style="height: 31.3125px;"&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;Subtract 20 from each side.&lt;/p&gt;
-                &lt;/td&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;\(&amp;nbsp;2l + 20-20 =48-20&amp;nbsp;\)&lt;/p&gt;
-                &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr style="height: 31.3125px;"&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;Simplify.&lt;/p&gt;
-                &lt;/td&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;\(&amp;nbsp;2l =28&amp;nbsp;\)&lt;/p&gt;
-                &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr style="height: 31.3125px;"&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;Divide both sides by 2 to solve for \(&amp;nbsp;l&amp;nbsp;\).&lt;/p&gt;
-                &lt;/td&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;&amp;nbsp;\( \frac{2l}{2}=\frac{28}{2} \)&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr style="height: 31.3125px;"&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;The length is 14.&lt;/p&gt;
-                &lt;/td&gt;
-                &lt;td style="width: 3.25in; height: 31.3125px;" valign="top"&gt;
-                    &lt;p&gt;\( l = 14 \)&lt;/p&gt;
-                &lt;/td&gt;
-            &lt;/tr&gt;
-        &lt;/tbody&gt;
-    &lt;/table&gt;&lt;br&gt;
-
-    &lt;section data-depth="1" id="fs-id1168345560615"&gt;
-        &lt;p&gt;&lt;span lang="EN"&gt;Now, verify the
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="eventShow1"&gt;
+&lt;p&gt;Here is how to solve this linear equation:&lt;/p&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;Original Equation&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;&amp;nbsp;\( 2l+2w=48 \)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;Substitute \(&amp;nbsp;w = 10&amp;nbsp;\) for the width.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;\(&amp;nbsp;2l + 2(10) =48&amp;nbsp;\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;Simplify.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;\(&amp;nbsp;2l + 20 =48&amp;nbsp;\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;Subtract 20 from each side.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;\(&amp;nbsp;2l + 20-20 =48-20&amp;nbsp;\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;Simplify.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;\(&amp;nbsp;2l =28&amp;nbsp;\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;Divide both sides by 2 to solve for \(&amp;nbsp;l&amp;nbsp;\).&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;&amp;nbsp;\( \frac{2l}{2}=\frac{28}{2} \)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;The length is 14.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;\( l = 14 \)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;section data-depth="1" id="fs-id1168345560615"&gt;
+&lt;p&gt;&lt;span lang="EN"&gt;Now, verify the
                 solution by substituting \( l = 14 \) into
                 the original equation.&lt;/span&gt;&lt;/p&gt;
-
-        &lt;p&gt;&lt;span lang="EN"&gt;\( 2(14)+ 2(10) = 48 \)&lt;/span&gt;&lt;/p&gt;
-
-        &lt;p&gt;&lt;span lang="EN"&gt;\( 28+20 = 48 \)&lt;/span&gt;&lt;/p&gt;
-
-        &lt;p&gt;&lt;span lang="EN"&gt;\( 48 = 48 \) is a true
+&lt;p&gt;&lt;span lang="EN"&gt;\( 2(14)+ 2(10) = 48 \)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="EN"&gt;\( 28+20 = 48 \)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="EN"&gt;\( 48 = 48 \) is a true
                 statement, so the solution works!&lt;/span&gt;&lt;/p&gt;
-    &lt;/section&gt;
-    &lt;div align="left"&gt;
-      
-
-            &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
-
-        
-    &lt;/div&gt;
+&lt;/section&gt;
+&lt;div align="left"&gt;
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -613,223 +558,211 @@
         <timecreated>1646414504</timecreated>
         <timemodified>1658269304</timemodified>
         <title>1.4.5: Practice</title>
-        <contents>&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
-    &lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
-    &lt;!--Q1--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;1. Is \(y = 4/3\) a solution of \(9y + 2 = 6y + 3\)?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Work smarter, not harder! Take a moment to think about what you learned in activity 1.4.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q2--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;2. Is \(y = 7/5\) a solution of \(5y + 3 = 10y − 4\)? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don't you go back to activity 1.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q3--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;3. Is \(y = 5/3\) a solution of \(6y + 10 = 12y\)?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Work smarter, not harder! Take a moment to think about what you learned in activity 1.4.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?&amp;nbsp; You seem to be stuck.&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q4--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;4. Is \(u = −1/2\) a solution of \(8u − 1 = 6u\)? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don't you go back to activity 1.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck.Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q5--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="6" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;5. Tickets to the museum cost $4.50 for children and $9.00 for adults. The equation 63 = 4.5c + 9a represents the total cost for &lt;em&gt;c&lt;/em&gt; children’s tickets and &lt;em&gt;a&lt;/em&gt; adult tickets. How many children’s tickets were sold if 4 adult tickets were sold? &amp;nbsp;&lt;strong&gt;Enter only integers.&lt;/strong&gt;&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 1.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 6. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q6a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(c = 12.5n-10\)" data-solution-options="[&amp;quot;\\(c = 12.5n-10\\)&amp;quot;, &amp;quot;\\(c = 10n-12.5\\)&amp;quot;, &amp;quot;\\(c = 12.5(n-10)\\)&amp;quot;, &amp;quot;\\(c = 12.5(10n)\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;6. T-shirts are on sale for $12.50. Isla has a coupon for $10.00 off. &lt;/p&gt;
-            &lt;ol type="a" start="1"&gt;
-                &lt;li&gt;Choose the equation that represents the total cost,c, if she buys n t-shirts. &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 1.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is c = 12.5n-10. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q6b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt; &amp;nbsp;&amp;nbsp;b. How many t-shirts can she buy if she spends all of her $40? &lt;strong&gt;Only enter integers.&lt;/strong&gt;
-            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 1.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 4. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q7--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;B: 2 necklaces and 5 bracelets&amp;quot;, &amp;quot;D: 4 necklaces and 2 bracelets&amp;quot;, &amp;quot;G: No necklaces and 8 bracelets&amp;quot; ]" data-solution-options="[&amp;quot;A:  5 necklaces and 1 bracelet&amp;quot;, &amp;quot;B: 2 necklaces and 5 bracelets&amp;quot;, &amp;quot;C: 3 necklaces and 3 bracelet&amp;quot;, &amp;quot;D: 4 necklaces and 2 bracelets&amp;quot;, &amp;quot;E: 3 necklaces and 5 bracelets&amp;quot;, &amp;quot;F: 6 necklaces and no bracelets&amp;quot;, &amp;quot;G: No necklaces and 8 bracelets&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;7. An artist is selling children's crafts. Necklaces cost $2.25 each, and bracelets cost $1.50 per each. &lt;strong&gt;Select all&lt;/strong&gt; the combinations of necklaces and bracelets that the artist could sell for exactly $12.00.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 1.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is B, D, G. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q8--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;A: (0,445)&amp;quot;, &amp;quot;B: (0.50,435)&amp;quot;, &amp;quot;E: (172,101)&amp;quot;]" data-solution-options="[&amp;quot;A: (0,445)&amp;quot;, &amp;quot;B: (0.50,435)&amp;quot;, &amp;quot;C: (233,21)&amp;quot;, &amp;quot;D: (118,209)&amp;quot;,&amp;quot;E: (172,101)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;8. Diego is collecting dimes and nickels in a jar. He has collected $22.25 so far. The relationship between the numbers of dimes and nickels, and the amount of money in dollars is represented by the equation \(0.10d+0.05n=22.25\). &lt;strong&gt;Select all&lt;/strong&gt; the values (&lt;em&gt;d&lt;/em&gt;, &lt;em&gt;n&lt;/em&gt;)&amp;nbsp; that could be solutions to the equation.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 1.4.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is A, D, E. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q9--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;B:  c=14 and v=4  and  are a pair of solutions to the equation.&amp;quot;, &amp;quot;C:  If 6 cars go and 11 vans go, there will be extra space.&amp;quot;, &amp;quot;E: If 20 cars go, no vans are needed.&amp;quot;, &amp;quot;F: 8 vans and 8 cars are numbers that meet the constraints in this situation.&amp;quot;]" data-solution-options="[&amp;quot;A:  If 12 cars go, then 2 vans are needed.&amp;quot;, &amp;quot;B:  c=14 and v=4  and  are a pair of solutions to the equation.&amp;quot;, &amp;quot;C:  If 6 cars go and 11 vans go, there will be extra space.&amp;quot;, &amp;quot;D: 10 cars and 8 vans isn’t enough to transport all the students.&amp;quot;, &amp;quot;E: If 20 cars go, no vans are needed.&amp;quot;, &amp;quot;F: 8 vans and 8 cars are numbers that meet the constraints in this situation.&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;9. Volunteer drivers are needed to bring 80 students to the championship baseball game. Drivers either have cars, which can seat 4 students, or vans, which can seat 6 students. The equation \(4c+6v=80\)&amp;nbsp;describes the relationship between the number of cars, &lt;em&gt;c&lt;/em&gt;, and number of vans, &lt;em&gt;v&lt;/em&gt;&amp;nbsp;, that can transport exactly 80 students. &amp;nbsp;&amp;nbsp;&lt;strong&gt;Select all&lt;/strong&gt; statements that are true about the situation.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 1.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is B, C, E, F. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q10a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="7" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;10. The drama club is printing t-shirts for its members. The printing company charges a certain amount for each t-shirt plus a setup fee of $40. There are 21 students in the drama club.&lt;/p&gt;
-            &lt;ol type="a" start="1"&gt;
-                &lt;li&gt;If there are 21 students in the club and the t-shirt order costs a total of $187, how much does each t-shirt cost? &lt;strong&gt;Enter only integers.&lt;/strong&gt;&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 1.4.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 7; \(40+21c=187\rightarrow c=7.\)&amp;nbsp;Each t-shirt costs $7. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Q10b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="65" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;&amp;nbsp;&amp;nbsp;b. The equation \(201.50=f+6.50(21)\);&amp;nbsp;represents the cost of printing the t-shirts at a second printing company. Find the solution to the equation. &lt;strong&gt;Enter only integers&lt;/strong&gt;. &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 1.4.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 65; The cost of printing the t-shirts is $65. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;&lt;/p&gt;
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+        <contents>&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="3" data-schema-version="1.0"&gt;
+&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;!--Q1--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;1. Is \(y = 4/3\) a solution of \(9y + 2 = 6y + 3\)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Work smarter, not harder! Take a moment to think about what you learned in activity 1.4.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q2--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;2. Is \(y = 7/5\) a solution of \(5y + 3 = 10y &amp;minus; 4\)? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don't you go back to activity 1.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q3--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;3. Is \(y = 5/3\) a solution of \(6y + 10 = 12y\)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Work smarter, not harder! Take a moment to think about what you learned in activity 1.4.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?&amp;nbsp; You seem to be stuck.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q4--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;4. Is \(u = &amp;minus;1/2\) a solution of \(8u &amp;minus; 1 = 6u\)? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don't you go back to activity 1.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck.Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q5--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="6"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;5. Tickets to the museum cost $4.50 for children and $9.00 for adults. The equation 63 = 4.5c + 9a represents the total cost for &lt;em&gt;c&lt;/em&gt; children&amp;rsquo;s tickets and &lt;em&gt;a&lt;/em&gt; adult tickets. How many children&amp;rsquo;s tickets were sold if 4 adult tickets were sold? &amp;nbsp;&lt;strong&gt;Enter only integers.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 1.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 6. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q6a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(c = 12.5n-10\)" data-solution-options='["\\(c = 12.5n-10\\)", "\\(c = 10n-12.5\\)", "\\(c = 12.5(n-10)\\)", "\\(c = 12.5(10n)\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;6. T-shirts are on sale for $12.50. Isla has a coupon for $10.00 off. &lt;/p&gt;
+&lt;ol start="1" type="a"&gt;
+&lt;li&gt;Choose the equation that represents the total cost,c, if she buys n t-shirts. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 1.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is c = 12.5n-10. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q6b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="4"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt; &amp;nbsp;&amp;nbsp;b. How many t-shirts can she buy if she spends all of her $40? &lt;strong&gt;Only enter integers.&lt;/strong&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 1.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 4. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q7--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["B: 2 necklaces and 5 bracelets", "D: 4 necklaces and 2 bracelets", "G: No necklaces and 8 bracelets" ]' data-solution-options='["A:  5 necklaces and 1 bracelet", "B: 2 necklaces and 5 bracelets", "C: 3 necklaces and 3 bracelet", "D: 4 necklaces and 2 bracelets", "E: 3 necklaces and 5 bracelets", "F: 6 necklaces and no bracelets", "G: No necklaces and 8 bracelets"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;7. An artist is selling children's crafts. Necklaces cost $2.25 each, and bracelets cost $1.50 per each. &lt;strong&gt;Select all&lt;/strong&gt; the combinations of necklaces and bracelets that the artist could sell for exactly $12.00.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 1.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is B, D, G. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q8--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["A: (0,445)", "B: (0.50,435)", "E: (172,101)"]' data-solution-options='["A: (0,445)", "B: (0.50,435)", "C: (233,21)", "D: (118,209)","E: (172,101)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;8. Diego is collecting dimes and nickels in a jar. He has collected $22.25 so far. The relationship between the numbers of dimes and nickels, and the amount of money in dollars is represented by the equation \(0.10d+0.05n=22.25\). &lt;strong&gt;Select all&lt;/strong&gt; the values (&lt;em&gt;d&lt;/em&gt;, &lt;em&gt;n&lt;/em&gt;)&amp;nbsp; that could be solutions to the equation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 1.4.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is A, D, E. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q9--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["B:  c=14 and v=4  and  are a pair of solutions to the equation.", "C:  If 6 cars go and 11 vans go, there will be extra space.", "E: If 20 cars go, no vans are needed.", "F: 8 vans and 8 cars are numbers that meet the constraints in this situation."]' data-solution-options='["A:  If 12 cars go, then 2 vans are needed.", "B:  c=14 and v=4  and  are a pair of solutions to the equation.", "C:  If 6 cars go and 11 vans go, there will be extra space.", "D: 10 cars and 8 vans isn&amp;rsquo;t enough to transport all the students.", "E: If 20 cars go, no vans are needed.", "F: 8 vans and 8 cars are numbers that meet the constraints in this situation."]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;9. Volunteer drivers are needed to bring 80 students to the championship baseball game. Drivers either have cars, which can seat 4 students, or vans, which can seat 6 students. The equation \(4c+6v=80\)&amp;nbsp;describes the relationship between the number of cars, &lt;em&gt;c&lt;/em&gt;, and number of vans, &lt;em&gt;v&lt;/em&gt;&amp;nbsp;, that can transport exactly 80 students. &amp;nbsp;&amp;nbsp;&lt;strong&gt;Select all&lt;/strong&gt; statements that are true about the situation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 1.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is B, C, E, F. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q10a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="7"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;10. The drama club is printing t-shirts for its members. The printing company charges a certain amount for each t-shirt plus a setup fee of $40. There are 21 students in the drama club.&lt;/p&gt;
+&lt;ol start="1" type="a"&gt;
+&lt;li&gt;If there are 21 students in the club and the t-shirt order costs a total of $187, how much does each t-shirt cost? &lt;strong&gt;Enter only integers.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 1.4.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 7; \(40+21c=187\rightarrow c=7.\)&amp;nbsp;Each t-shirt costs $7. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Q10b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="65"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;&amp;nbsp;&amp;nbsp;b. The equation \(201.50=f+6.50(21)\);&amp;nbsp;represents the cost of printing the t-shirts at a second printing company. Find the solution to the equation. &lt;strong&gt;Enter only integers&lt;/strong&gt;. &lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 1.4.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 65; The cost of printing the t-shirts is $65. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -875,7 +808,7 @@
         <timecreated>1646407842</timecreated>
         <timemodified>1657379625</timemodified>
         <title>1.4.3: Self Check</title>
-        <contents>&lt;p dir="ltr"&gt;Whi&lt;span style="font-size: 0.9375rem;"&gt;ch of the following is a solution (\( x, y \)) to \( 2x + 3y = 7 \)?&lt;/span&gt;&lt;/p&gt;</contents>
+        <contents>&lt;p dir="ltr"&gt;Whi&lt;span&gt;ch of the following is a solution (\( x, y \)) to \( 2x + 3y = 7 \)?&lt;/span&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="193">
@@ -885,7 +818,7 @@
             <flags>0</flags>
             <timecreated>1646407842</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( (2, 1) \)&lt;/p&gt;</answer_text>
+            <answer_text>&lt;p dir="ltr"&gt;\( (2, 1) \)&lt;/p&gt;</answer_text>
             <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: When \(&amp;nbsp;x=2&amp;nbsp;\) and \(&amp;nbsp;y = 1&amp;nbsp;\), \(&amp;nbsp;2(2) + 3(1) = 7&amp;nbsp;\) is a true statement.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
@@ -899,7 +832,7 @@
             <flags>0</flags>
             <timecreated>1646407842</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( (1, 2) \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <answer_text>&lt;p dir="ltr"&gt;\( (1, 2) \)&lt;br&gt;&lt;/p&gt;</answer_text>
             <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Let \( x= 2 \) and \(&amp;nbsp;y =1&amp;nbsp;\). The correct answer is \(&amp;nbsp;(2, 1)&amp;nbsp;\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
@@ -913,7 +846,7 @@
             <flags>0</flags>
             <timecreated>1646407842</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( (4, -1) \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <answer_text>&lt;p dir="ltr"&gt;\( (4, -1) \)&lt;br&gt;&lt;/p&gt;</answer_text>
             <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: When \( x = -2 \)&amp;nbsp;and \(&amp;nbsp;y = 4&amp;nbsp;\), the equation becomes \(&amp;nbsp;2(-2)+3(4)=7&amp;nbsp;\) or \(&amp;nbsp;8=7&amp;nbsp;\), which is not a true statement. The correct answer is \(&amp;nbsp;(2, 1)&amp;nbsp;\).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
@@ -927,7 +860,7 @@
             <flags>0</flags>
             <timecreated>1646407842</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(  (-2, 4) \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <answer_text>&lt;p dir="ltr"&gt;\(  (-2, 4) \)&lt;br&gt;&lt;/p&gt;</answer_text>
             <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-0b56d758-7fff-a25d-2b03-ae0497e818c7" style="font-size: 0.9375rem;"&gt;Incorrect. Let’s try again a different way: When \( x = -2 \)&amp;nbsp;and \(&amp;nbsp;y = 4&amp;nbsp;\), the equation becomes \(&amp;nbsp;2(-2)+3(4)=7&amp;nbsp;\) or \(&amp;nbsp;8=7&amp;nbsp;\), which is not a true statement. The correct answer is \(&amp;nbsp;(2, 1)&amp;nbsp;\).&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
@@ -941,8 +874,8 @@
             <flags>0</flags>
             <timecreated>1646407842</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -962,71 +895,58 @@
         <timecreated>1646413867</timecreated>
         <timemodified>1656532552</timemodified>
         <title>1.4.3: Finding the Solution to an Equation in Two Variables</title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;
+        <contents>&lt;p dir="ltr"&gt;&lt;/p&gt;
 &lt;h4&gt;Activity&lt;/h4&gt;
 &lt;p&gt;One gram of protein contains 4 calories. One gram of fat contains 9 calories. A snack has 60 calories from&amp;nbsp;\( p \)&amp;nbsp;grams of protein and&amp;nbsp;\( f \)&amp;nbsp;grams of fat.&lt;/p&gt;
 &lt;p&gt;The equation&amp;nbsp;\( 4p+9f = 60 \)&amp;nbsp;represents the relationship between these quantities.&lt;/p&gt;
-&lt;p style="font-size: 0.9375rem; display: inline !important;"&gt;
-
-
-
+&lt;p&gt;
 &lt;/p&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
         1. Determine if each pair of values could be the number of grams of protein and fat in the snack. Be prepared to explain your reasoning.&lt;br&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;div class="editor-indent" style="margin-left: 30px;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;a. 5 grams of protein and 2 grams of fat&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;b. 10.5 grams of protein and 2 grams of fat&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;c. 8 grams of protein and 4 grams of fat&lt;/span&gt;&lt;/div&gt;&lt;span style=""&gt;
-        &lt;/span&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p style=""&gt;&lt;span style="font-size: 0.9375rem;"&gt;Check your answers:&lt;/span&gt;&lt;/p&gt;
-        &lt;p style=""&gt;a.&lt;span style="white-space:pre"&gt; &lt;/span&gt;No&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;b.&lt;/span&gt;&lt;span style="font-size: 0.9375rem; white-space: pre;"&gt; &lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;Yes&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;c.&lt;/span&gt;&lt;span style="font-size: 0.9375rem; white-space: pre;"&gt; &lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;No&lt;/span&gt;&lt;/p&gt;
-
-    &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class="editor-indent"&gt;&lt;span&gt;a. 5 grams of protein and 2 grams of fat&lt;br&gt;&lt;/span&gt;&lt;span&gt;b. 10.5 grams of protein and 2 grams of fat&lt;br&gt;&lt;/span&gt;&lt;span&gt;c. 8 grams of protein and 4 grams of fat&lt;/span&gt;&lt;/div&gt;&lt;span&gt;
+&lt;/span&gt;
 &lt;/div&gt;
-
-
-
-
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;&lt;span&gt;Check your answers:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;a.&lt;span&gt; &lt;/span&gt;No&lt;br&gt;&lt;span&gt;b.&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Yes&lt;br&gt;&lt;/span&gt;&lt;span&gt;c.&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;No&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;br&gt;
-
-
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
         2. If there are 6 grams of fat in the snack, how many grams of protein are there? Show your reasoning.
     &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        Compare your answer:&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;1.5 grams. Sample reasoning: \(4p+9(6)=60\), so \( p \) must be 1.5 for the equation to be true.&lt;/span&gt;
-        &lt;p&gt;&lt;/p&gt;
-
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+        Compare your answer:&lt;br&gt;&lt;span&gt;1.5 grams. Sample reasoning: \(4p+9(6)=60\), so \( p \) must be 1.5 for the equation to be true.&lt;/span&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
         3. In this situation, what does a solution to the equation&amp;nbsp;\( 4p+9f = 60 \)&amp;nbsp;tell us? Give an example of a solution.&lt;br&gt;&lt;br&gt;
-
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;Sample response: It means a pair of grams of protein and fat in the snack that add up to 60 calories. An example: 6 grams of protein and 4 grams of fat.&lt;/span&gt;&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;br&gt;&lt;span&gt;Sample response: It means a pair of grams of protein and fat in the snack that add up to 60 calories. An example: 6 grams of protein and 4 grams of fat.&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;h4&gt;Video: Working Through the Equation&lt;/h4&gt;
 &lt;p&gt;Watch the following video to learn more about how to determine a solution to this particular equation:&amp;nbsp;\( 4p+9f=60 \).&lt;/p&gt;
 &lt;video controls="true" crossorigin="anonymous"&gt;
-    &lt;source src="https://k12.openstax.org/contents/raise/resources/ce9b7554a5f6c2231ff7bae0a6c1e09f8ad55e39"&gt;
-    &lt;track src="https://k12.openstax.org/contents/raise/resources/92159e35ce10b76ecda963022a98325d7722afac " kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/ce9b7554a5f6c2231ff7bae0a6c1e09f8ad55e39
+&lt;source src="https://k12.openstax.org/contents/raise/resources/ce9b7554a5f6c2231ff7bae0a6c1e09f8ad55e39"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/92159e35ce10b76ecda963022a98325d7722afac " srclang="en_us"&gt;https://k12.openstax.org/contents/raise/resources/ce9b7554a5f6c2231ff7bae0a6c1e09f8ad55e39
 &lt;/video&gt;
 &lt;p&gt;&lt;/p&gt;&lt;br&gt;
 &lt;p&gt;&lt;/p&gt;</contents>
@@ -1077,44 +997,35 @@
         <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
 &lt;p&gt;An empty shipping box weighs 250 grams. The box is then filled with T-shirts. Each T-shirt weighs 132.5 grams.&lt;/p&gt;
 &lt;p&gt;The equation&amp;nbsp;\( W = 250 + 132.5T \)&amp;nbsp;represents the relationship between the quantities in this situation, where&amp;nbsp;\( W \)&amp;nbsp;is the weight, in grams, of the filled box and&amp;nbsp;\( T \) is the number of shirts in the box.&lt;/p&gt;
-
-
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
         1. Name two possible solutions to the equation&amp;nbsp;\( W = 250 + 132.5T \). What do the solutions mean in this situation?
     &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
         Enter your answer here:
     &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
-        &lt;p&gt;Sample response:&lt;/p&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;\( T=2 \)&amp;nbsp;and \(&amp;nbsp;W=515&amp;nbsp;\)&lt;/li&gt;
-            &lt;li&gt;\(&amp;nbsp;T=10&amp;nbsp;\) and \(&amp;nbsp;W=1,575&amp;nbsp;\)&lt;/li&gt;
-            &lt;li&gt;Each solution tells us the number of T-shirts in the box and the corresponding total weight in grams.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Sample response:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\( T=2 \)&amp;nbsp;and \(&amp;nbsp;W=515&amp;nbsp;\)&lt;/li&gt;
+&lt;li&gt;\(&amp;nbsp;T=10&amp;nbsp;\) and \(&amp;nbsp;W=1,575&amp;nbsp;\)&lt;/li&gt;
+&lt;li&gt;Each solution tells us the number of T-shirts in the box and the corresponding total weight in grams.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
-
-
-
+&lt;/div&gt;
 &lt;br&gt;
-
-
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
         2. Consider the equation&amp;nbsp;\( 2,\!900 = 250 + 132.50T \). In this situation, what does the solution to this equation tell us? &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
         Enter your answer here:
     &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
-        &lt;p&gt;It tells us the number of T-shirts in the box that results in a total weight of 2,900 grams.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;It tells us the number of T-shirts in the box that results in a total weight of 2,900 grams.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1165,71 +1076,65 @@
 &lt;p id="fs-id1168345252532"&gt;Suppose Tyler spends $45 on T-shirts and socks. A T-shirt costs $10, and a pair of socks costs $2.50. If&amp;nbsp;\( 𝑡 \) represents the number of T-shirts and&amp;nbsp;\( 𝑝 \) represents the number of pairs of socks that Tyler buys, we can can represent this situation with the equation:&lt;/p&gt;
 &lt;p id="fs-id1168345252532"&gt;\( 10t+2.50p=45 \)&lt;br&gt;&lt;/p&gt;
 &lt;p id="fs-id1168345252532"&gt;This is an equation in two variables. More than one pair of values for \( t \) and \( p \) make the equation true.&lt;/p&gt;
-&lt;p id="fs-id1168345252532"&gt;\(&amp;nbsp;t=3&amp;nbsp;\) and \(&amp;nbsp;p=6&amp;nbsp;\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;10(3)+2.50(6)=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;30+15=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;45=45&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
-&lt;p id="fs-id1168345252532"&gt;\(&amp;nbsp;t=4&amp;nbsp;\) and \(&amp;nbsp;p=2&amp;nbsp;\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;10(4)+2.50(2)=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;40+5=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;45=45&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
-&lt;p id="fs-id1168345252532"&gt;\(&amp;nbsp;t=2&amp;nbsp;\) and \(&amp;nbsp;p=10&amp;nbsp;\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;10(2)+2.50(10)=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;20+25=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;45=45&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p id="fs-id1168345252532"&gt;\(&amp;nbsp;t=3&amp;nbsp;\) and \(&amp;nbsp;p=6&amp;nbsp;\)&lt;br&gt;&lt;span&gt;\(&amp;nbsp;10(3)+2.50(6)=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span&gt;\(&amp;nbsp;30+15=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span&gt;\(&amp;nbsp;45=45&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p id="fs-id1168345252532"&gt;\(&amp;nbsp;t=4&amp;nbsp;\) and \(&amp;nbsp;p=2&amp;nbsp;\)&lt;br&gt;&lt;span&gt;\(&amp;nbsp;10(4)+2.50(2)=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span&gt;\(&amp;nbsp;40+5=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span&gt;\(&amp;nbsp;45=45&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;p id="fs-id1168345252532"&gt;\(&amp;nbsp;t=2&amp;nbsp;\) and \(&amp;nbsp;p=10&amp;nbsp;\)&lt;br&gt;&lt;span&gt;\(&amp;nbsp;10(2)+2.50(10)=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span&gt;\(&amp;nbsp;20+25=45&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span&gt;\(&amp;nbsp;45=45&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
 &lt;p id="fs-id1168345252532"&gt;In this situation, one constraint is that the combined cost of shirts and socks must equal $45. Solutions to the equation are pairs of \(&amp;nbsp;t&amp;nbsp;\) and \(&amp;nbsp;p&amp;nbsp;\) values that satisfy this constraint.&lt;/p&gt;
-&lt;p id="fs-id1168345252532"&gt;Combinations such as \(&amp;nbsp;t=1&amp;nbsp;\) and \(&amp;nbsp;p=10&amp;nbsp;\) or \(&amp;nbsp;t=2&amp;nbsp;\) and \(&amp;nbsp;p=7&amp;nbsp;\) are not solutions because they don’t meet the constraint. When these pairs of values are substituted into the equation, they result in statements that are false.&lt;/p&gt;
+&lt;p id="fs-id1168345252532"&gt;Combinations such as \(&amp;nbsp;t=1&amp;nbsp;\) and \(&amp;nbsp;p=10&amp;nbsp;\) or \(&amp;nbsp;t=2&amp;nbsp;\) and \(&amp;nbsp;p=7&amp;nbsp;\) are not solutions because they don&amp;rsquo;t meet the constraint. When these pairs of values are substituted into the equation, they result in statements that are false.&lt;/p&gt;
 &lt;h4&gt;Try It: Solutions to Equations in Two Variables&lt;/h4&gt;
 &lt;p id="fs-id1168345252532"&gt;Is \( a = 3 \) and&amp;nbsp;\( b = 5 \) a solution to \( 6a -3b = 3 \)?&lt;/p&gt;
 &lt;p id="fs-id1168345252532"&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-
-
-
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="eventShow1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
 &lt;/div&gt;
-
-&lt;div class="os-raise-ib-content" data-wait-for-event="eventShow1" data-schema-version="1.0"&gt;
-    &lt;p id="fs-id1168345252532"&gt;Here is how to check the solution to the equation in two variables.&lt;/p&gt;
-    &lt;div align="left"&gt;
-        &lt;table height="151" border="1" cellpadding="5" style="border-collapse: collapse; width: 534px; height: 151px;"&gt;
-            &lt;colgroup&gt;
-                &lt;col style="width: 347px;"&gt;
-                &lt;col style="width: 185px;"&gt;
-            &lt;/colgroup&gt;
-            &lt;tbody&gt;
-                &lt;tr&gt;
-                    &lt;td&gt;
-                        &lt;p&gt;Original Equation&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td&gt;
-                        &lt;p&gt;\( 6a -3b = 3 \)&lt;br&gt;&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td&gt;
-                        &lt;p&gt;Substitute \( a =3 \) and \( b=5 \) into the original equation.&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td&gt;
-                        &lt;p&gt;\(&amp;nbsp;6(3) -3(5) = 3&amp;nbsp;\)&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td&gt;
-                        &lt;p&gt;Simplify.&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td&gt;
-                        &lt;p&gt;\(&amp;nbsp;18-15 = 3&amp;nbsp;\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;3 = 3&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr style="height: 21pt;"&gt;
-                    &lt;td colspan="2"&gt;
-                        &lt;p&gt;This statement is true! So, \(&amp;nbsp;a =3&amp;nbsp;\) and \(&amp;nbsp;b=5&amp;nbsp;\) is a solution to \(&amp;nbsp;6a -3b = 3&amp;nbsp;\).&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-            &lt;/tbody&gt;
-        &lt;/table&gt;&lt;br&gt;
-    &lt;/div&gt;
-    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
-                   
-       
-    &lt;/div&gt;</contents>
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="eventShow1"&gt;
+&lt;p id="fs-id1168345252532"&gt;Here is how to check the solution to the equation in two variables.&lt;/p&gt;
+&lt;div align="left"&gt;
+&lt;table border="1" cellpadding="5" height="151"&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Original Equation&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;\( 6a -3b = 3 \)&lt;br&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Substitute \( a =3 \) and \( b=5 \) into the original equation.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;\(&amp;nbsp;6(3) -3(5) = 3&amp;nbsp;\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Simplify.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;\(&amp;nbsp;18-15 = 3&amp;nbsp;\)&lt;br&gt;&lt;span&gt;\(&amp;nbsp;3 = 3&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;This statement is true! So, \(&amp;nbsp;a =3&amp;nbsp;\) and \(&amp;nbsp;b=5&amp;nbsp;\) is a solution to \(&amp;nbsp;6a -3b = 3&amp;nbsp;\).&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="208">
@@ -1277,63 +1182,59 @@
         <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;Explain what it means for a value or pair of values to be a solution to an equation.&lt;/li&gt;
-    &lt;li&gt;Find solutions to equations by reasoning about a situation or by using algebra.&lt;/li&gt;
+&lt;li&gt;Explain what it means for a value or pair of values to be a solution to an equation.&lt;/li&gt;
+&lt;li&gt;Find solutions to equations by reasoning about a situation or by using algebra.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Here are the &lt;strong&gt;activities &lt;/strong&gt;that helped you reach those goals:&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;1.4.1: Finding the Solution to an Equation in One Variable, Part 1&amp;nbsp;&lt;ul&gt;
-            &lt;li&gt;In this activity, you began to determine if a value was a solution to a given one-variable equation and identified what the solution could mean. For a value to be a solution to an equation, it must make the equation true.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;1.4.2: Writing Equations to Represent Constraints&lt;ul&gt;
-            &lt;li&gt;In this activity, you wrote equations from situations given the constraints of the problem.&amp;nbsp;&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;1.4.2: Self Check&amp;nbsp;&lt;/li&gt;
-    &lt;li&gt;1.4.3: Finding the Solution to an Equation in Two Variables&lt;ul&gt;
-            &lt;li&gt;In this activity, you were able to find the solution to an equation with two variables, given the solution to one of the variables.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;1.4.3: Self Check&amp;nbsp;&lt;/li&gt;
-    &lt;li&gt;1.4.4: Finding the Solution to an Equation in One Variable, Part 2&lt;ul&gt;
-            &lt;li&gt;In this activity, you worked to find multiple solutions to equations and identified what the solutions mean in this situation.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
+&lt;li&gt;1.4.1: Finding the Solution to an Equation in One Variable, Part 1&amp;nbsp;&lt;ul&gt;
+&lt;li&gt;In this activity, you began to determine if a value was a solution to a given one-variable equation and identified what the solution could mean. For a value to be a solution to an equation, it must make the equation true.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.4.2: Writing Equations to Represent Constraints&lt;ul&gt;
+&lt;li&gt;In this activity, you wrote equations from situations given the constraints of the problem.&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.4.2: Self Check&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;1.4.3: Finding the Solution to an Equation in Two Variables&lt;ul&gt;
+&lt;li&gt;In this activity, you were able to find the solution to an equation with two variables, given the solution to one of the variables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.4.3: Self Check&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;1.4.4: Finding the Solution to an Equation in One Variable, Part 2&lt;ul&gt;
+&lt;li&gt;In this activity, you worked to find multiple solutions to equations and identified what the solutions mean in this situation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;1.4.5: Practice&lt;/li&gt;
+&lt;li&gt;1.4.5: Practice&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Checking In&amp;nbsp;&lt;/h4&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
-	
-	&lt;!--Q1--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
-        &lt;/div&gt;
-        
-    &lt;/div&gt;
-	
-	&lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
-	
-	  &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Submit" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--Q1--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution data-solution-options='["1 - I&amp;rsquo;m totally lost!", "2 - I could use some more help.", "3 - I mostly understand.", "4 - I can do it.","5 - I&amp;rsquo;ve got this!"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;If you&amp;rsquo;ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
