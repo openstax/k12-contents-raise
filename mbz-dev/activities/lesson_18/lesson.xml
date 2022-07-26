@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="14" moduleid="18" modulename="lesson" contextid="29">
+  <lesson id="14">
+    <course>2</course>
+    <name>Lesson 1.6 Teacher Guide: Equivalent Equations</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>1</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1657036588</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="115">
+        <prevpageid>0</prevpageid>
+        <nextpageid>116</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646085188</timecreated>
+        <timemodified>1656521413</timemodified>
+        <title>1.6.0: Lesson Overview</title>
+        <contents>&lt;h3&gt;Lesson Narrative&amp;nbsp;&lt;/h3&gt;
+&lt;p dir="ltr"&gt;In middle school, students learned that two expressions are equivalent if they have the same value for all values of the variables in the expressions. They wrote equivalent expressions by applying properties of operations, combining like terms, or rewriting parts of an expression.&lt;/p&gt;
+&lt;p dir="ltr"&gt;In this lesson, students learn that equivalent equations are equations with identical solutions. Students see that the moves that generate equivalent expressions (for example, applying the distributive property or combining like terms) can also create equivalent equations. Additionally, an equivalent equation can be created by adding the same number to both sides or multiplying both sides by the same non-zero number. Students have seen moves like this before, when solving one-variable equations in middle school. What is new here is an awareness that each of the equations created as a part of the solving process is equivalent to the original equation.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Students also regard equivalent equations as synonymous statements about a relationship. They use context to interpret the solution to equivalent equations and to think about why it makes sense that equivalent equations have the same solution. In doing so, students reason abstractly and quantitatively.&lt;/p&gt;
+&lt;p dir="ltr"&gt;The emphasis of this lesson is on equations in one variable. Students will have many opportunities to study equivalent equations in two variables in future lessons.&lt;/p&gt;
+&lt;h3&gt;Learning Goals (Teacher Facing)&amp;nbsp;&lt;/h3&gt;
+&lt;p dir="ltr"&gt;Students will be able to:&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Comprehend that “equivalent equations” are equations that have identical solutions and that multiple equivalent equations can represent the same relationship.&lt;/li&gt;
+    &lt;li&gt;Determine and explain (orally and in writing) whether two equations are equivalent.&lt;/li&gt;
+    &lt;li&gt;Identify operations that can be performed on an equation to create equivalent equations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Learning Targets (Student Facing)&amp;nbsp;&lt;/h3&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Tell whether two expressions are equivalent and explain why or why not.&lt;/li&gt;
+    &lt;li&gt;Identify the moves that can be made to transform an equation into an equivalent one.&lt;/li&gt;
+    &lt;li&gt;Explain what it means for two equations to be equivalent and how equivalent equations can be used to describe the same situation in different ways.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Texas Essential Knowledge and Skills (TEKS)&amp;nbsp;&lt;/h3&gt;
+&lt;table border="1" cellpadding="5" style="border-collapse: collapse; width: 100%; height: 72px;"&gt;
+    &lt;tbody&gt;
+        &lt;tr style="height: 18px;"&gt;
+            &lt;td style="text-align: center; width: 49.9369%; height: 18px;"&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style="text-align: center; width: 49.9369%; height: 18px;"&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 18px;"&gt;
+            &lt;td style="text-align: left; width: 49.9369%; height: 18px;"&gt;A5(A) &lt;u&gt;solve linear equations in one variable&lt;/u&gt;, including those for which the application of the distributive property is necessary and for which variables are included on both sides;&lt;/td&gt;
+            &lt;td style="text-align: left; width: 49.9369%; height: 18px;"&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 18px;"&gt;
+            &lt;td style="text-align: left; width: 49.9369%; height: 18px;"&gt;A12(E) solve mathematic and scientific formulas, and other literal equations, for a specified variable.&lt;/td&gt;
+            &lt;td style="text-align: left; width: 49.9369%; height: 18px;"&gt;Foundational: Lesson provides foundational content necessary for students to be able to perform this TEKS in later lessons.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 18px;"&gt;
+            &lt;td style="text-align: left; width: 49.9369%; height: 18px;"&gt;A5(C) solve systems of two linear equations with two variables for mathematical and real-world problems.&lt;/td&gt;
+            &lt;td style="text-align: left; width: 49.9369%; height: 18px;"&gt;Foundational: Lesson provides foundational content necessary for students to be able to perform this TEKS in later lessons.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;&lt;span style="font-size: 1.40625rem;"&gt;Lesson Activities&lt;/span&gt;&lt;/h3&gt;
+&lt;p dir="ltr"&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;1.6.1: Exploring Equivalent Expressions&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;1.6.2: Expressing Relationships as Equations&lt;ul&gt;
+            &lt;li&gt;1.6.2: Self Check&lt;/li&gt;
+            &lt;li&gt;1.6.2: Additional Resources&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;1.6.3: Exploring Related Equations&amp;nbsp;&lt;ul&gt;
+            &lt;li&gt;1.6.3: Self Check&amp;nbsp;&lt;/li&gt;
+            &lt;li&gt;1.6.3: Additional Resources&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;1.6.4: Recognizing Related Equations&lt;/li&gt;
+&lt;/ul&gt; &lt;span style="white-space:pre"&gt;&lt;/span&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Students will also complete a series of problems in the 1.6.5: Practice.&lt;/p&gt;
+&lt;h3&gt;Required Materials&lt;/h3&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Required Preparation&lt;/h3&gt;
+&lt;p dir="ltr"&gt;N/A&lt;/p&gt;
+&lt;h3&gt;Lesson Vocabulary&lt;/h3&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;During this lesson, it is important to:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings.&lt;/li&gt;
+    &lt;li&gt;Encourage students to use key vocabulary words in “math talk” and their written and oral explanations.&lt;/li&gt;
+    &lt;li&gt;Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt; &lt;span style="white-space:pre"&gt;&lt;/span&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;p dir="ltr"&gt;Vocabulary words that are emphasized in this lesson include:&lt;/p&gt;
+&lt;strong&gt;Previous Vocabulary:&lt;/strong&gt;
+&lt;ul&gt;
+    &lt;li&gt;equation&lt;/li&gt;
+    &lt;li&gt;expression&lt;/li&gt;
+    &lt;li&gt;variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;strong&gt;New Vocabulary:&lt;/strong&gt;
+&lt;ul&gt;
+    &lt;li&gt;equivalent equations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Support for Building Character&lt;/h3&gt;
+&lt;p dir="ltr"&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;social intelligence&lt;/strong&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/trinity-of-healthy-relationships/" target="_blank"&gt;The Holy Trinity of Healthy Relationships&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/v-for-vulnerability/" target="_blank"&gt;V is for Vulnerability&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt; &lt;span style="white-space:pre"&gt;&lt;/span&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p dir="ltr"&gt;You can find other tips located here in the &lt;a href="https://characterlab.org/playbooks/social-intelligence/" target="_blank"&gt;Playbook on Social Intelligence&lt;/a&gt; from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="252">
+            <jumpto>116</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646085188</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="116">
+        <prevpageid>115</prevpageid>
+        <nextpageid>117</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646087682</timecreated>
+        <timemodified>1656521400</timemodified>
+        <title>1.6.1: Exploring Equivalent Expressions </title>
+        <contents>&lt;h2&gt;Warm-Up (5 minutes)&lt;/h2&gt;
+
+&lt;div class="body"&gt;
+    &lt;p&gt;The purpose of this warm-up is to help students recall what it means for two expressions to be equivalent. The given expressions are in forms that are unfamiliar to students but are not difficult to evaluate for integer values of the variable. This is by design—to pique students’ curiosity while keeping the mathematics accessible.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3&gt;Launch&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;Assign the first expression to one half of the class and the second expression to the other half. Give students a couple of minutes to evaluate their assigned expression for the values of &lt;span class="math math-repaired"&gt;\( n \)&lt;/span&gt;&amp;nbsp;listed in the first question.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3&gt;Student-Facing Statement&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;Your teacher will assign you one of these expressions:&lt;/p&gt;
+
+    &lt;p&gt;&lt;span class="math-displayed"&gt;&lt;span class="math"&gt;\( \dfrac {n^2 - 9}{2(4-3)}\qquad \text{or} \qquad (n+3)\cdot \dfrac {n-3}{8-3\cdot2} \)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;Evaluate your expression when &lt;span class="math"&gt;\( n \)&lt;/span&gt; is:&lt;/p&gt;
+
+    &lt;ol type="a"&gt;
+        &lt;li&gt;5&lt;/li&gt;
+        &lt;li&gt;7&lt;/li&gt;
+        &lt;li&gt;13&lt;/li&gt;
+        &lt;li&gt;–1&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+&lt;h3&gt;Student Response&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;For both expressions, the values are:&lt;/p&gt;
+
+    &lt;ol type="a"&gt;
+        &lt;li&gt;8&lt;/li&gt;
+        &lt;li&gt;20&lt;/li&gt;
+        &lt;li&gt;80&lt;/li&gt;
+        &lt;li&gt;–4&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+&lt;h3&gt;Anticipated Misconceptions&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;When evaluating their expression, some students may perform the operations in an incorrect order. For example, when finding the value of &lt;span class="math math-repaired"&gt;\( 8-3\cdot 2 \)&lt;/span&gt; in the second expression, they may find &lt;span class="math math-repaired"&gt;\( 8-3 \)&lt;/span&gt; and then multiply by 2. Ask them whether the subtraction or multiplication should be performed first. Remind them about the order of operations as needed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3&gt;Activity Synthesis&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;Ask a few students from each group for their results. Then, ask students what they wonder about the results. Students are likely curious if the values of the two expressions will be the same for other values of &lt;span class="math math-repaired"&gt;\( n \)&lt;/span&gt;. If they noticed that all the given values of &lt;span class="math math-repaired"&gt;\( n \)&lt;/span&gt; are odd numbers, they might wonder if even values of &lt;span class="math math-repaired"&gt;\( n \)&lt;/span&gt; would give the same result. If time permits, consider allowing students to try evaluating the expressions using a value of their choice.&lt;/p&gt;
+
+    &lt;p&gt;Discuss questions such as:&lt;/p&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;“Were you surprised that these expressions have the same result for different values of &lt;span class="math math-repaired"&gt;\( n \)&lt;/span&gt;?”&lt;/li&gt;
+        &lt;li&gt;“If (or when) you tried using other values of &lt;span class="math math-repaired"&gt;\( n \)&lt;/span&gt;, what did you find?”&lt;/li&gt;
+        &lt;li&gt;“Do you think that the two expressions will have the same value no matter what value of &lt;span class="math math-repaired"&gt;\( n \)&lt;/span&gt; is used? How do you know?”&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;Tell students that it would be impossible to check every value of &lt;span class="math math-repaired"&gt;\( n \)&lt;/span&gt; to see if the expressions would give the same value. There are, however, ways to show that these expressions must have the same value for any value of &lt;span class="math math-repaired"&gt;\( n \)&lt;/span&gt;. We call expressions that are equal no matter what value we use for the variable &lt;span&gt;&lt;span style=""&gt;&lt;em&gt;equivalent expressions&lt;/em&gt;&lt;/span&gt;&lt;em style=""&gt;.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span&gt;Remind students that in m&lt;/span&gt;iddle school they had seen simpler equivalent expressions. For example, they know that &lt;span class="math math-repaired"&gt;\( 3(x + 5) \)&lt;/span&gt; is equivalent to &lt;span class="math math-repaired"&gt;\( 3x + 15 \)&lt;/span&gt; by the distributive property (without trying different values of &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt;).&lt;/p&gt;
+
+    &lt;p&gt;Explain to students that they’ll learn more about how to identify or write equivalent expressions and about equivalent equations in this unit.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="student-summary"&gt;
+    &lt;div class="body"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="254">
+            <jumpto>115</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646087682</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="255">
+            <jumpto>117</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646087682</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="117">
+        <prevpageid>116</prevpageid>
+        <nextpageid>118</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1652663643</timecreated>
+        <timemodified>1656814618</timemodified>
+        <title>1.6.2: Expressing Relationships as Equations</title>
+        <contents>&lt;h2&gt;Activity (15 minutes)&lt;/h2&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;In this activity, students examine simple relationships that can each be expressed with many equations. Writing multiple equations for the same relationship and doing so in context prepares students to later consider more rigorously what makes equations equivalent.&lt;/p&gt;
+
+    &lt;p&gt;As students write equations for the first relationship, identify students who use all numbers and those who use both numbers and variables.&lt;/p&gt;
+
+    &lt;p&gt;For the second question, students may explain Tyler’s claim concretely (using values of &lt;span class="math math-repaired"&gt;\( m \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;) or more abstractly (using the structure of the equations). For instance, they may reason that:&lt;/p&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;When the middle child is 12, the youngest child is 7, and substituting &lt;span class="math math-repaired"&gt;\( m=12 \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( y=7 \)&lt;/span&gt; to &lt;span class="math math-repaired"&gt;\( 2m-2y \)&lt;/span&gt; gives &lt;span class="math math-repaired"&gt;\( 2(12) - 2(7) \)&lt;/span&gt; or &lt;span class="math math-repaired"&gt;\( 24 - 14 \)&lt;/span&gt;, which is 10. At all other ages of the two children, the expression &lt;span class="math math-repaired"&gt;\( 2m-2y \)&lt;/span&gt; always has a value of 10.&lt;/li&gt;
+        &lt;li&gt;
+            &lt;span class="math math-repaired"&gt;\( 2m-2y=10 \)&lt;/span&gt; is twice&amp;nbsp;&lt;span class="math math-repaired"&gt;\( m-y=5 \)&lt;/span&gt;. If the difference between &lt;span class="math math-repaired"&gt;\( m \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; is 5, then twice the difference between &lt;span class="math math-repaired"&gt;\( m \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; must be twice 5, which is 10, so the two equations are still describing the same relationship.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;Identify students who reason in these ways so they can share later.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3&gt;Launch&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;Give students a couple of minutes to answer the first question and ask them to pause for a discussion before moving on.&lt;/p&gt;
+
+    &lt;p&gt;Invite students to share their equations. Record and display the equations for all to see. Along the way, consider organizing them into categories (numerical equations, equations in one variable, and equations in two variables).&lt;/p&gt;
+
+    &lt;p&gt;Solicit from students some thoughts on the following questions. (It is not necessary to resolve the questions at the moment.)&lt;/p&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;“Consider the equations you wrote for each situation. Are they all equivalent? Why or why not?”&lt;/li&gt;
+        &lt;li&gt;“What do you think it means for two equations to be equivalent?”&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;Some students might say that each equation accurately represents the same relationship between the ages, so the equations must be equivalent. Those who wrote variable equations might say that the equations are equivalent because the same value for the variable makes each equation true. &lt;/p&gt;
+
+    &lt;p&gt;After students have had a chance to consider these questions, prompt them to complete the remaining questions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3&gt;Student-Facing Statement&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;p style="font-size: 0.9375rem; display: inline !important;"&gt;1. Write as many equations as possible that could represent the relationship between the ages of the two children in each family described. Be prepared to explain what each part of your equation represents.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+    &lt;div&gt;
+        &lt;div class="main"&gt;
+            &lt;div class="activities"&gt;
+                &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;a. In Family A, the youngest child is 7 years younger than the oldest, who is 18.&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;div class="main"&gt;
+            &lt;div class="activities"&gt;
+                &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;b. In Family B, the middle child is 5 years older than the youngest child.&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;div class="main"&gt;
+        &lt;div class="activities"&gt;
+            &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;
+            &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;2. Tyler thinks that the relationship between the ages of the children in Family B can be described with &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( 2m - 2y = 10 \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;, where &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( m \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt; is the age of the middle child and &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( y \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt; the age of the youngest. Explain why Tyler is right.&lt;/span&gt;&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;
+            &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;3. Are any of these equations &lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;equivalent&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt; to one another? If so, which ones? Explain your reasoning.&lt;/span&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+    &lt;div&gt;
+        &lt;div class="main"&gt;
+            &lt;div class="activities"&gt;
+                &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( 3a + 6 = 15 \)&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;div class="main"&gt;
+            &lt;div class="activities"&gt;
+                &lt;div class="body"&gt;
+                    &lt;div class="imgrid" style="font-size: 0.9375rem;"&gt;
+                        &lt;div class="g--row g--row-1"&gt;
+                            &lt;div class="g--col-1 g--column g--content g--one-fourth g--row-1"&gt;
+                                &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( 3a = 9 \)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( a + 2 = 5 \)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( \frac 13a = 1 \)&lt;/span&gt;&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;div class="main"&gt;
+        &lt;div class="activities"&gt;
+            &lt;div class="body"&gt;
+                &lt;div class="imgrid" style="font-size: 0.9375rem;"&gt;
+                    &lt;div class="g--row g--row-1"&gt;
+                        &lt;div class="g--col-1 g--column g--content g--one-fourth g--row-1"&gt;
+                            &lt;h4&gt;&lt;span style="font-size: 0.9375rem;"&gt;
+                                    &lt;h3&gt;Student Response&lt;/h3&gt;
+                                &lt;/span&gt;&lt;/h4&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;ol&gt;
+                &lt;/ol&gt;
+                &lt;p&gt; &lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="body"&gt;1. Answers:&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+    &lt;div&gt;
+        &lt;div class="main"&gt;
+            &lt;div class="activities"&gt;
+                &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;a. Sample responses:&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;div class="main"&gt;
+        &lt;div class="activities"&gt;
+            &lt;div class="body"&gt;
+                &lt;ul&gt;
+                    &lt;ul&gt;
+                        &lt;ul&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( 18 - 7 = 11 \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;, where 11 is age of the youngest child.&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( 11 + 7 = 18 \)&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( 18 - 11 = 7 \)&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( 18 - 7 = a \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;, where &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( a \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt; is the age of the youngest child.&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( a + 7 = 18 \)&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( 18 - a = 7 \)&lt;/span&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/ul&gt;
+                    &lt;/ul&gt;
+
+
+
+
+
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+    &lt;div&gt;
+        &lt;div class="main"&gt;
+            &lt;div class="activities"&gt;
+                &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;b. Sample responses:&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;div class="main"&gt;
+        &lt;div class="activities"&gt;
+            &lt;div class="body"&gt;
+                &lt;ul&gt;
+                    &lt;ul&gt;
+                        &lt;ul&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( y = m - 5 \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;, where &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( m \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt; is the age of the middle child and &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( y \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt; the age of the youngest.&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( y + 5 = m \)&lt;/span&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( m - y = 5 \)&lt;/span&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/ul&gt;
+                    &lt;/ul&gt;
+
+
+                &lt;/ul&gt;
+                &lt;div class="body"&gt;2. The equation&amp;nbsp;\( m=y+5 \) represents the relationship of their ages, where \(m\) is the age of the middle child and \(&amp;nbsp;y&amp;nbsp;\) the age of the youngest. Subtracting \(&amp;nbsp;y&amp;nbsp;\) from both sides and multiplying both sides by 2 results in the equation: \(&amp;nbsp;2m−2y=10&amp;nbsp;\).&lt;/div&gt;
+                &lt;div class="body"&gt;&lt;br&gt;&lt;/div&gt;
+                &lt;div class="body"&gt;3. All of the equations are equivalent. Sample reasoning:&lt;/div&gt;
+                &lt;div class="body"&gt;
+                    &lt;ul&gt;
+                        &lt;ul&gt;
+                            &lt;ul&gt;
+                                &lt;ul&gt;
+                                    &lt;li&gt;They are all true when \(&amp;nbsp;a=3&amp;nbsp;\). They are also all not true when \(&amp;nbsp;a&amp;nbsp;\) is not 3.&lt;/li&gt;
+                                    &lt;li&gt;We can perform the same operation to both sides of one equation and get another equation.&amp;nbsp;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/ul&gt;
+                        &lt;/ul&gt;
+
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;ol&gt;
+                &lt;/ol&gt;
+            &lt;/div&gt;
+            &lt;h3&gt;Student-Facing Extension&lt;/h3&gt;
+            &lt;h4&gt;Are you ready for more?&lt;/h4&gt;
+            &lt;div class="body"&gt;
+                &lt;p&gt;Here is a puzzle:&lt;/p&gt;
+
+                &lt;p&gt;&lt;span class="math"&gt;\( \begin {align} m + m &amp;amp;= N\\ N + N &amp;amp;= p\\ m + p &amp;amp;= Q\\ p + Q &amp;amp;= \text{?} \end{align} \)&lt;/span&gt;&lt;/p&gt;
+
+                &lt;p&gt;&lt;strong&gt;Select all &lt;/strong&gt;expressions that could be equal to&amp;nbsp;&lt;span class="math math-repaired"&gt;\( p + Q \).&lt;/span&gt;&lt;/p&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+    &lt;div&gt;
+        &lt;div class="main"&gt;
+            &lt;div class="activities"&gt;
+                &lt;div class="body"&gt;
+                    &lt;div class="imgrid"&gt;
+                        &lt;div class="g--row g--row-1"&gt;
+                            &lt;div class="g--col-1 g--column g--content g--one-fourth g--row-1"&gt;
+                                &lt;p&gt;&lt;span class="math math-repaired"&gt;\( 2p + m \)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( 4m + N \)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( 3N \)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\( 9m \)&lt;/span&gt;&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;div class="main"&gt;
+        &lt;div class="activities"&gt;
+            &lt;div class="body"&gt;
+
+                &lt;p&gt; &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;h3&gt;Extension Student Response&lt;/h3&gt;
+            &lt;div class="body"&gt;
+                &lt;p&gt;&lt;span class="math math-repaired"&gt;\( 2p + m \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( 9m \) are equal to&amp;nbsp;\( p + Q \).&lt;/span&gt;&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;h3&gt;Anticipated Misconceptions&lt;/h3&gt;
+            &lt;div class="body"&gt;
+                &lt;p&gt;Some students may say that &lt;span class="math math-repaired"&gt;\( 2m-2y=10 \)&lt;/span&gt; doesn’t describe the relationship between the ages because it doesn’t involve the number 5. Encourage students to think of some values for &lt;span class="math math-repaired"&gt;\( m \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt; that &lt;em&gt;do&lt;/em&gt; make the equation true. After they find some pairs of &lt;span class="math math-repaired"&gt;\( m \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( y \)&lt;/span&gt;, ask them what they notice about the pairs.&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;h3&gt;Activity Synthesis&lt;/h3&gt;
+            &lt;div class="body"&gt;
+                &lt;p&gt;Select previously identified students to share their explanation of why Tyler’s claim is true, in the order shown in the Activity Narrative. If no students mention the last approach, bring it up.&lt;/p&gt;
+
+                &lt;p&gt;Next, emphasize two main points:&lt;/p&gt;
+
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        &lt;span&gt;&lt;span style=""&gt;Equivalent equations&lt;/span&gt; &lt;/span&gt;have identical solutions, or identical values that make each of the equations true. All of the equations in the last question are equivalent because they have 3 as the solution and they all have no other solutions.
+                    &lt;/li&gt;
+                    &lt;li&gt;Suppose we start with a true equation, where the two sides are equal. If we perform the same operation to both sides of the equation and get a new equation where the two sides are also equal, we can say that the two equations are equivalent. For instance:
+                        &lt;ul&gt;
+                            &lt;li&gt;Subtracting 6 from both sides of &lt;span class="math math-repaired"&gt;\( 3a + 6 = 15 \)&lt;/span&gt;&amp;nbsp;gives &lt;span class="math math-repaired"&gt;\( 3a=9 \)&lt;/span&gt;. If &lt;span class="math math-repaired"&gt;\( 3a+6 \)&lt;/span&gt; and 15 are equal, then the expressions or numbers we get by subtracting 6 from each one are also equal. We can conclude that &lt;span class="math math-repaired"&gt;\( 3a+6=15 \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( 3a=9 \)&lt;/span&gt; are equivalent.&lt;/li&gt;
+                            &lt;li&gt;Dividing both sides of &lt;span class="math math-repaired"&gt;\( 3a + 6 = 15 \)&lt;/span&gt; by 3 gives &lt;span class="math math-repaired"&gt;\( a + 2 = 5 \)&lt;/span&gt;. If &lt;span class="math math-repaired"&gt;\( 3a+6 \)&lt;/span&gt; is equal to 15, the result of dividing &lt;span class="math math-repaired"&gt;\( 3a+6 \)&lt;/span&gt; by 3 is equal to dividing 15 by 3. We can conclude that &lt;span class="math math-repaired"&gt;\( 3a+6=15 \)&lt;/span&gt; and &lt;span class="math math-repaired"&gt;\( a + 2 = 5 \)&lt;/span&gt; are equivalent.&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;Ask students:&lt;/p&gt;
+
+                &lt;ul&gt;
+                    &lt;li&gt;“How can we show that &lt;span class="math math-repaired"&gt;\( \frac13a = 1 \)&lt;/span&gt; is equivalent to &lt;span class="math math-repaired"&gt;\( 3a = 9 \)&lt;/span&gt;?” (Multiplying both sides of &lt;span class="math math-repaired"&gt;\( \frac13a = 1 \)&lt;/span&gt; by 9 gives &lt;span class="math math-repaired"&gt;\( 3a=9 \)&lt;/span&gt;.)&lt;/li&gt;
+                    &lt;li&gt;“How can we show that &lt;span class="math math-repaired"&gt;\( a + 2 = 5 \)&lt;/span&gt; is equivalent to &lt;span class="math math-repaired"&gt;\( \frac13a = 1 \)&lt;/span&gt;?” (Subtracting 2 from both sides of &lt;span class="math math-repaired"&gt;\( a + 2 = 5 \)&lt;/span&gt; and then multiplying both sides of the resulting equation, &lt;span class="math math-repaired"&gt;\( a=3 \)&lt;/span&gt;, by &lt;span class="math math-repaired"&gt;\( \frac13 \)&lt;/span&gt; gives &lt;span class="math math-repaired"&gt;\( \frac13a = 1 \)&lt;/span&gt;.)&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;If no students notice that we have made these moves when solving equations, bring it to their attention. Highlight that solving an equation essentially involves writing a series of equivalent equations that eventually isolates the variable on one side.&lt;/p&gt;
+                &lt;h2&gt;1.6.2 Self-Check&lt;/h2&gt;
+                &lt;p&gt;&lt;strong&gt;&lt;em&gt;Following the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+                &lt;table style="border-collapse: collapse; width: 100%; height: 72px;" cellpadding="5" border="1"&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td colspan="2" style="width: 100%;"&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;br&gt;Which equation is equivalent to \( 3x-6=18 \)?&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr style="height: 18px;"&gt;
+                            &lt;td style="width: 50%; height: 18px;"&gt;&lt;strong&gt;Answers&lt;/strong&gt;&lt;/td&gt;
+                            &lt;td style="width: 50%; height: 18px;"&gt;&lt;strong&gt;Feedback&lt;/strong&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr style="height: 18px;"&gt;
+                            &lt;td style="width: 50%; height: 18px;"&gt;\( 3x = 24 \)&lt;/td&gt;
+                            &lt;td style="width: 50%; height: 18px;"&gt;That’s correct! Check yourself: Use inverse operations and add 6 to each side of the equation.&amp;nbsp;&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr style="height: 18px;"&gt;
+                            &lt;td style="width: 50%; height: 18px;"&gt;\( 3x = 12 \)&lt;/td&gt;
+                            &lt;td style="width: 50%; height: 18px;"&gt;Incorrect. Let’s try again a different way: Use inverse operations to add 6 to each side of the equation. The answer is \(3x = 24\).&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr style="height: 18px;"&gt;
+                            &lt;td style="width: 50%; height: 18px;"&gt;\(&amp;nbsp;x - 2 =18&amp;nbsp;\)&lt;/td&gt;
+                            &lt;td style="width: 50%; height: 18px;"&gt;Incorrect. Let’s try again a different way: If you divide terms by 3, you must divide ALL terms in the equation by 3. The answer is \(3x = 24\).&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td style="width: 50%;"&gt;\( 3x + 12 = 0 \)&lt;/td&gt;
+                            &lt;td style="width: 50%;"&gt;Incorrect. Let’s try again a different way: If you use inverse operations to bring 18 over to the other side of the equation, you must subtract 18 from both sides of the equation. The answer is \(3x = 24\).&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h2&gt;1.6.2: Additional Resources&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Finding Equivalent Equations&lt;/h3&gt;
+&lt;p dir="ltr"&gt;Equivalent equations are equations that have the same solutions. They are often found by using inverse operations or by multiplying each term in the equation by the same value.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Example 1: Write three equivalent equations to \( 4x - 2 = 8 \).&lt;/p&gt;
+&lt;table style="border-collapse: collapse; width: 750px;" cellspacing="0" cellpadding="5" border="1"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style="width: 156.0pt;" valign="top"&gt;
+                &lt;p&gt;Equivalent Equation A&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 156.0pt;" valign="top"&gt;
+                &lt;p&gt;Add 2 to both sides.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 156.0pt;" valign="top"&gt;
+                &lt;p&gt;\( 4x = 10 \)&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style="width: 156.0pt;" valign="top"&gt;
+                &lt;p&gt;Equivalent Equation B&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 156.0pt;" valign="top"&gt;
+                &lt;p&gt;Divide each term by 2.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 156.0pt;" valign="top"&gt;
+                &lt;p&gt;\( 2x - 1 =4 \)&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style="width: 156.0pt;" valign="top"&gt;
+                &lt;p&gt;Equivalent Equation C&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 156.0pt;" valign="top"&gt;
+                &lt;p&gt;Multiply every term by 3.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 156.0pt;" valign="top"&gt;
+                &lt;p&gt;\( 12x - 6 = 24 \)&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;h3&gt;&lt;span style="font-size: 1.40625rem;"&gt;Try It: Finding Equivalent Equations&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/h3&gt;
+&lt;p dir="ltr"&gt;Write down one equivalent equation to \( 3x + 5 = 15&amp;nbsp;\) using inverse operations or multiplication, and then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+
+&lt;h4&gt;Solution&lt;/h4&gt;
+&lt;p id="fs-id1168345252532"&gt;Here are some possible ways to find equivalent equations to \( 3x + 5 = 15 \):&lt;/p&gt;
+
+&lt;table style="border-collapse: collapse; width: 750x; height: 225.859px;" height="121" cellspacing="0" cellpadding="5" border="1"&gt;
+    &lt;tbody&gt;
+        &lt;tr style="height: 40.3125px;"&gt;
+            &lt;td style="width: 156.172px; height: 40.3125px;" valign="top"&gt;
+                &lt;p&gt;Equivalent Equation A&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 330.453px; height: 40.3125px;" valign="top"&gt;
+                &lt;p&gt;Subtract 5 from both sides.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 243.375px; height: 40.3125px;" valign="top"&gt;
+                &lt;p&gt;\(3x = 10&amp;nbsp;\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 40.3125px;"&gt;
+            &lt;td style="width: 156.172px; height: 40.3125px;" valign="top"&gt;
+                &lt;p&gt;Equivalent Equation B&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 330.453px; height: 40.3125px;" valign="top"&gt;
+                &lt;p&gt;After subtracting 5, divide both sides by 3.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 243.375px; height: 40.3125px;" valign="top"&gt;&amp;nbsp;\( x = \frac{10}{3} \)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style="height: 145.234px;"&gt;
+            &lt;td style="width: 156.172px; height: 145.234px;" valign="top"&gt;
+                &lt;p&gt;Equivalent Equation C&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 330.453px; height: 145.234px;" valign="top"&gt;
+                &lt;p&gt;Multiply every term by a number.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td style="width: 243.375px; height: 145.234px;" valign="top"&gt;
+                &lt;p&gt;Make sure you multiply EVERY term by the same number.&lt;/p&gt;
+                &lt;p&gt;Example:&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;(2)3x + (2)5 = 15(2)&amp;nbsp;\)&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(&amp;nbsp;6x + 10 = 30&amp;nbsp;\)&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p id="fs-id1170655126801"&gt;&lt;/p&gt;
+
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="258">
+            <jumpto>116</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652663643</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="259">
+            <jumpto>118</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652663643</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="118">
+        <prevpageid>117</prevpageid>
+        <nextpageid>119</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1652663658</timecreated>
+        <timemodified>1656814656</timemodified>
+        <title>1.6.3: Exploring Related Equations </title>
+        <contents>&lt;h2&gt;Activity (15 minutes)&lt;/h2&gt;
+
+&lt;div class="body"&gt;
+    &lt;p&gt;This activity further develops the idea of equivalent equations and does so in the context of a situation. Students pay attention to the moves that create equations with the same solution and those that don’t. They also make sense of both the moves and the solutions in terms of the given situation. The work here gives students opportunities to reason concretely and abstractly. In an upcoming lesson, they will think about why these moves lead to equations with the same solution.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3&gt;Launch&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;Arrange students in groups of 2 and provide access to calculators. Ask students to read the opening paragraph and display the equation &lt;span class="math"&gt;\( x - 0.1x + 2.70 = 56.70 \)&lt;/span&gt; for all to see. Ask students to explain how the equation represents Noah’s purchase.&lt;/p&gt;
+
+    &lt;p&gt;Then, give students a couple of minutes to discuss the first question with their partner and ask them to pause for a whole-class discussion. Once students understand that the solution to the equation is the original price of a pair of jeans and that substituting 60 for &lt;span class="math math-repaired"&gt;\( x \)&lt;/span&gt; makes the equation true, move on to the rest of the activity.&lt;/p&gt;
+
+    &lt;p&gt;Tell students that they will see a series of equations that are related to the original equation and that can be interpreted in terms of the situation. For each equation, their job is to determine either what move was made to the original equation, or what the equation means in context. Next, they should check if the equation has the same solution as the original. (To help students understand the task and if needed, consider working on Equation A as a class.)&lt;/p&gt;
+
+    &lt;p&gt;If time is limited, ask one partner in each group to take Equations A, C, E and the other partner to take B, D, F.&lt;/p&gt;
+
+
+    &lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
+    &lt;div style="border:1px solid black;padding:5px;background-color:#f2f2f2;"&gt;
+        &lt;p&gt;&lt;em&gt;Action and Expression: Internalize Executive Functions.&lt;/em&gt;&amp;nbsp;Chunk this task into more manageable parts for students who benefit from support with organizational skills in problem solving. Some students may benefit from a graphic organizer that displays and the original equation before each of the related equations. This will help focus students’ attention on the moves that may have been made.&lt;br&gt;&lt;em&gt;Supports accessibility for: Organization; Attention
+            &lt;/em&gt;
+
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;h3&gt;Student-Facing Statement&lt;/h3&gt;
+    &lt;div class="body"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;With a partner, discuss the following situations and their equations. When talking about each equation, you will need to discuss what the solution means in the context of the situation and if certain values are in fact solutions.&lt;/p&gt;
+        &lt;p&gt;Remember, if equations are equivalent and operations are applied correctly to both sides, the solution remains the same in all equivalent equations. If the operations are not applied to both sides properly, the solution would change.&lt;/p&gt;
+        &lt;p&gt;1. Noah is buying a pair of jeans and using a coupon for 10% off. The total price is&amp;nbsp;$56.70, which includes&amp;nbsp;$2.70 in sales tax. Noah’s purchase can be modeled by the equation:&lt;/p&gt;
+        &lt;p&gt;\( x - 0.1x + 2.70 = 56.70 \)&lt;/p&gt;
+        &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Discuss with a partner:&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+        &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;a. What does the solution to the equation mean in this situation?&lt;/span&gt;&lt;/div&gt;
+        &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;b. How can you verify that 70 is not a solution but 60 is the solution?&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;2. Here are some equations that are related to&amp;nbsp;\( x - 0.1x + 2.70 = 56.70 \). Each equation is a result of performing one or more moves on that original equation. Each can also be interpreted in terms of Noah’s purchase.&lt;/span&gt;&lt;/div&gt;
+    &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;For each equation, determine either what move was made or how the equation could be interpreted. (Some examples are given here.) Then, check if 60 is the solution of the equation.&lt;/span&gt;&lt;/div&gt;
+    &lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class="body"&gt;&lt;span style=""&gt;
+            &lt;div class="body" style=""&gt;Equation A&lt;/div&gt;
+            &lt;div class="body" style=""&gt;&lt;br&gt;&lt;/div&gt;
+            &lt;div class="body" style=""&gt;\( 100𝑥−10𝑥+270=5,670 \)&lt;br&gt;&lt;/div&gt;
+            &lt;div class="body" style=""&gt;&lt;br&gt;&lt;/div&gt;
+            &lt;div class="body" style=""&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;What was done?&lt;/li&gt;
+                    &lt;li&gt;Interpretation?&lt;/li&gt;
+                    &lt;li&gt;Same solution?&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div class="body" style=""&gt;Equation B&lt;/div&gt;
+            &lt;div class="body" style=""&gt;&lt;br&gt;&lt;/div&gt;
+            &lt;div class="body" style=""&gt;\( 𝑥−0.1𝑥=54 \)&lt;br&gt;&lt;/div&gt;
+            &lt;div class="body" style=""&gt;&lt;br&gt;&lt;/div&gt;
+            &lt;div class="body" style=""&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;What was done?&lt;/li&gt;
+                    &lt;li&gt;Interpretation?&lt;/li&gt;
+                    &lt;li&gt;Same solution?&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div class="body" style=""&gt;Equation C&lt;/div&gt;
+            &lt;div class="body" style=""&gt;&lt;br&gt;&lt;/div&gt;
+            &lt;div class="body" style=""&gt;\( 0.9𝑥+2.70=56.70 \)&lt;br&gt;&lt;/div&gt;
+            &lt;div class="body" style=""&gt;&lt;br&gt;&lt;/div&gt;
+            &lt;div class="body" style=""&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;What was done?&lt;span style="white-space:pre"&gt; &lt;/span&gt;&lt;/li&gt;
+                    &lt;li&gt;Interpretation?&lt;/li&gt;
+                    &lt;li&gt;Same solution?&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;h4&gt;Video: Looking at Equivalent Equations&lt;/h4&gt;
+                &lt;p&gt;Watch the following video to learn more about why these are equivalent equations.&lt;/p&gt;
+                &lt;video controls="true" crossorigin="anonymous"&gt;
+                    &lt;source src="https://k12.openstax.org/contents/raise/resources/337b23511ca7ac0eb4d32eba29110835c40350e5"&gt;
+                    &lt;track src="https://k12.openstax.org/contents/raise/resources/4ee789e942e6571879491bca1b89dac5cb04a66a " kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/337b23511ca7ac0eb4d32eba29110835c40350e5
+                &lt;/video&gt;
+                &lt;br&gt;
+                &lt;p&gt;&lt;/p&gt;
+                &lt;p&gt;3. Here are some other equations. For each equation, determine what move was made or how the equation could be interpreted. Then, check if 60 is the solution to the equation.&lt;/p&gt;
+                &lt;p&gt;Equation D&lt;/p&gt;
+                &lt;p&gt;\( 𝑥−0.1𝑥=56.70 \)&lt;br&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;What was done?&lt;/li&gt;
+                    &lt;li&gt;Interpretation?&lt;/li&gt;
+                    &lt;li&gt;Same solution?&lt;/li&gt;
+                &lt;/ul&gt; &lt;span style="white-space:pre"&gt;&lt;/span&gt;
+                &lt;p&gt;&lt;/p&gt;
+                &lt;p&gt;Equation E&lt;/p&gt;
+                &lt;p&gt;\( 𝑥−0.1𝑥=59.40 \)&lt;br&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;What was done?&lt;/li&gt;
+                    &lt;li&gt;Interpretation?&lt;/li&gt;
+                    &lt;li&gt;Same solution?&lt;/li&gt;
+                &lt;/ul&gt; &lt;span style="white-space:pre"&gt;&lt;/span&gt;
+                &lt;p&gt;&lt;/p&gt;
+                &lt;p&gt;Equation F&lt;/p&gt;
+                &lt;p&gt;\( 2(𝑥−0.1𝑥+2.70)=56.70 \)&lt;br&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;What was done?&lt;/li&gt;
+                    &lt;li&gt;Interpretation?&lt;/li&gt;
+                    &lt;li&gt;Same solution?&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;&lt;/p&gt;
+                &lt;p&gt;4. Which of the six equations are equivalent to the original equation? Be prepared to explain how you know.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/span&gt;&lt;/div&gt;
+    &lt;h3&gt;Student Response&lt;/h3&gt;
+    &lt;div class="body"&gt;
+        &lt;span style="font-size: 0.9375rem;"&gt;1.&amp;nbsp;&lt;/span&gt;Sample responses:
+    &lt;/div&gt;
+    &lt;div class="body"&gt;&lt;br&gt;&lt;/div&gt;
+    &lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+        &lt;div class="body"&gt;a. The solution is the price of a pair of jeans.&lt;/div&gt;
+        &lt;div class="body"&gt;b. 70 can be substituted into the equation to make a false statement:&amp;nbsp;&lt;/div&gt;
+        &lt;div class="body"&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;\( 70-0.1(70) + 2.70 = 56.70 \)&lt;/div&gt;
+        &lt;div class="body"&gt;&amp;nbsp; &amp;nbsp; \( 65.70 = 56.70 \)&amp;nbsp;False&lt;/div&gt;
+        &lt;div class="body"&gt;&lt;br&gt;&lt;/div&gt;
+        &lt;div class="body"&gt;&amp;nbsp; &amp;nbsp;60 can be substituted into the equation and make a true statement:&amp;nbsp;&lt;/div&gt;
+        &lt;div class="body"&gt;&amp;nbsp; &amp;nbsp;\( 60-0.1(60) + 2.70 = 56.70 \)&lt;br&gt;&lt;/div&gt;
+        &lt;div class="body"&gt;&amp;nbsp; &amp;nbsp;\( 56.70 = 56.70 \) True&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="body"&gt;&lt;br&gt;&lt;/div&gt;
+    &lt;div class="body"&gt;2. Sample responses:&lt;/div&gt;
+    &lt;div class="body"&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Equation A: Every term was multiplied by 100. The equation is equivalent to Noah’s equation. The price is now expressed in cents instead of dollars. 60 is a solution.&lt;/li&gt;
+            &lt;li&gt;Equation B: Subtract 2.70 from both sides of the equation. The answer is still in dollars. 60 is a solution.&lt;/li&gt;
+            &lt;li&gt;Equation C:&amp;nbsp;\( x \) and&amp;nbsp;\( 0.1x \) were correctly combined to create an equivalent equation to Noah’s original equation. 10% off means paying 90% of the original price. 90% of the original price plus sales tax is $56.70. 60 is still a solution.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="body"&gt;3. Sample responses&lt;/div&gt;
+    &lt;div class="body"&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Equation D: Sales tax was not included on the left but is included on the right. This equation is not equivalent to Noah’s original equation. The price after using the coupon for 10% off before sales tax is not the same as the price after using the coupon for 10% off including the sales tax, $56.70. 60 is not a solution.&lt;/li&gt;
+            &lt;li&gt;Equation E: Subtract 2.70 from the left and add 2.70 to the right. The same operation must be done to both sides of an equation to keep it balanced and to create an equivalent equation. The price after using the coupon for 10% off is not equal to 56.70 plus tax. 60 is not a solution.&lt;/li&gt;
+            &lt;li&gt;Equation F: The left side was multiplied by 2. Two pairs of jeans after the 10% discount and sales tax cost 56.70. 60 is not a solution.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="body"&gt;4. Sample response: Equations A, B, C were equivalent to the original. Interpreting equations can help you understand the cost of items you buy!&lt;/div&gt;
+    &lt;div class="body"&gt;
+        &lt;ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;h3&gt;Activity Synthesis&lt;/h3&gt;
+    &lt;div class="body"&gt;
+        &lt;p&gt;Display the original equation and Equations A–F for all to see. Invite students to share what was done to the original equation to get each of those equations and whether they have the same solution. Along the way, compile a list of moves that lead to equations with the same solution and those that lead to different solutions. &lt;/p&gt;
+
+        &lt;p&gt;Ask students to observe the list and see what kinds of moves produce Equations A–C and D–F. Record the moves that create equations with the same solutions, such as:&lt;/p&gt;
+
+        &lt;ul&gt;
+            &lt;li&gt;adding or multiplying both sides of the equal sign by the same number.&lt;/li&gt;
+            &lt;li&gt;applying properties of operations (commutative, associative, or distributive).&lt;/li&gt;
+            &lt;li&gt;combining like terms.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Also record the moves that create equations with different solutions, such as:&lt;/p&gt;
+
+        &lt;ul&gt;
+            &lt;li&gt;adding or multiplying a different number to the two sides, or performing an operation to only one side.&lt;/li&gt;
+            &lt;li&gt;adding different expressions to the two sides.&lt;/li&gt;
+            &lt;li&gt;performing different operations on each side.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;(The lists don’t need to be comprehensive because students will examine these moves more closely later.)&lt;/p&gt;
+
+        &lt;p&gt;Next, give students a couple of examples of how the equations and their solutions could be interpreted in context. For example:&lt;/p&gt;
+
+        &lt;ul&gt;
+            &lt;li&gt;Equation A shows the cost calculation in cents, so the original price of a pair of jeans is unchanged.&lt;/li&gt;
+            &lt;li&gt;Equation D shows the discounted price, excluding tax, to be &lt;span&gt;$&lt;/span&gt;56.70, but in the original equation, the price &lt;span&gt;$&lt;/span&gt;56.70 included tax. This means that, in Equation D, the original price of one pair of jeans is different from the first equation. &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Prompt students to interpret 1–2 other equations and to explain why the solution in each equation (or the price of one pair of jeans) is equal or unequal to that in the initial equation. Here are possible interpretations:&lt;/p&gt;
+
+        &lt;ul&gt;
+            &lt;li&gt;Equation B shows the discounted price before sales tax to be &lt;span&gt;$&lt;/span&gt;54, which is &lt;span&gt;$&lt;/span&gt;2.70 less than &lt;span&gt;$&lt;/span&gt;56.70. This is also the case in the initial equation, so the original price of the jeans is still the same. &lt;/li&gt;
+            &lt;li&gt;Equation C shows the discounted price as 90% of the original price, which is the same as 10% less than the original price (100%). The original price is unchanged.&lt;/li&gt;
+            &lt;li&gt;Equation E shows the discounted price, before tax, to be &lt;span&gt;$&lt;/span&gt;59.40. This is more than the pre-tax price in the initial equation, so the original price of the jeans here must be higher.&lt;/li&gt;
+            &lt;li&gt;Equation F shows the price of 2 pairs of jeans, including the discount and tax, to be &lt;span&gt;$&lt;/span&gt;56.70. This means the price of a pair of jeans must be much less than in the initial equation.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h2&gt;1.6.3: Self Check&amp;nbsp;&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;div class="body"&gt;&lt;strong&gt;&lt;em&gt;Following the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;
+    &lt;table style="border-collapse: collapse; width: 100%; height: 72px;" cellpadding="5" border="1"&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td colspan="2" style="width: 100%;"&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;br&gt;Which of the following is a correct next step to create an equation equivalent to \( x - 0.2x - 4.2 =13.4 \)?&lt;br&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="height: 18px;"&gt;
+                &lt;td style="width: 50%; height: 18px;"&gt;&lt;strong&gt;Answers&lt;/strong&gt;&lt;/td&gt;
+                &lt;td style="width: 50%; height: 18px;"&gt;&lt;strong&gt;Feedback&lt;/strong&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="height: 18px;"&gt;
+                &lt;td style="width: 50%; height: 18px;"&gt;\( 0.8x - 4.2 = 13.4 \)&lt;/td&gt;
+                &lt;td style="width: 50%; height: 18px;"&gt;That’s correct! Check yourself: Combine like terms so that \( x - 0.2x=0.8x \).&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="height: 18px;"&gt;
+                &lt;td style="width: 50%; height: 18px;"&gt;\( 10(x - 0.2x-4.2) = 13.4 \)&lt;/td&gt;
+                &lt;td style="width: 50%; height: 18px;"&gt;Incorrect. Let’s try again a different way: Multiplying by 10 can help get rid of the decimal, however, you must multiply both sides by the same quantity. The correct answer is \( 0.8x - 4.2 =13.4 \).&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="height: 18px;"&gt;
+                &lt;td style="width: 50%; height: 18px;"&gt;\( x - 0.2x = 9.2 \)&lt;/td&gt;
+                &lt;td style="width: 50%; height: 18px;"&gt;Incorrect. Let’s try again a different way: Since the 4.2 was subtracted in the original equation, it should have been added to both sides. The correct answer is \( 0.8x -4.2 =13.4 \).&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 50%;"&gt;\( 2(x - 0.2x) = 9.2 \)&lt;/td&gt;
+                &lt;td style="width: 50%;"&gt;Incorrect. Let’s try again a different way: If one side is multiplied by 2, the other side must also be multiplied by 2. The correct answer is \( 0.8x -4.2 =13.4 \).&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    &lt;h2&gt;1.6.3: Additional Resources&lt;/h2&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;&amp;nbsp;&lt;br&gt;
+    &lt;h3 style="text-align: left;"&gt;Properties of Equality&lt;/h3&gt;
+    &lt;table style="font-size: 0.9375rem; width: 624px; height: 191.5px;" cellspacing="0" cellpadding="5" border="1"&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 311.5px;"&gt;
+                    &lt;p&gt;Subtraction Property of Equality&lt;/p&gt;
+                    &lt;p&gt;For any real numbers \( a \), \( b \), and \( c \),&lt;br&gt;if&amp;nbsp;\( a = b \),&lt;br&gt;then&amp;nbsp;\( a−c = b−c \).&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 311.5px;"&gt;
+                    &lt;p&gt;Addition Property of Equality&lt;/p&gt;
+                    &lt;p&gt;For any real numbers&amp;nbsp;\( a \),&amp;nbsp;\( b \), and&amp;nbsp;\( c \),&lt;br&gt;if&amp;nbsp;\( a = b \),&lt;br&gt;then&amp;nbsp;\( a+c = b+c \).&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="height: 101.594px;"&gt;
+                &lt;td style="width: 311.5px; height: 101.594px;" valign="top"&gt;
+                    &lt;p&gt;Division Property of Equality&lt;/p&gt;
+                    &lt;p&gt;For any real numbers&amp;nbsp;\( a \),&amp;nbsp;\( b \), and&amp;nbsp;\( c \), and&amp;nbsp;\( c \neq 0 \),&lt;br&gt;if&amp;nbsp;\( a = b \),&lt;br&gt;then&amp;nbsp;\( \frac{a}{c} = \frac{b}{c} \).&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 311.5px; height: 101.594px;" valign="top"&gt;
+                    &lt;p&gt;Multiplication Property of Equality&lt;/p&gt;
+                    &lt;p&gt;For any real numbers&amp;nbsp;\( a \),&amp;nbsp;\( b \), and&amp;nbsp;\( c \),&lt;br&gt;if&amp;nbsp;\( a = b \),&lt;br&gt;then&amp;nbsp;\( ac = bc \).&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;p dir="ltr"&gt;&amp;nbsp;&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;When you add, subtract, multiply, or divide the same quantity from both sides of an equation, you still have equality.&lt;/span&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;For equations to be equivalent, inverse operations are used and must be applied to both sides of an equation so it remains balanced.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Inverse operations are operations that “undo” other operations.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;&lt;strong&gt;Example 1:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Solve \(&amp;nbsp;3x =15&amp;nbsp;\).&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Since 3 is being multiplied by \(&amp;nbsp;x&amp;nbsp;\), to solve for \(&amp;nbsp;x&amp;nbsp;\), divide both sides by 3.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;\(&amp;nbsp;\frac{3x}{3}=\frac{15}{3}&amp;nbsp;\)&lt;/p&gt;
+    &lt;p dir="ltr"&gt;\(&amp;nbsp;x=5&amp;nbsp;\)&lt;/p&gt;
+    &lt;p dir="ltr"&gt;&lt;span style=""&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;&lt;strong&gt;Example 2:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Solve \(&amp;nbsp;\frac{x}{2}+4=12&amp;nbsp;\).&lt;/p&gt;
+    &lt;table style="border-collapse: collapse; width: 624px;" cellspacing="0" cellpadding="5" border="1"&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;Original equation.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;&amp;nbsp;\(&amp;nbsp;\frac{x}{2}+4=12&amp;nbsp;\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;Subtract 4 from both sides.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;&amp;nbsp;\(&amp;nbsp;\frac{x}{2}+4-4=12-4&amp;nbsp;\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;Simplify.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;&amp;nbsp;\(&amp;nbsp;\frac{x}{2}=8&amp;nbsp;\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;Multiply both sides by 2.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;&amp;nbsp;\(&amp;nbsp;2\times\frac{x}{2}=8\times2&amp;nbsp;\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;Simplify.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;\(&amp;nbsp;x=16&amp;nbsp;\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;br&gt;
+    &lt;h3&gt;Try It: Properties of Equality&lt;/h3&gt;
+    &lt;p&gt;Denae bought 6 pounds of grapes for $10.74. What was the cost of one pound of grapes?&lt;/p&gt;
+    &lt;p&gt;Write down your answer, and then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+    &lt;h4&gt;&lt;span&gt;Solution&lt;/span&gt;&lt;/h4&gt;
+    &lt;table style="border-collapse: collapse; width: 624px;" cellspacing="0" cellpadding="5" border="1"&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;Step 1: Identify the variable.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;\(&amp;nbsp;g&amp;nbsp;\): cost for one pound of grapes&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;Step 2: Write an equation.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;\( 6g = 10.74 \)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;Step 3: Solve for \( g \)&lt;em&gt;.&lt;/em&gt;&amp;nbsp;Divide BOTH sides by 6.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;\(&amp;nbsp;\frac{6g}{6}=\frac{10.74}{6}&amp;nbsp;\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;Step 4: Simplify to solve.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="width: 3.25in;" valign="top"&gt;
+                    &lt;p&gt;\(&amp;nbsp;g=1.79&amp;nbsp;\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;div&gt;
+        &lt;p&gt;The grapes cost $1.79 per pound.&lt;/p&gt;
+    &lt;/div&gt;
+   
+
+        &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&amp;gt;&lt;/p&gt;
+
+   
+   
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="260">
+            <jumpto>117</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652663658</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="261">
+            <jumpto>119</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652663658</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="119">
+        <prevpageid>118</prevpageid>
+        <nextpageid>120</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1652663670</timecreated>
+        <timemodified>1656521486</timemodified>
+        <title>1.6.4: Recognizing Related Equations</title>
+        <contents>&lt;h2&gt;Cool-Down (5 minutes)&lt;/h2&gt;
+
+&lt;h3&gt;Launch&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;Give students continued access to calculators.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3&gt;Student-Facing Statement&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;p&gt;A cardboard box, which weighs 0.6 pound when empty, is filled with 15 bags of beans and a 4-pound bag of rice. The total weight of the box and the contents inside it is 25.6 pounds. One way to represent this situation is with the equation &lt;span class="math math-repaired"&gt;\( 0.6 + 15b + 4 = 25.6 \)&lt;/span&gt;.&lt;/p&gt;
+
+    &lt;span style="font-size: 0.9375rem;"&gt;1. In this situation, what does the solution to the equation represent?&lt;/span&gt;&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="body"&gt;&lt;span style="font-size: 0.9375rem;"&gt;2. Select all equations that are equivalent to &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( 0.6 + 15b + 4=25.6 \)&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;.&lt;/span&gt;&lt;/div&gt;
+&lt;div class="body"&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Equation A: &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( 15b + 4 = 25.6 \)&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Equation B: &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( 15b + 4 = 25 \)&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Equation C: &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( 3(0.6 + 15b + 4) = 76.8 \)&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Equation D: &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( 15b = 25.6 \)&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Equation E: &lt;/span&gt;&lt;span class="math math-repaired" style="font-size: 0.9375rem;"&gt;\( 15b = 21 \)&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ol&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+&lt;h3&gt;Student Response&lt;/h3&gt;
+&lt;div class="body"&gt;
+    &lt;span style="font-size: 0.9375rem;"&gt;1. The weight, in pounds, of one bag of beans&lt;/span&gt;&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;2. B, C, and E&lt;/span&gt;&lt;br&gt;
+    &lt;ol&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="response-to-student-thinking"&gt;
+    &lt;h3&gt;Response to Student Thinking&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="body"&gt;If the majority of students struggle with this cool-down, consider building in 3 minutes to the launch of Activity 7.2. If students struggled to find all of the equivalent equations, consider showing the equations as a sequence—the original equation, followed by Equation B, followed by Equation E—and asking, “How do we know these are equivalent?” Or consider showing the original equation with Equation C directly underneath. If multiple students identified incorrect equations as equivalent, you might consider showing the original equation with Equation A or D directly underneath and asking “What happened?” or “Did the same thing happen to both sides?”&lt;br&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="body"&gt;If only a few students struggle with this cool-down, then those are the students to support during Activity 1.7.2 and to pay careful attention to during the synthesis for 1.7.2.&lt;/div&gt;
+
+&lt;div class="student-summary"&gt;
+    &lt;div class="body"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="262">
+            <jumpto>118</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652663670</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="263">
+            <jumpto>120</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652663670</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="120">
+        <prevpageid>119</prevpageid>
+        <nextpageid>121</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646416095</timecreated>
+        <timemodified>1658415295</timemodified>
+        <title>1.6.5: Practice</title>
+        <contents>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1. &lt;strong&gt;Select all&lt;/strong&gt; the equations that have the same solution as the equation \( 3x-12=24 \).&lt;/p&gt;
+&lt;p&gt;A: \(15x-60=120 \)&lt;br&gt;B: \( 3x=12 \)&lt;br&gt;C: \( 3x=36 \)&lt;br&gt;D: \( x-4=8 \)&lt;br&gt;E: \( 12x-12=24 \)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;\(15x-60=120 \),&amp;nbsp;\( 3x=36 \),&amp;nbsp;&amp;nbsp;\( x-4=8 \)&lt;/p&gt;
+&lt;p&gt;2. &lt;strong&gt;Select all&lt;/strong&gt; the equations that have the same solution as \( 2x-5=15 \).&lt;/p&gt;
+&lt;p&gt;A: \(2x=10 \)&lt;br&gt;B: \( 2x=20 \)&lt;br&gt;C: \( 2(x-5)=15 \)&lt;br&gt;D: \( 2x-20=0 \)&lt;br&gt;E: \( 4x-10=30 \)&lt;br&gt;F: \( 15=5-2x \)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&amp;nbsp;&lt;/strong&gt;\( 2x=20 \),&amp;nbsp;\( 2x-20=0 \),&amp;nbsp;\( 4x-10=30 \)&lt;/p&gt;
+&lt;p&gt;3. &lt;strong&gt;Select all&lt;/strong&gt; of the equations that are equivalent to \( x + 0.4x - 4.2 =12.8 \).&lt;/p&gt;
+&lt;p&gt;A: \(1.4x - 4.2 =12.8 \)&lt;br&gt;&lt;span style="font-size: 0.9375rem; white-space: pre;"&gt;B: \( 1.4x = 8.6 \)&lt;br&gt;C: \( 1.4x = 17 \)&lt;br&gt;D: \( 14x - 42 =128 \)&lt;br&gt;E: \( 10x +4x -42=12.8 \)&lt;br&gt;F: \( 14x =170 \)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp; \(1.4x - 4.2 =12.8 \),&amp;nbsp;\( 1.4x = 17 \),&amp;nbsp;\( 14x - 42 =128 \),&amp;nbsp;\( 14x =170 \)&lt;/p&gt;
+&lt;p&gt;4. &lt;strong&gt;Select all &lt;/strong&gt;of the equations that are equivalent to \( 3x -6 =12 \).&lt;/p&gt;
+&lt;p&gt;A:\( 3x = 6 \)&lt;/p&gt;
+&lt;p&gt;B: \( 3(x-2) = 12 \)&lt;/p&gt;
+&lt;p&gt;C: \( x - 2 =4 \)&lt;/p&gt;
+&lt;p&gt;D: \( x - 2 = 12 \)&lt;/p&gt;
+&lt;p&gt;E: \( x -6 = 4 \)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;&amp;nbsp;\( 3(x-2) = 12 \),&amp;nbsp;&amp;nbsp;\( x - 2 =4 \)&lt;/p&gt;
+&lt;p&gt;5. Identify the step in which the mistake is made in finding an equivalent equation to \( 2(x - 4) = 16 \).&lt;/p&gt;
+&lt;p&gt;Step 1: \( 2x -4 = 16 \)&lt;br&gt;Step 2: \( 2x =20 \)&lt;br&gt;Step 3: \( x =10 \)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Step 1. Distribute the 2 to both terms in the parentheses.&lt;/p&gt;
+&lt;p&gt;6. Identify the step in which the mistake is made in finding an equivalent equation to \( 2x +3x -4 = 20 \).&lt;/p&gt;
+&lt;p&gt;Step 1: \( 5x - 4 =20 \)&lt;br&gt;Step 2: \( 5x = 16 \)&lt;br&gt;Step 3: \( x = \frac{16}{5} \)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Step 2. The student should add 4 to both sides of the equation.&lt;/p&gt;
+&lt;p&gt;7. Identify the step in which the mistake is made in finding an equivalent equation to \( 7x - 4x - 5 =16 \).&lt;/p&gt;
+&lt;p&gt;Step 1: \( 3x -5 =16 \)&lt;br&gt;Step 2: \( 3x = 21 \)&lt;br&gt;Step 3: \( x =62 \)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Step 3. The student should divide both sides of the equation by 3.&lt;/p&gt;
+&lt;p&gt;8. Fill in the blank to complete the equivalent equation to \( 3(x - 5) = 30 \).&lt;/p&gt;
+&lt;p&gt;\( 3x -&amp;nbsp; \) ____ \(&amp;nbsp;= 30 \)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 15. Distribute the 3 to the 5 with multiplication.&lt;/p&gt;
+&lt;p&gt;9. Fill in the blank to complete the equivalent equation to \( \frac{x}{2}-5=11 \).&lt;/p&gt;
+&lt;p&gt;\( x - \) ______ \(&amp;nbsp;= 22 \)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 10&lt;/p&gt;
+&lt;p&gt;10. Fill in the blank to complete the equivalent equation to \( 3(x - 9) = 24 \).&lt;/p&gt;
+&lt;p&gt;\( x - \) ____ \(&amp;nbsp;= 8 \)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 9&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="256">
+            <jumpto>119</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646416095</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="257">
+            <jumpto>121</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646416095</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="121">
+        <prevpageid>120</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646087501</timecreated>
+        <timemodified>1656886102</timemodified>
+        <title>1.6.6: Lesson Summary</title>
+        <contents>&lt;p dir="ltr"&gt;To help students connect the various ideas in this lesson and articulate their understanding, ask them questions such as:&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;“How would you explain ‘equivalent equations’ to a classmate who is absent today?”&lt;/li&gt;&lt;li&gt;“The equation \(5𝑦=6\) represents purchasing 5 tubs of yogurt for $6. In this equation, what does the solution represent?” (the cost of one tub of yogurt)&lt;/li&gt;&lt;li&gt;“Which of these equations are equivalent to the equation&amp;nbsp;\( 5𝑦=6 \) (about the yogurt)? How do you know?”&lt;ul&gt;&lt;li&gt;\( 15𝑦=18 \)&lt;br&gt;&lt;/li&gt;&lt;li&gt;\(&amp;nbsp;5𝑦=12&amp;nbsp;\)&lt;/li&gt;&lt;li&gt;\(&amp;nbsp;5𝑦+4=10&amp;nbsp;\)&lt;/li&gt;&lt;li&gt;\(&amp;nbsp;5𝑦−1=3&amp;nbsp;\)&lt;br&gt;(The first and the third equations are equivalent to the original equation because they have the same solution. There is an acceptable move that was done to the original equation to get to these equivalent equations: multiplying each side of the equal sign by 3, and adding 4 to each side of the equation.)&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;“For the equations that you think are equivalent, what do they mean in the context of the yogurt purchase?” (The equation&amp;nbsp;\( 15𝑦=18 \) can be interpreted as: buying 3 times as many tubs of yogurt costs 3 times as much. The third equation can be interpreted as: the total cost of 5 tubs of yogurt and something else that costs $4 is $10.)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;em&gt;To continue to the student-facing version of this lesson, select “Lesson 1.6: Equivalent Equations” below.&lt;/em&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="253">
+            <jumpto>120</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646087501</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="264">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646087501</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

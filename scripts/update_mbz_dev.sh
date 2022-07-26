@@ -18,3 +18,4 @@ rm -rf mbz-dev
 mkdir mbz-dev
 tar -C mbz-dev -xvzf "$INPUT_MBZ"
 git add mbz-dev
+git commit -m "Update mbz-dev tree"
