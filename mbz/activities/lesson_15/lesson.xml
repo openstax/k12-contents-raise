@@ -344,7 +344,7 @@
       </page>
       <page id="110">
         <prevpageid>109</prevpageid>
-        <nextpageid>113</nextpageid>
+        <nextpageid>111</nextpageid>
         <qtype>3</qtype>
         <qoption>0</qoption>
         <layout>0</layout>
@@ -412,7 +412,7 @@
             </attempts>
           </answer>
           <answer id="251">
-            <jumpto>113</jumpto>
+            <jumpto>111</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -429,7 +429,7 @@
         <branches>
         </branches>
       </page>
-      <page id="113">
+      <page id="111">
         <prevpageid>110</prevpageid>
         <nextpageid>112</nextpageid>
         <qtype>20</qtype>
@@ -474,99 +474,9 @@
         <branches>
         </branches>
       </page>
-      <page id="114">
-        <prevpageid>111</prevpageid>
-        <nextpageid>0</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1651977808</timecreated>
-        <timemodified>1657640714</timemodified>
-        <title>1.5.6: Lesson Summary </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="890d19db-b130-4f71-a029-a3795c7487fd"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="247">
-            <jumpto>111</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1651977808</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="249">
-            <jumpto>-9</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1651977808</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>End of Lesson</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="111">
-        <prevpageid>112</prevpageid>
-        <nextpageid>114</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1651977368</timecreated>
-        <timemodified>1657645132</timemodified>
-        <title>1.5.5: Practice</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="3fc2397e-6ed9-4bb6-913a-ad80245c6c3a"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="246">
-            <jumpto>112</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1651977368</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="248">
-            <jumpto>114</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1651977368</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
       <page id="112">
-        <prevpageid>113</prevpageid>
-        <nextpageid>111</nextpageid>
+        <prevpageid>111</prevpageid>
+        <nextpageid>114</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -592,13 +502,103 @@
             </attempts>
           </answer>
           <answer id="233">
-            <jumpto>111</jumpto>
+            <jumpto>114</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
             <timecreated>1647288512</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="114">
+        <prevpageid>112</prevpageid>
+        <nextpageid>113</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1651977368</timecreated>
+        <timemodified>1657645132</timemodified>
+        <title>1.5.5: Practice</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="3fc2397e-6ed9-4bb6-913a-ad80245c6c3a"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="246">
+            <jumpto>112</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1651977368</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="248">
+            <jumpto>113</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1651977368</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="113">
+        <prevpageid>114</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1651977808</timecreated>
+        <timemodified>1657640714</timemodified>
+        <title>1.5.6: Lesson Summary </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="890d19db-b130-4f71-a029-a3795c7487fd"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="247">
+            <jumpto>114</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1651977808</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="249">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1651977808</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
