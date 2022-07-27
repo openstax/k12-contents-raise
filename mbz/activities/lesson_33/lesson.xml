@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <activity id="27" moduleid="33" modulename="lesson" contextid="44">
   <lesson id="27">
     <course>2</course>
     <name>Lesson 1.12: Writing the Equation of a Line</name>
-    <intro/>
+    <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>1</modattempts>
     <usepassword>0</usepassword>
-    <password/>
+    <password></password>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>0</activitylink>
-    <mediafile/>
+    <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -178,7 +178,7 @@
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="515">
-            <jumpto>239</jumpto>
+            <jumpto>236</jumpto>
             <grade>0</grade>
             <score>1</score>
             <flags>0</flags>
@@ -241,7 +241,7 @@
             <timecreated>1646407842</timecreated>
             <timemodified>0</timemodified>
             <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response/>
+            <response></response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -253,7 +253,7 @@
       </page>
       <page id="235">
         <prevpageid>234</prevpageid>
-        <nextpageid>239</nextpageid>
+        <nextpageid>236</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -279,7 +279,7 @@
             </attempts>
           </answer>
           <answer id="507">
-            <jumpto>239</jumpto>
+            <jumpto>236</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -296,7 +296,7 @@
         <branches>
         </branches>
       </page>
-      <page id="239">
+      <page id="236">
         <prevpageid>235</prevpageid>
         <nextpageid>237</nextpageid>
         <qtype>20</qtype>
@@ -341,44 +341,86 @@
         <branches>
         </branches>
       </page>
-      <page id="241">
+      <page id="237">
         <prevpageid>236</prevpageid>
-        <nextpageid>242</nextpageid>
-        <qtype>20</qtype>
+        <nextpageid>241</nextpageid>
+        <qtype>3</qtype>
         <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1652394197</timecreated>
-        <timemodified>1656960071</timemodified>
-        <title>1.12.4: Additional Resources</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="d39af74a-9485-4ecf-9bb0-d72a2da18c00"&gt;&lt;/div&gt;</contents>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1646407837</timecreated>
+        <timemodified>1657380089</timemodified>
+        <title>1.12.3: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="c391a775-f009-4517-8b3a-1c43824fc92f"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="534">
-            <jumpto>237</jumpto>
+          <answer id="511">
+            <jumpto>239</jumpto>
             <grade>0</grade>
-            <score>0</score>
+            <score>1</score>
             <flags>0</flags>
-            <timecreated>1652394197</timecreated>
+            <timecreated>1646407837</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>I’d like to retry the self check.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
+            <answer_text>&lt;p dir="ltr"&gt;\(&amp;nbsp;y =-\frac{3}{4}x &amp;minus; 4&amp;nbsp;&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That’s correct! Check yourself: &lt;br&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \(&amp;nbsp;−7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\) to get \(&amp;nbsp;y&amp;nbsp;+ 7 = -\frac{3}{4}x + 3&amp;nbsp;\).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
             <attempts>
             </attempts>
           </answer>
-          <answer id="535">
-            <jumpto>242</jumpto>
+          <answer id="512">
+            <jumpto>241</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1652394197</timecreated>
+            <timecreated>1646407837</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
+            <answer_text>&lt;p dir="ltr"&gt;\( y =-\frac{3}{4}x - 1\frac{1}{4}&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-03407fbf-7fff-d675-7c22-7e7dfa750cbd"&gt;&lt;span id="docs-internal-guid-5a26008b-7fff-b254-dae5-8b372ad1121f"&gt;Incorrect. Let’s try again a different way: Remember the \( x \)-coordinate is the first coordinate and the \( y \)-coordinate is the second coordinate.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span&gt;&lt;span&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \( -7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\) to get \(&amp;nbsp;y&amp;nbsp;+ 7 = -\frac{3}{4}x + 3&amp;nbsp;\). &lt;br&gt;The answer is \(&amp;nbsp;y = -\frac{3}{4}x - 4&amp;nbsp;\).&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="513">
+            <jumpto>241</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407837</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(&amp;nbsp;y =-\frac{3}{4}x - 11&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-4cc4fea5-7fff-3da5-6f0e-ce5294c36d87"&gt;&lt;span id="docs-internal-guid-36e6964f-7fff-b232-d6e1-6847f3b96c04"&gt;Incorrect. Let’s try again a different way: &lt;br&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \( -7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\). &lt;br&gt;Be careful when using the Distributive Property to multiply \(&amp;nbsp;-\frac{3}{4}&amp;nbsp;\) by \(&amp;nbsp;x&amp;nbsp;\) and by \(&amp;nbsp;4&amp;nbsp;\). &lt;br&gt;The equation simplifies to \(&amp;nbsp;y + 7 = -\frac{3}{4}x + 3&amp;nbsp;\). &lt;br&gt;The answer is \(&amp;nbsp;y =-\frac{3}{4}x - 4&amp;nbsp;\).&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="514">
+            <jumpto>241</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407837</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(&amp;nbsp;y =-\frac{3}{4}x +10&amp;nbsp;&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: &lt;br&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \( -7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\). Watch the signs when simplifying. The equation simplifies to \(&amp;nbsp;y + 7 = -\frac{3}{4}x + 3&amp;nbsp;\). &lt;br&gt;The answer is \(&amp;nbsp;y =-\frac{3}{4}x- 4&amp;nbsp;\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="540">
+            <jumpto>241</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646407837</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
             <attempts>
             </attempts>
           </answer>
@@ -386,9 +428,9 @@
         <branches>
         </branches>
       </page>
-      <page id="238">
+      <page id="241">
         <prevpageid>237</prevpageid>
-        <nextpageid>240</nextpageid>
+        <nextpageid>239</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -414,7 +456,7 @@
             </attempts>
           </answer>
           <answer id="529">
-            <jumpto>240</jumpto>
+            <jumpto>239</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -431,272 +473,8 @@
         <branches>
         </branches>
       </page>
-      <page id="240">
-        <prevpageid>238</prevpageid>
-        <nextpageid>236</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1646945794</timecreated>
-        <timemodified>1656967510</timemodified>
-        <title>1.12.4: Writing an Equation Given Two Points</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="a31b47d8-3392-4e26-9071-bcea8f2ec614"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="526">
-            <jumpto>239</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1646945794</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="527">
-            <jumpto>236</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1646945794</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="237">
-        <prevpageid>239</prevpageid>
-        <nextpageid>238</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1646407837</timecreated>
-        <timemodified>1657380089</timemodified>
-        <title>1.12.3: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="c391a775-f009-4517-8b3a-1c43824fc92f"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="511">
-            <jumpto>240</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1646407837</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(&amp;nbsp;y =-\frac{3}{4}x &amp;minus; 4&amp;nbsp;&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That’s correct! Check yourself: &lt;br&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \(&amp;nbsp;−7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\) to get \(&amp;nbsp;y&amp;nbsp;+ 7 = -\frac{3}{4}x + 3&amp;nbsp;\).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="512">
-            <jumpto>238</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1646407837</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\( y =-\frac{3}{4}x - 1\frac{1}{4}&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-03407fbf-7fff-d675-7c22-7e7dfa750cbd"&gt;&lt;span id="docs-internal-guid-5a26008b-7fff-b254-dae5-8b372ad1121f"&gt;Incorrect. Let’s try again a different way: Remember the \( x \)-coordinate is the first coordinate and the \( y \)-coordinate is the second coordinate.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span&gt;&lt;span&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \( -7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\) to get \(&amp;nbsp;y&amp;nbsp;+ 7 = -\frac{3}{4}x + 3&amp;nbsp;\). &lt;br&gt;The answer is \(&amp;nbsp;y = -\frac{3}{4}x - 4&amp;nbsp;\).&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="513">
-            <jumpto>238</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1646407837</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(&amp;nbsp;y =-\frac{3}{4}x - 11&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-4cc4fea5-7fff-3da5-6f0e-ce5294c36d87"&gt;&lt;span id="docs-internal-guid-36e6964f-7fff-b232-d6e1-6847f3b96c04"&gt;Incorrect. Let’s try again a different way: &lt;br&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \( -7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\). &lt;br&gt;Be careful when using the Distributive Property to multiply \(&amp;nbsp;-\frac{3}{4}&amp;nbsp;\) by \(&amp;nbsp;x&amp;nbsp;\) and by \(&amp;nbsp;4&amp;nbsp;\). &lt;br&gt;The equation simplifies to \(&amp;nbsp;y + 7 = -\frac{3}{4}x + 3&amp;nbsp;\). &lt;br&gt;The answer is \(&amp;nbsp;y =-\frac{3}{4}x - 4&amp;nbsp;\).&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="514">
-            <jumpto>238</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1646407837</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(&amp;nbsp;y =-\frac{3}{4}x +10&amp;nbsp;&amp;nbsp;\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: &lt;br&gt;Substitute&amp;nbsp;\(-\frac{3}{4} \) for \(&amp;nbsp;m, 4&amp;nbsp;\) for \(&amp;nbsp;x_1&amp;nbsp;\), and \( -7&amp;nbsp;\) for \(&amp;nbsp;y_1&amp;nbsp;\) in the point-slope form: \(&amp;nbsp;y - y_1 = m(x - x_1)&amp;nbsp;\). &lt;br&gt;Simplify the equation \(&amp;nbsp;y - (-7) = -\frac{3}{4}(x - 4)&amp;nbsp;\). Watch the signs when simplifying. The equation simplifies to \(&amp;nbsp;y + 7 = -\frac{3}{4}x + 3&amp;nbsp;\). &lt;br&gt;The answer is \(&amp;nbsp;y =-\frac{3}{4}x- 4&amp;nbsp;\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="540">
-            <jumpto>238</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1646407837</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response/>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="236">
-        <prevpageid>240</prevpageid>
-        <nextpageid>241</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1652394158</timecreated>
-        <timemodified>1657380106</timemodified>
-        <title>1.12.4: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="628b0fa2-3c3f-4849-93d2-49eb740ddd29"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="530">
-            <jumpto>242</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1652394158</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\( y = \frac{1}{3}x - 3\frac{1}{3} \)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That’s correct! Check yourself: &lt;br&gt;First find the slope by substituting&amp;nbsp;\( -3 \) for \( y_2 \),&amp;nbsp;\( -4 \) for \( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \) for&amp;nbsp;\( x_1 \) in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;br&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \). &lt;br&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="531">
-            <jumpto>241</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1652394158</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\( y = \frac{1}{3}x - 2\frac{1}{3} \)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way:&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;First find the slope by substituting&amp;nbsp;\( -3 \)&amp;nbsp;for&amp;nbsp;\( y_2 \),&amp;nbsp;\( -4 \)&amp;nbsp;for&amp;nbsp;\( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \)&amp;nbsp;for&amp;nbsp;\( x_1 \)&amp;nbsp;in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \). You can use the coordinates from either point. Make sure you choose the&amp;nbsp;\( x \)- and&amp;nbsp;\( y \)-value from the same point.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \). The answer is \( y =\frac{1}{3}x - 3\frac{1}{3} \).&lt;/span&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="532">
-            <jumpto>241</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1652394158</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\( y = 7x + 10 \)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-4cc4fea5-7fff-3da5-6f0e-ce5294c36d87"&gt;&lt;span id="docs-internal-guid-36e6964f-7fff-b232-d6e1-6847f3b96c04"&gt;Incorrect. Let’s try again a different way:&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;First find the slope by substituting&amp;nbsp;\( -3 \)&amp;nbsp;for&amp;nbsp;\( y_2 \),&amp;nbsp;\( -4 \)&amp;nbsp;for&amp;nbsp;\( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \)&amp;nbsp;for&amp;nbsp;\( x_1 \)&amp;nbsp;in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \).&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \). The answer is&amp;nbsp;\( y =\frac{1}{3}x - 3\frac{1}{3} \).&lt;/span&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="533">
-            <jumpto>241</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1652394158</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\( y = 3x - 6  \)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way:&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;Remember, the \(x\)-coordinate is the first coordinate and the \(y\)-coordinate is the second coordinate.&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;The slope is the change in \(y\) over the change in \(x\). Find the slope by substituting&amp;nbsp;\( -3 \)&amp;nbsp;for&amp;nbsp;\( y_2 \),&amp;nbsp;\( -4 \)&amp;nbsp;for&amp;nbsp;\( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \)&amp;nbsp;for&amp;nbsp;\( x_1 \)&amp;nbsp;in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \).&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \). The answer is&amp;nbsp;\( y =\frac{1}{3}x - 3\frac{1}{3} \).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="541">
-            <jumpto>241</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1652394158</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response/>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="242">
-        <prevpageid>241</prevpageid>
-        <nextpageid>243</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1652400590</timecreated>
-        <timemodified>1656960092</timemodified>
-        <title>1.12.5: Choosing a Method to Write an Equation</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="f41dbe8a-819b-457c-8958-180a1fc8fde7"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="536">
-            <jumpto>240</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1652400590</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="537">
-            <jumpto>243</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1652400590</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
       <page id="243">
-        <prevpageid>242</prevpageid>
+        <prevpageid>238</prevpageid>
         <nextpageid>244</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
@@ -709,7 +487,7 @@
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="520">
-            <jumpto>242</jumpto>
+            <jumpto>238</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -728,6 +506,228 @@
             <score>0</score>
             <flags>0</flags>
             <timecreated>1646416095</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="240">
+        <prevpageid>239</prevpageid>
+        <nextpageid>242</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1652394158</timecreated>
+        <timemodified>1657380106</timemodified>
+        <title>1.12.4: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="628b0fa2-3c3f-4849-93d2-49eb740ddd29"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="530">
+            <jumpto>238</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1652394158</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( y = \frac{1}{3}x - 3\frac{1}{3} \)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That’s correct! Check yourself: &lt;br&gt;First find the slope by substituting&amp;nbsp;\( -3 \) for \( y_2 \),&amp;nbsp;\( -4 \) for \( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \) for&amp;nbsp;\( x_1 \) in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;br&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \). &lt;br&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="531">
+            <jumpto>242</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394158</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( y = \frac{1}{3}x - 2\frac{1}{3} \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way:&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;First find the slope by substituting&amp;nbsp;\( -3 \)&amp;nbsp;for&amp;nbsp;\( y_2 \),&amp;nbsp;\( -4 \)&amp;nbsp;for&amp;nbsp;\( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \)&amp;nbsp;for&amp;nbsp;\( x_1 \)&amp;nbsp;in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \). You can use the coordinates from either point. Make sure you choose the&amp;nbsp;\( x \)- and&amp;nbsp;\( y \)-value from the same point.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \). The answer is \( y =\frac{1}{3}x - 3\frac{1}{3} \).&lt;/span&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="532">
+            <jumpto>242</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394158</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( y = 7x + 10 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-4cc4fea5-7fff-3da5-6f0e-ce5294c36d87"&gt;&lt;span id="docs-internal-guid-36e6964f-7fff-b232-d6e1-6847f3b96c04"&gt;Incorrect. Let’s try again a different way:&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;First find the slope by substituting&amp;nbsp;\( -3 \)&amp;nbsp;for&amp;nbsp;\( y_2 \),&amp;nbsp;\( -4 \)&amp;nbsp;for&amp;nbsp;\( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \)&amp;nbsp;for&amp;nbsp;\( x_1 \)&amp;nbsp;in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \).&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \). The answer is&amp;nbsp;\( y =\frac{1}{3}x - 3\frac{1}{3} \).&lt;/span&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="533">
+            <jumpto>242</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394158</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( y = 3x - 6  \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way:&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;Remember, the \(x\)-coordinate is the first coordinate and the \(y\)-coordinate is the second coordinate.&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;The slope is the change in \(y\) over the change in \(x\). Find the slope by substituting&amp;nbsp;\( -3 \)&amp;nbsp;for&amp;nbsp;\( y_2 \),&amp;nbsp;\( -4 \)&amp;nbsp;for&amp;nbsp;\( y_1 \), 1 for&amp;nbsp;\( x_2 \), and \( -2 \)&amp;nbsp;for&amp;nbsp;\( x_1 \)&amp;nbsp;in the slope formula:&amp;nbsp;\( m= \frac{y_2-y_1}{x_2-x_1} \). The slope is&amp;nbsp;\( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \).&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \).&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1)&amp;nbsp;\) to get \(&amp;nbsp;y + 3 = \frac{1}{3}x - \frac{1}{3} \). The answer is&amp;nbsp;\( y =\frac{1}{3}x - 3\frac{1}{3} \).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="541">
+            <jumpto>242</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394158</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="242">
+        <prevpageid>240</prevpageid>
+        <nextpageid>238</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1652394197</timecreated>
+        <timemodified>1656960071</timemodified>
+        <title>1.12.4: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="d39af74a-9485-4ecf-9bb0-d72a2da18c00"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="534">
+            <jumpto>237</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394197</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="535">
+            <jumpto>238</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652394197</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="239">
+        <prevpageid>241</prevpageid>
+        <nextpageid>240</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1646945794</timecreated>
+        <timemodified>1656967510</timemodified>
+        <title>1.12.4: Writing an Equation Given Two Points</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="a31b47d8-3392-4e26-9071-bcea8f2ec614"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="526">
+            <jumpto>236</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646945794</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="527">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646945794</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="238">
+        <prevpageid>242</prevpageid>
+        <nextpageid>243</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1652400590</timecreated>
+        <timemodified>1656960092</timemodified>
+        <title>1.12.5: Choosing a Method to Write an Equation</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="f41dbe8a-819b-457c-8958-180a1fc8fde7"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="536">
+            <jumpto>239</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652400590</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="537">
+            <jumpto>243</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1652400590</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>

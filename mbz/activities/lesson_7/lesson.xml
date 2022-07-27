@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <activity id="5" moduleid="7" modulename="lesson" contextid="18">
   <lesson id="5">
     <course>2</course>
     <name>Lesson 1.1: Exploring Expressions and Equations</name>
-    <intro/>
+    <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>1</modattempts>
     <usepassword>0</usepassword>
-    <password/>
+    <password></password>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>0</activitylink>
-    <mediafile/>
+    <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -206,7 +206,7 @@
             </attempts>
           </answer>
           <answer id="73">
-            <jumpto>36</jumpto>
+            <jumpto>33</jumpto>
             <grade>0</grade>
             <score>1</score>
             <flags>0</flags>
@@ -241,7 +241,7 @@
             <timecreated>1646156371</timecreated>
             <timemodified>0</timemodified>
             <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response/>
+            <response></response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -253,7 +253,7 @@
       </page>
       <page id="32">
         <prevpageid>31</prevpageid>
-        <nextpageid>36</nextpageid>
+        <nextpageid>33</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -279,7 +279,7 @@
             </attempts>
           </answer>
           <answer id="66">
-            <jumpto>36</jumpto>
+            <jumpto>33</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -296,7 +296,7 @@
         <branches>
         </branches>
       </page>
-      <page id="36">
+      <page id="33">
         <prevpageid>32</prevpageid>
         <nextpageid>34</nextpageid>
         <qtype>20</qtype>
@@ -341,9 +341,96 @@
         <branches>
         </branches>
       </page>
-      <page id="35">
-        <prevpageid>34</prevpageid>
+      <page id="34">
+        <prevpageid>33</prevpageid>
         <nextpageid>37</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1646156398</timecreated>
+        <timemodified>1657379355</timemodified>
+        <title>1.1.3: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="b84b237a-8821-4796-a66e-2906d84860ba"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="75">
+            <jumpto>37</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646156398</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( s + m &amp;ge; 20; s &amp;ge; 8 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: At most 20 hours means 20 hours or less. Use the less than or equal to symbol. The correct answer is \( s + m ≤ 20; s ≥ 8 \).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="76">
+            <jumpto>35</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1646156398</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( s + m &amp;le; 20; s &amp;ge; 8 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That’s correct! Check yourself: At most 20 hours means 20 hours or less, which uses the less than or equal to symbol. At least 8 hours means 8 hours or more, which uses the greater than or equal to symbol.&amp;nbsp;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="77">
+            <jumpto>37</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646156398</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( s + m &amp;ge; 20; s &amp;le; 8 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: At most 20 hours means 20 hours or less. Use the less than or equal to symbol. At least 8 hours means 8 hours or more. Use the greater than or equal to symbol. The correct answer is&amp;nbsp;\( s + m ≤ 20; s ≥ 8 \).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="78">
+            <jumpto>37</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646156398</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( s + m &amp;le; 20; s &amp;le; 8 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: At least 8 hours means 8 hours or more Use the greater than or equal to symbol. The correct answer is&amp;nbsp;\( s + m ≤ 20; s ≥ 8 \).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="84">
+            <jumpto>37</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1646156398</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="37">
+        <prevpageid>34</prevpageid>
+        <nextpageid>35</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -369,7 +456,7 @@
             </attempts>
           </answer>
           <answer id="81">
-            <jumpto>37</jumpto>
+            <jumpto>35</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -386,141 +473,9 @@
         <branches>
         </branches>
       </page>
-      <page id="37">
+      <page id="36">
         <prevpageid>35</prevpageid>
         <nextpageid>38</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1636583527</timecreated>
-        <timemodified>1656809658</timemodified>
-        <title>1.1.4: Creating Expressions to Estimate Cost, Part 2</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="5e259f34-88a4-4859-bcd5-88eb1376fa44"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="61">
-            <jumpto>36</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1636583527</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="64">
-            <jumpto>38</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1636583527</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="34">
-        <prevpageid>36</prevpageid>
-        <nextpageid>35</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1646156398</timecreated>
-        <timemodified>1657379355</timemodified>
-        <title>1.1.3: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="b84b237a-8821-4796-a66e-2906d84860ba"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="75">
-            <jumpto>35</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1646156398</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\( s + m &amp;ge; 20; s &amp;ge; 8 \)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: At most 20 hours means 20 hours or less. Use the less than or equal to symbol. The correct answer is \( s + m ≤ 20; s ≥ 8 \).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="76">
-            <jumpto>37</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1646156398</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\( s + m &amp;le; 20; s &amp;ge; 8 \)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That’s correct! Check yourself: At most 20 hours means 20 hours or less, which uses the less than or equal to symbol. At least 8 hours means 8 hours or more, which uses the greater than or equal to symbol.&amp;nbsp;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="77">
-            <jumpto>35</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1646156398</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\( s + m &amp;ge; 20; s &amp;le; 8 \)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: At most 20 hours means 20 hours or less. Use the less than or equal to symbol. At least 8 hours means 8 hours or more. Use the greater than or equal to symbol. The correct answer is&amp;nbsp;\( s + m ≤ 20; s ≥ 8 \).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="78">
-            <jumpto>35</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1646156398</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\( s + m &amp;le; 20; s &amp;le; 8 \)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: At least 8 hours means 8 hours or more Use the greater than or equal to symbol. The correct answer is&amp;nbsp;\( s + m ≤ 20; s ≥ 8 \).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="84">
-            <jumpto>35</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1646156398</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response/>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="38">
-        <prevpageid>37</prevpageid>
-        <nextpageid>33</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -563,8 +518,8 @@
         <branches>
         </branches>
       </page>
-      <page id="33">
-        <prevpageid>38</prevpageid>
+      <page id="38">
+        <prevpageid>36</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
@@ -577,7 +532,7 @@
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="70">
-            <jumpto>38</jumpto>
+            <jumpto>36</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -598,6 +553,51 @@
             <timecreated>1646066325</timecreated>
             <timemodified>0</timemodified>
             <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="35">
+        <prevpageid>37</prevpageid>
+        <nextpageid>36</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1636583527</timecreated>
+        <timemodified>1656809658</timemodified>
+        <title>1.1.4: Creating Expressions to Estimate Cost, Part 2</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="5e259f34-88a4-4859-bcd5-88eb1376fa44"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="61">
+            <jumpto>33</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1636583527</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="64">
+            <jumpto>36</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1636583527</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
