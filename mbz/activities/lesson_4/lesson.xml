@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <activity id="3" moduleid="4" modulename="lesson" contextid="15">
   <lesson id="3">
     <course>2</course>
     <name>Unit 1 Overview and Readiness</name>
-    <intro/>
+    <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>1</modattempts>
     <usepassword>0</usepassword>
-    <password/>
+    <password></password>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>0</activitylink>
-    <mediafile/>
+    <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -298,7 +298,7 @@
       </page>
       <page id="14">
         <prevpageid>13</prevpageid>
-        <nextpageid>20</nextpageid>
+        <nextpageid>15</nextpageid>
         <qtype>3</qtype>
         <qoption>0</qoption>
         <layout>0</layout>
@@ -310,7 +310,7 @@
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="32">
-            <jumpto>17</jumpto>
+            <jumpto>20</jumpto>
             <grade>0</grade>
             <score>1</score>
             <flags>0</flags>
@@ -324,7 +324,7 @@
             </attempts>
           </answer>
           <answer id="33">
-            <jumpto>20</jumpto>
+            <jumpto>15</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -338,7 +338,7 @@
             </attempts>
           </answer>
           <answer id="34">
-            <jumpto>20</jumpto>
+            <jumpto>15</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -352,7 +352,7 @@
             </attempts>
           </answer>
           <answer id="35">
-            <jumpto>20</jumpto>
+            <jumpto>15</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -369,9 +369,9 @@
         <branches>
         </branches>
       </page>
-      <page id="20">
+      <page id="15">
         <prevpageid>14</prevpageid>
-        <nextpageid>15</nextpageid>
+        <nextpageid>16</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -400,9 +400,82 @@
         <branches>
         </branches>
       </page>
-      <page id="17">
+      <page id="16">
         <prevpageid>15</prevpageid>
-        <nextpageid>16</nextpageid>
+        <nextpageid>20</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1639359542</timecreated>
+        <timemodified>1657400226</timemodified>
+        <title>Classify Equations: Mini-Lesson Review Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="0e698af2-037c-4a41-8898-5b1c549be8f0"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="25">
+            <jumpto>20</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1639359542</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;span&gt;&lt;/span&gt;identity; all real numbers&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Use the Distributive Property on both sides of the equation to eliminate parentheses. After combining like terms, the equation is \( 27x &amp;minus; 59 = 27x &amp;minus; 59 \). Subtract&amp;nbsp;\( 27x \) from both sides to get \(&amp;nbsp;&amp;minus;59 = &amp;minus;59&amp;nbsp;\). This is a true statement, so the equation is an identity and is true for all values of \( x \).&amp;nbsp;Select the Continue button to move on to the next question.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="26">
+            <jumpto>20</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1639359542</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;span&gt;&lt;/span&gt;conditional equation;&amp;nbsp;\( x = 0 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. The answer is identity; all real numbers. Let&amp;rsquo;s try again a different way: Use the Distributive Property to eliminate the parentheses on both sides of the equation. Simplify both sides to get the equation \( 27x &amp;minus; 59 = 27x &amp;minus; 59 \). Be sure to subtract \(&amp;nbsp;27x&amp;nbsp;\) from both sides to get the variables on one side and add 59 to get the constants on one side. This gives the equation \( 0 = 0 \). This is a true statement, which means the equation is an identity and is true for all values of \(&amp;nbsp;x&amp;nbsp;\).&amp;nbsp;Select the Continue button for a quick mini-lesson to review this content.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="27">
+            <jumpto>20</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1639359542</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;span&gt;&lt;/span&gt;conditional equation;&amp;nbsp;\( x = 2 \frac{5}{27}  \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. The answer is identity; all real numbers. Let&amp;rsquo;s try again a different way: Use the Distributive Property to eliminate the parentheses on both sides of the equation. Simplify both sides to get the equation \( 27x &amp;minus; 59 = 27x &amp;minus; 59 \). Be sure to subtract \(&amp;nbsp;27x&amp;nbsp;\) from both sides to get the variables on one side and add 59 to both sides to get the constants on one side. This gives the equation \( 0 = 0 \). This is a true statement, which means the equation is an identity and is true for all values of \(&amp;nbsp;x&amp;nbsp;\).&amp;nbsp;Select the Continue button for a quick mini-lesson to review this content.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="28">
+            <jumpto>20</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1639359542</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;span&gt;&lt;/span&gt;contradiction; no solution&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. The answer is identity; all real numbers. Let&amp;rsquo;s try again a different way: Use the Distributive Property to eliminate the parentheses on both sides of the equation. Be sure to multiply 9 by \(&amp;nbsp;3x&amp;nbsp;\) and 9 by 7 on the left side and multiply 23 by \(&amp;nbsp;3x&amp;nbsp;\) and 23 by 2 on the right side. Simplify both sides to get the equation \( 27x &amp;minus; 59 = 27x &amp;minus; 59 \). Subtract \(&amp;nbsp;27x&amp;nbsp;\) from both sides to get the variables on one side. The equation is \(&amp;nbsp;&amp;minus; 59 = &amp;minus; 59&amp;nbsp;\). This is a true statement, so the equation is an identity and is true for all values of \(&amp;nbsp;x&amp;nbsp;\).&amp;nbsp;Select the Continue button for a quick mini-lesson to review this content.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="20">
+        <prevpageid>16</prevpageid>
+        <nextpageid>17</nextpageid>
         <qtype>3</qtype>
         <qoption>0</qoption>
         <layout>0</layout>
@@ -414,7 +487,7 @@
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="36">
-            <jumpto>19</jumpto>
+            <jumpto>18</jumpto>
             <grade>0</grade>
             <score>1</score>
             <flags>0</flags>
@@ -428,7 +501,7 @@
             </attempts>
           </answer>
           <answer id="37">
-            <jumpto>16</jumpto>
+            <jumpto>17</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -442,7 +515,7 @@
             </attempts>
           </answer>
           <answer id="38">
-            <jumpto>16</jumpto>
+            <jumpto>17</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -456,7 +529,7 @@
             </attempts>
           </answer>
           <answer id="39">
-            <jumpto>16</jumpto>
+            <jumpto>17</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -473,9 +546,9 @@
         <branches>
         </branches>
       </page>
-      <page id="18">
-        <prevpageid>16</prevpageid>
-        <nextpageid>19</nextpageid>
+      <page id="19">
+        <prevpageid>17</prevpageid>
+        <nextpageid>18</nextpageid>
         <qtype>3</qtype>
         <qoption>0</qoption>
         <layout>0</layout>
@@ -487,7 +560,7 @@
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="40">
-            <jumpto>19</jumpto>
+            <jumpto>18</jumpto>
             <grade>0</grade>
             <score>1</score>
             <flags>0</flags>
@@ -501,7 +574,7 @@
             </attempts>
           </answer>
           <answer id="41">
-            <jumpto>19</jumpto>
+            <jumpto>18</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -515,7 +588,7 @@
             </attempts>
           </answer>
           <answer id="42">
-            <jumpto>19</jumpto>
+            <jumpto>18</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -529,7 +602,7 @@
             </attempts>
           </answer>
           <answer id="43">
-            <jumpto>19</jumpto>
+            <jumpto>18</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -546,51 +619,20 @@
         <branches>
         </branches>
       </page>
-      <page id="16">
-        <prevpageid>17</prevpageid>
-        <nextpageid>18</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1639359596</timecreated>
-        <timemodified>1658957904</timemodified>
-        <title>Find Coordinates: Mini-Lesson Review</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="56b8a457-01fa-45b2-b438-f1f0c498b399"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="29">
-            <jumpto>18</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1639359596</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’m ready to re-check my understanding.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="19">
-        <prevpageid>18</prevpageid>
+      <page id="18">
+        <prevpageid>19</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
         <timecreated>1638456641</timecreated>
-        <timemodified>1657054672</timemodified>
+        <timemodified>1659036721</timemodified>
         <title>Unit 1 Overview: Wrap Up</title>
         <contents>&lt;div class="os-raise-content" data-content-id="ac494dbf-9c5f-45d2-a5aa-46e196ed0efe"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="13">
+          <answer id="14">
             <jumpto>10</jumpto>
             <grade>0</grade>
             <score>0</score>
@@ -604,14 +646,14 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="14">
-            <jumpto>-1</jumpto>
+          <answer id="45">
+            <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
             <timecreated>1638456641</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
+            <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
@@ -622,72 +664,30 @@
         <branches>
         </branches>
       </page>
-      <page id="15">
+      <page id="17">
         <prevpageid>20</prevpageid>
-        <nextpageid>17</nextpageid>
-        <qtype>3</qtype>
+        <nextpageid>19</nextpageid>
+        <qtype>20</qtype>
         <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1639359542</timecreated>
-        <timemodified>1657400226</timemodified>
-        <title>Classify Equations: Mini-Lesson Review Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="0e698af2-037c-4a41-8898-5b1c549be8f0"&gt;&lt;/div&gt;</contents>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1639359596</timecreated>
+        <timemodified>1658957904</timemodified>
+        <title>Find Coordinates: Mini-Lesson Review</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="56b8a457-01fa-45b2-b438-f1f0c498b399"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="25">
-            <jumpto>17</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1639359542</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;&lt;span&gt;&lt;/span&gt;identity; all real numbers&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Use the Distributive Property on both sides of the equation to eliminate parentheses. After combining like terms, the equation is \( 27x &amp;minus; 59 = 27x &amp;minus; 59 \). Subtract&amp;nbsp;\( 27x \) from both sides to get \(&amp;nbsp;&amp;minus;59 = &amp;minus;59&amp;nbsp;\). This is a true statement, so the equation is an identity and is true for all values of \( x \).&amp;nbsp;Select the Continue button to move on to the next question.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="26">
-            <jumpto>17</jumpto>
+          <answer id="29">
+            <jumpto>19</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1639359542</timecreated>
+            <timecreated>1639359596</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;&lt;span&gt;&lt;/span&gt;conditional equation;&amp;nbsp;\( x = 0 \)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. The answer is identity; all real numbers. Let&amp;rsquo;s try again a different way: Use the Distributive Property to eliminate the parentheses on both sides of the equation. Simplify both sides to get the equation \( 27x &amp;minus; 59 = 27x &amp;minus; 59 \). Be sure to subtract \(&amp;nbsp;27x&amp;nbsp;\) from both sides to get the variables on one side and add 59 to get the constants on one side. This gives the equation \( 0 = 0 \). This is a true statement, which means the equation is an identity and is true for all values of \(&amp;nbsp;x&amp;nbsp;\).&amp;nbsp;Select the Continue button for a quick mini-lesson to review this content.&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="27">
-            <jumpto>17</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1639359542</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;&lt;span&gt;&lt;/span&gt;conditional equation;&amp;nbsp;\( x = 2 \frac{5}{27}  \)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. The answer is identity; all real numbers. Let&amp;rsquo;s try again a different way: Use the Distributive Property to eliminate the parentheses on both sides of the equation. Simplify both sides to get the equation \( 27x &amp;minus; 59 = 27x &amp;minus; 59 \). Be sure to subtract \(&amp;nbsp;27x&amp;nbsp;\) from both sides to get the variables on one side and add 59 to both sides to get the constants on one side. This gives the equation \( 0 = 0 \). This is a true statement, which means the equation is an identity and is true for all values of \(&amp;nbsp;x&amp;nbsp;\).&amp;nbsp;Select the Continue button for a quick mini-lesson to review this content.&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="28">
-            <jumpto>17</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1639359542</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;&lt;span&gt;&lt;/span&gt;contradiction; no solution&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. The answer is identity; all real numbers. Let&amp;rsquo;s try again a different way: Use the Distributive Property to eliminate the parentheses on both sides of the equation. Be sure to multiply 9 by \(&amp;nbsp;3x&amp;nbsp;\) and 9 by 7 on the left side and multiply 23 by \(&amp;nbsp;3x&amp;nbsp;\) and 23 by 2 on the right side. Simplify both sides to get the equation \( 27x &amp;minus; 59 = 27x &amp;minus; 59 \). Subtract \(&amp;nbsp;27x&amp;nbsp;\) from both sides to get the variables on one side. The equation is \(&amp;nbsp;&amp;minus; 59 = &amp;minus; 59&amp;nbsp;\). This is a true statement, so the equation is an identity and is true for all values of \(&amp;nbsp;x&amp;nbsp;\).&amp;nbsp;Select the Continue button for a quick mini-lesson to review this content.&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
+            <answer_text>I’m ready to re-check my understanding.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
