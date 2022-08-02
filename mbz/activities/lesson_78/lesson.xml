@@ -1,0 +1,2056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="60" moduleid="78" modulename="lesson" contextid="89">
+  <lesson id="60">
+    <course>2</course>
+    <name>Lesson 2.13: Solutions to Systems of Linear Inequalities in Two Variables</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>1</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1658245608</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="544">
+        <prevpageid>0</prevpageid>
+        <nextpageid>545</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655666982</timecreated>
+        <timemodified>1657651857</timemodified>
+        <title>2.13.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will find the solutions to systems of linear inequalities in two variables.&lt;/p&gt;&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write a system of inequalities to describe a situation, find the solution by graphing, and interpret points in the solution.&lt;/li&gt;&lt;li&gt;Explain what is meant by “the solutions to a system of inequalities” and describe the graphs that represent the solutions.&lt;/li&gt;&lt;li&gt;Find values that satisfy each constraint individually, and values that satisfy both constraints at once, when given descriptions and graphs that represent two different constraints.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2.13.1: Modeling Equations to Solve a Riddle&lt;/li&gt;&lt;li&gt;2.13.2: Finding a Pair of Values that Satisfies Multiple Inequalities&lt;/li&gt;&lt;li&gt;2.13.2: Self Check&lt;/li&gt;&lt;li&gt;2.13.3: Writing Systems of Inequalities that Represent Situations&lt;/li&gt;&lt;li&gt;2.13.3: Self Check&lt;/li&gt;&lt;li&gt;2.13.4: Graphing Solutions of Systems of Inequalities&lt;/li&gt;&lt;li&gt;2.13.4: Self Check&lt;/li&gt;&lt;li&gt;2.13.5: Writing Inequalities for Situations and Representing on a Graph&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2.13.6: Practice&lt;/li&gt;&lt;li&gt;2.13.7: Lesson Summary&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1203">
+            <jumpto>545</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655666982</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="545">
+        <prevpageid>544</prevpageid>
+        <nextpageid>546</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655667565</timecreated>
+        <timemodified>1657651890</timemodified>
+        <title>2.13.1: Modeling Equations to Solve a Riddle</title>
+        <contents>&lt;h4 style="text-align: left;"&gt;Warm Up Activity&lt;/h4&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventnameX" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;Here is a riddle: “I am thinking of two numbers that add up to 5.678. The difference between them is 9.876. What are the two numbers?”&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Name any pair of numbers whose sum is 5.678.&lt;/li&gt;
+            &lt;li&gt;Name any pair of numbers whose difference is 9.876.&lt;/li&gt;
+            &lt;li&gt;The riddle can be represented with two equations. Write the equations.&lt;/li&gt;
+            &lt;li&gt;Solve the riddle. Explain or show your reasoning.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answers here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;
+               Sample response: 2 and 3.678.
+            &lt;/li&gt;
+            &lt;li&gt;
+               Sample response: 10 and 0.124.
+            &lt;/li&gt;
+            &lt;li&gt;
+                Let \(x\) and \(y\) represent the numbers: \(x+y=5.678\) and \(x-y=9.876\).
+            &lt;/li&gt;
+            &lt;li&gt;
+                The two numbers are \(7.777\) and \(-2.099\). Sample reasoning:
+            &lt;/li&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    Graphing the two equations gives two lines that intersect at \((7.777,-2.099)\).
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;p&gt;Adding the two equations eliminates the \(y\)-variable and gives \(2x=15.554\) or \(x=7.777\). Substituting this \(x\)-value into either equation gives \(y=-2.099\).
+                &lt;/p&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/xcWjQ6LGUsCc1odquipXUUrX" alt="Graph of 2 intersecting lines. Horizontal axis, labeled x, from negative 12 to 12 by 2s. Vertical axis, labeled y, from negative 12 to 12 by 2s. Lines intersect near 8 comma negative 2."&gt;&lt;/p&gt;&lt;br&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1204">
+            <jumpto>544</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655667565</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1205">
+            <jumpto>546</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655667565</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="546">
+        <prevpageid>545</prevpageid>
+        <nextpageid>547</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655668210</timecreated>
+        <timemodified>1658810898</timemodified>
+        <title>2.13.2: Finding a Pair of Values that Satisfies Multiple Inequalities</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;To make a quilt, a quilter is buying fabric in two colors, light and dark. He needs at least 9.5 yards of fabric in total.&lt;/p&gt;
+&lt;p&gt;The light color costs $9 a yard. The dark color costs $13 a yard. The quilter can spend up to $110 on fabric.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/StRewShGYc6zT2BYp7Ly1pyf" alt="Close up of a quilt" style="-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);" class="img-fluid atto_image_button_text-bottom" width="600" height="378"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-e62a5739-7fff-359f-a13d-85be72b04623"&gt;Here are two graphs that represent the two constraints.&lt;/span&gt;&lt;/p&gt;
+&lt;ol type="A"&gt;
+    &lt;li&gt;Length&lt;/li&gt;
+&lt;/ol&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Qi8BNpaDB7ZXPGVxvBPf7B3M" alt="Inequality graphed on a coordinate plane."&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol type="A" start="2"&gt;
+    &lt;li&gt;
+        &lt;p&gt;Cost&amp;nbsp;&lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/TSbrhtWgx4ZwwsyRkhvfxUPG" alt="Inequality graphed on a coordinate plane."&gt;&lt;/p&gt;&lt;br&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Write an inequality to represent the length constraint. Let \(x\) represent the yards of light fabric and \(y\) represent the yards of dark fabric.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Your answers may vary, but here are some sample responses to compare your answers.&lt;/p&gt;
+        &lt;p&gt;\(x+y\geq9.5\) or equivalent&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;Select all the pairs that satisfy the length constraint.&lt;ul&gt;
+                    &lt;li&gt;&lt;span&gt;\((5,5)\)&lt;/span&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;span&gt;\((2.5,4.5)\)&lt;/span&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;span&gt;\((7.5,3.5)\)&lt;/span&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;span&gt;\((12,10)\)&lt;/span&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;&lt;/div&gt;&lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;\((5,5)\), \((7.5,3.5)\), and \((12,10)\)&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt;&lt;span&gt;Write an inequality to represent the cost constraint.&lt;/span&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Your answers may vary, but here are some sample responses to compare your answers.&lt;/p&gt;
+        &lt;p&gt;\(9x+13y\leq110\) or equivalent&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="4"&gt;
+            &lt;li&gt;&lt;span&gt;Select&amp;nbsp;&lt;/span&gt;&lt;strong&gt;all&lt;/strong&gt;&lt;span&gt;&amp;nbsp;the pairs that satisfy the cost constraint.&lt;/span&gt;&lt;br&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;span&gt;\((1,1)\)&lt;/span&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;span&gt;\((4,5)\)&lt;/span&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;span&gt;\((8,3)\)&lt;/span&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;span&gt;\((10,1)\)&lt;/span&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;&lt;/div&gt;&lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;\((1,1)\), \((4,5)\), and \((10,1)\)&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="5"&gt;
+            &lt;li&gt;&lt;span id="docs-internal-guid-0a6126fd-7fff-c706-7687-af8600fd840c"&gt;Explain why \((2,2)\) satisfies the cost constraint but not the length constraint.&lt;/span&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Your answers may vary, but here are some sample responses to compare your answers.&lt;/p&gt;
+        &lt;p&gt;2 yards of each color costs $44, which is less than $110, so it satisfies this constraint. However, this is only 4 yards altogether, which is not at least 9.5 yards.&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="6"&gt;
+            &lt;li&gt;Find at least one pair of numbers that satisfies both constraints. Be prepared to explain how you know.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Your answers may vary, but here are some sample responses to compare your answers.&lt;/p&gt;
+        &lt;p&gt;Sample responses: \((10,1)\), \((8,2)\), and (\(6.5,3.5)\) (any point that is in the intersection of the two inequalities).&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="7"&gt;
+            &lt;li&gt;What does the pair of numbers represent in this situation?&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Your answers may vary, but here are some sample responses to compare your answers.&lt;/p&gt;
+        &lt;p&gt;Sample response: \((10,1)\) means 10 yards of light fabric and 1 yard of dark fabric. This is 11 yards of fabric altogether, which is more than 9.5. It costs $103 because \(9(10)+1(13)=103\). This is less than the $110 maximum.&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ol start="8"&gt;
+    &lt;li&gt;Write the two inequalities together as a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;system of inequalities&lt;/span&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;\(\left\{\begin{array}{l}9x+13y\leq110\\x+y\geq9.5\end{array}\right.\) or equivalent&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1206">
+            <jumpto>545</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655668210</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1207">
+            <jumpto>547</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655668210</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="547">
+        <prevpageid>546</prevpageid>
+        <nextpageid>548</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1655673449</timecreated>
+        <timemodified>1658265922</timemodified>
+        <title>2.13.2: Self Check </title>
+        <contents>&lt;p&gt;A singer sold two types of tickets to a performance, seated tickets and standing-room tickets.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span id="docs-internal-guid-a13e090a-7fff-0ac0-255a-60f12ce15359"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Seated tickets cost $25.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span id="docs-internal-guid-a13e090a-7fff-0ac0-255a-60f12ce15359"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Standing-room tickets cost $15.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span id="docs-internal-guid-a13e090a-7fff-0ac0-255a-60f12ce15359"&gt;&lt;span style="font-size: 0.9375rem;"&gt;More than 60 tickets were sold.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span id="docs-internal-guid-a13e090a-7fff-0ac0-255a-60f12ce15359"&gt;&lt;span style="font-size: 0.9375rem;"&gt;More than $1,200 was made from selling tickets.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;Which of the following ticket combinations is possible given the situation described here?&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1208">
+            <jumpto>548</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655673449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;14 seated tickets and 55 standing-room tickets&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This ticket combination makes $350 for seats and $825 for the standing room, totaling only $1,175, which is less than $1,200. The answer is 20 seated tickets and 50 standing-room tickets.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1209">
+            <jumpto>548</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655673449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;40 seated tickets and 19 standing-room tickets&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This ticket combination is less than 60 tickets. The answer is 20 seated tickets and 50 standing-room tickets.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1210">
+            <jumpto>548</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655673449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;10 seated tickets and 60 standing-room tickets&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This ticket combination makes $250 for seats and $900 for the standing room, totaling only $1,150, which is less than $1,200. The answer is 20 seated tickets and 50 standing-room tickets.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1211">
+            <jumpto>549</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1655673449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;20 seated tickets and 50 standing-room tickets&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: This combination represents 70 tickets sold and makes $500 for seats and $750 for the standing room, totaling $1,250. This is the correct answer.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1235">
+            <jumpto>548</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655673449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="548">
+        <prevpageid>547</prevpageid>
+        <nextpageid>549</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655674182</timecreated>
+        <timemodified>1658810973</timemodified>
+        <title>2.13.2: Additional Resources</title>
+        <contents>&lt;p&gt;The definition of a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0" id="tooltip1"&gt;system of linear inequalities&amp;nbsp;&lt;/span&gt;is very similar to the definition of a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0" id="tooltip2" style="font-size: calc(0.90375rem + 0.045vw);"&gt;system of linear equations&lt;/span&gt;.&lt;/p&gt;
+&lt;p dir="ltr"&gt;A system of linear inequalities looks like a system of linear equations, but it has inequalities instead of equations. A system of two linear inequalities is shown here.&lt;/p&gt;
+&lt;p&gt;\(\left\{\begin{array}{l}x+4y\geq10\\3x-2y&amp;lt;12\end{array}\right.\)&lt;/p&gt;
+&lt;p&gt;To solve a system of linear inequalities, we will find values of the variables that are solutions to both inequalities. We solve the system by using the graphs of each inequality and show the solution as a graph. We will find the region on the plane that contains all ordered pairs&amp;nbsp;\((x,y)\) that make both inequalities true.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;solutions to a system of inequalities&lt;/span&gt;&amp;nbsp;are shown as a shaded region in the \((x, y)\) coordinate system that includes all the points whose ordered pairs make the inequalities true.&lt;/p&gt;
+
+&lt;p&gt;Determine whether the ordered pair is a solution to this system:&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(\left\{\begin{array}{l}x+4y\geq10\\3x-2y&amp;lt;12\end{array}\right.\)&lt;/p&gt;
+&lt;p&gt;a.) \((−2,4)\)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; b.) \((3,1)\)&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Solution&lt;/p&gt;
+&lt;p&gt;a.) Is the ordered pair \((−2,4)\) a solution?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6aa8c92882cff834137c795fbb93eb4163315bad" alt="We substitute x equal to negative 2 and y equal to 4 into both inequalities. First inequality is x plus 4 times y greater than or equal to 10. So negative 2 plus 4 open parentheses 4 close parenthesis is greater than or equal to 10 or not. 14 is greater than or equal to 10 is true. Second inequality, 3 times x minus 2 times y is less than 12. Three open parentheses negative 2 close parentheses minus two open parentheses 4 close parentheses is less than 12 or not. Negative 14 is less than 12 is true."&gt;&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;The ordered pair \((−2,4)\) made both inequalities true. Therefore \((−2,4)\) is a solution to this system.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;b.) Is the ordered pair \((3,1)\) a solution?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/bb4c583f5689a1a325dd64a1c97f16b9d5bcd9e7" alt="We substitute x equal to three and y equal to one into both inequalities. First inequality is x plus four times y greater than or equal to ten. So three plus four open parentheses one close parenthesis is greater than or equal to ten or not. Seven greater than or equal to ten is false. Second inequality, three times x minus two times y is less than twelve. Three open parentheses three close parentheses minus two open parentheses one close parentheses is less than twelve or not. Seven less than 12 holds true."&gt;&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;The ordered pair \((3,1)\) made one inequality true, but it made the other one false. Therefore, \((3,1)\) is not a solution to this system.&lt;/p&gt;
+&lt;h4&gt;Try It: Determine Whether an Ordered Pair is a Solution of a System of Linear Inequalities.&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        
+        &lt;p&gt;Determine whether the ordered pair is a solution to the system:&amp;nbsp;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;\(\left\{\begin{array}{l}y&amp;gt;4x-2\\4x-y&amp;lt;20\end{array}\right.\)&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;a.)&amp;nbsp; \((−2,1)\) &amp;nbsp; b.) \((4,−1)\)&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;&lt;/p&gt;
+    
+    &lt;ol&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-e536daee-7fff-295d-d2b4-3f2b56b80a3f"&gt;Yes.&lt;/span&gt;&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;&lt;span id="docs-internal-guid-e536daee-7fff-295d-d2b4-3f2b56b80a3f"&gt;&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-e536daee-7fff-295d-d2b4-3f2b56b80a3f"&gt;Here is how to determine if each ordered pair is a solution:&lt;/span&gt;&lt;/p&gt;&lt;br&gt;
+        &lt;div dir="ltr" align="left"&gt;
+            &lt;table style="border:1px solid black;"&gt;
+                &lt;colgroup style="border:1px solid black;"&gt;
+                    &lt;col style="border:1px solid black;"&gt;
+                    &lt;col style="border:1px solid black;"&gt;
+                    &lt;col style="border:1px solid black;"&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr style="border:1px solid black;"&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;Choose an ordered pair.&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td colspan="2"&gt;
+                            &lt;p dir="ltr"&gt;\((-2,1)\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr style="border:1px solid black;"&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;Substitute into the inequality.&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;\(y&amp;gt;4x−2\)&lt;/p&gt;
+                            &lt;p dir="ltr"&gt;\(1&amp;gt;4(-2)-2\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;\(4x−y&amp;lt;20\)&lt;/p&gt;
+                            &lt;p dir="ltr"&gt;\(4(-2)-1&amp;lt;20\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr style="border:1px solid black;"&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;Simplify.&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;\(1&amp;gt;-10\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;\(-9&amp;lt;20\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr style="border:1px solid black;"&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;True or false statement?&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;True&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;True&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;&lt;br&gt;
+        &lt;p dir="ltr"&gt;Since the ordered pair makes both inequalities true, it is a solution to the system of inequalities.&lt;/p&gt;&lt;br&gt;
+        &lt;p dir="ltr"&gt;b. No.&lt;/p&gt;
+        &lt;div dir="ltr" align="left"&gt;
+            &lt;table style="border:1px solid black;"&gt;
+                &lt;colgroup style="border:1px solid black;"&gt;
+                    &lt;col style="border:1px solid black;"&gt;
+                    &lt;col style="border:1px solid black;"&gt;
+                    &lt;col style="border:1px solid black;"&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr style="border:1px solid black;"&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;Choose an ordered pair.&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td colspan="2"&gt;
+                            &lt;p dir="ltr"&gt;\((4, -1)\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr style="border:1px solid black;"&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;Substitute into the inequality.&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;\(y&amp;gt;4x−2\)&lt;/p&gt;
+                            &lt;p dir="ltr"&gt;\(-1&amp;gt;4(4)-2\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;\(4x−y&amp;lt;20\)&lt;/p&gt;
+                            &lt;p dir="ltr"&gt;\(4(4)-(-1)&amp;lt;20\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr style="border:1px solid black;"&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;Simplify.&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;\(-1&amp;gt;14\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;\(17&amp;lt;20\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr style="border:1px solid black;"&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;True or false statement?&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;False&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p dir="ltr"&gt;True&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;&lt;br&gt;
+        &lt;p dir="ltr"&gt;Since the ordered pair does not make a true statement in the first inequality, it is not a solution to the system of inequalities.&lt;/p&gt;
+        &lt;div dir="ltr" align="left"&gt;
+
+            &lt;p dir="ltr"&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/span&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1212">
+            <jumpto>547</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655674182</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1213">
+            <jumpto>549</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655674182</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="549">
+        <prevpageid>548</prevpageid>
+        <nextpageid>550</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655675507</timecreated>
+        <timemodified>1658811019</timemodified>
+        <title>2.13.3: Writing Systems of Inequalities that Represent Situations</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Here are some situations you have seen before. Your teacher will give you one situation. Answer the questions for one situation. You will then meet with others in a group. You each will explain the situation and your answers.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Bank Accounts&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;A customer opens a checking account and a savings account at a bank. They will deposit a maximum of $600, some in the checking account and some in the savings account. (They might not deposit all of it and keep some of the money as cash.)&lt;/li&gt;
+    &lt;li&gt;The bank requires a minimum balance of $50 in the savings account. It does not matter how much money is kept in the checking account.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Concert Tickets&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Two kinds of tickets to an outdoor concert were sold: lawn tickets and seat tickets. Fewer than 400 tickets in total were sold.&lt;/li&gt;
+    &lt;li&gt;Lawn tickets cost $30 each, and seat tickets cost $50 each. The organizers want to make at least $14,000 from ticket sales.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Advertising Packages&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;An advertising agency offers two packages for small businesses that need advertising services. A basic package includes only design services. A premium package includes design and promotion. The agency’s goal is to sell at least 60 packages in total.&lt;/li&gt;
+    &lt;li&gt;The basic advertising package has a value of $1,000, and the premium package has a value of $2,500. The goal of the agency is to sell more than $60,000 worth of small-business advertising packages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="eventShowMore1" data-wait-for-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt; Write a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;system of inequalities&lt;/span&gt; to represent the constraints. Specify what each variable represents.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-9ba7b0bc-7fff-8513-73f2-f43f2a2b4e83"&gt;Use technology to graph the inequalities and sketch the solution regions. Include labels and scales for the axes.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;div&gt;
+            &lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-9ba7b0bc-7fff-8513-73f2-f43f2a2b4e83"&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Koh75BUancEJP5m3XaTaDAwU" alt="Blank coordinate plane with grid, origin O."&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;ol start="3"&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-9ba7b0bc-7fff-8513-73f2-f43f2a2b4e83"&gt;Identify a solution to the system. Explain what the numbers mean in the situation.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-9ba7b0bc-7fff-8513-73f2-f43f2a2b4e83"&gt;How can you identify the solutions to the system using the graph?&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Your answers may vary, but here are some sample responses to compare your answers.&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;Bank Accounts&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;\(x+y\leq600\) and \(y\geq50\), where \(x\) represents the amount deposited in the checking account and \(y\) represents the amount deposited in the savings account.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;See graph.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;Sample response: \((150,300)\), or $150 in the checking account and $300 in the savings account. This combination meets both requirements. The account owner deposits more than $50 in the savings account and no more than $600 all together.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/ZHSx3WePQAohsuyUFpan4MQ1" alt="Two inequalities on a grid. Amount in savings in dollars. Amount in checking in dollars. &amp;nbsp;"&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;4. Sample answer: The solutions for each inequality are graphed and shaded. Where the two shaded regions overlap is where the solutions to the system of inequalities exist.&lt;/span&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;Concert Tickets&lt;/span&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;\(L+S&amp;lt;400\) and \(30L+50S\geq14,000\), where \(L\) represents the number of lawn tickets and \(S\) represents the number of seat tickets.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;See graph.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;Sample response: \((100,250)\) or 100 lawn tickets and 250 seat tickets. This combination of lawn tickets and seat tickets meets both constraints. The sum of tickets is 350, so it is fewer than 400. The dollar amount earned would be \(100(30)+250(50)\), which is \(3,000+12,500\) or 15,500. This is more than $14,000.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/buDfM1iUQSpQ9apkw7ZQFzob" alt="2 inequalities graphed. Horizontal axis, number of lawn tickets, from 0 to 500 by 50s. Vertical axis, number of seat tickets, from 0 to 500 by 50s. Shading below dotted line and above solid line."&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;4. Sample answer: The solutions for each inequality are graphed and shaded. Where the two shaded regions overlap is where the solutions to the system of inequalities exist.&lt;/span&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;Advertising Packages&lt;/span&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;\(b+p\geq60\) and \(1,000b+2,500p&amp;gt;60,000\), where \(b\) represents the number of basic packages and \(p\) represents the number of premium packages.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;See graph.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;Sample response: \((30,40)\) or 30 basic packages and 40 premium packages. This combination meets the constraints on both the packages sold and the dollar&amp;nbsp;amount collected. \(30+40=70\), so the total number of packages sold is more than 60. The amount collected is \(1,000(30)+2,500(40)\), which is \(30,000+100,000\) or 130,000. This is more than $60,000.&lt;/span&gt;&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/ztMtSDP1NqqBSxnywEs4UDPB" alt="2 inequalities graphed on coordinate plane. Horizontal axis, number of basic packages, from 0 to 100 by 10s. Vertical axis, number of premium packages, from 0 to 100 by 10s. Shading above each line."&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;&lt;/p&gt;
+        &lt;ol start="4"&gt;
+            &lt;li&gt;&lt;span id="docs-internal-guid-75707098-7fff-5962-2c2e-88047c5436e8"&gt;Sample answer: The solutions for each inequality are graphed and shaded. Where the two shaded regions overlap is where the solutions to the system of inequalities exist.&lt;/span&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;h4&gt;Video:&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more &lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/0506789a22150f9043c528ea133a4cd7757cff28"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/b600d4a3a3369a1ba5523e63e970fe9a732e8015" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/0506789a22150f9043c528ea133a4cd7757cff28
+&lt;/video&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1214">
+            <jumpto>546</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655675507</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1215">
+            <jumpto>550</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655675507</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="550">
+        <prevpageid>549</prevpageid>
+        <nextpageid>551</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1655675718</timecreated>
+        <timemodified>1658243868</timemodified>
+        <title>2.13.3: Self Check </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-eba221b0-7fff-0811-4aab-876d1094b1c9"&gt;A music store is shipping guitars and snare drums.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-eba221b0-7fff-0811-4aab-876d1094b1c9"&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-eba221b0-7fff-0811-4aab-876d1094b1c9"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Each guitar weighs 6 pounds.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-eba221b0-7fff-0811-4aab-876d1094b1c9"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Each snare drum weighs 14 pounds.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-eba221b0-7fff-0811-4aab-876d1094b1c9"&gt;&lt;span style="font-size: 0.9375rem;"&gt;The maximum weight of guitars and snare drums cannot be more than 120 pounds.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-eba221b0-7fff-0811-4aab-876d1094b1c9"&gt;&lt;span style="font-size: 0.9375rem;"&gt;The store needs to ship more than 10 total instruments.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p dir="ltr"&gt;Which of the following systems of inequalities describes the situation if \(x\) is the number of guitars and \(y\) is the number of snare drums?&lt;/p&gt;
+&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1216">
+            <jumpto>551</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655675718</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(6x14y\)&lt;br&gt;
+\(20+y&amp;gt;10\)&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: The weight of the instruments must be less than 120. The answer is&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(6x+14y\leq120\)&lt;br&gt;
+  \(x+y&amp;gt;10\)&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1217">
+            <jumpto>551</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655675718</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(14x+6y\leq120\)&lt;br&gt;
+\(x+y&amp;gt;10\)&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: The number of guitars is represented by \(x\), and the number of snare drums is represented by \(y\). The answer is&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(6x+14y\leq120\)&lt;br&gt;
+  \(x+y&amp;gt;10\)&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1218">
+            <jumpto>551</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655675718</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(14x+6y\geq120\)&lt;br&gt;
+  \(x+y&amp;lt;10\)&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: The weight of the instruments must be less than 120. The number of instruments shipped must be more than 10. The answer is&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(6x+14y\leq120\)&lt;br&gt;
+  \(x+y&amp;gt;10\)&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1219">
+            <jumpto>552</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1655675718</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(6x+14y\leq120\)&lt;br&gt;
+  \(x+y&amp;gt;10\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The weight of the guitars at 6 pounds each and the weight of snare drums at 14 pounds each must be less than or equal to 120 pounds. The number of instruments shipped must be more than 10. This is the correct system of inequalities.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1236">
+            <jumpto>551</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655675718</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="551">
+        <prevpageid>550</prevpageid>
+        <nextpageid>552</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655676080</timecreated>
+        <timemodified>1658811124</timemodified>
+        <title>2.13.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Write a System of Inequalities for a Situation&lt;/h4&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;strong&gt;Example: &lt;/strong&gt;Christy sells her photographs at a booth at a street fair. At the start of the day, she wants to have at least 25 photos to display at her booth. Each small photo she displays costs her $4 and each large photo costs her $10. She doesn’t want to spend more than $200 on photos to display.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ol type="a"&gt;
+    &lt;li&gt;Write a system of inequalities to model this situation.&lt;/li&gt;
+    &lt;li&gt;Graph the system.&lt;/li&gt;
+    &lt;li&gt;Could she display 10 small and 20 large photos?&lt;/li&gt;
+    &lt;li&gt;Could she display 20 large and 10 small photos?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Solution:&lt;/p&gt;
+&lt;div&gt;
+    &lt;p&gt;a.)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div dir="ltr" align="left"&gt;
+    &lt;table style="border:1px solid black;"&gt;
+        &lt;colgroup style="border:1px solid black;"&gt;
+            &lt;col width="624"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;Let \(x=\) the number of small photos.&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid black;"&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;Let \(y=\) the number of large photos.&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid black;"&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;To find the system of equations, translate the information.&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid black;"&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;She wants to have at least 25 photos.&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid black;"&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;The number of small plus the number of large should be at least 25.&lt;/p&gt;
+                    &lt;p dir="ltr"&gt;\(x+y\geq25\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid black;"&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;$4 for each small and $10 for each large must be no more than $200.&lt;/p&gt;
+                    &lt;p dir="ltr"&gt;\(4x+10y\leq200\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid black;"&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;The number of small photos must be greater than or equal to 0.&lt;/p&gt;
+                    &lt;p dir="ltr"&gt;\(x\geq0\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid black;"&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;The number of large photos must be greater than or equal to 0.&lt;/p&gt;
+                    &lt;p dir="ltr"&gt;\(y\geq0\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid black;"&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;We have our system of equations.&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid black;"&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(\left\{\begin{array}{l}x+y\geq25\\4x+10y\leq200\\x\geq0\\y\geq0\end{array}\right.\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-2abbcaaf-7fff-16e4-e008-4a987935ffe3"&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-2abbcaaf-7fff-16e4-e008-4a987935ffe3"&gt;b.)&lt;/span&gt;&lt;span id="docs-internal-guid-2abbcaaf-7fff-16e4-e008-4a987935ffe3"&gt;&amp;nbsp; Since \(x\geq0\) and \(y\geq0\) (both are greater than or equal to zero), all solutions will be in the first quadrant. As a result, our graph shows only quadrant one.&lt;/span&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+&lt;div dir="ltr" align="left"&gt;
+    &lt;table style="border:1px solid black;"&gt;
+        &lt;colgroup&gt;
+            &lt;col style="border:1px solid black;" width="332"&gt;
+            &lt;col width="261"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;To graph \(x+y\geq25\), graph \(x+y=25\) as a solid line. Choose \((0, 0)\) as a test point. Since it does not make the inequality true, shade (red) the side that does not include the point \((0, 0)\).&lt;/p&gt;
+                    &lt;p dir="ltr"&gt;To graph \(4x+10y\leq200\), graph \(4x+10y=200\) as a solid line. Choose \((0, 0)\) as a test point. Since it does make the inequality true, shade (blue) the side that includes the point \((0, 0)\).&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5994c54279e0b2909de01c0b8eb4c834d816a76f" alt="." class="img-fluid atto_image_button_text-bottom" width="291" height="187"&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;p&gt;The solution of the system is the region of the graph that is shaded the darkest. The boundary line sections that border the darkly shaded section are included in the solution, as are the points on the \(x\)-axis from \((25, 0)\) to \((50, 0)\).&lt;/p&gt;
+    &lt;p&gt;c.) To determine if 10 small and 20 large photos would work, we look at the graph to see if the point \((10, 20)\) is in the solution region. We could also test the point to see if it is a solution of both equations.&lt;/p&gt;
+    &lt;p&gt;It is not, so Christy would not display 10 small and 20 large photos.&lt;/p&gt;
+    &lt;p&gt;d.) To determine if 20 small and 10 large photos would work, we look at the graph to see if the point \((20, 10)\) is in the solution region. We could also test the point to see if it is a solution of both equations.&lt;/p&gt;
+    &lt;p&gt;It is, so Christy could choose to display 20 small and 10 large photos.&lt;/p&gt;
+    &lt;p&gt;Notice that we could also test the possible solutions by substituting the values into each inequality.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Try It: Write a System of Inequalities for a Situation&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="eventShowMore1" data-wait-for-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;A trailer can carry a maximum weight of 160 pounds and a maximum volume of 15 cubic feet. A microwave oven, \(m\), weighs 30 pounds and has 2 cubic feet of volume, while a printer, \(p\), weighs 20 pounds and has 3 cubic feet of volume.&lt;/p&gt;
+        &lt;p&gt;Write a system of inequalities to model this situation.&lt;/p&gt;
+        
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Here is how to write the system of inequalities:&lt;/p&gt;
+        &lt;p&gt;\(\left\{\begin{array}{l}30m+20p\leq160\\2m+3p\leq15\end{array}\right.\)&lt;/p&gt;
+
+        &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;!--Interaction End --&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1220">
+            <jumpto>550</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655676080</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1221">
+            <jumpto>552</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655676080</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="552">
+        <prevpageid>551</prevpageid>
+        <nextpageid>553</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655677832</timecreated>
+        <timemodified>1658811154</timemodified>
+        <title>2.13.4: Graphing Solutions of Systems of Inequalities</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+
+&lt;p&gt;Members of a high school math club have a scavenger hunt. Three items are hidden in the park, which is a rectangle that measures 50 meters by 20 meters.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;The clues are written as systems of inequalities. One system has no solutions.&lt;/li&gt;
+    &lt;li&gt;The locations of the items can be narrowed down by solving the systems. A coordinate plane can be used to describe the solutions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Can you find the hidden items? Sketch a graph to show where each item could be hidden.&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;For each clue, graph each inequality separately on the same coordinate grid.&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;Clue 1:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;\(y&amp;gt;14\)&lt;br&gt;&lt;span&gt;\(x&amp;lt;10\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/x6kS5wBPaCGr76RLzwCcaYYT" alt="Blank grid, origin O. X axis, scale is 0 to 40, by 10’s. Y axis, scale is 0 to 20, by 10’s."&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Your answers may vary, but here are some sample responses to compare your answers.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;&lt;strong&gt;Solution to Clue 1:&lt;/strong&gt;&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/c8qAmzPLDZeNpy4vGfM7SPtw" alt="Graph of 2 intersecting inequalities. Horizontal axis, labeled x, from 0 to 50 by 5s. Vertical axis, labeled y, from 0 to 30 by 5s. Shading to left of vertical line. Shading above horizontal line."&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;strong&gt;Clue 2:&amp;nbsp;&lt;/strong&gt;
+        &lt;/p&gt;&lt;p&gt;\(x+y&amp;lt;20\)&lt;br&gt;&lt;span&gt;\(x&amp;gt;6\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/x6kS5wBPaCGr76RLzwCcaYYT" alt="Blank grid, origin O. X axis, scale is 0 to 40, by 10’s. Y axis, scale is 0 to 20, by 10’s."&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/QCpYVm5mVKyyH4ATFakQ5G3j" alt="Graph of 2 intersecting inequalities. Horizontal axis, labeled x, from 0 to 50 by 5s. Vertical axis, labeled y, from 0 to 30 by 5s. Shading to right of vertical line. Shading below slanted line."&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;&lt;br&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;Clue 3:&amp;nbsp;&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;\(y&amp;lt;-2x+20\)&lt;br&gt;&lt;span&gt;\(y&amp;lt;-2x+10\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/x6kS5wBPaCGr76RLzwCcaYYT" alt="Blank grid, origin O. X axis, scale is 0 to 40, by 10’s. Y axis, scale is 0 to 20, by 10’s."&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/poh6jSFYZ1s6iNizFUyhDSBS" alt="Graph of 2 inequalities. Horizontal axis, labeled x, from 0 to 50 by 5s. Vertical axis, labeled y, from 0 to 30 by 5s. Lines parallel. Shading below each line."&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;&lt;strong&gt;Clue 4:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;\(y\geq x+10\)&lt;br&gt;&lt;span&gt;\(x&amp;gt;y\)&lt;/span&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/x6kS5wBPaCGr76RLzwCcaYYT" alt="Blank grid, origin O. X axis, scale is 0 to 40, by 10’s. Y axis, scale is 0 to 20, by 10’s."&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/TBx6iBUgahhJsQrBByZk1V1m" alt="Graph of 2 inequalities that don’t intersect. Horizontal axis, labeled x, from 0 to 50 by 5s. Vertical axis, labeled y, from 0 to 30 by 5s. Lines parallel. Shading below dotted line, above solid line."&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;Reflect: When you graphed each pair of inequalities, you created a system of inequalities. Where did the possible solutions lie on the graph?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;span id="docs-internal-guid-ef7b0492-7fff-512f-587b-1a58f33ebfdf"&gt;&lt;span id="docs-internal-guid-ef7b0492-7fff-512f-587b-1a58f33ebfdf" style=""&gt;Sample Solution: Where the shaded regions overlap.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;Two non-negative numbers \(x\) and \(y\) satisfy \(x+y\leq1\).&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;Find a second inequality, also using \(x\) and \(y\) values greater than or equal to zero, to make a system of inequalities with exactly one solution.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;Find as many ways to answer this question as you can.&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;&lt;br&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;span id="docs-internal-guid-6c6287c6-7fff-609d-54e0-f07240e9c37f"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Sample response: \(y\geq1\). Other responses include \(x\geq1\) and any inequality of the form \(y\leq ax\), where \(a\) is negative.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1222">
+            <jumpto>549</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655677832</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1223">
+            <jumpto>553</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655677832</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="553">
+        <prevpageid>552</prevpageid>
+        <nextpageid>554</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1655679150</timecreated>
+        <timemodified>1658929412</timemodified>
+        <title>2.13.4: Self Check </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-e9255791-7fff-0761-4d11-bb72304a1a51"&gt;Which two inequalities are graphed in the system of inequalities below?&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/98f309c938b4c05a87eb641f2075ade1dc760157" alt="GRAPH OF A SYSTEM OF INEQUALITIES WITH SOLID VERTICAL LINE THROUGH X EQUALS 2 AND SHADING TO THE RIGHT AND DOTTED LINE WITH Y" width="584" height="593" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1224">
+            <jumpto>554</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655679150</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(x\leq2\\y&amp;gt;3x-1\\\)&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: Notice that the graph is shaded to the right of \(x=2\). The answer is \(x\geq2,\;y&amp;gt;3x-1.\)&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1225">
+            <jumpto>555</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1655679150</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x\geq2\\y&amp;gt;3x-1\\\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The graph is shaded to the right of \(x=2\) with a solid line border and the graph is shaded above the line \(y=3x-1\) with a dashed line border.&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1226">
+            <jumpto>554</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655679150</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(x\geq2\\y&amp;lt;3x-1\\\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Notice that the graph is shaded above the line \(y=3x-1\). The answer is \(x\geq2,\;y&amp;gt;3x-1.\)&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1227">
+            <jumpto>554</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655679150</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x&amp;gt;2\\y\geq3x-1\\\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: A line is solid when the inequality has “equal to” included and dashed when it does not have an equal sign with it. The answer is \(x\geq2,\;y&amp;gt;3x-1.\)&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1237">
+            <jumpto>554</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655679150</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="554">
+        <prevpageid>553</prevpageid>
+        <nextpageid>555</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655679498</timecreated>
+        <timemodified>1658868997</timemodified>
+        <title>2.13.4: Additional Resources</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;
+&lt;h4&gt;Solve a System of Linear Inequalities by Graphing&lt;/h4&gt;&lt;br&gt;
+&lt;p dir="ltr"&gt;The solution to a single linear inequality is the region on one side of the boundary line that contains all the points that make the inequality true. The solution to a system of two linear inequalities is a region that contains the solutions to both inequalities. To find this region, we will graph each inequality separately and then locate the region where they are both true. The solution is always shown as a graph.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Solve the system by graphing:&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;\(\left\{\begin{array}{l}y\geq2x-1\\y&amp;lt;x+1\end{array}\right.\)&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;&lt;p&gt;&lt;/p&gt;&lt;table border="1" cellspacing="0" cellpadding="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;&lt;b&gt;Step 1.&lt;/b&gt;&amp;nbsp;Graph the first inequality.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Graph the boundary line.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Shade in the side of the boundary line where the inequality is true.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;We will graph \(y\geq2x-1\)&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;We graph the line \(y=2x-1.\) It is a solid line because the inequality sign is \(\ geq\).&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;We choose \(0,0)\) as a test point. It is a solution to \(y\geq2x-1\), so we shade in above the boundary line.&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;\(\left\{\begin{array}{l}y\geq2x-1\\y&amp;lt;x+1\end{array}\right.\)&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/2c192eef3f8f3211f2f50bc847ff83edee22d4f6" alt="" width="200" height="196" role="presentation"&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;&lt;b&gt;Step 2.&lt;/b&gt;&amp;nbsp;On the same grid, graph the second inequality.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Graph the boundary line.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Shade the side of that boundary line where the inequality is true.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;We will graph \(y&amp;lt;x+1\) on the same grid.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;We graph the line \(y=x+1\).&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Again, we use \(0,0)\) as a test point. It is a solution so we shade in that side of the line \(y=x+1\).&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/68df81a6e50ed422c52b13c8aa624bc3ae30fbe5" alt="" width="200" height="207" role="presentation"&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;&lt;b&gt;Step 3.&lt;/b&gt;&amp;nbsp;The solution is the region where the shading overlaps.&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;The point where the boundary lines intersect is not a solution because it is not a solution to \(y&amp;lt;x+1\).&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;The solution is all points in the area shaded twice—which appears as the darkest shaded region.&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;&lt;b&gt;Step 4.&lt;/b&gt;&amp;nbsp;Check by choosing a test point.&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;We’ll use \((-1, -1)\) as a test point.&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;Is \(-1,1)\) a solution to \(y\geq2x-1\)?&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;\(-1\overset?\geq2(-1)-1\)&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;\(-1\geq-3\) true&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Is \(-1,-1)\) a solution to \(y&amp;lt;x+1\)?&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;\(-1\overset?\geq-1+1\)&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;\(-1&amp;lt;0\) true&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The region containing \((-1,-1)\) is the solution to this system.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p dir="ltr"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Try It: Solve a System of Linear Inequalities by Graphing &lt;br&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;Solve the system by graphing:&amp;nbsp;&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p dir="ltr"&gt;\(\left\{\begin{array}{l}y&amp;lt;3x+2\\y&amp;gt;-x-1\end{array}\right.\)&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Here is how to solve the system by graphing:&lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;The solution is the gray region.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c011d02915efb5899c174dca5d1dd4f1b5cf58af" alt="The figure shows a graph plotted for the inequalities y less than three times x plus two and y greater than minus x minus one. Two lines intersect each other on the graph. An area to the right of both the lines is colored in grey. It is the solution." class="img-fluid atto_image_button_text-bottom" width="300" height="296"&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+    &lt;div dir="ltr" align="left"&gt;
+
+        &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+
+    &lt;/div&gt;&lt;strong&gt;&lt;/strong&gt;&lt;br&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1228">
+            <jumpto>550</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655679498</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'd like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1229">
+            <jumpto>555</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655679498</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'm ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="555">
+        <prevpageid>554</prevpageid>
+        <nextpageid>556</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655679743</timecreated>
+        <timemodified>1658811182</timemodified>
+        <title>2.13.5: Writing Inequalities for Situations and Representing on a Graph </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;
+&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Here is another riddle:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;The sum of two numbers is less than 2.&lt;/li&gt;
+    &lt;li&gt;If we subtract the second number from the first, the difference is greater than 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;What are the two numbers?&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;The riddle can be represented by a system of inequalities. Write an inequality for each statement.&lt;/li&gt;
+            &lt;li&gt;These graphs represent the inequalities in the system.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;div&gt;
+            &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/84KVU9P1qhNv9AF1m9WdTASo" alt="A graph of two intersecting inequalities on a coordinate plane."&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt;Which graph represents which inequality?&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;Name a possible solution to the riddle. Explain or show how you know.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;/p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Your answers may vary, but here are some sample responses to compare your answers.&lt;br&gt;&lt;/span&gt;
+   
+        &lt;br&gt;
+        &lt;ol&gt;
+            &lt;li&gt;&lt;span&gt;\(\left\{\begin{array}{l}x+y&amp;lt;2\\x-y&amp;gt;1\end{array}\right.\)&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;The region with solid blue shading represents the first clue. The region with line shading represents the second clue.&lt;/li&gt;
+            &lt;li&gt;Sample response: \((1.5,0)\). The sum is 1.5, which is less than 2. The difference is 1.5, which is greater than 1. The point \((1.5,0)\) is located in the region where the two shaded regions overlap, which means it is a solution to both inequalities in the system.&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1230">
+            <jumpto>552</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655679743</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1231">
+            <jumpto>556</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655679743</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="556">
+        <prevpageid>555</prevpageid>
+        <nextpageid>557</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655679905</timecreated>
+        <timemodified>1658811215</timemodified>
+        <title>2.13.6: Practice</title>
+        <contents>&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Enter Questions Below this line--&gt;
+
+
+
+    &lt;!--Q1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;In questions 1-5, determine whether each ordered pair is a solution to the system.&lt;/p&gt;
+            
+
+            &lt;p&gt;1. \(3x + y &amp;gt; 5\)&lt;/p&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(2x − y ≤ 10\) &lt;/p&gt;&lt;br&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;a. (3,−3) &lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp; (3, -3) is a solution to the system.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.13.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is Yes. (3, -3) is a solution to the system. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+    &lt;!--Q1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;b. (7,1) &lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! (7, 1) is not a solution to the system.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.13.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is No. (7, 1) is not a solution to the system. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+
+
+    &lt;!--Q2a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+
+            &lt;p&gt;2. \( 4x − y &amp;lt; 10\)&lt;/p&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(−2x + 2y &amp;gt; −8\) &lt;/p&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;a. (5,−2) &lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! (5, -2) is not a solution to the system.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.13.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is No. (5, -2) is not a solution to the system. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    
+
+
+    &lt;!--Q2b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;b. (−1,3) &lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! (-1, 3) is a solution to the system.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.13.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is Yes. (-1, 3) is a solution to the system. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+    &lt;!--3a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+
+            &lt;p&gt;3. \(y&amp;gt;\frac23x-5\)&lt;/p&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(x+\frac12y\leq4\) &lt;/p&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;a. (6, −4) &lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! (6, -4) is not a solution to the system.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.13.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is No. (6, -4) is not a solution to the system. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    
+
+
+    &lt;!--Q3b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;b. (3, 0) &lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! (3, 0) is a solution to the system.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.13.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is Yes. (3, 0) is a solution to the system. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+
+
+    &lt;!--4a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+
+            &lt;p&gt;4. \(y&amp;lt;\frac32x+3\)&lt;/p&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(\frac34x-2y&amp;lt;5\) &lt;/p&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;a. (−4,−1) &lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! (-4, -1) is not a solution to the system.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.13.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is No. (-4, -1) is not a solution to the system. You seem to be stuck. Who can you ask for help?
+
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    
+
+
+    &lt;!--Q4b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;b. (8, 3) &lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp; (8, 3) is a solution to the system.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.13.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is Yes. (8, 3) is a solution to the system. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;p&gt;5. \(6x − 5y &amp;lt; 20\)&lt;/p&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(−2x + 7y &amp;gt; −8\) &lt;/p&gt;
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;a. (1, −3) &lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;: Correct! (1, -3) is not a solution to the system.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.13.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is No. (1, -3) is not a solution to the system. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--Q5b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;b. (−4, 4) &lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! (-4, 4) is a solution to the system.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.13.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is Yes. (-4, 4) is a solution to the system. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+    &lt;!--Q6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Region D" data-solution-options="[&amp;quot;Region A&amp;quot;, &amp;quot;Region B&amp;quot;, &amp;quot;Region C&amp;quot;, &amp;quot;Region D&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;6. Two inequalities are graphed on the same coordinate plane. Which region represents the solution to the system of the two inequalities?&lt;/p&gt;
+            &lt;p dir="ltr"&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/LtZKAec5duiMjJnAbRfNULFq" alt="Two intersecting inequalities."&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Region D &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 2.13.3 and 2.13.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is Region D. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1232">
+            <jumpto>555</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655679905</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1233">
+            <jumpto>557</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655679905</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="557">
+        <prevpageid>556</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655680369</timecreated>
+        <timemodified>1658719463</timemodified>
+        <title>2.13.7: Lesson Summary</title>
+        <contents>&lt;p dir="ltr"&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Write a system of inequalities to describe a situation, find the solution by graphing, and interpret points in the solution.&lt;/li&gt;
+    &lt;li&gt;Explain what is meant by “the solutions to a system of inequalities” and describe the graphs that represent the solutions.&lt;/li&gt;
+    &lt;li&gt;Find values that satisfy each constraint individually, and values that satisfy both constraints at once, when given descriptions and graphs that represent two different constraints.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p dir="ltr"&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul style="font-size: 0.9375rem;"&gt;
+    &lt;li&gt;2.13.1: Modeling Equations to Solve a Riddle
+        &lt;ul&gt;
+            &lt;li&gt;In this activity, you reviewed systems of equations and their solutions. You recalled that a solution to a linear equation in two variables is any pair of numbers that makes the equation true, and that a solution to a system of two equations in two variables is a pair of numbers that makes both equations true.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;2.13.2: Finding a Pair of Values that Satisfy Multiple Inequalities
+        &lt;ul&gt;
+            &lt;li&gt;In this activity, you encountered a situation in which two constraints can be expressed with inequalities represented on two separate graphs, which made it challenging to find pairs of values that meet both constraints simultaneously. This served to motivate a desire to represent both constraints on the same graph.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;2.13.2: Self Check&amp;gt;&lt;/li&gt;
+    &lt;li&gt;2.13.3: Writing Systems of Inequalities that Represent Situations&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you wrote systems of inequalities that represent situations and found the solutions by graphing. Your focus was on thinking about each pair of constraints as a system, finding the solution region of each inequality, and identifying a point in the region where the graphs overlap as a solution to the system.&lt;/li&gt;
+    &lt;/ul&gt;
+
+
+    &lt;li dir="ltr" aria-level="1"&gt;
+        2.13.3: Self Check
+    &lt;/li&gt;
+    &lt;li dir="ltr" aria-level="1"&gt;
+        2.13.4: Graphing Solutions of Systems of Inequalities&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you reviewed the idea that the solutions to a system of inequalities can be effectively represented by a region on the graphs of the inequalities in the system. You began to graph systems of inequalities.&lt;/li&gt;
+    &lt;/ul&gt;
+
+
+    &lt;li dir="ltr" aria-level="1"&gt;&lt;span style="font-size: 0.9375rem;"&gt;2.13.5: Writing Inequalities for Situations and Representing on a Graph&lt;/span&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;In this activity, you wrote an inequality for given statements and identified graphs that represented each inequality.&lt;/span&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;2.13.6: Practice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&amp;nbsp;&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+
+    &lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1234">
+            <jumpto>556</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655680369</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1238">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655680369</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

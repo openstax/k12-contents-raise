@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="56" moduleid="72" modulename="lesson" contextid="83">
+  <lesson id="56">
+    <course>2</course>
+    <name>Lesson 2.11: Graphing Linear Inequalities in Two Variables, Part 2</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1657676689</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="506">
+        <prevpageid>0</prevpageid>
+        <nextpageid>507</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657677086</timecreated>
+        <timemodified>1657722987</timemodified>
+        <title>2.11.0: Lesson Overview</title>
+        <contents>&lt;p dir="ltr"&gt;In this lesson, you will deepen your understanding of the solutions to linear inequalities by studying them in context. You will write inequalities in two variables to represent constraints, and interpret the points on a boundary line and on either side of it in terms of the situation.&lt;/p&gt;&lt;p dir="ltr"&gt;When you finish this lesson, you will be able to:&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;ul&gt;&lt;li&gt;Interpret points in the coordinate plane and decide if they are solutions to the inequality, given a two-variable inequality that represents a situation.&lt;/li&gt;&lt;li&gt;Find the solutions to a two-variable inequality by using the graph of a related two-variable equation.&lt;/li&gt;&lt;li&gt;Write inequalities to describe the constraints in a situation.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;ul&gt;&lt;li&gt;2.11.1: Sketching a Graph to Represent an Equation&lt;/li&gt;&lt;li&gt;2.11.2: Writing an Inequality to Represent a Constraint&lt;/li&gt;&lt;li&gt;2.11.2: Self Check&amp;nbsp;&lt;/li&gt;&lt;li&gt;2.11.3: Graphing Solutions and Interpreting Points&lt;/li&gt;&lt;li&gt;2.11.3: Self Check&amp;nbsp;&lt;/li&gt;&lt;li&gt;2.11.4: Reasoning Points Along Boundary Line (Optional)&lt;/li&gt;&lt;li&gt;2.11.5: Recognizing Points for an Inequality&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;After that, you’ll &lt;strong&gt;practice and review.&lt;/strong&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;ul&gt;&lt;li&gt;2.11.6: Practice&lt;/li&gt;&lt;li&gt;2.11.7: Summary&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1121">
+            <jumpto>507</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657677086</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="507">
+        <prevpageid>506</prevpageid>
+        <nextpageid>508</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657677439</timecreated>
+        <timemodified>1657723004</timemodified>
+        <title>2.11.1: Sketching a Graph to Represent an Equation</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;A homeowner is making plans to landscape her yard. She plans to hire professionals to install grass sod in some parts of the yard and flower beds in other parts.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Grass sod installation costs $2 per square foot and flower bed installation costs $12 per square foot. Her budget for the project is $3,000.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/j749ezBBURzeYKdK9pFkWABT" alt="Rocks in a garden" width="450" height="300" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;1. Write an equation that represents the square feet of grass sod, x, and the square feet of flower beds, y, that she could afford if she used her entire budget.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(2x+12y=3,000\) (or equivalent)&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;2. On the coordinate plane, sketch a graph that represents your equation. Be prepared to explain your reasoning.&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/DfuNuVac8RiEMAnAnsX34zfk" alt="Blank grid, origin O. Horizontal axis, grass sod, square feet, scale is 0 to 1,800 by 200’s. Vertical axis, flower beds, square feet, scale is 0 to 300 by 50’s." width="451" height="286" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/uUTynkTLYgAcMSnjffqGR5k7" alt="Graph of a line. Flower beds, square feet. Grass sod, square feet."&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1122">
+            <jumpto>506</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657677439</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1123">
+            <jumpto>508</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657677439</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="508">
+        <prevpageid>507</prevpageid>
+        <nextpageid>509</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657678015</timecreated>
+        <timemodified>1658524158</timemodified>
+        <title>2.11.2: Writing an Inequality to Represent a Constraint</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;The homeowner is worried about the work needed to maintain a grass lawn and flower beds, so she is now looking at some low-maintenance materials.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;She is considering a combination of the materials shown to cover the yard. Her budget is still $3,000.&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;artificial turf: $15 per square foot&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;gravel: $3 per square foot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Here is a graph representing some constraints in this situation.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/7tvebwdQntmLt8P6yBMYuw12" alt="Graph of a line. Artificial turf, square feet. Gravel, square feet."&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;1. The graph shows a line going through \((500,100)\).&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;In this situation, what does the point \((500,100)\) mean?&lt;/li&gt;
+            &lt;li&gt;Write an equation that the line represents.&lt;/li&gt;
+            &lt;li&gt;What do the solutions to the equation mean?&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answers to the sample responses:&lt;/p&gt;
+        &lt;p&gt;
+        &lt;/p&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;The cost of installing 500 square feet of gravel and 100 square feet of artificial turf is $3,000.&amp;nbsp;&lt;/li&gt;
+            &lt;li&gt;\(3x+15y=3,000\)&lt;/li&gt;
+            &lt;li&gt;The solutions are all combinations of square feet of gravel and artificial turf that would cost $3,000 to install.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;2. The point \((600,200)\) is located to the right and above the line.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;Does that combination of turf and gravel meet the homeowner's constraints? Explain or show your reasoning.&lt;/li&gt;
+            &lt;li&gt;Choose another point in the same region (to the right and above the line). Check if the combination meets the homeowner's constraints.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answers to the sample responses:&lt;/p&gt;
+        &lt;p&gt;
+        &lt;/p&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;No. Sample reasoning: If she installs 600 square feet of gravel and 200 square feet of turf, the cost is \(3(600)+15(200)\), which is \(1,800+3,000\) or $4,800.&lt;/li&gt;
+            &lt;li&gt;Sample response: \((900,50)\). This combination would cost more than $3,000 to install.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;3. The point \((200,100)\) is located to the left and below the line.&lt;/p&gt;
+        &lt;p&gt;
+        &lt;/p&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;Does that combination of turf and gravel meet the homeowner's constraints? Explain or show your reasoning.&lt;/li&gt;
+            &lt;li&gt;Choose another point in the same region (to the left and below the line). Check if the combination meets the homeowner's constraints.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answers to the sample responses:&lt;/p&gt;
+        &lt;p&gt;
+        &lt;/p&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;Yes. Sample reasoning: \(3(200)+15(100)=2,100\). This amount is less than $3,000.&lt;/li&gt;
+            &lt;li&gt;Sample response: (600,25). This combination would cost under $3,000 to install.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;4. Write an inequality that represents the constraints in this situation. Explain what the solutions mean and show the solution region on the graph.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Write down your answer. Then select the&lt;strong&gt; Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answer:&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;\(3x+15y\leq3,000\). Sample explanation: The solutions represent all possible combinations of square feet of gravel and turf that would cost no more than $3,000 to install.&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/EXt54VKBZXeMWGvcrZ34b6zo" alt="Graph of an inequality. Artificial turf, square feet. Gravel, square feet."&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;h4&gt;&lt;br&gt;&lt;/h4&gt;
+&lt;h4&gt;Video: Writing an Inequality to Represent a Constraint&lt;/h4&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Watch the following video to learn more about representing constraints using inequalities.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/ffb9464e95524398270ca405c11a6064703c8cd0"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/217760a8ef8b2e3e0938242f53a1ff1f437a3b41" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/ffb9464e95524398270ca405c11a6064703c8cd0
+&lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1124">
+            <jumpto>507</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657678015</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1125">
+            <jumpto>509</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657678015</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="509">
+        <prevpageid>508</prevpageid>
+        <nextpageid>510</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1657719909</timecreated>
+        <timemodified>1657723087</timemodified>
+        <title>2.11.2: Self Check</title>
+        <contents>&lt;p dir="ltr"&gt;A builder is using a mix of different tiles to remodel a kitchen. The marble tiles cost, x, $15 per square and the ceramic tiles, y, cost $7 per square. The total amount allowed for tiles is at most $900. Which inequality represents this situation?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1126">
+            <jumpto>511</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1657719909</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(15x\;+\;7y\;\leq\;900\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That's correct! Check yourself: The cost of marble tiles, 15x, plus the cost of the ceramic tiles, 7y, is at most $900..&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1127">
+            <jumpto>510</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657719909</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(15x + 7y &amp;lt; 900\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This inequality does not allow for the project to cost exactly $900? The answer is \(15x\;+\;7y\;\leq\;900.\)&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1128">
+            <jumpto>510</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657719909</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(15x – 7y &amp;lt; 900\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way:&amp;nbsp; The total cost of the tiles requires addition, not subtraction. The answer is \(15x\;+\;7y\;\leq\;900.\)&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1129">
+            <jumpto>510</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657719909</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(22(x\;+\;y)\;\leq\;900\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This inequality has a cost of $22 for both kinds of tiles.The answer is \(15x\;+\;7y\;\leq\;900.\)&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1130">
+            <jumpto>510</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657719909</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="510">
+        <prevpageid>509</prevpageid>
+        <nextpageid>511</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657720508</timecreated>
+        <timemodified>1658524201</timemodified>
+        <title>2.11.2: Additional Resources </title>
+        <contents>&lt;h4&gt;Writing Inequalities to Represent Constraints&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;strong&gt;Example&lt;/strong&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Elena needs to earn at least $450 a week during her summer break to pay for college. She works two jobs. One as a swimming instructor that pays $9 an hour and the other as an intern in a genetics lab for $22.50 per hour. How many hours does Elena need to work at each job to earn at least $450 per week?&lt;/p&gt;
+&lt;p dir="ltr"&gt;Let x be the number of hours she works teaching swimming and let y be the number of hours she works as an intern.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Write an inequality that would model this situation.&lt;/p&gt;
+&lt;p&gt;She earns $9 per hour at the job as a swimming instructor and $22.50 in the genetics lab. At each job the number of hours multiplied by the hourly wage will give the amount earned at that job.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/005bf39c30a0601f52e2143be7c6493b78b10bd1" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="907" height="90"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Try It: Writing Inequalities to Represent Constraints&lt;/h4&gt;
+&lt;p&gt;A baker sells pies and cakes at the bakery. Each pie sells for $14 and each cake sells for $23. Between all the sales, the baker wants to earn at least $525. How many pies and cakes does the baker need to sell to meet their goal?&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;Let p be the number of pies sold and let c be the number of cakes sold. Write an inequality that would model this situation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Here is how to model the situation with an inequality:&lt;/p&gt;&lt;p&gt;\(14p\;+\;23c\;\geq\;525\)&lt;/p&gt;&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1131">
+            <jumpto>509</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657720508</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1132">
+            <jumpto>511</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657720508</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="511">
+        <prevpageid>510</prevpageid>
+        <nextpageid>512</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657721253</timecreated>
+        <timemodified>1658808989</timemodified>
+        <title>2.11.3: Graphing Solutions and Interpreting Points</title>
+        <contents>&lt;h4&gt;
+    &lt;ol&gt;
+        &lt;li&gt;Activity&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/h4&gt;
+&lt;p dir="ltr"&gt;A vendor at the Saturday Market makes $9 profit on each necklace she sells and $5 profit on each bracelet.&lt;/p&gt;
+
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Find a combination of necklaces and bracelets that she could sell and make:&lt;ol type="a"&gt;
+                    &lt;li&gt;exactly $100 profit&lt;/li&gt;
+                    &lt;li&gt;more than $100 profit&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Possible responses:&lt;/p&gt;
+        &lt;p&gt;
+        &lt;/p&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;10 necklaces and 2 bracelets&lt;/li&gt;
+            &lt;li&gt;0 necklaces and 21 bracelets&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;Write an equation whose solution is the combination of necklaces and bracelets she could sell and make exactly $100 profit.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Sample answer: \(9n+5b=100\), where n represents the number of necklaces sold and b represents the number of bracelets.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt;Write an inequality whose solutions are the combinations of necklaces and bracelets she could sell and make more than $100 profit.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;\(9n+5b&amp;gt;100\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="4"&gt;
+            &lt;li&gt;Graph the solutions to your inequality.&lt;/li&gt;
+        &lt;/ol&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/frF21ujbB2nNMasguMGWNTYa" alt="Blank coordinate plane. Number of bracelets. Number of necklaces."&gt;&lt;br&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/94HDsNneutjtLnQdKVLn9HkS" alt="Graph of an inequality. Number of bracelets. Number of necklaces."&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;
+        &lt;/p&gt;
+        &lt;ol start="5"&gt;
+            &lt;li&gt;Is (3,18.6) a solution to the inequality? Explain your reasoning.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Sample answers:&lt;/p&gt;
+
+        &lt;ol type="a"&gt;
+            &lt;li&gt;Yes, it is. The point (3,18.6) is in the shaded region.&lt;/li&gt;
+            &lt;li&gt;No, it is not. The vendor can't sell 18.6 bracelets.&lt;/li&gt;
+        &lt;/ol&gt;
+
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+	&lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Write an inequality using two variables x and y where the solution would be represented by shading the entire coordinate plane.&lt;/li&gt;&lt;li&gt;Write an inequality using two variables x and y where the solution would be represented by not shading any of the coordinate plane.&lt;/li&gt;&lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answers here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;\(x^2+y^2\geq0\)&lt;/li&gt;&lt;li&gt;\(x^2+y^2&amp;lt;0\)&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1133">
+            <jumpto>508</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657721253</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1134">
+            <jumpto>512</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657721253</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="512">
+        <prevpageid>511</prevpageid>
+        <nextpageid>513</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1657721515</timecreated>
+        <timemodified>1658263856</timemodified>
+        <title>2.11.3: Self Check</title>
+        <contents>&lt;p dir="ltr"&gt;An artist is designing a sculpture to be displayed hanging in the lobby of a museum. She is using x wooden rods and y metal pipes.&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;ul&gt;&lt;li&gt;Each wooden rod, x, weighs 4 pounds.&lt;/li&gt;&lt;li&gt;Each metal pipe, y, weighs 7 pounds.&amp;nbsp;&lt;/li&gt;&lt;li&gt;The total weight of these materials cannot be more than 510 pounds.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;Which of these ordered pairs represents an amount of materials that meets the artist’s constraints?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1135">
+            <jumpto>513</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657721515</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((60, 50)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The weight must be less or equal to 510 pounds. This ordered pair yields a total weight of \(240 + 350 = 590\) pounds. The answer is \((70, 20)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1136">
+            <jumpto>513</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657721515</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((20, 70)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Notice x represents the weight of the wooden rod and y represents the weight of the metal pipe. The total must be less than or equal to 510 pounds. This ordered pair yields a total weight of \(80 + 490 = 570\) pounds = The answer is \((70, 20)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1137">
+            <jumpto>513</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657721515</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\((50, 60)\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The weight must be less than or equal to 510 pounds. This ordered pair yields a total weight of \(200 + 420 = 660\) pounds? The answer is \((70, 20)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1138">
+            <jumpto>514</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1657721515</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((70, 20)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;That’s correct! Check yourself: 70 wooden rods and 20 metal pipes meets the artist’s constraint.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1139">
+            <jumpto>513</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657721515</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="513">
+        <prevpageid>512</prevpageid>
+        <nextpageid>514</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657721814</timecreated>
+        <timemodified>1658868725</timemodified>
+        <title>2.11.3: Additional Resources </title>
+        <contents>&lt;h4&gt;Graph Linear Inequalities in Two Variables&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Now that we know what the graph of a linear inequality looks like and how it relates to a boundary equation we can use this knowledge to graph a given linear inequality.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Example&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;How to Graph a Linear Equation in Two Variables&lt;/p&gt;
+&lt;p dir="ltr"&gt;Graph the linear inequality \(y\;\geq\;34x\;-\;2.\)&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;table border="1" cellspacing="0" cellpadding="5"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;&lt;b&gt;Step 1.&lt;/b&gt;&amp;nbsp;Identify and graph the boundary line.&lt;/p&gt;&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If the inequality is \(\leq\) or &amp;gt;\(\geq\) boundary line is solid.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If the inequality is &amp;lt; or &amp;gt;, the boundary line is dashed.&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;Replace the inequality sign with an equal sign to find the boundary line&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;\(y=\frac34x-2.\)&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The inequality sign is \(\geq\), so we draw a solid line.&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/73a02b5f0522899713366bc7f2696871112ac313" alt="" width="200" height="205" role="presentation"&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;&lt;b&gt;Step 2.&lt;/b&gt;&amp;nbsp;Test a point that is not on the boundary line. Is it a solution of the inequality?&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;We’ll test (0,0).&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Is it a solution of the inequality?&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;At \((0, 0)/), is \(y\geq\frac34x-2.\)?&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;\(0\overset?\geq\frac34(0)-2\)&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;\(0\geq-2\)&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;So, \(90,0)\) is a solution.&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;&lt;b&gt;Step 3.&lt;/b&gt;&amp;nbsp;Shade in one side of the boundary line.&lt;/p&gt;&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If the test point is a solution, shade in the side that includes the point.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If the test point is not a solution, shade in the opposite side.&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;The test point&amp;nbsp; \(0,0)\) is a solution to \(y\geq\frac34x-2.\) So we shade in that side.&lt;/p&gt;&lt;/td&gt;&lt;td width="208" valign="top"&gt;&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/3fb1b437b5f627f97dd1a57c0ef8f9697fa730b6" alt="" width="200" height="202" role="presentation"&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;All points in the shaded region and on the boundary line represent the solutions to \(y\geq\frac34x-2.\)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p dir="ltr"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Try It: Graph Linear Inequalities in Two Variables&lt;/h4&gt;
+
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;Graph the linear inequality \(y\;&amp;gt;\;\frac52x\;-\;4\)&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Here is how to graph the linear inequality:&lt;/p&gt;&lt;p&gt;All points in the shaded region represent the solutions to&amp;nbsp;\(y\;&amp;gt;\;\frac52x\;-\;4\)&lt;/p&gt;&lt;p&gt;&lt;img src=" https://k12.openstax.org/contents/raise/resources/3a2c4243b36188d45c7f1556d44666cb5fbeef8f" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="228" height="234"&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;br&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1140">
+            <jumpto>512</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657721814</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1141">
+            <jumpto>514</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657721814</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="514">
+        <prevpageid>513</prevpageid>
+        <nextpageid>515</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657722298</timecreated>
+        <timemodified>1658809043</timemodified>
+        <title>2.11.4: Recognizing Points Along Boundary Line (Optional)</title>
+        <contents>&lt;h4&gt;Optional Activity&lt;/h4&gt;
+&lt;p dir="ltr"&gt;A popular band is trying to raise at least $20,000 for charity by holding multiple concerts at a park. It plans to sell tickets at $25 each. For each 2-hour concert, the band would need to pay the park $1,250 in fees for security, cleaning, and traffic services.&lt;/p&gt;
+&lt;p dir="ltr"&gt;The band needs to find the combinations of number of tickets sold, t, and number of concerts held, c, that would allow it to reach its fundraising goal.&lt;/p&gt;
+
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;1. Write an inequality to represent the constraints in this situation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;&lt;span style="white-space: nowrap;"&gt;\(25t-1,250c\geq20,000\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;2. Graph the solutions to the inequality on the coordinate plane.&lt;br&gt;&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/r42KEYW8ZTexZHLrpFBXpmED" alt="Blank grid, origin O. Horizontal axis, number of tickets sold, scale is 0 to 2,500 by 500’s. Vertical axis, number of concerts held, scale is 0 to 24 by 4’s." width="500" height="271"&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Pcw2pJE95RCnVPn6qXzs5myH" alt="Graph of an inequality. Number of concerts held. Number of tickets sold."&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;3. Name two possible combinations of number of tickets sold and number of concerts held that would allow the band to meet its goal.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Sample response:&amp;nbsp;&lt;span id="MathJax-Element-10-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mo stretchy=&amp;quot;false&amp;quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1000&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo stretchy=&amp;quot;false&amp;quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"&gt;&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-57"&gt;&lt;span id="MathJax-Span-58"&gt;&lt;span id="MathJax-Span-59"&gt;(&lt;/span&gt;&lt;span id="MathJax-Span-60"&gt;1000&lt;/span&gt;&lt;span id="MathJax-Span-61"&gt;,&lt;/span&gt;&lt;span id="MathJax-Span-62"&gt;2&lt;/span&gt;&lt;span id="MathJax-Span-63"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;mo stretchy="false"&gt;(&lt;/mo&gt;&lt;mn&gt;1000&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo stretchy="false"&gt;)&lt;/mo&gt;&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;and&amp;nbsp;&lt;span id="MathJax-Element-11-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mo stretchy=&amp;quot;false&amp;quot;&gt;(&lt;/mo&gt;&lt;mn&gt;1400&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;mo stretchy=&amp;quot;false&amp;quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"&gt;&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-64"&gt;&lt;span id="MathJax-Span-65"&gt;&lt;span id="MathJax-Span-66"&gt;(&lt;/span&gt;&lt;span id="MathJax-Span-67"&gt;1400&lt;/span&gt;&lt;span id="MathJax-Span-68"&gt;,&lt;/span&gt;&lt;span id="MathJax-Span-69"&gt;5&lt;/span&gt;&lt;span id="MathJax-Span-70"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;4. Which combination of tickets and concerts would mean&amp;nbsp;&lt;em&gt;more&lt;/em&gt;&amp;nbsp;money for charity:&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;a. 1,300 tickets and 10 concerts, or 1,300 tickets and 5 concerts?&lt;/div&gt;&lt;div&gt;b. 1,600 tickets and 16 concerts, or 1,200 tickets and 9 concerts?&lt;/div&gt;&lt;div&gt;c. 2,000 tickets and 4 concerts, or 2,500 tickets and 10 concerts?&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;&lt;/p&gt;&lt;div&gt;Sample responses:&lt;/div&gt;&lt;div&gt;&lt;div&gt;a. 1,300 tickets and 5 concerts&lt;/div&gt;&lt;div&gt;b. 1,600 tickets and 16 concerts.&lt;/div&gt;&lt;div&gt;c. 2,500 tickets and 10 concerts&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1142">
+            <jumpto>511</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657722298</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1143">
+            <jumpto>515</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657722298</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="515">
+        <prevpageid>514</prevpageid>
+        <nextpageid>516</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657722649</timecreated>
+        <timemodified>1658809098</timemodified>
+        <title>2.11.5: Recognizing Points for an Inequality </title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;p dir="ltr"&gt;To raise money for after-school programs at an elementary school, a group of parents is holding a weekend of games in a community center. They charge $8 per person for entry into the event. The group would like to earn at least $600, after paying a cost of $40 per hour to rent the space.&lt;/p&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;1. If&amp;nbsp;&lt;/span&gt;&lt;span&gt;\( x \)&lt;/span&gt;&lt;span&gt;&amp;nbsp;represents the number of entry tickets sold and&amp;nbsp;&lt;/span&gt;&lt;span&gt;\( y \)&lt;/span&gt;&lt;span&gt;&amp;nbsp;the hours of space rental, which inequality represents the constraints in the situation?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;a. \( 8x-40y&amp;lt;600 \)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;b. \( 8x-40y\leq600 \)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;c. \( 8x-40y&amp;gt;600 \)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;d. \( 8x-40y\geq600 \)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style="white-space: nowrap;"&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;d.&amp;nbsp;&lt;span id="MathJax-Element-6-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;&amp;amp;#x2212;&lt;/mo&gt;&lt;mn&gt;40&lt;/mn&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;&amp;amp;#x2265;&lt;/mo&gt;&lt;mn&gt;600&lt;/mn&gt;&lt;/math&gt;" role="presentation"&gt;&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-34"&gt;&lt;span id="MathJax-Span-35"&gt;&lt;span id="MathJax-Span-36"&gt;8&lt;/span&gt;&lt;span id="MathJax-Span-37"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-38"&gt;−&lt;/span&gt;&lt;span id="MathJax-Span-39"&gt;40&lt;/span&gt;&lt;span id="MathJax-Span-40"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-41"&gt;≥&lt;/span&gt;&lt;span id="MathJax-Span-42"&gt;600&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;2. The line is the graph of \(&lt;span&gt;&lt;span&gt;&lt;span id="MathJax-Element-7-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;&amp;amp;#x2212;&lt;/mo&gt;&lt;mn&gt;40&lt;/mn&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;600&lt;/mn&gt;&lt;/math&gt;" role="presentation"&gt;&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-43"&gt;&lt;span&gt;&lt;span&gt;&lt;span id="MathJax-Span-44"&gt;&lt;span id="MathJax-Span-45"&gt;8&lt;/span&gt;&lt;span id="MathJax-Span-46"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-47"&gt;−&lt;/span&gt;&lt;span id="MathJax-Span-48"&gt;40&lt;/span&gt;&lt;span id="MathJax-Span-49"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-50"&gt;=&lt;/span&gt;&lt;span id="MathJax-Span-51"&gt;600\)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;. Select all points whose \(&lt;span id="MathJax-Element-8-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mo stretchy=&amp;quot;false&amp;quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo stretchy=&amp;quot;false&amp;quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"&gt;&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-52"&gt;&lt;span id="MathJax-Span-53"&gt;&lt;span id="MathJax-Span-54"&gt;(&lt;/span&gt;&lt;span id="MathJax-Span-55"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-56"&gt;,&lt;/span&gt;&lt;span id="MathJax-Span-57"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-58"&gt;)\)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;/span&gt;&amp;nbsp;values represent the group reaching its fundraising goal. Explain or show your reasoning.&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/yibSkAoYhgbYJjkFg75wVzkA" alt="Graph of a line." class="img-fluid atto_image_button_text-bottom" width="300" height="221"&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Points B and C. Sample explanation: When the coordinates of B and C are substituted for the \(&lt;span id="MathJax-Element-9-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/math&gt;" role="presentation"&gt;&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-59"&gt;&lt;span id="MathJax-Span-60"&gt;&lt;span id="MathJax-Span-61"&gt;x\)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;/span&gt;&amp;nbsp;and \(&lt;span id="MathJax-Element-10-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;" role="presentation"&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;mi&gt;y\)&lt;/mi&gt;&lt;/math&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;in the equation, they result in a number that is at least 600.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;3. Complete the graph so that it represents solutions to an inequality that represents this situation. (Be clear about whether you want to use a solid or dashed line.)&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/HuyNxyYrbPm2tF4tS42nrg5K" alt="Graph of an inequality. Hours of rental. Numbers of tickets sold." class="img-fluid atto_image_button_text-bottom" width="300" height="221"&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1144">
+            <jumpto>514</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657722649</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1145">
+            <jumpto>516</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657722649</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="516">
+        <prevpageid>515</prevpageid>
+        <nextpageid>517</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657722799</timecreated>
+        <timemodified>1658809155</timemodified>
+        <title>2.11.6: Practice</title>
+        <contents>&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;p&gt;For questions 1-4, use the following passage:&lt;/p&gt;
+&lt;blockquote&gt;Harrison works two part time jobs. One at a gas station that pays $11 an hour and the other is IT troubleshooting for $16.50 an hour. Between the two jobs, Harrison wants to earn at least $330 a week. How many hours does Harrison need to work at each job to earn at least $330?&lt;/blockquote&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Enter Questions Below this line--&gt;
+
+    &lt;!--q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(11x + 16.5y ≥ 330\)" data-solution-options="[&amp;quot;\\(11x + 16.5y ≥ 330\\)&amp;quot;, &amp;quot;\\(16.5x + 11y ≥ 330\\)&amp;quot;, &amp;quot;\\(11x + 16.5y ≤ 330\\)&amp;quot;, &amp;quot;\\(16.5y + 11x &gt; 330\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;1. Let x be the number of hours he works at the gas station and let y be the number of (hours he works troubleshooting. Which inequality correctly models this situation? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(11x + 16.5y ≥ 330\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 2.11.2 and 2.11.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(11x + 16.5y ≥ 330\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+    &lt;!--q2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="c" data-solution-options="[&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;, &amp;quot;d&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;2. Which graph correctly represents the inequality from the previous question? &lt;/p&gt;
+            &lt;p&gt;a.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/294638ace54307c8532ae9b7e61b7592e5658bff" alt="A graph is shown of a line crossing the y-axis at 10 and the x-axis at 15. The region above the line is shaded.
+
+" class="img-fluid atto_image_button_text-bottom" width="300" height="299"&gt;&lt;/p&gt;
+            &lt;p&gt;b.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/87e1101b4522dee5e1e0993a25a52826195a1fe8" alt="A graph is shown of a line crossing the y-axis at 30 and the x-axis at 20. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="309"&gt;&lt;/p&gt;
+            &lt;p&gt;c.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cac6f8950a8494af2e45b865c8f0680e1d5dec1b" alt="A graph is shown of a line crossing the y-axis at 20 and the x-axis at 30. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="300"&gt;&lt;/p&gt;
+            &lt;p&gt;d.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/b83cde708f1c213773bc1c086f6b6216de8b9b07" alt="A graph is shown of a line crossing the y-axis at 30 and the x-axis at 20. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="303"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 2.11.2 and 2.11.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is c. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+    &lt;!--Q3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="(10, 20)" data-solution-options="[&amp;quot;(10, 20)&amp;quot;, &amp;quot;(25, 2)&amp;quot;, &amp;quot;(15, 9)&amp;quot;, &amp;quot;(3, 17)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;3. Which of the following ordered pairs is a solution to the inequality?&lt;/p&gt;
+            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! (10, 20)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 2.11.2 and 2.11.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is (10, 20). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+    &lt;!--Q4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The solution represents a work schedule that earns him more than $330 per week." data-solution-options="[&amp;quot;The y-coordinate represents how many hours Harrison will work at the gas station.&amp;quot;, &amp;quot;The x-coordinate represents how many hours he works at the IT job.&amp;quot;, &amp;quot;The solution represents a work schedule that earns him more than $330 per week.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;4. Which of the following is true about the solution you found in the previous question?&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The solution represents a work schedule that earns him more than $330 per week.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 2.11.2 and 2.11.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is that the solution represents a work schedule that earns him more than $330 per week.. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;
+    For questions 5-8, use the following passage:&lt;/p&gt;
+
+&lt;blockquote&gt;The doctor tells Maya she needs to exercise enough to burn 500 calories each day. She likes to run which burns 15 calories per minute or bike which burns 10 calories per minute.&lt;/blockquote&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+
+    &lt;!--MC--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(15x + 10y ≥ 500\)" data-solution-options="[&amp;quot;\\(15x + 10y &lt; 500\\)&amp;quot;, &amp;quot;\\(15x + 10y ≥ 500\\)&amp;quot;, &amp;quot;\\(15x + 10y &gt; 500\\)&amp;quot;, &amp;quot;15x + 10y ≤ 500&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;5. If x is the number of minutes that Maya runs and y is the number of minutes she bikes, find the inequality that models the situation.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(15x + 10y ≥ 500\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 2.11.2 and 2.11.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(15x + 10y ≥ 500\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+    &lt;!--Q6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="c" data-solution-options="[&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;, &amp;quot;d&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;6. Which graph correctly represents the inequality from the previous question?&lt;/p&gt;
+            &lt;p&gt;a.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/67cef90769a04988a386016df6355ca380527017" alt="A graph is shown of a line crossing the y-axis at 25 and the x-axis at 35. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="308"&gt;&lt;/p&gt;
+            &lt;p&gt;b.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/1f74cf13af60e3b751b57399cd5429407af3dc3b" alt="A graph is shown of a line crossing the y-axis at 50 and the x-axis at 20. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="308"&gt;&lt;/p&gt;
+            &lt;p&gt;c.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/aa4147c08db38611cf8a1b18d1a2cef2c8280e61" alt="A graph is shown of a line crossing the y-axis at 50 and the x-axis at about 33. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="305"&gt;&lt;/p&gt;
+            &lt;p&gt;d.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/604ed5ed1c5194bd9ba02f87b233c524d0317b25" alt="A graph is shown of a line crossing the y-axis at about 33 and the x-axis at 50. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="306"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 2.11.2 and 2.11.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is c. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+    &lt;!--Q7--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="(15, 30)" data-solution-options="[&amp;quot;(5, 40)&amp;quot;, &amp;quot;(15, 30)&amp;quot;, &amp;quot;(20, 15)&amp;quot;, &amp;quot;(25, 10)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;7. Which of the following ordered pairs is a solution to the inequality?&lt;/p&gt;
+            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! (15, 30)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 2.11.2 and 2.11.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is (15, 30). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+
+    &lt;!--Q8--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The solution represents a workout which allows Maya to burn at least 500 calories." data-solution-options="[&amp;quot;The x-coordinate represents the number of minutes that Maya bikes.&amp;quot;, &amp;quot;The y-coordinate represents the number of minutes that Maya runs.&amp;quot;, &amp;quot;The solution represents a workout which allows Maya to burn at least 500 calories.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;8. Which of the following is true about the solution you found in the previous question?&lt;/p&gt;
+            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The solution represents a workout which allows Maya to burn at least 500 calories.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 2.11.2 and 2.11.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is that the solution represents a workout which allows Maya to burn at least 500 calories. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+    &lt;p&gt;
+        For questions 9-12, use the following passage:
+    &lt;/p&gt;
+    &lt;blockquote&gt;
+        Armando’s workouts consist of kickboxing and swimming. While kickboxing, he burns 10 calories per minute and he burns 7 calories a minute while swimming. He wants to burn at least 600 calories each day.&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+
+    &lt;!--Q9--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(10x + 7y ≥ 600\)" data-solution-options="[&amp;quot;\\(7x + 10y ≥ 600\\)&amp;quot;, &amp;quot;\\(7x + 10y &lt; 600\\)&amp;quot;, &amp;quot;\\(10x + 7y &gt; 600\\)&amp;quot;, &amp;quot;\\(10x + 7y ≥ 600\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;p&gt;9. If &lt;em&gt;x&lt;/em&gt; is the number of minutes that Armando will kickbox and &lt;em&gt;y&lt;/em&gt; is the number of minutes he will swim, find the inequality that will help Armando create a workout for today.&lt;/p&gt;
+            &lt;p&gt;&lt;/p&gt;
+            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(10x + 7y ≥ 600\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 2.11.2 and 2.11.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(10x + 7y ≥ 600\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+    &lt;!--Q10--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="b" data-solution-options="[&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;, &amp;quot;d&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;10. Which graph correctly represents the inequality from the previous question?&lt;/p&gt;
+            &lt;p&gt;a.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/670d0e89069078484ebf1c83f05dd7378a652fa8" alt="A graph is shown of a line crossing the y-axis at 60 and the x-axis at about 85. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="295"&gt;&lt;/p&gt;
+            &lt;p&gt;b.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/ef2df1f537ff9c2c5fc2e38cde2e09a755329ff9" alt="A graph is shown of a line crossing the y-axis at about 85 and the x-axis at 60. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="300"&gt;&lt;/p&gt;
+            &lt;p&gt;c.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5280fbc39926d829507b525ef86d6c253039d937" alt="A graph is shown of a line crossing the y-axis at about 85 and the x-axis at 30. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="305"&gt;&lt;/p&gt;
+            &lt;p&gt;d.&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6518c9f5bae426e69157f3fd23c44ff921792c4c" alt="A graph is shown of a line crossing the y-axis at 30 and the x-axis at about 85. The region above the line is shaded." class="img-fluid atto_image_button_text-bottom" width="300" height="297"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 2.11.2 and 2.11.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is b. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+    &lt;!--Q11--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="(20, 70)" data-solution-options="[&amp;quot;(20, 70)&amp;quot;, &amp;quot;(10, 70)&amp;quot;, &amp;quot;(30, 40)&amp;quot;, &amp;quot;(40, 20)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;11. Which of the following ordered pairs is a solution to the inequality? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! (20, 70)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 2.11.2 and 2.11.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is (20, 70). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+
+    &lt;!--Q12--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The x-coordinate represents the number of minutes that Armando swims." data-solution-options="[&amp;quot;The x-coordinate represents the number of minutes that Armando swims.&amp;quot;, &amp;quot;The y-coordinate represents the number of minutes that Armando swims.&amp;quot;, &amp;quot;The solution represents a workout which allows Armando to burn at least 500 calories.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;12. Which of the following is true about the solution you found in the previous question?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The x-coordinate represents the number of minutes that Armando swims.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 2.11.2 and 2.11.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is that the x-coordinate represents the number of minutes that Armando swims. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;br&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1146">
+            <jumpto>515</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657722799</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1147">
+            <jumpto>517</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657722799</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="517">
+        <prevpageid>516</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657722968</timecreated>
+        <timemodified>1658809187</timemodified>
+        <title>2.11.7: Lesson Summary</title>
+        <contents>&lt;p dir="ltr"&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;Interpret points in the coordinate plane and decide if they are solutions to the inequality, given a two-variable inequality that represents a situation.&lt;/li&gt;
+    &lt;li&gt;Find the solutions to a two-variable inequality by using the graph of a related two-variable equation.&lt;/li&gt;
+    &lt;li&gt;Write inequalities to describe the constraints in a situation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;2.11.1: Sketching a Graph to Represent an Equation&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you reviewed writing and graphing an equation that represents a situation. This prepared you to write linear inequalities that represent constraints in situations and graphing the solution regions.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;2.11.2: Writing an Inequality to Represent a Constraint&lt;ul&gt;
+            &lt;li&gt;In this activity, you wrote an inequality to represent a constraint in a situation. You graphed a related equation, interpreted the coordinate pairs of points on the graph and on either side of the graph, and tested the pairs of values to see if they make the inequality true. You then used these observations to determine the solution region to the inequality.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;2.11.2: Self Check&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;2.11.3: Graphing Solutions and Interpreting Points&lt;ul&gt;
+            &lt;li&gt;In this activity, you continued to work with inequalities in two variables in context. You wrote an inequality that represents the constraints in a situation, graphed its solutions, and interpreted points in the solution region.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;2.11.3: Self Check&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;2.11.4: Recognizing Points Along Boundary Line (Optional)&lt;ul&gt;
+            &lt;li&gt;In this activity, you had an additional opportunity for writing a linear inequality in two variables to represent constraints and for graphing and interpreting the solutions.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;2.11.5: Recognizing Points for an Inequality&lt;ul&gt;
+            &lt;li&gt;In this activity, you had more opportunities to understand the mathematical ideas and receive guidance for what to look for to identify when an inequality represents the constraints in a situation.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;After these activities, you completed the following &lt;strong&gt;practice:&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;2.11.6: Practice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Checking In&amp;nbsp;&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+	
+	&lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+	
+	&lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
+	
+	  &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1148">
+            <jumpto>516</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657722968</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1149">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657722968</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>
