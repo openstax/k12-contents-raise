@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="54" moduleid="70" modulename="lesson" contextid="81">
   <lesson id="54">
     <course>2</course>
     <name>Lesson 2.10: Graphing Linear Inequalities in Two Variables, Part 1</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>0</practice>
     <modattempts>1</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>0</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -56,22 +56,22 @@
         <contents>&lt;p&gt;In this lesson, you will write, solve, and graph linear inequalities in two variables.&lt;/p&gt;
 &lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Determine which side of the line the solutions to the inequality will fall, given a two-variable inequality and the graph of the related equation.&lt;/li&gt;
-  &lt;li&gt;Describe the graph that represents the solutions to a linear inequality in two variables.&lt;/li&gt;
+&lt;li&gt;Determine which side of the line the solutions to the inequality will fall, given a two-variable inequality and the graph of the related equation.&lt;/li&gt;
+&lt;li&gt;Describe the graph that represents the solutions to a linear inequality in two variables.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals: &lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;2.10.1: Using Computation and Reasoning&lt;/li&gt;
-  &lt;li&gt;2.10.2: Finding Solutions to Inequalities on the Coordinate Plane&lt;/li&gt;
-  &lt;li&gt;2.10.2: Self Check&lt;/li&gt;
-  &lt;li&gt;2.10.3: Sketching Solutions to Inequalities&lt;/li&gt;
-  &lt;li&gt;2.10.3: Self Check&lt;/li&gt;
-  &lt;li&gt;2.10.4: Shading Boundary Line Regions&lt;/li&gt;
+&lt;li&gt;2.10.1: Using Computation and Reasoning&lt;/li&gt;
+&lt;li&gt;2.10.2: Finding Solutions to Inequalities on the Coordinate Plane&lt;/li&gt;
+&lt;li&gt;2.10.2: Self Check&lt;/li&gt;
+&lt;li&gt;2.10.3: Sketching Solutions to Inequalities&lt;/li&gt;
+&lt;li&gt;2.10.3: Self Check&lt;/li&gt;
+&lt;li&gt;2.10.4: Shading Boundary Line Regions&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;After that, you&amp;rsquo;ll &lt;strong&gt;practice and review&lt;/strong&gt;. &lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;2.10.5: Practice&lt;/li&gt;
-  &lt;li&gt;2.10.6: Summary&lt;/li&gt;
+&lt;li&gt;2.10.5: Practice&lt;/li&gt;
+&lt;li&gt;2.10.6: Summary&lt;/li&gt;
 &lt;/ul&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -103,36 +103,32 @@
         <timecreated>1654188663</timecreated>
         <timemodified>1657649056</timemodified>
         <title>2.10.1: Using Computation and Reasoning</title>
-        <contents>&lt;p&gt;Here is an expression: &lt;span id="MathJax-Element-1-Frame" tabindex="0" data-mathml="&lt;math xmlns='http://www.w3.org/1998/Math/MathML'&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;" role="presentation"&gt;&lt;span id="MathJax-Span-1"&gt;&lt;span id="MathJax-Span-2"&gt;&lt;span id="MathJax-Span-3"&gt;2&lt;/span&gt;&lt;span id="MathJax-Span-4"&gt;𝑥&lt;/span&gt;&lt;span id="MathJax-Span-5"&gt;+&lt;/span&gt;&lt;span id="MathJax-Span-6"&gt;3&lt;/span&gt;&lt;span id="MathJax-Span-7"&gt;𝑦&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Decide if the values in each ordered pair,&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span id="MathJax-Element-2-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mo stretchy=&amp;quot;false&amp;quot;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo stretchy=&amp;quot;false&amp;quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"&gt;&lt;span id="MathJax-Span-8"&gt;&lt;span&gt;&lt;span&gt;&lt;span id="MathJax-Span-9"&gt;&lt;span id="MathJax-Span-10"&gt;(&lt;/span&gt;&lt;span id="MathJax-Span-11"&gt;𝑥&lt;/span&gt;&lt;span id="MathJax-Span-12"&gt;,&lt;/span&gt;&lt;span id="MathJax-Span-13"&gt;𝑦&lt;/span&gt;&lt;span id="MathJax-Span-14"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, make the value of the expression less than, greater than, or equal to 12. &lt;/p&gt;
+        <contents>&lt;p&gt;Here is an expression: &lt;span data-mathml="&amp;lt;math xmlns='http://www.w3.org/1998/Math/MathML'&amp;gt;&amp;lt;mn&amp;gt;2&amp;lt;/mn&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;+&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;3&amp;lt;/mn&amp;gt;&amp;lt;mi&amp;gt;y&amp;lt;/mi&amp;gt;&amp;lt;/math&amp;gt;" id="MathJax-Element-1-Frame" role="presentation" tabindex="0"&gt;&lt;span id="MathJax-Span-1"&gt;&lt;span id="MathJax-Span-2"&gt;&lt;span id="MathJax-Span-3"&gt;2&lt;/span&gt;&lt;span id="MathJax-Span-4"&gt;𝑥&lt;/span&gt;&lt;span id="MathJax-Span-5"&gt;+&lt;/span&gt;&lt;span id="MathJax-Span-6"&gt;3&lt;/span&gt;&lt;span id="MathJax-Span-7"&gt;𝑦&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Decide if the values in each ordered pair,&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span data-mathml='&amp;lt;math xmlns="http://www.w3.org/1998/Math/MathML"&amp;gt;&amp;lt;mo stretchy="false"&amp;gt;(&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;,&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;y&amp;lt;/mi&amp;gt;&amp;lt;mo stretchy="false"&amp;gt;)&amp;lt;/mo&amp;gt;&amp;lt;/math&amp;gt;' id="MathJax-Element-2-Frame" role="presentation" tabindex="0"&gt;&lt;span id="MathJax-Span-8"&gt;&lt;span&gt;&lt;span&gt;&lt;span id="MathJax-Span-9"&gt;&lt;span id="MathJax-Span-10"&gt;(&lt;/span&gt;&lt;span id="MathJax-Span-11"&gt;𝑥&lt;/span&gt;&lt;span id="MathJax-Span-12"&gt;,&lt;/span&gt;&lt;span id="MathJax-Span-13"&gt;𝑦&lt;/span&gt;&lt;span id="MathJax-Span-14"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, make the value of the expression less than, greater than, or equal to 12. &lt;/p&gt;
 &lt;ol start="1" type="1"&gt;
-    &lt;li&gt;(0, 5) &lt;/li&gt;
-    &lt;li&gt;(6, 0) &lt;/li&gt;
-    &lt;li&gt;(-1, -1) &lt;/li&gt;
-    &lt;li&gt;(-5, 10) &lt;/li&gt;
+&lt;li&gt;(0, 5) &lt;/li&gt;
+&lt;li&gt;(6, 0) &lt;/li&gt;
+&lt;li&gt;(-1, -1) &lt;/li&gt;
+&lt;li&gt;(-5, 10) &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;/p&gt;
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answers here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answers:&lt;/p&gt;
-
-        &lt;ol&gt;
-            &lt;li&gt;&lt;span lang="EN"&gt;greater than 12&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;span lang="EN"&gt;equal to 12&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;span lang="EN"&gt;less than 12&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;span lang="EN"&gt;greater than 12&lt;/span&gt;&lt;/li&gt;
-        &lt;/ol&gt;
-
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answers here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answers:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;greater than 12&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;equal to 12&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;less than 12&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;greater than 12&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -180,86 +176,79 @@
         <title>2.10.2: Finding Solutions to Inequalities on the Coordinate Plane</title>
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
 &lt;p&gt;Here are four inequalities. Study each inequality assigned to your group and work with your group to: &lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Find some coordinate pairs that represent solutions to the inequality and some coordinate pairs that do not represent solutions.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Plot both sets of points. Either use two different colors or two different symbols like X and O.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Plot enough points until you start to see the region that contains solutions and the region that contains non-solutions. Look for a pattern describing the region where solutions are plotted.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;
+&lt;ul&gt;&lt;li&gt;&lt;span&gt;Find some coordinate pairs that represent solutions to the inequality and some coordinate pairs that do not represent solutions.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Plot both sets of points. Either use two different colors or two different symbols like X and O.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Plot enough points until you start to see the region that contains solutions and the region that contains non-solutions. Look for a pattern describing the region where solutions are plotted.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;
 &lt;/ol&gt;
-
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="problemA" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;\(x\;\geq\;y\)&lt;/p&gt;
-        &lt;img src="https://s3.amazonaws.com/im-ims-export/oV13PUsbP2uNePXR36GtWL9g" alt="Blank coordinate grid, origin O. Each axis goes from negative 10 to 10, by 1’s." width="201" height="195"&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;\(x\;\geq\;y\)&lt;/p&gt;
+&lt;img alt="Blank coordinate grid, origin O. Each axis goes from negative 10 to 10, by 1&amp;rsquo;s." height="195" src="https://s3.amazonaws.com/im-ims-export/oV13PUsbP2uNePXR36GtWL9g" width="201"&gt;
 &lt;/div&gt;
-    &lt;div class="os-raise-ib-content" data-wait-for-event="problemA" data-schema-version="1.0"&gt;
-        &lt;p&gt;Your answer may vary, but a sample graph (blue points are solutions and yellow points are not solutions) includes the following:
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="problemA"&gt;
+&lt;p&gt;Your answer may vary, but a sample graph (blue points are solutions and yellow points are not solutions) includes the following:
         &lt;/p&gt;
-        &lt;p&gt;\(x\;\geq\;y\)&lt;/p&gt;
-        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/ocWfvpLGLymKsGmptw49aMyu" alt="Graph with solutions and non-solutions plotted."&gt;&lt;br&gt;&lt;/p&gt;
-    &lt;/div&gt;
-
+&lt;p&gt;\(x\;\geq\;y\)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Graph with solutions and non-solutions plotted." src="https://s3.amazonaws.com/im-ims-export/ocWfvpLGLymKsGmptw49aMyu"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="problemB" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;\(-2y\;\geq\;-4\)&lt;/p&gt;
-        &lt;p&gt;
-            &lt;img src="https://s3.amazonaws.com/im-ims-export/F58Z34Q48tzNQC8ieyhPDLFh" alt="Blank coordinate grid, origin O. Each axis goes from negative 10 to 10, by 1’s." width="200" height="194" class="img-fluid atto_image_button_text-bottom"&gt;
-        &lt;/p&gt;
-
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;\(-2y\;\geq\;-4\)&lt;/p&gt;
+&lt;p&gt;
+&lt;img alt="Blank coordinate grid, origin O. Each axis goes from negative 10 to 10, by 1&amp;rsquo;s." class="img-fluid atto_image_button_text-bottom" height="194" src="https://s3.amazonaws.com/im-ims-export/F58Z34Q48tzNQC8ieyhPDLFh" width="200"&gt;
+&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="problemB" data-schema-version="1.0"&gt;
-    &lt;p&gt;Your answer may vary, but a sample graph (blue points are solutions and yellow points are not solutions) includes the following:&amp;nbsp;&lt;/p&gt;
-    &lt;p&gt;\(-2y\;\geq\;-4\)&lt;/p&gt;
-    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/LwsDLUSRopbagrPju7Ag9qP1" alt="Graph with solutions and non-solutions plotted."&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="problemB"&gt;
+&lt;p&gt;Your answer may vary, but a sample graph (blue points are solutions and yellow points are not solutions) includes the following:&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(-2y\;\geq\;-4\)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Graph with solutions and non-solutions plotted." src="https://s3.amazonaws.com/im-ims-export/LwsDLUSRopbagrPju7Ag9qP1"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="problemC" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;\(3x &amp;lt; 0\)&lt;/p&gt;
-        &lt;p&gt;
-            &lt;img src="https://s3.amazonaws.com/im-ims-export/F58Z34Q48tzNQC8ieyhPDLFh" alt="Blank coordinate grid, origin O. Each axis goes from negative 10 to 10, by 1’s." width="200" height="194"&gt;
-        &lt;/p&gt;
-
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;\(3x &amp;lt; 0\)&lt;/p&gt;
+&lt;p&gt;
+&lt;img alt="Blank coordinate grid, origin O. Each axis goes from negative 10 to 10, by 1&amp;rsquo;s." height="194" src="https://s3.amazonaws.com/im-ims-export/F58Z34Q48tzNQC8ieyhPDLFh" width="200"&gt;
+&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="problemC" data-schema-version="1.0"&gt;
-    &lt;p&gt;Your answer may vary, but a sample graph (blue points are solutions and yellow points are not solutions) includes the following:&lt;br&gt;\(3x &amp;lt; 0\)&lt;/p&gt;
-    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/ZuGYS7HVLbVuwJ7BjCCHanJa" alt="Graph with solutions and non-solutions plotted."&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="problemC"&gt;
+&lt;p&gt;Your answer may vary, but a sample graph (blue points are solutions and yellow points are not solutions) includes the following:&lt;br&gt;\(3x &amp;lt; 0\)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Graph with solutions and non-solutions plotted." src="https://s3.amazonaws.com/im-ims-export/ZuGYS7HVLbVuwJ7BjCCHanJa"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="problemD" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;\(x + y &amp;gt; 10\)&lt;br&gt;
-            &lt;img src="https://s3.amazonaws.com/im-ims-export/oV13PUsbP2uNePXR36GtWL9g" alt="Blank coordinate grid, origin O. Each axis goes from negative 10 to 10, by 1’s." width="201" height="195"&gt;
-        &lt;/p&gt;
-
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;\(x + y &amp;gt; 10\)&lt;br&gt;
+&lt;img alt="Blank coordinate grid, origin O. Each axis goes from negative 10 to 10, by 1&amp;rsquo;s." height="195" src="https://s3.amazonaws.com/im-ims-export/oV13PUsbP2uNePXR36GtWL9g" width="201"&gt;
+&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="problemD" data-schema-version="1.0"&gt;
-    &lt;p&gt;Your answer may vary, but a sample graph (blue points are solutions and yellow points are not solutions) includes the following:&amp;nbsp;&lt;/p&gt;
-    &lt;p&gt;\(x + y &amp;gt; 10\)&lt;/p&gt;
-    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/SrJL6f8FqxocjBQaPmf4Kq7B" alt="Graph with solutions and non-solutions plotted."&gt;&lt;br&gt;&lt;/p&gt;
-    &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="problemD"&gt;
+&lt;p&gt;Your answer may vary, but a sample graph (blue points are solutions and yellow points are not solutions) includes the following:&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(x + y &amp;gt; 10\)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Graph with solutions and non-solutions plotted." src="https://s3.amazonaws.com/im-ims-export/SrJL6f8FqxocjBQaPmf4Kq7B"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;/div&gt;
 &lt;h4&gt;&lt;br&gt;&lt;/h4&gt;
 &lt;h4&gt;Video: Finding Solutions to Inequalities on the Coordinate Plane&lt;/h4&gt;
-&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Watch the following video to learn more about solutions to inequalities on the coordinate plane.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Watch the following video to learn more about solutions to inequalities on the coordinate plane.&lt;/span&gt;&lt;/p&gt;
 &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
-    &lt;source src="https://k12.openstax.org/contents/raise/resources/40c6306a9de7c7d071feeec89cc16d923cad19e0"&gt;
-    &lt;track src="https://k12.openstax.org/contents/raise/resources/dae8721e9383caef67e81f9a98170224dbb8eba3" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/40c6306a9de7c7d071feeec89cc16d923cad19e0
+&lt;source src="https://k12.openstax.org/contents/raise/resources/40c6306a9de7c7d071feeec89cc16d923cad19e0"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/dae8721e9383caef67e81f9a98170224dbb8eba3" srclang="en_us"&gt;https://k12.openstax.org/contents/raise/resources/40c6306a9de7c7d071feeec89cc16d923cad19e0
 &lt;/video&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -305,8 +294,8 @@
         <timecreated>1654699210</timecreated>
         <timemodified>1658171681</timemodified>
         <title>2.10.2: Self Check</title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;&lt;span lang="EN"&gt;Which ordered pair is a
-solution to the inequality graphed here?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;\(y\;&amp;gt;\;\;\frac45x\;–\;\frac85\)&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contents>&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;p&gt;&lt;span lang="EN"&gt;Which ordered pair is a
+solution to the inequality graphed here?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;\(y\;&amp;gt;\;\;\frac45x\;&amp;ndash;\;\frac85\)&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1097">
@@ -316,9 +305,9 @@ solution to the inequality graphed here?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;\(y\;&am
             <flags>0</flags>
             <timecreated>1654699210</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;(0, –4)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;Incorrect. Let’s try again a different way: Plot the ordered pair. Is it
-in the shaded region? The answer is (&lt;span lang="EN"&gt;–&lt;/span&gt;4, 0).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;(0, &amp;ndash;4)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Plot the ordered pair. Is it
+in the shaded region? The answer is (&lt;span lang="EN"&gt;&amp;ndash;&lt;/span&gt;4, 0).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -331,9 +320,9 @@ in the shaded region? The answer is (&lt;span lang="EN"&gt;–&lt;/span&gt;4, 0)
             <flags>0</flags>
             <timecreated>1654699210</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;(4, 0)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;Incorrect. Let’s try again a different way: Plot the ordered pair. Is it
-in the shaded region? The answer is (&lt;span lang="EN"&gt;–&lt;/span&gt;4, 0).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;(4, 0)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Plot the ordered pair. Is it
+in the shaded region? The answer is (&lt;span lang="EN"&gt;&amp;ndash;&lt;/span&gt;4, 0).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -346,10 +335,10 @@ in the shaded region? The answer is (&lt;span lang="EN"&gt;–&lt;/span&gt;4, 0)
             <flags>0</flags>
             <timecreated>1654699210</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;(–4, 0)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;That's correct! Check
+            <answer_text>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;(&amp;ndash;4, 0)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;That's correct! Check
 yourself: The ordered pair
-(–4, 0) is in the shaded region.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+(&amp;ndash;4, 0) is in the shaded region.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -362,8 +351,8 @@ yourself: The ordered pair
             <flags>0</flags>
             <timecreated>1654699210</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;(2, -2)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;Incorrect. Let’s try again a different way: Plot the ordered pair. Is it in the shaded region? The answer is (&lt;span lang="EN"&gt;–&lt;/span&gt;4, 0).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;(2, -2)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Plot the ordered pair. Is it in the shaded region? The answer is (&lt;span lang="EN"&gt;&amp;ndash;&lt;/span&gt;4, 0).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -376,8 +365,8 @@ yourself: The ordered pair
             <flags>0</flags>
             <timecreated>1654699210</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;I am not sure.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;I am not sure.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -399,353 +388,340 @@ yourself: The ordered pair
         <title>2.10.2: Additional Resources</title>
         <contents>&lt;h3 data-type="title"&gt;Verify Solutions to an Inequality in Two Variables&lt;/h3&gt;
 &lt;p&gt;Previously we learned to solve inequalities with only one variable. We will now learn about inequalities containing two variables. In particular, we will look at &lt;strong&gt;linear inequalities&lt;/strong&gt; in two variables which are very similar to linear equations in two variables.&lt;/p&gt;
-&lt;p&gt;Linear inequalities in two variables have many applications. If you ran a business, for example, you would want your revenue to be greater than your costs—so that your business made a profit.&lt;/p&gt;
+&lt;p&gt;Linear inequalities in two variables have many applications. If you ran a business, for example, you would want your revenue to be greater than your costs&amp;mdash;so that your business made a profit.&lt;/p&gt;
 &lt;div&gt;&lt;strong&gt; Linear Inequality&lt;/strong&gt;
-    &lt;hr&gt;
-    &lt;p&gt;A &lt;strong&gt;linear inequality&lt;/strong&gt; is an inequality that can be written in one of the following forms:&lt;/p&gt;
-    &lt;p&gt;\(Ax+By&amp;gt;C\)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(Ax+By\geq C\)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(Ax+By&amp;lt;C&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(Ax+By\leq C\)&lt;/p&gt;
-    &lt;p&gt;Where A and B are not both zero.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A &lt;strong&gt;linear inequality&lt;/strong&gt; is an inequality that can be written in one of the following forms:&lt;/p&gt;
+&lt;p&gt;\(Ax+By&amp;gt;C\)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(Ax+By\geq C\)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(Ax+By&amp;lt;C&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(Ax+By\leq C\)&lt;/p&gt;
+&lt;p&gt;Where A and B are not both zero.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;Recall that an inequality with one variable had many solutions. For example, the solution to the inequality x &amp;gt; 3 is any number greater than 3. We showed this on the number line by shading in the number line to the right of 3, and putting an open parenthesis at 3. See the figure below.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/760f734b2bad15f7d6af2baae9b5a241d83fcef5" alt="Image of the number line with the integers from negative 5 to 5. The part of the number line to the right of 3 is marked with a blue line. The number 3 is marked with a blue open parenthesis."&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image of the number line with the integers from negative 5 to 5. The part of the number line to the right of 3 is marked with a blue line. The number 3 is marked with a blue open parenthesis." src="https://k12.openstax.org/contents/raise/resources/760f734b2bad15f7d6af2baae9b5a241d83fcef5"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Similarly, linear inequalities in two variables have many solutions. Any ordered pair (x, y) that makes an inequality true when we substitute in the values is a solution to a linear inequality.&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;div&gt;&lt;strong&gt; Solution to a Linear Inequality&lt;/strong&gt;
-    &lt;hr&gt;
-    &lt;p&gt;An ordered pair (\(x, y)\) is a &lt;strong&gt;solution to a linear inequality&lt;/strong&gt; if the inequality is true when we substitute the values of &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;An ordered pair (\(x, y)\) is a &lt;strong&gt;solution to a linear inequality&lt;/strong&gt; if the inequality is true when we substitute the values of &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;Example: Determine whether each ordered pair is a solution to the inequality y &amp;gt; x + 4 :&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol type="a"&gt;
-    &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;\((0, 0)\)&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;\((1, 6)\)&lt;/li&gt;
-    &lt;li&gt;\((2, 6)\)&lt;/li&gt;
-    &lt;li&gt;\((−5, −15)\)&lt;/li&gt;
-    &lt;li&gt;\((−8, 12)\)&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;\((0, 0)\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;\((1, 6)\)&lt;/li&gt;
+&lt;li&gt;\((2, 6)\)&lt;/li&gt;
+&lt;li&gt;\((&amp;minus;5, &amp;minus;15)\)&lt;/li&gt;
+&lt;li&gt;\((&amp;minus;8, 12)\)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;h5&gt;Solution&lt;/h5&gt;
 &lt;div&gt;A. &lt;br&gt;&lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;table width="550" cellspacing="0" cellpadding="5" border="1"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\((0, 0)\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td valign="top"&gt;
-                &lt;p&gt;&amp;nbsp;\(y&amp;gt;x+4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;Substitute 0
+&lt;table border="1" cellpadding="5" cellspacing="0" width="550"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\((0, 0)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;&amp;nbsp;\(y&amp;gt;x+4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;Substitute 0
                     for x and 0 for y.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td valign="top"&gt;
-                &lt;p&gt;&amp;nbsp;\(0\;\overset?&amp;gt;0+4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;Simplify.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td valign="top"&gt;
-                &lt;p&gt;\(0\not&amp;gt;4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;&lt;/td&gt;
-            &lt;td valign="top"&gt;
-                &lt;p&gt;So, \((0,0)\) is not a
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;&amp;nbsp;\(0\;\overset?&amp;gt;0+4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;Simplify.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;\(0\not&amp;gt;4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;So, \((0,0)\) is not a
                     solution to \(y&amp;gt;x+4.\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;B.&lt;br&gt;
-    &lt;!--[endif]--&gt;
+&lt;!--[endif]--&gt;
 &lt;/p&gt;
-
-&lt;table width="550" cellspacing="0" cellpadding="5" border="1"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\((1,6)\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\(y&amp;gt;x+4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;Substitute 1
+&lt;table border="1" cellpadding="5" cellspacing="0" width="550"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\((1,6)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\(y&amp;gt;x+4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;Substitute 1
                     for x and 6 for y&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;&amp;nbsp;\(6\;\overset?&amp;gt;1+4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;Simplify.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\(6&amp;gt;5\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;&lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;So, \((1,6)\) is a
+&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;&amp;nbsp;\(6\;\overset?&amp;gt;1+4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;Simplify.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\(6&amp;gt;5\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;So, \((1,6)\) is a
                     solution to \(y&amp;gt;x+4.\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;C.&lt;br&gt;
-    &lt;!--[endif]--&gt;
+&lt;!--[endif]--&gt;
 &lt;/p&gt;
-
-&lt;table width="550" cellspacing="0" cellpadding="5" border="1"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\((2,6)\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;&amp;nbsp;\(y&amp;gt;x+4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;&amp;nbsp;Substitute 2
+&lt;table border="1" cellpadding="5" cellspacing="0" width="550"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\((2,6)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;&amp;nbsp;\(y&amp;gt;x+4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;&amp;nbsp;Substitute 2
                     for x and 6 for y&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\(6\;\overset?&amp;gt;2+4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;Simplify.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\(6\not&amp;gt;6\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;&lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;So, \((2,6)\) is not
+&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\(6\;\overset?&amp;gt;2+4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;Simplify.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\(6\not&amp;gt;6\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;So, \((2,6)\) is not
                     a solution to \(y&amp;gt;x+4\).&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;D.&lt;br&gt;
-    &lt;!--[endif]--&gt;
+&lt;!--[endif]--&gt;
 &lt;/p&gt;
-
-&lt;table width="550" cellspacing="0" cellpadding="5" border="1"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\((−5,−15)\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td valign="top"&gt;
-                &lt;p&gt;\(y&amp;gt;x+4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;&amp;nbsp;Substitute -5 for x and -15 for y&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td valign="top"&gt;
-                &lt;p&gt;\( -15\overset?{&amp;gt;-5+4}\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;Simplify.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td valign="top"&gt;
-                &lt;p&gt;\( -15\not&amp;gt;-1\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;&lt;/td&gt;
-            &lt;td valign="top"&gt;
-                &lt;p&gt;So, \((−5,−15)\) is
+&lt;table border="1" cellpadding="5" cellspacing="0" width="550"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\((&amp;minus;5,&amp;minus;15)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;\(y&amp;gt;x+4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;&amp;nbsp;Substitute -5 for x and -15 for y&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;\( -15\overset?{&amp;gt;-5+4}\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;Simplify.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;\( -15\not&amp;gt;-1\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;&lt;/td&gt;
+&lt;td valign="top"&gt;
+&lt;p&gt;So, \((&amp;minus;5,&amp;minus;15)\) is
                     not a solution to \(y&amp;gt;x+4\).&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;E.&lt;br&gt;
-    &lt;!--[endif]--&gt;
+&lt;!--[endif]--&gt;
 &lt;/p&gt;
-
-&lt;table width="550" cellspacing="0" cellpadding="0" border="1"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\((−8,12)\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\(y&amp;gt;x+4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;&amp;nbsp;Substitute -8
+&lt;table border="1" cellpadding="0" cellspacing="0" width="550"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\((&amp;minus;8,12)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\(y&amp;gt;x+4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;&amp;nbsp;Substitute -8
                     for x and 12 for y&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\( 12\;\overset?{&amp;gt;-8}+4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;Simplify.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;\(12&amp;gt;-4\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="275" valign="top"&gt;&lt;/td&gt;
-            &lt;td width="275" valign="top"&gt;
-                &lt;p&gt;So, \((−8,12)\) is a
+&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\( 12\;\overset?{&amp;gt;-8}+4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;Simplify.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;\(12&amp;gt;-4\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="275"&gt;&lt;/td&gt;
+&lt;td valign="top" width="275"&gt;
+&lt;p&gt;So, \((&amp;minus;8,12)\) is a
                     solution to \(y&amp;gt;x+4.\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;h4&gt;Try It: Verify Solutions to an Inequality in Two Variables&lt;/h4&gt;
-&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Determine whether each ordered pair is a solution to the inequality y &amp;gt; x − 3 :&lt;/span&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;span&gt;Determine whether each ordered pair is a solution to the inequality y &amp;gt; x &amp;minus; 3 :&lt;/span&gt;&lt;/p&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;ol&gt;
-            &lt;li&gt;(0, 0)&lt;/li&gt;
-            &lt;li&gt;(4, 9)&lt;/li&gt;
-            &lt;li&gt;(−2, 1)&lt;/li&gt;
-            &lt;li&gt;(−5, −3)&lt;/li&gt;
-            &lt;li&gt;(5, 1)&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
-        &lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;(0, 0)&lt;/li&gt;
+&lt;li&gt;(4, 9)&lt;/li&gt;
+&lt;li&gt;(&amp;minus;2, 1)&lt;/li&gt;
+&lt;li&gt;(&amp;minus;5, &amp;minus;3)&lt;/li&gt;
+&lt;li&gt;(5, 1)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;/div&gt;
-
-
-
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;ol&gt;
-        &lt;li&gt;yes; Substitute 0 for x and 0 for y.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;ul&gt;
-        &lt;ul&gt;
-            &lt;ul style="list-style:none;"&gt;
-                &lt;li&gt;&amp;nbsp;\(y &amp;gt; x − 3\)&lt;/li&gt;
-                &lt;li&gt;\(0\;\overset?&amp;gt;\;0\;-\;3\)&lt;/li&gt;
-                &lt;li&gt;\(0 &amp;gt; −3\)&lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/ul&gt;
-    &lt;/ul&gt;
-    &lt;p&gt;
-    &lt;/p&gt;
-    &lt;ol start="2"&gt;
-        &lt;li&gt;yes; Substitute 4 for x and 9 for y.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;p&gt;
-    &lt;/p&gt;
-    &lt;ul&gt;
-        &lt;ul&gt;
-            &lt;ul style="list-style:none;"&gt;
-                &lt;li&gt;&amp;nbsp;\(y &amp;gt; x − 3\)&lt;/li&gt;
-                &lt;li&gt;\(9\;\overset?&amp;gt;\;4\;-\;3\)&lt;/li&gt;
-                &lt;li&gt;\(9 &amp;gt; 1\)&lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/ul&gt;
-    &lt;/ul&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;p&gt;
-    &lt;/p&gt;
-    &lt;ol start="3"&gt;
-        &lt;li&gt;yes; Substitute −2 for x and 1 for y.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;p&gt;
-    &lt;/p&gt;
-    &lt;ul&gt;
-        &lt;ul&gt;
-            &lt;ul style="list-style:none;"&gt;
-                &lt;li&gt;&amp;nbsp;\(y &amp;gt; x − 3\)&lt;/li&gt;
-                &lt;li&gt;\(1\;\overset?&amp;gt;\;-2\;-\;3\)&lt;/li&gt;
-                &lt;li&gt;\(1 &amp;gt; −5\)&lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/ul&gt;
-    &lt;/ul&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;p&gt;
-    &lt;/p&gt;
-    &lt;ol start="4"&gt;
-        &lt;li&gt;yes; Substitute −5 for x and −3 for y.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;p&gt;
-    &lt;/p&gt;
-    &lt;ul&gt;
-        &lt;ul&gt;
-            &lt;ul style="list-style:none;"&gt;
-                &lt;li&gt;&amp;nbsp;\(y &amp;gt; x − 3\)&lt;/li&gt;
-                &lt;li&gt;\(-3\;\overset?&amp;gt;\;-5\;-\;3\)&lt;/li&gt;
-                &lt;li&gt;\(−3 &amp;gt; −8\)&lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/ul&gt;
-    &lt;/ul&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;p&gt;
-    &lt;/p&gt;
-    &lt;ol start="5"&gt;
-        &lt;li&gt;no; Substitute 5 for x and 1 for y.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;p&gt;
-    &lt;/p&gt;
-    &lt;ul&gt;
-        &lt;ul&gt;
-            &lt;ul style="list-style:none;"&gt;
-                &lt;li&gt;&amp;nbsp;\(y &amp;gt; x − 3\)&lt;/li&gt;
-                &lt;li&gt;\(1\;\overset?&amp;gt;\;5\;-\;3\)&lt;/li&gt;
-                &lt;li&gt;\(1\;\not&amp;gt;\;2\)&lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/ul&gt;
-    &lt;/ul&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about&amp;nbsp;&lt;em&gt;why&lt;/em&gt;&amp;nbsp;you got the question wrong. Then you won’t get this type of question wrong again!&lt;br&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;yes; Substitute 0 for x and 0 for y.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;nbsp;\(y &amp;gt; x &amp;minus; 3\)&lt;/li&gt;
+&lt;li&gt;\(0\;\overset?&amp;gt;\;0\;-\;3\)&lt;/li&gt;
+&lt;li&gt;\(0 &amp;gt; &amp;minus;3\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;yes; Substitute 4 for x and 9 for y.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;nbsp;\(y &amp;gt; x &amp;minus; 3\)&lt;/li&gt;
+&lt;li&gt;\(9\;\overset?&amp;gt;\;4\;-\;3\)&lt;/li&gt;
+&lt;li&gt;\(9 &amp;gt; 1\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;yes; Substitute &amp;minus;2 for x and 1 for y.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;nbsp;\(y &amp;gt; x &amp;minus; 3\)&lt;/li&gt;
+&lt;li&gt;\(1\;\overset?&amp;gt;\;-2\;-\;3\)&lt;/li&gt;
+&lt;li&gt;\(1 &amp;gt; &amp;minus;5\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;yes; Substitute &amp;minus;5 for x and &amp;minus;3 for y.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;nbsp;\(y &amp;gt; x &amp;minus; 3\)&lt;/li&gt;
+&lt;li&gt;\(-3\;\overset?&amp;gt;\;-5\;-\;3\)&lt;/li&gt;
+&lt;li&gt;\(&amp;minus;3 &amp;gt; &amp;minus;8\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;no; Substitute 5 for x and 1 for y.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;nbsp;\(y &amp;gt; x &amp;minus; 3\)&lt;/li&gt;
+&lt;li&gt;\(1\;\overset?&amp;gt;\;5\;-\;3\)&lt;/li&gt;
+&lt;li&gt;\(1\;\not&amp;gt;\;2\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about&amp;nbsp;&lt;em&gt;why&lt;/em&gt;&amp;nbsp;you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
@@ -793,234 +769,218 @@ yourself: The ordered pair
         <timemodified>1658808118</timemodified>
         <title>2.10.3: Sketching Solutions to Inequalities </title>
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
-&lt;p&gt;1. Here is a graph that represents solutions to the equation&amp;nbsp;&lt;span id="MathJax-Element-23-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;&amp;amp;#x2212;&lt;/mo&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/math&gt;" role="presentation"&gt;
-        &lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-105"&gt;&lt;span id="MathJax-Span-106"&gt;&lt;span id="MathJax-Span-107"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-108"&gt;−&lt;/span&gt;&lt;span id="MathJax-Span-109"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-110"&gt;=&lt;/span&gt;&lt;span id="MathJax-Span-111"&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
-                &lt;mi&gt;x&lt;/mi&gt;
-                &lt;mo&gt;−&lt;/mo&gt;
-                &lt;mi&gt;y&lt;/mi&gt;
-                &lt;mo&gt;=&lt;/mo&gt;
-                &lt;mn&gt;5&lt;/mn&gt;
-            &lt;/math&gt;&lt;/span&gt;
-    &lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;1. Here is a graph that represents solutions to the equation&amp;nbsp;&lt;span data-mathml='&amp;lt;math xmlns="http://www.w3.org/1998/Math/MathML"&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;amp;#x2212;&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;y&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;=&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;5&amp;lt;/mn&amp;gt;&amp;lt;/math&amp;gt;' id="MathJax-Element-23-Frame" role="presentation" tabindex="0"&gt;
+&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-105"&gt;&lt;span id="MathJax-Span-106"&gt;&lt;span id="MathJax-Span-107"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-108"&gt;&amp;minus;&lt;/span&gt;&lt;span id="MathJax-Span-109"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-110"&gt;=&lt;/span&gt;&lt;span id="MathJax-Span-111"&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+&lt;mi&gt;x&lt;/mi&gt;
+&lt;mo&gt;&amp;minus;&lt;/mo&gt;
+&lt;mi&gt;y&lt;/mi&gt;
+&lt;mo&gt;=&lt;/mo&gt;
+&lt;mn&gt;5&lt;/mn&gt;
+&lt;/math&gt;&lt;/span&gt;
+&lt;/span&gt;.&lt;/p&gt;
 &lt;div&gt;
-    &lt;div&gt;
-        &lt;div&gt;
-            &lt;div&gt;
-                &lt;div&gt;&lt;img alt="Graph of a line, origin O, no grid. Scale is negative 10 to 5, by 5's&amp;nbsp;on both axes. Line passes through 0 comma negative 5 and 5 comma 0." src="https://s3.amazonaws.com/im-ims-export/sYByNi15RNx3k3ZKJexip5aL" width="200" height="198"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div&gt;
-                &lt;p&gt;&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p&gt;Sketch 4 quick graphs representing the solutions to each of these inequalities:&lt;br&gt;&lt;/p&gt;
-    &lt;div&gt;
-        &lt;div&gt;
-            &lt;div&gt;
-                &lt;p&gt;&lt;span id="MathJax-Element-24-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;&amp;amp;#x2212;&lt;/mo&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;&amp;amp;lt;&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/math&gt;" role="presentation"&gt;
-                        &lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-112"&gt;&lt;span id="MathJax-Span-113"&gt;&lt;span id="MathJax-Span-114"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-115"&gt;−&lt;/span&gt;&lt;span id="MathJax-Span-116"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-117"&gt;&amp;lt;&lt;/span&gt;&lt;span id="MathJax-Span-118"&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
-                                &lt;mi&gt;x&lt;/mi&gt;
-                                &lt;mo&gt;−&lt;/mo&gt;
-                                &lt;mi&gt;y&lt;/mi&gt;
-                                &lt;mo&gt;&amp;lt;&lt;/mo&gt;
-                                &lt;mn&gt;5&lt;/mn&gt;
-                            &lt;/math&gt;&lt;/span&gt;
-                    &lt;/span&gt;&lt;/p&gt;
-                &lt;div&gt;&lt;img alt="Blank x y coordinate plane, no grid, and origin labeled “O”. The numbers -10, -5, and 5 are labeled on both axes." src="https://s3.amazonaws.com/im-ims-export/bwcuVTmnSctBqF1XF3Ncs8iN" width="200" height="198"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div&gt;
-                &lt;p&gt;&lt;br&gt;&lt;span id="MathJax-Element-25-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;&amp;amp;#x2212;&lt;/mo&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;&amp;amp;#x2264;&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/math&gt;" role="presentation"&gt;
-                        &lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-119"&gt;&lt;span id="MathJax-Span-120"&gt;&lt;span id="MathJax-Span-121"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-122"&gt;−&lt;/span&gt;&lt;span id="MathJax-Span-123"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-124"&gt;≤&lt;/span&gt;&lt;span id="MathJax-Span-125"&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
-                                &lt;mi&gt;x&lt;/mi&gt;
-                                &lt;mo&gt;−&lt;/mo&gt;
-                                &lt;mi&gt;y&lt;/mi&gt;
-                                &lt;mo&gt;≤&lt;/mo&gt;
-                                &lt;mn&gt;5&lt;/mn&gt;
-                            &lt;/math&gt;&lt;/span&gt;
-                    &lt;/span&gt;&lt;/p&gt;
-                &lt;div&gt;&lt;img alt="Blank x y coordinate plane, no grid, and origin labeled “O”. The numbers -10, -5, and 5 are labeled on both axes." src="https://s3.amazonaws.com/im-ims-export/bwcuVTmnSctBqF1XF3Ncs8iN" width="200" height="198"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div&gt;
-            &lt;div&gt;
-                &lt;p&gt;&lt;br&gt;&lt;span id="MathJax-Element-26-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;&amp;amp;#x2212;&lt;/mo&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;&amp;amp;gt;&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/math&gt;" role="presentation"&gt;
-                        &lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-126"&gt;&lt;span id="MathJax-Span-127"&gt;&lt;span id="MathJax-Span-128"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-129"&gt;−&lt;/span&gt;&lt;span id="MathJax-Span-130"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-131"&gt;&amp;gt;&lt;/span&gt;&lt;span id="MathJax-Span-132"&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
-                                &lt;mi&gt;x&lt;/mi&gt;
-                                &lt;mo&gt;−&lt;/mo&gt;
-                                &lt;mi&gt;y&lt;/mi&gt;
-                                &lt;mo&gt;&amp;gt;&lt;/mo&gt;
-                                &lt;mn&gt;5&lt;/mn&gt;
-                            &lt;/math&gt;&lt;/span&gt;
-                    &lt;/span&gt;&lt;/p&gt;
-                &lt;div&gt;&lt;img alt="Blank x y coordinate plane, no grid, and origin labeled “O”. The numbers -10, -5, and 5 are labeled on both axes." src="https://s3.amazonaws.com/im-ims-export/bwcuVTmnSctBqF1XF3Ncs8iN" width="200" height="198"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div&gt;
-                &lt;p&gt;&lt;br&gt;&lt;span id="MathJax-Element-27-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;&amp;amp;#x2212;&lt;/mo&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;&amp;amp;#x2265;&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/math&gt;" role="presentation"&gt;
-                        &lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-133"&gt;&lt;span id="MathJax-Span-134"&gt;&lt;span id="MathJax-Span-135"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-136"&gt;−&lt;/span&gt;&lt;span id="MathJax-Span-137"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-138"&gt;≥&lt;/span&gt;&lt;span id="MathJax-Span-139"&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
-                                &lt;mi&gt;x&lt;/mi&gt;
-                                &lt;mo&gt;−&lt;/mo&gt;
-                                &lt;mi&gt;y&lt;/mi&gt;
-                                &lt;mo&gt;≥&lt;/mo&gt;
-                                &lt;mn&gt;5&lt;/mn&gt;
-                            &lt;/math&gt;&lt;/span&gt;
-                    &lt;/span&gt;&lt;/p&gt;
-                &lt;div&gt;&lt;img alt="Blank x y coordinate plane, no grid, and origin labeled “O”. The numbers -10, -5, and 5 are labeled on both axes." src="https://s3.amazonaws.com/im-ims-export/bwcuVTmnSctBqF1XF3Ncs8iN" width="200" height="198"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;img alt="Graph of a line, origin O, no grid. Scale is negative 10 to 5, by 5's&amp;nbsp;on both axes. Line passes through 0 comma negative 5 and 5 comma 0." height="198" src="https://s3.amazonaws.com/im-ims-export/sYByNi15RNx3k3ZKJexip5aL" width="200"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Sketch 4 quick graphs representing the solutions to each of these inequalities:&lt;br&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span data-mathml='&amp;lt;math xmlns="http://www.w3.org/1998/Math/MathML"&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;amp;#x2212;&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;y&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;amp;lt;&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;5&amp;lt;/mn&amp;gt;&amp;lt;/math&amp;gt;' id="MathJax-Element-24-Frame" role="presentation" tabindex="0"&gt;
+&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-112"&gt;&lt;span id="MathJax-Span-113"&gt;&lt;span id="MathJax-Span-114"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-115"&gt;&amp;minus;&lt;/span&gt;&lt;span id="MathJax-Span-116"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-117"&gt;&amp;lt;&lt;/span&gt;&lt;span id="MathJax-Span-118"&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+&lt;mi&gt;x&lt;/mi&gt;
+&lt;mo&gt;&amp;minus;&lt;/mo&gt;
+&lt;mi&gt;y&lt;/mi&gt;
+&lt;mo&gt;&amp;lt;&lt;/mo&gt;
+&lt;mn&gt;5&lt;/mn&gt;
+&lt;/math&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;&lt;img alt="Blank x y coordinate plane, no grid, and origin labeled &amp;ldquo;O&amp;rdquo;. The numbers -10, -5, and 5 are labeled on both axes." height="198" src="https://s3.amazonaws.com/im-ims-export/bwcuVTmnSctBqF1XF3Ncs8iN" width="200"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;br&gt;&lt;span data-mathml='&amp;lt;math xmlns="http://www.w3.org/1998/Math/MathML"&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;amp;#x2212;&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;y&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;amp;#x2264;&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;5&amp;lt;/mn&amp;gt;&amp;lt;/math&amp;gt;' id="MathJax-Element-25-Frame" role="presentation" tabindex="0"&gt;
+&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-119"&gt;&lt;span id="MathJax-Span-120"&gt;&lt;span id="MathJax-Span-121"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-122"&gt;&amp;minus;&lt;/span&gt;&lt;span id="MathJax-Span-123"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-124"&gt;&amp;le;&lt;/span&gt;&lt;span id="MathJax-Span-125"&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+&lt;mi&gt;x&lt;/mi&gt;
+&lt;mo&gt;&amp;minus;&lt;/mo&gt;
+&lt;mi&gt;y&lt;/mi&gt;
+&lt;mo&gt;&amp;le;&lt;/mo&gt;
+&lt;mn&gt;5&lt;/mn&gt;
+&lt;/math&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;&lt;img alt="Blank x y coordinate plane, no grid, and origin labeled &amp;ldquo;O&amp;rdquo;. The numbers -10, -5, and 5 are labeled on both axes." height="198" src="https://s3.amazonaws.com/im-ims-export/bwcuVTmnSctBqF1XF3Ncs8iN" width="200"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;br&gt;&lt;span data-mathml='&amp;lt;math xmlns="http://www.w3.org/1998/Math/MathML"&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;amp;#x2212;&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;y&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;amp;gt;&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;5&amp;lt;/mn&amp;gt;&amp;lt;/math&amp;gt;' id="MathJax-Element-26-Frame" role="presentation" tabindex="0"&gt;
+&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-126"&gt;&lt;span id="MathJax-Span-127"&gt;&lt;span id="MathJax-Span-128"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-129"&gt;&amp;minus;&lt;/span&gt;&lt;span id="MathJax-Span-130"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-131"&gt;&amp;gt;&lt;/span&gt;&lt;span id="MathJax-Span-132"&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+&lt;mi&gt;x&lt;/mi&gt;
+&lt;mo&gt;&amp;minus;&lt;/mo&gt;
+&lt;mi&gt;y&lt;/mi&gt;
+&lt;mo&gt;&amp;gt;&lt;/mo&gt;
+&lt;mn&gt;5&lt;/mn&gt;
+&lt;/math&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;&lt;img alt="Blank x y coordinate plane, no grid, and origin labeled &amp;ldquo;O&amp;rdquo;. The numbers -10, -5, and 5 are labeled on both axes." height="198" src="https://s3.amazonaws.com/im-ims-export/bwcuVTmnSctBqF1XF3Ncs8iN" width="200"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;br&gt;&lt;span data-mathml='&amp;lt;math xmlns="http://www.w3.org/1998/Math/MathML"&amp;gt;&amp;lt;mi&amp;gt;x&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;amp;#x2212;&amp;lt;/mo&amp;gt;&amp;lt;mi&amp;gt;y&amp;lt;/mi&amp;gt;&amp;lt;mo&amp;gt;&amp;amp;#x2265;&amp;lt;/mo&amp;gt;&amp;lt;mn&amp;gt;5&amp;lt;/mn&amp;gt;&amp;lt;/math&amp;gt;' id="MathJax-Element-27-Frame" role="presentation" tabindex="0"&gt;
+&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-133"&gt;&lt;span id="MathJax-Span-134"&gt;&lt;span id="MathJax-Span-135"&gt;x&lt;/span&gt;&lt;span id="MathJax-Span-136"&gt;&amp;minus;&lt;/span&gt;&lt;span id="MathJax-Span-137"&gt;y&lt;/span&gt;&lt;span id="MathJax-Span-138"&gt;&amp;ge;&lt;/span&gt;&lt;span id="MathJax-Span-139"&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+&lt;mi&gt;x&lt;/mi&gt;
+&lt;mo&gt;&amp;minus;&lt;/mo&gt;
+&lt;mi&gt;y&lt;/mi&gt;
+&lt;mo&gt;&amp;ge;&lt;/mo&gt;
+&lt;mn&gt;5&lt;/mn&gt;
+&lt;/math&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;&lt;img alt="Blank x y coordinate plane, no grid, and origin labeled &amp;ldquo;O&amp;rdquo;. The numbers -10, -5, and 5 are labeled on both axes." height="198" src="https://s3.amazonaws.com/im-ims-export/bwcuVTmnSctBqF1XF3Ncs8iN" width="200"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;&lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
-        &lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-
-
-
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;div data-button-text="Solution" data-fire-event="button1" data-schema-version="1.0"&gt;
-        &lt;div&gt;
-            &lt;p&gt;\( x-y&amp;lt;5 \)&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/E3wzgQFr7WiC2Cg3yYiXwUr2" alt="Graph of an inequality."&gt;
-            &lt;p&gt;\( x-y \leq5 \)&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/U387kZ1HoSdMBoyeNksEKb5C" alt="Graph of an inequality."&gt;
-            &lt;p&gt;\( x-y&amp;gt;5 \)&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/wLcNYpgavprg3C8mQU97BSjh" alt="Graph of an inequality."&gt;
-            &lt;p&gt;\( x-y \geq5 \)&lt;br&gt;&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/BqbhhqY7YXVxXPgGm8FpabW8" alt="Graph of an inequality."&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div data-wait-for-event="button1" data-schema-version="1.0"&gt;
-        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div data-button-text="Solution" data-fire-event="button1" data-schema-version="1.0"&gt;
+&lt;div&gt;
+&lt;p&gt;\( x-y&amp;lt;5 \)&lt;/p&gt;&lt;img alt="Graph of an inequality." src="https://s3.amazonaws.com/im-ims-export/E3wzgQFr7WiC2Cg3yYiXwUr2"&gt;
+&lt;p&gt;\( x-y \leq5 \)&lt;/p&gt;&lt;img alt="Graph of an inequality." src="https://s3.amazonaws.com/im-ims-export/U387kZ1HoSdMBoyeNksEKb5C"&gt;
+&lt;p&gt;\( x-y&amp;gt;5 \)&lt;/p&gt;&lt;img alt="Graph of an inequality." src="https://s3.amazonaws.com/im-ims-export/wLcNYpgavprg3C8mQU97BSjh"&gt;
+&lt;p&gt;\( x-y \geq5 \)&lt;br&gt;&lt;/p&gt;&lt;img alt="Graph of an inequality." src="https://s3.amazonaws.com/im-ims-export/BqbhhqY7YXVxXPgGm8FpabW8"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-schema-version="1.0" data-wait-for-event="button1"&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;&lt;br&gt;
 &lt;p&gt;2. For each graph, write an inequality whose solutions are represented by the shaded part of the graph.&lt;/p&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-
-        &lt;div class="imgrid"&gt;
-            &lt;div class="g--row g--row-1"&gt;
-                &lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
-                    &lt;div&gt;
-                        &lt;span class="embedded-image-caption"&gt;&lt;/span&gt;
-                        &lt;p&gt;A&lt;/p&gt;
-                        &lt;img alt="Graph of an inequality." src="https://s3.amazonaws.com/im-ims-export/6DJLe7vDoQvKh6hzjCLhHc1E" width="197" height="197"&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-
-                &lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
-                    &lt;div&gt;
-                        &lt;span class="embedded-image-caption"&gt;&lt;/span&gt;
-                        &lt;p&gt;B&lt;/p&gt;
-                        &lt;img alt="Graph of an inequality." src="https://s3.amazonaws.com/im-ims-export/GFDDd1xRYaPxcrmX4KXpWB8b" width="197" height="197"&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-
-            &lt;div class="g--row g--row-2"&gt;
-                &lt;div class="g--col-1 g--column g--content g--half g--row-2"&gt;
-                    &lt;div&gt;
-                        &lt;span class="embedded-image-caption"&gt;&lt;/span&gt;
-                        &lt;p&gt;C&lt;/p&gt;
-                        &lt;img alt="Graph of an inequality line." src="https://s3.amazonaws.com/im-ims-export/AwCAj9HmXivnaCy8K8XnK7Mh" width="197" height="197"&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-
-                &lt;div class="g--col-2 g--column g--content g--half g--row-2"&gt;
-                    &lt;div&gt;
-                        &lt;span class="embedded-image-caption"&gt;&lt;/span&gt;
-                        &lt;p&gt;D&lt;/p&gt;
-                        &lt;img alt="Graph of an inequality line." src="https://s3.amazonaws.com/im-ims-export/ppKMJMSQfiJBzxBicXy3ecep" width="197" height="197"&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answers here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answers:&lt;/p&gt;
-
-
-
-
-        &lt;ol type="A"&gt;
-            &lt;li&gt;\( x&amp;gt;3 \)
-            &lt;/li&gt;
-            &lt;li&gt;\( y \leq -2 \)
-            &lt;/li&gt;
-            &lt;li&gt;\( y&amp;gt;x \)
-            &lt;/li&gt;
-            &lt;li&gt;\( y ≤ x or x ≥ y \)
-            &lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;br&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;div class="imgrid"&gt;
+&lt;div class="g--row g--row-1"&gt;
+&lt;div class="g--col-1 g--column g--content g--half g--row-1"&gt;
+&lt;div&gt;
+&lt;span class="embedded-image-caption"&gt;&lt;/span&gt;
+&lt;p&gt;A&lt;/p&gt;
+&lt;img alt="Graph of an inequality." height="197" src="https://s3.amazonaws.com/im-ims-export/6DJLe7vDoQvKh6hzjCLhHc1E" width="197"&gt;
 &lt;/div&gt;
-
-
+&lt;/div&gt;
+&lt;div class="g--col-2 g--column g--content g--half g--row-1"&gt;
+&lt;div&gt;
+&lt;span class="embedded-image-caption"&gt;&lt;/span&gt;
+&lt;p&gt;B&lt;/p&gt;
+&lt;img alt="Graph of an inequality." height="197" src="https://s3.amazonaws.com/im-ims-export/GFDDd1xRYaPxcrmX4KXpWB8b" width="197"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="g--row g--row-2"&gt;
+&lt;div class="g--col-1 g--column g--content g--half g--row-2"&gt;
+&lt;div&gt;
+&lt;span class="embedded-image-caption"&gt;&lt;/span&gt;
+&lt;p&gt;C&lt;/p&gt;
+&lt;img alt="Graph of an inequality line." height="197" src="https://s3.amazonaws.com/im-ims-export/AwCAj9HmXivnaCy8K8XnK7Mh" width="197"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="g--col-2 g--column g--content g--half g--row-2"&gt;
+&lt;div&gt;
+&lt;span class="embedded-image-caption"&gt;&lt;/span&gt;
+&lt;p&gt;D&lt;/p&gt;
+&lt;img alt="Graph of an inequality line." height="197" src="https://s3.amazonaws.com/im-ims-export/ppKMJMSQfiJBzxBicXy3ecep" width="197"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answers here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answers:&lt;/p&gt;
+&lt;ol type="A"&gt;
+&lt;li&gt;\( x&amp;gt;3 \)
+            &lt;/li&gt;
+&lt;li&gt;\( y \leq -2 \)
+            &lt;/li&gt;
+&lt;li&gt;\( y&amp;gt;x \)
+            &lt;/li&gt;
+&lt;li&gt;\( y &amp;le; x or x &amp;ge; y \)
+            &lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;br&gt;&lt;br&gt;
-
 &lt;br&gt;
 &lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;h4&gt;Extend Your Thinking&lt;/h4&gt;
-        &lt;div&gt;&lt;img alt="Coordinate plane, x, negative 4 to 4 by 1, y, negative 4 to 4 by 1. &amp;nbsp;Dotted line through negative 1 comma negative 2 and 3 comma 0. The area above the line is shaded blue." src="https://s3.amazonaws.com/im-ims-export/HjCsUuNFa3rf685uuAw1D7jB" width="197" height="197"&gt;&lt;br&gt;&lt;/div&gt;
-        &lt;ol&gt;
-            &lt;li&gt;The points (7,3) and (7,5) are bot in the solution region of the inequality x-2y&amp;lt;3.&lt;ol&gt;
-                    &lt;li&gt;Compute x-2y for both of these points.&lt;/li&gt;
-                    &lt;li&gt;Which point comes closest to satisfying the equation x-2y=3?&amp;nbsp; That is, for which (x,y) pair is x-2y closest to 3?&lt;/li&gt;
-                &lt;/ol&gt;
-            &lt;/li&gt;
-            &lt;li&gt;The points (3,2) and (5,2) are also in the solution region. Which of these points comes closest to satisfying the equation x-2y=3?&lt;/li&gt;
-            &lt;li&gt;Find the point in the solution region that comes even closer to satisfying the equation x-2y=3.&amp;nbsp; What is the valuer of x-2y?&lt;/li&gt;
-            &lt;li&gt;For the points (5,2) and (7,3), x-2y=1.&amp;nbsp; Find another point in the solution region for which x-2y=1.&lt;/li&gt;
-            &lt;li&gt;Find x-2y for the point (5,3). Then find two points that give the same answer.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answers here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;p&gt;
-        &lt;/p&gt;
-        &lt;ol&gt;
-            &lt;li&gt;Answers:&lt;ol type="a"&gt;
-                    &lt;li&gt;1 and -3&lt;/li&gt;
-                    &lt;li&gt;&lt;span lang="EN"&gt;\((7,3)\)&lt;/span&gt;&lt;/li&gt;
-                &lt;/ol&gt;
-            &lt;/li&gt;
-            &lt;li&gt;&lt;span lang="EN"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;" lang="EN"&gt;-1 and 1. (5,2)&lt;/span&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;span lang="EN"&gt;Sample response: \(&lt;/span&gt;&lt;span lang="EN"&gt;6−2⋅2=2\)&lt;/span&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;span lang="EN"&gt;Sample response: \((3,1)\). Any point on the line \(y=\frac12x-\frac12\)&amp;nbsp;&lt;/span&gt;&lt;span lang="EN"&gt;&amp;nbsp;will work.&lt;/span&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;span lang="EN"&gt;Answers:&lt;/span&gt;
-                &lt;ol type="a"&gt;
-                    &lt;li&gt;&lt;span lang="EN"&gt;-1&lt;/span&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;span lang="EN"&gt;Sample points: \((3,2)\) (from previous work), \((1,1)\). Any point on the line \(y=\frac12x+\frac12\)&lt;/span&gt;&amp;nbsp;&lt;span lang="EN"&gt;&amp;nbsp;will work.&lt;/span&gt;&lt;/li&gt;
-                &lt;/ol&gt;
-            &lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Extend Your Thinking&lt;/h4&gt;
+&lt;div&gt;&lt;img alt="Coordinate plane, x, negative 4 to 4 by 1, y, negative 4 to 4 by 1. &amp;nbsp;Dotted line through negative 1 comma negative 2 and 3 comma 0. The area above the line is shaded blue." height="197" src="https://s3.amazonaws.com/im-ims-export/HjCsUuNFa3rf685uuAw1D7jB" width="197"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;The points (7,3) and (7,5) are bot in the solution region of the inequality x-2y&amp;lt;3.&lt;ol&gt;
+&lt;li&gt;Compute x-2y for both of these points.&lt;/li&gt;
+&lt;li&gt;Which point comes closest to satisfying the equation x-2y=3?&amp;nbsp; That is, for which (x,y) pair is x-2y closest to 3?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;The points (3,2) and (5,2) are also in the solution region. Which of these points comes closest to satisfying the equation x-2y=3?&lt;/li&gt;
+&lt;li&gt;Find the point in the solution region that comes even closer to satisfying the equation x-2y=3.&amp;nbsp; What is the valuer of x-2y?&lt;/li&gt;
+&lt;li&gt;For the points (5,2) and (7,3), x-2y=1.&amp;nbsp; Find another point in the solution region for which x-2y=1.&lt;/li&gt;
+&lt;li&gt;Find x-2y for the point (5,3). Then find two points that give the same answer.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answers here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Answers:&lt;ol type="a"&gt;
+&lt;li&gt;1 and -3&lt;/li&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;\((7,3)\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang="EN"&gt;-1 and 1. (5,2)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;Sample response: \(&lt;/span&gt;&lt;span lang="EN"&gt;6&amp;minus;2&amp;sdot;2=2\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;Sample response: \((3,1)\). Any point on the line \(y=\frac12x-\frac12\)&amp;nbsp;&lt;/span&gt;&lt;span lang="EN"&gt;&amp;nbsp;will work.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;Answers:&lt;/span&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;-1&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;Sample points: \((3,2)\) (from previous work), \((1,1)\). Any point on the line \(y=\frac12x+\frac12\)&lt;/span&gt;&amp;nbsp;&lt;span lang="EN"&gt;&amp;nbsp;will work.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
 &lt;br&gt;</contents>
@@ -1070,61 +1030,56 @@ yourself: The ordered pair
         <title>2.10.6: Lesson Summary</title>
         <contents>&lt;p&gt;In this lesson, you learned how to:&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;Determine which side of the line the solutions to the inequality will fall, given a two-variable inequality and the graph of the related equation.&lt;/li&gt;
-    &lt;li&gt;Describe the graph that represents the solutions to a linear inequality in two variables.&lt;/li&gt;
+&lt;li&gt;Determine which side of the line the solutions to the inequality will fall, given a two-variable inequality and the graph of the related equation.&lt;/li&gt;
+&lt;li&gt;Describe the graph that represents the solutions to a linear inequality in two variables.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;2.10.1: Using Computation and Reasoning&lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt;In this activity, you were familiarized with the computation and reasoning that you will need later to determine the solution region of a linear inequality in two variables.&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;li&gt;2.10.2: Finding Solutions to Inequalities on the Coordinate Plane&lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt;In this activity, you built on your understanding that a linear inequality in one variable has many solutions, which are represented by all the points on one side of a number on a number line. You also recalled that a linear equation in two variables has many solutions, which are represented by all the points on the graph of the equation. &lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;li&gt;2.10.2: Self Check&lt;/li&gt;
-    &lt;li&gt;2.10.3: Sketching Solutions to Inequalities&lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt;In this activity, you looked at the regions that represent solutions and non-solutions to inequalities. You recognized that the boundary between the two regions is the graph of an equation that is related to the inequality.&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;li&gt;2.10.3: Self Check&lt;/li&gt;
-    &lt;li&gt;2.10.4: Shading Boundary Line Regions&lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt;In this activity, you considered how to make decisions about which side of the boundary line to shade.&lt;/li&gt;
-    &lt;/ul&gt;
+&lt;li&gt;2.10.1: Using Computation and Reasoning&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;In this activity, you were familiarized with the computation and reasoning that you will need later to determine the solution region of a linear inequality in two variables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;2.10.2: Finding Solutions to Inequalities on the Coordinate Plane&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;In this activity, you built on your understanding that a linear inequality in one variable has many solutions, which are represented by all the points on one side of a number on a number line. You also recalled that a linear equation in two variables has many solutions, which are represented by all the points on the graph of the equation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;2.10.2: Self Check&lt;/li&gt;
+&lt;li&gt;2.10.3: Sketching Solutions to Inequalities&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;In this activity, you looked at the regions that represent solutions and non-solutions to inequalities. You recognized that the boundary between the two regions is the graph of an equation that is related to the inequality.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;2.10.3: Self Check&lt;/li&gt;
+&lt;li&gt;2.10.4: Shading Boundary Line Regions&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;In this activity, you considered how to make decisions about which side of the boundary line to shade.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/ul&gt;
 &lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;2.10.5: Practice&lt;/li&gt;
+&lt;li&gt;2.10.5: Practice&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Checking In &lt;/h4&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
-	
-	&lt;!--Q1--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
-        &lt;/div&gt;
-        
-    &lt;/div&gt;
-	
-	&lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
-	
-	  &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Submit" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--Q1--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution data-solution-options='["1 - I&amp;rsquo;m totally lost!", "2 - I could use some more help.", "3 - I mostly understand.", "4 - I can do it.","5 - I&amp;rsquo;ve got this!"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;If you&amp;rsquo;ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1171,27 +1126,25 @@ yourself: The ordered pair
         <timemodified>1657671934</timemodified>
         <title>2.10.4: Shading Boundary Line Regions</title>
         <contents>&lt;h4&gt;&lt;span lang="EN"&gt;Cool Down Activity&lt;/span&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;/p&gt;&lt;span lang="EN" style="font-size: 0.9375rem;"&gt;1. The line in each graph represents \( y=2x \)&lt;/span&gt;&lt;span lang="EN" style="font-size: 0.9375rem;"&gt;. Which graph represents &lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(2x&amp;gt;y\)?&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;span&gt;&lt;div style=""&gt;&lt;div style=""&gt;&lt;div style=""&gt;&lt;p style=""&gt;A&lt;/p&gt;&lt;img alt="Graph of an inequality." height="197" src="https://s3.amazonaws.com/im-ims-export/Sx47pZa5AeuGjixm2GwnoNGC" width="197"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=""&gt;&lt;div&gt;&lt;p&gt;B&lt;/p&gt;&lt;img alt="Graph of an inequality." height="197" src="https://s3.amazonaws.com/im-ims-export/a4L786Dw6TYzSHGGiy4ugqoV" width="197"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=""&gt;&lt;div style=""&gt;&lt;div&gt;&lt;p&gt;C&lt;/p&gt;&lt;img alt="Graph of an inequality." height="197" src="https://s3.amazonaws.com/im-ims-export/VA21YahsVsKuvDHK6jJPMMM6" width="197"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=""&gt;&lt;div style=""&gt;&lt;p style=""&gt;D&lt;/p&gt;&lt;img alt="Graph of an inequality." height="197" src="https://s3.amazonaws.com/im-ims-export/aqqBSZ5Uwu5w5UQ7afPTrzpZ" width="197"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;2. Explain your reasons for choosing that graph.&lt;/span&gt;&lt;br&gt;&lt;ol type="1" start="1"&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;&lt;span lang="EN"&gt;1. The line in each graph represents \( y=2x \)&lt;/span&gt;&lt;span lang="EN"&gt;. Which graph represents &lt;/span&gt;&lt;span&gt;\(2x&amp;gt;y\)?&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;span&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;A&lt;/p&gt;&lt;img alt="Graph of an inequality." height="197" src="https://s3.amazonaws.com/im-ims-export/Sx47pZa5AeuGjixm2GwnoNGC" width="197"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;B&lt;/p&gt;&lt;img alt="Graph of an inequality." height="197" src="https://s3.amazonaws.com/im-ims-export/a4L786Dw6TYzSHGGiy4ugqoV" width="197"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;C&lt;/p&gt;&lt;img alt="Graph of an inequality." height="197" src="https://s3.amazonaws.com/im-ims-export/VA21YahsVsKuvDHK6jJPMMM6" width="197"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;D&lt;/p&gt;&lt;img alt="Graph of an inequality." height="197" src="https://s3.amazonaws.com/im-ims-export/aqqBSZ5Uwu5w5UQ7afPTrzpZ" width="197"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;2. Explain your reasons for choosing that graph.&lt;/span&gt;&lt;br&gt;&lt;ol start="1" type="1"&gt;&lt;/ol&gt;
 &lt;p&gt;&lt;/p&gt;
-
 &lt;div class="os-raise-ib-input" data-button-text="Submit" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answers here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answers:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol type="1" start="1"&gt;
- &lt;li&gt;&lt;span lang="EN"&gt;Graph C&lt;/span&gt;&lt;/li&gt;
- &lt;li&gt;&lt;span lang="EN"&gt;Sample response: I substituted the
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answers here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answers:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol start="1" type="1"&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;Graph C&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span lang="EN"&gt;Sample response: I substituted the
      coordinates of a few points above the line into the inequality and found
      that they are all not solutions. The point (0,0), which is on the line, is
      also not a solution. I concluded that the points on and above the line are
      not solutions, and the region below the line represents the solutions.&lt;/span&gt;&lt;/li&gt;
 &lt;/ol&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
-
 &lt;p&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1240,53 +1193,53 @@ yourself: The ordered pair
         <contents>&lt;h4&gt;Recognize the Relation Between the Solutions of an Inequality and its Graph&lt;/h4&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Now, we will look at how the 
-solutions of an inequality relate to its graph. Let’s think about the 
+solutions of an inequality relate to its graph. Let&amp;rsquo;s think about the 
 number line shown previously again. The point x = 3 separated that 
 number line into two parts. On one side of 3 are all the numbers less 
 than 3. On the other side of 3 all the numbers are greater than 3. See 
 the figure below.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5d0288de5ccd152c0943577dea1e3e7902515d40" alt="" role="presentation" width="538" height="72"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt height="72" role="presentation" src="https://k12.openstax.org/contents/raise/resources/5d0288de5ccd152c0943577dea1e3e7902515d40" width="538"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;The solution of&amp;nbsp;\( x&amp;gt;3 \) is the shaded part of the number line to the right of&amp;nbsp;\( x = 3 \)&lt;/p&gt;
 &lt;p&gt;Similarly, the line y = x +4 separates the plane into two regions. On one side of the line are points with y &amp;lt; x 4. On&amp;nbsp;the other side of the line are the points with y &amp;gt; X + 4. We call the line \( y &amp;gt; X + 4 \) a &lt;strong&gt;boundary line.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;table cellpadding="5" border="1"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;strong&gt;Boundary Line&lt;/strong&gt;&lt;br&gt;The line with equation&amp;nbsp;\( Ax + By = C \) is the boundary line that separates the region where&amp;nbsp;\( Ax + By &amp;gt; C \) from the&amp;nbsp;region where \( Ax + By &amp;lt; C \).&amp;nbsp;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="5"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Boundary Line&lt;/strong&gt;&lt;br&gt;The line with equation&amp;nbsp;\( Ax + By = C \) is the boundary line that separates the region where&amp;nbsp;\( Ax + By &amp;gt; C \) from the&amp;nbsp;region where \( Ax + By &amp;lt; C \).&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;br&gt;For an inequality in one variable, the endpoint is shown with a parenthesis or a bracket depending on whether or not&amp;nbsp;\( a \) is&amp;nbsp;included in the solution:&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/a87f0b0fc3d571b0035368ef8dc483928262a2da" alt="" role="presentation" width="445" height="57"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt height="57" role="presentation" src="https://k12.openstax.org/contents/raise/resources/a87f0b0fc3d571b0035368ef8dc483928262a2da" width="445"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Similarly. for an inequality in two variables. the boundary line is shown with a solid or dashed line to show whether or not&amp;nbsp;it the line is included in the solution.&amp;nbsp;&lt;/p&gt;
-&lt;table cellpadding="5" border="1"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;\( Ax + By &amp;lt; C \)&lt;/td&gt;
-            &lt;td&gt;\( Ax + By \leq C \)&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;\( Ax + By &amp;gt; C \)&lt;/td&gt;
-            &lt;td&gt;\( Ax + By \geq C \)&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;Boundary line is \( Ax + By = C \)&lt;/td&gt;
-            &lt;td&gt;Boundary line is \( Ax + By = C&amp;nbsp;\)&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;Boundary line is not included in solution.&amp;nbsp;&lt;/td&gt;
-            &lt;td&gt;Boundary line is included in solution.&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;strong&gt;Boundary line is dashed.&amp;nbsp;&lt;/strong&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;strong&gt;Boundary line is solid.&amp;nbsp;&lt;/strong&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="5"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;\( Ax + By &amp;lt; C \)&lt;/td&gt;
+&lt;td&gt;\( Ax + By \leq C \)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;\( Ax + By &amp;gt; C \)&lt;/td&gt;
+&lt;td&gt;\( Ax + By \geq C \)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Boundary line is \( Ax + By = C \)&lt;/td&gt;
+&lt;td&gt;Boundary line is \( Ax + By = C&amp;nbsp;\)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Boundary line is not included in solution.&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;Boundary line is included in solution.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Boundary line is dashed.&amp;nbsp;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Boundary line is solid.&amp;nbsp;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Now, let’s take a look at what we found in the example above. We’ll 
-start by graphing the line \( y = x + 4 \), and then we’ll plot the five
+&lt;p&gt;Now, let&amp;rsquo;s take a look at what we found in the example above. We&amp;rsquo;ll 
+start by graphing the line \( y = x + 4 \), and then we&amp;rsquo;ll plot the five
  points we tested, as shown in the graph. See the figure below.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e779e442c4198dc4bd5d2014d08e1bff3b30c48d" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="400" height="404"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt class="img-fluid atto_image_button_text-bottom" height="404" role="presentation" src="https://k12.openstax.org/contents/raise/resources/e779e442c4198dc4bd5d2014d08e1bff3b30c48d" width="400"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;In the previous example, we found that some of the points were solutions to the inequality&amp;nbsp;\( y &amp;gt; x + 4 \) and some were not.&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Which of the points we plotted are solutions to the inequality \( y &amp;gt; x + 4 \)?&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;The points&amp;nbsp;\( (1, 6) \) and&amp;nbsp;\( (-8, 12) \) are solutions to the 
@@ -1302,32 +1255,28 @@ not it is a solution to the inequality \( y &amp;gt; x + 4 \). The&amp;nbsp;poin
 &lt;p&gt;So,&amp;nbsp;\( (0, 10) \) is a solution to&amp;nbsp;\( y &amp;gt; x + 4 \).&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;Any point you choose above the boundary line is a solution to the inequality \( y &amp;gt; x + 4 \). All points above the boundary&amp;nbsp;line are solutions.&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;Similarly, all points below the boundary line, the 
-side with&amp;nbsp;\( (0, 0) \) and \( (−5, −15) \), are not solutions to \( y 
+side with&amp;nbsp;\( (0, 0) \) and \( (&amp;minus;5, &amp;minus;15) \), are not solutions to \( y 
 &amp;gt; x + 4 \), as shown in the figure below.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/2b394e6ec6217d6bafaf36078cbf643155b0c85b" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="400" height="404"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt class="img-fluid atto_image_button_text-bottom" height="404" role="presentation" src="https://k12.openstax.org/contents/raise/resources/2b394e6ec6217d6bafaf36078cbf643155b0c85b" width="400"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;The graph of the inequality&amp;nbsp;\( y &amp;gt; X + 4 \) is shown in below.&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;The line&amp;nbsp;\( y = X + 4 \) divides the plane into two regions. The 
 shaded side shows the solutions to the inequality \( y &amp;gt; X + 4 \).&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;The points on the boundary line, those where\( y = x + 4 \), are not 
 solutions to the inequality \( y &amp;gt; x + 4 \), so the line itself&amp;nbsp;is not part of the solution. We show that by making the line dashed, not solid.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/820434aabc35ee85c06f59f6ed8066ac90b0ca26" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="400" height="407"&gt;&lt;/p&gt;&lt;br&gt;&lt;h4&gt;Try It: Recognize the Relation Between the Solutions of an Inequality and its Graph&lt;/h4&gt;
+&lt;p&gt;&lt;img alt class="img-fluid atto_image_button_text-bottom" height="407" role="presentation" src="https://k12.openstax.org/contents/raise/resources/820434aabc35ee85c06f59f6ed8066ac90b0ca26" width="400"&gt;&lt;/p&gt;&lt;br&gt;&lt;h4&gt;Try It: Recognize the Relation Between the Solutions of an Inequality and its Graph&lt;/h4&gt;
 &lt;p&gt;The graph of \(y=\frac12x-3\) is shown here.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/bf5fbef4230d5ef2797f02c69369cce11700671c" alt="A coordinate plane is shown. A line is shown crossing the y axis at -3 and the x-axis at 6.
-" class="img-fluid atto_image_button_text-bottom" width="300" height="295"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A coordinate plane is shown. A line is shown crossing the y axis at -3 and the x-axis at 6.
+" class="img-fluid atto_image_button_text-bottom" height="295" src="https://k12.openstax.org/contents/raise/resources/bf5fbef4230d5ef2797f02c69369cce11700671c" width="300"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Sketch the graph of \(y&amp;lt;\frac12x-3\) using Desmos or a graphing calculator. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/34b5c8a4c84a9d304c9b484d25adead4cceb178d" alt="A coordinate plane is shown.
-" class="img-fluid atto_image_button_text-bottom" width="300" height="295"&gt;&lt;br&gt;&lt;/p&gt;
-
-
-
-
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Here is how to sketch the graph of the inequality:&lt;/p&gt;
-    &lt;p&gt;\(y&amp;lt;\frac12x-3\)&lt;/p&gt;
-    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5836ab661b025fcde26a7d058eedd7eb7db3546a" alt="A coordinate plane is shown. A boundary line is shown as a dotted line crossing the y axis at -3 and the x-axis at 6. The region below the boundary line is shaded.
-" class="img-fluid atto_image_button_text-bottom" width="300" height="295"&gt;&lt;br&gt;&lt;/p&gt;
-    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A coordinate plane is shown.
+" class="img-fluid atto_image_button_text-bottom" height="295" src="https://k12.openstax.org/contents/raise/resources/34b5c8a4c84a9d304c9b484d25adead4cceb178d" width="300"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Here is how to sketch the graph of the inequality:&lt;/p&gt;
+&lt;p&gt;\(y&amp;lt;\frac12x-3\)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A coordinate plane is shown. A boundary line is shown as a dotted line crossing the y axis at -3 and the x-axis at 6. The region below the boundary line is shaded.
+" class="img-fluid atto_image_button_text-bottom" height="295" src="https://k12.openstax.org/contents/raise/resources/5836ab661b025fcde26a7d058eedd7eb7db3546a" width="300"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1373,7 +1322,7 @@ solutions to the inequality \( y &amp;gt; x + 4 \), so the line itself&amp;nbsp;
         <timecreated>1657669999</timecreated>
         <timemodified>1657676470</timemodified>
         <title>2.10.3: Self Check</title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-402d2fe3-7fff-e641-83a4-a1f50b23b30a"&gt;Which graph represents the inequality y ≤ 3x + 2?&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contents>&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-402d2fe3-7fff-e641-83a4-a1f50b23b30a"&gt;Which graph represents the inequality y &amp;le; 3x + 2?&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1102">
@@ -1383,8 +1332,8 @@ solutions to the inequality \( y &amp;gt; x + 4 \), so the line itself&amp;nbsp;
             <flags>0</flags>
             <timecreated>1657669999</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5074a0c155052b26fdd4e7d3b8c7e41066959b1c" alt="ALT TEXT: GRAPH OF A LINEAR INEQUALITY IN TWO VARIABLES WITH A DOTTED LINE, SHADING ABOVE THE LINE, Y-INTERCEPT OF 2, AND X-INTERCEPT OF −⅔." width="350" height="358" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: In the shaded region, values of y are greater than values of \(3x + 2.\)&lt;/p&gt;&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/febfe8ce18596ffa7b0f155b3245663e14df6779" alt="" width="350" height="460" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt="ALT TEXT: GRAPH OF A LINEAR INEQUALITY IN TWO VARIABLES WITH A DOTTED LINE, SHADING ABOVE THE LINE, Y-INTERCEPT OF 2, AND X-INTERCEPT OF &amp;minus;&amp;frac23;." class="img-fluid atto_image_button_text-bottom" height="358" src="https://k12.openstax.org/contents/raise/resources/5074a0c155052b26fdd4e7d3b8c7e41066959b1c" width="350"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: In the shaded region, values of y are greater than values of \(3x + 2.\)&lt;/p&gt;&lt;p&gt;&lt;img alt class="img-fluid atto_image_button_text-bottom" height="460" role="presentation" src="https://k12.openstax.org/contents/raise/resources/febfe8ce18596ffa7b0f155b3245663e14df6779" width="350"&gt;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -1397,8 +1346,8 @@ solutions to the inequality \( y &amp;gt; x + 4 \), so the line itself&amp;nbsp;
             <flags>0</flags>
             <timecreated>1657669999</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/1bfeb386708015e59627439790d69e60708a99f4" alt="GRAPH OF A LINEAR INEQUALITY IN TWO VARIABLES WITH A SOLID LINE, SHADING ABOVE THE LINE, Y-INTERCEPT OF 2, AND X-INTERCEPT OF −⅔." width="350" height="358" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: In the shaded region, values of y are greater than values of 3x+2.&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/febfe8ce18596ffa7b0f155b3245663e14df6779" alt="" width="350" height="460" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt="GRAPH OF A LINEAR INEQUALITY IN TWO VARIABLES WITH A SOLID LINE, SHADING ABOVE THE LINE, Y-INTERCEPT OF 2, AND X-INTERCEPT OF &amp;minus;&amp;frac23;." class="img-fluid atto_image_button_text-bottom" height="358" src="https://k12.openstax.org/contents/raise/resources/1bfeb386708015e59627439790d69e60708a99f4" width="350"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: In the shaded region, values of y are greater than values of 3x+2.&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;img alt height="460" role="presentation" src="https://k12.openstax.org/contents/raise/resources/febfe8ce18596ffa7b0f155b3245663e14df6779" width="350"&gt;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -1411,9 +1360,9 @@ solutions to the inequality \( y &amp;gt; x + 4 \), so the line itself&amp;nbsp;
             <flags>0</flags>
             <timecreated>1657669999</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/4f17dec7525c90ed79af82293996d925bee21592" alt="GRAPH OF A LINEAR INEQUALITY IN TWO VARIABLES WITH A DOTTED LINE, SHADING BELOW THE LINE, Y-INTERCEPT OF 2, AND X-INTERCEPT OF −⅔.
-" width="350" height="358" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The values along the boundary line are solutions to the inequality.&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/febfe8ce18596ffa7b0f155b3245663e14df6779" alt="" width="350" height="358" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt="GRAPH OF A LINEAR INEQUALITY IN TWO VARIABLES WITH A DOTTED LINE, SHADING BELOW THE LINE, Y-INTERCEPT OF 2, AND X-INTERCEPT OF &amp;minus;&amp;frac23;.
+" class="img-fluid atto_image_button_text-bottom" height="358" src="https://k12.openstax.org/contents/raise/resources/4f17dec7525c90ed79af82293996d925bee21592" width="350"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The values along the boundary line are solutions to the inequality.&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;img alt class="img-fluid atto_image_button_text-bottom" height="358" role="presentation" src="https://k12.openstax.org/contents/raise/resources/febfe8ce18596ffa7b0f155b3245663e14df6779" width="350"&gt;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -1426,9 +1375,9 @@ solutions to the inequality \( y &amp;gt; x + 4 \), so the line itself&amp;nbsp;
             <flags>0</flags>
             <timecreated>1657669999</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/febfe8ce18596ffa7b0f155b3245663e14df6779" alt="GRAPH OF A LINEAR INEQUALITY IN TWO VARIABLES WITH A SOLID LINE, SHADING BELOW THE LINE, Y-INTERCEPT OF 2, AND X-INTERCEPT OF −⅔.
-" width="350" height="460" role="presentation" class="atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Correct! Check yourself: The shaded region is below the solid line.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt="GRAPH OF A LINEAR INEQUALITY IN TWO VARIABLES WITH A SOLID LINE, SHADING BELOW THE LINE, Y-INTERCEPT OF 2, AND X-INTERCEPT OF &amp;minus;&amp;frac23;.
+" class="atto_image_button_text-bottom" height="460" role="presentation" src="https://k12.openstax.org/contents/raise/resources/febfe8ce18596ffa7b0f155b3245663e14df6779" width="350"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Correct! Check yourself: The shaded region is below the solid line.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -1441,8 +1390,8 @@ solutions to the inequality \( y &amp;gt; x + 4 \), so the line itself&amp;nbsp;
             <flags>0</flags>
             <timecreated>1657669999</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -1464,715 +1413,597 @@ solutions to the inequality \( y &amp;gt; x + 4 \), so the line itself&amp;nbsp;
         <title>2.10.5: Practice</title>
         <contents>&lt;p&gt;Complete the following questions to practice the
     skills you have learned in this lesson.&lt;/p&gt;
-
-&lt;p&gt;For questions 1-5, determine whether each ordered pair is a solution to the inequality \(y &amp;gt; x − 1\).&lt;/p&gt;
-
-
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-    &lt;!--Q1--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;1. \(0,1)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q2--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;2. \(−4,−1)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.1.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q3--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;3. \(−4,−1)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 2.1.2 to test your understanding? Then come back and try this question again. &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q4--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;4. \(3,0)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q5--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;5. \(−2,−3)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;p&gt;For questions 1-5, determine whether each ordered pair is a solution to the inequality \(y &amp;gt; x &amp;minus; 1\).&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="3" data-schema-version="1.0"&gt;
+&lt;!--Q1--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;1. \(0,1)\)&lt;/p&gt;
 &lt;/div&gt;
-
-
-&lt;p&gt;For questions 6-10, determine whether each ordered pair is a solution to the inequality \(y &amp;gt; x − 3\).&lt;/p&gt;
-
-
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-
-    &lt;!--Q6--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;6. \(0,0)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q7--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;7. \(2,1)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q8--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;8. \(−1,−5)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q9--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;9. \(−6,−3)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q10--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;10. \(1,0)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-
-
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
 &lt;/div&gt;
-
-
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q2--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;2. \(&amp;minus;4,&amp;minus;1)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.1.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q3--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;3. \(&amp;minus;4,&amp;minus;1)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 2.1.2 to test your understanding? Then come back and try this question again. &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q4--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;4. \(3,0)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q5--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;5. \(&amp;minus;2,&amp;minus;3)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;For questions 6-10, determine whether each ordered pair is a solution to the inequality \(y &amp;gt; x &amp;minus; 3\).&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="3" data-schema-version="1.0"&gt;
+&lt;!--Q6--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;6. \(0,0)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q7--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;7. \(2,1)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q8--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;8. \(&amp;minus;1,&amp;minus;5)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q9--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;9. \(&amp;minus;6,&amp;minus;3)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q10--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;10. \(1,0)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;For questions 11-15, determine whether each ordered pair is a solution to the inequality \(y &amp;lt; 3x + 2./)&lt;/p&gt;
-
-
-
-
-
-
-
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-
-    &lt;!--Q11--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;11. \(0,3)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q12--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;12. \(−3,−2)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q13--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;13. \(−2,0)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q14--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;14. \(0,0)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q15--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;15. \(−1,4)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-
-
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="3" data-schema-version="1.0"&gt;
+&lt;!--Q11--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;11. \(0,3)\)&lt;/p&gt;
 &lt;/div&gt;
-
-
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q12--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;12. \(&amp;minus;3,&amp;minus;2)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q13--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;13. \(&amp;minus;2,0)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q14--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;14. \(0,0)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q15--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;15. \(&amp;minus;1,4)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;For questions 16-20, determine whether each ordered pair is a solution to the inequality \(2x + 3y &amp;gt; 2.\)&lt;/p&gt;
-
-
-
-
-
-
-
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-    &lt;!--Q16--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;16. \(1,1)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q17--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;17. \(4,-3)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q18--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;18. \(0,0)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q19--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;19. \(−8,12)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q20--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;20. \(3,0)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q21--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y &lt; 3x − 4\)" data-solution-options="[&amp;quot;\\(y\\;\\leq\\;\\;3x\\;-\\;4\\)&amp;quot;, &amp;quot;\\(y &lt; 3x − 4\\)&amp;quot;, &amp;quot;\\(y &gt; 3x − 4\\)&amp;quot;, &amp;quot;\\(y\\;\\geq\\;3x\\;-\\;4\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;21. Which inequality represents the graph?&lt;br&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8f554c15c06d4fbb6743789abf840d7e817b0442" alt="graph of y &lt; 3x − 4" class="img-fluid atto_image_button_text-bottom" width="300" height="307"&gt;&lt;/p&gt;
-            &lt;p&gt;Multiple choice:&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(y &amp;lt; 3x − 4\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is \(y &amp;lt; 3x − 4\). You seem to be stuck. Who can you ask for help?
-            &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-
-
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="3" data-schema-version="1.0"&gt;
+&lt;!--Q16--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;16. \(1,1)\)&lt;/p&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q17--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;17. \(4,-3)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q18--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;18. \(0,0)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q19--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;19. \(&amp;minus;8,12)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q20--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;20. \(3,0)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q21--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y &amp;lt; 3x &amp;minus; 4\)" data-solution-options='["\\(y\\;\\leq\\;\\;3x\\;-\\;4\\)", "\\(y &amp;lt; 3x &amp;minus; 4\\)", "\\(y &amp;gt; 3x &amp;minus; 4\\)", "\\(y\\;\\geq\\;3x\\;-\\;4\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;21. Which inequality represents the graph?&lt;br&gt;&lt;img alt="graph of y &amp;lt; 3x &amp;minus; 4" class="img-fluid atto_image_button_text-bottom" height="307" src="https://k12.openstax.org/contents/raise/resources/8f554c15c06d4fbb6743789abf840d7e817b0442" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;Multiple choice:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(y &amp;lt; 3x &amp;minus; 4\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is \(y &amp;lt; 3x &amp;minus; 4\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;br&gt;
-&lt;p&gt;For questions 22-27, here is a graph of the equation \(2y − x = 1.\)&amp;nbsp;&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/x9Y3uJazVKKqugwMMoUW9yx4" alt="Graph of a line." class="img-fluid atto_image_button_text-bottom" width="262" height="262"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;For questions 22-27, here is a graph of the equation \(2y &amp;minus; x = 1.\)&amp;nbsp;&lt;br&gt;&lt;img alt="Graph of a line." class="img-fluid atto_image_button_text-bottom" height="262" src="https://s3.amazonaws.com/im-ims-export/x9Y3uJazVKKqugwMMoUW9yx4" width="262"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-
-    &lt;!--Q22--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;22. Is the point \((0,\;\frac12)\;\) a solution to the equation?
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="3" data-schema-version="1.0"&gt;
+&lt;!--Q22--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;22. Is the point \((0,\;\frac12)\;\) a solution to the equation?
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q23--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;23. Is the point (−7, 3) a solution to the equation?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q23--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;23. Is the point (&amp;minus;7, 3) a solution to the equation?
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q24--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;24. Is the point (0, 2) a solution to the inequality \(2y − x &amp;gt; 1\)?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q24--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;24. Is the point (0, 2) a solution to the inequality \(2y &amp;minus; x &amp;gt; 1\)?
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q25--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;25. Is the point \((8,\;\frac12)\;\) a solution to the inequality \(2y − x &amp;gt; 1\)?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q25--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;25. Is the point \((8,\;\frac12)\;\) a solution to the inequality \(2y &amp;minus; x &amp;gt; 1\)?
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q26--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;26. Is the point (−6, 3) a solution to the inequality \(2y − x &amp;gt; 1\)?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q26--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;26. Is the point (&amp;minus;6, 3) a solution to the inequality \(2y &amp;minus; x &amp;gt; 1\)?
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q27--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;27. Is the point (−7, 3) a solution to the inequality \(2y − x &amp;gt; 1\)?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q27--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;27. Is the point (&amp;minus;7, 3) a solution to the inequality \(2y &amp;minus; x &amp;gt; 1\)?
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q28--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((3, 7)\)" data-solution-options="[&amp;quot;\\((1, 5)\\)&amp;quot;, &amp;quot;\\((3, 7)\\)&amp;quot;, &amp;quot;\\((5, 11)\\)&amp;quot;, &amp;quot;\\((-3, -1)\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;28. Consider the linear equation \(2y − 3x = 5\). The pair (-1,1) is a solution to the equation. Which of the following is also a solution to the equation?&lt;/p&gt;
-            &lt;p&gt;Multiple choice:&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! (3, 7)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is (3, 7). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q28--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((3, 7)\)" data-solution-options='["\\((1, 5)\\)", "\\((3, 7)\\)", "\\((5, 11)\\)", "\\((-3, -1)\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;28. Consider the linear equation \(2y &amp;minus; 3x = 5\). The pair (-1,1) is a solution to the equation. Which of the following is also a solution to the equation?&lt;/p&gt;
+&lt;p&gt;Multiple choice:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! (3, 7)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is (3, 7). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q29--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;29. Is (-1,1) a solution to the inequality \(2y − 3x &amp;lt; 5\)?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q29--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;29. Is (-1,1) a solution to the inequality \(2y &amp;minus; 3x &amp;lt; 5\)?
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.2. Are you using it the right way? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q30--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;30. Is (4,1) a solution to the inequality \(2y − 3x &amp;lt; 5\)?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q30--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;30. Is (4,1) a solution to the inequality \(2y &amp;minus; 3x &amp;lt; 5\)?
 
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 2.10.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q31--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(5x + 2y &lt; 6\)" data-solution-options="[&amp;quot;\\(5x + 2y &lt; -6\\)&amp;quot;, &amp;quot;\\(-5x - 2y &lt; 6\\)&amp;quot;, &amp;quot;\\(5x + 2y &lt; 2\\)&amp;quot;, &amp;quot;\\(5x + 2y &lt; 6\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;31. The boundary line on the graph represents the equation \(5x + 2y = 6\). Which of the following is the inequality that is represented by the graph?&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/x9zzX9wdcfPNHVLaarnDkZvT" alt="Inequality graphed on a coordinate plane, origin O. Each axis from negative 4 to 4, by 2’s. Dashed line goes through 0 comma 3 and 2 comma negative 2. The region below the dashed line is shaded." class="img-fluid atto_image_button_text-bottom" width="262" height="262"&gt;&lt;br&gt;&lt;/p&gt;
-            &lt;p&gt;Multiple choice:&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(5x + 2y &amp;lt; 6\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 2.10.4 to test your understanding? Then come back and try this question again.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q31--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(5x + 2y &amp;lt; 6\)" data-solution-options='["\\(5x + 2y &amp;lt; -6\\)", "\\(-5x - 2y &amp;lt; 6\\)", "\\(5x + 2y &amp;lt; 2\\)", "\\(5x + 2y &amp;lt; 6\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;31. The boundary line on the graph represents the equation \(5x + 2y = 6\). Which of the following is the inequality that is represented by the graph?&lt;br&gt;&lt;img alt="Inequality graphed on a coordinate plane, origin O. Each axis from negative 4 to 4, by 2&amp;rsquo;s. Dashed line goes through 0 comma 3 and 2 comma negative 2. The region below the dashed line is shaded." class="img-fluid atto_image_button_text-bottom" height="262" src="https://s3.amazonaws.com/im-ims-export/x9zzX9wdcfPNHVLaarnDkZvT" width="262"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Multiple choice:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(5x + 2y &amp;lt; 6\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 2.10.4 to test your understanding? Then come back and try this question again.
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is \(5x + 2y &amp;lt; 6\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is \(5x + 2y &amp;lt; 6\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
