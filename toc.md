@@ -34,7 +34,7 @@
         * [1.1.3: Understanding Constraints](./html/3b5616a7-c41f-44a6-86ef-db20627e0a5d.html)
         * [1.1.4: Creating Expressions to Estimate Costs, Part 2](./html/df693231-6d44-4b57-802f-776ce1a123ef.html)
         * [1.1.5: Practice](./html/cdece87e-84e2-43c1-a2d3-02aad9dc8b33.html)
-        * [1.1.6: Lesson Summary](./html/8181bef6-96ec-43a1-bc4a-28bdb90ba506.html)
+        * [1.1.6: Lesson Synthesis](./html/8181bef6-96ec-43a1-bc4a-28bdb90ba506.html)
     * Lesson 1.1: Exploring Expressions and Equations
         * [1.1.0: Lesson Overview](./html/81c390bd-f8af-4134-a569-ac9fcbcf1f42.html)
         * [1.1.1: Understanding Value](./html/91aa4085-a50e-4221-856f-01af984fd722.html)
@@ -55,7 +55,7 @@
         * [1.2.4 Writing Equations to Represent Relationships with Percents](./html/61ec3576-c481-4523-85d8-cf4f8c4872bd.html)
         * [1.2.5: Writing Equations to Represent T-Shirts](./html/345aaa10-b8e8-4b14-9424-abeaeaf394f6.html)
         * [1.2.6: Practice](./html/63376aa6-d3c2-4c1f-a803-f4e1c538824e.html)
-        * [1.2.7: Lesson Summary](./html/4e587b2b-0900-454c-99fb-1abaac8c51cb.html)
+        * [1.2.7: Lesson Synthesis](./html/4e587b2b-0900-454c-99fb-1abaac8c51cb.html)
     * Lesson 1.2: Writing Equations to Model Relationships, Part 1
         * [1.2.0: Lesson Overview](./html/93407487-34bc-4660-821c-bb402a948e48.html)
         * [1.2.1: Finding the Percent of 200](./html/9379d00d-6361-4803-883c-bb25f3035cdc.html)
@@ -78,7 +78,7 @@
         * [1.3.3: Identifying and Representing Relationships](./html/842820ad-0369-46f6-8c41-e9bc983abb6d.html)
         * [1.3.4: Writing an Equation to Represent a Relationship](./html/30d46b1e-86c3-4c6f-8ede-50105b0cb7fc.html)
         * [1.3.5: Practice](./html/5640e477-e318-4f13-8f54-08b64590dabf.html)
-        * [1.3.6: Lesson Summary](./html/45b1f2c1-255e-45ad-94c7-d1a81cc69250.html)
+        * [1.3.6: Lesson Synthesis](./html/45b1f2c1-255e-45ad-94c7-d1a81cc69250.html)
     * Lesson 1.3: Writing Equations to Model Relationships, Part 2
         * [1.3.0: Lesson Overview](./html/af8ec5a6-f96a-49fb-a2a4-6e4eaeff6979.html)
         * [1.3.1: Finding a Relationship between 𝒙 and 𝒚](./html/64c1ec6f-6486-427c-9bb8-b843cc676385.html)
@@ -98,7 +98,7 @@
         * [1.4.3 Finding the Solution to an Equation in Two Variables](./html/12702f20-bb71-4741-9a07-3175a8c2e3d5.html)
         * [1.4.4 Finding the Solution to an Equation in One Variable, Part 2](./html/62776785-ba07-4f7a-a91c-fbdb27150023.html)
         * [1.4.5: Practice](./html/cf48a869-727e-4a18-adab-51531513e65f.html)
-        * [1.4.6: Lesson Summary](./html/0828de21-8711-474c-ac1c-b5ffacf49f7b.html)
+        * [1.4.6: Lesson Synthesis](./html/0828de21-8711-474c-ac1c-b5ffacf49f7b.html)
     * Lesson 1.4 Equations and Their Solutions
         * [1.4.0: Lesson Overview](./html/2e84367a-83aa-49c1-99aa-4cc2fd13f7ab.html)
         * [1.4.1: Finding the Solution to an Equation in One Variable, Part 1](./html/9cf765e3-a3a8-4b50-8a38-97e2a989cedd.html)
@@ -118,7 +118,7 @@
         * [1.5.3: Writing, Graphing, and Solving a Linear Equation](./html/9695369c-6554-4d3a-88ab-7617d675c9f7.html)
         * [1.5.4: Examining an Equation in Two Variables and Its Graph, Part 2](./html/98243733-e56d-4e0f-a3bc-d5c2a6919c3e.html)
         * [1.5.5: Practice ](./html/524ddb89-02a9-4381-a712-abbe37a96109.html)
-        * [1.5.6: Lesson Summary](./html/7512d5a3-9995-4553-887d-642881695a3b.html)
+        * [1.5.6: Lesson Synthesis](./html/7512d5a3-9995-4553-887d-642881695a3b.html)
     * Lesson 1.5: Equations and Their Graphs
         * [1.5.0: Lesson Overview](./html/746ac7e7-8ebc-4160-bf3c-0114a9b76070.html)
         * [1.5.1: Analyzing Graphs of Linear Equations ](./html/cd7d3f77-eef9-4444-ae73-1111ce7329fc.html)
@@ -139,7 +139,7 @@
         * [1.6.3: Exploring Related Equations ](./html/fd6351fa-54e4-4416-96bd-62d095c992bf.html)
         * [1.6.4: Recognizing Related Equations](./html/34b8b36c-99d8-4655-9f22-0e54769961ec.html)
         * [1.6.5: Practice](./html/8508959d-f488-4f93-93ad-918da4a3cebe.html)
-        * [1.6.6: Lesson Summary](./html/674c67a2-8e67-4783-9c32-02d2c935aed6.html)
+        * [1.6.6: Lesson Synthesis](./html/674c67a2-8e67-4783-9c32-02d2c935aed6.html)
     * Lesson 1.6 Equivalent Equations
         * [1.6.0: Lesson Overview](./html/2d079238-5242-4de4-a650-524d05795c79.html)
         * [1.6.1: Exploring Equivalent Expressions ](./html/0deaea55-8ef9-43c5-a746-a53c0a739095.html)
@@ -154,12 +154,12 @@
         * [1.6.6: Lesson Summary](./html/9a89a79e-489a-4cf7-aac2-38fe1eeccb66.html)
     * Lesson 1.7 Teacher Guide: Explaining Steps for Rewriting Equations
         * [1.7.0: Lesson Overview](./html/93c2be04-8cd8-4f02-b97a-94ee188f11ce.html)
-        * [Lesson 1.7.1: Determining if Zero Is a Solution ](./html/8f9d899d-c04a-448f-aa91-7431b264f001.html)
-        * [Lesson 1.7.2: Explaining Acceptable Moves to Solve an Equation](./html/4239324d-e383-4e48-8700-c68ade3c5305.html)
-        * [Lesson 1.7.3: Understanding Equations with No Solution or Infinitely Many](./html/87204cd8-36a5-419d-abc8-8d3dbe5ff827.html)
-        * [Lesson 1.7.4: Solving Equations by Dividing Values](./html/2fa9a9f9-fe1a-4344-bc6b-cca308334ba8.html)
-        * [Lesson 1.7.5: Practice](./html/7384dac4-f18d-489a-bee9-85f86ba53a24.html)
-        * [Lesson 1.7.6: Summary](./html/bcd97e70-ed43-4a35-b8ee-85675564d89a.html)
+        * [1.7.1: Determining if Zero Is a Solution ](./html/8f9d899d-c04a-448f-aa91-7431b264f001.html)
+        * [1.7.2: Explaining Acceptable Moves to Solve an Equation](./html/4239324d-e383-4e48-8700-c68ade3c5305.html)
+        * [1.7.3: Understanding Equations with No Solution or Infinitely Many](./html/87204cd8-36a5-419d-abc8-8d3dbe5ff827.html)
+        * [1.7.4: Solving Equations by Dividing Values](./html/2fa9a9f9-fe1a-4344-bc6b-cca308334ba8.html)
+        * [1.7.5: Practice](./html/7384dac4-f18d-489a-bee9-85f86ba53a24.html)
+        * [1.7.6: Lesson Synthesis](./html/bcd97e70-ed43-4a35-b8ee-85675564d89a.html)
     * Lesson 1.7 Explaining Steps for Rewriting Equations
         * [1.7.0: Lesson Overview](./html/e6c0b0e2-857d-4ca1-803e-41f3d4f1d6e8.html)
         * [1.7.1: Determining if Zero Is a Solution](./html/70cfd272-ed6e-4fe6-91ef-fb991d5cf58a.html)
@@ -179,7 +179,7 @@
         * [1.8.3: Writing Equations and Isolating Variables](./html/1efaa372-0796-4819-9161-d25f8350e651.html)
         * [1.8.4: Writing Equations Given Dimensions of Shapes](./html/fe9a1406-e536-4343-a128-7c1a979b7eaf.html)
         * [1.8.5: Practice](./html/1b9100be-2004-4947-84ba-f44a5b5fc6a3.html)
-        * [1.8.6: Lesson Summary](./html/be9f5cf6-af37-45d2-ab90-933af46115ad.html)
+        * [1.8.6: Lesson Synthesis](./html/be9f5cf6-af37-45d2-ab90-933af46115ad.html)
     * Lesson 1.8 Choosing the Correct Variable to Solve For, Part 1
         * [1.8.0: Lesson Overview](./html/5226a217-7e28-4ff8-bc60-8ce4bb80a896.html)
         * [1.8.1: Expressing Relationships Between Two Quantities](./html/388b9913-1eeb-4fd8-869e-c1d4434dc31a.html)
@@ -199,7 +199,7 @@
         * [1.9.3: Writing and Rearranging Equations in Two Variables](./html/799b56e8-4abd-4efa-852f-71bea1c09e77.html)
         * [1.9.4: Solving for a Specified Variable](./html/ab7cfe07-f761-45a4-b2be-64a58185e8ce.html)
         * [1.9.5: Practice](./html/2bc126b6-d986-49e0-b098-2ca3f75d41eb.html)
-        * [1.9.6: Lesson Summary](./html/e69e03e7-1dc7-4ec4-b44e-9317a17a54e3.html)
+        * [1.9.6: Lesson Synthesis](./html/e69e03e7-1dc7-4ec4-b44e-9317a17a54e3.html)
     * Lesson 1.9 Choosing the Correct Variable to Solve For, Part 2
         * [1.9.0: Lesson Overview ](./html/6d1b7ea1-f735-47b0-b89e-6e22267d1c25.html)
         * [1.9.1: Rearranging an Equation in Three Variables ](./html/87b1a9d1-7c96-46d7-88d6-ad6f523b1b37.html)
@@ -218,8 +218,8 @@
         * [1.10.2: Graphing Equations in Context](./html/3f8b8b8e-bf61-4d4a-8802-2b89b7fe88a1.html)
         * [1.10.3: Writing and Graphing Equations in Standard Form](./html/498dec10-4a57-4e68-9571-b05b64f0cf00.html)
         * [1.10.4: Matching Equations and Graphs](./html/07479387-8821-480a-8e0d-99e588273682.html)
-        * [Lesson 1.10.5: Practice](./html/7edde188-0d58-4ae8-a64e-c47140551c4a.html)
-        * [Lesson 1.10: Summary](./html/aefff0cf-4ac8-4c4f-8951-c65b93be2f01.html)
+        * [1.10.5: Practice](./html/7edde188-0d58-4ae8-a64e-c47140551c4a.html)
+        * [1.10: Lesson Synthesis](./html/aefff0cf-4ac8-4c4f-8951-c65b93be2f01.html)
     * Lesson 1.10 Connecting Equations to Graphs, Part 1
         * [1.10.0: Lesson Overview](./html/8e900b85-7308-4446-a7d8-6de1517dbc86.html)
         * [1.10.1: Interpreting Equations in Context](./html/ca423271-63c5-482c-bd1b-8a622d1cc20c.html)
@@ -239,7 +239,7 @@
         * [1.11.3: Reasoning Symbolically and Abstractly about Linear Equations](./html/73faf22a-5d1f-49bf-9ab1-fb5d05d29bb8.html)
         * [1.11.4: Identifying the Features of a Graph](./html/5bca3167-b9eb-4d74-9f08-edc180b29431.html)
         * [1.11.5: Practice](./html/cdb9becc-9214-471a-847c-0ee6827b7da8.html)
-        * [1.11.6: Lesson Summary](./html/62068f7f-4bb6-4638-ab5c-e1c5a0790981.html)
+        * [1.11.6: Lesson Synthesis](./html/62068f7f-4bb6-4638-ab5c-e1c5a0790981.html)
     * Lesson 1.11 Connecting Equations to Graphs, Part 2
         * [1.11.0: Lesson Overview](./html/a8e43551-131f-45e4-98da-f1cfdb740bc5.html)
         * [1.11.1: Applying the Distributive Property to Rewrite Expressions](./html/118d4c38-c794-4727-93a1-ec2723ce6ebe.html)
@@ -261,7 +261,7 @@
         * [1.12.4: Writing an Equation Given Two Points](./html/51d4138a-85c8-4795-945a-e59b74f672b7.html)
         * [1.12.5: Choosing a Method to Write an Equation](./html/25acef07-cccd-4c04-ba31-c719071d41c9.html)
         * [1.12.6: Practice](./html/f5a0b3a4-8d24-4626-8ef2-5692618a30a4.html)
-        * [1.12.7: Lesson Summary](./html/89896bb0-ec58-44e5-993f-8a5ac9f1457b.html)
+        * [1.12.7: Lesson Synthesis](./html/89896bb0-ec58-44e5-993f-8a5ac9f1457b.html)
     * Lesson 1.12: Writing the Equation of a Line
         * [1.12.0: Lesson Overview](./html/cfdb65a9-9226-47cc-939b-0954f15585a4.html)
         * [1.12.1: Using the Slope Formula](./html/ebdd5eaf-8c3d-4810-822f-8f40775b6fda.html)
@@ -285,7 +285,7 @@
         * [1.13.4: Writing an Equation of a Line Parallel or Perpendicular to an Axis](./html/33fa28fb-5ed5-46ea-8c3f-77659e0715fa.html)
         * [1.13.5: Drawing Parallel and Perpendicular Lines](./html/daba4e2b-2c6f-478d-87d7-20ed4f2d39c3.html)
         * [1.13.6: Practice](./html/3fc07782-fcdb-4994-a5e9-7b36095a6551.html)
-        * [1.13.7: Lesson Summary](./html/17af5c02-3545-458e-853a-d32520cbbcfd.html)
+        * [1.13.7: Lesson Synthesis](./html/17af5c02-3545-458e-853a-d32520cbbcfd.html)
     * Lesson 1.13: Writing Equations of Parallel and Perpendicular Lines
         * [1.13.0: Lesson Overview](./html/90fc42e0-e89d-4e4b-a2f1-2e8551603220.html)
         * [1.13.1: Using Point-Slope Form to Write the Equation of a Line](./html/a5194bbf-58cc-470f-83d3-272c6c8fa3a8.html)
@@ -308,7 +308,7 @@
         * [1.14.3: Using Direct Variation to Solve Application Problems, Part 1](./html/a6a34eef-f015-4cf5-9eb4-97dac446fc73.html)
         * [1.14.4: Using Direct Variation to Solve Application Problems, Part 2](./html/b2b162ff-8a86-47aa-b01f-20b88e7b54f1.html)
         * [1.14.5: Practice ](./html/f1eeb843-71e7-4879-9cfd-9735199cb349.html)
-        * [1.14.6: Lesson Summary](./html/925438c9-abc0-404b-ba54-ec6ceec37953.html)
+        * [1.14.6: Lesson Synthesis](./html/925438c9-abc0-404b-ba54-ec6ceec37953.html)
     * Lesson 1.14 Direct Variation
         * [1.14.0: Lesson Overview](./html/4feb4be7-4a72-4593-8ab7-beb93c1589a4.html)
         * [1.14.1: Solving Proportions](./html/dd05ad0c-f6bc-4095-b291-bfbf38a0c566.html)
@@ -354,7 +354,7 @@
         * [2.1.3: Meeting Constraints ](./html/e0ed203b-d6dc-4f0b-b00b-43608359c69c.html)
         * [2.1.4: Exploring a System of Equations](./html/74589de2-ef57-4840-9e01-ffb82286727b.html)
         * [2.1.5: Practice](./html/8d9d826b-59e9-4774-ab2f-0d26597de393.html)
-        * [2.1.6: Lesson Summary](./html/1a1e54a8-ab5d-4bf0-9b0c-eae0405adb47.html)
+        * [2.1.6: Lesson Synthesis](./html/1a1e54a8-ab5d-4bf0-9b0c-eae0405adb47.html)
     * Lesson 2.1: Writing and Graphing Systems of Equations (student)
         * [2.1.0: Lesson Overview](./html/48cdc8d8-85c3-4370-8631-b8d8bea1b3a5.html)
         * [2.1.1: Understanding Constraints and Values](./html/40407688-4452-4539-9d0e-17754628b0b2.html)
@@ -374,7 +374,7 @@
         * [2.2.3: Solving Equations Using Substitution ](./html/efc01bd4-6e53-4f28-92cb-a49035ba6c9a.html)
         * [2.2.4: Solving More Equations ](./html/6ce04f4b-43e2-4225-af62-cd399f15cd5d.html)
         * [2.2.5: Practice](./html/ace08605-8175-4d86-a7b1-ea69060a6037.html)
-        * [2.2.6: Lesson Summary](./html/4258a39f-a0bd-4c8b-97e0-05b9ee9d3531.html)
+        * [2.2.6: Lesson Synthesis](./html/4258a39f-a0bd-4c8b-97e0-05b9ee9d3531.html)
     * Lesson 2.2: Solving Systems by Substitution
         * [2.2.0: Lesson Overview](./html/efec898a-b2ae-48e0-af3e-451202fc0aba.html)
         * [2.2.1: Finding Connections between Graphs and Equations](./html/cac5969b-d28f-4d0f-8106-7e149549b9fd.html)
@@ -394,7 +394,7 @@
         * [2.3.3: Adding and Subtracting Systems of Equations and Using Their Graphs ](./html/4bb1b387-6324-4cbd-a36d-93860e467540.html)
         * [2.3.4: Determining the Best Method for Solving a System of Equations ](./html/8190d71e-aaba-4b37-9003-7b04296df919.html)
         * [2.3.5: Practice ](./html/25dcbc78-5cd4-46ce-b77c-57a57fc89375.html)
-        * [2.3.6: Lesson Summary](./html/50354c79-7450-4765-8723-f4f24754142c.html)
+        * [2.3.6: Lesson Synthesis](./html/50354c79-7450-4765-8723-f4f24754142c.html)
     * Lesson 2.3: Solving Systems by Elimination, Part 1
         * [2.3.0: Lesson Overview](./html/849e7887-a081-4357-b928-64cf2cc77580.html)
         * [2.3.1: Combining Two True Equations](./html/e6ffbebd-c045-4802-a4d0-68450c7533ca.html)
@@ -414,7 +414,7 @@
         * [2.4.3: Solving Systems of Linear Equations in Two Variables](./html/ebc9ce5a-0de2-4e4e-8c78-5ddb08783df7.html)
         * [2.4.4: Solving Systems of Equations Using Real-World Examples ](./html/15c17242-46fd-4ad5-8739-8e2c335f5bf4.html)
         * [2.4.5: Practice ](./html/727e7e42-25aa-46a5-8b11-1ecd7ce05dd6.html)
-        * [2.4.6: Lesson Summary](./html/6413d708-9522-4476-82e6-db16d09590c8.html)
+        * [2.4.6: Lesson Synthesis](./html/6413d708-9522-4476-82e6-db16d09590c8.html)
     * Lesson 2.4: Solving Systems by Elimination, Part 2
         * [2.4.0: Lesson Overview](./html/91081097-b916-491b-b2b6-819f5754f61e.html)
         * [2.4.1: Writing and Evaluating New Equations](./html/ddfb8395-16a8-424f-bad9-702b4c41d847.html)
@@ -434,7 +434,7 @@
         * [2.5.3: Finding Solutions to Unordered Sets of Equivalent Systems](./html/d748a4a5-6fe9-467f-a593-c882abb43b63.html)
         * [2.5.4: Building Equivalent Systems](./html/9e601938-e83d-455c-85b6-eca38972e218.html)
         * [2.5.5: Practice](./html/7b86f74b-5a8b-40fa-94cb-b2f83ebbd62f.html)
-        * [2.5.6: Lesson Summary](./html/f9e9f052-7f3a-49a5-afd2-9ebd757fe693.html)
+        * [2.5.6: Lesson Synthesis](./html/f9e9f052-7f3a-49a5-afd2-9ebd757fe693.html)
     * Lesson 2.5: Solving Systems by Elimination, Part 3
         * [2.5.0: Lesson Overview](./html/386d2e58-9cb1-4ced-86ed-e8b57fbc1730.html)
         * [2.5.1: Multiplying Equations by a Number](./html/b4a4263b-057e-4141-b78e-6dc02178d5dd.html)
@@ -454,7 +454,7 @@
         * [2.6.3: Sorting Systems of Equations Based on Number of Solutions](./html/ba7ccf4d-90f1-46a7-8592-dca3c5daa21a.html)
         * [2.6.4: Writing Consistent and Inconsistent Systems of Equations](./html/2b4c4581-5362-407e-8acf-3836a0684a46.html)
         * [2.6.5: Practice ](./html/8a34c6c1-8990-4695-9bf1-f2620f75fa02.html)
-        * [2.6.6: Lesson Summary](./html/4e727571-c020-48c3-99db-cd77de0e334a.html)
+        * [2.6.6: Lesson Synthesis](./html/4e727571-c020-48c3-99db-cd77de0e334a.html)
     * Lesson 2.6: Systems of Linear Equations and Their Solutions
         * [2.6.0: Lesson Overview](./html/30c4c396-2187-4f0b-8826-8e2bccaf1b58.html)
         * [2.6.1: Systems of Linear Equations with Infinitely Many Solutions](./html/733a89a6-ebaf-4d85-8eea-f846a32cc5f0.html)
@@ -475,7 +475,7 @@
         * [2.7.3: Writing Inequalities to Represent Constraints](./html/1b73ef16-e512-45fc-bc61-efeadda28af6.html)
         * [2.7.4: Writing More Inequalities ](./html/c7a8fadf-fc81-409f-b25f-20cfb06de37f.html)
         * [2.7.5: Practice ](./html/8d1b6a8f-e23b-4e78-bd2f-909aef45a997.html)
-        * [2.7.6: Lesson Summary ](./html/bb5c6635-2dd5-4979-94f0-b71a9cbcafb9.html)
+        * [2.7.6: Lesson Synthesis ](./html/bb5c6635-2dd5-4979-94f0-b71a9cbcafb9.html)
     * Lesson 2.7: Representing Situations with Inequalities
         * [2.7.0: Lesson Overview](./html/6778a5eb-397e-44db-8c4d-b8526261973b.html)
         * [2.7.1: Understanding Inequality Symbols ](./html/8c9a833d-eb31-4fdb-9d19-cb579fcb38a9.html)
@@ -498,7 +498,7 @@
         * [2.8.6: Using Technology to Visualize Inequality Solutions (Optional)](./html/309936fc-9af3-444b-b24d-c1993e3f96e9.html)
         * [2.8.7: Identifying Inequality Solutions on a Graph ](./html/1e27747b-6f0e-4199-987e-bcbd3bf3bef8.html)
         * [2.8.8: Practice ](./html/ae281f76-d66d-4cf5-88a2-f2fad3d1c8fe.html)
-        * [2.8.9: Lesson Summary](./html/3aa96a11-49a2-44fa-b232-99754152f165.html)
+        * [2.8.9: Lesson Synthesis](./html/3aa96a11-49a2-44fa-b232-99754152f165.html)
     * Lesson 2.8: Solutions to Inequalities
         * [2.8.0: Lesson Overview](./html/b1293315-77f9-48e7-94a3-34f455533923.html)
         * [2.8.1: Writing Solutions to Inequalities ](./html/b15c6d32-68dd-4f4d-8a11-8b6c93fdd33d.html)
@@ -525,7 +525,7 @@
         * [2.9.5: Solving Inequalities ](./html/596f7cd9-ade6-4cd8-b077-19f60e00c943.html)
         * [2.9.6: Writing Inequalities to Represent a Situation ](./html/aee7717e-7ac4-4155-b0f4-f2ae0c55da68.html)
         * [2.9.7: Practice ](./html/2bcd410b-94bc-49db-9578-6487e82913be.html)
-        * [2.9.8: Lesson Summary](./html/4eec905e-7c9a-4b28-8556-c0f4da8b033b.html)
+        * [2.9.8: Lesson Synthesis](./html/4eec905e-7c9a-4b28-8556-c0f4da8b033b.html)
     * Lesson 2.9 Writing and Solving Inequalities in One Variable
         * [2.9.0: Lesson Overview ](./html/8c4d6e78-cf36-4102-bc94-56b8c71db70c.html)
         * [2.9.1: Writing an Inequality to Represent a Constraint ](./html/f6649c9b-8756-4048-bd73-eba2ffe41854.html)
@@ -550,7 +550,7 @@
         * [2.10.3: Sketching Solutions to Inequalities](./html/f3e72252-6724-4cba-8843-9b51542ffaf4.html)
         * [2.10.4: Shading Boundary Line Regions](./html/b0a8d0e1-92ce-4410-b5f5-678bb8f36993.html)
         * [2.10.5: Practice](./html/9ae7eb16-33d5-4fe3-8315-056b35ab93c8.html)
-        * [2.10.6: Lesson Summary](./html/4338f02e-64fb-43cf-88ae-906aaaa9b492.html)
+        * [2.10.6: Lesson Synthesis](./html/4338f02e-64fb-43cf-88ae-906aaaa9b492.html)
     * Lesson 2.10: Graphing Linear Inequalities in Two Variables, Part 1
         * [2.10.0: Lesson Overview](./html/7ad73d34-6e57-435c-a5c9-57d761b2bf64.html)
         * [2.10.1: Using Computation and Reasoning](./html/58c03d8f-b99b-47b8-8c39-e67dc324223a.html)
@@ -571,7 +571,7 @@
         * [2.11.4: Reasoning Points Along Boundary Line](./html/d7da75aa-655b-4168-bbb3-b73ed85fa4d0.html)
         * [2.11.5: Recognizing Points for an Inequality](./html/a892b9a1-7467-45ce-a35e-a192a1befa0a.html)
         * [2.11.6: Practice](./html/90edb2f6-d955-4f30-ba0e-c172057fd175.html)
-        * [2.11.7: Lesson Summary](./html/de309d54-4f64-4c8e-aa22-9ab0a5fe98be.html)
+        * [2.11.7: Lesson Synthesis](./html/de309d54-4f64-4c8e-aa22-9ab0a5fe98be.html)
     * Lesson 2.11: Graphing Linear Inequalities in Two Variables, Part 2
         * [2.11.0: Lesson Overview](./html/6c63f345-5519-42e9-9745-79e60eae63fd.html)
         * [2.11.1: Sketching a Graph to Represent an Equation](./html/703c3579-f40a-4ea8-9183-ab1e4c7f8064.html)
@@ -592,7 +592,7 @@
         * [2.12.3: Matching Representations of Inequalities](./html/8ffaec67-e356-4721-b4c7-95fb15c1725f.html)
         * [2.12.4: Graphing Solutions to an Inequality](./html/afb2144b-dbd3-41fa-a8a3-c7665ed973e1.html)
         * [2.12.5: Practice](./html/bc1e432c-b1b3-4a31-856b-2738ca54b03a.html)
-        * [2.12.6: Lesson Summary](./html/2f75ceb5-0d5e-4dc3-a87b-d5a86d5f367a.html)
+        * [2.12.6: Lesson Synthesis](./html/2f75ceb5-0d5e-4dc3-a87b-d5a86d5f367a.html)
     * Lesson 2.12: Solving Problems with Inequalities in Two Variables
         * [2.12.0: Lesson Overview](./html/78b56144-cbf6-4f93-ac89-e9ec5e7a1630.html)
         * [2.12.1: Graphing Inequalities with Technology](./html/48047ea6-a869-4d25-a251-f12e5d83c24d.html)
@@ -614,7 +614,7 @@
         * [2.13.4: Graphing Solutions of Systems of Inequalities](./html/48e53d47-7871-4b5f-a7d1-036c3999b8f9.html)
         * [2.13.5: Writing Inequalities for Situations and Representing on a Graph ](./html/74d190e1-897c-4084-b910-57d8faef92e4.html)
         * [2.13.6: Practice ](./html/b66c17a5-5fcd-4a36-aeb3-e488920e88d9.html)
-        * [2.13.7: Lesson Summary ](./html/101646a9-d98e-4918-8ce7-3fdcdcc4a9d2.html)
+        * [2.13.7: Lesson Synthesis ](./html/101646a9-d98e-4918-8ce7-3fdcdcc4a9d2.html)
     * Lesson 2.13: Solutions to Systems of Linear Inequalities in Two Variables
         * [2.13.0: Lesson Overview](./html/18b1945b-f468-474a-9a3f-c72a8cb766bd.html)
         * [2.13.1: Modeling Equations to Solve a Riddle](./html/0fddf0fb-2429-484f-a368-561c0df74b35.html)
@@ -637,7 +637,7 @@
         * [2.14.3: Solving Problems to Satisfy Multiple Constraints Simultaneously](./html/b8755d9b-998e-41ae-882c-a8ebdf3ca5c5.html)
         * [2.14.4: Identifying Graph Regions Included in a System's Solution](./html/82cb5d45-90f0-4986-99fd-16cedee2ccef.html)
         * [2.14.5: Practice](./html/ae678baf-2205-4cdb-95a2-516df188eed1.html)
-        * [2.14.6: Lesson Summary](./html/136bb0a2-9a02-4667-a295-7af236617ead.html)
+        * [2.14.6: Lesson Synthesis](./html/136bb0a2-9a02-4667-a295-7af236617ead.html)
     * Lesson 2.14: Solving Problems with Systems of Linear Inequalities in Two Variables
         * [2.14.0: Lesson Overview](./html/7b5ce825-3924-4962-b631-d92ce6b69349.html)
         * [2.14.1: Analyzing Graphs that Represent Linear Equations and Inequalities](./html/38e22227-31c3-496d-922e-647cc85f4e78.html)
