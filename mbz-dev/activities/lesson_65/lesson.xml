@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="51" moduleid="65" modulename="lesson" contextid="76">
+  <lesson id="51">
+    <course>2</course>
+    <name>Lesson 2.9: Teacher Guide: Writing and Solving Inequalities in One Variable</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>1</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>1</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1658342476</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="456">
+        <prevpageid>0</prevpageid>
+        <nextpageid>457</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655085620</timecreated>
+        <timemodified>1658804706</timemodified>
+        <title>2.9.0: Lesson Overview </title>
+        <contents>&lt;h3 style="text-align: left;"&gt;Lesson Narrative&amp;nbsp;&lt;/h3&gt;
+&lt;p&gt;This lesson serves two main goals. The first is to prompt students to write and solve inequalities to answer questions about a situation. They consider not only whether the inequalities appropriately model the situations, but also whether there are assumptions that need to be stated and whether the solution sets make sense in context.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The second goal is to practice finding the solution set to an inequality by reasoning about its composition and parts. Consider the example \( 0.5x &amp;gt; 10x \). We can reason that for 0.5 times a number to be greater than 10 times the same number, the number must be negative, so the solution is \( x &amp;lt; 0 \). Likewise, we can see that all values of \( x \) are solutions to \( x &amp;lt; x + 5 \) because 5 more than a number will always be greater than that number.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The lesson includes an optional activity for practice solving inequalities without any context.&lt;/p&gt;
+&lt;h3&gt;Learning Goals (Teacher Facing)&lt;/h3&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Analyze inequalities to determine whether the solution is greater or less than the solution to a related equation.&lt;/li&gt;
+    &lt;li&gt;Write and solve inequalities in one variable to represent the constraints in situations and to solve problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Learning Targets (Student Facing)&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Analyze the structure of an inequality in one variable to help determine if the solution is greater or less than the solution to the related equation.&lt;/li&gt;
+    &lt;li&gt;Write and solve inequalities to answer questions about a situation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;div dir="ltr" align="left"&gt;
+    &lt;table style="border:1px solid black;"&gt;
+        &lt;colgroup style="border:1px solid black;"&gt;
+            &lt;col style="border:1px solid black;"&gt;
+            &lt;col style="border:1px solid black;"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr style="border:1px solid black;"&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;A5(B) solve linear inequalities in one variable, including those for which the application of the distributive property is necessary and for which variables are included on both sides.&lt;/p&gt;&lt;br&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;Full coverage: Lesson provides content that covers all parts of this TEKS.&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;&lt;strong&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;h3&gt;Lesson Activities&amp;nbsp;&lt;/h3&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;2.9.1: Writing an Inequality to Represent a Constraint&lt;/li&gt;
+    &lt;li&gt;2.9.2: Using Inequalities to Solve a Problem&lt;ul&gt;
+            &lt;li&gt;2.9.2: Self Check&amp;nbsp;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul&gt;
+            &lt;li&gt;2.9.2: Additional Resources&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;2.9.3: Different Ways of Solving an Inequality&lt;ul&gt;
+            &lt;li&gt;2.9.3: Self Check&amp;nbsp;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul&gt;
+            &lt;li&gt;2.9.3: Additional Resources&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;2.9.4: Matching Inequalities and Solutions (Optional)&lt;/li&gt;
+    &lt;li&gt;2.9.5: Solving Inequalities&lt;ul&gt;
+            &lt;li&gt;2.9.5: Self Check&amp;nbsp;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul&gt;
+            &lt;li&gt;2.9.5: Additional Resources&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;2.9.6: Writing Inequalities to Represent a Situation&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Students will also complete a series of problems in the 2.9.7: Practice.&lt;/p&gt;
+&lt;h3&gt;Required Materials&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;N/A&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Required Preparation&amp;nbsp;&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Lesson Vocabulary&lt;/h3&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings.&lt;/li&gt;
+    &lt;li&gt;Encourage students to use key vocabulary words in “math talk” and their written and oral explanations.&lt;/li&gt;
+    &lt;li&gt;Utilize a word wall. Sample cards are located here:&amp;nbsp;&lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson include:&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Previous Vocabulary:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;inequality&lt;/li&gt;
+    &lt;li&gt;solution set&lt;/li&gt;
+    &lt;li&gt;substitution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;&lt;strong&gt;New Vocabulary:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Support for Building Character&lt;/h3&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;growth mindset&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/we-can-do-it/" target="_blank"&gt;We Can Do It&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/the-stories-we-tell/" target="_blank"&gt;The Stories We Tell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;You can find other tips located here in the &lt;a href="https://characterlab.org/playbooks/growth-mindset/" target="_blank"&gt;Playbook on Growth Mindset&lt;/a&gt; from Character Lab.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1014">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655085620</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="457">
+        <prevpageid>456</prevpageid>
+        <nextpageid>458</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655085710</timecreated>
+        <timemodified>1658804720</timemodified>
+        <title>2.9.1: Writing an Inequality to Represent a Constraint </title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;&lt;p dir="ltr"&gt;In this warm-up, students practice writing an inequality to represent a constraint, reasoning about its solutions, and interpreting the solutions.&lt;/p&gt;&lt;p dir="ltr"&gt;To write an inequality, students need to attend carefully to verbal clues so they can appropriately model the situation. The word “budget,” for instance, implies that the exact amount given or any amount less than it meets a certain constraint, without explicitly stating this. Discuss how budgets can be useful as a way to measure spending in a household, at a company, or even as a government. Using budgets to measure the amount that can be spent is a useful tool for financial responsibility.&lt;/p&gt;&lt;p dir="ltr"&gt;When thinking about how many pounds of food Kiran can buy, students should also recognize that the answer involves a range, rather than a single value.&lt;/p&gt;&lt;h4&gt;Student-Facing Statement&lt;/h4&gt;&lt;p dir="ltr"&gt;Kiran is getting dinner for his drama club on the evening of their final rehearsal. He plans to buy some prepared dishes from a supermarket.&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The budget for the dinner is $60.&lt;/li&gt;&lt;li&gt;The prepared dishes are sold by the pound, at $5.29 per pound.&amp;nbsp;&lt;/li&gt;&lt;li&gt;He also plans to buy two large bottles of sparkling water at $2.49 each.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Represent the constraints in the situation mathematically. If you use variables, specify what each one means.&lt;/li&gt;&lt;li&gt;How many pounds of prepared dishes can Kiran buy? Explain or show your reasoning.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;h4&gt;Student Response&lt;/h4&gt;&lt;p dir="ltr"&gt;&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;\(5.29p\;+\;2(2.49)\;\leq\;60\) or \(5.29p\;+\;4.98\;\leq\;60\). \(p\) is the pounds of prepared foods Kiran could buy without going over budget.&lt;/li&gt;&lt;li&gt;Up to 10.4 pounds, or \(p\leq10.4\). Sample reasoning: After removing the cost of sparkling water, Kiran still has $55.02. Dividing that amount by 5.29 gives 10.4.&lt;/li&gt;&lt;/ol&gt;&lt;h4&gt;Activity Synthesis&lt;/h4&gt;&lt;p dir="ltr"&gt;Make sure students see one or more inequalities that appropriately model the situation. Then, focus the discussion on the solution set. Discuss questions such as:&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;“What strategy did you use to find the number of pounds of dishes Kiran could buy?”&lt;/li&gt;&lt;li&gt;“Does Kiran have to buy exactly 10.4 pounds of dishes?” (No.) “Can he buy less? Why or why not?” (Yes. He can buy any amount as long as the cost of the food doesn’t exceed $55.02. This means he can buy up to 10.4 pounds.)&lt;/li&gt;&lt;li&gt;“What is the minimum amount he could buy?” (He could buy 0 pounds of food, but it wouldn’t make sense if his goal is to feed the club members.)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1015">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655085710</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1016">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655085710</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="458">
+        <prevpageid>457</prevpageid>
+        <nextpageid>459</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655928729</timecreated>
+        <timemodified>1658804766</timemodified>
+        <title>2.9.2: Using Inequalities to Solve a Problem</title>
+        <contents>&lt;h3&gt;Activity (10 minutes)&lt;/h3&gt;
+&lt;p dir="ltr"&gt;This activity enables students to use inequalities to solve a problem about a situation whose constraints might be unfamiliar and in which multiple quantities are unknown.&lt;/p&gt;
+&lt;p dir="ltr"&gt;To reason about the problem, students need to interpret the descriptions carefully and consider their assumptions about the situation. To make sense of the situation, some students may define additional variables or use diagrams, tables, or other representations.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Monitor for these approaches students may use to find the possible number of hours of mowing:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Start with an empty tank and think about the hours of mowing if there are 0, 1, 2, 3 . . . gallons of gasoline in the tank. (If the tank is empty, Han could mow 0 hours. If it has 1 gallon, he could mow \(\frac1{0.4}\), or 2.5 hours. And so on, up to 5 gallons.)&lt;/li&gt;
+    &lt;li&gt;Write a series of inequalities and equations (for instance, \(c\leq5\), where \(c\) is the capacity of the tank in gallons, \(c=0.4x\), and \(0.4x\leq5\)) and then solve \(0.4x\leq5\).&lt;/li&gt;
+    &lt;li&gt;Start with a full tank and the maximum hours of mowing and work down to an empty tank. (If the tank has 5 gallons, Han could mow \(\frac5{0.4}\) hours. If it has 0 gallons, then he could mow 0 hours.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Many students are likely to say that \(x\leq12.5\) represents all possible hours of mowing. Look for students who also specify that \(x\) must be positive or who also write \(x\geq0\) or \(0\leq x\leq12.5\) for the solution set. Ask them to share their thinking with the class during discussion.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+    &lt;p&gt;Use this routine to increase awareness of language used to talk about solutions of inequalities. Display only the context of this problem without revealing the questions that follow. Give students 1–2 minutes to write their own mathematical questions about the situation, and then invite them to share their questions with a partner. Listen for and amplify any questions that involve possible constraints. Once students compare their questions, reveal the remainder of the task.&lt;/p&gt;
+    
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+    &lt;p&gt;&lt;em&gt;Representation: Internalize Comprehension. &lt;/em&gt;Represent the same information through different modalities by using a diagram. If students are unsure where to begin, suggest that they draw a diagram of a 5-gallon tank and an unknown quantity of gas. Encourage students to label the diagram with their own interpretations of the significant elements. Look for phrases that indicate students are fully internalizing comprehension of the the diagram and exploring how to apply the information mathematically. For example, look for phrases that lend themselves to translation into mathematical symbols, such as “there is at most 5 gallons.”&lt;/p&gt;
+    &lt;p&gt;&lt;em&gt;Supports accessibility for: Conceptual processing; Visual-spatial processing&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/wrEuxt3j157dkiBw7dvYq2Um" alt="A lawnmower on a lawn." class="img-fluid atto_image_button_text-bottom" width="450" height="298"&gt;&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;span&gt;What are all the possible values for \(x\), the number of hours Han can mow without refilling the lawn mower?&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Write one or more inequalities to represent your response. Be prepared to explain or show your reasoning.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;span&gt;2.9.2: Video: Using Inequalities to Solve a Problem&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Watch the following video to learn more about how to solve a problem using inequalities.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+        &lt;source src="https://k12.openstax.org/contents/raise/resources/17dc1698af76b75e61f5560d45db6f51025c6c83"&gt;
+        &lt;track src="https://k12.openstax.org/contents/raise/resources/71bb7bc5a1913622a456779562e00cfd7f7e6bd4" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/17dc1698af76b75e61f5560d45db6f51025c6c83
+    &lt;/video&gt;&lt;strong&gt;&lt;br&gt;&lt;br&gt;&lt;/strong&gt;
+&lt;h4&gt;Student Response&lt;/h4&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;\(x\leq12.5\) and \(x\geq0\).&lt;/li&gt;
+    &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(x\leq\frac5{0.4}\) or \(x\leq12.5\) and \(x\geq0\). If the tank is completely full, Han can mow for at most 12.5 hours without refilling. If it is all the way empty, he can mow for 0 hours. It is not possible for Han to mow for a negative number of hours.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;For students struggling to express the value of \(x\) as an inequality, suggest they first try reasoning about the question and finding some possible hours of mowing if Han had, say, 1 gallon or 2 gallons of gasoline.&lt;/p&gt;
+&lt;p&gt;One likely incorrect answer is \(0≤x≤2\), the result of multiplying gallons by 0.4 gallons per hour. If students make this mistake, ask, “About how long can the mower mow with one gallon of gas?” Then, ask if it is reasonable that the mower mows for 2 hours with 5 gallons of gas.&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Select previously identified students to share their responses, in the order as listed in the Activity Narrative. Also invite students who explicitly stated that \(x\) must be positive to explain why they included that lower boundary in their response.&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Emphasize that although it is probably understood from the context that the amount of gasoline in the tank cannot be negative and that the lowest possible number of hours of mowing is 0, it is not apparent from a mathematical statement like \(x\leq12.5\). Writing \(0\leq x\leq12.5\) or \(x\geq0\) and \(x\leq12.5\) makes this assumption explicit and leaves less room for misinterpretation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span id="docs-internal-guid-4e5b66f7-7fff-abb9-971c-7fe91113f01e"&gt;2.9.2: Self Check&amp;nbsp;&lt;/span&gt;&lt;/h3&gt;&lt;span id="docs-internal-guid-4e5b66f7-7fff-abb9-971c-7fe91113f01e"&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;Following the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;&lt;br&gt;
+    &lt;div dir="ltr" style="" align="left"&gt;
+        &lt;table style="border:1px solid black;"&gt;
+            &lt;colgroup style="border:1px solid black;"&gt;
+                &lt;col style="border:1px solid black;" width="302"&gt;
+                &lt;col style="border:1px solid black;" width="322"&gt;
+            &lt;/colgroup&gt;
+            &lt;tbody&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td colspan="2"&gt;
+                        &lt;p dir="ltr"&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+                        &lt;p dir="ltr"&gt;Samantha is feeding the horses at her barn. She has 6 buckets of oats. If each horse eats&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;\(\frac34\) bucket of oats, how many horses can she feed at most?&lt;/span&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;\(x\;\leq\;6\), Samantha can feed a maximum of 6 horses.&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: Each horse does not eat 1 bucket of oats. Did you start with the inequality \(\frac34x\;\leq\;6\)? The answer is Samantha can feed up to 8 horses.&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;\(x\;\leq\;4\), Samantha can feed a maximum of 4 horses.&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way:&amp;nbsp; Is 5 a solution? Did you start with the inequality \(\frac34x\;\leq\;6\)? The answer is Samantha can feed up to 8 horses.&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;\(x\;\leq\;8\), Samantha can feed a maximum of 8 horses.&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;That’s correct! Check yourself: \(x\;\leq\;8\) means Samantha can feed up to 8 horses.&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;\(x\;\leq\;10\), Samantha can feed a maximum of 10 horses.&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: Is 9 a solution? Did you start with the inequality \(\frac34x\;\leq\;6\)? The answer is Samantha can feed up to 8 horses.&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+&lt;/span&gt;&lt;span id="docs-internal-guid-f89fb9be-7fff-8e8f-a92e-29ea1d216919"&gt;
+
+    &lt;h3 style=""&gt;2.9.2: Additional Resources&lt;/h3&gt;
+    &lt;p dir="ltr" style=""&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+    &lt;h4 style=""&gt;Using Inequalities to Solve a Problem&lt;/h4&gt;
+    &lt;p dir="ltr" style=""&gt;Let’s look at an example where we might be able to solve a problem using inequalities.&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;A school is repainting its classroom walls. The school has at most 30 gallons of paint. The painter needs \(\frac52\) gallons of paint for each classroom. How many classrooms can the school paint at most?&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;We know that the answer is greater than or equal to 0 classrooms, so \(x\;\geq\;0\).&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;We also know that each classroom requires \(\frac52\) or 2.5 gallons of paint.&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;Let’s take a guess at how many classrooms and check if we are close to the solution. How many gallons of paint would we need to paint 10 classrooms?&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;\(10 × 2.5 = 25\), and since \(25 &amp;lt; 30\), it could be possible for the school to paint 10 classrooms.&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;We can try 11 classrooms.&amp;nbsp;&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;\(11 × 2.5 = 27.5\), and since \(27.5 &amp;lt; 30\), it could be possible for the school to paint 11 classrooms.&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;We can try 12 classrooms.&amp;nbsp;&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;\(12 × 2.5 = 30\), and since \(30 = 30\), the most classrooms the school could paint is 12 classrooms.&lt;/p&gt;
+    &lt;h4 style=""&gt;Try It: Using Inequalities to Solve a Problem&lt;/h4&gt;
+    &lt;p dir="ltr" style=""&gt;While working in a car factory, a worker can use a drill for as long as the batteries last. The worker has at most 9 fully charged batteries. Each car the worker helps assemble uses \(\frac34\) of a full battery.&amp;nbsp;&lt;/p&gt;
+    &lt;ol style="a"&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;What are all of the possible values for \(c\), the number of cars the worker can help assemble?&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Write one or more inequalities to represent your response. Be prepared to explain or show your reasoning.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p dir="ltr" style=""&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+&lt;/span&gt;&lt;span id="docs-internal-guid-ad85adf3-7fff-2366-d008-4db1361b6f83"&gt;
+    &lt;h4 style=""&gt;Solution&lt;/h4&gt;
+    &lt;p dir="ltr" style=""&gt;Here is how to solve:&lt;/p&gt;
+    &lt;ol style=""&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;\(c\;\leq\;12\) and \(c\;\geq\;0\).&amp;nbsp;&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;If the worker has 9 fully charged batteries, they can help assemble 12 cars. If the worker has no batteries, they can assemble 0 cars. It is not possible for the worker to assemble less than 0 cars.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;&lt;br&gt;
+    &lt;div dir="ltr" style="" align="left"&gt;
+       
+                        &lt;p dir="ltr"&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+                  
+    &lt;/div&gt;&lt;/span&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1028">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655928729</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1029">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655928729</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="459">
+        <prevpageid>458</prevpageid>
+        <nextpageid>464</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655086405</timecreated>
+        <timemodified>1658805320</timemodified>
+        <title>2.9.3: Different Ways of Solving an Inequality </title>
+        <contents>&lt;h3&gt;Activity (20 minutes)&lt;/h3&gt;&lt;span id="docs-internal-guid-0b99e1ca-7fff-07c1-a9cf-a78210134b56"&gt;
+    &lt;p dir="ltr"&gt;This activity highlights some ways to decide whether the solution set to an inequality is greater than or less than a particular boundary value (identified by solving a related equation).&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Students are presented with two approaches to solving an inequality. Both characters (Priya and Andre) took similar steps to solve the related equation, which gave them the same boundary value. But they took different paths to decide the direction of the inequality symbol.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;One solution path involves testing a value on both sides of the boundary value, and another involves analyzing the structure of the inequality. The former is more familiar given previous work. The latter is less familiar and thus encourages students to make sense of problems and persevere in solving them.&lt;/p&gt;
+    &lt;h4&gt;Launch&lt;/h4&gt;
+    &lt;p dir="ltr"&gt;In a class discussion, reintroduce the inequality \(-12x + 6 &amp;lt; 4x - 3\) from Activity 2.8.6. Remind students there are several methods that can be used to solve the inequality. Ask students for suggestions for the first step in solving. Discuss possible first steps, including adding \(12x\) to both sides and multiplying both sides by 2. Ask students to identify any other possible first steps. Reinforce that as long as both sides of the inequality are treated equally, multiple methods are possible, and the solution found will be the same.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Arrange students in groups of 2. Give students a few minutes of quiet time to make sense of what Andre and Priya have done, and then time to discuss their thinking with their partner. Pause for a class discussion before students move to the second set of questions and try to solve inequalities using Andre’s and Priya’s methods.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Select students to share their analyses of Andre’s and Priya’s work. Make sure students can follow Priya’s reasoning and understand how Priya decided on \(x&amp;lt;3\) by focusing her comparison on \(4x+3\) and \(18-x\).&lt;/p&gt;
+    &lt;h4 dir="ltr"&gt;Support for Students with Disabilities&lt;/h4&gt;
+    &lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;&lt;p dir="ltr"&gt;&lt;em&gt;R&lt;/em&gt;&lt;em&gt;epresentation: Develop Language and Symbols. &lt;/em&gt;Display or provide copies of Priya’s work and Andre’s work on separate displays. Write Priya’s and Andre’s descriptive phrases (as given on the student-facing materials) in contrasting colors/texts so students can more easily sort and process information. Some students may benefit from time to read and interpret each strategy one at a time.&lt;/p&gt;
+      &lt;p dir="ltr"&gt;&lt;em&gt;Supports accessibility for: Conceptual processing; Memory&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;
+    &lt;p dir="ltr"&gt;&lt;/p&gt;
+    &lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Andre and Priya used different strategies to solve the following inequality, but they reached the same solution.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;\(2(2x + 1.5) &amp;lt; 18 - x\)&lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Make sense of each strategy until you can explain what each student has done.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p dir="ltr"&gt;Andre&lt;/p&gt;\(\begin{array}{rcl}2(2x\;+\;1.5)\;&amp;amp;=&amp;amp;\;18\;-\;x\\4x+3&amp;amp;=&amp;amp;18-x\\4x\;-\;15\;&amp;amp;=&amp;amp;\;-x\\-15\;&amp;amp;=&amp;amp;\;-5x\\3\;&amp;amp;=&amp;amp;\;x\end{array}\)&lt;br&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;Testing to see if \(x = 4\) is a solution:&lt;/p&gt;
+    &lt;p dir="ltr"&gt;\(\begin{array}{rcl}2(2⋅4+1.5)\;&amp;amp;&amp;lt;&amp;amp;\;18-4\\2(9.5)\;&amp;amp;&amp;lt;&amp;amp;\;14\\19\;&amp;amp;&amp;lt;&amp;amp;\;14\end{array}\)&lt;/p&gt;
+    &lt;p dir="ltr"&gt;The inequality is false, so 4 is not a solution. If a number greater than 3 is not a solution,&amp;nbsp;&lt;span style="font-size: calc(0.90375rem + 0.045vw);"&gt;the solution must be less than 3, or \(x &amp;lt; 3\).&lt;/span&gt;&lt;/p&gt;
+    
+    &lt;p dir="ltr"&gt;Priya&lt;/p&gt;
+    &lt;p dir="ltr"&gt;\(\begin{array}{rcl}2(2x+1.5)&amp;amp;=&amp;amp;18-x\\4x+3&amp;amp;=&amp;amp;18-x\\5x+3&amp;amp;=&amp;amp;18\\5x&amp;amp;=&amp;amp;15\\x&amp;amp;=&amp;amp;3\end{array}\)&lt;/p&gt;
+    &lt;p dir="ltr"&gt;In \(4x + 3 = 18 - x\), there is \(4x\) on the left and \(-x\) on the right.&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;If \(x\) is a negative number, \(4x + 3\) could be positive or negative, but \(18 - x\) will always be positive.&lt;br&gt;For \(4x + 3 &amp;lt; 18 0 x\) to be true, \(x\) must include negative numbers or \(x\) must be less than 3.&lt;/p&gt;
+    &lt;ol start="2"&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Here are four inequalities.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;ol&gt;
+            &lt;li dir="ltr" aria-level="2"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;\(15p&amp;gt;-10\)&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="2"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;\(4(x+7)\leq4(2x+8)\)&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="2"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;\(-9n&amp;lt;36\)&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="2"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;\(3c&amp;lt;-2(c-7)\)&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/ol&gt;
+    &lt;p dir="ltr"&gt;Work with a partner to decide on at least two inequalities to solve. Solve one inequality using Andre’s strategy (by testing values on either side of the given solution), while your partner uses Priya’s strategy (by reasoning about the parts of the inequality). Switch strategies for the other inequality.&lt;/p&gt;&lt;br&gt;
+    &lt;h4&gt;Student Response&lt;/h4&gt;&lt;br&gt;
+    &lt;ol&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;No response required.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Answers:&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;ol&gt;
+            &lt;li dir="ltr" aria-level="2"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;\(p&amp;gt;-50\). Sample reasoning (after solving \(15p=-10\) to get \(p=-50\)):&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;ol&gt;
+                &lt;li dir="ltr" aria-level="3"&gt;
+                    &lt;p dir="ltr" role="presentation"&gt;Using Andre’s strategy: Test a value more than or less than \(-50\), and check to see if that value gives a true statement when substituting back to the original inequality.&lt;/p&gt;
+                &lt;/li&gt;
+                &lt;li dir="ltr" aria-level="3"&gt;
+                    &lt;p dir="ltr" role="presentation"&gt;Using Priya’s strategy: If \(p\) is a negative number that is far away from 0, say \(-100\), then \(15p\) will be less than, not greater than, \(-10\). This means the solutions must include positive numbers, so the solutions must be greater than \(-50\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;li dir="ltr" aria-level="2"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;\(x\geq-1\). Sample reasoning using Priya’s strategy (after solving \(4(x+7)=4(2x+8)\) and getting \(x=-1\)):&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;ol&gt;
+                &lt;li dir="ltr" aria-level="3"&gt;
+                    &lt;p dir="ltr" role="presentation"&gt;After dividing each side by 4, the left side of the inequality has \(x\), while the right side has \(2x\). This means the expression on the left side will be less than that on the right when \(x\) includes positive numbers, so \(x\) must be greater than or equal to \(-1\). (In other words, for most negative values of \(x\), \(2x\) will be less than \(x\), which would make the inequality untrue.)&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;li dir="ltr" aria-level="2"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;\(n&amp;gt;-4\). Sample reasoning using Priya’s strategy (after solving \(-9n=36\) to get \(n=-4\)):&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;ol&gt;
+                &lt;li dir="ltr" aria-level="3"&gt;
+                    &lt;p dir="ltr" role="presentation"&gt;If \(n\) includes large positive numbers, then \(-9n\) will be smaller than 36, so \(n\) must include positive numbers that are greater than \(-4\).&lt;/p&gt;
+                &lt;/li&gt;
+                &lt;li dir="ltr" aria-level="3"&gt;
+                    &lt;p dir="ltr" role="presentation"&gt;If \(n\) is less than \(-4\), then it would include negative numbers like \(-10\), which means the value of \(-9n\) would be a positive number that is greater than 36, which makes the inequality untrue. So the solution must be greater than \(-4\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;li dir="ltr" aria-level="2"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;\(c&amp;lt;6\). Sample reasoning using Priya’s strategy (after solving \(3c=-2(c-7)\) and getting \(c=6\)):&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;ol&gt;
+                &lt;li dir="ltr" aria-level="3"&gt;
+                    &lt;p dir="ltr" role="presentation"&gt;The right side of the inequality has \(-2c\), while the left side has \(13c\). If \(c\) is a large positive number, \(-2c\) will be less than \(13c\). If \(c\) is a negative number, \(-2c\) will be positive and greater than \(13c\), so the solution must include negative numbers that are less than 6.&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/ol&gt;
+    &lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
+    &lt;h5&gt;Are you ready for more?&lt;/h5&gt;
+    &lt;p dir="ltr"&gt;Using positive integers between 1 and 9 and each positive integer at most once, fill in values to get two constraints so that \(x=7\) is the only integer that will satisfy both constraints at the same time.&amp;nbsp;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;▢x + ▢ &amp;lt; ▢x + ▢&lt;/p&gt;
+    &lt;p dir="ltr"&gt;▢x + ▢ &amp;gt;▢ x + ▢&lt;/p&gt;
+    &lt;h4&gt;Extension Student Response&lt;/h4&gt;
+    &lt;p dir="ltr"&gt;Sample answer:&lt;/p&gt;
+    &lt;p dir="ltr"&gt;\(4x + 1 &amp;lt; 3x + 9\)&lt;/p&gt;
+    &lt;p dir="ltr"&gt;\(6x + 2 &amp;gt; 5x + 8\)&lt;/p&gt;
+    &lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+    &lt;p dir="ltr"&gt;Students who perform procedural steps on the inequality may find incorrect answers. For instance, in the third inequality, they may divide each side by \(-9\) and arrive at the incorrect solution \(n&amp;lt;-4\). Encourage these students to check their work by substituting numbers into the original inequality.&lt;/p&gt;
+    &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+    &lt;p dir="ltr"&gt;Students should recognize that the solution set for each inequality should be the same regardless of the reasoning method used.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Select as many students as time permits to share how they used a strategy similar to Priya’s to determine the solution set of each inequality. There may be more than one way to reason structurally about a solution set. Invite students who reason in different ways to share their thinking. Record and display their thinking for all to see.&lt;/p&gt;
+    &lt;h4 dir="ltr"&gt;Support for English Language Learners&lt;/h4&gt;
+    
+    &lt;div style="border:1px solid black; background-color:#f2f2f2; padding:5px;"&gt;
+        &lt;p&gt;Use this routine to prepare students for the whole-class discussion. At the appropriate time, invite students to create a visual display showing the two inequalities they selected to solve. Students should consider how to display their work so that another student can interpret what they see. Encourage students to add notes or details to their displays to help communicate their thinking. Begin the whole-class discussion by selecting and arranging 2–4 displays for all to see. Give students 2–3 minutes of quiet think time to interpret the displays before inviting the authors to present their work.&lt;/p&gt;
+
+        &lt;p&gt;&lt;em&gt;Design Principle(s): Optimize output; Cultivate conversation&lt;/em&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;h4&gt;&lt;br&gt;&lt;/h4&gt;
+    &lt;h4&gt;2.9.3: Self Check &lt;br&gt;&lt;/h4&gt;
+    &lt;p dir="ltr"&gt;Following the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;div dir="ltr" align="left"&gt;
+        &lt;table style="border:1px solid black;"&gt;
+            &lt;colgroup style="border:1px solid black;"&gt;
+                &lt;col style="border:1px solid black;" width="302"&gt;
+                &lt;col style="border:1px solid black;" width="322"&gt;
+            &lt;/colgroup&gt;
+            &lt;tbody&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td colspan="2"&gt;
+                        &lt;p dir="ltr"&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+                        &lt;p dir="ltr"&gt;Solve the following inequality by solving the related equation and reasoning what the answer may be given the situation.&lt;/p&gt;
+                        &lt;p dir="ltr"&gt;\(\frac13p&amp;lt;4\)&lt;/p&gt;&lt;br&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;\(p &amp;gt; 12\); The solution to the related equation is \(p = 12\). For \(\frac13p\) to be less than 4, the solution must contain large positive numbers.&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: In the inequality, one-third of \(p\) is less than, not greater than, 12. The answer is \(p &amp;lt; 12\).&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;\(p &amp;lt; 12\); The solution to the related equation is \(p = 12\). Since \(\frac13p\) must be less than 4, the solution cannot include large positive numbers, so numbers larger than 12 cannot be included in the solution.&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;That’s correct! Check yourself: Any negative number substituted into \(\frac13p\) will be less than 4, so the solution must include negative numbers.&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;\(p &amp;lt; \frac34\); The related equation is \(p = \frac34\). Since the solution set must contain negative numbers, \(p\) must be less than \(\frac34\).&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: Multiplying both sides of the related equation by 3 results in \(p = 12\). The answer is \(p &amp;lt; 12\).&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr style="border:1px solid black;"&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;\(p &amp;lt; \frac43\); The related equation is \(p = \frac43\). Since the solution set must contain negative numbers, \(p\) must be less than \(\frac43\).&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: For the related equation, instead of multiplying one-third by 4, multiply both sides of the equation by 3. The answer is \(p &amp;lt; 12\).&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;p dir="ltr"&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;h3&gt;Additional Resources&lt;/h3&gt;
+    &lt;p dir="ltr"&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it. &lt;br&gt;&lt;/p&gt;
+    &lt;h4&gt;Reasoning about Solution Sets to Linear Inequalities&lt;/h4&gt;
+    &lt;p dir="ltr"&gt;You can derive a lot of information about the solution set to an inequality by studying the inequality itself. &lt;br&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Let’s look at the inequality shown.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;\(12x&amp;gt;-3(x-1)\)&lt;/p&gt;
+    &lt;p dir="ltr"&gt;The left side of the inequality contains \(12x\). The right side of the inequality contains \(-3x\).&lt;/p&gt;
+    &lt;p dir="ltr"&gt;We can think to ourselves: “What values of \(x\) would make \(12x\) greater than \(-3x\)?”&lt;/p&gt;
+    &lt;p dir="ltr"&gt;If \(x\) is a large positive number, then \(12x\) will still be positive. If \(x\) is a large positive number, then \(-3x\) will be a negative number. This makes the inequality true, so the solution set must include large positive numbers.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Let’s solve the related equation.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;\(\begin{array}{rcl}12x&amp;amp;&amp;gt;&amp;amp;-3(x-1)\\12x\;&amp;amp;=&amp;amp;\;–3(x\;-\;1)\\12x\;&amp;amp;=&amp;amp;\;-3x\;+3\\72x\;&amp;amp;=&amp;amp;\;3\\x\;&amp;amp;=&amp;amp;\;67\end{array}\)&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Since we know that the solution set must include large positive numbers, then \(x &amp;gt; 67\) must be the solution to the inequality.&lt;/p&gt;
+    &lt;h4&gt;Try It: Reasoning about Solution Sets to Linear Inequalities&lt;/h4&gt;
+    &lt;p dir="ltr"&gt;Solve the related equation for each inequality. Use what you know about the inequality to determine the solution set.&lt;/p&gt;
+    &lt;ol start="2"&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;\(-5y\geq30\)&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;\(14p&amp;lt;-4\)&lt;/span&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p dir="ltr"&gt;Write down your answers. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+    &lt;h5&gt;Solution&lt;/h5&gt;
+    &lt;p dir="ltr"&gt;Here is how to solve:&lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;The solution to the related equation is \(y = -6\). Since any positive number substituted for \(y\) makes \(-5y\) a negative value, then the solution set cannot include positive numbers. This means the solution is \(y\leq-6\).&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;The solution to the related equation is \(p = -1\). Since any positive number substituted for \(p\) makes \(14p\) a positive value, the solution set cannot include positive numbers. This means the solution is \(p &amp;lt; -1\).&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;div dir="ltr" align="left"&gt;
+
+        &lt;p dir="ltr"&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+
+        &lt;br&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/span&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1017">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655086405</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1018">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655086405</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="464">
+        <prevpageid>459</prevpageid>
+        <nextpageid>460</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655086603</timecreated>
+        <timemodified>1658805341</timemodified>
+        <title>2.9.4: Matching Inequalities and Solutions (Optional)</title>
+        <contents>&lt;h3&gt;Optional Activity (15 minutes)&lt;/h3&gt;&lt;p dir="ltr"&gt;This optional activity gives students additional practice in reasoning about the solutions to inequalities without a context. Students can match the inequalities and solutions in a variety of ways—by testing different values, by solving a related equation and then testing values on either side of that solution, by reasoning about the parts of an inequality or its structure, or by graphing each side of an inequality as a linear function.&lt;/p&gt;&lt;p dir="ltr"&gt;For all of the inequalities, once students find the boundary value by solving a related equation, the range of the solutions can be determined by analyzing the structure of the inequality. Monitor for students who do so and ask them to share their reasoning during class discussion later.&lt;/p&gt;&lt;p dir="ltr"&gt;As students work, also make note of any common challenges or errors so they could be addressed.&lt;/p&gt;&lt;h4&gt;Student-Facing Statement&lt;/h4&gt;&lt;p dir="ltr"&gt;Match each inequality to a graph that represents its solutions. Be prepared to explain or show your reasoning.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;\(6x\;\leq\;3x\)&lt;/li&gt;&lt;li&gt;\(\frac14x&amp;gt;-\frac12\)&lt;/li&gt;&lt;li&gt;\(5x+4\geq7x\)&lt;/li&gt;&lt;li&gt;\(8x-2&amp;lt;-4(x-1)\)&lt;/li&gt;&lt;li&gt;\(\frac{4x-1}3&amp;gt;-1\)&lt;/li&gt;&lt;li&gt;\(\frac{12}5-\frac x5\leq x\)&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;figure data-embedder-target="web" data-record-id="7746" data-record-model="TikzFile"&gt;&lt;p&gt;A&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/3K8rJthu3PcUExV7PPGH69B3" alt="Inequality graphed on a number line. Numbers from negative 10 to 10. At negative one half, open circle with line extending to the right. &amp;nbsp;"&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure data-embedder-target="web" data-record-id="7744" data-record-model="TikzFile"&gt;&lt;p&gt;B&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/8ynXuBau6fUd3P8fcGrfSSpg" alt="Inequality graphed on a number line. Numbers from negative 10 to 10. At two, closed circle with line extending to the left. &amp;nbsp;"&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure data-embedder-target="web" data-record-id="7743" data-record-model="TikzFile"&gt;&lt;p&gt;C&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/qoCDtvvwtwGuiysfLt4Fq1Zj" alt="Inequality graphed on a number line. Numbers from negative 10 to 10. At two, closed circle with line extending to the right."&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure data-embedder-target="web" data-record-id="7742" data-record-model="TikzFile"&gt;&lt;p&gt;D&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/fdZ6j2wuRhDfoDK9T6A429eb" alt="Inequality graphed on a number line. Numbers from negative 10 to 10. At &amp;nbsp;one half, open circle with line extending to the left. &amp;nbsp;"&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure data-embedder-target="web" data-record-id="9804" data-record-model="TikzFile"&gt;&lt;p&gt;E&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/UDvXopTGvHGJDu38p9L2FeKM" alt="Inequality graphed on a number line. Numbers from negative 10 to 10. At negative 2, open circle with line extending to the right."&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure data-embedder-target="web" data-record-id="7745" data-record-model="TikzFile"&gt;&lt;p&gt;F&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/gXwxWDvaUBLiBPb56zwwpBDq" alt="Inequality graphed on a number line. Numbers from negative 10 to 10. At 0, closed circle with line extending to the left."&gt;&lt;/figure&gt;&lt;h4&gt;Student Response&lt;/h4&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Graph F (for \(x\leq0\))&lt;/li&gt;&lt;li&gt;Graph E (for \(x&amp;gt;-2\))&lt;/li&gt;&lt;li&gt;Graph B (for \(x\leq2\))&lt;/li&gt;&lt;li&gt;Graph D (for \(x&amp;lt;12\))&lt;/li&gt;&lt;li&gt;Graph A (for \(x&amp;gt;-12\))&lt;/li&gt;&lt;li&gt;Graph C (for \(x\geq2\))&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;h4&gt;Activity Synthesis&lt;/h4&gt;&lt;p&gt;Select students who used different strategies to share their thinking, especially those who made use of the structure of the inequalities. If no students found solution sets by thinking about the features of the inequalities, demonstrate the reasoning process with one or two examples. For instance:&lt;/p&gt;&lt;p&gt;\(6x\leq3x\): After finding \(x=0\) as the solution to \(6x=3x\), we can reason that for \(6x\) to be less than \(3x\), \(x\) must include negative numbers, so the solution must be \(x≤0\).&lt;/p&gt;&lt;p&gt;\(4x-13&amp;gt;-1\): After finding \(x=-12\) as the solution to the related equation \(4x-13&amp;gt;-1\), we can reason that as \(x\) gets smaller, \(4x-13&amp;gt;-1\) is also going to get smaller. For that expression to be greater than \(-1\), \(x\) will have be to greater than \(-12\).&lt;/p&gt;&lt;p&gt;If time permits, ask students to choose a different inequality and try reasoning this way about its solution.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1019">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655086603</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1020">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655086603</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="461">
+        <prevpageid>460</prevpageid>
+        <nextpageid>462</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655086895</timecreated>
+        <timemodified>1658805692</timemodified>
+        <title>2.9.6: Writing Inequalities to Represent a Situation </title>
+        <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;&lt;span id="docs-internal-guid-403188fc-7fff-1030-a1f7-10c3084b7612"&gt;&lt;br&gt;
+    &lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
+    &lt;p dir="ltr"&gt;Lin’s job pays $8.25 an hour plus $10 of transportation allowance each week. She has to work at least 5 hours a week to keep the job, and she can earn up to $175 per week, including $10 to cover transportation per week.&lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-403188fc-7fff-1030-a1f7-10c3084b7612"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Represent this situation mathematically. If you use variables, specify what each one means.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-403188fc-7fff-1030-a1f7-10c3084b7612"&gt;&lt;span style="font-size: 0.9375rem;"&gt;How many hours per week can Lin work? Explain or show your reasoning.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol&gt;
+    &lt;/ol&gt;
+    &lt;h4&gt;Student Response&lt;/h4&gt;
+    &lt;ol&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-403188fc-7fff-1030-a1f7-10c3084b7612"&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(8.25h\;+\;10\;\leq\;175\) and \(h\;\geq\;5\), where \(h\) represents the number of hours Lin works in a week.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-403188fc-7fff-1030-a1f7-10c3084b7612"&gt;&lt;span style="font-size: 0.9375rem;"&gt;At least 5 hours and at most 20 hours (or \(5\leq\;h\;\leq20\)). Sample reasoning: The maximum amount she could earn, not including the transportation allowance, is $165. That amount is equal to 20 hours of work \((\frac{165}{8.25}=20)\).&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol&gt;
+    &lt;/ol&gt;
+    &lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
+    &lt;h5&gt;More Chances&lt;/h5&gt;
+    &lt;p dir="ltr"&gt;Students will have more opportunities to understand the mathematical ideas in this cool-down, so there is no need to slow down or add additional work to the next lessons. Instead, use the results of this cool-down to provide guidance for what to look for and emphasize over the next several lessons to support students in advancing their current understanding.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Students will have more opportunities in Lesson 2.12 (Solving Problems with Inequalities in Two Variables) to write inequalities to represent a situation.&lt;/p&gt;
+&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1023">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655086895</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1024">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655086895</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="462">
+        <prevpageid>461</prevpageid>
+        <nextpageid>463</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655086957</timecreated>
+        <timemodified>1658805729</timemodified>
+        <title>2.9.7: Practice </title>
+        <contents>&lt;div style="margin-left: 30px;" class="editor-indent"&gt;&lt;/div&gt;&lt;p dir="ltr" style="text-align: left;"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ol&gt;
+&lt;li dir="ltr"&gt;
+&lt;p dir="ltr"&gt;Alan is loading a pallet with boxes that each weigh 45 pounds. The pallet can safely support no more than 900 pounds. How many boxes can he safely load onto the pallet?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p&gt;              ____ boxes or less&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;20&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li dir="ltr"&gt;
+&lt;p dir="ltr"&gt;The elevator in Yehire’s apartment building has a sign that says the maximum weight is 2,100 pounds. If the average weight of one person is 150 pounds, how many people can safely ride the elevator?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p&gt;             a maximum of ___ people&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;14&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li dir="ltr"&gt;
+&lt;p dir="ltr"&gt;Andre is looking at apartments with three of his friends. They want the monthly rent to be no more than $2,360. If the roommates split the rent evenly among the four of them, what is the maximum rent each will pay?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p&gt;            $____&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;590&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li dir="ltr"&gt;
+&lt;p dir="ltr"&gt;Arleen got a $20 gift card for the coffee shop. Her favorite iced drink costs $3.79. What is the maximum number of drinks she can buy with the gift card?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p&gt;            ____ drinks&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt; 5&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ol start="5"&gt;
+&lt;li dir="ltr"&gt;
+&lt;p dir="ltr"&gt;Teegan likes to play golf. He has budgeted $60 next month for the driving range. It costs him $10.55 for a bucket of balls each time he goes. What is the maximum number of times he can go to the driving range next month?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 5&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ol start="6"&gt;
+&lt;li dir="ltr"&gt;
+&lt;p dir="ltr"&gt;Ryan charges his neighbors $17.50 to wash their car. How many cars must he wash next summer if his goal is to earn at least $1,500?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p&gt;            ____ cars&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;86&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ol start="7"&gt;
+&lt;li dir="ltr"&gt;
+&lt;p dir="ltr"&gt;Jake’s water bill is $24.80 per month plus $2.20 per ccf (hundred cubic feet) of water. What is the maximum number of ccf Jake can use if he wants his bill to be no more than $60?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p&gt;            ____ ccf&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;br&gt;ANSWER: &lt;/strong&gt;16&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;ol start="8"&gt;
+&lt;li dir="ltr"&gt;
+&lt;p dir="ltr"&gt;Look at the inequality \(5m + 6  &amp;lt; 14 - 2m\). Which of the following is NOT true?&lt;/p&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;If \(m\) is a negative number, then \(5m + 6\) could be a positive or negative number.&lt;/li&gt;
+&lt;li&gt;If \(m\) is a negative number, then \(14 - 2m\) will always be positive.&lt;/li&gt;
+&lt;li&gt;If \(m\) is a positive number, then \(5m + 6\) will always be positive.&lt;/li&gt;
+&lt;li&gt;If \(m\) is a negative number, then \(14 - 2m\) will always be negative.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;br&gt;ANSWER: &lt;/strong&gt;If &lt;em&gt;m&lt;/em&gt; is a negative number, then 14 − 2m will always be negative&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;ol start="9"&gt;
+&lt;li&gt;Solve the inequality: \(x + 8 &amp;gt; –12\)
+&lt;br&gt;&lt;ul&gt;&lt;li&gt;\( x &amp;gt; -20\)&lt;/li&gt;&lt;li&gt;\(x &amp;gt; 20\)&lt;/li&gt;&lt;li&gt;\( x &amp;gt; -4\) &lt;/li&gt;&lt;li&gt;&amp;nbsp;\(x &amp;gt; 4\)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;&lt;br&gt;ANSWER:&lt;/strong&gt; x &amp;gt; -20&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;&lt;p&gt;10. Solve the inequality: x – 15 &amp;lt;–3&lt;/p&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;ul&gt;
+&lt;li&gt;\(x &amp;lt; 18 \)&lt;/li&gt;
+&lt;li&gt;\(x &amp;lt; –12\)&lt;/li&gt;
+&lt;li&gt;\(x &amp;lt; 12\)&lt;/li&gt;
+&lt;li&gt;\( x &amp;lt; –18 \)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;strong&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\(x &amp;lt; 12\)&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;&lt;p&gt;11. Solve the inequality: x + 19 ≤ 23&lt;/p&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;ul&gt;
+&lt;li&gt; \(x ≥ 4\)&lt;/li&gt;
+&lt;li&gt; \(x ≤ -4\)&lt;/li&gt;
+&lt;li&gt; \(x ≤ 42\)&lt;/li&gt;
+&lt;li&gt; \(x ≤ 4\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;x ≤ 4&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;12. Solve the inequality: 7x &amp;lt; –56&lt;/p&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;ul&gt;
+&lt;li&gt; \(x &amp;gt; -8\)&lt;/li&gt;
+&lt;li&gt; \(x &amp;lt; -8\)&lt;/li&gt;
+&lt;li&gt; \(x &amp;lt; -63\)&lt;/li&gt;
+&lt;li&gt; \(x &amp;lt; -49\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\(x &amp;lt; -8\)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;13. Solve the inequality: \( \frac x2\leq\frac52\)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt;
+&lt;ul&gt;
+&lt;li&gt;\( x ≤ \frac52\)&lt;/li&gt;
+&lt;li&gt;\(x ≤ 5\)&lt;/li&gt;
+&lt;li&gt;\(x ≤ 2\)&lt;/li&gt;
+&lt;li&gt;\( x ≥ 5\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\(x ≤ 5\)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;14. Solve the inequality: -3x &amp;gt; 21&lt;/p&gt;
+&lt;ul&gt;
+&lt;/ul&gt;&lt;div style="margin-left: 30px;" class="editor-indent"&gt;&lt;ul&gt;&lt;li&gt;\(x &amp;lt; 18\)&lt;/li&gt;&lt;li&gt;\(x &amp;lt; -24\)&lt;/li&gt;&lt;li&gt;\(x &amp;gt; -7\)&lt;/li&gt;&lt;li&gt;\(x &amp;lt; -7\)&lt;br&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;
+ANSWER: &lt;/strong&gt;\(x &amp;lt; -7\)&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div style="margin-left: 30px;" class="editor-indent"&gt; &lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1025">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655086957</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1026">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655086957</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="463">
+        <prevpageid>462</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655087018</timecreated>
+        <timemodified>1658805743</timemodified>
+        <title>2.9.8: Lesson Summary</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-d62b4020-7fff-de65-ef76-7582ff2e2b9d"&gt;
+    &lt;p dir="ltr" style=""&gt;Display the following inequalities. Remind students that they are examples of inequalities written and solved in the lesson.&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;\(5.29p+4.98\leq60\)&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;\(0.4x\leq5\) and \(x\geq0\)&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;\(2(2x+1.5)&amp;lt;18−x\)&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;&lt;span style="font-size: 0.9375rem;"&gt;\(\frac15x&amp;gt;-10\)&lt;/span&gt;&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;Next, tell students that they will see some statements about writing and solving inequalities. Their job is to decide whether they agree or disagree with each statement and be prepared to defend their response. (One way to collect their responses is by asking them to give a discrete hand signal.)&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;Display the following statements, one at a time, for all to see. After students indicate their agreement or disagreement, select a student from each camp to explain their reasoning. Then invite others who are not convinced by the reasoning to offer a counterexample or an alternative view.&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-d62b4020-7fff-de65-ef76-7582ff2e2b9d"&gt;&lt;span style="font-size: 0.9375rem;"&gt;We can usually represent the constraints in a situation with a single inequality. (Disagree. Sometimes multiple inequalities are needed, depending on what’s happening in the situation.)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-d62b4020-7fff-de65-ef76-7582ff2e2b9d"&gt;&lt;span style="font-size: 0.9375rem;"&gt;The only way to check the solutions to an inequality is to see if they make sense in a situation. (Disagree. We can also check by substituting some values in the solution set back into the inequality to see if they make the inequality a true statement.)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-d62b4020-7fff-de65-ef76-7582ff2e2b9d"&gt;&lt;span style="font-size: 0.9375rem;"&gt;The only way to find the solutions to an inequality in one variable is by testing different values for the variable and seeing which ones work. (Disagree. We can also reason about the solutions in context, solve a related equation and test a higher and lower value, or use the structure of the inequality.)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;span id="docs-internal-guid-d62b4020-7fff-de65-ef76-7582ff2e2b9d"&gt;&lt;span style="font-size: 0.9375rem;"&gt;To express the solutions to an inequality in one variable, we always use the same inequality symbol as in the original inequality. (Disagree. There are different ways to express a solution set. The symbol we use would depend on how we reason about the solutions. For example, \(x&amp;lt;3 \) and \(3&amp;gt;x\) both represent the solution set to \(2(2x+1.5)&amp;lt;18-x\).)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p dir="ltr" style=""&gt;Make sure students see that there are reasons for disagreeing with each of these statements and can articulate some of the reasons.&lt;/p&gt;
+    
+&lt;/span&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1027">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655087018</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="460">
+        <prevpageid>464</prevpageid>
+        <nextpageid>461</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1655086735</timecreated>
+        <timemodified>1658808322</timemodified>
+        <title>2.9.5: Solving Inequalities </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span id="docs-internal-guid-ab8e0af7-7fff-e696-f9eb-786220ae3ea4"&gt;Activity (15 minutes)&lt;/span&gt;&lt;/h3&gt;
+&lt;h4&gt;&lt;span id="docs-internal-guid-ab8e0af7-7fff-e696-f9eb-786220ae3ea4"&gt;Launch&lt;/span&gt;&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-ab8e0af7-7fff-e696-f9eb-786220ae3ea4"&gt;In preparation for the activity, review the properties of equality. When the same operation is performed with the same number to both sides of an equation, the equation remains true. This will be used as a base to build upon for operations performed on an inequality.&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;span id="docs-internal-guid-ab8e0af7-7fff-e696-f9eb-786220ae3ea4"&gt;Student-Facing Statement&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-ab8e0af7-7fff-e696-f9eb-786220ae3ea4"&gt;In this activity, we’re going to solve inequalities. Work with a partner to solve each inequality given. Then match it with the number line representing its solution.&lt;/span&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-ab8e0af7-7fff-e696-f9eb-786220ae3ea4"&gt;
+    &lt;p dir="ltr"&gt;As you complete the activity, discuss with your partner how you know each number line is the solution to its inequality. &lt;br&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;When you think you’ve found the correct number line for an inequality, substitute a test point that is on the highlighted part of the number line into the inequality. Is it true?&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Try a test point that is not highlighted. Is the inequality false?&amp;nbsp;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;table&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol&gt;
+                        &lt;li&gt; \(x\;–\;4\;\leq\;-6\;\)&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;ol type="A" start="2"&gt;
+                        &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/382fc5944d156f96425a06cc472570c002f42690" alt="A number line is shown. There is a closed circle on 2. The number line to the right of 2 is highlighted." class="img-fluid atto_image_button_text-bottom" width="300" height="36"&gt;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol start="2"&gt;
+                        &lt;li&gt; \(x\;+\;6\;\geq\;8\;\)&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;ol type="A" start="2"&gt;
+                        &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/94f73128258a93e934f991bef7309c37be97bea1" alt="A number line is shown. There is a closed circle on –2. The number line to the right of –2 is highlighted." class="img-fluid atto_image_button_text-bottom" width="300" height="36"&gt;
+                        &lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol start="3"&gt;
+                        &lt;li&gt; \(4x\;\leq\;8\)&amp;nbsp; &amp;nbsp;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;ol type="A" start="3"&gt;
+                        &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/7178cecf06bf2c3b25ec36162f73f1ea4cc50692" alt="A number line is shown. There is a closed circle on 2. The number line to the left of 2 is highlighted." class="img-fluid atto_image_button_text-bottom" width="300" height="36"&gt;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol start="4"&gt;
+                        &lt;li&gt; \(-12x\;\leq\;1\;\)&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;ol type="A" start="4"&gt;
+                        &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6520962dc39f9e08095041073ca8d01671f0f75d" alt="A number line is shown. There is a closed circle on –2. The number line to the left of –2 is highlighted." class="atto_image_button_text-bottom" width="300" height="36"&gt;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;br&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;For each of the inequalities above, match it to the property you used to solve.&lt;/p&gt;&lt;br&gt;
+    &lt;table&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol start="5"&gt;
+                        &lt;li&gt; \(x\;-\;4\;\leq\;-6\)&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;ol type="A"&gt;
+                        &lt;li&gt; Multiplication Property of Inequality &lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol start="6"&gt;
+                        &lt;li&gt; \(x\;+\;6\;\leq\;8\)&amp;nbsp; &amp;nbsp;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;ol type="A" start="2"&gt;
+                        &lt;li&gt; Addition Property of Inequality &lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol start="7"&gt;
+                        &lt;li&gt; \(4x\;\leq\;8\)&amp;nbsp; &amp;nbsp;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;ol type="A" start="3"&gt;
+                        &lt;li&gt; Division Property of Inequality &lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol start="8"&gt;
+                        &lt;li&gt; \(-12x\;\leq\;1\)&amp;nbsp;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;ol type="A" start="4"&gt;
+                        &lt;li&gt; Subtraction Property of Inequality &lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;br&gt;
+    &lt;ol start="9"&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Is there anything unique about the method used to solve \(-12x\;\leq\;1\)? Explain.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;h4&gt;Student Response&lt;/h4&gt;
+    
+    &lt;ol&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;C&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;A&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;D&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;B&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;B&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;D&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;C or A&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;A or C&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Yes. The inequality contains a less than or equal to symbol \((\leq)\). However, in the solution there is a greater than or equal to symbol \((\geq)\). When using the Multiplication and Division Properties of Inequality, you must reverse the symbol when you multiply or divide by a negative number.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+    &lt;p dir="ltr"&gt;Remind students that reversing the inequality symbol in a statement does not apply when adding or subtracting a negative number on both sides of an inequality. It only applies to multiplying or dividing with a negative number.&lt;/p&gt;
+    &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+    &lt;p dir="ltr"&gt;Discuss how the Properties of Inequalities are similar to the Properties of Equality. Emphasize that performing the same action to each side of the inequality or equation maintains the truth of the statement. Mention that to solve the inequality, the goal is still to isolate the variable.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;It should be remembered that the Multiplication and Division Properties of Inequality are unique because when multiplying or dividing by a negative number, the inequality symbol must be reversed to maintain the inequality’s truth.&lt;/p&gt;&lt;br&gt;
+    &lt;h3&gt;2.9.5: Self Check &lt;br&gt;&lt;/h3&gt;
+    &lt;p dir="ltr"&gt;&lt;em&gt;&lt;strong&gt;Following the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+    &lt;div dir="ltr" align="left"&gt;
+        &lt;table&gt;
+            &lt;colgroup&gt;
+                &lt;col width="302"&gt;
+                &lt;col width="322"&gt;
+            &lt;/colgroup&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td colspan="2"&gt;
+                        &lt;p dir="ltr"&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+                        &lt;p dir="ltr"&gt;Solve the inequality. Which number line represents the solution?&lt;/p&gt;
+                        &lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+                            &lt;p dir="ltr"&gt;\(-\;\frac13m\;\leq\;5\)&lt;/p&gt;
+                        &lt;/div&gt;&lt;br&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;br&gt;
+                        &lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/bce9b45c0860cae5f03cf88e7b8638bcdb744865" alt="There is a number line shown with a closed circle on 15. The number line to the left of 15 is highlighted." class="img-fluid atto_image_button_text-bottom" width="300" height="36"&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: This number line represents \(m\;\leq\;15\). However, substituting \(-16\) makes the inequality false. The answer is D, or \(m\;\geq\;-15\).&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;br&gt;
+                        &lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8aac2fd9d1dbe2f99395c66587449e4a04eb629c" alt="There is a number line shown with a closed circle on 15. The number line to the right of 15 is highlighted." class="img-fluid atto_image_button_text-bottom" width="300" height="36"&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: This number line represents \(m\;\geq\;15\). However, substituting 14 makes the inequality true. The answer is D, or \(m\;\geq\;-15\).&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;br&gt;
+                        &lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cf25238a45907e3f3e519345648129064e2cd2e5" alt="There is a number line shown with a closed circle on -15. The number line to the left of -15 is highlighted." class="img-fluid atto_image_button_text-bottom" width="300" height="36"&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: This number line represents \(m\;\leq\;-15\). However, substituting \(-16\) makes the inequality false. The answer is D, or \(m\;\geq\;-15\).&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;br&gt;
+                        &lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/23ef0bb0834b20bcfff8b36daafb2fe717ce9dfc" alt="There is a number line shown with a closed circle on -15. The number line to the right of -15 is highlighted." class="img-fluid atto_image_button_text-bottom" width="300" height="36"&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;That’s correct! Check yourself: The correct answer is \(m\;\geq\;-15\). Substituting \(-14\) makes the inequality true. Substituting \(-16\) makes the inequality false.&amp;nbsp;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;p dir="ltr"&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;h3&gt;2.9.5: Additional Resources&lt;/h3&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it. &lt;br&gt;&lt;/p&gt;
+    &lt;h4&gt;Solving Linear Inequalities&lt;/h4&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;A linear inequality is much like a linear equation—but the equal sign is replaced with an inequality sign. So, when we solve linear equations, we are able to use the properties of equality to add, subtract, multiply, or divide both sides and still keep the equality. Similar properties hold true for inequalities.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;We can add or subtract the same quantity from both sides of an inequality and still keep the inequality. For example:&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src="https://k12.openstax.org/contents/raise/resources/65d84793ccf7def97bb9e482b51b063196edf254" alt="Negative 4 is less than 2. Negative 4 minus 5 is less than 2 minus 5. Negative 9 is less than negative 3, which is true. Negative 4 is less than 2. Negative 4 plus 7 is less than 2 plus 7. 3 is less than 9, which is true."&gt;&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;Notice that the inequality sign stayed the same.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;This leads us to the Addition and Subtraction Properties of Inequality.&lt;/p&gt;&lt;br&gt;
+
+    &lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;&lt;strong&gt; ADDITION AND SUBTRACTION PROPERTIES OF INEQUALITY
+        &lt;/strong&gt;
+        &lt;hr&gt;
+        &lt;p&gt;For any numbers \(a\), \(b\), and \(c\),&amp;nbsp;if \(a&amp;lt;b\), then&lt;/p&gt;
+
+        &lt;p align="center"&gt;\(a+c&amp;lt;b+c\)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;\(a−c&amp;lt;b−c\)&lt;/p&gt;
+
+        &lt;p&gt;For any numbers&amp;nbsp;&lt;em&gt;&lt;/em&gt;\(a\), \(b\), and \(c\),&amp;nbsp;if \(a&amp;gt;b\), then &lt;/p&gt;
+
+        &lt;p align="center"&gt;\(a+c&amp;gt;b+c\)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;\(a−c&amp;gt;b−c\)&lt;/p&gt;
+
+        &lt;p&gt;We can add or subtract
+            the same quantity from both sides of an inequality and still keep the
+            inequality.&lt;/p&gt;
+    &lt;/div&gt;
+
+
+
+
+
+
+
+    &lt;p dir="ltr"&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;What happens to an inequality when we divide or multiply both sides by a constant?&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Let’s first multiply and divide both sides by a positive number.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/a2e4b2e72fb097d63fa37dcb10ad973ab98dbeec" alt="10 is less than 15. 10 times 5 is less than 15 times 5. 50 is less than 75 is true. 10 is less than 15. 10 divided by 5 is less than 15 divided by 5. 2 is less than 3 is true."&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;The inequality signs stayed the same.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Does the inequality stay the same when we divide or multiply by a negative number?&lt;/p&gt;
+    &lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/0a933b3ce50677d122b976a29bcaac88bf759939" alt="10 is less than 15 10 times negative 5 is blank 15 times negative 5? Negative 50 is blank negative 75. Negative 50 is greater than negative 75. 10 is less than 15. 10 divided by negative 5 is blank 15 divided by negative 5. Negative 2 is blank negative 3. Negative 2 is blank negative 3."&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Notice that when we filled in the inequality signs, the inequality signs reversed their direction.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;When we divide or multiply an inequality by a positive number, the inequality sign stays the same. When we divide or multiply an inequality by a negative number, the inequality sign reverses.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;This gives us the Multiplication and Division Properties of Inequality.&lt;/p&gt;&lt;br&gt;
+    &lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;&lt;strong&gt; MULTIPLICATION AND DIVISION PROPERTIES OF INEQUALITY
+        &lt;/strong&gt;
+        &lt;hr&gt;
+        &lt;p&gt;For any numbers \(a\), \(b\), and \(c\),&amp;nbsp;&lt;/p&gt;
+        &lt;p style="margin-left: 60px;"&gt;multiply or divide by a positive&lt;/p&gt;
+        &lt;p style="margin-left: 80px;"&gt;if \(a&amp;lt; b\) and \(c &amp;gt; 0\), then \(ac &amp;lt; bc\) and \(\frac ac&amp;lt;\frac bc\)&lt;/p&gt;
+        &lt;p style="margin-left: 80px;"&gt;if \(a&amp;gt; b\) and \(c &amp;gt; 0\), then \(ac &amp;gt; bc\) and&amp;nbsp; \(\frac ac&amp;gt;\frac bc\)&lt;br&gt;&lt;/p&gt;
+        &lt;p style="margin-left: 60px;"&gt;Multiply or divide by a negative&lt;/p&gt;
+        &lt;p style="margin-left: 80px;"&gt;if \(a&amp;lt; b\) and \(c &amp;lt; 0\), then \(ac &amp;gt; bc\) and \(\frac ac&amp;gt;\frac bc\)&lt;br&gt;&lt;/p&gt;
+        &lt;p style="margin-left: 80px;"&gt;if \(a&amp;gt; b\) and \(c &amp;lt; 0\), then \(ac &amp;lt; bc\) and&amp;nbsp; \(\frac ac&amp;lt;\frac bc\)&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;p dir="ltr"&gt;&lt;/p&gt;
+    &lt;p&gt;When we divide or multiply an inequality by a:&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt;positive number, the inequality stays the same.&lt;/li&gt;
+        &lt;li&gt;negative number, the inequality reverses.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;Sometimes when solving an inequality, as in the next example, the variable ends upon the right. We can rewrite the inequality in reverse to get the variable to the left.&lt;/p&gt;
+&lt;/span&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+    &lt;div class="editor-indent" style="margin-left: 30px;"&gt;&lt;span&gt;
+            &lt;p&gt;\(x&amp;gt;a\) has the same meaning as \(a&amp;lt;x\).&lt;/p&gt;
+        &lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;span&gt;
+    &lt;p&gt;Think about it as “If Xander is taller than Andy, then Andy is shorter than Xander.”&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;&lt;strong&gt;EXAMPLE &lt;br&gt;&lt;/strong&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Solve each inequality. Graph the solution on the number line, and write the solution in interval notation.&lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;\(x\;-\;38\;\leq\;34\)&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;\(-15 &amp;lt; 38z\)&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;&lt;strong&gt;Solution&lt;/strong&gt;&lt;/p&gt;
+    
+    
+    &lt;table style="border:1px solid #f2f2f2;" width="729" cellspacing="0" cellpadding="0"&gt;
+        &lt;tbody&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;1.&lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/b37f0465ba983e92ed54a5b74c7abdc72b56b24c" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Add&amp;nbsp;\(\frac38\) to both sides of the
+                        inequality.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/0269076a5c1dc7a67414439ef0d8232f2f517a56" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Simplify.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/fff8fa279392d0a7eb384711d1d2d1ccb4982b2c" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Graph the solution on the number
+                        line.    &amp;nbsp;&amp;nbsp;&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c83e52917f88c52d6badd18fc875c88fbf4621c8" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Write the solution in interval
+                        notation.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/d41022dc43f39640ee341ded1b0f878f3dea8979" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;br&gt;
+    
+    
+    
+    
+    &lt;table style="border:1px solid #f2f2f2f;" width="729" cellspacing="0" cellpadding="0" border="0"&gt;
+        &lt;tbody&gt;
+            &lt;tr style="border:1px solid #f2f2f2f;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;2. &lt;br&gt;&lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e9d67dd3df5527c1427d08ad3214ff0dd74abf2d" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Multiply both sides of the
+                        inequality by \(\frac53\).&lt;br&gt;
+                        Since&amp;nbsp;\(\frac53\) is positive, the inequality
+                        stays the same.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5c645bb15c6408917410c511565a81bf0342ba9b" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Simplify.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5b699467fee631c90994dc4caa2a8a38077ed2d8" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Rewrite with the variable on the
+                        left.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/d85de67357925028739792f147834b16dedb87c0" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Graph the solution on the number
+                        line.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/4f24f66df266a47807d84a9fd9dd8e8d95c26cc2" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Write the solution in interval
+                        notation.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e4f5cd58d81b7af15d4facd90d5ce64945e177f2" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;br&gt;
+    &lt;h4&gt;Try It: Solving Linear Inequalities&lt;/h4&gt;&lt;br&gt;
+    &lt;ol&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;\(9y&amp;lt;​​54\)&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol start="2"&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;\(-13m\;\geq\;65\)&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;Write down your answers. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;&lt;br&gt;
+    &lt;h5&gt;Solution&lt;span&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/h5&gt;
+    &lt;table style="border:1px solid #f2f2f2;" width="729" cellspacing="0" cellpadding="0" border="0"&gt;
+        &lt;tbody&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;1.&lt;br&gt;&lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/4ba3d45e9f9b993a3566f3ffad1116078eae8a6e" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Divide both sides of the
+                        inequality by 9; since  &lt;br&gt;
+                        9 is positive, the inequality stays the same.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6773ec8414de5ad64a9904658f0609380687e476" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Simplify.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/800acc0797a129647ec700ed111d8b6d2513f300" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Graph the solution on the number
+                        line.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/de89c80e4ed83d804b7a227a69c3ba2a026b3076" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Write the solution in interval
+                        notation.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c0eeea845ceeb9a595860897659e1d9e570127af" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;span&gt;&lt;table style="border:1px solid #f2f2f2;" width="729" cellspacing="0" cellpadding="0" border="0"&gt;
+        &lt;tbody&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td&gt;2.&lt;br&gt;&lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/18d2376439c24383c40eb738f085c856282c6645" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Divide both sides of the
+                        inequality by \(-13\).&amp;nbsp;Since \(-13\) is negative, the
+                        inequality reverses.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/91174e5579f866823b9d40669d536e4702bd3801" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Simplify.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6629394f4a3da1e78e6462629f50f6cf7d6f7f0f" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Graph the solution on the number
+                        line.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e570c21627edfe973de18cd169aa0a19b5f82a7d" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr style="border:1px solid #f2f2f2;"&gt;
+                &lt;td style="border:1px solid #f2f2f2;"&gt;
+                    &lt;p&gt;Write the solution in interval
+                        notation.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td style="border:1px solid #f2f2f2;" valign="top"&gt;
+                    &lt;p align="center"&gt;
+                        &lt;!--[if !vml]--&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f3e7f78d305ab659a11769ea83477b39a1c5dcd7" alt="."&gt;
+                        &lt;!--[endif]--&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;&lt;br&gt;
+    &lt;div dir="ltr" align="left"&gt;
+
+        &lt;p dir="ltr"&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+
+    &lt;/div&gt;&lt;/span&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-ab8e0af7-7fff-e696-f9eb-786220ae3ea4"&gt;&lt;p dir="ltr"&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;br&gt;&lt;span id="docs-internal-guid-ab8e0af7-7fff-e696-f9eb-786220ae3ea4"&gt;&lt;p dir="ltr"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1021">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655086735</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1022">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1655086735</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>
