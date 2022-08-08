@@ -355,7 +355,7 @@
         * [2.1.4: Exploring a System of Equations](./html/74589de2-ef57-4840-9e01-ffb82286727b.html)
         * [2.1.5: Practice](./html/8d9d826b-59e9-4774-ab2f-0d26597de393.html)
         * [2.1.6: Lesson Synthesis](./html/1a1e54a8-ab5d-4bf0-9b0c-eae0405adb47.html)
-    * Lesson 2.1: Writing and Graphing Systems of Equations (student)
+    * Lesson 2.1: Writing and Graphing Systems of Equations
         * [2.1.0: Lesson Overview](./html/48cdc8d8-85c3-4370-8631-b8d8bea1b3a5.html)
         * [2.1.1: Understanding Constraints and Values](./html/40407688-4452-4539-9d0e-17754628b0b2.html)
         * [2.1.2: Writing and Graphing Equations](./html/96732a05-1b58-45b0-bff0-09aeaf0bf3c3.html)
