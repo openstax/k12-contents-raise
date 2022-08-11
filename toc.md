@@ -166,7 +166,7 @@
         * [1.7.2: Explaining Acceptable Moves to Solve an Equation](./html/d3cb02d9-d96c-4fa1-bbf3-ab069a184ce1.html)
         * [1.7.2: Self Check](./html/09f82676-cf96-4b68-86dc-4d83b6f274f9.html)
         * [1.7.2: Additional Resources ](./html/aedb0913-a0ca-422b-bbe9-abce08512c94.html)
-        * [1.7.3: Equations with No Solution or Infinitely Many](./html/b10a20f1-3653-40ee-a5b6-27799b84b829.html)
+        * [1.7.3: Understanding Equations with No Solution or Infinitely Many](./html/b10a20f1-3653-40ee-a5b6-27799b84b829.html)
         * [1.7.3: Self Check](./html/3de5af2c-c810-4c57-a682-d4c8fa51957f.html)
         * [1.7.3: Additional Resources ](./html/568d8097-a8e1-40e0-a1df-72ba4d1d5a98.html)
         * [1.7.4: Solving Equations by Dividing Values](./html/1f9e8458-0d5f-4d4c-b3db-3578d88a7428.html)
