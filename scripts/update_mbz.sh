@@ -7,11 +7,6 @@ if ! command -v extract-html-contents &> /dev/null; then
     exit 1
 fi
 
-# Copy mbz-dev to mbz
-rm -rf mbz
-cp -r mbz-dev mbz
-git add mbz
-git commit -m "Move mbz-dev to mbz tree"
 # Remove styles
 remove-styles mbz
 git add mbz
