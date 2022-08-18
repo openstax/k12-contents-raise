@@ -10,7 +10,7 @@ RUN chown -R www-data:www-data /var/www/html/
 
 RUN apt-get update && apt-get install -y cron
 
-COPY authoring/docker/moodle-config.php /var/www/html/config.php
-COPY authoring/docker/php.ini-development /usr/local/etc/php/php.ini
-COPY authoring/docker/cron.moodle /etc/cron.d/moodle
+COPY moodle-config.php /var/www/html/config.php
+COPY php.ini-development /usr/local/etc/php/php.ini
+COPY cron.moodle /etc/cron.d/moodle
 RUN chmod 644 /etc/cron.d/moodle
