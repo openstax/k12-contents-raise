@@ -2,32 +2,22 @@ version: "3.8"
 services:
   moodle:
     build:
-      context: .
-      dockerfile: authoring/docker/Dockerfile
-      target: ${MOODLE_TARGET:-dev}
-    volumes: &moodlevolumes
-      - moodledata:/var/www/moodledata
-      - .:/repo
+      context: moodle
+      dockerfile: Dockerfile
     networks:
       - raisemoodle
     environment: &moodleenv
       MOODLE_DOCKER_DBHOST: postgres
       MOODLE_DOCKER_DBNAME: $POSTGRES_DB
       MOODLE_DOCKER_DBUSER: $POSTGRES_USER
-      MOODLE_DOCKER_DBPASS: $POSTGRES_PASSWORD
-      MOODLE_DOCKER_WWWROOT: http://localhost:8000
-      MOODLE_DOCKER_DATAROOT: /var/www/moodledata
-      MOODLE_DOCKER_SMTPHOST: mailhog:1025
     ports:
       - 8000:80
     depends_on:
       - postgres
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
   cron:
     build:
-      context: .
-      dockerfile: authoring/docker/Dockerfile
+      context: moodle
+      dockerfile: Dockerfile
     command: /bin/bash -c "printenv | grep MOODLE > /etc/environment; cron -f"
     volumes: *moodlevolumes
     networks:
@@ -37,9 +27,9 @@ services:
       - moodle
   contentapi:
     build:
-      context: authoring/services/contentapi
+      context: contentapi
     volumes:
-      - ./services/contentapi/html:/html
+      - ../../html:/html
     networks:
       - raisemoodle
     ports:
@@ -51,9 +41,9 @@ services:
     networks:
       - raisemoodle
     environment:
-      - POSTGRES_USER
-      - POSTGRES_PASSWORD
-      - POSTGRES_DB
+      - POSTGRES_USER=moodle
+      - POSTGRES_PASSWORD=moodledbpassword
+      - POSTGRES_DB=moodle
 networks:
   raisemoodle:
 volumes:

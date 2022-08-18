@@ -1,11 +1,9 @@
+from http.client import HTTPException
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 from pathlib import Path
-
-DEFAULT_CONTENT_TEMPLATE = "<div><p>This is content for ID {}</p>" \
-    "<p>Math: \\( \\frac{{1}}{{2}} \\)</p></div>"
 
 
 HTML_DATA_PATH = "/html"
@@ -38,7 +36,7 @@ async def create_event(content_id):
     if maybe_html_data.exists():
         content = maybe_html_data.read_text(encoding="utf-8")
     else:
-        content = DEFAULT_CONTENT_TEMPLATE.format(content_id)
+        raise HTTPException(status_code=404, detail="Item not found")
     content_item = ContentItem(variant="main", html=content)
     data = ContentData(id=content_id, content=[content_item])
     return data
