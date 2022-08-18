@@ -14,8 +14,8 @@ if [ ! -e "$INPUT_MBZ" ]; then
     exit 1
 fi
 
-rm -rf mbz-dev
-mkdir mbz-dev
-tar -C mbz-dev -xvzf "$INPUT_MBZ"
-git add mbz-dev
-git commit -m "Update mbz-dev tree"
+rm -rf mbz
+mkdir mbz
+tar -C mbz -xvzf "$INPUT_MBZ"
+git add mbz
+git commit -m "Import mbz tree"
