@@ -3,7 +3,6 @@ services:
   moodle:
     build:
       context: moodle
-      dockerfile: Dockerfile
     networks:
       - raisemoodle
     environment: &moodleenv
@@ -17,7 +16,6 @@ services:
   cron:
     build:
       context: moodle
-      dockerfile: Dockerfile
     command: /bin/bash -c "printenv | grep MOODLE > /etc/environment; cron -f"
     volumes: *moodlevolumes
     networks:
