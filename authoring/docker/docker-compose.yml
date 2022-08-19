@@ -1,0 +1,54 @@
+version: "3.8"
+services:
+  moodle:
+    build:
+      context: moodle
+    volumes: &moodlevolumes
+      - moodledata:/var/www/moodledata
+    networks:
+      - raisemoodle
+    environment: &moodleenv
+      MOODLE_DOCKER_DBHOST: postgres
+      MOODLE_DOCKER_DBNAME: $POSTGRES_DB
+      MOODLE_DOCKER_DBUSER: $POSTGRES_USER
+      MOODLE_DOCKER_DBPASS: $POSTGRES_PASSWORD
+      MOODLE_DOCKER_WWWROOT: http://localhost:8000
+      MOODLE_DOCKER_DATAROOT: /var/www/moodledata
+    ports:
+      - 8000:80
+    depends_on:
+      - postgres
+  cron:
+    build:
+      context: moodle
+    command: /bin/bash -c "printenv | grep MOODLE > /etc/environment; cron -f"
+    volumes: *moodlevolumes
+    networks:
+      - raisemoodle
+    environment: *moodleenv
+    depends_on:
+      - moodle
+  contentapi:
+    build:
+      context: contentapi
+    volumes:
+      - ../../html:/html
+    networks:
+      - raisemoodle
+    ports:
+      - 8800:80
+  postgres:
+    image: "postgres:13"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - raisemoodle
+    environment:
+      - POSTGRES_USER
+      - POSTGRES_PASSWORD
+      - POSTGRES_DB
+networks:
+  raisemoodle:
+volumes:
+  pgdata:
+  moodledata:
