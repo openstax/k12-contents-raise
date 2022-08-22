@@ -20,4 +20,4 @@ The content in the `mbz` directory of this repo can be updated given an input `.
 $ /scripts/import_mbz.sh content.mbz
 ```
 
-The script will stage the commit which includes the stages. This can be reviewed prior to creating the commit itself.
+The script will create the commits which include the stages. 
