@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="68" moduleid="91" modulename="lesson" contextid="102">
+  <lesson id="68">
+    <course>2</course>
+    <name>Lesson 3.2 Teacher Guide: Fitting Lines</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1657553307</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="612">
+        <prevpageid>0</prevpageid>
+        <nextpageid>613</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657553989</timecreated>
+        <timemodified>1659407407</timemodified>
+        <title>3.2.0: Lesson Overview</title>
+        <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
+&lt;p dir="ltr"&gt;The purpose of this activity is for students to informally assess the fit of various lines to data, to use technology to find the line of best fit, and to interpret the slope and vertical intercept of the linear model. The work connects to previous work because students created scatter plots and created linear models for the data. The work connects to upcoming work because students will use the correlation coefficient to describe the strength of the linear relationship.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;When students sort scatter plots into linear and nonlinear categories, and when they organize lines of best fit by the goodness of fit, they look for and make use of structure because they are analyzing representations and structures closely and making connections. Students are reasoning abstractly and quantitatively when they interpret the meaning of the slope and vertical intercept in context.&lt;/p&gt;
+&lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Students will be able to:&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Determine which linear model is a better fit for a given data set.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Interpret (orally and in writing) the rate of change and vertical intercept for a linear model in everyday language.&lt;/li&gt;
+    &lt;li&gt;Use technology to generate the line of best fit, and use the equation representing the linear model to predict (extrapolate) and estimate (interpolate) values not given in the data set.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Describe the rate of change and \(y\)-intercept for a linear model in everyday language.&lt;/li&gt;
+    &lt;li&gt;Use technology to find the line of best fit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;strong&gt;
+    &lt;p dir="ltr"&gt;&lt;/p&gt;
+    &lt;div dir="ltr" style="text-align: left;"&gt;
+        &lt;table border="1" cellpadding="5"&gt;
+            &lt;colgroup&gt;
+                &lt;col width="50%"&gt;
+                &lt;col width="50%"&gt;
+            &lt;/colgroup&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr" style="text-align: center;"&gt;TEKS&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr" style="text-align: center;"&gt;Explanation of Coverage&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;&lt;span style="font-weight: normal;"&gt;4(C) write, with and without technology, linear functions that provide a reasonable fit to data to estimate solutions and make predictions for real-world problems.&lt;/span&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p dir="ltr"&gt;&lt;span style="font-weight: normal;"&gt;Full coverage: Lesson provides content that covers all parts of this TEKS.&lt;/span&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+&lt;/strong&gt;
+&lt;p dir="ltr"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h4&gt;Lesson Activities&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;3.2.1: Selecting the Best Line&lt;/li&gt;
+    &lt;li&gt;3.2.2: Determining the Best Line That Fits the Data&lt;ul&gt;
+            &lt;li&gt;3.2.2: Self Check&amp;nbsp;&lt;/li&gt;
+            &lt;li&gt;3.2.2: Additional Resources&amp;nbsp;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;3.2.3: Assessing the Fit of a Linear Model&lt;ul&gt;
+            &lt;li&gt;3.2.3: Self Check&amp;nbsp;&lt;/li&gt;
+            &lt;li&gt;3.2.3: Additional Resources&amp;nbsp;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;3.2.4: Working with Fitted Lines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Students will also complete a series of problems in the 3.2.5: Practice.&lt;/p&gt;
+&lt;h4&gt;Required Materials&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Graphing technology&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/1a32fc7619feae137f83a8a58369c908593bb1d8" target="_blank"&gt;Activity 3.2.2 card sort&lt;/a&gt; blackline masters&lt;/li&gt;
+    &lt;li&gt;Coordinate grids&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Required Preparation&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Print and cut up slips for the &lt;a href="https://k12.openstax.org/contents/raise/resources/1a32fc7619feae137f83a8a58369c908593bb1d8" target="_blank"&gt;card sort.&lt;/a&gt; Prepare one copy of the blackline master for every group of 2 students. To find best fit lines, students will need access to technology that will compute the least-squares regression lines for a set of data.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Acquire devices that can run Desmos (recommended) or other graphing technology. It is ideal if each student has their own device.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
+&lt;p dir="ltr"&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings.&lt;/li&gt;
+    &lt;li&gt;Encourage students to use key vocabulary words in “math talk” and their written and oral explanations.&lt;/li&gt;
+    &lt;li&gt;Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Vocabulary words that are emphasized in this lesson include:&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;scatter plot&lt;/li&gt;
+    &lt;li&gt;slope&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;\(y\)-intercept&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;line of best fit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 1.40625rem; font-weight: 700;"&gt;Support for Building Character&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;purpose&lt;/strong&gt;.&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Here are some tips to try during this lesson:&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/career-paths/" target="_blank"&gt;Career Paths&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/the-why-of-education/" target="_blank"&gt;The Why of Education&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;You can find other tips located here in the &lt;a href="https://characterlab.org/playbooks/purpose/" target="_blank"&gt;Playbook on Purpose&lt;/a&gt;&amp;nbsp;from Character Lab.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1371">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657553989</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="613">
+        <prevpageid>612</prevpageid>
+        <nextpageid>614</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657554474</timecreated>
+        <timemodified>1658679754</timemodified>
+        <title>3.2.1: Selecting the Best Line</title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
+&lt;p dir="ltr"&gt;The mathematical purpose of this activity is for students to be able to visually assess the best line that fits data among a set of choices. Students are given a scatter plot and 2 lines that may fit the data. Students must select the line that better fits the data. The given lines address many common errors in student thinking about best fit lines, including: going through the most points, dividing the data in half, and connecting the points on both ends of the scatter plot.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Listen for students using the terms slope and \(y\)-intercept.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Provide students access to the images. Give students 2 minutes of quiet time to work on the questions.&lt;/p&gt;
+&lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Which of the lines is the better fit for the data in each scatter plot? Explain your reasoning.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/JZMYPzSDTWJqQJVRP9m73dTe" alt="Scatter plot with two lines."&gt;&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/wfWNwjQBLUkPtRxoAEn3TyG1" alt="Scatter plot with two lines of best fit."&gt;&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Jj9GYvFxHBukaqGG3inS7QCY" alt="Scatter plot with two lines of best fit."&gt;&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/m1Mu2aUKEeZfnSiRg2jZ58CY" alt="Scatter plot with 2 lines of best fit."&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Student Response&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Sample response: The solid line is the better fit for the data since it goes through the middle of the data and follows the negative trend of the data.&lt;/li&gt;
+    &lt;li&gt;Sample response: The solid line is the better fit for the data since it goes through the middle of the data with approximately equal numbers of data points on either side of the line.&lt;/li&gt;
+    &lt;li&gt;Sample response: The dashed line is the better fit for the data since it goes through the middle of the data with a slope that follows the trend of the data. The solid line has a lot of points above the line to start and a lot of points below the line at the end.&lt;/li&gt;
+    &lt;li&gt;Sample response: The dashed line is the better fit for the data since it goes through the middle of the data, follows the trend of the data, and has a similar number of points on each side. The solid line fits the first and last point perfectly, but most of the data points are above the line.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;The purpose of this discussion is to understand bad fit, good fit, and best fit. In each scatter plot, the solid line represents the line of best fit—except for the last two graphs, for which the dashed line is the best fit.&lt;/p&gt;
+&lt;p&gt;Ask a student who uses the term slope while working the questions, “Can you explain the relationship between the two lines in the question about runs and wins using the concept of slope?” (The slope of the dashed line is positive, and the slope of the solid line is negative.)&lt;/p&gt;
+&lt;p&gt;Ask a student who uses the term \(y\)-intercept, “Can you explain the significance of the \(y\)-intercept&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;&amp;nbsp;in the question about average survey scores and amount spent on dinner?” (The solid line will have a \(y\)-intercept less than the \(y\)-intercept for the dashed line. Because the two lines have approximately the same slope, they appear parallel in the scatter plot.)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If time permits, discuss questions such as:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;“Is the dashed line in the question about runs and wins a bad fit, good fit, or best fit?” (The line is a bad fit because it does not show the correct relationship between the variables. It shows that the value of \(y\) increases as the value of \(x\) increases, rather than the value of \(y\) decreasing as the value of \(x\) increases.)&lt;/li&gt;
+    &lt;li&gt;“Is the dashed line in the question about oil and gas price a bad fit, good fit, or best fit?” (It is the best fit because it is close to going through the middle of the data and follows the same trend as the data.)&lt;/li&gt;
+    &lt;li&gt;“What factors helped you select the linear model that fits the data best?” (The line should go through the middle of the data, follow the trend of the data, and have a similar number of points on each side of the line.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1372">
+            <jumpto>612</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657554474</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1373">
+            <jumpto>614</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657554474</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="614">
+        <prevpageid>613</prevpageid>
+        <nextpageid>615</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657555697</timecreated>
+        <timemodified>1659021824</timemodified>
+        <title>3.2.2: Determining the Best Line That Fits the Data</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p dir="ltr"&gt;The mathematical purpose of this activity is for students to:&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Distinguish between linear and nonlinear relationships in bivariate, numerical data.&lt;/li&gt;
+  &lt;li&gt;Informally assess the fit of a linear model.&lt;/li&gt;
+  &lt;li&gt;Compare the slope and the vertical intercepts of different linear models.&lt;/li&gt;
+  &lt;li&gt;Describe the relationship between two variables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Students are given cards showing scatter plots and a linear model. They sort the cards based on how well the lines fit the data as well as by slope and intercept in increasing order.&lt;/p&gt;
+&lt;p dir="ltr"&gt;A sorting task gives students opportunities to analyze representations, statements, and structures closely and make connections.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Arrange students in groups of 2. Give students a chance to familiarize themselves with what is on the cards. For example, you might ask them to sort the cards into categories of their choosing and explain their categories to their partner.&lt;/p&gt;
+&lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+  &lt;p dir="ltr"&gt;&lt;em&gt;Conversing:&amp;nbsp; Discussion Supports.&lt;/em&gt; In pairs, ask students to take turns sorting the cards and explaining their reasoning to their partner. Display the following sentence frames for all to see: “ _____ should be before _____ because . . . ,” and “I noticed _____ , so I . . . .” Encourage students to challenge each other when they disagree. This will help students clarify their reasoning about linear models.&lt;/p&gt;
+  &lt;p dir="ltr"&gt;&lt;em&gt;Design Principle(s): Support sense-making; Maximize meta-awareness&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p dir="ltr"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+  &lt;p dir="ltr"&gt;&lt;em&gt;Action and Expression: Internalize Executive Functions.&lt;/em&gt; Provide students with a template for organizing their observations. Provide a template or invite students to fold a blank piece of paper in thirds and label with three headers of “\(x\),” “\(y\),” and “linear model fits?” to collect their answers. Explain that in the first column, they will always write “increasing” since they will be reading each graph from left to right. Then have them fill in the behavior of the \(y\)-values in the next column, and in the last column, their conclusions about whether a linear model fits well.&lt;/p&gt;
+  &lt;p dir="ltr"&gt;&lt;em&gt;Supports accessibility for: Language; Organization&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Your teacher will give you a set of cards that show scatter plots.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Arrange all the cards in three different ways. Ensure that you and your partner agree on each arrangement before moving on to the next one. Sort all the cards in order from:
+    &lt;ol type="a"&gt;
+      &lt;li&gt;best to worst for representing with a linear model&lt;/li&gt;
+      &lt;li&gt;least to greatest slope of a linear model that fits the data well&lt;/li&gt;
+      &lt;li&gt;least to greatest vertical intercept of a linear model that fits the data well&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;p dir="ltr"&gt;Know that the line of best fit is the line that provides the best fit to the data. It should follow the trend of the data and go through the middle of the data with a similar number of points on each side of the line.&lt;/p&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;For each card, write a sentence that describes how \(y\) changes as \(x\) increases and whether the linear model is a good fit for the data.
+  &lt;p&gt;&lt;/p&gt;
+  &lt;h4&gt;Student Response&lt;/h4&gt;
+  &lt;p dir="ltr"&gt;&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;An order for each sort is:
+      &lt;ol type="a"&gt;
+        &lt;li&gt;Sample response: B, E, A and F, C, D, and G. There may be some debate about the exact order. It is important that students recognize that B is the best fit, and that D and G should not be fit with linear models. They should be able to reason that linear models fit more poorly the farther the data are from the line.&lt;/li&gt;
+        &lt;li&gt;E, B, A, and F, C. D and G do not have linear models that fit the data well.&lt;/li&gt;
+        &lt;li&gt;A, C, F, B, E. D and G do not have linear models that fit the data well.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&amp;nbsp;Sample responses:
+      &lt;ul&gt;
+        &lt;li&gt;Card A: As \(x\) increases, \(y\) also increases. The linear model fits the data fairly well.&lt;/li&gt;
+        &lt;li&gt;Card B: As \(x\) increases, \(y\) decreases. The linear model fits the data very well.&lt;/li&gt;
+        &lt;li&gt;Card C: As \(x\) increases, \(y\) increases. The linear model fits most of the data very well; however, there are two values that do not follow this trend.&lt;/li&gt;
+        &lt;li&gt;Card D: As \(x\) increases,&amp;nbsp;\(y\) goes up and down like a wave. The data do not follow the line very well at all.&lt;/li&gt;
+        &lt;li&gt;Card E: As \(x\) increases,&amp;nbsp;\(y\) decreases. Most of the data fit a linear model very well, but the one point at \((7,15)\) does not fit with the rest of the data very well.&lt;/li&gt;
+        &lt;li&gt;Card F: As \(x\) increases, \(y\) increases. The linear model fits the data fairly well.&lt;/li&gt;
+        &lt;li&gt;Card G: As \(x\) increases,&amp;nbsp;\(y\) decreases and then increases. The data do not follow the line very well at all.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+	&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+  &lt;p dir="ltr"&gt;The purpose of this discussion is for students to discuss the goodness of fit for linear models.&lt;/p&gt;
+  &lt;p dir="ltr"&gt;Here are some questions for discussion.&lt;/p&gt;
+  &lt;p dir="ltr"&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;“How are scatter plots of A and F the same? How are they different?” (They have the same slope, and the linear models for each scatter plot are equally well fit. They are different because they have a different vertical intercept.)&lt;/li&gt;
+    &lt;li&gt;“How do you know if a linear model is a good fit?” (You need to look at the scatter plot and the line of best fit and make a decision about whether or not the data follow a linear trend.)&lt;/li&gt;
+    &lt;li&gt;“Why is the goodness fit for the linear model in scatter plot B better than the fit for the linear model in scatter plot A?” (The data in B fall on or very close to the linear model. The data in A are scattered around the line of best fit and have roughly the same number of values below that line of best fit as above the line of best fit.)&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;h3&gt;3.2.2: Self Check&amp;nbsp;&lt;/h3&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;Following the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;div dir="ltr" align="left"&gt;
+    &lt;table cellpadding="5" border="1"&gt;
+      &lt;colgroup&gt;
+      &lt;col width="50%"&gt;
+      &lt;col width="50%"&gt;
+      &lt;/colgroup&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td colspan="2"&gt;&lt;p dir="ltr"&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+            &lt;p dir="ltr"&gt;Tell which line is the best fit for the data and give an explanation why it is the best fit.&lt;/p&gt;
+            &lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/3b43ba9edd46cc53324b4af31bd6c874968b60ef" alt="TWO SCATTER PLOTS WITH X-AXIS LABEL OF INDEPENDENT VARIABLE AND Y-AXIS LABEL OF RESPONSE VARIABLE. SCATTER PLOT ON THE LEFT SHOWS FIVE PLOTTED POINTS AND THE LINE Y EQUALS NEGATIVE NINE-TENTHS X PLUS FORTY-FIVE. SCATTER PLOT ON THE RIGHT SHOWS THE SAME PLOTTED POINTS AND THE LINE Y EQUALS NEGATIVE SEVEN-TENTHS X PLUS FORTY.
+" class="img-fluid atto_image_button_text-bottom" width="549" height="259"&gt;&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p dir="ltr"&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;p dir="ltr"&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p dir="ltr"&gt;Line 1 is the best fit because it touches the first point on the left of the scatter plot.&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: Where the line starts does not determine the line of best fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p dir="ltr"&gt;Line 2 is the best fit because it touches the last point on the right of the scatter plot.&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: Where the line ends does not determine its fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p dir="ltr"&gt;Line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;p dir="ltr"&gt;That’s correct! Check yourself: Line 2 goes down the middle of the data and has almost the same number of points above and below the line.&amp;nbsp;&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p dir="ltr"&gt;Line 1 is the best fit because it has a steeper slope.&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: The steepness of the slope does not determine the line of best fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;strong&gt;&lt;br&gt;
+  &lt;/strong&gt;
+  &lt;h3&gt;3.2.2: Additional Resources&lt;/h3&gt;
+  &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;h4&gt;Draw a Best-Fit Line for the Plotted Data&lt;/h4&gt;
+  &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;When looking to draw a line of best fit, first make sure a linear model works for the data.&lt;/span&gt;&lt;br&gt;
+  &lt;/p&gt;
+  &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Next, place the line between the data points so that about the same number of points are above and below the line.&lt;/span&gt;&lt;br&gt;
+  &lt;/p&gt;
+  &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Below are two examples of lines of best fit drawn through scatter plots.&lt;/span&gt;&lt;br&gt;
+  &lt;/p&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/71e838bf549242004a7f1eecfeeb66cde279b324" alt="Scatter plot with domain 0 to 10 and a range from -1 to 4 with the line of best fit drawn going through the points: (0,1.5); (1.5, -0.1); (2.1,1.9); (3.4, 1.5); (4.5,2.5); (5.8,2.2); (6.8,3.8); (7.8,3.6); (8.8,2); and (10,2.4)."&gt;&lt;br&gt;
+      &lt;br&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cbd36cc651fdbd957dfcd9a64989a9f9053ea0a6" alt="Scatter plot with a domain of 0 to 10 and a range of 2 to 6 and the line of best fit going through the points: (0,2.1); (1,3.9); (2.1,3.6); (3.6,3.9); (4.4,4); (5.6,4.2); (6.8,5); (7.8,5); (9,5.6); and (10,6)"&gt;&lt;br&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;h4&gt;Try It: Draw a Best-Fit Line for the Plotted Data&lt;/h4&gt;
+  &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;The scatter plots below are the same scatter plot, but each student drew their best fit line differently. Which line do you believe to be the best fit, and why?&lt;/span&gt;&lt;br&gt;
+  &lt;/p&gt;
+  &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/14fc81bc0f9bede81e881c35f8f151e7b35d34d1" alt="FOUR SCATTER PLOTS WITH BODY MASS IN POUNDS ON THE X-AXIS AND BITE FORCE IN POUNDS ON THE Y-AXIS. EACH SCATTER PLOT SHOWS THE SAME PLOTTED DATA, BUT DIFFERENT LINES OF FIT ARE DRAWN ON THE FOUR PLOTS. ALL LINES INCREASE FROM LEFT TO RIGHT." class="img-fluid atto_image_button_text-bottom" width="550" height="506"&gt;&lt;br&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+  &lt;h5&gt;Solution&lt;/h5&gt;
+  &lt;p&gt;Here is how to choose the best fitting line for the scatter plot:&lt;/p&gt;
+  &lt;p&gt;Patti’s line looks like it fits the data well, so it would probably produce good predictions. The line goes through the middle of the points in the scatter plot, and the points are fairly close to the line.&amp;nbsp;&lt;/p&gt;
+  &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1374">
+            <jumpto>613</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657555697</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1375">
+            <jumpto>615</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657555697</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="615">
+        <prevpageid>614</prevpageid>
+        <nextpageid>616</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657563042</timecreated>
+        <timemodified>1659023706</timemodified>
+        <title>3.2.3: Assessing the Fit of a Linear Model</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p dir="ltr"&gt;It is recommended to use the digital version of this activity. The mathematical purpose of this activity is for students to use technology to compute a line of best fit for data given in a table and to understand the meaning of the slope and \(y\)-intercept. If the digital version of the activity is not available, the students should be guided through using available technology to find the least-squares regression line as the line of best fit.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Provide data tables for the graphs for the cards from the previous activity that fit well with a linear model. Assign one table to each group. For students using the paper task, show them how to use technology to create a scatter plot of the data in a table. After groups have had a chance to estimate the best fit lines, pause the class. Show students how to use technology to find the least-squares regression line for data and display the line with the scatter plot.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Display the tables for students to use for the last question:&lt;/p&gt;
+
+&lt;ol type="A"&gt;
+    &lt;li&gt;(card A in the previous activity)&lt;/li&gt;
+    &lt;li&gt;(card B in the previous activity)&lt;/li&gt;
+    &lt;li&gt;(card C in the previous activity)&lt;/li&gt;
+    &lt;li&gt;(card E in the previous activity)&lt;/li&gt;
+    &lt;li&gt;(card F in the previous activity)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+    &lt;p dir="ltr"&gt;&lt;em&gt;Engagement: Develop Effort and Persistence.&lt;/em&gt; Provide prompts, reminders, or checklists that focus on increasing the length of on-task orientation in the face of distractions. For example, provide two copies of the steps: graph the table, find the best fit line, find the slope, and find the \(y\)-intercept. Include phrases to activate knowledge from prior activities, such as, “As \(x\) increases . . .”&lt;/p&gt;
+    &lt;p dir="ltr"&gt;&lt;em&gt;Supports accessibility for: Organization; Conceptual processing; Attention&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/xDRJGdALbYcSxRu35Urx4R8J" alt="Three ice cream cones" width="451" height="338" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;The weight of ice cream sold at a small store in pounds (\(x\)) and the average temperature outside in degrees Celsius (\(y\)) are recorded in the table.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div dir="ltr" align="left"&gt;
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;20&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;18&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;21&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;17&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;21.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;19.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;21&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;18&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(y\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;6&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;4.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;6.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;3.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;7.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;6.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;7&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;5&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;br&gt;
+&lt;/div&gt;&lt;strong&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;For these data, create a scatter plot and sketch a line that fits the data well.&lt;/li&gt;
+    &lt;li&gt;Use technology to compute the best fit line. Round any numbers to 2 decimal places.&lt;/li&gt;
+    &lt;li&gt;What are the values for the slope and \(y\)-intercept for the best fit line? What do these values mean in this situation?&lt;/li&gt;
+    &lt;li&gt;Use the best fit line to predict the \(y\) value when \(x\) is 10. Is this a good estimate for the data? Explain your reasoning.&lt;/li&gt;
+    &lt;li&gt;Your teacher will give you a data table for one of the other scatter plots from the previous activity. Use technology and this table of data to create a scatter plot that also shows the line of best fit. Then interpret the slope and \(y\)-intercept.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h4&gt;Student Response&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Answers vary. Lines should go through the middle of the data.&lt;/li&gt;
+    &lt;li&gt;\(y=0.78x−9.44\)&lt;/li&gt;
+    &lt;li&gt;The slope is 0.78, which means that about 1 additional pound of ice cream is sold with every 0.78-degree increase in the outside temperature. The \(y\)-intercept is \((0,-9.44)\), which means that no ice cream is sold when the temperature is about \(-9.44\) degrees Celsius.&lt;/li&gt;
+    &lt;li&gt;\(-1.64\) degrees Celsius. Sample explanation: This may be a good estimate for the data since the points seem close to the line, but something different might happen when the temperature gets below freezing, so it’s possible that when only 10 pounds of ice cream are sold, the relationship with the weather may be different.&lt;/li&gt;
+    &lt;li&gt;Answers:&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;ul&gt;
+        &lt;ul&gt;
+            &lt;ul&gt;
+                &lt;li&gt;\(y=1.1979x+1.3196\). When \(x\) is zero, \(y\) is 1.3196. As \(x\) increases by 1, \(y\) increases, on average, by 1.1979.&lt;/li&gt;
+                &lt;li&gt;\(y=-0.4337x+12.288\). When \(x\) is zero, \(y\) is 12.288. As \(x\) increases by 1, \(y\) decreases, on average, by 0.4337.&lt;/li&gt;
+                &lt;li&gt;\(y=0.9749x+4.6529\). When \(x\) is zero, \(y\) is 4.6529. As \(x\) increases by 1, \(y\) increases, on average, by 0.9749.&lt;/li&gt;
+                &lt;li&gt;\(y=-2.063x+16.144\). When \(x\) is zero, \(y\) is 16.144. As \(x\) increases by 1, \(y\) decreases, on average, by 2.063.&lt;/li&gt;
+                &lt;li&gt;\(y=1.1979x+5.8196\). When \(x\) is zero, \(y\) is 5.8196. As \(x\) increases by 1, \(y\) increases, on average, by 1.1979.&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Video: Finding Lines of Best Fit&lt;/h5&gt;
+&lt;p&gt;Watch the following video to learn more about how technology is used to find the line of best fit relationships.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/0d9922de4c14bb9cde74a50d79c31f5ecb939571"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/832de122691c590fd9d21d080048d9179ec7effa" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/0d9922de4c14bb9cde74a50d79c31f5ecb939571
+&lt;/video&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
+&lt;h5&gt;Are you ready for more?&lt;/h5&gt;
+&lt;p&gt;Priya uses several different ride services to get around her city. The table shows the distance, in miles, she traveled during her last 10 trips and the price of each trip, in dollars.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;distance (miles)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;price ($)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;31.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;12.5&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;4.2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;14.75&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;16&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;3.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;13.25&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;2.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;12&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;9&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;0.8&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;8.75&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;1.6&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;9.75&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;4.3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;12&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="144" valign="top"&gt;
+                &lt;p align="center"&gt;3.3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="96" valign="top"&gt;
+                &lt;p align="center"&gt;14&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Priya creates a scatter plot of the data using the distance, \(x\), and the price, \(y\). She determines that a linear model is appropriate to use with the data. Use technology to find the equation of a line of best fit.&lt;/li&gt;
+    &lt;li&gt;Interpret the slope and the \(y\)-intercept of the equation of the line of best fit in this situation.&lt;/li&gt;
+    &lt;li&gt;Use the line of best fit to estimate the cost of a 3.6-mile trip. Will this estimate be close to the actual value? Explain your reasoning.&lt;/li&gt;
+    &lt;li&gt;On her next trip, Priya tries a new ride service and travels 3.6 miles, but she pays only $4.00 because she receives a discount. Include this trip in the table and calculate the equation of the line of best fit for the 11 trips. Did the slope of the equation of the line of best fit increase, decrease, or stay the same? Why? Explain your reasoning.&lt;/li&gt;
+    &lt;li&gt;Priya uses the new ride service for her 12th trip. She travels 4.1 miles and is charged $24.75. How do you think the slope of the equation of the line of best fit will change when this 12th trip is added to the table?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Extension Student Response&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;\(y=1.57x+7.6\)&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Sample response: The slope means that the fare increases by $1.57 for each additional mile driven. The \(y\)-intercept means that the fee for getting in the car is approximately $7.60.&lt;/li&gt;
+    &lt;li&gt;Sample response: According to the line of best fit, the cost of a 3.6-mile trip is approximately $13.25, which is the same price as the 3.5-mile trip listed in the table.&lt;/li&gt;
+    &lt;li&gt;Sample response: The slope of the line decreased to $1.27 for each additional mile. It probably decreased because $4.00 is a far lower price per mile than any of her other trips because of the discount. This causes the slope, the increase in price for each additional mile, to decrease.&lt;/li&gt;
+    &lt;li&gt;Sample response: The slope of the line will probably increase because $24.75 is very expensive and will likely cause the cost for each additional mile to increase.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;Students may struggle with interpreting slope and \(y\)-intercept. Remind students of how each relates to a situation. To help students interpret slope, ask them: “What does the \(x\) variable represent? What does the \(y\) variable represent? How is slope connected to the \(x\) and \(y\) variables? What happens to \(x\) as \(y\) increases (or decreases)?” To help students interpret the&amp;nbsp;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;\(y\)-intercept, ask them: “What does the point \((20,6)\) mean in the scatter plot? What are the coordinates of the \(y\)-intercept? What does each of the coordinates mean in the situation described? What is the \(y\)-value when \(x\) is 0? Which variable has a value of 0? Which variable is represented with \(y\)?”&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;The purpose of this discussion is for students to make connections between the scatter plot and the equation of the line of best fit. Display each scatter plot, the line of best fit, and the equation of the line of best fit.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol type="A"&gt;
+    &lt;li&gt;\(y = 1.1979x + 1.3196\)&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/TVxAM4xFcRoryhVATnzg4ndy" alt="Scatter plot."&gt;&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;\(y = -0.4337x + 12.288\)&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/wthYityXSKhTsEVB1fyQDR3g" alt="Scatter plot."&gt;&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;\(y = 0.9749x + 4.6529\)&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/qwZ1nHiWsJMWPwCfiFvvDiYE" alt="Discrete graph with one line."&gt;&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;\(y = -2.063x + 16.144\)&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/RC2N5m9SnMyoGzw9mAL1vz2R" alt="Discrete graph with one line."&gt;&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;\(y = 1.1979x + 5.8196\)&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/JovNSUTeiTU1G7dqPBFv3NBL" alt="Discrete graph with one line."&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here are some questions for discussion:&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;“How does using technology help model the data in the scatter plot?” (It allows different people to come up with the same equation for the line of best fit. If the line is just drawn by hand, there can be different linear equations that seem to fit the data well, but there is only one “best” fit line.)&lt;/li&gt;
+    &lt;li&gt;“What does the \(y\)-intercept represent in each scatter plot? When is it reasonable to use this interpretation?” (It represents the value of \(y\) estimated by the linear model when \(x=0\). When the intercept is near the range of the data, it can be reasonable to use this interpretation because otherwise, the linear trend may not continue. There are also some situations in which a value of 0 for \(x\) does not make sense.)&lt;/li&gt;
+    &lt;li&gt;“Why is the slope the same in scatter plot A and scatter plot F?” (It is the same because the data in scatter plot F are the same data as in scatter plot A, except that the values for \(y\) have all been increased by 4.5 units.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Tell students they should be careful when predicting values outside the range of the data—in particular, for the \(y\)-intercept. Even when the data are fit well by a linear model, the behavior of the variables farther away may not be linear. It is important to remember that all predictions using the best fit line are estimates and the reasonableness of the predictions should be considered.&lt;/p&gt;
+&lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+    &lt;p&gt;&lt;em&gt;Representing, Conversing: MLR7 Compare and Connect.&lt;/em&gt; As students share the connections they noticed between the scatter plot and the equation of the line of best fit, call students’ attention to the different ways the slope and vertical intercept are represented. Wherever possible, amplify student words and actions that describe the connections between a specific feature of one mathematical representation and a specific feature of another representation.&amp;nbsp;&lt;/p&gt;
+    &lt;p&gt;&lt;em&gt;Design Principle(s): Maximize meta-awareness; Support sense-making&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3&gt;3.2.3: Self Check&amp;nbsp;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Following the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div dir="ltr" align="left"&gt;
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col width="302"&gt;
+            &lt;col width="322"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td colspan="2"&gt;
+                    &lt;p dir="ltr"&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+                    &lt;p dir="ltr"&gt;Old Faithful is a geyser in Yellowstone National Park. The following table offers some rough estimates of the length of an eruption (in minutes) and the amount of water (in gallons) in that eruption.&lt;/p&gt;
+                    &lt;p dir="ltr"&gt;&lt;/p&gt;
+                    &lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+                        &lt;tbody&gt;
+                            &lt;tr&gt;
+                                &lt;td width="185" valign="top"&gt;
+                                    &lt;p&gt;&lt;strong&gt;Length (minutes)&lt;/strong&gt;&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td width="99" valign="top"&gt;
+                                    &lt;p&gt;1.5&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td width="101" valign="top"&gt;
+                                    &lt;p&gt;2&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td width="91" valign="top"&gt;
+                                    &lt;p&gt;3&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td width="106" valign="top"&gt;
+                                    &lt;p&gt;4.5&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td width="185" valign="top"&gt;
+                                    &lt;p&gt;&lt;strong&gt;Amount of Water
+                                            (gallons)&lt;/strong&gt;&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td width="99" valign="top"&gt;
+                                    &lt;p&gt;3,700&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td width="101" valign="top"&gt;
+                                    &lt;p&gt;4,100&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td width="91" valign="top"&gt;
+                                    &lt;p&gt;6,450&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td width="106" valign="top"&gt;
+                                    &lt;p&gt;8,400&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                    &lt;/table&gt;&lt;br&gt;
+                    &lt;p dir="ltr"&gt;Use technology to find an equation of the line of best fit. Round to the nearest hundredth.&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(y=1151.19x+1640.48\)&lt;/p&gt;&lt;br&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: The slope of the line is the coefficient of \(x\). The answer is \(y&amp;nbsp; = 640.48x+1151.19\).&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(y = 800x +2500\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: This was found using the first two points in the table. Use technology to enter the data from the table, and then find the linear regression line. The answer is \(y&amp;nbsp; = 1640.48x+1151.19\).&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(y&amp;nbsp; = 1640.48x+1151.19\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;That’s correct! Check yourself: The slope of the line is the coefficient of \(x\). The \(y\)-intercept would be below 3,700 with the linear trend.&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(y=-1151.19x+1640.48\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: The trend is increasing in the table, so the slope should be positive. The answer is \(y=1640.48x+1151.19\).&lt;/p&gt;
+                    &lt;p dir="ltr"&gt;.&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;
+&lt;h3&gt;3.2.3: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Technology for Best Fitting Lines&lt;/h4&gt;
+&lt;p&gt;Scientists are interested in finding out how different species adapt to finding food sources. One group studied crocodilians to find out how their bite force was related to body mass and diet. The table below displays the information they collected on body mass (in pounds) and bite force (in pounds).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;strong&gt;&lt;/strong&gt;
+&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="623" colspan="3" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Crocodilian Biting&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Species&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Body Mass
+                        (pounds)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Bite Force
+                        (pounds)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Dwarf
+                    crocodile&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;35&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;450&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile F&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;40&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;260&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Alligator A&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;30&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;250&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Caiman A&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;28&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;230&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Caiman B&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;37&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;240&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Caiman C&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;45&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;255&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile A&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;110&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;550&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Nile crocodile&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;275&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;650&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile B&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;130&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;500&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile C&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;135&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;600&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile D&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;135&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;750&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Caiman D&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;125&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;550&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Indian
+                    gharial crocodile&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;225&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;400&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile G&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;220&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;1,000&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;American crocodile&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;270&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;900&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile E&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;285&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;750&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile F&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;425&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;1,650&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;American alligator&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;300&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;1,150&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Alligator B&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;325&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;1,200&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Alligator C&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;365&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;1,450&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;The scatter plot below displays the data on body mass and bite force for the crocodilians in the study.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/317164bf68f6bdd79eba0b950a1c841f1927321e" alt="A SCATTER PLOT THAT SHOWS BODY MASS IN POUNDS ON THE X-AXIS AND BITE FORCE IN POUNDS ON THE Y-AXIS." width="450" height="390" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Using technology, the line of best fit for the data is \(y=3.02x +154.68\).&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;The slope of the line of best fit is 3.02. This signifies that for every pound more the crocodile weighs, it has 3.02 more pounds of bite force.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;The \(y\)-intercept is 154.68, which doesn’t quite make sense for a crocodile that weighs 0 pounds but does give a minimum bite force to expect from a crocodile.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 1.40625rem; font-weight: 700;"&gt;Try It: Technology for Best Fitting Lines&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The following table gives the times of the gold, silver, and bronze medal winners for the men’s 100-meter race (in seconds) for the past 10 Olympic Games.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Use technology to write an equation of the line that represents the line of best fit for the years since 1976 and the mean times each year. Round to the nearest hundredth.&lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Year&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;2012&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;2008&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;2004&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;2000&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1996&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1992&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1988&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1984&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1980&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1976&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Number of Years (since 1976)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;36&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;32&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;28&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;24&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;20&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;16&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;12&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;8&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;4&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Gold&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;9.63&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.69&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.85&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.87&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.84&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.96&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;9.92&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.99&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.25&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.06&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Silver&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;9.75&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.89&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.86&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.99&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.89&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.02&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;9.97&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.19&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.25&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.07&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Bronze&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;9.79&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.91&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.87&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.04&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.90&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.04&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;9.99&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.22&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.39&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.14&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Mean Time&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;9.72&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.83&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.86&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.97&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.88&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.01&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;9.96&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.13&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.30&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.09&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p dir="ltr"&gt;Here is how to find the line of best fit:&lt;/p&gt;
+&lt;p dir="ltr"&gt;Enter the number of years and the mean time into your technology:&lt;/p&gt;&lt;br&gt;
+&lt;div dir="ltr" align="left"&gt;
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;36&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;32&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;28&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;24&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;20&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;16&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;12&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;8&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;4&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;0&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(y\)&amp;nbsp;&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.72&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.83&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.86&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.97&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.88&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;10.01&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.96&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;10.13&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;10.30&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;10.09&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;&lt;br&gt;
+&lt;p dir="ltr"&gt;Create a scatter plot and line of best fit.&amp;nbsp;&lt;/p&gt;
+&lt;br&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/1cfcd300b11689890bcea2cdd3c14d2823f6f093" alt="A SCATTER PLOT THAT SHOWS YEAR ON THE X-AXIS AND MEAN TIME IN SECONDS ON THE Y-AXIS. THE LINE DRAWN DECREASES FROM LEFT TO RI" width="450" height="396" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;
+&lt;p&gt;The equation of the line of best fit, using technology, is \(y = -0.01x+10.2\).&lt;/p&gt;
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1376">
+            <jumpto>614</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657563042</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1377">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657563042</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="616">
+        <prevpageid>615</prevpageid>
+        <nextpageid>617</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657563914</timecreated>
+        <timemodified>1659027025</timemodified>
+        <title>3.2.4: Working with Fitted Lines</title>
+        <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p dir="ltr"&gt;If possible, provide access to devices that can run Desmos or other graphing technology.&lt;/p&gt;
+&lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Which of these scatter plots shows data that would best be modeled with a linear function? Explain your reasoning.&lt;ol type="a"&gt;
+            &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/eF3L4NzocoB9sDhoGMhzZGnE" alt="Scatterplot."&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Fy38TUG8XPyhg52cNvA3UbsL" alt="Scatter plot."&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Fy38TUG8XPyhg52cNvA3UbsL" alt="Scatter plot."&gt;&lt;br&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Which of the following lines is most likely the line of best fit for the data provided?&lt;/span&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;ul&gt;
+        &lt;ul&gt;
+            &lt;ul&gt;
+                &lt;li&gt;\(y=-0.51x+225.12\)&lt;/li&gt;
+                &lt;li&gt;\(y=0.34x−34.05\)&lt;/li&gt;
+                &lt;li&gt;\(y=0.13x−0.19\)&lt;/li&gt;
+                &lt;li&gt;\(y=0.98x−21.13\)&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p align="center"&gt;&lt;b&gt;number
+                        of trees in a forest&lt;/b&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p align="center"&gt;&lt;b&gt;tons
+                        of oxygen produced by the forest&lt;/b&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;148&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;16.43&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;175&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;25.64&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;190&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;23.28&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;200&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;29.2&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;202&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;21.41&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;425&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;60.56&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;505&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;50.75&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;528&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;74.45&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;562&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;62.66&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;585&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;84.24&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/3ndp7iQ9SRgQm8ct8pVX5YW7" alt="A scatterplot."&gt;&lt;br&gt;&lt;br&gt;
+&lt;h4&gt;Student Response&lt;/h4&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;C. Sample reasoning: The points in the scatter plot seem to follow the shape of a line best. The scatter plot in A is very spread out, and the scatter plot in B is probably better fit by a curve.&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;\(y=0.13x-0.19\)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
+&lt;h5&gt;Points to emphasize&lt;/h5&gt;
+&lt;p&gt;Unit 3 Project provides an additional opportunity to work with fitted lines.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1378">
+            <jumpto>615</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657563914</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1379">
+            <jumpto>617</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657563914</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="617">
+        <prevpageid>616</prevpageid>
+        <nextpageid>618</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657564937</timecreated>
+        <timemodified>1658775797</timemodified>
+        <title>3.2.5: Practice </title>
+        <contents>&lt;p dir="ltr"&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Question 1 (Technology required.)&lt;br&gt;&lt;br&gt;
+        &lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;\(x\)&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;\(y\)&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;83&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;102&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;87&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;115&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;91&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;107&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;93&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;122&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;97&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;125&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;97&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;127&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;101&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;120&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;104&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td valign="top"&gt;
+                        &lt;p&gt;127&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;&lt;br&gt;Use graphing technology to create a scatter plot and find the best fit line.&lt;br&gt;What does the best fit line estimate for the \(y\)-value when \(x\) is 100?&lt;br&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;100&lt;/li&gt;
+            &lt;li&gt;125&lt;/li&gt;
+            &lt;li&gt;150&lt;/li&gt;
+            &lt;li&gt;120&lt;br&gt;&lt;strong style="font-size: 0.9375rem;"&gt;ANSWER:&lt;/strong&gt;&lt;span style="font-size: 0.9375rem;"&gt; b&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;A seed is planted in a glass pot, and its height is measured in centimeters every day.&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/fGc6auPc9qwna4MCtCqNEeQS" alt="A scatter plot. Horizontal, 0 to 30, by 1’s, labeled days. Vertical, negative 5 to 3, by point 5’s, labeled height in centimeters. 21 dots trend linearly up and to the right with a line a best fit."&gt;&lt;br&gt;The best fit line is given by the equation \(y=0.404x−5.18\), where \(y\) represents the height of the plant above ground level, and \(x\) represents the number of days since it was planted.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+    &lt;div class="editor-indent" style="margin-left: 30px;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;What is the slope of the best fit line? What does the slope of the line mean in this situation?&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;The slope is 5.18, which means for every day, the plant grows 5.18 centimeters.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;The slope is 0.404, which means for every day, the plant grows 0.404 centimeters.&amp;nbsp;&lt;/li&gt;
+        &lt;li&gt;The slope is \(-5.18\), which means for every day, the plant shrinks 5.18 centimeters.&amp;nbsp;&lt;/li&gt;
+        &lt;li&gt;The slope is 0.404, which means the plant grows 1 centimeter every 0.404 days.&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;b&lt;/span&gt;&lt;/div&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;&lt;span style=""&gt;
+        &lt;div class="editor-indent" style="font-size: 0.9375rem; margin-left: 30px;"&gt;3. The scatter plots below show different lines that students used to model the relationship between body mass (in pounds) and bite force (in pounds) for crocodiles.&lt;/div&gt;
+        &lt;div class="editor-indent" style="font-size: 0.9375rem; margin-left: 30px;"&gt;&lt;br&gt;&lt;/div&gt;
+        &lt;div class="editor-indent" style="margin-left: 30px;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Match each graph to one of the equations below, and explain your reasoning. Let \(B\) represent bite force (in pounds) and \(W\) represent body mass (in pounds).&lt;/span&gt;&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c769c50c5d9a7152b372e98b073c7dae2e860b1e" alt="A SCATTER PLOT THAT SHOWS BODY MASS IN POUNDS ON THE X-AXIS AND BITE FORCE IN POUNDS ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT AND HAS A Y-INTERCEPT BETWEEN 200 AND 300." width="449" height="399" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/span&gt;&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f2db925d3b7a849e49e2bbb5aa9bb13ad030fea9" alt="A SCATTER PLOT THAT SHOWS BODY MASS IN POUNDS ON THE X-AXIS AND BITE FORCE IN POUNDS ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT AND HAS A Y-INTERCEPT BETWEEN 300 AND 400.
+" width="450" height="411" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/span&gt;&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/82f0c78f8c372c36c200f5481057789b8ce87014" alt="A SCATTER PLOT THAT SHOWS BODY MASS IN POUNDS ON THE X-AXIS AND BITE FORCE IN POUNDS ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT AND HAS A Y-INTERCEPT BETWEEN 100 AND 200. " width="450" height="413" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/span&gt;&lt;br&gt;
+            &lt;div class="editor-indent" style="font-size: 0.9375rem; margin-left: 30px;"&gt;Equation 1: \(B = 3.28W +126 \)&lt;/div&gt;
+            &lt;div class="editor-indent" style="font-size: 0.9375rem; margin-left: 30px;"&gt;Equation 2: \(B = 3.04W +351 \)&lt;/div&gt;
+            &lt;div class="editor-indent" style="font-size: 0.9375rem; margin-left: 30px;"&gt;Equation 3: \(B = 2.16W +267 \)&lt;br&gt;&lt;br&gt;&lt;/div&gt;
+            &lt;p style=""&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&lt;/p&gt;
+            &lt;p style=""&gt;Line 1 and Equation 3 match because the intercept of 267 appears to match the graph, which has the second-largest intercept.&lt;/p&gt;
+            &lt;p style=""&gt;Line 2 and Equation 2 match because the intercept of Equation 2 is larger, so it matches Line 2, which has a \(y\)-intercept closer to 400.&lt;/p&gt;
+            &lt;p style=""&gt;Line 3 and Equation 1 match because the intercept of Equation 1 is the smallest, which seems to match the graph.&lt;/p&gt;
+            &lt;p style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;p style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/span&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1380">
+            <jumpto>616</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657564937</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1381">
+            <jumpto>618</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657564937</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="618">
+        <prevpageid>617</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657565149</timecreated>
+        <timemodified>1659027696</timemodified>
+        <title>3.2.6: Lesson Summary</title>
+        <contents>&lt;p dir="ltr"&gt;Here are some questions for discussion.&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;“What is the best fit?” (the best linear model for the data)&lt;/li&gt;&lt;li&gt;“How do you know that you have a line of best fit?” (You can use technology to generate the line of best fit, but then you need to graph it on the scatter plot to verify that it fits the data well. It needs to follow the trend of the data, it should go roughly through the middle of the data, and it should have roughly the same number of data points on either side of it.)&lt;/li&gt;&lt;li&gt;“Which line fits the data better, the solid line or the dashed line? Do you think it is the line of best fit? Explain your reasoning.” (The dashed line fits the data better because its slope and vertical intercept more closely resemble the trend of the data than the slope and vertical intercept of the solid line. It is not the line of best fit because it does not go through the middle of the data. It should be a little lower on the graph.)&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/H78ii5MVspakD31WsJu3fy75" alt="Discrete graph with 2 lines."&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1382">
+            <jumpto>617</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657565149</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

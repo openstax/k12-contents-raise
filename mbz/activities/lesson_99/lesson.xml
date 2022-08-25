@@ -1,0 +1,2228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="75" moduleid="99" modulename="lesson" contextid="110">
+  <lesson id="75">
+    <course>2</course>
+    <name>Lesson 3.5: Using the Correlation Coefficient</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1658498702</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="673">
+        <prevpageid>0</prevpageid>
+        <nextpageid>674</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657473949</timecreated>
+        <timemodified>1659039618</timemodified>
+        <title>3.5.0: Lesson Overview</title>
+        <contents>&lt;p&gt;&lt;span lang="EN"&gt;In this lesson, you will compute and
+        interpret the correlation coefficient for a bivariate, numerical data set.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN"&gt;When
+        you finish this lesson, you will be able to:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;Describe
+            the strength of a relationship between two variables.&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Use
+                technology to find the correlation coefficient and explain what the value tells you about a linear model in everyday language.&lt;/span&gt;&lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="EN"&gt;Here are the &lt;b&gt;activities&lt;/b&gt; that will help you reach those goals:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;3.5.1: Using Bivariate Data in Context&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;3.5.2: Finding and Using Correlation Coefficient to
+            Interpret the Strength of Linear Relationships&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;3.5.2: Self-Check&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;3.5.3: Using Correlation Coefficient to Describe
+            Relationships between Two Variables&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;3.5.3: Self-Check&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;3.5.4: Interpreting the Sign and Numerical Value of
+            a Correlation Coefficient&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN"&gt;After
+        that, you’ll &lt;b&gt;practice and review&lt;/b&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;3.5.5: Practice&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;3.5.6: Lesson Summary&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;span lang="EN"&gt;&lt;/span&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1500">
+            <jumpto>674</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657473949</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="674">
+        <prevpageid>673</prevpageid>
+        <nextpageid>675</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657475302</timecreated>
+        <timemodified>1658627104</timemodified>
+        <title>3.5.1: Using Bivariate Data in Context</title>
+        <contents>&lt;h3&gt;&lt;/h3&gt;
+&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;div&gt;
+    &lt;p&gt;Match the variables to the scatter plot you think they best fit. Be prepared to explain your reasoning.&lt;/p&gt;
+    &lt;table&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th scope="row"&gt;&lt;/th&gt;
+                &lt;th scope="col"&gt;&lt;span id="MathJax-Element-1-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/math&gt;" role="presentation"&gt;
+                        &lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-1"&gt;&lt;span id="MathJax-Span-2"&gt;&lt;span id="MathJax-Span-3"&gt;𝑥&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;
+                    &lt;/span&gt;&amp;nbsp;variable&lt;/th&gt;
+                &lt;th scope="col"&gt;&lt;span id="MathJax-Element-2-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;" role="presentation"&gt;
+                        &lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-4"&gt;&lt;span id="MathJax-Span-5"&gt;&lt;span id="MathJax-Span-6"&gt;𝑦&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;
+                    &lt;/span&gt;variable&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;th scope="row"&gt;1.&lt;/th&gt;
+                &lt;td&gt;daily low temperature in Celsius for Denver, CO&lt;/td&gt;
+                &lt;td&gt;boxes of cereal in stock at a grocery in Miami, FL&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th scope="row"&gt;2.&lt;/th&gt;
+                &lt;td&gt;average number of free throws shot in a season&lt;/td&gt;
+                &lt;td&gt;basketball team score per game&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th scope="row"&gt;3.&lt;/th&gt;
+                &lt;td&gt;measured student height in feet&lt;/td&gt;
+                &lt;td&gt;measured student height in inches&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th scope="row"&gt;4.&lt;/th&gt;
+                &lt;td&gt;average number of minutes spent in a waiting room&lt;/td&gt;
+                &lt;td&gt;hospital satisfaction rating&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;div&gt;
+        &lt;div&gt;
+            &lt;div&gt;
+                &lt;div&gt;
+                    &lt;p&gt;A&lt;/p&gt;&lt;img alt="A scatterplot." height="225" src="https://s3.amazonaws.com/im-ims-export/oDdweEM1fpJ4E6Y72dQMCzWc" width="212"&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+                &lt;div&gt;
+                    &lt;p&gt;B&lt;/p&gt;&lt;img alt="A scatterplot." height="225" src="https://s3.amazonaws.com/im-ims-export/2W8ZFBVdYLnRY75xJabJSxzh" width="218"&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;div&gt;
+                &lt;div&gt;
+                    &lt;p&gt;C&lt;/p&gt;&lt;img alt="A scatterplot." height="225" src="https://s3.amazonaws.com/im-ims-export/qo5Tv8zC44seiWEQUNfMVKEd" width="218"&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+                &lt;div&gt;
+                    &lt;p&gt;D&lt;/p&gt;&lt;img alt="A scatterplot." height="225" src="https://s3.amazonaws.com/im-ims-export/xwsHbPZDxJTHeVeVJ7AQVKPL" width="212"&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;!--Question 1 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter the scatter plot that matches row 1 here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;The
+                answer is C.&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Question 2 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter the scatter plot that matches row 2 here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;The
+                answer is B.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Question 3 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter the scatter plot that matches row 3 here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;The
+                answer is A.&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Question 4 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter the scatter plot that matches row 4 here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;The
+                answer is D.&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1501">
+            <jumpto>673</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657475302</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1502">
+            <jumpto>675</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657475302</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="675">
+        <prevpageid>674</prevpageid>
+        <nextpageid>676</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657478448</timecreated>
+        <timemodified>1659048124</timemodified>
+        <title>3.5.2: Finding and Using Correlation Coefficient to Interpret the Strength of Linear Relationships</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+
+                &lt;p&gt;Priya takes note of the distance the car drives and the time it takes to get to the destination for many trips.&lt;/p&gt;
+            
+          
+                &lt;table border="1" cellpadding="5"&gt;
+                    &lt;thead&gt;
+                        &lt;tr&gt;
+                            &lt;th scope="col"&gt;distance (mi) (&lt;span id="MathJax-Element-9-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/math&gt;" role="presentation"&gt;
+                                    &lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-32"&gt;&lt;span id="MathJax-Span-33"&gt;&lt;span id="MathJax-Span-34"&gt;𝑥&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+                                            &lt;mi&gt;x&lt;/mi&gt;
+                                        &lt;/math&gt;&lt;/span&gt;
+                                &lt;/span&gt;)&lt;/th&gt;
+                            &lt;th scope="col"&gt;travel time (min) (&lt;span id="MathJax-Element-10-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;" role="presentation"&gt;
+                                    &lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-35"&gt;&lt;span id="MathJax-Span-36"&gt;&lt;span id="MathJax-Span-37"&gt;𝑦&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;span role="presentation"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+                                            &lt;mi&gt;y&lt;/mi&gt;
+                                        &lt;/math&gt;&lt;/span&gt;
+                                &lt;/span&gt;)&lt;/th&gt;
+                        &lt;/tr&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;2&lt;/td&gt;
+                            &lt;td&gt;4&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;5&lt;/td&gt;
+                            &lt;td&gt;7&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;10&lt;/td&gt;
+                            &lt;td&gt;11&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;10&lt;/td&gt;
+                            &lt;td&gt;15&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;12&lt;/td&gt;
+                            &lt;td&gt;16&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;15&lt;/td&gt;
+                            &lt;td&gt;22&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;20&lt;/td&gt;
+                            &lt;td&gt;23&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;25&lt;/td&gt;
+                            &lt;td&gt;25&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;26&lt;/td&gt;
+                            &lt;td&gt;28&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;30&lt;/td&gt;
+                            &lt;td&gt;36&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;32&lt;/td&gt;
+                            &lt;td&gt;35&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;40&lt;/td&gt;
+                            &lt;td&gt;37&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;50&lt;/td&gt;
+                            &lt;td&gt;51&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;65&lt;/td&gt;
+                            &lt;td&gt;70&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;78&lt;/td&gt;
+                            &lt;td&gt;72&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;&lt;br&gt;
+           
+        
+   
+
+&lt;!--Question 1 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+
+
+        &lt;p&gt;&lt;span lang="EN"&gt;1. Distance is one
+                factor that influences the travel time of Priya's car trips. What are some
+                other factors?
+            &lt;/span&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Your answers may vary, but here are some examples:&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;Traffic, stop signs, stop lights, refueling,
+                whether the driver is in a hurry, driving on surface streets or interstate.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Question 2 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;2. Which of these
+                factors (including distance) most likely has the most consistent influence
+                for all the car trips? Explain your reasoning.&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/p&gt;
+
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Your answers may vary, but here are some examples:&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;Distance is the most consistent influence since
+                it is always part of the reason a trip will take the time it does. The other
+                factors, like stop lights, are only a factor sometimes since you may hit all
+                green lights one day and all red lights the next day.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Question 3 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;3. Use&amp;nbsp;&lt;span lang="EN"&gt;technology
+                to create a scatter plot of the data and add the best fit line to the graph.&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Your answers may vary, but here are some examples:&lt;br&gt;&lt;br&gt;
+            \(y=0.93x+4.15\)
+            \(r=0.99\)
+        &lt;/p&gt;
+        &lt;p&gt;&lt;img alt="Scatter plot with line of best fit. &amp;nbsp;" height="225" src="https://s3.amazonaws.com/im-ims-export/UorJRqXCe3ha1xMtSZkqQmpv" width="212"&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Question 4 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;4. What do the slope and \(y\)intercept for the “line of best fit'' mean in this
+            situation?&amp;gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Your answers may vary, but here are some examples:&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;The slope represents the number of minutes it
+                takes to drive one additional mile using the linear model. Assuming the linear
+                relationship continues, the y-intercept represents the number of minutes it
+                takes to drive zero miles; this may account for things like time getting ready
+                or warming up the car before driving.&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Question 5 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;5. Use&amp;nbsp;&lt;span style="font-size: calc(0.90375rem + 0.045vw); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;technology to find
+                the correlation coefficient for this data. Based on the value, how would
+                you describe the strength of the linear relationship?&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Your answers may vary, but here are some examples:&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;\(r=0.99\). Since r is near 1, the linear model fits
+                the data very well.&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;6. How long do you think it would take Priya to make a trip of 90 miles if the linear relationship continues? If she drives 90 miles, do you think the prediction you made will be close to the actual value? Explain your reasoning.&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+   
+        &lt;p&gt;&lt;span lang="EN"&gt;Your answers may vary, but here are some examples:&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;It would take Priya about 88 minutes. I think the
+                estimate will be good, because the correlation coefficient is very close to 1,
+                so the model fits the data very well. I used&lt;a&gt;&lt;/a&gt;&lt;a&gt;&lt;/a&gt;&lt;a&gt;&amp;nbsp;t&lt;/a&gt;&lt;/span&gt;&lt;span lang="EN"&gt;he equation \(y=0.93x+4.15\) and figured out that y
+                was 87.85 minutes by substituting 90 miles for x.&lt;/span&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1503">
+            <jumpto>674</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657478448</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1504">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657478448</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="676">
+        <prevpageid>675</prevpageid>
+        <nextpageid>677</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658507549</timecreated>
+        <timemodified>1659048453</timemodified>
+        <title>3.5.2: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Determine the correlation coefficient of the data in the table below to 3 decimal places&amp;nbsp; and interpret the value.&lt;/p&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th width="70"&gt;\(x\)&lt;/th&gt;
+            &lt;td width="70"&gt;8&lt;/td&gt;
+            &lt;td width="70"&gt;15&lt;/td&gt;
+            &lt;td width="70"&gt;26&lt;/td&gt;
+            &lt;td width="70"&gt;31&lt;/td&gt;
+            &lt;td width="70"&gt;56&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;\(y\)&lt;/th&gt;
+            &lt;td&gt;23&lt;/td&gt;
+            &lt;td&gt;41&lt;/td&gt;
+            &lt;td&gt;53&lt;/td&gt;
+            &lt;td&gt;72&lt;/td&gt;
+            &lt;td&gt;103&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1512">
+            <jumpto>677</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658507549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;\(r = -0.987\); there is a weak negative relationship.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;Incorrect. Let’s try
+again a different way: The slope of the points in the table is positive so the
+correlation coefficient should be positive. R-values close to 1 or -1 show
+strong relationships. The answer is \(r=0.987\); there is a strong positive relationship.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1513">
+            <jumpto>677</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658507549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(r=0.987\); there is a weak positive relationship.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;Incorrect. Let’s try
+again a different way: R-values close to 1 indicate a strong relationship.&amp;nbsp; The answer is \(r=0.987\); there is a strong
+positive relationship.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1514">
+            <jumpto>680</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658507549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;&lt;span lang="EN"&gt;\(r=0.987\); there is a strong positive relationship.&lt;/span&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;That’s correct! Check
+yourself: Using graphing technology, ensure that you enter the data correctly.
+The slope of the points in the table is positive and the points are close to
+the line, so the correlation coefficient should be a positive number close to
+1.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1515">
+            <jumpto>677</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658507549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;&lt;span lang="EN"&gt;\(r=-0.987\); there is
+        a strong negative relationship.&lt;/span&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;Incorrect. Let’s try
+again a different way: The slope of the points in the table is positive so the
+correlation coefficient should be positive. The answer is \(r=0.987.\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1518">
+            <jumpto>677</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658507549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I'm not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="677">
+        <prevpageid>676</prevpageid>
+        <nextpageid>680</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658508344</timecreated>
+        <timemodified>1659048912</timemodified>
+        <title>3.5.2: Additional Resources</title>
+        <contents>&lt;h4 style="text-align: left;"&gt;Calculating and Interpreting Correlation Coefficients&lt;/h4&gt;
+&lt;p&gt;Properties of the correlation coefficient: &lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Property 1: The sign of 𝒓 (positive or negative) corresponds to the direction of the linear relationship. &lt;/li&gt;
+    &lt;li&gt;
+        Property 2: A value of 𝒓 = +𝟏 indicates a perfect positive linear relationship, with all points in the scatter plot falling exactly on a straight line. &lt;/li&gt;
+    &lt;li&gt;
+        Property 3: A value of 𝒓 = −𝟏 indicates a perfect negative linear relationship, with all points in the scatter plot falling exactly on a straight line. &lt;/li&gt;
+    &lt;li&gt;
+        Property 4: The closer the value of 𝒓 is to +𝟏 or −𝟏, the stronger the linear relationship.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Using the data of shoe length in inches and height in inches for 𝟏𝟎 men, find the correlation coefficient of the data with graphing technology.&lt;/p&gt;
+&lt;table width="348" border="1" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th scope="col" width="160"&gt;\(x\) (Shoe Length) Inches&lt;/th&gt;
+            &lt;th scope="col" width="172"&gt;\(y\) (Height)&lt;br&gt;
+                Inches&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;12.6&lt;/td&gt;
+            &lt;td&gt;74&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;11.8&lt;/td&gt;
+            &lt;td&gt;65&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;12.2&lt;/td&gt;
+            &lt;td&gt;71&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;11.6&lt;/td&gt;
+            &lt;td&gt;67&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;12.2&lt;/td&gt;
+            &lt;td&gt;69&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;11.4&lt;/td&gt;
+            &lt;td&gt;68&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;12.8&lt;/td&gt;
+            &lt;td&gt;70&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;12.2&lt;/td&gt;
+            &lt;td&gt;69&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;12.6&lt;/td&gt;
+            &lt;td&gt;72&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;11.8&lt;/td&gt;
+            &lt;td&gt;71&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;
+    The correlation coefficient is r ≈ 0.65.&lt;/p&gt;
+&lt;p&gt;Based on the table, there is a moderate positive linear relationship between shoe length and height.&lt;/p&gt;
+&lt;p&gt;The table below shows how you can informally interpret the value of a correlation coefficient&lt;/p&gt;
+&lt;table width="623" border="1" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th scope="col" width="242"&gt;If the value of the correlation coefficient is between...&lt;/th&gt;
+            &lt;th scope="col" width="365"&gt;You can say that....&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;\(r-1.0\)&lt;/td&gt;
+            &lt;td&gt;There is a perfect positive linear relationship.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;\(0.7\leq r&amp;lt;1.0\)&lt;/td&gt;
+            &lt;td&gt;There is a strong positive linear relationship,&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;\(0.3\leq r&amp;lt;0.7\)&lt;/td&gt;
+            &lt;td&gt;There is a moderate positive linear relationship.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;\(0&amp;lt;r&amp;lt;0.3\)&lt;/td&gt;
+            &lt;td&gt;There is a weak positive linear relationship.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;\(r=0\)&lt;/td&gt;
+            &lt;td&gt;There is no linear relationship.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;\(-0.3&amp;lt;r&amp;lt;0\)&lt;/td&gt;
+            &lt;td&gt;There is a weak negative linear relationship.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;\(-0.7&amp;lt;r\leq-0.3\)&lt;/td&gt;
+            &lt;td&gt;There is a moderate negative linear relationship.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;\(-1.0&amp;lt;r\leq-0.7\)&lt;/td&gt;
+            &lt;td&gt;There is a strong negative linear relationship.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;\(r=-1.0\)&lt;/td&gt;
+            &lt;td&gt;There is a perfect negative lineat relationship.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;&lt;br&gt;&lt;/h4&gt;
+&lt;h4&gt;Try It: Calculating and Interpreting Correlation Coefficients&lt;/h4&gt;
+&lt;p&gt;Consumer Reports published a study of fast-food items. The table and scatter plot below display the fat content (in grams) and number of calories per serving for 𝟏𝟔 fast-food items.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/aca8f83947b57b52a355fc98e7c83b99e6545d17" alt="GRAPH OF THE RELATIONSHIP BETWEEN FAT IN GRAMS AND CALORIES IN KILOCALORIES, SHOWS A MODERATE POSITIVE CORRELATION." class="img-fluid atto_image_button_text-bottom" width="400" height="555"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;div&gt;
+    &lt;div&gt;&lt;br&gt;
+        &lt;div&gt;
+            &lt;table width="209" border="1" cellpadding="5"&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;th scope="col" width="97"&gt;
+                            &lt;p&gt;Fat&lt;br&gt;
+                                ( \(g\) )&lt;/p&gt;
+                        &lt;/th&gt;
+                        &lt;th scope="col" width="96"&gt;Calories&lt;br&gt;
+                            (kcal)&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;2&lt;/td&gt;
+                        &lt;td&gt;268&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;5&lt;/td&gt;
+                        &lt;td&gt;3003&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;3&lt;/td&gt;
+                        &lt;td&gt;260&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;3.5&lt;/td&gt;
+                        &lt;td&gt;300&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;1&lt;/td&gt;
+                        &lt;td&gt;315&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;2&lt;/td&gt;
+                        &lt;td&gt;160&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;3&lt;/td&gt;
+                        &lt;td&gt;200&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;6&lt;/td&gt;
+                        &lt;td&gt;320&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;3&lt;/td&gt;
+                        &lt;td&gt;420&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;5&lt;/td&gt;
+                        &lt;td&gt;290&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;3.5&lt;/td&gt;
+                        &lt;td&gt;285&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;2.5&lt;/td&gt;
+                        &lt;td&gt;390&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;0&lt;/td&gt;
+                        &lt;td&gt;140&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;2.5&lt;/td&gt;
+                        &lt;td&gt;330&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;1&lt;/td&gt;
+                        &lt;td&gt;120&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;3&lt;/td&gt;
+                        &lt;td&gt;180&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;&lt;br&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the Solution button to check your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;span lang="EN"&gt;The correlation
+            coefficient is \(r≈0.44\). By the table, this indicates a moderate, positive
+            linear relationship between sodium content and calories.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span lang="EN"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;span lang="EN"&gt;How did you do? Know that you
+            learn more from wrong answers than from right answers! Wrong answers help us
+            find flaws in our thinking. Take a minute to think about &lt;em&gt;why &lt;/em&gt;you got the question wrong. Then you won’t get this type of
+            question wrong again!&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1516">
+            <jumpto>676</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658508344</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1517">
+            <jumpto>680</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658508344</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="680">
+        <prevpageid>677</prevpageid>
+        <nextpageid>681</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657494969</timecreated>
+        <timemodified>1659051031</timemodified>
+        <title>3.5.3: Using Correlation Coefficient to Describe Relationships between Two Variables</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+
+&lt;p&gt;For each situation, describe the relationship between the variables, based on the correlation coefficient. Make sure to mention whether there is a&amp;nbsp;&lt;strong&gt;strong relationship&lt;/strong&gt;&amp;nbsp;or not as well as whether it is a&amp;nbsp;&lt;strong&gt;positive relationship&lt;/strong&gt;&amp;nbsp;or&amp;nbsp;&lt;strong&gt;negative relationship&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;!--Question 1 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;1. Number of steps taken per day and number of kilometers walked per day.&amp;nbsp; \(𝑟=0.92\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter your answer here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Compare your answer:&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;There is a strong, positive
+                relationship. An increase in the number of kilometers walked tends to go along
+                with an increase in the number of steps taken per day.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Question 2 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;2. Temperature of a rubber band and distance the rubber band can stretch.&amp;nbsp; \(𝑟=0.84\)
+        &lt;/p&gt;
+        &lt;p&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;Enter your answer here:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Compare your answer:&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;There is a strong, positive
+                relationship. An increase in temperature tends to go along with an increase in
+                the distance a rubber band can stretch.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Question 3 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;3. Car weight and distance traveled using a full tank of gas.&amp;nbsp; \(𝑟=-0.86\)
+        &lt;/p&gt;
+        &lt;p&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;Enter your answer here:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Compare your answer:&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;There is a strong, negative
+                relationship. An increase in the weight of a car tends to go along with a
+                decrease in the distance it can travel on a full tank of gas.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Question 4 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;4. Average fat intake per citizen of a country and average cancer rate of a country.&amp;nbsp; \(𝑟=0.73\)&lt;/p&gt;
+        &lt;p&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;Enter your answer here:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;There is a strong positive
+            relationship. An increase in the fat intake per citizen of a country tends to
+            go along with an increase in the average cancer rate of a country.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Question 5 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;5. Score on science exam and number of words written on the essay question.&amp;nbsp; \(𝑟=0.28\)&lt;/p&gt;
+        &lt;p&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;Enter your answer here:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Compare your answer:&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;span lang="EN"&gt;There is a weak, positive
+                relationship. An increase in the number of words written on the essay questions
+                tends to go along with an increase on the score for a science exam, but the
+                relationship is weak.&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Question 6 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;6. Average time spent listening to music per day and average time spent watching TV per day.&amp;nbsp; \(𝑟=-0.17\)&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;Enter your answer here:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Compare your answer:&lt;/span&gt;&lt;/p&gt;
+
+        &lt;p&gt;There is a weak, negative
+            relationship. An increase in the average time spent listening to music per day
+            tends to go along with a decrease in the average time spent watching TV per
+            day, although the relationship is weak.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;&lt;br&gt;&lt;/h3&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;div&gt;
+            &lt;div&gt;
+                &lt;div&gt;
+                    &lt;p&gt;A biologist is trying to determine if a group of dolphins is a new species of dolphin or if it is a new group of individuals within the same species of dolphin. The biologist measures the width (in millimeters) of the largest part of the skull, zygomatic width, and the length (in millimeters) of the snout, rostral length, of 10 dolphins from the same group of individuals.&lt;/p&gt;
+                    &lt;table border="1" width="213" cellspacing="0" cellpadding="5"&gt;
+                        &lt;tbody&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;x, rostral length (mm)&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;y, zygomatic width (mm)&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;288&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;147&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;247&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;147&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;268&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;171&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;278&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;177&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;258&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;168&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;272&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;184&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;272&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;161&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;258&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;159&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;273&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;168&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top" width="110" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;277&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td valign="top" width="103" style="border:1px solid black;"&gt;
+                                    &lt;p&gt;166&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                    &lt;/table&gt;&lt;br&gt;
+                    &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+                    &lt;p&gt;The data appears to be linear and the equation of the line of best fit is&amp;nbsp; \(𝑦=0.201𝑥+110.806\)&amp;nbsp; &amp;nbsp;and the&amp;nbsp; \(r\) -value is 0.201.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div&gt;&amp;nbsp;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;ol&gt;
+            &lt;li&gt;
+                &lt;p&gt;After checking the data, the biologist realizes that the first zygomatic width listed as 147 mm is an error. It is supposed to be 180 mm. Use technology to find the equation of a line of best fit and the correlation coefficient for the corrected data. What is the equation of the line of best fit and the correlation coefficient?&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;p&gt;Compare the new equation of the line of best fit with the original. What impact did changing one data point have on the slope,&amp;nbsp; &amp;nbsp;\(y\) -intercept, and correlation coefficient on the line of best fit?&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;p&gt;Why do you think that weak positive association became a moderately strong association? Explain your reasoning.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;p&gt;Use technology to change the&amp;nbsp; \(y\) -value for the first and second entries in the table.&lt;/p&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt;
+                        &lt;p&gt;How does changing each point's&amp;nbsp; &amp;nbsp;\(y\)-value impact the correlation coefficient?&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;p&gt;Can you change two values to get the correlation coefficient closer to 1? Use data to support your answer.&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;p&gt;By leaving&amp;nbsp; (288,180)&amp;nbsp; , can you change a value to get the relationship to change from a positive one to a negative one? Use data to support or refute your answer.&lt;/p&gt;
+                    &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span lang="EN"&gt;Enter your answers here:&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;
+                &lt;p&gt;\(𝑦=0.693 𝑥−18.373\)&amp;nbsp; &amp;nbsp;and&amp;nbsp; \(𝑟=0.76\)&amp;nbsp;&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;p&gt;The slope increased and the correlation coefficient got closer to 1. The&amp;nbsp; \(y\) -intercept also change significantly.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;p&gt;I think it became moderately strong because the data point that was changed did not follow the roughly linear pattern of the other 9 data points, and when it was changed, it did follow the linear pattern more closely.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt;
+                        Changing the points to numbers well above or below the existing linear trend in the data makes the correlation coefficient get closer to zero.
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        Sample response: I managed to get the&amp;nbsp; \(r\) -value to 0.86 by changing the 2 values that appeared furthest from the line of best fit,&amp;nbsp; &amp;nbsp;( 272 , 184 ) &amp;nbsp;and&amp;nbsp; (272,161) , to values that are very close to the existing line of best fit,&amp;nbsp; (272,168)&amp;nbsp; &amp;nbsp;and&amp;nbsp; (272,168) .
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        Sample response: By changing&amp;nbsp; (247,147)&amp;nbsp; &amp;nbsp;to&amp;nbsp; ( 247 , 1000 ) , I was able to change the relationship to a negative one because the line of best fit had a negative slope,&amp;nbsp; \(𝑦=-14.187𝑥+4071.1 \)
+                    &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1505">
+            <jumpto>674</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657494969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1506">
+            <jumpto>681</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657494969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="683">
+        <prevpageid>678</prevpageid>
+        <nextpageid>682</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657496969</timecreated>
+        <timemodified>1659049894</timemodified>
+        <title>3.5.4: Interpreting the Correlation Coefficient</title>
+        <contents>&lt;h4&gt;Cool Down&amp;nbsp;Activity&lt;/h4&gt;
+
+&lt;p&gt;Doctors suspect a strain of bacteria found in the hospital is becoming resistant to antibiotics. They put various concentrations of antibiotic in petri dishes and add some of the bacteria to allow it to grow. The bacteria grow into groups in the dish called colonies. After some time, the doctors return to the petri dishes and count the number of colonies for the different amounts of antibiotic.&lt;/p&gt;
+&lt;p&gt;The data is plotted with a best fit line. The correlation coefficient was \(r=-0.83\).&lt;/p&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;1. What does the sign of the correlation coefficient tell you about the relationship between the number of bacteria colonies and the concentration of antibiotic in the dish?&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;&lt;p&gt;There is a negative relationship between the number of bacteria colonies and the concentration of antibiotics in the dish. When the concentration of antibiotics is higher, there are fewer bacteria colonies.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;2.&amp;nbsp;What does the numerical value of the correlation coefficient tell you about the relationship between the number of bacteria colonies and the concentration of antibiotic in the dish?&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;&lt;p&gt;The relationship between the number of bacteria colonies and the concentration of antibiotic in the dish is strong since this value is fairly close to -1.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;In a follow-up study, a group of scientists collect data that was fit by a linear model with a correlation coefficient of \(r=-0.94\). Which study suggests a stronger relationship between the number of bacteria colonies and the concentration of antibiotics-the doctors' study or the scientists' study? Explain your reasoning.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;&lt;p&gt;The scientists' study suggests a stronger relationship, since both correlation coefficients are negative and the correlation coefficient for the scientists' line is closer to -1.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1507">
+            <jumpto>680</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657496969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1508">
+            <jumpto>682</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657496969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="681">
+        <prevpageid>680</prevpageid>
+        <nextpageid>678</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658516098</timecreated>
+        <timemodified>1659050815</timemodified>
+        <title>3.5.3: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-66027cec-7fff-c54c-5c1f-c148b699106a"&gt;In the graph below, which BEST describes the scatter plot of points?&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/968cd1ffebf121e75411ca59ea97082f848f6e3d" alt="SCATTER PLOT THAT CAN BE APPROXIMATED BY A LINE, WHERE THE Y-VALUES DECREASE AS THE X-VALUES INCREASE" class="img-fluid atto_image_button_text-bottom" width="400" height="373"&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1521">
+            <jumpto>678</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658516098</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\( r=0.90 \), positive, weak, correlation&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-857f7d09-7fff-ace4-8826-8b5c0723bce6"&gt;Incorrect. Let’s try again a different way: &lt;/span&gt;The slope of the line of best fit would be negative, so correlation should be negative. Also, the correlation coefficient is close to 1, so it is a strong relationship. The answer is \( r=-0.90 \), strong, negative correlation.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1522">
+            <jumpto>683</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658516098</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( r=-0.90 \), strong, negative correlation&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-f18bbae6-7fff-60c7-7199-ec4631b0b92a"&gt;That’s correct! Check yourself: &lt;/span&gt;The slope of the line of best fit would be negative, so the correlation should be negative. Also, since the points are close together, the \( r \) value is close to -1.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1523">
+            <jumpto>678</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658516098</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\( r=-0.24 \), weak, negative correlation&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-c7589a70-7fff-0d2d-6d55-9de0ed715a27"&gt;Incorrect. Let’s try again a different way: Since the points are close together, the r value should be close to -1. &lt;/span&gt;The answer is \( r=-0.90 \), strong, negative correlation.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1524">
+            <jumpto>678</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658516098</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(r=0.24\), positive correlation&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-35021b4e-7fff-9bf5-bdaa-ee9cb57e8cc4"&gt;Incorrect. Let’s try again a different way: The slope of the line of best fit would be negative, so correlation should be negative. Since the points are close together, the \( r \) value should be close to -1. The answer is &lt;/span&gt;\( r=-0.90 \), strong, negative correlation&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1525">
+            <jumpto>678</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658516098</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I'm not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="678">
+        <prevpageid>681</prevpageid>
+        <nextpageid>683</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658515637</timecreated>
+        <timemodified>1659050584</timemodified>
+        <title>3.5.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Determine the Strength of a Linear Relationship&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Example. &lt;/strong&gt;Finding a Correlation Coefficient&lt;/p&gt;
+&lt;ol type="a" start="1"&gt;
+    &lt;li&gt;Calculate the correlation coefficient for cricket-chirp data in the table below.&lt;/li&gt;
+    &lt;li&gt;Tell if the linear relationship is positive or negative and if it is strong, weak, or moderate.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table width="637" cellspacing="0" cellpadding="5" border="1"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="122"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Chirps&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;44&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;35&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;20.4&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="54"&gt;
+                &lt;p align="center"&gt;33&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="49"&gt;
+                &lt;p align="center"&gt;31&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="49"&gt;
+                &lt;p align="center"&gt;35&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="67"&gt;
+                &lt;p align="center"&gt;18.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="59"&gt;
+                &lt;p align="center"&gt;37&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="51"&gt;
+                &lt;p align="center"&gt;26&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="122"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Temperature&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;80.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;70.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;57&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="54"&gt;
+                &lt;p align="center"&gt;66&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="49"&gt;
+                &lt;p align="center"&gt;68&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="49"&gt;
+                &lt;p align="center"&gt;72&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="67"&gt;
+                &lt;p align="center"&gt;52&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="59"&gt;
+                &lt;p align="center"&gt;73.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="51"&gt;
+                &lt;p align="center"&gt;53&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+
+&lt;p&gt;
+    a.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    Using graphing technology, enter the chirps in the x-column of the table and the temperature in the y-column of the table. The correlation coefficient is&amp;nbsp; r=0.9509.
+&lt;/p&gt;
+&lt;p&gt;
+    b.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    This value is very close to 1, which suggests a strong, positive,&amp;nbsp; linear relationship.&lt;/p&gt;
+
+&lt;h4&gt;Try It: Determine the Strength of a Linear Relationship&lt;/h4&gt;
+&lt;ol type="1" start="1"&gt;
+    &lt;li&gt;Calculate the correlation coefficient for data in the table below. Tell if the linear relationship is positive or negative and if it is strong, weak, or moderate.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table width="637" cellspacing="0" cellpadding="5" border="1"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;x&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;21&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;25&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;30&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="54"&gt;
+                &lt;p align="center"&gt;31&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="49"&gt;
+                &lt;p align="center"&gt;40&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="49"&gt;
+                &lt;p align="center"&gt;50&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;y&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;17&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;11&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="62"&gt;
+                &lt;p align="center"&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="54"&gt;
+                &lt;p align="center"&gt;-1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="49"&gt;
+                &lt;p align="center"&gt;-18&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="49"&gt;
+                &lt;p align="center"&gt;-40&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+
+
+
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-cta-content" style="margin-left: 30px;"&gt;
+        &lt;br&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  
+    &lt;p&gt;&lt;span lang="EN"&gt;\(r=−0.9985\),The relationship is a strong and negative relationship.
+        &lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span lang="EN"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;span lang="EN"&gt;How did you do? Know that you
+            learn more from wrong answers than from right answers! Wrong answers help us
+            find flaws in our thinking. Take a minute to think about &lt;i&gt;why &lt;/i&gt;you got the question wrong. Then you won’t get this type of
+            question wrong again!&lt;/span&gt;&lt;span lang="EN"&gt;&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1519">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658515637</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'd like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1520">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658515637</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'm ready for the next lesson.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="679">
+        <prevpageid>682</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657498451</timecreated>
+        <timemodified>1659049468</timemodified>
+        <title>3.5.6: Lesson Summary</title>
+        <contents>&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="EN"&gt;In this lesson, you
+        learned how to:&lt;b&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;Describe the
+            strength of a relationship between two variables.&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;Use
+            technology to find the correlation coefficient and explain what the value tells
+            me about a linear model in everyday language.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;&lt;span lang="EN"&gt;Here are the &lt;b&gt;activities&lt;/b&gt; that helped you reach those goals:&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span lang="EN"&gt;3.5.1: Using Bivariate Data in Context&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span lang="EN"&gt;In this activity, you matched bivariate data with its context. You thought about whether there would be a strong correlation or not as well as whether the relationship was a positive or negative correlation. &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;span lang="EN"&gt;3.5.2: Finding and Using Correlation Coefficient to Interpret the Strength of Linear Relationships&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span lang="EN"&gt;In this activity, you used technology to find a correlation coefficient given data and used it to interpret the strength of the linear relationship in context. In addition, you interpreted the coefficients of the equation of the line of best fit and used the equation to make predictions.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;span lang="EN"&gt;3.5.2: Self-Check&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span lang="EN"&gt;3.5.3: Using Correlation Coefficient to Describe Relationships between Two Variables&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span lang="EN"&gt;In this activity, you used the correlation coefficient to describe the relationship between two variables. You examined a pair of variables and a correlation coefficient to describe the relationship between the variables as strong or weak and as positive or negative.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;span lang="EN"&gt;3.5.3: Self-Check&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span lang="EN"&gt;3.5.4: Interpreting the Correlation Coefficient&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span lang="EN"&gt;&lt;span lang="EN"&gt;In this activity, 
+you described what the sign and numerical value of the correlation 
+coefficient tell you about the strength of the linear relationship.&lt;/span&gt;&lt;/span&gt;&lt;span lang="EN"&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;p&gt;&lt;span lang="EN"&gt;After
+        these activities, you completed the following &lt;b&gt;practice&lt;/b&gt;&lt;/span&gt;&lt;span lang="EN"&gt;:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span lang="EN"&gt;3.5.5:
+            Practice&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h4&gt;&lt;br&gt;&lt;/h4&gt;&lt;h4&gt;Checking In&amp;nbsp;&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+
+    &lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1511">
+            <jumpto>682</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498451</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1526">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498451</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="682">
+        <prevpageid>683</prevpageid>
+        <nextpageid>679</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657498377</timecreated>
+        <timemodified>1658888069</timemodified>
+        <title>3.5.5: Practice</title>
+        <contents>&lt;p dir="ltr"&gt;&lt;/p&gt;
+
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    &lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="As the number of hours worked increases, the total dollars earned increases." data-solution-options="[&amp;quot;As the number of hours worked increases, the total dollars earned decreases.&amp;quot;, &amp;quot;As the number of hours worked increases, the total dollars earned increases.&amp;quot;, &amp;quot;As the number of hours worked decreases, the total dollars earned increases.&amp;quot;, &amp;quot;As the number of hours worked decreases, the total dollars earned decreases.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;1. The number of hours worked, x, and the total dollars earned, y, have a strong positive relationship.&lt;/p&gt;
+            &lt;p&gt;Explain what it means to have a strong positive relationship in this situation.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! As the number of hours worked increases, the total dollars earned increases.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.5.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is as the number of hours worked increases, the total dollars earned increases. You seem to be stuck. Who can you ask for help?
+
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+
+    &lt;!--Q2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="As the number of minutes the customer waits on the phone increases, the customer satisfaction rating decreases." data-solution-options="[&amp;quot;As the number of minutes the customer waits on the phone increases, the customer satisfaction rating decreases.&amp;quot;, &amp;quot;As the number of minutes the customer waits on the phone increases, the customer satisfaction rating increases.&amp;quot;, &amp;quot;As the number of minutes the customer waits on the phone decreases, the customer satisfaction rating decreases.&amp;quot;, &amp;quot;As the number of minutes the customer waits on the phone increases, the customer satisfaction rating increases.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;2. The number of minutes on the phone and the customer satisfaction rating have a weak negative relationship.
+            &lt;/p&gt;
+            &lt;p&gt;Explain what it means to have a weak negative relationship in this context.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! As the number of minutes the customer waits on the phone increases, the customer satisfaction rating decreases.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.5.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is as the number of minutes the customer waits on the phone increases, the customer satisfaction rating decreases. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+
+    &lt;!--Q3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(r=0.96\)" data-solution-options="[&amp;quot;\\(r=-0.96\\)&amp;quot;, &amp;quot;\\(r=0.96\\)&amp;quot;, &amp;quot;\\(r=0.04\\)&amp;quot;, &amp;quot;\\(r=-0.04\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;3. Use a graphing calculator to answer the questions. Technology required.&lt;/p&gt;
+            &lt;p&gt;Find the equation of the line of best fit. What is the value of the correlation coefficient?&lt;/p&gt;
+
+
+            &lt;table width="211" cellspacing="5" cellpadding="5" border="1"&gt;
+                &lt;tbody border="1"&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;x&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;y&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;5&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;2&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;6&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;4.6&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;7.5&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;7.2&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;8&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;8.4&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;8.3&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;8.2&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;9&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;9.1&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;10.2&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;10.3&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;11.4&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;9.9&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;11.4&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;11&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="103" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;12&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="108" style="border:1px solid black;"&gt;
+                            &lt;p style="text-align: center;"&gt;12.5&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The line of best fit is y=1.25x-2.79, so the value of the correlation coefficient is r=0.96
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.5.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; The correct answer is; The line of best fit is y=1.25x-2.79, so the value of the correlation coefficient is r=0.96
+                You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+
+    &lt;!--Q4a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(r=0.83\)" data-solution-options="[&amp;quot;\\(r=0.27\\)&amp;quot;, &amp;quot;\\(r=-0.83\\)&amp;quot;, &amp;quot;\\(r=0.83\\)&amp;quot;, &amp;quot;\\(r=0.27\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;4. The Princeton Review publishes information about colleges and universities. The data below are for six public 4-year colleges in New York. Graduation rate is the percentage of students who graduate within six years. Student-to-faculty ratio is the number of students per full-time faculty member.&lt;/p&gt;
+            &lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;&lt;b&gt;School&lt;/b&gt;&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;&lt;b&gt;Number of&lt;br&gt;
+                                    Full-Time&lt;br&gt;
+                                    Students&lt;/b&gt;&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;&lt;b&gt;Student&lt;br&gt;
+                                    to&lt;br&gt;
+                                    Faculty&lt;br&gt;
+                                    Ratio&lt;/b&gt;&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;&lt;b&gt;Graduation&lt;br&gt;
+                                    Rate&lt;/b&gt;&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p&gt;CUNY Bernard M. Baruch College&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;11,477&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;17&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;63&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p&gt;CUNY Brooklyn College&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;9,876&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;15.3&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;48&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p&gt;CUNY City College&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;10,047&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;13.1&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;40&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p&gt;SUNY at Albany&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;14,013&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;19.5&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;64&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p&gt;SUNY at Binghamton&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;13,031&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;20&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;77&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p&gt;SUNY College at Buffalo&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;9,398&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p align="center"&gt;14.1&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black;"&gt;
+                            &lt;p align="center"&gt;47&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+            &lt;p&gt;a. Calculate the value of the correlation coefficient between the number of full-time students and graduation rate. Let 𝒙 represent the number of full-time students and 𝒚 represent the graduation rate. Round to the nearest hundredth. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The correlation coefficient is 𝒓 ≈ 𝟎. 𝟖𝟑.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activity 3.5.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; Let 𝒙 represent the number of full-time students and 𝒚 represent the graduation rate. The correlation coefficient is 𝒓 ≈ 𝟎. 𝟖𝟑. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+
+    &lt;!--Q4b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="strong" data-solution-options="[&amp;quot;weak&amp;quot;, &amp;quot;moderate&amp;quot;, &amp;quot;strong&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;b. Is the linear relationship between graduation rate and number of full-time students weak, moderate, or strong? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Based on the table presented in the lesson, the linear relationship between graduation rate and the number of full-time students is strong.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activity 3.5.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: Based on the table presented in the lesson, the linear relationship between graduation rate and the number of full-time students is strong. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+
+    &lt;!--Q4c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(r=0.95\)" data-solution-options="[&amp;quot;\\(r=0.95\\)&amp;quot;, &amp;quot;\\(r=-0.95\\)&amp;quot;, &amp;quot;\\(r=0.05\\)&amp;quot;, &amp;quot;\\(r=-0.05\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;c. Calculate the value of the correlation coefficient between the
+                student-to-faculty ratio and the graduation rate. Round to the nearest
+                hundredth.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The correlation coefficient is 𝒓 ≈ 𝟎.𝟗𝟓.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activity 3.5.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: The correlation coefficient is 𝒓 ≈ 𝟎.𝟗𝟓. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1509">
+            <jumpto>683</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498377</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1510">
+            <jumpto>679</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498377</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

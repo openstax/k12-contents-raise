@@ -1,0 +1,2148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="73" moduleid="96" modulename="lesson" contextid="107">
+  <lesson id="73">
+    <course>2</course>
+    <name>Lesson 3.4: The Correlation Coefficient</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1658532938</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="655">
+        <prevpageid>0</prevpageid>
+        <nextpageid>656</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658533035</timecreated>
+        <timemodified>1658775907</timemodified>
+        <title>3.4.0: Lesson Overview</title>
+        <contents>&lt;p dir="ltr"&gt;In this lesson, you will find and interpret the correlation coefficient and use it to understand the strength of a linear relationship.&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;When you finish this lesson, you will be able to:&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Describe the “goodness of fit” of a linear model using the correlation coefficient.&lt;/li&gt;&lt;li&gt;Match the correlation coefficient with a scatter plot and linear model.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;Here are the&lt;strong&gt; activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;3.4.1: Comparing Scatter Plots with Linear and Nonlinear Trends&lt;/li&gt;&lt;li&gt;3.4.2: Recognizing Differences in Scatter Plots&lt;/li&gt;&lt;li&gt;3.4.2: Self Check&lt;/li&gt;&lt;li&gt;3.4.3: Matching Correlation Coefficients&lt;/li&gt;&lt;li&gt;3.4.3: Self Check&lt;/li&gt;&lt;li&gt;3.4.4: Using Correlation Coefficient to Determine Best Fit&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;3.4.5: Practice&lt;/li&gt;&lt;li&gt;3.4.6: Lesson Summary&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1461">
+            <jumpto>656</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533035</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="656">
+        <prevpageid>655</prevpageid>
+        <nextpageid>657</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658533188</timecreated>
+        <timemodified>1659044734</timemodified>
+        <title>3.4.1: Comparing Scatter Plots with Linear and Nonlinear Trends</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;p dir="ltr"&gt;Which one doesn’t belong?&lt;/p&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;A.&amp;nbsp;&lt;img src="https://s3.amazonaws.com/im-ims-export/McRZj8wdb4iNBD7zY17E8ngf" alt="Graph of a scatter plot, origin O. distance (miles) and&amp;nbsp;cost (dollars)."&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;B.&amp;nbsp;&lt;img src="https://s3.amazonaws.com/im-ims-export/1sJFjR1TiL4Ye97Xf9ViMWwf" alt="Graph of a scatter plot, origin O, with grid. Height (millimeters) and weight (milligrams)."&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;C.&amp;nbsp;&lt;img src="https://s3.amazonaws.com/im-ims-export/nZ9y4QjDzZf4UkqMyGZMyzvg" alt="A scatterplot."&gt;&lt;/p&gt;
+        &lt;p dir="ltr"&gt;D.&amp;nbsp;&lt;img src="https://s3.amazonaws.com/im-ims-export/jij29oX8wtZUsPAkLE5pyGap" alt="A scatterplot."&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Your answers may vary, but here are some examples:&lt;/p&gt;
+        &lt;p&gt;A doesn’t belong because:&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;It is the only scatter plot with data that fit a line well and are increasing.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;B doesn’t belong because:&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;It is the only scatter plot with data that would not fit a line well and do not show a pattern.&amp;nbsp;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;C doesn’t belong because:&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;It is the only scatter plot with data that would fit a line well and are decreasing.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;D doesn’t belong because:&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;It is the only scatter plot with data that would not fit a line well and do show a curved pattern.&amp;nbsp;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1462">
+            <jumpto>655</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533188</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1463">
+            <jumpto>657</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533188</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="657">
+        <prevpageid>656</prevpageid>
+        <nextpageid>658</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658533283</timecreated>
+        <timemodified>1659044827</timemodified>
+        <title>3.4.2: Recognizing Differences in Scatter Plots</title>
+        <contents>&lt;h4 style="text-align: left;"&gt;Activity&lt;/h4&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;Your teacher will give you a set of cards that show scatter plots of data. Sort the cards into 2 categories of your choosing. Be prepared to explain the meaning of your categories. Then, sort the cards into 2 categories in a different way. Be prepared to explain the meaning of your new categories.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Scatter plots that look linear: C, D, F, G. Scatter plots that are not very linear: A, B, E, H, I, J&lt;/li&gt;&lt;li&gt;Generally increasing: E, F, G, I. Generally decreasing: A, C, D, J. Not really increasing or decreasing: B, H&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1464">
+            <jumpto>656</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533283</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1465">
+            <jumpto>658</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533283</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="658">
+        <prevpageid>657</prevpageid>
+        <nextpageid>659</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658533422</timecreated>
+        <timemodified>1658776308</timemodified>
+        <title>3.4.2: Self Check</title>
+        <contents>&lt;p dir="ltr"&gt;Which correlation coefficient best matches the scatter plot below?&lt;/p&gt;
+&lt;p dir="ltr"&gt;&amp;nbsp;&lt;img src="https://k12.openstax.org/contents/raise/resources/4a737224dfcdffdeacb21090c9a086106e38e830" alt="" width="350" height="326" role="presentation"&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1466">
+            <jumpto>660</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658533422</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(r=0.95\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The slope is positive, and there is a strong correlation because the points are close to each other. The correlation coefficient should be close to positive 1.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1467">
+            <jumpto>659</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533422</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(r=-0.89\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The slope of the line of best fit would be positive, so the \(r\)-value should be positive. The answer is \(r=0.95\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1468">
+            <jumpto>659</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533422</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(r=0.26\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This indicates a weak positive correlation. The scatter plot has points that are very close to each other, so the \(r\)-value should be closer to 1. The answer is \(r=0.95\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1469">
+            <jumpto>659</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533422</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(r=-0.39\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: This indicates a weak negative correlation. The scatter plot has points that are very close to each other, so the \(r\)-value should be closer to 1. The slope of the line of best fit would be positive, so the \(r\)-value should be positive. The answer is&amp;nbsp;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;\(r=0.95\).&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1470">
+            <jumpto>659</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533422</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&amp;nbsp;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="659">
+        <prevpageid>658</prevpageid>
+        <nextpageid>660</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658533603</timecreated>
+        <timemodified>1659045771</timemodified>
+        <title>3.4.2: Additional Resources</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;
+&lt;h4&gt;Correlation Coefficient&lt;/h4&gt;
+&lt;p&gt;The correlation coefficient is a number between \(-1\) and \(+1\) (including \(-1\) and \(+1\)) that measures the strength and direction of a linear relationship. The correlation coefficient is denoted by the letter \(r\). Several scatter plots are shown below. The value of the correlation coefficient for the data displayed in each plot is also given.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/145c40c22a66d767a839006e27971719b1f5ed40" alt="" width="350" height="440" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6d12efe2b4803c74d0e500d8ded9bdfdc0c8c8ca" alt="" width="350" height="340" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/05ab55b9fcb372cf1f3d26385a2e6be01c33b3c8" alt="" width="350" height="340" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/92fb7cb25185ddad4146c7fd8a5b804d3ca1ff7f" alt="" width="350" height="340" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c05dae989827fb0b0fc7ed78d260b9033167c3e1" alt="" width="350" height="340" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/a7ae5b629d8807a43abc7696ded9e1912ca72b90" alt="" width="350" height="340" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/3319a8d06f502242dc15ee91d771e05e409d8d05" alt="" width="350" height="340" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;When is the value of the correlation coefficient positive?&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;The correlation coefficient is positive when as the \(x\)-values increase, the \(y\)-values also tend to increase.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;When is the value of the correlation coefficient negative?&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;The correlation coefficient is negative when as the \(x\)-values increase, the \(y\)-values tend to decrease.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Is the linear relationship stronger when the correlation coefficient is closer to 0 or to 1 (or –1)?&lt;/li&gt;
+    &lt;li&gt;As the points form a stronger negative or positive linear relationship, the correlation coefficient gets farther from 0. Students note that when all of the points are on a line with a positive slope, the correlation coefficient is \(+1\). The correlation coefficient is \(-1\) if all of the points are on a line with a negative slope.&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The table below shows how you can informally interpret the value of a correlation coefficient.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;If the value of the correlation coefficient is . . .&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;You can say that . . .&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;\(r = 1.0\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;There is a perfect positive linear relationship.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;\( 0.7\;\leq\;r\;&amp;lt;\;1.0\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;There is a strong positive linear relationship.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;\( 0.3\;\leq\;r\;&amp;lt;\;0.7\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;There is a moderate positive linear relationship.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;\( 0\;&amp;lt;\;r\;&amp;lt;\;0.3\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;There is a weak positive linear relationship.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;\(r = 0\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;There is no linear relationship.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;\( -0.3\;&amp;lt;\;r\;&amp;lt;\;0\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;There is a weak negative linear relationship.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;\( -0.7\;&amp;lt;\;r\;\leq\;-0.3\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;There is a moderate negative linear relationship.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;\( -1.0\;&amp;lt;\;r\;\leq\;-0.7\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;There is a strong negative linear relationship.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;\(r = -1.0\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="312" valign="top"&gt;
+                &lt;p align="center"&gt;There is a perfect negative linear relationship.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;Try It: Correlation Coefficient&lt;/h4&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-cta-content" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/278eaa2d070c2003bcb24f90dabb39f48a33436b" width="700"&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;p&gt;The strongest linear relationship would be Scatter Plot 3. The points are closest to having a linear model. The weakest linear relationship would be Scatter Plot 2 because the points are spread apart the most and are less likely to have a strong linear relationship.&lt;/p&gt;
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+    &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1471">
+            <jumpto>658</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533603</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1472">
+            <jumpto>660</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658533603</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="660">
+        <prevpageid>659</prevpageid>
+        <nextpageid>661</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658534380</timecreated>
+        <timemodified>1659051726</timemodified>
+        <title>3.4.3: Matching Correlation Coefficients</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;Thinking back to the last activity, you learned about the \(r\)-value. Write these characteristics about the \(r\)-value in your notebook.&lt;/p&gt;
+&lt;p&gt;The \(r\)-value is called a correlation coefficient. A &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;correlation coefficient&lt;/span&gt; is one way to measure the strength of a linear relationship.
+&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;The sign of \(r\) is the same as the sign of the slope of the best fit line.&lt;/li&gt;
+    &lt;li&gt;The values for \(r\) go from –1 to 1 and include –1 and 1.&lt;/li&gt;
+    &lt;li&gt;The closer \(r\) is to 1 or –1, the stronger the linear relationship between the variables.&lt;/li&gt;
+    &lt;li&gt;The closer \(r\) is to 0, the weaker the linear relationship between the variables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Take turns with your partner to match a scatter plot with a correlation coefficient.&lt;/li&gt;
+    &lt;li&gt;For each match you find, explain to your partner how you know it’s a match.&lt;/li&gt;
+    &lt;li&gt;For each match your partner finds, listen carefully to their explanation. If you disagree, discuss your thinking and work to reach an agreement.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;A.&amp;nbsp;&lt;img alt="Graph of a scatter plot, xy-plane, origin O. &amp;nbsp;" height="225" src="https://s3.amazonaws.com/im-ims-export/bkun1TkvmvTx9RhJgC98b4qv" width="212"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div&gt;
+    &lt;div&gt;
+        &lt;div&gt;&lt;br&gt;B.&amp;nbsp;&lt;img alt="Graph of a scatter plot, xy-plane, origin O.&amp;nbsp; &amp;nbsp;" height="225" src="https://s3.amazonaws.com/im-ims-export/yTqXfw7x11pW9nwmrN8d3Caj" width="218"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;div&gt;
+            &lt;p&gt;C.&amp;nbsp;&lt;img alt="Graph of a scatter plot, xy-plane, origin O.&amp;nbsp; &amp;nbsp;" height="225" src="https://s3.amazonaws.com/im-ims-export/9wBsyXcZAf196MM9LnW7ShU7" width="212" style="font-size: 0.9375rem;"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;div&gt;
+        &lt;div&gt;
+            &lt;p&gt;D.&amp;nbsp;&lt;img alt="Graph of a scatter plot, xy-plane, origin O.&amp;nbsp; &amp;nbsp;" height="225" src="https://s3.amazonaws.com/im-ims-export/dG99dgfJhHJP7LQv1dtow7e4" width="212" style="font-size: 0.9375rem;"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;div&gt;
+            &lt;p&gt;E.&amp;nbsp;&lt;img alt="Graph of a scatter plot, xy-plane, origin O.&amp;nbsp;" height="225" src="https://s3.amazonaws.com/im-ims-export/VvLHYCFFtXLScYUx7jjvhKQc" width="212" style="font-size: 0.9375rem;"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;div&gt;
+        &lt;div&gt;
+            &lt;p&gt;F.&amp;nbsp;&lt;img alt="Graph of a scatter plot, xy-plane, origin O." height="225" src="https://s3.amazonaws.com/im-ims-export/sXLWUHWNwPmqJVKsNtZi2Q5a" width="212" style="font-size: 0.9375rem;"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;div&gt;
+            &lt;p&gt;G.&amp;nbsp;&lt;img alt="Graph of a scatter plot, xy-plane, origin O." height="225" src="https://s3.amazonaws.com/im-ims-export/UFHd9iqq5tNrwPvuSHngtppA" width="212" style="font-size: 0.9375rem;"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;div&gt;
+        &lt;div&gt;
+            &lt;p&gt;H.&amp;nbsp;&lt;img alt="Graph of a scatter plot, xy-plane, origin O." height="225" src="https://s3.amazonaws.com/im-ims-export/JBnE8gpGcntoubTbdTdy2BVD" width="218" style="font-size: 0.9375rem;"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;1. \(r=-1\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;Scatter Plot F&amp;nbsp;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;2. \(r=-0.95\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;Scatter Plot C&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;3. \(r=-0.74\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;Scatter Plot D&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;4. \(r=-0.06\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;Scatter Plot G&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;5. \(r=0.48\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;Scatter Plot H&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;6. \(r=0.65\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;Scatter Plot E&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;7. \(r=0.9\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;Scatter Plot B&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;8. \(r=1\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;Scatter Plot A&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;h4&gt;Video: Matching Correlation Coefficients&lt;/h4&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Watch the following video to learn more about the connections of scatter plots to the correlation coefficient.&lt;/span&gt;&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/9dd8ac5e25c9fae8fc5834b6f516c7a2e7e1a691"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/b119dbcecc68092e35d57f166f623064f23b530b" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/9dd8ac5e25c9fae8fc5834b6f516c7a2e7e1a691
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;h4&gt;Making a Real-World Connection&lt;/h4&gt;
+        &lt;p&gt;Jada wants to know if the speed that people walk is correlated with their texting speed. To investigate this, she measured the distance, in feet, that 5 of her friends walked in 30 seconds and the number of characters they texted during that time. Each of the 5 friends took 4 walks for a total of 20 walks. Here are the results of the first 20 walks.&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/8jr1GjYFHE4VouzZ2fj4jei3" alt="A scatterplot. Horizontal, from 80 to 180, by 20’s, labeled distance, feet. Vertical, from 25 to 150, by 25’s, number of characters, texted. 19 dots, trend linearly downward and to the right."&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;&lt;strong&gt;distance (feet)&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;&lt;strong&gt;number of characters texted&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;&lt;strong&gt;distance (feet)&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;&lt;strong&gt;number of characters texted&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;105&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;14&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;95&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;138&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;125&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;110&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;125&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;110&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;115&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;120&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;160&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;80&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;140&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;98&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;175&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;64&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;145&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;102&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;130&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;106&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;160&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;89&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;140&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;95&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;170&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;72&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;150&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;95&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;140&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;100&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;155&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;90&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;130&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;107&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;160&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;74&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;105&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;113&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;135&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;108&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;&lt;br&gt;
+        &lt;p&gt;Over the next few days, the same 5 friends practiced walking and texting to see if they could walk faster and text more characters. They did not record any more data while practicing. After practicing, each of the 5 friends took another 4 walks. Here are the results of the final 20 walks.&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/YoVKKzrNiS47UqYnkBDNXfDe" alt="A scatterplot. Horizontal, from 120 to 240, by 20’s, labeled distance, feet. Vertical, from 25 to 200, by 25’s, number of characters, texted. 19 dots, trend slightly downward and right."&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;&lt;strong&gt;distance (feet)&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;&lt;strong&gt;number of characters texted&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;&lt;strong&gt;distance (feet)&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;&lt;strong&gt;number of characters texted&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;140&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;410&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;165&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;151&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;150&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;155&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;170&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;136&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;160&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;151&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;190&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;143&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;155&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;170&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;205&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;132&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;180&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;125&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;205&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;128&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;205&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;130&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;210&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;140&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;225&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;95&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;215&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;109&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;175&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;161&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;220&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;105&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;195&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;108&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;230&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;126&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;155&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;142&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;225&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="156" valign="top"&gt;
+                        &lt;p align="center"&gt;138&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;1.&amp;nbsp;What do you notice about the 2 scatter plots?&lt;/span&gt;&lt;br&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;I noticed that in the second scatter plot, the students traveled longer distances. In addition, the students seemed to type more characters for any given distance in the second scatter plot than in the first scatter plot.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;2.&amp;nbsp;Jada noticed that her friends walked farther and texted faster during the last 20 walks than they did during the first 20 walks. Since both were faster, she predicts that the correlation coefficient of the line of best fit for the last 20 walks will be closer to –1 than the correlation coefficient of the line of best fit for the first 20 walks. Do you agree with Jada? Explain your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Sample response:&lt;/p&gt;
+        &lt;p&gt;I do not agree with Jada. The correlation coefficient deals with how closely the line of best fit models the data. The comparison between the walking distance and the number of characters texted is about the slope of the line, not the fit of the line.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;3. Use technology to find an equation of the line of best fit for each data set.
+        &lt;/p&gt;
+       &lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Sample response:&lt;/p&gt;
+        &lt;p&gt;The line of best fit for scatter plot 1 is \(y=-0.8547x +218.6053\). The line of best fit for scatter plot 2 is \(y=-0.4658x +222.1704\). &lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;4.&amp;nbsp;The correlation coefficient for the first line of best fit is \(-0.95\) and the second line of best fit is \(-0.68\). Was your answer to question 2 correct? Why do you think the correlation coefficients for the two data sets are so different? Explain your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Sample response:&lt;/p&gt;
+        &lt;p&gt;I think the correlation coefficients are different because the data in the second scatter plot are more scattered than the data in the first scatter plot. On average, the data in the first scatter plot are much closer to the line of best fit than the data in the second scatter plot.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--End interaction--&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1473">
+            <jumpto>660</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658534380</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1474">
+            <jumpto>661</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658534380</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="661">
+        <prevpageid>660</prevpageid>
+        <nextpageid>662</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658535174</timecreated>
+        <timemodified>1659046950</timemodified>
+        <title>3.4.3: Self Check</title>
+        <contents>&lt;p dir="ltr"&gt;Which correlation coefficient best matches the scatter plot below?&lt;/p&gt;&lt;b id="docs-internal-guid-751706b8-7fff-ed79-c48e-a4e13c37d2a7"&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/090ad15d4b8d896f803926777a40f3a1ab67dec5" alt="SCATTER PLOT THAT SHOWS A WEAK NEGATIVE CORRELATION." width="300" height="280" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;&lt;/b&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1475">
+            <jumpto>662</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658535174</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(r=0.95\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This \(r\)-value shows a strong positive correlation, and the scatter plot pictured is very spread out and has a negative slope. The correlation should be weak and negative. The correct answer is \(r=-0.39\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1476">
+            <jumpto>662</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658535174</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(r=-0.89\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This \(r\)-value shows a strong positive correlation, and the scatter plot pictured is very spread out, signifying a weak correlation. The correct answer is \(r=-0.39\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1477">
+            <jumpto>662</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658535174</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(r=0.26\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This \(r\)-value shows a weak correlation but with a positive slope. The correct answer is \(r=-0.39\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1478">
+            <jumpto>663</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658535174</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(r=-0.39\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: This correlation coefficient shows a weak correlation with a negative slope, which matches the scatter plot shown.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1479">
+            <jumpto>662</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658535174</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&amp;nbsp;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="662">
+        <prevpageid>661</prevpageid>
+        <nextpageid>663</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658535355</timecreated>
+        <timemodified>1659047109</timemodified>
+        <title>3.4.3: Additional Resources</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-596bb8b7-7fff-323e-ef58-0fb518cd13f0"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;span&gt;Correlation Coefficient&lt;/span&gt;&lt;/h4&gt;
+&lt;p dir="ltr"&gt;&lt;span&gt;Try matching each scatter plot to one of the following correlation coefficients:&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span&gt;\(r=-0.02\), \(r=0.84\), \(r=-0.72\), \(r=0.65\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/7837cdd80cc30369b7feb914b036b31f5e652daf" alt="" width="550" height="573" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;strong&gt;
+    &lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td width="132" valign="top"&gt;
+                    &lt;p align="center"&gt;&lt;span style="font-weight: normal;"&gt;Scatter plot&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width="211" valign="top"&gt;
+                    &lt;p align="center"&gt;&lt;span style="font-weight: normal;"&gt;Correlation coefficient&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width="132" valign="top"&gt;
+                    &lt;p align="right"&gt;&lt;span style="font-weight: normal;"&gt;Scatter plot A&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width="211" valign="top"&gt;
+                    &lt;p&gt;&lt;span style="font-weight: normal;"&gt;\(r=-0.72\)&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width="132" valign="top"&gt;
+                    &lt;p align="right"&gt;&lt;span style="font-weight: normal;"&gt;Scatter plot B&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width="211" valign="top"&gt;
+                    &lt;p&gt;&lt;span style="font-weight: normal;"&gt;\(r=0.84\)&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width="132" valign="top"&gt;
+                    &lt;p align="right"&gt;&lt;span style="font-weight: normal;"&gt;Scatter plot C&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width="211" valign="top"&gt;
+                    &lt;p&gt;&lt;span style="font-weight: normal;"&gt;\(r=-0.02\)&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width="132" valign="top"&gt;
+                    &lt;p align="right"&gt;&lt;span style="font-weight: normal;"&gt;Scatter plot D&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width="211" valign="top"&gt;
+                    &lt;p&gt;&lt;span style="font-weight: normal;"&gt;\(r=0.65\)&lt;/span&gt;&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;br&gt;
+&lt;/strong&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Try It: Correlation Coefficient&lt;/h4&gt;
+&lt;p&gt;&lt;span&gt;The scatter plot below displays data on the number of defects per 100 cars and a measure of customer satisfaction (on a scale from 1 to 1,000, with higher scores indicating greater satisfaction) for the 33 brands of cars sold in the United States in 2009.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5215ac5b50f67642084aa6de48c8e0302879f79b" alt="" width="350" height="315" role="presentation"&gt;&lt;/p&gt;&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;&lt;div class="os-raise-ib-cta-content" style="margin-left: 30px;"&gt;&lt;p&gt;Which of the following is the value of the correlation coefficient for this data set: \(r = -0.95\), \(r = -0.24\), \(r = 0.83\), or \(r = 1.00\)? Explain why you selected this value.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;\( r= -0.24\)&lt;/p&gt;
+    &lt;p&gt;There is not a strong pattern of a linear relationship with this scatter plot. Even though there is a weak relationship, there is a general pattern that as the number of defects increases, the satisfaction rating tends to decrease. As a result, the value of \(r\) is negative and close to zero. Based on the values provided, the best estimate is \(r = -0.24\).&lt;/p&gt;
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1480">
+            <jumpto>661</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658535355</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1481">
+            <jumpto>663</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658535355</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="663">
+        <prevpageid>662</prevpageid>
+        <nextpageid>664</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658535509</timecreated>
+        <timemodified>1659047371</timemodified>
+        <title>3.4.4: Using Correlation Coefficient to Determine Best Fit</title>
+        <contents>&lt;h4 style="text-align: left;"&gt;Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;1.&amp;nbsp;What information does a correlation coefficient tell you about the data in a scatter plot?&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;&lt;p&gt;The sign of the correlation coefficient matches the sign of the slope for the best fit line. The closer the correlation coefficient value is to 0, the worse the best fit line fits the data. The closer the correlation coefficient is to 1 or –1, the better the best fit line fits the data.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;2. Which value best estimates the value for the correlation coefficient of the scatter plot: –1, –0.8, –0.2, 0.2, 0.8, or 1? Explain your reasoning.&lt;/p&gt;&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/2Cx5dcGpdSAZe6eza3BU8YpR" alt="Graph of a scatter plot, xy-plane, origin O."&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;&lt;p&gt;–0.8, since the data appear to be decreasing and a line is an okay fit for the data, but it is not perfect.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1482">
+            <jumpto>660</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658535509</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1483">
+            <jumpto>664</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658535509</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="664">
+        <prevpageid>663</prevpageid>
+        <nextpageid>665</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658535839</timecreated>
+        <timemodified>1659047457</timemodified>
+        <title>3.4.5: Practice</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;1&amp;quot;, &amp;quot;0.5&amp;quot;, &amp;quot;0.8&amp;quot;]" data-solution-options="[&amp;quot;1&amp;quot;, &amp;quot;-1&amp;quot;, &amp;quot;0.5&amp;quot;,&amp;quot;-0.5&amp;quot;, &amp;quot;0&amp;quot;, &amp;quot;0.8&amp;quot;, &amp;quot;-0.8&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;1. &lt;strong&gt;Select all&lt;/strong&gt; the values for \(r\)&lt;em&gt; &lt;/em&gt;that indicate a positive slope for the line of best fit.&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 1, 0.5, 0.8&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 3.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answers are 1, 0.5, 0.8. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;-1&amp;quot;, &amp;quot;-0.87&amp;quot;, &amp;quot;-0.24&amp;quot;]" data-solution-options="[&amp;quot;0&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;-1&amp;quot;,&amp;quot;-0.87&amp;quot;, &amp;quot;0.32&amp;quot;, &amp;quot;-0.24&amp;quot;, &amp;quot;0.24&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;2. &lt;strong&gt;Select all&lt;/strong&gt; the values for \(r\)&lt;em&gt; &lt;/em&gt;that indicate a negative slope for the line of best fit.&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! –1, –0.87, –0.24&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 3.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answers are –1, –0.87, –0.24. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q3--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.85" data-solution-options="[&amp;quot;0.4&amp;quot;, &amp;quot;-0.85&amp;quot;, &amp;quot;0.72&amp;quot;, &amp;quot;-0.31&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;3. The correlation coefficient, \(r\), is given for several different linear models for a data set. Order the values starting with the best fit of the data to a linear model and ending with the weakest fit of the data to a linear model. &lt;br&gt;
+                0.4, –0.85, 0.72, –0.31
+            &lt;/p&gt;
+            &lt;ol type="a" start="1"&gt;
+                &lt;li&gt;First value (best fit) of the data to a linear model.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;&lt;br&gt;Correct! –0.85 &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.4.2. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is –0.85. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q3b--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="0.72" data-solution-options="[&amp;quot;0.4&amp;quot;, &amp;quot;-0.85&amp;quot;, &amp;quot;0.72&amp;quot;, &amp;quot;-0.31&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="2"&gt;
+                &lt;li&gt;Second value of the data to a linear model.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;&lt;br&gt;Correct! 0.72 &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.4.2. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 0.72. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q3c--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="0.4" data-solution-options="[&amp;quot;0.4&amp;quot;, &amp;quot;-0.85&amp;quot;, &amp;quot;0.72&amp;quot;, &amp;quot;-0.31&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="3"&gt;
+                &lt;li&gt;Third value of the data to a linear model.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;&lt;br&gt;Correct! 0.4 &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.4.2. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 0.4. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q3d--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.31" data-solution-options="[&amp;quot;0.4&amp;quot;, &amp;quot;-0.85&amp;quot;, &amp;quot;0.72&amp;quot;, &amp;quot;-0.31&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="4"&gt;
+                &lt;li&gt;Fourth (weakest fit) of the data to a linear model.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;&lt;br&gt;Correct! –0.31 &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.4.2. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is –0.31. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q4--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-1" data-solution-options="[&amp;quot;-0.65&amp;quot;, &amp;quot;0.47&amp;quot;, &amp;quot;-1&amp;quot;, &amp;quot;0.89&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;4. The correlation coefficient, \(r\), is given for several different linear models for a data set. Order the values starting with the best fit of the data to a linear model and ending with the weakest fit of the data to a linear model.&lt;br&gt;–0.65, 0.47, –1, 0.89
+            &lt;/p&gt;
+            &lt;ol type="a" start="1"&gt;
+                &lt;li&gt;First value (best fit) of the data to a linear model.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;&lt;br&gt;Correct! –1&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.4.2. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is –1. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q4b--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="0.89" data-solution-options="[&amp;quot;-0.65&amp;quot;, &amp;quot;0.47&amp;quot;, &amp;quot;-1&amp;quot;, &amp;quot;0.89&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;ol type="a" start="2"&gt;
+                &lt;li&gt;Second value of the data to a linear model.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;&lt;br&gt;Correct! 0.89&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.4.2. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 0.89. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+
+    &lt;!--Q4c--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.65" data-solution-options="[&amp;quot;-0.65&amp;quot;, &amp;quot;0.47&amp;quot;, &amp;quot;-1&amp;quot;, &amp;quot;0.89&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;ol type="a" start="3"&gt;
+                &lt;li&gt;Third value of the data to a linear model.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;&lt;br&gt;Correct! –0.65&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.4.2. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is –0.65. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+
+    &lt;!--Q4d--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="0.47" data-solution-options="[&amp;quot;-0.65&amp;quot;, &amp;quot;0.47&amp;quot;, &amp;quot;-1&amp;quot;, &amp;quot;0.89&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;ol type="a" start="4"&gt;
+                &lt;li&gt;Fourth (weakest fit) of the data to a linear model.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;&lt;br&gt;Correct! 0.47&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.4.2. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 0.47. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+
+    &lt;!--Q5--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="r=0.88" data-solution-options="[&amp;quot;r=0.67&amp;quot;, &amp;quot;r=-0.33&amp;quot;, &amp;quot;r=0.88&amp;quot;, &amp;quot;r=-0.79&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;5.&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;Match the following scatter plots to the correct correlation coefficient from the following:&lt;/span&gt;&lt;/p&gt;
+            &lt;p dir="ltr"&gt;\(r=0.67\), \(r=-0.33\), \(r=0.88\), \(r= -0.79\)&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5c3073c9737f0a0cf23f4ceb082a4905b7924dd6" alt="" width="450" height="469" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+
+            &lt;ol type="A" start="1"&gt;
+                &lt;li&gt;Scatter Plot A&lt;/li&gt;
+            &lt;/ol&gt;
+
+            &lt;p&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \( r=0.88\) &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 3.4.3–3.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(r=0.88\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q5B--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="r=-0.79" data-solution-options="[&amp;quot;r=0.67&amp;quot;, &amp;quot;r=-0.33&amp;quot;, &amp;quot;r=0.88&amp;quot;, &amp;quot;r=-0.79&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;ol type="A" start="2"&gt;
+                &lt;li&gt;Scatter Plot B&lt;/li&gt;
+            &lt;/ol&gt;
+
+            &lt;p&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \( r=-0.79\) &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 3.4.3–3.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(r=-0.79\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q5C--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="r=-0.33" data-solution-options="[&amp;quot;r=0.67&amp;quot;, &amp;quot;r=-0.33&amp;quot;, &amp;quot;r=0.88&amp;quot;, &amp;quot;r= -0.79&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;ol type="A" start="3"&gt;
+                &lt;li&gt;Scatter Plot C&lt;/li&gt;
+            &lt;/ol&gt;
+
+            &lt;p&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \( r=-0.33\) &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 3.4.3–3.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(r=-0.33\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q5D--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="r=0.67" data-solution-options="[&amp;quot;r=0.67&amp;quot;, &amp;quot;r=-0.33&amp;quot;, &amp;quot;r=0.88&amp;quot;, &amp;quot;r= -0.79&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;ol type="A" start="4"&gt;
+                &lt;li&gt;Scatter Plot D&lt;/li&gt;
+            &lt;/ol&gt;
+
+            &lt;p&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;br&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(r=0.67\) &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 3.4.3–3.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(r=0.67\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q6--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="r=-0.67" data-solution-options="[&amp;quot;r=0.37&amp;quot;, &amp;quot;r=0.83&amp;quot;, &amp;quot;r=-0.67&amp;quot;, &amp;quot;r=-0.85&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;6.&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;Match the following scatter plots to the correct correlation coefficient from the following:&lt;/span&gt;&lt;/p&gt;
+            &lt;p dir="ltr"&gt;\(r = 0.37\), \(r = 0.83\), \(r = -0.67\), \(r = -0.85\)&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6d07b8c04c7507ae55db4d8abb1a774e361644d5" alt="" width="450" height="469" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+
+            &lt;ol type="A" start="1"&gt;
+                &lt;li&gt;Scatter Plot A&lt;/li&gt;
+            &lt;/ol&gt;
+
+            &lt;p&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(r=-0.67\) &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 3.4.3–3.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(r=-0.67\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q6B--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="r=0.83" data-solution-options="[&amp;quot;r=0.37&amp;quot;, &amp;quot;r=0.83&amp;quot;, &amp;quot;r=-0.67&amp;quot;, &amp;quot;r=-0.85&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;ol type="A" start="2"&gt;
+                &lt;li&gt;Scatter Plot B&lt;/li&gt;
+            &lt;/ol&gt;
+
+            &lt;p&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(r=0.83\) &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 3.4.3–3.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(r=0.83\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q6C--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="r=0.37" data-solution-options="[&amp;quot;r=0.37&amp;quot;, &amp;quot;r=0.83&amp;quot;, &amp;quot;r=-0.67&amp;quot;, &amp;quot;r=-0.85&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;ol type="A" start="3"&gt;
+                &lt;li&gt;Scatter Plot C&lt;/li&gt;
+            &lt;/ol&gt;
+
+            &lt;p&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(r=0.37\) &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 3.4.3–3.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(r=0.37\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q6D--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="r=-0.85" data-solution-options="[&amp;quot;r=0.37&amp;quot;, &amp;quot;r=0.83&amp;quot;, &amp;quot;r=-0.67&amp;quot;, &amp;quot;r=-0.85&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;ol type="A" start="4"&gt;
+                &lt;li&gt;Scatter Plot D&lt;/li&gt;
+            &lt;/ol&gt;
+
+            &lt;p&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(r=-0.85\) &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 3.4.3–3.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(r=-0.85\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q7--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="-0.87" data-solution-options="[&amp;quot;-0.32&amp;quot;, &amp;quot;0.87&amp;quot;, &amp;quot;-0.87&amp;quot;, &amp;quot;0.32&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;&lt;/p&gt;
+            &lt;p&gt;7.&amp;nbsp;Which of the following correlation coefficients would best describe this scatter plot?&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/a3e5f256443b7065f434b4f2805fb6d9fdcf58d1" alt="SCATTER PLOT THAT SHOWS THE RELATIONSHIP BETWEEN AGE IN YEARS AND PRICE IN DOLLARS. THE SCATTER PLOT SHOWS A VERY STRONG NEGATIVE CORRELATION." width="450" height="395" role="presentation" class="atto_image_button_text-bottom"&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(-0.87\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 3.4.2–3.4.4 to test your understanding? Then come back and try this question again.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(-0.87\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q8--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="0.62" data-solution-options="[&amp;quot;-0.62&amp;quot;, &amp;quot;0.94&amp;quot;, &amp;quot;-0.94&amp;quot;, &amp;quot;0.62&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;&lt;/p&gt;
+            &lt;p&gt;8.&amp;nbsp;Which of the following correlation coefficients would best describe this scatter plot?&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/9a74b1315b2ca91f0badced5dc3cc085f8b912e1" alt="SCATTER PLOT THAT SHOWS THE RELATIONSHIP BETWEEN BODY MASS IN POUNDS AND BITE FORCE IN POUNDS. THE SCATTER PLOT SHOWS A STRONG POSITIVE CORRELATION." width="450" height="395" role="presentation" class="atto_image_button_text-bottom"&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 0.62&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 3.4.2–3.4.4 to test your understanding? Then come back and try this question again.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 0.62. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q9--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Scatter plot B" data-solution-options="[&amp;quot;Scatter plot A&amp;quot;, &amp;quot;Scatter plot B&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;&lt;/p&gt;
+            &lt;p&gt;9.&amp;nbsp;Which of the following has the stronger linear relationship? Explain.&lt;/p&gt;
+            &lt;p&gt;Scatter Plot A:&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/81ba1809d00f11bd8a2eed30d83f45a385d8823d" alt="SCATTER PLOT THAT SHOWS A MODERATE POSITIVE CORRELATION." width="450" height="395" role="presentation" class="atto_image_button_text-bottom"&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;/p&gt;
+            &lt;p&gt;Scatter Plot B:&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/81ba1809d00f11bd8a2eed30d83f45a385d8823d" alt="SCATTER PLOT THAT SHOWS A STRONG POSITIVE CORRELATION." width="450" height="395" role="presentation" class="atto_image_button_text-bottom"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Scatter plot B because the points in the scatter plot are closer to forming a linear relationship. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 3.4.2. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is scatter plot B because the points in the scatter plot are closer to forming a linear relationship. You seem to be stuck. Who can you ask for help?
+
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q10--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="0.43" data-solution-options="[&amp;quot;-0.89&amp;quot;, &amp;quot;0.89&amp;quot;, &amp;quot;0.43&amp;quot;, &amp;quot;-0.43&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;10. Which of the following correlation coefficients would best describe the scatter plot?&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/aca8f83947b57b52a355fc98e7c83b99e6545d17" alt="SCATTER PLOT THAT SHOWS THE RELATIONSHIP BETWEEN FAT IN GRAMS AND CALORIES. THE SCATTER PLOT SHOWS A MODERATE POSITIVE CORRELATION." width="450" height="395" role="presentation" class="atto_image_button_text-bottom"&gt;
+
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 0.43&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 3.4.3–3.4.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 0.43. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+
+
+
+
+
+
+
+
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1484">
+            <jumpto>663</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658535839</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1485">
+            <jumpto>665</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658535839</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="665">
+        <prevpageid>664</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658542535</timecreated>
+        <timemodified>1658779022</timemodified>
+        <title>3.4.6: Lesson Summary</title>
+        <contents>&lt;p dir="ltr"&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;Describe the “goodness of fit” of a linear model using the correlation coefficient.&lt;/li&gt;
+    &lt;li&gt;Match the correlation coefficient with a scatter plot and linear model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;3.4.1: Comparing Scatter Plots with Linear and Nonlinear Trends&lt;ul&gt;
+            &lt;li&gt;In this activity, you compared four scatter plots displaying data with linear and nonlinear trends. During this activity, you had an opportunity to use language precisely and to hear how you use terminology and talk about characteristics of items in comparison to one another.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;3.4.2: Recognizing Differences in Scatter Plots&lt;ul&gt;
+            &lt;li&gt;In this activity, you were given cards displaying scatter plots of data that could be fit by linear models with varying accuracy. As you worked, you began to recognize differences in scatter plots, lines of best fit, and \(r\)-values, and the connection to the correlation coefficient.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;3.4.2: Self Check&lt;/li&gt;
+    &lt;li&gt;3.4.3: Matching Correlation Coefficients&lt;ul&gt;
+            &lt;li&gt;In this activity, you gained a better understanding of correlation coefficients by taking turns with a partner to match scatter plots and correlation coefficients. You had a chance to explain your thinking and critique the reasoning of others.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;3.4.3: Self Check&lt;/li&gt;
+    &lt;li&gt;3.4.4: Using Correlation Coefficient to Determine Best Fit&lt;ul&gt;
+            &lt;li&gt;In this activity, you determined the information a correlation coefficient tells you about the data in a scatter plot.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;After these activities, you completed the following&lt;strong&gt; practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;3.4.5: Practice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Checking In&amp;nbsp;&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+	
+	&lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+	
+	&lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
+	
+	  &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1486">
+            <jumpto>664</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658542535</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1487">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658542535</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

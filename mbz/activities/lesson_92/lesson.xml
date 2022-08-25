@@ -1,0 +1,3175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="69" moduleid="92" modulename="lesson" contextid="103">
+  <lesson id="69">
+    <course>2</course>
+    <name>Lesson 3.2: Fitting Lines</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1658369140</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="619">
+        <prevpageid>0</prevpageid>
+        <nextpageid>620</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658369250</timecreated>
+        <timemodified>1658687843</timemodified>
+        <title>3.2.0: Lesson Overview</title>
+        <contents>&lt;p dir="ltr"&gt;In this lesson, you will assess the fit of various lines to data, use technology to find the line of best fit, and interpret the slope and vertical intercept of the linear model.&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Describe the rate of change and \(y\)-intercept for a linear model in everyday language.&lt;/li&gt;
+    &lt;li&gt;Use technology to find the line of best fit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p dir="ltr"&gt;Here are the &lt;strong&gt;activities &lt;/strong&gt;that will help you reach those goals:&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;3.2.1: Selecting the Best Line&lt;/li&gt;
+    &lt;li&gt;3.2.2: Determining the Best Line That Fits the Data&lt;/li&gt;
+    &lt;li&gt;3.2.2: Self Check&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;3.2.3: Assessing the Fit of a Linear Model&lt;/li&gt;
+    &lt;li&gt;3.2.3: Self Check&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;3.2.4: Working with Fitted Lines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;3.2.5: Practice&lt;/li&gt;
+    &lt;li&gt;3.2.6: Lesson Summary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1383">
+            <jumpto>620</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658369250</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text> Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="620">
+        <prevpageid>619</prevpageid>
+        <nextpageid>621</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658369625</timecreated>
+        <timemodified>1659019745</timemodified>
+        <title>3.2.1: Selecting the Best Line</title>
+        <contents>&lt;h4 style="text-align: left;"&gt;Warm Up Activity&lt;/h4&gt;&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+      
+        &lt;p dir="ltr"&gt;Which of the lines is the better fit for the data in each scatter plot? Explain your reasoning.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/JZMYPzSDTWJqQJVRP9m73dTe" alt="Scatter plot with two lines."&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The solid line is the better fit for the data since it goes through the middle of the data and follows the negative trend of the data with very few points a far distance from the line of best fit.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/wfWNwjQBLUkPtRxoAEn3TyG1" alt="Scatter plot with two lines of best fit."&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The solid line is the better fit for the data since it goes through the middle of the data with approximately equal numbers of data points on either side of the line.&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Jj9GYvFxHBukaqGG3inS7QCY" alt="Scatter plot with two lines of best fit."&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;The dashed line is the better fit for the data since it goes through the middle of the data with a slope that follows the trend of the data. The solid line has a lot of points above the line to start and a lot of points below the line at the end.
+        &lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="4"&gt;
+            &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/m1Mu2aUKEeZfnSiRg2jZ58CY" alt="Scatter plot with 2 lines of best fit."&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The dashed line is the better fit for the data since it goes through the middle of the data, follows the trend of the data, and has a similar number of points on each side that are not far from the line. The solid line fits the first and last point perfectly, but most of the data are above the line.&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1384">
+            <jumpto>619</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658369625</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1385">
+            <jumpto>621</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658369625</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="621">
+        <prevpageid>620</prevpageid>
+        <nextpageid>622</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658369901</timecreated>
+        <timemodified>1659019963</timemodified>
+        <title>3.2.2: Determining the Best Line That Fits the Data</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;Your teacher will give you a set of cards that show scatter plots.&lt;/p&gt;
+&lt;p&gt;Arrange all the cards in three different ways. Ensure that you and your partner agree on each arrangement before moving on to the next one. Sort all the cards in order from:&lt;/p&gt;
+
+&lt;ol type="a"&gt;
+    &lt;li&gt;best to worst for representing with a linear model&lt;/li&gt;
+    &lt;li&gt;least to greatest slope of a linear model that fits the data well&lt;/li&gt;
+    &lt;li&gt;least to greatest vertical intercept of a linear model that fits the data well&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+       &lt;ol&gt; &lt;li&gt;Know that the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;line of best fit&lt;/span&gt; is the line that provides the best fit to the data. It should follow the trend of the data and go through the middle of the data with a similar number of points on each side of the line.
+         &lt;/li&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+
+        &lt;ol type="a"&gt;
+            &lt;li&gt;B, E, A and F, C, D, and G. There may be some debate about the exact order. It is important to recognize that B is the best fit, that D and G should not be fit with linear models, and that linear models fit more poorly the farther the data are from the line.&lt;/li&gt;
+            &lt;li&gt;E, B, A and F, C. D and G do not have linear models that fit the data well.&lt;/li&gt;
+            &lt;li&gt;A, C, F, B, E. D and G do not have linear models that fit the data well.&lt;/li&gt;
+        &lt;/ol&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;For each card, write a sentence that describes how \(y\) changes as \(x\) increases and whether the linear model is a good fit for the data or not.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+
+        &lt;ul&gt;
+            &lt;li&gt;Card A: As \(x\) increases, \(y\) also increases. The linear model fits the data fairly well.&lt;/li&gt;
+            &lt;li&gt;Card B: As \(x\) increases,&amp;nbsp;\(y\) decreases. The linear model fits the data very well.&lt;/li&gt;
+            &lt;li&gt;Card C: As \(x\) increases,&amp;nbsp;\(y\) increases. The linear model fits most of the data very well; however, there are two values that do not follow this trend.&lt;/li&gt;
+            &lt;li&gt;Card D: As \(x\) increases,&amp;nbsp;\(y\) goes up and down like a wave. The data do not follow the line very well at all.&lt;/li&gt;
+            &lt;li&gt;Card E: As \(x\) increases,&amp;nbsp;\(y\) decreases. Most of the data fit a linear model very well, but the one point at \((7,15)\) does not fit with the rest of the data very well.&lt;/li&gt;
+            &lt;li&gt;Card F: As \(x\) increases, \(y\) increases. The linear model fits the data fairly well.&lt;/li&gt;
+            &lt;li&gt;Card G: As \(x\) increases,&amp;nbsp;\(y\) decreases and then increases. The data do not follow the line very well at all.&lt;/li&gt;
+        &lt;/ul&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1386">
+            <jumpto>620</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658369901</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1387">
+            <jumpto>622</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658369901</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="622">
+        <prevpageid>621</prevpageid>
+        <nextpageid>623</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658436640</timecreated>
+        <timemodified>1658688418</timemodified>
+        <title>3.2.2: Self Check</title>
+        <contents>&lt;p dir="ltr"&gt;Tell which line is the best fit for the data and give an explanation why it is the best fit.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/3b43ba9edd46cc53324b4af31bd6c874968b60ef" alt="TWO SCATTER PLOTS WITH X-AXIS LABEL OF INDEPENDENT VARIABLE AND Y-AXIS LABEL OF RESPONSE VARIABLE. SCATTER PLOT ON THE LEFT SHOWS FIVE PLOTTED POINTS AND THE LINE Y EQUALS NEGATIVE NINE-TENTHS X PLUS FORTY-FIVE. SCATTER PLOT ON THE RIGHT SHOWS THE SAME PLOTTED POINTS AND THE LINE Y EQUALS NEGATIVE SEVEN-TENTHS X PLUS FORTY.
+" width="549" height="259"&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1388">
+            <jumpto>623</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Line 1 is the best fit because it touches the first point on the left of the scatter plot.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Where the line starts does not determine the line of best fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1389">
+            <jumpto>626</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Line 2 is the best fit because it touches the last point on the right of the scatter plot.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: Where the line ends does not determine its fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1390">
+            <jumpto>624</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658436640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Line 2 goes down the middle of the data and has almost the same number of points above and below the line.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1391">
+            <jumpto>623</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Line 1 is the best fit because it has a steeper slope.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The steepness of the slope does not determine the line of best fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1392">
+            <jumpto>623</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="623">
+        <prevpageid>622</prevpageid>
+        <nextpageid>624</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658436899</timecreated>
+        <timemodified>1659380099</timemodified>
+        <title>3.2.2: Additional Resources</title>
+        <contents>&lt;h4&gt;Draw a Best-Fit Line for the Plotted Data&lt;/h4&gt;
+&lt;p dir="ltr"&gt;When looking to draw a line of best fit, first make sure a linear model works for the data.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Next, place the line between the data points so that about the same number of points are above and below the line. The aim is to also have points within a close distance to the line of best fit.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Below are two examples of lines of best fit drawn through scatter plots.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/71e838bf549242004a7f1eecfeeb66cde279b324" alt="Scatter plot with domain 0 to 10 and a range from -1 to 4 with the line of best fit drawn going through the points: (0,1.5); (1.5, -0.1); (2.1,1.9); (3.4, 1.5); (4.5,2.5); (5.8,2.2); (6.8,3.8); (7.8,3.6); (8.8,2); and (10,2.4)."&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cbd36cc651fdbd957dfcd9a64989a9f9053ea0a6" alt="Scatter plot with a domain of 0 to 10 and a range of 2 to 6 and the line of best fit going through the points: (0,2.1); (1,3.9); (2.1,3.6); (3.6,3.9); (4.4,4); (5.6,4.2); (6.8,5); (7.8,5); (9,5.6); and (10,6)"&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Try It: Draw a Best-fit Line for the Plotted Data&lt;/h4&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Question  --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;The scatter plots below are the same scatter plot, but each student drew their best fit line differently. Which line do you believe to be the best fit, and why?&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/7e3a2a43d506262ad6c4358c66392cdee8e45440" alt="FOUR SCATTER PLOTS WITH BODY MASS IN POUNDS ON THE X-AXIS AND BITE FORCE IN POUNDS ON THE Y-AXIS. EACH SCATTER PLOT SHOWS THE SAME PLOTTED DATA, BUT DIFFERENT LINES OF FIT ARE DRAWN ON THE FOUR PLOTS. ALL LINES INCREASE FROM LEFT TO RIGHT." width="550" height="506"&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here. &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+
+        &lt;p&gt;Here is how to choose the best fitting line for the scatter plot:&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;Patti’s line looks like it fits the data well, so it would probably produce good predictions. The line goes through the middle of the points in the scatter plot, with a similar number of points above and below the line that are not a far distance from the line of best fit.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/span&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1393">
+            <jumpto>622</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436899</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1394">
+            <jumpto>624</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436899</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="624">
+        <prevpageid>623</prevpageid>
+        <nextpageid>625</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658437093</timecreated>
+        <timemodified>1658775087</timemodified>
+        <title>3.2.3: Assessing the Fit of a Linear Model</title>
+        <contents>&lt;h4 style="text-align: left;"&gt;Activity&lt;/h4&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/xDRJGdALbYcSxRu35Urx4R8J" alt="Three ice cream cones" width="451" height="338" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;The weight of ice cream sold at a small store in pounds (\(x\)) and the average temperature outside in degrees Celsius (\(y\)) are recorded in the table.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div dir="ltr" align="left"&gt;
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;20&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;18&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;21&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;17&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;21.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;19.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;21&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;18&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(y\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;6&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;4.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;6.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;3.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;7.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;6.5&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;7&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;5&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-cta-content" style="margin-left: 30px;"&gt;
+        &lt;p&gt;1. For these data, create a scatter plot by hand on a coordinate grid and sketch a line that fits the data well.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Answers vary. Lines should go through the middle of the data.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;2. Now, use technology to create the scatter plot and compute the best fit line. Round any numbers to 2 decimal places.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;\(y=0.78x−9.44\)&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;3. What are the values for the slope and \(y\)-intercept for the best fit line? What do these values mean in this situation?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;The slope is 0.78, which means that about 1 additional pound of ice cream is sold with every 0.78-degree increase in the outside temperature. The \(y\)-intercept is \((0,-9.44)\), which means that no ice cream is sold when the temperature is about \(-9.44\) degrees Celsius.
+        &lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;4. Use the best fit line to predict the \(y\)-value when \(x\) is 10. Is this a good estimate for the data? Explain your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;\(-1.64\) degrees Celsius. Sample explanation: This may be a good estimate for the data since the points seem close to the line, but something different might happen when the temperature gets below freezing, so it’s possible that when only 10 pounds of ice cream are sold, the relationship with the weather may be different.
+
+        &lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;5. Your teacher will give you a data table for one of the other scatter plots from the previous activity. Use technology and this table of data to create a scatter plot that also shows the line of best fit. Then interpret the slope and \(y\)-intercept.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;table border="0" cellspacing="0" cellpadding="0"&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td width="125" valign="top"&gt;
+                        &lt;p align="center"&gt;A. (card A in the previous activity)&lt;/p&gt;
+                        &lt;div align="center"&gt;
+                            &lt;table border="1" cellspacing="0" cellpadding="5" width="0"&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;&lt;b&gt;x&lt;/b&gt;&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;&lt;b&gt;y&lt;/b&gt;&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;2.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;8.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;8.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;9.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;8.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;10.313&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                        &lt;p align="center"&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="125" valign="top"&gt;
+                        &lt;p&gt;B. (card B in
+                            the previous activity)&lt;/p&gt;
+                        &lt;div align="center"&gt;
+                            &lt;table border="1" cellspacing="0" cellpadding="5" width="79"&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;&lt;b&gt;x&lt;/b&gt;&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;&lt;b&gt;y&lt;/b&gt;&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;11.86&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;2.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;11.332&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;3.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.848&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;3.4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.741&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;3.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.716&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;3.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.628&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;3.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.584&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.54&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;4.4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.364&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;4.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.32&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;4.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.232&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;4.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.188&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;4.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.144&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;5.1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.056&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;5.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;10.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;5.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;9.88&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;5.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;9.753&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;9.66&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;6.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;9.396&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;9.22&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="33"&gt;
+                                            &lt;p align="center"&gt;7.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="47"&gt;
+                                            &lt;p align="center"&gt;8.912&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                        &lt;p&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="125" valign="top"&gt;
+                        &lt;p&gt;C. (card C in
+                            the previous activity)&lt;/p&gt;
+                        &lt;div align="center"&gt;
+                            &lt;table border="1" cellspacing="0" cellpadding="5" width="90"&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;&lt;b&gt;x&lt;/b&gt;&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;&lt;b&gt;y&lt;/b&gt;&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;6.11&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;2.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;7.142&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;3.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;8.088&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;3.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;8.19&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;3.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;8.346&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;3.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;2.92&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;3.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;8.604&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;8.69&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;4.4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;9.034&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;4.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;9.12&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;4.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;9.292&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;4.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;13.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;4.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;9.464&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;9.55&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;5.1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;9.636&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;5.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;9.722&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;5.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;9.98&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;5.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;10.32&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;10.41&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;6.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;10.926&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;11.27&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="37"&gt;
+                                            &lt;p align="center"&gt;7.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="54"&gt;
+                                            &lt;p align="center"&gt;11.872&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                        &lt;p&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="125" valign="top"&gt;
+                        &lt;p&gt;D. (card E in
+                            the previous activity)&lt;/p&gt;
+                        &lt;div align="center"&gt;
+                            &lt;table border="1" cellspacing="0" cellpadding="5" width="72"&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;&lt;b&gt;x&lt;/b&gt;&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;&lt;b&gt;y&lt;/b&gt;&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;13.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;2.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;11.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;9.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;9.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;8.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;8.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;8.1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7.1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6.1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;5.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;4.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;3.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;6.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;1.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;1.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;7.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td&gt;
+                                            &lt;p align="center"&gt;0.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                        &lt;p&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="125" valign="top"&gt;
+                        &lt;p&gt;E. (card F in
+                            the previous activity)&lt;/p&gt;
+                        &lt;div align="center"&gt;
+                            &lt;table border="1" cellspacing="0" cellpadding="5" width="88"&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;&lt;b&gt;x&lt;/b&gt;&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;&lt;b&gt;y&lt;/b&gt;&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;6.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;2.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;8.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;3.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;9.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;3.3&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;3.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;10.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;3.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;11&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;3.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;10.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;11.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;4.4&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;11&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;4.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;11.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;4.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;11.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;4.8&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;10.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;4.9&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;13.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;11.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;5.1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;12.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;5.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;11.2&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;5.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;12.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;5.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;13&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;14&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;6.6&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;13.1&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;13.5&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                        &lt;td width="40"&gt;
+                                            &lt;p align="center"&gt;7.7&lt;/p&gt;
+                                        &lt;/td&gt;
+                                        &lt;td width="49"&gt;
+                                            &lt;p align="center"&gt;14.813&lt;/p&gt;
+                                        &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                        &lt;p&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;&lt;br&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;\(y=1.1979x+1.3196\). When \(x\) is zero, \(y\) is 1.3196. As&amp;nbsp;\(x\) increases by 1, \(y\) increases, on average, by 1.1979.&lt;/li&gt;
+            &lt;li&gt;\(y=-0.4337x+12.288\). When&amp;nbsp;\(x\) is zero, \(y\) is 12.288. As \(x\) increases by 1, \(y\) decreases, on average, by 0.4337.&lt;/li&gt;
+            &lt;li&gt;\(y=0.9749x+4.6529\). When&amp;nbsp;\(x\) is zero, \(y\) is 4.6529. As \(x\) increases by 1, \(y\) increases, on average, by 0.9749.&lt;/li&gt;
+            &lt;li&gt;\(y=-2.063x+16.144\). When&amp;nbsp;\(x\) is zero, \(y\) is 16.144. As \(x\) increases by 1, \(y\) decreases, on average, by 2.063.&lt;/li&gt;
+            &lt;li&gt;\(y=1.1979x+5.8196\). When \(x\) is zero, \(y\) is 5.8196. As \(x\) increases by 1, \(y\) increases, on average, by 1.1979.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;h4&gt;&lt;br&gt;&lt;/h4&gt;
+&lt;h4&gt;Video: Finding Lines of Best Fit&lt;/h4&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Watch the following video to learn more about finding appropriate lines of best fit with the help of technology.&lt;/span&gt;&lt;/p&gt;
+  &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+        &lt;source src="https://k12.openstax.org/contents/raise/resources/0d9922de4c14bb9cde74a50d79c31f5ecb939571"&gt;
+        &lt;track src="https://k12.openstax.org/contents/raise/resources/832de122691c590fd9d21d080048d9179ec7effa" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/0d9922de4c14bb9cde74a50d79c31f5ecb939571
+    &lt;/video&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Making a Real-World Connection&amp;nbsp;&lt;/h4&gt;
+        &lt;p&gt;Priya uses several different ride services to get around her city. The table shows the distance, in miles, she traveled during her last 10 trips and the price of each trip, in dollars.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;&lt;strong&gt;distance (miles)&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;&lt;strong&gt;price ($)&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;31.&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;12.5&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;4.2&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;14.75&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;5&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;16&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;3.5&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;13.25&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;2.5&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;12&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;1&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;9&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;0.8&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;8.75&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;1.6&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;9.75&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;4.3&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;12&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td width="144" valign="top"&gt;
+                        &lt;p align="center"&gt;3.3&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td width="96" valign="top"&gt;
+                        &lt;p align="center"&gt;14&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;&lt;br&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Priya creates a scatter plot of the data using the distance, \(x\), and the price, \(y\). She determines that a linear model is appropriate to use with the data. Use technology to find the equation of a line of best fit.&lt;/li&gt;
+            &lt;li&gt;Interpret the slope and the \(y\)-intercept of the equation of the line of best fit in this situation.&lt;/li&gt;
+            &lt;li&gt;Use the line of best fit to estimate the cost of a 3.6-mile trip. Will this estimate be close to the actual value? Explain your reasoning.&lt;/li&gt;
+            &lt;li&gt;On her next trip, Priya tries a new ride service and travels 3.6 miles, but she pays only $4.00 because she receives a discount. Include this trip in the table and calculate the equation of the line of best fit for the 11 trips. Did the slope of the equation of the line of best fit increase, decrease, or stay the same? Why? Explain your reasoning.&lt;/li&gt;
+            &lt;li&gt;Priya uses the new ride service for her 12th trip. She travels 4.1 miles and is charged $24.75. How do you think the slope of the equation&amp;nbsp;&lt;/li&gt;
+        &lt;/ol&gt;&lt;br&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answers here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Your answers may vary, but here are some sample responses to compare your answers.&lt;/p&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;\(y=1.57x+7.6\)&amp;nbsp;&lt;/li&gt;
+            &lt;li&gt;Sample response: The slope means that the fare increases by $1.57 for each additional mile driven. The \(y\)-intercept means that the fee for getting in the car is approximately $7.60.&lt;/li&gt;
+            &lt;li&gt;Sample response: According to the line of best fit, the cost of a 3.6-mile trip is approximately $13.25, which is the same price as the 3.5-mile trip listed in the table.&lt;/li&gt;
+            &lt;li&gt;Sample response: The slope of the line decreased to $1.27 for each additional mile. It probably decreased because $4.00 is a far lower price per mile than any of her other trips because of the discount. This causes the slope, the increase in price for each additional mile, to decrease.&lt;/li&gt;
+            &lt;li&gt;Sample response: The slope of the line will probably increase because $24.75 is very expensive and will likely cause the cost for each additional mile to increase.&lt;/li&gt;
+        &lt;/ol&gt;&lt;br&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1395">
+            <jumpto>621</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658437093</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1396">
+            <jumpto>625</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658437093</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="625">
+        <prevpageid>624</prevpageid>
+        <nextpageid>626</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658441317</timecreated>
+        <timemodified>1658766127</timemodified>
+        <title>3.2.3: Self Check</title>
+        <contents>&lt;p dir="ltr"&gt;Old Faithful is a geyser in Yellowstone National Park. The following table offers some rough estimates of the length of an eruption (in minutes) and the amount of water (in gallons) in that eruption.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="185" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Length (minutes)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="99" valign="top"&gt;
+                &lt;p&gt;1.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="101" valign="top"&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="91" valign="top"&gt;
+                &lt;p&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="106" valign="top"&gt;
+                &lt;p&gt;4.5&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="185" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Amount of Water (gallons)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="99" valign="top"&gt;
+                &lt;p&gt;3,700&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="101" valign="top"&gt;
+                &lt;p&gt;4,100&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="91" valign="top"&gt;
+                &lt;p&gt;6,450&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="106" valign="top"&gt;
+                &lt;p&gt;8,400&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;p dir="ltr"&gt;Use technology to find an equation of the line of best fit. Round to the nearest hundredth.&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1397">
+            <jumpto>626</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658441317</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y=1151.19x+1640.48\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The slope of the line is the coefficient of \(x\). The answer is \(y&amp;nbsp; = 640.48x+1151.19\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1398">
+            <jumpto>626</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658441317</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y = 800x +2500\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This was found using the first two points in the table. Use technology to enter the data from the table then find the linear regression line. The answer is \(y&amp;nbsp; = 1640.48x+1151.19\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1399">
+            <jumpto>627</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658441317</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(y&amp;nbsp; = 1640.48x+1151.19\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The slope of the line is the coefficient of \(x\). The \(y\)-intercept would be below 3,700 with the linear trend.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1400">
+            <jumpto>626</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658441317</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y=-1151.19x+1640.48\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The trend is increasing in the table, so the slope should be positive. The answer is \(y=1640.48x+1151.19\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1401">
+            <jumpto>626</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658441317</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="626">
+        <prevpageid>625</prevpageid>
+        <nextpageid>627</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658442058</timecreated>
+        <timemodified>1659027751</timemodified>
+        <title>3.2.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Technology for Best Fitting Lines&lt;/h4&gt;
+&lt;p&gt;Scientists are interested in finding out how different species adapt to finding food sources. One group studied crocodilians to find out how their bite force was related to body mass and diet. The table below displays the information they collected on body mass (in pounds) and bite force (in pounds).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;strong&gt;&lt;/strong&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="623" colspan="3" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Crocodilian Biting&lt;/strong&gt;&lt;/p&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Species&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Body Mass (pounds)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Bite Force (pounds)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Dwarf crocodile&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;35&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;450&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile F&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;40&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;260&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Alligator A&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;30&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;250&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Caiman A&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;28&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;230&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Caiman B&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;37&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;240&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Caiman C&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;45&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;255&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile A&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;110&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;550&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Nile crocodile&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;275&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;650&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile B&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;130&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;500&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile C&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;135&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;600&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile D&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;135&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;750&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Caiman D&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;125&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;550&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Indian gharial crocodile&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;225&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;400&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile G&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;220&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;1,000&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;American crocodile&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;270&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;900&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile E&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;285&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;750&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Crocodile F&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;425&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;1,650&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;American alligator&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;300&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;1,150&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Alligator B&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;325&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;1,200&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;Alligator C&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;365&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;1,450&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;The scatter plot below displays the data on body mass and bite force for the crocodilians in the study.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/317164bf68f6bdd79eba0b950a1c841f1927321e" alt="A SCATTER PLOT THAT SHOWS BODY MASS IN POUNDS ON THE X-AXIS AND BITE FORCE IN POUNDS ON THE Y-AXIS." width="450" height="390"&gt;&lt;/p&gt;
+&lt;p&gt;Using technology, the line of best fit for the data is \(y=3.02x +154.68\).&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;The slope of the line of best fit is 3.02. This signifies that for every pound more the crocodile weighs, it has 3.02 more pounds of bite force.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;The \(y\)-intercept is 154.68, which doesn’t quite make sense for a crocodile that weighs 0 pounds, but it does give a minimum bite force to expect from a crocodile.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;span&gt;Try It: Technology for Best Fitting Lines&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;The following table gives the times of the gold, silver, and bronze medal winners for the men’s 100-meter race (in seconds) for the past 10 Olympic Games.&lt;/p&gt;
+&lt;p&gt;Use technology to write an equation of the line that represents the line of best fit for the years since 1976 and the mean times each year. Round to the nearest hundredth.&lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Year&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;2012&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;2008&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;2004&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;2000&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1996&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1992&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1988&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1984&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1980&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;1976&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Number of
+                        Years (since 1976)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;36&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;32&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;28&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;24&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;20&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;16&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;12&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;8&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;4&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Gold&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;9.63&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.69&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.85&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.87&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.84&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.96&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;9.92&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.99&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.25&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.06&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Silver&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;9.75&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.89&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.86&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.99&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.89&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.02&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;9.97&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.19&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.25&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.07&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Bronze&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;9.79&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.91&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.87&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.04&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.90&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.04&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;9.99&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.22&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.39&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.14&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="208" valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Mean Time&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="16" valign="top"&gt;
+                &lt;p&gt;9.72&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.83&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.86&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.97&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;9.88&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.01&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="45" valign="top"&gt;
+                &lt;p&gt;9.96&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.13&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.30&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="44" valign="top"&gt;
+                &lt;p&gt;10.09&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content" style="margin-left: 30px;"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+
+    &lt;p dir="ltr"&gt;Here is how to find the line of best fit:&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Enter the number of years and the mean time into your technology:&lt;/p&gt;&lt;br&gt;
+
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;36&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;32&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;28&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;24&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;20&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;16&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;12&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;8&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;4&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;0&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;\(y\)&amp;nbsp;&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.72&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.83&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.86&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.97&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.88&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;10.01&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;9.96&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;10.13&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;10.30&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p dir="ltr"&gt;10.09&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;br&gt;
+
+  
+        &lt;p&gt;The equation of the line of best fit, using technology, is \(y = -0.01x+10.2\).&lt;/p&gt;
+        &lt;br&gt;
+        &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1402">
+            <jumpto>625</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658442058</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1403">
+            <jumpto>627</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658442058</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="627">
+        <prevpageid>626</prevpageid>
+        <nextpageid>628</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658442981</timecreated>
+        <timemodified>1659027007</timemodified>
+        <title>3.2.4: Working with Fitted Lines</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;div class="editor-indent" style="margin-left: 30px;"&gt;
+    &lt;p&gt;1. Which of these scatter plots shows data that would best be modeled with a linear function? Explain your reasoning.&lt;/p&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/eF3L4NzocoB9sDhoGMhzZGnE" alt="Scatterplot."&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/eQ9WEgsQW6FauDqbLiSUGwUq" alt="Scatter plot."&gt;&lt;br&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Fy38TUG8XPyhg52cNvA3UbsL" alt="Scatter plot."&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;C. The points in the scatter plot seem to follow the shape of a line best. The scatter plot in A is very spread out, and the scatter plot in B is probably better fit by a curve.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&lt;/p&gt;&lt;span style="font-size: 0.9375rem;"&gt;2. Which of the following lines is most likely the line of best fit for the data provided?&lt;/span&gt;&lt;br&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;ul&gt;
+                &lt;ul&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;\(y=-0.51x+225.12\)&lt;/li&gt;
+                        &lt;li&gt;\(y=0.34x−34.05\)&lt;/li&gt;
+                        &lt;li&gt;\(y=0.13x−0.19\)&lt;/li&gt;
+                        &lt;li&gt;\(y=0.98x−21.13\)&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/ul&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;table cellpadding="5" border="1"&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p align="center"&gt;&lt;b&gt;number of trees in a forest&lt;/b&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p align="center"&gt;&lt;b&gt;tons of oxygen produced by the forest&lt;/b&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;148&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;16.43&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;175&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;25.64&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;190&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;23.28&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;200&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;29.2&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;202&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;21.41&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;425&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;60.56&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;505&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;50.75&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;528&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;74.45&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;562&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;62.66&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;585&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td style="border:1px solid black;"&gt;
+                        &lt;p&gt;84.24&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;&lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/3ndp7iQ9SRgQm8ct8pVX5YW7" alt="A scatterplot."&gt;
+        &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Check your answer:&lt;/p&gt;
+        &lt;p&gt;\(y=0.13x−0.19\)&lt;/p&gt;
+        &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1404">
+            <jumpto>624</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658442981</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text> Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1405">
+            <jumpto>628</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658442981</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="628">
+        <prevpageid>627</prevpageid>
+        <nextpageid>629</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658443258</timecreated>
+        <timemodified>1659380408</timemodified>
+        <title>3.2.5: Practice </title>
+        <contents>&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;1. Question 1 (Technology required.)&lt;br&gt;
+    &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+
+    &lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="125" data-solution-options="[&amp;quot;100&amp;quot;, &amp;quot;125&amp;quot;, &amp;quot;150&amp;quot;, &amp;quot;120&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+
+
+            &lt;p&gt;&lt;/p&gt;
+            &lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td valign="top"&gt;
+                            &lt;p&gt;\(x\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;\(y\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;83&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;102&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;87&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;115&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;91&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;107&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;93&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;122&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;97&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;125&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;97&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;127&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;101&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;120&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;104&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td valign="top" style="border:1px solid balck;"&gt;
+                            &lt;p&gt;127&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;&lt;br&gt;
+            &lt;p&gt;Use graphing technology to create a scatter plot and find the best fit line.&lt;br&gt;What does the best fit line estimate for the \(y\)-value when \(x\) is 100?&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The line of best fit is \(y=1.089x+15.588\), so when \(x\) is 100, \(y\) is about 125.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 3.2.2–3.23. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer for the line of best fit is \(y=1.089x+15.588\), so when \(x\) is 100, \(y\) is about 125. You seem to be stuck. Who can you ask for help?&lt;br&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;!--Q2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The slope is 0.404, which means for every day, the plant grows 0.404 centimeters. " data-solution-options="[&amp;quot;The slope is 5.18, which means for every day, the plant grows 5.18 centimeters.&amp;quot;, &amp;quot;The slope is 0.404, which means for every day, the plant grows 0.404 centimeters. &amp;quot;, &amp;quot;The slope is -5.18, which means for every day, the plant shrinks -5.18 centimeters. &amp;quot;, &amp;quot;The slope is 0.404, which means the plant grows 1 centimeter every 0.404 days.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;2. A seed is planted in a glass pot, and its height is measured in centimeters every day.&lt;/p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/fGc6auPc9qwna4MCtCqNEeQS" alt="A scatter plot. Horizontal, 0 to 30, by 1’s, labeled days. Vertical, negative 5 to 3, by point 5’s, labeled height in centimeters. 21 dots trend linearly up and to the right with a line a best fit." style="font-size: 0.9375rem;"&gt;&lt;br style="font-size: 0.9375rem;"&gt;
+            &lt;p&gt;The best fit line is given by the equation \(y=0.404x−5.18\), where \(y\) represents the height of the plant above ground level, and \(x\) represents the number of days since it was planted.&lt;/p&gt;
+
+            &lt;p&gt;What is the slope of the best fit line? What does the slope of the line mean in this situation?&amp;nbsp;&lt;/p&gt;
+
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp;The slope is 0.404, which means for every day, the plant grows 0.404 centimeters.&amp;nbsp;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 3.2.2–3.2.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: The slope is 0.404, which means for every day, the plant grows 0.404 centimeters. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q3--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Line 3" data-solution-options="[&amp;quot;Line 1&amp;quot;, &amp;quot;Line 2&amp;quot;, &amp;quot;Line 3&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;&lt;/p&gt;
+            &lt;p&gt;3. The scatter plots below show different lines that students used to model the relationship between body mass (in pounds) and bite force (in pounds) for crocodiles.&lt;/p&gt;
+            &lt;div&gt;&lt;span&gt;Match each graph to one of the equations below, and explain your reasoning. Let \(B\) represent bite force (in pounds) and \(W\) represent body mass (in pounds).&lt;/span&gt;&lt;br&gt;&lt;span&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c769c50c5d9a7152b372e98b073c7dae2e860b1e" alt="A SCATTER PLOT THAT SHOWS BODY MASS IN POUNDS ON THE X-AXIS AND BITE FORCE IN POUNDS ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT AND HAS A Y-INTERCEPT BETWEEN 200 AND 300." width="449" height="399"&gt;&lt;/span&gt;&lt;br&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f2db925d3b7a849e49e2bbb5aa9bb13ad030fea9" alt="A SCATTER PLOT THAT SHOWS BODY MASS IN POUNDS ON THE X-AXIS AND BITE FORCE IN POUNDS ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT AND HAS A Y-INTERCEPT BETWEEN 300 AND 400.
+" width="450" height="411"&gt;&lt;br&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/82f0c78f8c372c36c200f5481057789b8ce87014" alt="A SCATTER PLOT THAT SHOWS BODY MASS IN POUNDS ON THE X-AXIS AND BITE FORCE IN POUNDS ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT AND HAS A Y-INTERCEPT BETWEEN 100 AND 200. " width="450" height="413"&gt;&lt;/div&gt;
+            &lt;div&gt;&lt;br&gt;&lt;/div&gt;
+            &lt;p&gt;Equation 1: \(B = 3.28W +126 \)&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Line 3 and Equation 1 match because the intercept of Equation 1 is the smallest, which seems to match the graph. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 3.2.1 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: Line 3 and Equation 1 match because the intercept of Equation 1 is the smallest, which seems to match the graph. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q3b--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Line 2" data-solution-options="[&amp;quot;Line 1&amp;quot;, &amp;quot;Line 2&amp;quot;, &amp;quot;Line 3&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;p&gt;b. Equation 2: \(B = 3.04W +351\) &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Line 2 and Equation 2 match because the intercept of Equation 2 is larger, so it matches Line 2, which has a \(y\)-intercept closer to 400.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 3.2.1 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: Line 2 and Equation 2 match because the intercept of Equation 2 is larger, so it matches Line 2, which has a \(y\)-intercept closer to 400. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+
+    &lt;!--Q3b--&gt;
+
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Line 1" data-solution-options="[&amp;quot;Line 1&amp;quot;, &amp;quot;Line 2&amp;quot;, &amp;quot;Line 3&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;p&gt;c. Equation 3: \(B = 2.16W +267\) &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp;Line 1 and Equation 3 match because the intercept of 267 appears to match the graph, which has the second-largest intercept.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 3.2.1 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: Line 1 and Equation 3 match because the intercept of 267 appears to match the graph, which has the second-largest intercept. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+
+
+
+
+
+
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1406">
+            <jumpto>627</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658443258</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1407">
+            <jumpto>629</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658443258</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="629">
+        <prevpageid>628</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658446514</timecreated>
+        <timemodified>1658690052</timemodified>
+        <title>3.2.6: Lesson Summary</title>
+        <contents>&lt;p dir="ltr"&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;Describe the rate of change and \(y\)-intercept for a linear model in everyday language.&lt;/li&gt;
+    &lt;li&gt;Use technology to find the line of best fit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Here are the&lt;strong&gt; activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;3.2.1: Selecting the Best Line&lt;/span&gt;
+        &lt;ul&gt;
+            &lt;li&gt;In this activity, you visually assessed the best line fit for data among a set of given choices. You explored bad fit, good fit, and best fit.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;3.2.2: Determining the Best Line That Fits the Data&lt;ul&gt;
+            &lt;li&gt;In this activity, you distinguished between linear and nonlinear relationships in bivariate, numerical data and informally assessed the fit of a linear model. You also compared the slope and the vertical intercepts of different linear models and were able to describe the relationship between two variables.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;3.2.2: Self Check&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;3.2.3: Assessing the Fit of a Linear Model&lt;ul&gt;
+            &lt;li&gt;In this activity, you used technology to compute a line of best fit for data given in a table and to recognize the meaning of the slope and \(y\)-intercept.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;3.2.3: Self Check&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;3.2.4: Working with Fitted Lines&lt;ul&gt;
+            &lt;li&gt;In this activity, you had an opportunity to work with fitted lines. You identified scatter plots that showed data that would best be modeled with a linear function and the line of best fit for the data provided.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;
+&lt;/p&gt;&lt;ul&gt;
+    &lt;li&gt;3.2.5: Practice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Checking In&amp;nbsp;&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+	
+	&lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+	
+	&lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
+	
+	  &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1408">
+            <jumpto>628</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658446514</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1409">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658446514</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>
