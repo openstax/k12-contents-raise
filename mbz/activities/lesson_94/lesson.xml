@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="71" moduleid="94" modulename="lesson" contextid="105">
   <lesson id="71">
     <course>2</course>
     <name>Lesson 3.3: Residuals</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>0</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>0</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -56,22 +56,21 @@
         <contents>&lt;p&gt;In this lesson, you will assess the fit of a function by plotting and analyzing residuals.&lt;/p&gt;
 &lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Plot and calculate residuals for a data set and use the information to judge whether a linear model is a good fit.&lt;/li&gt;
+&lt;li&gt;Plot and calculate residuals for a data set and use the information to judge whether a linear model is a good fit.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;3.3.1: Subtracting an Estimated Value from an Actual Value&lt;/li&gt;
-  &lt;li&gt;3.3.2: Plotting and Analyzing Residuals&lt;/li&gt;
-  &lt;li&gt;3.3.2: Self Check&lt;/li&gt;
-  &lt;li&gt;3.3.3: Matching Residuals Graphs to Scatter Plots&lt;/li&gt;
-  &lt;li&gt;3.3.3: Self Check&lt;/li&gt;
-  &lt;li&gt;3.3.4: Identifying Best Fit Line for Residuals on a Graph&lt;/li&gt;
+&lt;li&gt;3.3.1: Subtracting an Estimated Value from an Actual Value&lt;/li&gt;
+&lt;li&gt;3.3.2: Plotting and Analyzing Residuals&lt;/li&gt;
+&lt;li&gt;3.3.2: Self Check&lt;/li&gt;
+&lt;li&gt;3.3.3: Matching Residuals Graphs to Scatter Plots&lt;/li&gt;
+&lt;li&gt;3.3.3: Self Check&lt;/li&gt;
+&lt;li&gt;3.3.4: Identifying Best Fit Line for Residuals on a Graph&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;After that, you’ll&lt;strong&gt; practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;After that, you&amp;rsquo;ll&lt;strong&gt; practice and review&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;3.3.5: Practice&lt;/li&gt;
-  &lt;li&gt;3.3.6: Lesson Summary&lt;/li&gt;
+&lt;li&gt;3.3.5: Practice&lt;/li&gt;
+&lt;li&gt;3.3.6: Lesson Summary&lt;/li&gt;
 &lt;/ul&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -103,36 +102,35 @@
         <timecreated>1658455172</timecreated>
         <timemodified>1659031615</timemodified>
         <title>3.3.1: Subtracting an Estimated Value from an Actual Value</title>
-        <contents>&lt;h4 style="text-align: left;"&gt;Warm Up Activity&lt;/h4&gt;
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-
-        &lt;p dir="ltr"&gt;Mentally calculate how close the estimate is to the actual value using the difference:&amp;nbsp;&lt;/p&gt;
-        &lt;p dir="ltr"&gt;&lt;em&gt;actual value − estimated value.&lt;/em&gt;&lt;/p&gt;
-        &lt;p dir="ltr"&gt;&lt;/p&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;Actual value: 24.8 grams. Estimated value: 19.6 grams&lt;/li&gt;
-            &lt;li&gt;Actual value: $112.11. Estimated value: $109.30&lt;/li&gt;
-            &lt;li&gt;Actual value: 41.5 centimeters. Estimated value: 45.90 centimeters&lt;/li&gt;
-            &lt;li&gt;Actual value: \(-1.34\) degrees Celsius. Estimated value: \(-2.45\) degrees Celsius&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Check your answers:&lt;/p&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;5.2 grams&lt;/li&gt;
-            &lt;li&gt;$2.81&lt;/li&gt;
-            &lt;li&gt;\(-4.4\) centimeters&lt;/li&gt;
-            &lt;li&gt;1.11 degrees Celsius&lt;/li&gt;
-        &lt;/ol&gt;&lt;br&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p dir="ltr"&gt;Mentally calculate how close the estimate is to the actual value using the difference:&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;em&gt;actual value &amp;minus; estimated value.&lt;/em&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;Actual value: 24.8 grams. Estimated value: 19.6 grams&lt;/li&gt;
+&lt;li&gt;Actual value: $112.11. Estimated value: $109.30&lt;/li&gt;
+&lt;li&gt;Actual value: 41.5 centimeters. Estimated value: 45.90 centimeters&lt;/li&gt;
+&lt;li&gt;Actual value: \(-1.34\) degrees Celsius. Estimated value: \(-2.45\) degrees Celsius&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Check your answers:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;5.2 grams&lt;/li&gt;
+&lt;li&gt;$2.81&lt;/li&gt;
+&lt;li&gt;\(-4.4\) centimeters&lt;/li&gt;
+&lt;li&gt;1.11 degrees Celsius&lt;/li&gt;
+&lt;/ol&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;br&gt;</contents>
@@ -181,265 +179,262 @@
         <timemodified>1659032214</timemodified>
         <title>3.3.2: Plotting and Analyzing Residuals</title>
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
-&lt;p&gt;&lt;img class="img-fluid atto_image_button_text-bottom" src="https://s3.amazonaws.com/im-ims-export/NwkYrrQgr8JzrkitgvgZsMh5" alt="Video still of oranges being weighed" width="449" height="257"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Video still of oranges being weighed" class="img-fluid atto_image_button_text-bottom" height="257" src="https://s3.amazonaws.com/im-ims-export/NwkYrrQgr8JzrkitgvgZsMh5" width="449"&gt;&lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" style="margin-left: 30px;" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-        &lt;p&gt;1. Here is the data table for orange weights from a previous lesson. Use technology to find the scatter plot and a line of best fit.&lt;/p&gt;
-        &lt;table border="1" width="438" cellspacing="0" cellpadding="5"&gt;
-            &lt;thead&gt;
-                &lt;tr&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;&lt;strong&gt;number of oranges&lt;/strong&gt;&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;&lt;strong&gt;weight in kilograms&lt;/strong&gt;&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-            &lt;/thead&gt;
-            &lt;tbody&gt;
-                &lt;tr&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;3&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;1.027&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;4&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;1.162&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;5&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;1.502&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;6&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;1.617&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;7&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;1.761&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;8&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;2.115&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;9&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;2.233&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;10&lt;/p&gt;
-                    &lt;/td&gt;
-                    &lt;td style="border:1px solid black;"&gt;
-                        &lt;p align="center"&gt;2.569&lt;/p&gt;
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-            &lt;/tbody&gt;
-        &lt;/table&gt;&lt;br&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;The equation of the best fit line is \(y=0.216x+0.345\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;1. Here is the data table for orange weights from a previous lesson. Use technology to find the scatter plot and a line of best fit.&lt;/p&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0" width="438"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;&lt;strong&gt;number of oranges&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;&lt;strong&gt;weight in kilograms&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;1.027&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;4&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;1.162&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;1.502&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;6&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;1.617&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;7&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;1.761&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;8&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;2.115&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;9&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;2.233&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;10&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align="center"&gt;2.569&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;The equation of the best fit line is \(y=0.216x+0.345\).&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;br&gt;
-
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" style="margin-left: 30px;" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;2. What level of accuracy makes sense for the slope and intercept values? Explain your reasoning.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;Rounding the values to the thousandths place makes sense because that would be to an accuracy of 1 gram, which is what the original data used.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;2. What level of accuracy makes sense for the slope and intercept values? Explain your reasoning.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Rounding the values to the thousandths place makes sense because that would be to an accuracy of 1 gram, which is what the original data used.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" style="margin-left: 30px;" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;3. What does the linear model estimate for the weight of the box of oranges for each of the numbers of oranges?&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Check your answer:&lt;/p&gt;
-        &lt;p&gt;0.216 kg for each orange&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;3. What does the linear model estimate for the weight of the box of oranges for each of the numbers of oranges?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Check your answer:&lt;/p&gt;
+&lt;p&gt;0.216 kg for each orange&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" style="margin-left: 30px;" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;4. Compare the weight of the box with 3 oranges in it to the estimated weight of the box with 3 oranges in it. Explain or show your reasoning.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;The actual weight is 1.027 kg, and the estimated weight is 0.993 kg. Therefore, the actual weight is 0.034 kg greater than the estimate.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;4. Compare the weight of the box with 3 oranges in it to the estimated weight of the box with 3 oranges in it. Explain or show your reasoning.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;The actual weight is 1.027 kg, and the estimated weight is 0.993 kg. Therefore, the actual weight is 0.034 kg greater than the estimate.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" style="margin-left: 30px;" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;5. How many oranges are in the box when the linear model estimates the weight best? Explain or show your reasoning.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;6 oranges are in the box when the estimate is best. The difference between the estimated weight and the actual weight is only 0.023 kg, while the other points are farther from the line.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;5. How many oranges are in the box when the linear model estimates the weight best? Explain or show your reasoning.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;6 oranges are in the box when the estimate is best. The difference between the estimated weight and the actual weight is only 0.023 kg, while the other points are farther from the line.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" style="margin-left: 30px;" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;6. How many oranges are in the box when the linear model estimates the weight least well? Explain or show your reasoning.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;7 oranges are in the box when the estimate is worst. The difference between the estimated weight and the actual weight is 0.095, which is the most of any of the values.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;6. How many oranges are in the box when the linear model estimates the weight least well? Explain or show your reasoning.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;7 oranges are in the box when the estimate is worst. The difference between the estimated weight and the actual weight is 0.095, which is the most of any of the values.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" style="margin-left: 30px;" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;7. The difference between the actual value and the value estimated by a linear model is called the residual.&amp;nbsp;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;If the actual value is greater than the estimated value, the residual is positive.&amp;nbsp;&lt;/li&gt;
-            &lt;li&gt;If the actual value is less than the estimated value, the residual is negative.&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;blockquote&gt;
-            &lt;ol&gt;
-                &lt;ol type="a"&gt;
-                    &lt;li&gt;For the orange weight data set, what is the residual for the line of best fit when there are 3 oranges?&amp;nbsp;&lt;/li&gt;
-                    &lt;li&gt;On the same axes as the scatter plot, plot this residual at the point where \(x=3\) and \(y\) has the value of the residual.&lt;/li&gt;
-                &lt;/ol&gt;
-            &lt;/ol&gt;
-
-        &lt;/blockquote&gt;
-
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;The residual is \(0.034 (1.027−0.993=0.034)\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;7. The difference between the actual value and the value estimated by a linear model is called the residual.&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the actual value is greater than the estimated value, the residual is positive.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;If the actual value is less than the estimated value, the residual is negative.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;For the orange weight data set, what is the residual for the line of best fit when there are 3 oranges?&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;On the same axes as the scatter plot, plot this residual at the point where \(x=3\) and \(y\) has the value of the residual.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;The residual is \(0.034 (1.027&amp;minus;0.993=0.034)\).&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;div class="os-raise-ib-cta" style="margin-left: 30px;" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content" style="margin-left: 30px;"&gt;
-        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-        &lt;p&gt;8. Find the residuals for each of the other points in the scatter plot and graph them.&lt;/p&gt;
-        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/5ABuLjcd58EmSHTRYD7Ymynq" alt="Blank coordinate plane with grid. Horizontal axis from 0 to 11 by 1's. Vertical axis from negative 0 point 5 to 0 point 5, by 0 point 1's. &amp;nbsp;"&gt;&lt;/p&gt;
-        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;8. Find the residuals for each of the other points in the scatter plot and graph them.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Blank coordinate plane with grid. Horizontal axis from 0 to 11 by 1's. Vertical axis from negative 0 point 5 to 0 point 5, by 0 point 1's. &amp;nbsp;" src="https://s3.amazonaws.com/im-ims-export/5ABuLjcd58EmSHTRYD7Ymynq"&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" style="margin-left: 30px;" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Sd6ppu8x55yCanThSeWgL2dA" alt="Discrete graph."&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Discrete graph." src="https://s3.amazonaws.com/im-ims-export/Sd6ppu8x55yCanThSeWgL2dA"&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" style="margin-left: 30px;" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;9. Which point on the scatter plot has the residual closest to zero? What does this mean about the weight of the box with that many oranges in it?&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;6 oranges. It means the estimated weight of the box with 6 oranges in it is closest to the actual value.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;9. Which point on the scatter plot has the residual closest to zero? What does this mean about the weight of the box with that many oranges in it?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;6 oranges. It means the estimated weight of the box with 6 oranges in it is closest to the actual value.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;p&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" style="margin-left: 30px;" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;10. How can you use the residuals to decide how well a line fits the data?&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;A line will result in more accurate estimates when the residuals are closer to zero.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;10. How can you use the residuals to decide how well a line fits the data?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;A line will result in more accurate estimates when the residuals are closer to zero.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;h4&gt;Video: Finding Residuals&lt;/h4&gt;
 &lt;p&gt;Watch the following video to learn more about finding residuals.&lt;/p&gt;
 &lt;p&gt;
-    &lt;video crossorigin="anonymous" controls="controls" width="550"&gt;
-        &lt;source src="https://k12.openstax.org/contents/raise/resources/23c4c5a71e02040cd50b142cc3fd9585b214bcaf"&gt;
-        &lt;track src="https://k12.openstax.org/contents/raise/resources/016997b431f1c5c96171aab3df5ced18ce0cc8f2" kind="captions" srclang="en_us" label="On" default="true"&gt;
+&lt;video controls="controls" crossorigin="anonymous" width="550"&gt;
+&lt;source src="https://k12.openstax.org/contents/raise/resources/23c4c5a71e02040cd50b142cc3fd9585b214bcaf"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/016997b431f1c5c96171aab3df5ced18ce0cc8f2" srclang="en_us"&gt;
         https://k12.openstax.org/contents/raise/resources/23c4c5a71e02040cd50b142cc3fd9585b214bcaf
     &lt;/video&gt;
 &lt;/p&gt;</contents>
@@ -497,8 +492,8 @@
             <flags>0</flags>
             <timecreated>1658456407</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(2.4\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Be sure to add the constant when evaluating the line of best fit at \(x = 3\). Then find the actual \(y\)-value – estimated \(y\)-value. The answer is \(-1\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(2.4\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Be sure to add the constant when evaluating the line of best fit at \(x = 3\). Then find the actual \(y\)-value &amp;ndash; estimated \(y\)-value. The answer is \(-1\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -511,8 +506,8 @@
             <flags>0</flags>
             <timecreated>1658456407</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(1\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: To find the residual, subtract the actual value – estimated value. Watch the order of the values and the signs when subtracting. The answer is \(-1\).&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(1\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: To find the residual, subtract the actual value &amp;ndash; estimated value. Watch the order of the values and the signs when subtracting. The answer is \(-1\).&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -525,8 +520,8 @@
             <flags>0</flags>
             <timecreated>1658456407</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(-1\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself. Substitute \(x =3\) so that \(y=2.2(3)+3.4= 10\). This is the estimated value. The actual value at \(x=3\) is 9, so \(9-10 =-1\).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(-1\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself. Substitute \(x =3\) so that \(y=2.2(3)+3.4= 10\). This is the estimated value. The actual value at \(x=3\) is 9, so \(9-10 =-1\).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -539,8 +534,8 @@
             <flags>0</flags>
             <timecreated>1658456407</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(14.2\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way. Substitute 3 in for \(x\), not 9, in the equation. The answer is \(-1\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(14.2\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way. Substitute 3 in for \(x\), not 9, in the equation. The answer is \(-1\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -553,8 +548,8 @@
             <flags>0</flags>
             <timecreated>1658456407</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -574,188 +569,185 @@
         <timecreated>1658456596</timecreated>
         <timemodified>1658752273</timemodified>
         <title>3.3.2: Additional Resources</title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;
+        <contents>&lt;p dir="ltr"&gt;&lt;/p&gt;
 &lt;h4&gt;Finding Residuals&lt;/h4&gt;
 &lt;p&gt;&lt;span&gt;The gestation time for an animal is the typical duration between conception and birth. The longevity of an animal is the typical lifespan for that animal. The gestation times, in days, and longevities, in years, for 13 types of animals are shown in the table below.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Animal&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Gestation Time (days)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Longevity (years)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Baboon&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;187&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;20&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Black Bear&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;219&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;18&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Beaver&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;105&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;5&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Bison&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;285&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;15&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Cat&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;63&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;12&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Chimpanzee&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;23&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;20&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Cow&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;284&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;15&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Dog&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;61&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;12&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Fox (Red)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;52&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;7&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Goat&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;151&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;8&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Lion&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;100&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;15&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Sheep&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;154&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;12&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;Wolf&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;63&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="140" valign="top"&gt;
-                &lt;p&gt;5&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Animal&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Gestation Time (days)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Longevity (years)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Baboon&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;187&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;20&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Black Bear&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;219&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;18&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Beaver&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;105&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Bison&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;285&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Cat&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;63&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;12&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Chimpanzee&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;23&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;20&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Cow&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;284&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Dog&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;61&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;12&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Fox (Red)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;52&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;7&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Goat&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;151&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;8&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Lion&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;100&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Sheep&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;154&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;12&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Wolf&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;63&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;The equation of a line of best fit is \(y = 6.642 + 0.03974x\), where \(x\) represents the gestational time, in days, and \(y\) represents longevity, in years.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/684400b4f64ffc962153b57e6482c56cd503a7fa" alt="" width="350" height="310" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;A lion’s gestation time is 100 days, and its longevity is 15 years. What does this line of best fit predict the lion’s longevity to be?&lt;/p&gt;
+&lt;p&gt;&lt;img alt height="310" role="presentation" src="https://k12.openstax.org/contents/raise/resources/684400b4f64ffc962153b57e6482c56cd503a7fa" width="350"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;A lion&amp;rsquo;s gestation time is 100 days, and its longevity is 15 years. What does this line of best fit predict the lion&amp;rsquo;s longevity to be?&lt;/p&gt;
 &lt;p&gt;\(y=6.642+0.03974 (100)=10.6\)&lt;/p&gt;
-&lt;p&gt;The residual would be the actual value – estimated value or \(15-10.6 = 4.4\).&lt;/p&gt;
+&lt;p&gt;The residual would be the actual value &amp;ndash; estimated value or \(15-10.6 = 4.4\).&lt;/p&gt;
 &lt;p&gt;The residual value is 4.4.&lt;/p&gt;
 &lt;h4&gt;Try It: Finding Residuals&lt;/h4&gt;
-&lt;p&gt;In the table above, a dog has a gestation time of 61 days and a longevity of 12 years.&lt;/p&gt;&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;&lt;div class="os-raise-ib-cta-content" style="margin-left: 30px;"&gt;&lt;p&gt;Using the same equation, \(y = 6.642 + 0.03974x\), what would the residual value be?&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt" style="margin-left: 30px;"&gt;
-    &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
-&lt;/p&gt;
-  &lt;/div&gt;
+&lt;p&gt;In the table above, a dog has a gestation time of 61 days and a longevity of 12 years.&lt;/p&gt;&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;&lt;div class="os-raise-ib-cta-content"&gt;&lt;p&gt;Using the same equation, \(y = 6.642 + 0.03974x\), what would the residual value be?&lt;/p&gt;
 &lt;/div&gt;
-
-
-
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
- &lt;p&gt;&lt;/p&gt;&lt;p&gt;Here is how to find the residual:&lt;/p&gt;&lt;p&gt;Substitute \(x =61\) into the equation, \(y = 6.642+0.03974(61)=9.06614\).&lt;/p&gt;&lt;p&gt;So, the residual is the (actual value – estimated value):&lt;/p&gt;&lt;p&gt;\(12-9.06614=2.93386\).&lt;/p&gt;&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;Here is how to find the residual:&lt;/p&gt;&lt;p&gt;Substitute \(x =61\) into the equation, \(y = 6.642+0.03974(61)=9.06614\).&lt;/p&gt;&lt;p&gt;So, the residual is the (actual value &amp;ndash; estimated value):&lt;/p&gt;&lt;p&gt;\(12-9.06614=2.93386\).&lt;/p&gt;&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;</contents>
         <contentsformat>1</contentsformat>
@@ -802,181 +794,164 @@
         <timecreated>1658457074</timecreated>
         <timemodified>1658752520</timemodified>
         <title>3.3.3: Matching Residuals Graphs to Scatter Plots</title>
-        <contents>&lt;h4 style="text-align: left;"&gt;Activity&lt;/h4&gt;
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;1. Match the scatter plots and given linear models to the graph of the residuals.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Check your answer:&lt;/p&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;A matches with K&lt;/li&gt;
-            &lt;li&gt;B matches with G&lt;/li&gt;
-            &lt;li&gt;C matches with L&lt;/li&gt;
-            &lt;li&gt;D matches with H&lt;/li&gt;
-            &lt;li&gt;E matches with J&lt;/li&gt;
-            &lt;li&gt;F matches with I&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;1. Match the scatter plots and given linear models to the graph of the residuals.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Check your answer:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A matches with K&lt;/li&gt;
+&lt;li&gt;B matches with G&lt;/li&gt;
+&lt;li&gt;C matches with L&lt;/li&gt;
+&lt;li&gt;D matches with H&lt;/li&gt;
+&lt;li&gt;E matches with J&lt;/li&gt;
+&lt;li&gt;F matches with I&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;2. Turn over the scatter plots so that only the residuals are visible. Based on the residuals, which line would produce the most accurate estimates? Which line fits its data worst?&lt;/p&gt;
-
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Compare your answers:&lt;/p&gt;
-
-        &lt;p&gt;B fits its data the best. C or E fits its data the worst.&lt;/p&gt;
-
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;2. Turn over the scatter plots so that only the residuals are visible. Based on the residuals, which line would produce the most accurate estimates? Which line fits its data worst?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answers:&lt;/p&gt;
+&lt;p&gt;B fits its data the best. C or E fits its data the worst.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;br&gt;
-
 &lt;br&gt;
 &lt;h4&gt;What Do Residual Plots Tell Us?&lt;/h4&gt;
-&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Residuals tell us how close to accurate a line of best fit really is.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Ideally, the residual from a line of best fit will be scattered randomly above and below the horizontal line of 0 on the residual plot. The residual plot would have points above and below the horizontal line of 0. This shows that the relationship between the two variables in the data set can be approximated by a linear model.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Residuals tell us how close to accurate a line of best fit really is.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Ideally, the residual from a line of best fit will be scattered randomly above and below the horizontal line of 0 on the residual plot. The residual plot would have points above and below the horizontal line of 0. This shows that the relationship between the two variables in the data set can be approximated by a linear model.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;When the residuals are on 0, this indicates that the line of best fit goes through those points.&lt;/p&gt;
 &lt;p&gt;A curved pattern shows that a nonlinear model would be better to describe the relationships between points.&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;ol&gt;
-            &lt;li&gt;Tyler estimates a line of best fit for some linear data about the mass, in grams, of different numbers of apples. Here is the graph of the residuals.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/XosT3CPGEMmiKcegdijhrLJy" alt="Graph of residuals."&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;What does Tyler’s line of best fit look like according to the graph of the residuals?&lt;/li&gt;
-            &lt;li&gt;&amp;nbsp;How well does Tyler’s line of best fit model the data? Explain your reasoning.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;&lt;/p&gt;&lt;br&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answers here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Check your answers:&lt;/p&gt;
-
-        &lt;ol type="a"&gt;
-            &lt;li&gt;The data are between 10 and 30 grams above the line of best fit.&lt;/li&gt;
-            &lt;li&gt;Tyler’s line does not model the data well because all of the residuals are positive.&lt;/li&gt;
-        &lt;/ol&gt;
-
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tyler estimates a line of best fit for some linear data about the mass, in grams, of different numbers of apples. Here is the graph of the residuals.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Graph of residuals." src="https://s3.amazonaws.com/im-ims-export/XosT3CPGEMmiKcegdijhrLJy"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;What does Tyler&amp;rsquo;s line of best fit look like according to the graph of the residuals?&lt;/li&gt;
+&lt;li&gt;&amp;nbsp;How well does Tyler&amp;rsquo;s line of best fit model the data? Explain your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answers here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Check your answers:&lt;/p&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;The data are between 10 and 30 grams above the line of best fit.&lt;/li&gt;
+&lt;li&gt;Tyler&amp;rsquo;s line does not model the data well because all of the residuals are positive.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;ol start="2"&gt;
-            &lt;li&gt;Lin estimates a line of best fit for the same data. The graph shows the residuals.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/P4yAviM4QucEfCDjPEWTDjRp" alt="Graph of residuals."&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;What does Lin’s line of best fit look like in comparison to the data?&lt;/li&gt;
-            &lt;li&gt;How well does Lin’s line of best fit model the data? Explain your reasoning.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;&lt;/p&gt;&lt;br&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answers here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Check your answers:&lt;/p&gt;
-
-        &lt;ol type="a"&gt;
-            &lt;li&gt;The line is below the lower half of the data and above the second half of the data.
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;Lin estimates a line of best fit for the same data. The graph shows the residuals.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Graph of residuals." src="https://s3.amazonaws.com/im-ims-export/P4yAviM4QucEfCDjPEWTDjRp"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;What does Lin&amp;rsquo;s line of best fit look like in comparison to the data?&lt;/li&gt;
+&lt;li&gt;How well does Lin&amp;rsquo;s line of best fit model the data? Explain your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answers here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Check your answers:&lt;/p&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;The line is below the lower half of the data and above the second half of the data.
             &lt;/li&gt;
-            &lt;li&gt;It is not a good fit because the first several residuals are all positive and the last several residuals are negative. They should not have a pattern if the line of best fit is good.&lt;/li&gt;
-        &lt;/ol&gt;
-
-
-    &lt;/div&gt;
+&lt;li&gt;It is not a good fit because the first several residuals are all positive and the last several residuals are negative. They should not have a pattern if the line of best fit is good.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;ol start="3"&gt;
-            &lt;li&gt;Kiran also estimates a line of best fit for the same data. The graph shows the residuals.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Sa3iS5vzWjq8jXzU4VGJqw3F" alt="Graph of residuals."&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;What does Kiran’s line of best fit look like in comparison to the data?&lt;/li&gt;
-            &lt;li&gt;How well does Kiran’s line of best fit model the data? Explain your reasoning.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;&lt;/p&gt;&lt;br&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your answers here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Check your answers:&lt;/p&gt;
-
-        &lt;ol type="a"&gt;
-            &lt;li&gt;Kiran’s line appears to go through the middle of the data with some points above and some points below the line.
-            &lt;/li&gt;
-            &lt;li&gt;Kiran’s line of best fit is a good one because it appears to pass through the middle of the data.&lt;/li&gt;
-        &lt;/ol&gt;
-
-
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;Kiran also estimates a line of best fit for the same data. The graph shows the residuals.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Graph of residuals." src="https://s3.amazonaws.com/im-ims-export/Sa3iS5vzWjq8jXzU4VGJqw3F"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;What does Kiran&amp;rsquo;s line of best fit look like in comparison to the data?&lt;/li&gt;
+&lt;li&gt;How well does Kiran&amp;rsquo;s line of best fit model the data? Explain your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-   &lt;ol start="4"&gt;&lt;li&gt; Who has the best estimate of the line of best fit: Tyler, Lin, or Kiran? Explain your reasoning.&lt;/li&gt;&lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter your answer here:&lt;/p&gt;
-
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-     &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Kiran’s line of best fit is the best because the graph of the residuals lets me know that some points are above the line of best fit and some are below. In addition, two of the residuals are close to 0, so that indicates that the line passes through or near those 2 points. Tylers line of best fit is not a good one because it is above all the data. Lin’s line of best fit is below all the lower data values and above all the high data values, so it is not a good fit.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answers here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Check your answers:&lt;/p&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;Kiran&amp;rsquo;s line appears to go through the middle of the data with some points above and some points below the line.
+            &lt;/li&gt;
+&lt;li&gt;Kiran&amp;rsquo;s line of best fit is a good one because it appears to pass through the middle of the data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol start="4"&gt;&lt;li&gt; Who has the best estimate of the line of best fit: Tyler, Lin, or Kiran? Explain your reasoning.&lt;/li&gt;&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Kiran&amp;rsquo;s line of best fit is the best because the graph of the residuals lets me know that some points are above the line of best fit and some are below. In addition, two of the residuals are close to 0, so that indicates that the line passes through or near those 2 points. Tylers line of best fit is not a good one because it is above all the data. Lin&amp;rsquo;s line of best fit is below all the lower data values and above all the high data values, so it is not a good fit.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
 &lt;br&gt;</contents>
@@ -1024,7 +999,7 @@
         <timecreated>1658458382</timecreated>
         <timemodified>1658752889</timemodified>
         <title>3.3.3: Self Check </title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Which residual plot shows the most accurate line of best fit for a scatter plot?&lt;br&gt;&lt;/p&gt;</contents>
+        <contents>&lt;p dir="ltr"&gt;Which residual plot shows the most accurate line of best fit for a scatter plot?&lt;br&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1436">
@@ -1034,8 +1009,8 @@
             <flags>0</flags>
             <timecreated>1658458382</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/59c32c1a7c427cbda9da367abf7eac41ecddc741" alt="" width="215" height="176" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span&gt;Incorrect. Let’s try again a different way: The residual shows a good line of best fit if the points are scattered above and below the horizontal line of 0 without a pattern or curve. The answer is&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;p dir="ltr"&gt;&lt;span&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" alt="" width="215" height="176" role="presentation"&gt;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/59c32c1a7c427cbda9da367abf7eac41ecddc741" width="215"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span&gt;Incorrect. Let&amp;rsquo;s try again a different way: The residual shows a good line of best fit if the points are scattered above and below the horizontal line of 0 without a pattern or curve. The answer is&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;p dir="ltr"&gt;&lt;span&gt;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" width="215"&gt;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -1048,8 +1023,8 @@
             <flags>0</flags>
             <timecreated>1658458382</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/b41bf70fcf1fec0b55323d9f0376930008f37343" alt="" width="215" height="176" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The residual shows a good line of best fit if the points are scattered above and below the horizontal line of 0 without a pattern or curve. The answer is&amp;nbsp;&lt;img src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" alt="" width="215" height="176" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/b41bf70fcf1fec0b55323d9f0376930008f37343" width="215"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The residual shows a good line of best fit if the points are scattered above and below the horizontal line of 0 without a pattern or curve. The answer is&amp;nbsp;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" width="215"&gt;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -1062,8 +1037,8 @@
             <flags>0</flags>
             <timecreated>1658458382</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" alt="" width="215" height="176" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The points in the residual are scattered randomly above and below the horizontal line that is 0. There is no curve or pattern.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" width="215"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: The points in the residual are scattered randomly above and below the horizontal line that is 0. There is no curve or pattern.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -1076,8 +1051,8 @@
             <flags>0</flags>
             <timecreated>1658458382</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/3c933e9a588ba22651de23e9237dd72a998aecd4" alt="" width="215" height="176" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The residual shows a good line of best fit if the points are scattered above and below the horizontal line of 0 without a pattern or curve. The answer is&amp;nbsp;&lt;img src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" alt="" width="215" height="176" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/3c933e9a588ba22651de23e9237dd72a998aecd4" width="215"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The residual shows a good line of best fit if the points are scattered above and below the horizontal line of 0 without a pattern or curve. The answer is&amp;nbsp;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" width="215"&gt;&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -1090,8 +1065,8 @@
             <flags>0</flags>
             <timecreated>1658458382</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -1113,36 +1088,33 @@
         <title>3.3.3: Additional Resources</title>
         <contents>&lt;h4&gt;The Meaning of Residuals&lt;/h4&gt;
 &lt;p&gt;Suppose that you have a scatter plot and that you have drawn the line of best fit on your plot. Remember that the residual for a point in the scatter plot is the vertical distance of that point from the line of best fit. In the previous lesson, you looked at a scatter plot showing how fuel efficiency was related to curb weight for five compact cars. The scatter plot and line of best fit are shown below.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/06f888b0d9412ba32049e5eeb65ac188265286eb" alt="A SCATTER PLOT THAT SHOWS CURB WEIGHT IN HUNDREDS OF POUNDS ON THE X-AXIS AND FUEL EFFICIENCY IN MILES PER GALLON ON THE Y-AXIS. A LINE OF BEST FIT IS DRAWN. FOUR POINTS ARE ABOVE THE LINE AND ONE POINT IS BELOW." width="450" height="398" role="presentation"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A SCATTER PLOT THAT SHOWS CURB WEIGHT IN HUNDREDS OF POUNDS ON THE X-AXIS AND FUEL EFFICIENCY IN MILES PER GALLON ON THE Y-AXIS. A LINE OF BEST FIT IS DRAWN. FOUR POINTS ARE ABOVE THE LINE AND ONE POINT IS BELOW." height="398" role="presentation" src="https://k12.openstax.org/contents/raise/resources/06f888b0d9412ba32049e5eeb65ac188265286eb" width="450"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Consider the following questions:&amp;nbsp;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;What kind of residual does Point A have?&lt;br&gt;Point A has a large positive residual.&amp;nbsp;&amp;nbsp;&lt;/li&gt;
-    &lt;li&gt;What kind of residual does Point B have?&lt;br&gt;Point B has a small positive residual.&amp;nbsp;&amp;nbsp;&lt;/li&gt;
-    &lt;li&gt;What kind of residual does Point C have?&lt;br&gt;Point C has a very large negative residual.&lt;/li&gt;
+&lt;li&gt;What kind of residual does Point A have?&lt;br&gt;Point A has a large positive residual.&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;What kind of residual does Point B have?&lt;br&gt;Point B has a small positive residual.&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;What kind of residual does Point C have?&lt;br&gt;Point C has a very large negative residual.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8eef14cd5bf3fda2801d674db24c0da4f28f3d56" alt="A RESIDUAL PLOT THAT SHOWS CURB WEIGHT IN HUNDREDS OF POUNDS ON THE X-AXIS AND RESIDUAL ON THE Y-AXIS. FOUR POINTS ARE ABOVE THE HORIZONTAL AXIS AND ONE POINT IS BELOW. " width="450" height="398"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A RESIDUAL PLOT THAT SHOWS CURB WEIGHT IN HUNDREDS OF POUNDS ON THE X-AXIS AND RESIDUAL ON THE Y-AXIS. FOUR POINTS ARE ABOVE THE HORIZONTAL AXIS AND ONE POINT IS BELOW. " height="398" src="https://k12.openstax.org/contents/raise/resources/8eef14cd5bf3fda2801d674db24c0da4f28f3d56" width="450"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h4&gt;Try It: The Meaning of Residuals&lt;/h4&gt;
 &lt;p&gt;Suppose you are given a scatter plot and a line of best fit that looks like this:&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e98902ab87bf79960aac410b87f0fb244d26c87f" alt="A SCATTER PLOT WITH A LINE OF BEST FIT DRAWN. FROM LEFT TO RIGHT, POINTS ARE BELOW THE LINE, ABOVE THE LINE, AND THEN BELOW THE LINE." width="450" height="411"&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;img alt="A SCATTER PLOT WITH A LINE OF BEST FIT DRAWN. FROM LEFT TO RIGHT, POINTS ARE BELOW THE LINE, ABOVE THE LINE, AND THEN BELOW THE LINE." height="411" src="https://k12.openstax.org/contents/raise/resources/e98902ab87bf79960aac410b87f0fb244d26c87f" width="450"&gt;&lt;/p&gt;&lt;br&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-  &lt;div class="os-raise-ib-cta-content" style="margin-left: 30px;"&gt;
-   &lt;p&gt;Describe what you think the residual plot would look like.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt" style="margin-left: 30px;"&gt;
-    &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.
-&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;Describe what you think the residual plot would look like.&lt;/p&gt;
 &lt;/div&gt;
-
-
-
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
- &lt;p&gt;&lt;/p&gt;&lt;p&gt;Here is how to sketch the residual plot:&lt;/p&gt;&lt;p&gt;&lt;span&gt;Moving from left to right, the points initially tend to be below the line of best fit, then move above it, and then below it. The residuals are negative, then positive, and then negative again. This means that the points in the residual plot will be below the horizontal axis, then above it, and then below it again.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;The residual plot has an arch shape like this:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/b41bf70fcf1fec0b55323d9f0376930008f37343" alt="A RESIDUAL PLOT THAT SHOWS FROM LEFT TO RIGHT POINTS BELOW THE HORIZONTAL AXIS, ABOVE THE HORIZONTAL AXIS, AND THEN BELOW THE HORIZONTAL AXIS.
-" width="450" height="369"&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;Here is how to sketch the residual plot:&lt;/p&gt;&lt;p&gt;&lt;span&gt;Moving from left to right, the points initially tend to be below the line of best fit, then move above it, and then below it. The residuals are negative, then positive, and then negative again. This means that the points in the residual plot will be below the horizontal axis, then above it, and then below it again.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;The residual plot has an arch shape like this:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img alt="A RESIDUAL PLOT THAT SHOWS FROM LEFT TO RIGHT POINTS BELOW THE HORIZONTAL AXIS, ABOVE THE HORIZONTAL AXIS, AND THEN BELOW THE HORIZONTAL AXIS.
+" height="369" src="https://k12.openstax.org/contents/raise/resources/b41bf70fcf1fec0b55323d9f0376930008f37343" width="450"&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1191,45 +1163,44 @@
         <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
 &lt;p dir="ltr"&gt;Each of these graphs of residuals is from the same set of data using different lines to fit the data. Which graph is most likely to represent the residuals from the best fit line? Explain your reasoning.&lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;p&gt;&lt;/p&gt;
-        &lt;div&gt;
-            &lt;div&gt;
-                &lt;div&gt;
-                    &lt;p&gt;A&lt;/p&gt;&lt;img alt="Graph of residuals, origin O.&amp;nbsp;" height="208" src="https://s3.amazonaws.com/im-ims-export/AbqN98LoZDwUtjgwQ4DhiAbn" width="190"&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div&gt;
-                &lt;div&gt;
-                    &lt;p&gt;B&lt;/p&gt;&lt;img alt="Graph of residuals, origin O." height="208" src="https://s3.amazonaws.com/im-ims-export/R3VvuXrTjpPZPcC9fEWZefRZ" width="190"&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div&gt;
-            &lt;div&gt;
-                &lt;div&gt;
-                    &lt;p&gt;C&lt;/p&gt;&lt;img alt="Graph of residuals, origin O.&amp;nbsp;" height="208" src="https://s3.amazonaws.com/im-ims-export/9UB381qrMSwb7jxMjnKwb3eZ" width="190"&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div&gt;
-                &lt;div&gt;
-                    &lt;p&gt;D&lt;/p&gt;&lt;img alt="Graph of residuals, origin O.&amp;nbsp;" height="208" src="https://s3.amazonaws.com/im-ims-export/qeYGfZuLE4jBkT51ANDRSiC6" width="190"&gt;
-                &lt;/div&gt;
-                &lt;div&gt;&lt;br&gt;
-
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;p&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Enter your answer here:&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;Graph A is most likely to represent the residuals from the best fit line. The residuals seem well spaced on either side of the \(x\)-axis without an obvious pattern, and all of the residuals are close to 0.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;A&lt;/p&gt;&lt;img alt="Graph of residuals, origin O.&amp;nbsp;" height="208" src="https://s3.amazonaws.com/im-ims-export/AbqN98LoZDwUtjgwQ4DhiAbn" width="190"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;B&lt;/p&gt;&lt;img alt="Graph of residuals, origin O." height="208" src="https://s3.amazonaws.com/im-ims-export/R3VvuXrTjpPZPcC9fEWZefRZ" width="190"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;C&lt;/p&gt;&lt;img alt="Graph of residuals, origin O.&amp;nbsp;" height="208" src="https://s3.amazonaws.com/im-ims-export/9UB381qrMSwb7jxMjnKwb3eZ" width="190"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;p&gt;D&lt;/p&gt;&lt;img alt="Graph of residuals, origin O.&amp;nbsp;" height="208" src="https://s3.amazonaws.com/im-ims-export/qeYGfZuLE4jBkT51ANDRSiC6" width="190"&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your answer here:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Graph A is most likely to represent the residuals from the best fit line. The residuals seem well spaced on either side of the \(x\)-axis without an obvious pattern, and all of the residuals are close to 0.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;br&gt;</contents>
@@ -1277,371 +1248,308 @@
         <timecreated>1658459616</timecreated>
         <timemodified>1659044156</timemodified>
         <title>3.3.5: Practice</title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
-
-    &lt;!--Q1--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.1" data-solution-options="[&amp;quot;-0.1&amp;quot;, &amp;quot;-0.2&amp;quot;, &amp;quot;0.32&amp;quot;, &amp;quot;0&amp;quot;, &amp;quot;-2.76&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;1. A line of best fit for a data set is \(y=1.1x+3.4\). Find the residual for each of the coordinate pairs, \((x,y)\).&lt;/p&gt;
-            &lt;ol type="a"&gt;
-                &lt;li&gt;\((5,8.8)\)&lt;/li&gt;
-            &lt;/ol&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(-0.1\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is \(-0.1\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q1b--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.2" data-solution-options="[&amp;quot;-0.1&amp;quot;, &amp;quot;-0.2&amp;quot;, &amp;quot;0.32&amp;quot;, &amp;quot;0&amp;quot;, &amp;quot;-2.76&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-
-            &lt;ol type="a" start="2"&gt;
-                &lt;li&gt;\((2.5,5.95)\)&lt;/li&gt;
-            &lt;/ol&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(-0.2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is \(-0.2\). You seem to be stuck. Who can you ask for help?
+        <contents>&lt;p dir="ltr"&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="3" data-schema-version="1.0"&gt;
+&lt;!--Q1--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.1" data-solution-options='["-0.1", "-0.2", "0.32", "0", "-2.76"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;1. A line of best fit for a data set is \(y=1.1x+3.4\). Find the residual for each of the coordinate pairs, \((x,y)\).&lt;/p&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;\((5,8.8)\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(-0.1\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is \(-0.1\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q1b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.2" data-solution-options='["-0.1", "-0.2", "0.32", "0", "-2.76"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;\((2.5,5.95)\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(-0.2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is \(-0.2\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q1c--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="0.32" data-solution-options="[&amp;quot;-0.1&amp;quot;, &amp;quot;-0.2&amp;quot;, &amp;quot;0.32&amp;quot;, &amp;quot;0&amp;quot;, &amp;quot;-2.76&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-
-            &lt;ol type="a" start="3"&gt;
-                &lt;li&gt;\((0,3.72)\)&lt;/li&gt;
-            &lt;/ol&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! 0.32&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 0.32. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q1c--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="0.32" data-solution-options='["-0.1", "-0.2", "0.32", "0", "-2.76"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol start="3" type="a"&gt;
+&lt;li&gt;\((0,3.72)\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! 0.32&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 0.32. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q1d--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="0" data-solution-options="[&amp;quot;-0.1&amp;quot;, &amp;quot;-0.2&amp;quot;, &amp;quot;0.32&amp;quot;, &amp;quot;0&amp;quot;, &amp;quot;-2.76&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-
-            &lt;ol type="a" start="4"&gt;
-                &lt;li&gt;\((1.5,5.05)\)&lt;/li&gt;
-            &lt;/ol&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&amp;nbsp;&amp;nbsp;0&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 0. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q1d--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="0" data-solution-options='["-0.1", "-0.2", "0.32", "0", "-2.76"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol start="4" type="a"&gt;
+&lt;li&gt;\((1.5,5.05)\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&amp;nbsp;&amp;nbsp;0&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 0. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q1e--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.1" data-solution-options="[&amp;quot;-0.1&amp;quot;, &amp;quot;-0.2&amp;quot;, &amp;quot;0.32&amp;quot;, &amp;quot;0&amp;quot;, &amp;quot;-2.76&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-
-            &lt;ol type="a" start="5"&gt;
-                &lt;li&gt;\((-3,0)\)&lt;/li&gt;
-            &lt;/ol&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(-0.1\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is \(-0.1\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q1e--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.1" data-solution-options='["-0.1", "-0.2", "0.32", "0", "-2.76"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol start="5" type="a"&gt;
+&lt;li&gt;\((-3,0)\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(-0.1\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is \(-0.1\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q1f--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-2.76" data-solution-options="[&amp;quot;-0.1&amp;quot;, &amp;quot;-0.2&amp;quot;, &amp;quot;0.32&amp;quot;, &amp;quot;0&amp;quot;, &amp;quot;-2.76&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-
-            &lt;ol type="a" start="6"&gt;
-                &lt;li&gt;\((-5,-4.86)\)&lt;/li&gt;
-            &lt;/ol&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(-2.76\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is \(-2.76\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q1f--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-2.76" data-solution-options='["-0.1", "-0.2", "0.32", "0", "-2.76"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol start="6" type="a"&gt;
+&lt;li&gt;\((-5,-4.86)\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(-2.76\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is \(-2.76\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q2--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="The actual fish at 2 years old is about 8 mm longer than the linear model estimates." data-solution-options="[&amp;quot;The actual fish at 2 years old is about 8 mm longer than the linear model estimates.&amp;quot;, &amp;quot;The actual fish at 2 years old is about 8 mm shorter than the linear model estimates.&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;2. In the scatter plot below, the length of fish and the age of the fish are shown. The residual for the fish that is 2 years old and 100 mm long is 8.06 mm.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q2--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="The actual fish at 2 years old is about 8 mm longer than the linear model estimates." data-solution-options='["The actual fish at 2 years old is about 8 mm longer than the linear model estimates.", "The actual fish at 2 years old is about 8 mm shorter than the linear model estimates."]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;2. In the scatter plot below, the length of fish and the age of the fish are shown. The residual for the fish that is 2 years old and 100 mm long is 8.06 mm.
             &lt;/p&gt;
-            &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/qnfQsNmXPwBt2KzXybzxtTn7" alt="A SCATTER PLOT THAT SHOWS AGE OF FISH IN YEARS ON THE X-AXIS AND LENGTH OF FISH IN MILLIMETERS ON THE Y-AXIS. A LINE OF BEST FIT IS DRAWN, AND THE POINT (2, 100) IS LABELED."&gt;&lt;/p&gt;
-            &lt;p&gt;What does this residual mean?&lt;/p&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! The actual fish at 2 years old is about 8 mm longer than the linear model estimates.
+&lt;p&gt;&lt;img alt="A SCATTER PLOT THAT SHOWS AGE OF FISH IN YEARS ON THE X-AXIS AND LENGTH OF FISH IN MILLIMETERS ON THE Y-AXIS. A LINE OF BEST FIT IS DRAWN, AND THE POINT (2, 100) IS LABELED." src="https://s3.amazonaws.com/im-ims-export/qnfQsNmXPwBt2KzXybzxtTn7"&gt;&lt;/p&gt;
+&lt;p&gt;What does this residual mean?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! The actual fish at 2 years old is about 8 mm longer than the linear model estimates.
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 3.3.2–3.3.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: The actual fish at 2 years old is about 8 mm longer than the linear model estimates. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 3.3.2&amp;ndash;3.3.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: The actual fish at 2 years old is about 8 mm longer than the linear model estimates. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q3--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.42" data-solution-options="[&amp;quot;-0.42&amp;quot;, &amp;quot;0.42&amp;quot;, &amp;quot;1.08&amp;quot;, &amp;quot;0.91&amp;quot;, &amp;quot;-0.91&amp;quot;, &amp;quot;-1.08&amp;quot;, &amp;quot;-1.57&amp;quot;, &amp;quot;1.57&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;3.&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;Four athletes on a track team are comparing their personal bests in the 100-meter and 200-meter events. A table of their best times is shown below.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
-            &lt;p&gt;&lt;/p&gt;
-            &lt;table&gt;
-                &lt;tbody&gt;
-                    &lt;tr&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;Athlete&lt;/p&gt;
-                        &lt;/td&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;100 m time (seconds)&lt;/p&gt;
-                        &lt;/td&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;200 m time (seconds)&lt;/p&gt;
-                        &lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;1&lt;/p&gt;
-                        &lt;/td&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;12.95&lt;/p&gt;
-                        &lt;/td&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;26.68&lt;/p&gt;
-                        &lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;2&lt;/p&gt;
-                        &lt;/td&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;13.81&lt;/p&gt;
-                        &lt;/td&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;29.48&lt;/p&gt;
-                        &lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;3&lt;/p&gt;
-                        &lt;/td&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;14.66&lt;/p&gt;
-                        &lt;/td&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;28.11&lt;/p&gt;
-                        &lt;/td&gt;
-                    &lt;/tr&gt;
-                    &lt;tr&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;4&lt;/p&gt;
-                        &lt;/td&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;14.88&lt;/p&gt;
-                        &lt;/td&gt;
-                        &lt;td width="140" valign="top"&gt;
-                            &lt;p&gt;30.93&lt;/p&gt;
-                        &lt;/td&gt;
-                    &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;&lt;br&gt;
-
-            &lt;p&gt;The line of best fit has an equation of \(y= 1.5115x + 7.526\), where \(x\) represents the 100-meter time and \(y\) represents the 200-meter time.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q3--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-0.42" data-solution-options='["-0.42", "0.42", "1.08", "0.91", "-0.91", "-1.08", "-1.57", "1.57"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;3.&amp;nbsp;&lt;span&gt;Four athletes on a track team are comparing their personal bests in the 100-meter and 200-meter events. A table of their best times is shown below.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;Athlete&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;100 m time (seconds)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;200 m time (seconds)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;12.95&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;26.68&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;13.81&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;29.48&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;14.66&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;28.11&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;14.88&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="140"&gt;
+&lt;p&gt;30.93&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;p&gt;The line of best fit has an equation of \(y= 1.5115x + 7.526\), where \(x\) represents the 100-meter time and \(y\) represents the 200-meter time.
             &lt;/p&gt;
-            &lt;ol type="a"&gt;
-                &lt;li&gt;What is the residual for athlete number 1?&lt;/li&gt;
-            &lt;/ol&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(-0.42\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(-0.42\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q3b--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="1.08" data-solution-options="[&amp;quot;-0.42&amp;quot;, &amp;quot;0.42&amp;quot;, &amp;quot;1.08&amp;quot;, &amp;quot;0.91&amp;quot;, &amp;quot;-0.91&amp;quot;, &amp;quot;-1.08&amp;quot;, &amp;quot;-1.57&amp;quot;, &amp;quot;1.57&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-
-
-            &lt;ol type="a" start="2"&gt;
-                &lt;li&gt;What is the residual for athlete number 2?&lt;/li&gt;
-            &lt;/ol&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&amp;nbsp;1.08&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: 1.08. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q3b--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-1.57" data-solution-options="[&amp;quot;-0.42&amp;quot;, &amp;quot;0.42&amp;quot;, &amp;quot;1.08&amp;quot;, &amp;quot;0.91&amp;quot;, &amp;quot;-0.91&amp;quot;, &amp;quot;-1.08&amp;quot;, &amp;quot;-1.57&amp;quot;, &amp;quot;1.57&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-
-
-            &lt;ol type="a" start="3"&gt;
-                &lt;li&gt;What is the residual for athlete number 3?&lt;/li&gt;
-            &lt;/ol&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(-1.57\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(-1.57\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Q3d--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="0.91" data-solution-options="[&amp;quot;-0.42&amp;quot;, &amp;quot;0.42&amp;quot;, &amp;quot;1.08&amp;quot;, &amp;quot;0.91&amp;quot;, &amp;quot;-0.91&amp;quot;, &amp;quot;-1.08&amp;quot;, &amp;quot;-1.57&amp;quot;, &amp;quot;1.57&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-
-
-            &lt;ol type="a" start="4"&gt;
-                &lt;li&gt;What is the residual for athlete number 4?&lt;/li&gt;
-            &lt;/ol&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&amp;nbsp;0.91&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: 0.91. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;br&gt;
-    &lt;!--Q4--&gt;
-
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="positive" data-solution-options="[&amp;quot;positive&amp;quot;, &amp;quot;negative&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;4.&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;The curb weight of a car is the weight of the car without luggage or passengers. The scatter plot below shows the curb weight, in pounds, of 5 cars and their fuel efficiency, in miles per gallon.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
-            &lt;p&gt;&lt;/p&gt;
-            &lt;div&gt;
-                &lt;p&gt;Will the residual for 25.33 be a positive or negative value?&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/be72e618468dbd39a077f29d9d6f9108ebc0e791" alt="A SCATTER PLOT WITH CURB WEIGHT IN HUNDREDS OF POUNDS ON THE X-AXIS AND FUEL EFFICIENCY IN MILES PER GALLON ON THE Y-AXIS. A LINE OF BEST FIT IS DRAWN. FOUR POINTS ARE ABOVE THE LINE AND ONE POINT IS BELOW." width="450" height="398"&gt;&lt;/p&gt;
-            &lt;p&gt;&lt;/p&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&amp;nbsp;The residual is positive because it is above the line.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 3.3.3–3.3.4. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: the residual is positive because it is above the line. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-
-
-
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;What is the residual for athlete number 1?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(-0.42\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(-0.42\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q3b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="1.08" data-solution-options='["-0.42", "0.42", "1.08", "0.91", "-0.91", "-1.08", "-1.57", "1.57"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;What is the residual for athlete number 2?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&amp;nbsp;1.08&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: 1.08. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q3b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="-1.57" data-solution-options='["-0.42", "0.42", "1.08", "0.91", "-0.91", "-1.08", "-1.57", "1.57"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol start="3" type="a"&gt;
+&lt;li&gt;What is the residual for athlete number 3?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(-1.57\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(-1.57\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q3d--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="0.91" data-solution-options='["-0.42", "0.42", "1.08", "0.91", "-0.91", "-1.08", "-1.57", "1.57"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol start="4" type="a"&gt;
+&lt;li&gt;What is the residual for athlete number 4?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&amp;nbsp;0.91&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 3.3.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: 0.91. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;br&gt;
+&lt;!--Q4--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="positive" data-solution-options='["positive", "negative"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;4.&amp;nbsp;&lt;span&gt;The curb weight of a car is the weight of the car without luggage or passengers. The scatter plot below shows the curb weight, in pounds, of 5 cars and their fuel efficiency, in miles per gallon.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Will the residual for 25.33 be a positive or negative value?&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img alt="A SCATTER PLOT WITH CURB WEIGHT IN HUNDREDS OF POUNDS ON THE X-AXIS AND FUEL EFFICIENCY IN MILES PER GALLON ON THE Y-AXIS. A LINE OF BEST FIT IS DRAWN. FOUR POINTS ARE ABOVE THE LINE AND ONE POINT IS BELOW." height="398" src="https://k12.openstax.org/contents/raise/resources/be72e618468dbd39a077f29d9d6f9108ebc0e791" width="450"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&amp;nbsp;The residual is positive because it is above the line.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 3.3.3&amp;ndash;3.3.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: the residual is positive because it is above the line. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1688,66 +1596,58 @@
         <timemodified>1659044266</timemodified>
         <title>3.3.6: Lesson Summary</title>
         <contents>&lt;p dir="ltr"&gt;In this lesson, you learned how to:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Plot and calculate residuals for a data set and use the information to judge whether a linear model is a good fit.&lt;/li&gt;
+&lt;li&gt;Plot and calculate residuals for a data set and use the information to judge whether a linear model is a good fit.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p dir="ltr"&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;3.3.1: Subtracting an Estimated Value from an Actual Value&lt;ul&gt;
-            &lt;li&gt;In this activity, you discussed strategies and understandings you had for subtracting an estimated value from an actual value. This discussion helped you develop fluency and helped prepare you to compute residuals from a linear model.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;3.3.2: Plotting and Analyzing Residuals&lt;ul&gt;
-            &lt;li&gt;In this activity, you explored the concept of residuals, plotted residuals, and analyzed the residuals to informally assess the fit of a function. In this activity, you also fitted a function to data and used the function to solve problems. You learned that a residual is the difference between the actual \(y\)-value for a point and the expected \(y\)-value for the point on the linear model with the same associated \(x\)-value.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;3.3.2: Self Check&amp;nbsp;&lt;/li&gt;
-    &lt;li&gt;3.3.3: Matching Residuals Graphs to Scatter Plots&lt;ul&gt;
-            &lt;li&gt;In this activity, you took turns with a partner, matching graphs of residuals to scatter plots that displayed linear models. You explained your thinking and listened in order to explain your reasoning and critique the reasoning of others. You recognized that a plot of the residuals for data that are fit well by a linear model shows residuals that are close to the \(x\)-axis and do not show a noticeable pattern.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;3.3.3: Self Check&amp;nbsp;&lt;/li&gt;
-    &lt;li&gt;3.3.4: Identifying Best Fit Line for Residuals on a Graph&lt;ul&gt;
-            &lt;li&gt;In this activity, you identified a graph most likely to represent the residuals from the best fit line.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
+&lt;li&gt;3.3.1: Subtracting an Estimated Value from an Actual Value&lt;ul&gt;
+&lt;li&gt;In this activity, you discussed strategies and understandings you had for subtracting an estimated value from an actual value. This discussion helped you develop fluency and helped prepare you to compute residuals from a linear model.&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;/li&gt;
+&lt;li&gt;3.3.2: Plotting and Analyzing Residuals&lt;ul&gt;
+&lt;li&gt;In this activity, you explored the concept of residuals, plotted residuals, and analyzed the residuals to informally assess the fit of a function. In this activity, you also fitted a function to data and used the function to solve problems. You learned that a residual is the difference between the actual \(y\)-value for a point and the expected \(y\)-value for the point on the linear model with the same associated \(x\)-value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3.3.2: Self Check&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;3.3.3: Matching Residuals Graphs to Scatter Plots&lt;ul&gt;
+&lt;li&gt;In this activity, you took turns with a partner, matching graphs of residuals to scatter plots that displayed linear models. You explained your thinking and listened in order to explain your reasoning and critique the reasoning of others. You recognized that a plot of the residuals for data that are fit well by a linear model shows residuals that are close to the \(x\)-axis and do not show a noticeable pattern.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3.3.3: Self Check&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;3.3.4: Identifying Best Fit Line for Residuals on a Graph&lt;ul&gt;
+&lt;li&gt;In this activity, you identified a graph most likely to represent the residuals from the best fit line.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p dir="ltr"&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
 &lt;p dir="ltr"&gt;
 &lt;/p&gt;&lt;ul&gt;
-    &lt;li&gt;3.3.5: Practice&lt;/li&gt;
+&lt;li&gt;3.3.5: Practice&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;h4&gt;Checking In&amp;nbsp;&lt;/h4&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
-	
-	&lt;!--Q1--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
-        &lt;/div&gt;
-        
-    &lt;/div&gt;
-	
-	&lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
-	
-	  &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Submit" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--Q1--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution data-solution-options='["1 - I&amp;rsquo;m totally lost!", "2 - I could use some more help.", "3 - I mostly understand.", "4 - I can do it.","5 - I&amp;rsquo;ve got this!"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;If you&amp;rsquo;ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
