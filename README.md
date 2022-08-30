@@ -24,6 +24,9 @@ The script will create the commit which includes the stages.
 
 ## Authoring environment
 
+Before starting the authoring environment you must install and run Docker. 
+[get docker](https://docs.docker.com/get-docker/)
+
 In order to start the authoring environment you can pass the `up` argument into the `authoring_env.sh` script. You can access the moodle instace at [localhost:8000](http://localhost:8000/)
 
 ```bash
