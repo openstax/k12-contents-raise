@@ -10,7 +10,7 @@ help () {
 
     up         Start the authoring environment
     down       Stop the authoring environment
-    destroy    Stop the aythoring environment and destroy all state.
+    destroy    Stop the authoring environment and destroy all state.
     "
 }
 
@@ -26,7 +26,7 @@ if [ $ACTION == "up" ]; then
     docker compose up -d
     docker compose exec moodle php admin/cli/install_database.php --agree-license --fullname="Local Dev" --shortname="Local Dev" --summary="Local Dev" --adminpass="admin" --adminemail="admin@acmeinc.com"
     docker compose exec postgres psql -U moodle -d moodle -c "update mdl_config set value='1' where name='forcelogin'"
-    docker-compose exec moodle php admin/cli/purge_caches.php
+    docker compose exec moodle php admin/cli/purge_caches.php
     bash  ./authoring/scripts/inject_additional_html.sh
 
     exit 0
