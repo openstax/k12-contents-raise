@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export COMPOSE_FILE=../authoring/docker/docker-compose.yml
+export COMPOSE_FILE=./authoring/docker/docker-compose.yml
 
 ACTION=$1
 
@@ -26,8 +26,9 @@ if [ $ACTION == "up" ]; then
     docker compose up -d
     docker compose exec moodle php admin/cli/install_database.php --agree-license --fullname="Local Dev" --shortname="Local Dev" --summary="Local Dev" --adminpass="admin" --adminemail="admin@acmeinc.com"
     docker compose exec postgres psql -U moodle -d moodle -c "update mdl_config set value='1' where name='forcelogin'"
-    bash  ./../authoring/scripts/inject_additional_html.sh
-    
+    docker-compose exec moodle php admin/cli/purge_caches.php
+    bash  ./authoring/scripts/inject_additional_html.sh
+
     exit 0
 fi
 
