@@ -18,10 +18,6 @@ jobs:
           python-version: "3.10"
       - name: Install raise-mbtools
         run: pip install git+https://github.com/openstax/raise-mbtools@main
-      - name: Check that JSON is up-to-date
-        run: |
-          html-to-json html json
-          git diff --exit-code --quiet
       - name: Validate mbz
         run: |
           validate-mbz-html mbz errors.csv mbz --no-style
