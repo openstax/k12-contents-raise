@@ -4,7 +4,7 @@ This repository contains course content for the RAISE project.
 
 ## Generating MBZ files for import into Moodle
 
-In order to import content from this repository into Moodle, you can run the `create_mbz.sh` script:
+In order to import content from this repository into Moodle, you can run the following script:
 
 ```bash
 $ ./scripts/create_mbz_files.sh
