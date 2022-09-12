@@ -18,6 +18,8 @@ services:
       - 8000:80
     depends_on:
       - postgres
+    # command: ["./wait-for-it.sh", "postgres:5432"]
+
   cron:
     build:
       context: moodle
@@ -28,6 +30,7 @@ services:
     environment: *moodleenv
     depends_on:
       - moodle
+
   contentapi:
     build:
       context: contentapi
@@ -37,6 +40,7 @@ services:
       - raisemoodle
     ports:
       - 8800:80
+
   postgres:
     image: "postgres:13"
     volumes:
@@ -47,6 +51,7 @@ services:
       - POSTGRES_USER
       - POSTGRES_PASSWORD
       - POSTGRES_DB
+
 networks:
   raisemoodle:
 volumes:
