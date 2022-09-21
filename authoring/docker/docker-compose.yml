@@ -18,6 +18,8 @@ services:
       - 8000:80
     depends_on:
       - postgres
+    entrypoint: ["./wait-for-it.sh", "postgres:5432"]
+    command: ["--", "docker-php-entrypoint", "apache2-foreground"]
   cron:
     build:
       context: moodle

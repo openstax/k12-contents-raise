@@ -13,4 +13,6 @@ RUN apt-get update && apt-get install -y cron
 COPY moodle-config.php /var/www/html/config.php
 COPY php.ini-development /usr/local/etc/php/php.ini
 COPY cron.moodle /etc/cron.d/moodle
+COPY wait-for-it.sh wait-for-it.sh
+RUN chmod +x wait-for-it.sh
 RUN chmod 644 /etc/cron.d/moodle
