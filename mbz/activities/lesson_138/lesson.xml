@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="104" moduleid="138" modulename="lesson" contextid="149">
+  <lesson id="104">
+    <course>2</course>
+    <name>Lesson 4.12: Domain and Range, Part 2</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1660880742</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="945">
+        <prevpageid>0</prevpageid>
+        <nextpageid>946</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659659248</timecreated>
+        <timemodified>1662593386</timemodified>
+        <title>4.12.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will use graphs to learn about the domain of functions. You will examine and interpret different types of graphs that represent real-world situations to determine the domain and range.&lt;/p&gt;
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Determine a reasonable domain and range for the function when given a description of a function in a situation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the&lt;strong&gt; activities &lt;/strong&gt;that will help you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 4.12.1: Different Features of a Graph &lt;/li&gt;
+  &lt;li&gt; 4.12.2: Graphs of Functions &lt;/li&gt;
+  &lt;li&gt; 4.12.2: Self Check &lt;/li&gt;
+  &lt;li&gt; 4.12.3: Finding Domain and Range Using a Graph &lt;/li&gt;
+  &lt;li&gt; 4.12.3: Self Check &lt;/li&gt;
+  &lt;li&gt; 4.12.4: Real-World Domain and Range &lt;/li&gt;
+  &lt;li&gt; 4.12.4: Self Check &lt;/li&gt;
+  &lt;li&gt; 4.12.5: Graph of a Function and the Domain and Range Connection &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you’ll&lt;strong&gt; practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 4.12.6: Practice &lt;/li&gt;
+  &lt;li&gt; 4.12.7: Lesson Summary &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2115">
+            <jumpto>946</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659659248</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="946">
+        <prevpageid>945</prevpageid>
+        <nextpageid>947</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659659462</timecreated>
+        <timemodified>1662593556</timemodified>
+        <title>4.12.1: Different Features of a Graph</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;p&gt;Which one doesn’t belong?&lt;/p&gt;
+    &lt;ol type="a"&gt;
+      &lt;li&gt; &lt;br&gt;
+        &lt;img src="https://s3.amazonaws.com/im-ims-export/mTk7GYNw484bih1Tu9Tu2BNo" alt="A graph with origin O. The graph is a line crossing the vertical axis and slants downward to cross the horizontal axis."&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol start="2" type="a"&gt;
+      &lt;li&gt;&lt;br&gt;
+        &lt;img src="https://s3.amazonaws.com/im-ims-export/Tr91sPVtGHMxeq1xLdAWjqQr" alt="A graph.&amp;nbsp;"&gt; &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol start="3" type="a"&gt;
+      &lt;li&gt;&lt;br&gt;
+        &lt;img src="https://s3.amazonaws.com/im-ims-export/QBPUeCfRXYbfqRRAE8omULmo" alt="A graph with origin O. The graph is a horizontal line passing through the middle of the vertical axis."&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol start="4" type="a"&gt;
+      &lt;li&gt; &lt;br&gt;
+        &lt;img src="https://s3.amazonaws.com/im-ims-export/cZB8PuZVR812krNdAbrAvkLi" alt="A graph."&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt; Graph A is the only graph that has a positive vertical intercept and a positive horizontal intercept. It is the only one that has a constant, negative rate of change. &lt;/li&gt;
+      &lt;li&gt; Graph B is the only graph that is not a continuous curve and has multiple pieces. It is the only one that shows both points and lines. &lt;/li&gt;
+      &lt;li&gt; Graph C is the only graph that has a constant \(y\)-value. &lt;/li&gt;
+      &lt;li&gt; Graph D is the only graph whose \(y\)-value increases and decreases multiple times. It is the only graph that is not a simple line or curve and that has wave-like features. &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2116">
+            <jumpto>945</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659659462</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2117">
+            <jumpto>947</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659659462</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="947">
+        <prevpageid>946</prevpageid>
+        <nextpageid>948</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659659982</timecreated>
+        <timemodified>1662593800</timemodified>
+        <title>4.12.2: Graphs of Functions</title>
+        <contents>&lt;h4&gt; Activity &lt;/h4&gt;
+&lt;p&gt;A child gets on a swing in a playground, swings for 30 seconds, and then gets off the swing.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/2EfqvzexVsWAUzUAyZXPjQQQ" alt="A girl on a swing.&amp;nbsp;" width="300"&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; Here are descriptions of four functions in the situation and four graphs representing them.
+    The independent variable in each function is time, measured in seconds. &lt;br&gt;
+    &lt;br&gt;
+    Match each function with a graph that could represent it. Then, label the axes with the appropriate variables. Be prepared to explain how you make your matches. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Function \(h\): The height of the swing, in feet, as a function of time since the child gets on the swing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Function \(h\): Graph D; horizontal axis: time (seconds); vertical axis: height (feet)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Function \(r\): The amount of time left on the swing as a function of time since the child gets on the swing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Function \(r\): Graph A; horizontal axis: time (seconds); vertical axis: time (seconds) &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Function \(d\): The distance, in feet, of the swing from the top beam (from which the swing is suspended) as a function of time since the child gets on the swing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Function \(d\): Graph C; horizontal axis: time (seconds); vertical axis: distance (feet)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Function \(s\): The total number of times an adult pushes the swing as a function of time since the child gets on the swing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Function \(s\): Graph B; horizontal axis: time (seconds); vertical axis: number of pushes&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt;On each graph, mark one or two points that—if you have the coordinates—could help you determine the domain and range of the function. Be prepared to explain why you chose those points.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Answers vary, but likely you chose the vertical and horizontal intercepts and the maximum and minimum points.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt;Once you receive the information you need from your teacher, describe the domain and range that would be reasonable for each function in this situation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt; &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt; Function \(h\): The range includes all numbers from 1.5 to 4. &lt;/li&gt;
+      &lt;li&gt; Function \(r\): The range includes all numbers from 0 to 30. &lt;/li&gt;
+      &lt;li&gt; Function \(d\): The range includes only one value, 7. &lt;/li&gt;
+      &lt;li&gt; Function \(s\): The range includes only whole numbers from 0 to 5. &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2118">
+            <jumpto>946</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659659982</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2119">
+            <jumpto>948</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659659982</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="948">
+        <prevpageid>947</prevpageid>
+        <nextpageid>949</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659660183</timecreated>
+        <timemodified>1661427661</timemodified>
+        <title>4.12.2: Self Check </title>
+        <contents>&lt;p&gt;Which of the following is true about the range of the graph below?&lt;/p&gt;
+                &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/LU8LEDyHe9Qdz21F2PqbXeD2" alt="A graph.&amp;nbsp;"&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2120">
+            <jumpto>949</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659660183</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The range of this function includes all values that are at least 0 and no more than 70.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This describes the domain values of the graph. The answer is the range of this function includes all values that are at least 10 and at most 75.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2121">
+            <jumpto>949</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659660183</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The range of this function includes all values that are at least 0 and no more than 90.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This describes the window of the graph, not the range. The answer is the range of this function includes all values that are at least 10 and at most 75.&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2122">
+            <jumpto>950</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659660183</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;The range of this function includes all values that are at least 10 and at most 75.&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The minimum \(y\)-value of the graph is 10, and the maximum \(y\)-value of the graph is 75.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2123">
+            <jumpto>949</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659660183</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The range of this function only includes 10 and 75.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This describes the minimum and maximum values of the range of the graph, but the range includes many more between these values. The answer is the range of this function includes all values that are at least 10 and at most 75.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2124">
+            <jumpto>949</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659660183</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="949">
+        <prevpageid>948</prevpageid>
+        <nextpageid>950</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659660289</timecreated>
+        <timemodified>1662593976</timemodified>
+        <title>4.12.2: Additional Resources </title>
+        <contents>&lt;h4&gt;Describing Domain and Range Graphs&lt;/h4&gt;
+&lt;p&gt;In a previous lesson, you explored the height, \(h\), of a bungee jumper at \(t\) seconds.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/LU8LEDyHe9Qdz21F2PqbXeD2" alt="A graph.&amp;nbsp;"&gt;&lt;/p&gt;
+&lt;p&gt;Assuming the jump ended at 35 seconds, what is the domain?&lt;/p&gt;
+&lt;p&gt;For domain, consider the \(x\)-values, so look from left to right.&lt;/p&gt;
+&lt;p&gt;The leftmost \(x\)-value is 0, and the rightmost \(x\)-value is 35.&lt;/p&gt;
+&lt;p&gt;The domain includes all the values from at least 0 up to and including 35 meters.&lt;/p&gt;
+&lt;p&gt;What are the values in the range?&lt;/p&gt;
+&lt;p&gt;For the range, consider the \(y\)-values, so look from bottom to top.&lt;/p&gt;
+&lt;p&gt;The lowest \(y\)-value is 10, and the highest \(y\)-value is about 75.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;So, the range includes all of the values from at least 10 up to about 75.&lt;/p&gt;
+&lt;h4&gt; Try It: Describing Domain and Range Graphs&lt;/h4&gt;
+&lt;p&gt;Describe the values of the domain and range using the graph below.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/bpLy9uEJvcT4F63rcSwWQZ2U" alt="Graph of curve. Horizontal axis, 0 to 4, time, seconds. Vertical axis, 0 to 25 by 5’s, height, meters. Curve goes through labeled point 0 comma 20, 1 comma 25, and 3 point 2 comma 0."&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Your answers may vary, but here are some examples:&lt;br&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Here is how to find the domain and range values of this function:&lt;/p&gt;
+  &lt;p&gt;For the domain, consider the \(x\)-values on the graph.&lt;/p&gt;
+  &lt;p&gt;The domain includes all of the values from at least 0 through and including 3.2.&lt;/p&gt;
+  &lt;p&gt;For the range, consider the \(y\)-values on the graph.&lt;/p&gt;
+  &lt;p&gt;The range includes all of the values from at least 0 through and including 25.&lt;/p&gt;
+  &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2125">
+            <jumpto>948</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659660289</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2126">
+            <jumpto>950</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659660289</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="950">
+        <prevpageid>949</prevpageid>
+        <nextpageid>951</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659661101</timecreated>
+        <timemodified>1662677127</timemodified>
+        <title>4.12.3: Finding Domain and Range Using a Graph</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;A tennis ball was dropped from a certain height. It bounced several times, rolled along for a short period, and then stopped. Function \(H\) gives its height over time.&lt;/p&gt;
+&lt;p&gt;Here is a partial graph of \(H\). Height is measured in feet. Time is measured in seconds.&lt;/p&gt;
+&lt;p&gt;Use the graph to help you answer the questions.&lt;/p&gt;
+&lt;p&gt;Be prepared to explain what each value or set of values means in this situation.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/UDsrkZpUMABAf7f6ALH6aXuN" alt="Nonlinear function. Time (seconds) and height (feet)."&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Find \(H(0)\). What point is this on the graph? What does it represent?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(H(0)=6\). It tells us the ball was dropped from a height of 6 feet at \(t=0\).&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="2"&gt;
+      &lt;li&gt;Solve \(H(x)=0\).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(x=0.54\), \(x=1.48\), and \(x=2.25\) are three possible solutions, but there are others. Each one represents the time when the ball hit the ground.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="3"&gt;
+      &lt;li&gt;Describe the domain of the function.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;The domain includes all values between 0 and the time when the ball stopped moving, which, based on the graph, is about 3.8.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="4"&gt;
+      &lt;li&gt;Describe the range of the function.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;The range includes all values between 0 and 6 feet, the height from which the ball was dropped. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;h4&gt;Video: Interpreting Function Notation&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about function notation.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+  &lt;source src="https://k12.openstax.org/contents/raise/resources/20f903eb50ca52bd9b9bfa4a7db8be6af298e6be"&gt;
+  &lt;track src="https://k12.openstax.org/contents/raise/resources/f67996d2238d2d8b26549d8065f6ae3382299f62" kind="captions" srclang="en_us" label="On" default="true"&gt;
+  https://k12.openstax.org/contents/raise/resources/20f903eb50ca52bd9b9bfa4a7db8be6af298e6be &lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+    &lt;p&gt;In function \(H\), the input was time in seconds, and the output was height in feet.&lt;/p&gt;
+    &lt;p&gt;Think about some other quantities that could be inputs or outputs in this situation.&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Describe a function whose domain includes only integers. Be sure to specify the units.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;The maximum height, in feet, that the ball reaches after \(n\) bounces as a function of the number of bounces.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="2"&gt;
+      &lt;li&gt;In your math notebook, sketch a graph of this function. Record your answer then select the &lt;strong&gt;solution &lt;/strong&gt;button to compare your sketch and answer.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;&lt;strong id="docs-internal-guid-663b6ac4-7fff-f1cb-6e91-14df360308a7"&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/VJPut5N1Gc6cRyJQXGPjTFHv" alt="" width="308" height="213" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt; 
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="3"&gt;
+      &lt;li&gt;Describe a function whose range includes only integers. Be sure to specify the units.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;The number of times the ball has hit the ground as a function of time, in seconds, since the ball was dropped.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="4"&gt;
+      &lt;li&gt;In your math notebook, sketch a graph of this function. Enter a description of the graph and then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your sketch and answer. Sketch a graph of each function.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/74JMzMQEdH9YKb7rwqkXwqh3" alt="A blank graph. Origin O.&amp;nbsp;"&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2127">
+            <jumpto>947</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659661101</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2128">
+            <jumpto>951</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659661101</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="951">
+        <prevpageid>950</prevpageid>
+        <nextpageid>952</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659661285</timecreated>
+        <timemodified>1662594054</timemodified>
+        <title>4.12.3: Self Check</title>
+        <contents>&lt;p&gt;The graph below shows the number of customers, \(C\), in a restaurant \(x\) hours after 8 a.m.&lt;/p&gt;
+&lt;p&gt;What does \(C(14)\) equal, and what does it mean?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/129d13b346d30517bb902d70d66e3365d1a59e4f" alt="A GRAPHED FUNCTION, WHERE NUMBER OF CUSTOMERS IS A FUNCTION OF THE NUMBER OF HOURS AFTER 8 AM. THE GRAPH INCREASES, DECREASES, INCREASES, AND THEN DECREASES AGAIN." width="300"&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2129">
+            <jumpto>952</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659661285</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(C(14)=0.5\) and means there are 14 customers around 8:30.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The input is 14, so it is the \(x\)-value. The answer is \(C(14)=0\) and is when the restaurant closes and has no more customers around 10 p.m.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2130">
+            <jumpto>953</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659661285</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(C(14)=0\) and is when the restaurant closes and has no more customers around 10 p.m.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Since 14 is the input value, look for where 14 is located on the \(x\)-axis. The output there is 0, which means that there are no customers 14 hours after 8 a.m., which is about 10 p.m.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2131">
+            <jumpto>952</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659661285</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(C(14)=0\) and means there are 14 customers at 8 a.m.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The input and output values and their meanings should be switched. The answer is \(C(14)=0\) and is when the restaurant closes and has no more customers around 10 p.m.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2132">
+            <jumpto>952</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659661285</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(C(14)=0\) means there have not been any customers over 14 hours.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The output gives the number of customers at that time, not over a period of time. The answer is \(C(14)=0\) and is when the restaurant closes and has no more customers around 10 p.m.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2133">
+            <jumpto>952</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659661285</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="952">
+        <prevpageid>951</prevpageid>
+        <nextpageid>953</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659661569</timecreated>
+        <timemodified>1662594107</timemodified>
+        <title>4.12.3: Additional Resources </title>
+        <contents>&lt;h4&gt;Domain and Range from Graphs&lt;/h4&gt;
+&lt;p&gt;The graph below shows the distance Carl drives from home, \(D(t)\), when \(t\) is time in seconds.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/miw8u65HUk4HkNcfvqRXqmPo" alt="Graph on coordinate grid, origin O."&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; What is the domain of the graph? &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The domain is \(x\)-values that are at least 0 and a maximum of 400.&lt;/p&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; What is the range of the graph? &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The range is the \(y\)-values that are at least 0 and a maximum of 285.&lt;/p&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt; What are the values of \(x\) where \(D(x)=0\), and what do they mean? &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;\(D(0)=0\) and \(D(400)=0\), and this is when Carl left home and then arrived home, so the distance was 0.&lt;/p&gt;
+&lt;h4&gt;Try It: Domain and Range from Graphs&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;p&gt;What are the values for the domain and range of the graph below?&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/6y4pQn8cjzWnd7sPF7bq9MeH" alt="A graph.&amp;nbsp;" width="300" height="298" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+    &lt;br&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Here is how to find the domain and range of the graph:&lt;/p&gt;
+  &lt;p&gt;The domain includes the \(x\)-values or inputs of the graph. The domain is from at least 0 to at most 10.&lt;/p&gt;
+  &lt;p&gt;The range includes the \(y\)-values or outputs of the graph. The range is from at least 1 to at most 3.&lt;/p&gt;
+  &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2134">
+            <jumpto>951</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659661569</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2135">
+            <jumpto>953</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659661569</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="953">
+        <prevpageid>952</prevpageid>
+        <nextpageid>954</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659662175</timecreated>
+        <timemodified>1662594156</timemodified>
+        <title>4.12.4: Real-World Domain and Range</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;A &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;discrete function&lt;/span&gt; has distinct separate values in the domain and range, rather than an interval of values.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Below is a graph from the previous lesson that graphs the number of students attending a camp and the amount, in dollars, the camp earns. There must be 5 students to hold the camp.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/idfgHv7hYxqaekvuiQMqSPwJ" alt="A graph.&amp;nbsp;"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol type="a"&gt;
+      &lt;li&gt;What are the \(x\)-values of this function that make up the domain?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol type="a" start="2"&gt;
+      &lt;li&gt;Why can’t we say the domain is all values from 5 to 16?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;The number of students cannot be fractions or decimals, so those values are not in the domain.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol type="a" start="3"&gt;
+      &lt;li&gt;What are the \(y\)-values of this function that make up the range?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;200, 250, 300, 350, 400, 450, 500, 550, 600, 650&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;p&gt;A &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;continuous function&lt;/span&gt; refers to a function that does not have any breaks in its graph. The domain and range of a continuous function are often represented by an interval that can be written as an inequality.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The graph below represents a continuous function. The function, \(P\), is the cost of parking in a garage for \(t\) hours. It is represented by the function \(P(t)=5h +10\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6de33bb25551b188fc2e064fe0dc9c29c5525584" alt="A GRAPHED LINE WITH A Y-INTERCEPT AT (0, 10), PASSING THROUGH THE POINTS (2, 20) AND (4, 30)." width="300"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol type="a"&gt;
+      &lt;li&gt;What does \(P(0)\) represent?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;It represents the starting price of parking for the day.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol type="a" start="2"&gt;
+      &lt;li&gt;In words, what are the values of the domain?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;The domain includes the values where \(x\) is at least 0.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol type="a" start="3"&gt;
+      &lt;li&gt;How can you write the domain values as an inequality?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(\;x\geq0\)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol type="a" start="4"&gt;
+      &lt;li&gt;In words, what are the values of the range?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;The range includes the values where \(y\) is at least 10.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol type="a" start="5"&gt;
+      &lt;li&gt;How can you write the range values as an inequality?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(\;y\geq10\)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2136">
+            <jumpto>950</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662175</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2137">
+            <jumpto>954</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662175</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="954">
+        <prevpageid>953</prevpageid>
+        <nextpageid>955</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659662301</timecreated>
+        <timemodified>1662594182</timemodified>
+        <title>4.12.4: Self Check</title>
+        <contents>&lt;p&gt;Which of the following correctly describes the domain and range of the graph below?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/dc72e451da5630e217892b4e1af7e45896fd003c" alt="GRAPH OF A LINE FOR ALL X GREATER THAN OR EQUAL TO 2, WITH POINT SHOWN AT (2, 3), AND PASSING THROUGH THE POINTS (5, 9) AND (8, 15).
+" width="300"&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2138">
+            <jumpto>955</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662301</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Domain: \(x\geq3\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;Range: \(y\geq2\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The domain is the \(x\)-values, and the lowest \(x\)-value is 2. The answer is Domain: \(x2\) and Range: \( y3\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2139">
+            <jumpto>956</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659662301</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;Domain: \(x\geq2\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;Range: \(y\geq3\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The lowest \(x\)-value is 2, and the graph continues forever right. The lowest \(y\)-value is 3, and then the graph continues forever up.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2140">
+            <jumpto>955</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662301</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;Domain: \(x\leq2\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;Range: \(y\leq3\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Watch the inequality symbol you use. The domain includes the \(x\)-values greater than or equal to 2, and the range includes the \(y\)-values greater than or equal to 3. The answer is Domain: \(x2\) and Range: \(y3\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2141">
+            <jumpto>955</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662301</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;Domain: \(x&amp;gt;2\)&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;Range: \(y&amp;gt;3\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The domain includes 2 and the range includes 3, so both inequalities should have an equal sign included. The answer is Domain: \(x2\) and Range: \(y3\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2142">
+            <jumpto>955</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662301</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="955">
+        <prevpageid>954</prevpageid>
+        <nextpageid>956</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659662473</timecreated>
+        <timemodified>1662594227</timemodified>
+        <title>4.12.4: Additional Resources </title>
+        <contents>&lt;h4&gt; Domain and Range as Inequalities&lt;/h4&gt;
+&lt;p&gt;Looking at the linear function below, use inequalities to represent the domain and range.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/12d788f0be52aef294188ce1d62b5406230e279f" alt="GRAPH OF A LINE FOR ALL X GREATER THAN OR EQUAL TO 5, WITH POINT SHOWN AT (5, 0), AND PASSING THROUGH THE POINTS (10, 5), AND (15, 10).
+" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;Domain:&lt;/p&gt;
+&lt;p&gt;Since the domain is all \(x\)-values, look left to right for the least to greatest values.&lt;/p&gt;
+&lt;p&gt;The smallest \(x\)-value on this linear function is 5, and then the line continues to the right forever.&lt;/p&gt;
+&lt;p&gt;So, the domain is all values that are at least 5.&lt;/p&gt;
+&lt;p&gt;As an inequality, write this as \(x\geq5\).&lt;/p&gt;
+&lt;p&gt;Range:&lt;/p&gt;
+&lt;p&gt;Since the range is all \(y\)-values, look from the bottom to the top for the least to greatest values.&lt;/p&gt;
+&lt;p&gt;The smallest \(y\)-value is 0, and then the line continues up forever.&lt;/p&gt;
+&lt;p&gt;So, the range is all values that are at least 0.&lt;/p&gt;
+&lt;p&gt;An an inequality, the range is \(y\geq0\).&lt;/p&gt;
+&lt;h4&gt;Try It: Domain and Range as Inequalities&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;p&gt;Looking at the linear function below, use inequalities to represent the domain and range.&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f8570d4ff8597bfd1128c5bfc31210c48eeeeb47" alt="GRAPH OF A LINE FOR ALL X GREATER THAN OR EQUAL TO 5, WITH POINT SHOWN AT (5, 6), AND PASSING THROUGH THE POINTS (7, 10) AND (10, 16)." width="300"&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Your answers may vary, but here are some examples:&lt;br&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Here is how to write the domain and range of the linear function as an inequality:&lt;/p&gt;
+  &lt;p&gt;Domain:&lt;/p&gt;
+  &lt;p&gt;Since the domain is all \(x\)-values, look left to right for the least to greatest values.&lt;/p&gt;
+  &lt;p&gt;The smallest \(x\)-value on this linear function is 5, and then the line continues to the right forever.&lt;/p&gt;
+  &lt;p&gt;So, the domain is all values that are at least 5.&lt;/p&gt;
+  &lt;p&gt;As an inequality, write this as \(x\geq5\).&lt;/p&gt;
+  &lt;p&gt;Range:&lt;/p&gt;
+  &lt;p&gt;Since the range is all \(y\)-values, look from the bottom to the top for the least to greatest values.&lt;/p&gt;
+  &lt;p&gt;The smallest \(y\)-value is 6, and then the line continues up forever.&lt;/p&gt;
+  &lt;p&gt;So, the range is all values that are at least 6.&lt;/p&gt;
+  &lt;p&gt;An an inequality, the range is \(y\geq6\).&lt;/p&gt;
+  &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2143">
+            <jumpto>954</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662473</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2144">
+            <jumpto>956</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662473</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="956">
+        <prevpageid>955</prevpageid>
+        <nextpageid>957</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659662726</timecreated>
+        <timemodified>1662594308</timemodified>
+        <title>4.12.5: Graph of a Function and the Domain and Range Connection</title>
+        <contents>&lt;h4&gt; Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;The function \(W\) gives the temperature, in degrees Fahrenheit, of a pot of water on a stove \(t\) minutes after the stove is turned on. After 30 minutes, the pot is taken off the stove.&lt;/p&gt;
+&lt;p&gt;The graph of the function is shown.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/DAHUmXot8XWXoJDfSyT4fTQW" alt="graph of temperature of water over time"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Is 250 in the range of function \(W\)? Explain how you know.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;No, 250 is not in the range. The highest temperature is 212 degrees Fahrenheit.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="2"&gt;
+      &lt;li&gt;Describe the range of the function.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;The range is all values between 75 and 212, the lowest and the highest temperature; \(75\leq y\leq212.\)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="3"&gt;
+      &lt;li&gt;Does \(W(t)=0\) have a solution? Explain how you know.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;No, a solution to this equation would be the time when the temperature is 0 degrees Fahrenheit, which is never the case.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2145">
+            <jumpto>953</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662726</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous </answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2146">
+            <jumpto>957</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662726</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="957">
+        <prevpageid>956</prevpageid>
+        <nextpageid>958</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659662805</timecreated>
+        <timemodified>1662754147</timemodified>
+        <title>4.12.6: Practice </title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
+  &lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+	
+	
+  &lt;!--Q1a--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="15" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;
+    &lt;li&gt;The graph of function \(H\) shows the height, in meters, of a rocket \(t\) seconds after it was launched.
+        &lt;ol type="a"&gt;
+            &lt;li&gt;Find \(H(0)\) in meters.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+  &lt;blockquote&gt;  &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/7bLidN2jP6Yz7ZmTXqfEzLEH" alt="Function on coordinate plane."&gt;&lt;/p&gt;
+    &lt;p&gt;Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! 15 meters, This is the height that the rocket was launched.&lt;/p&gt;
+&lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.12.3. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 15 meters. This is the height that the rocket was launched. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+
+  &lt;!--1b--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(0 \leq \mathrm{y} \leq 4.5 \)" data-solution-options="[&amp;quot;\\(0 \\leq \\mathrm{y} \\leq 35\\) &amp;quot;, &amp;quot;\\(0 \\leq \\mathrm{y} \\leq 4.5 \\)&amp;quot;, &amp;quot;\\(0\\leq \\mathrm{y} \\leq 2\\) &amp;quot;, &amp;quot;\\(15 \\leq \\mathrm{y} \\leq 35\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+     &lt;ol&gt; &lt;ol type="a" start="2"&gt;
+        &lt;li&gt;Which of the following describes the domain of this function?&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! \(0≤x≤4.5\).; The domain includes all values from 0 to approximately 4.5, 0≤x≤4.5.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.12.2-4.12.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 4.5, 0≤x≤4.5. The domain includes all values from 0 to approximately 4.5, \(0≤x≤4.5\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--1c--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(0 \leq \mathrm{y} \leq 35\)" data-solution-options="[&amp;quot;\\(0 \\leq \\mathrm{y} \\leq 35\\)&amp;quot;, &amp;quot;\\(0 \\leq \\mathrm{y} \\leq 4.5 \\)&amp;quot;, &amp;quot;\\(0\\leq \\mathrm{y} \\leq 2\\) &amp;quot;, &amp;quot;\\(15 \\leq \\mathrm{y} \\leq 35\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+     &lt;ol&gt; &lt;ol type="a" start="3"&gt;
+        &lt;li&gt;Which of the following describes the range of this function?&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! \(0\leq y\leq35\); The range includes all values from 0 to 35 meters, \(0\leq y\leq35\).&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.12.2-4.12.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(0\leq y\leq35\); \(0≤x≤4.5\). The range includes all values from 0 to 35 meters, \(0\leq y\leq35\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+  &lt;!--2--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(2 \leq x \leq 7\)" data-solution-options="[&amp;quot;\\(0 \\leq x \\leq 9 \\)&amp;quot;, &amp;quot;\\(0 \\leq x \\leq 4\\)&amp;quot;, &amp;quot;\\(2 \\leq x \\leq 7\\)&amp;quot;, &amp;quot;\\(2 \\leq x \\leq 4\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+     &lt;ol start="2"&gt;
+    &lt;li&gt;Which of the following describes the domain of the function graphed below?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/GkB7PHdbH3XwZeri2tG9zkAA" alt="Coordinate grid with wiggly graph. Horizontal axis by twos. Vertical axis by ones. Graphs starts around 2 comma 2 point 2 and ends around 7 comma 4."&gt;&lt;/p&gt;&lt;/blockquote&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!  \(2≤x≤7\); The domain is all values from at least 2 to a maximum of 7, \(2≤x≤7\).&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;: Try again. Why don’t you go back to activity 4.12.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(2≤x≤7\); the domain is all values from at least 2 to a maximum of 7, \(2≤x≤7\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+
+  &lt;!--Q3--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(2 \leq y \leq 4 \)" data-solution-options="[&amp;quot;\\(2 \\leq y \\leq 4 \\)&amp;quot;, &amp;quot;\\(2 \\leq x \\leq 4\\)&amp;quot;, &amp;quot;\\(2 \\leq y \\leq 7\\)&amp;quot;, &amp;quot;\\(2 \\leq x \\leq 7\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      
+&lt;ol start="3"&gt;
+    &lt;li&gt;Which of the following describes the range of the graph below?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/GkB7PHdbH3XwZeri2tG9zkAA" alt="Coordinate grid with wiggly graph. Horizontal axis by twos. Vertical axis by ones. Graphs starts around 2 comma 2 point 2 and ends around 7 comma 4."&gt;&lt;/p&gt;&lt;/blockquote&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! \(2≤y≤4\); The range is all values from at least 2 to a maximum of 4, \(2≤y≤4\).&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.12.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 2≤y≤4. The range is all values from at least 2 to a maximum of 4, 2≤y≤4. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	
+  &lt;!--Q3--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;-3&amp;quot;, &amp;quot;-2&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;4&amp;quot;]" data-solution-options="[&amp;quot;-5&amp;quot;, &amp;quot;-3&amp;quot;, &amp;quot;-2&amp;quot;, &amp;quot;0&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;4&amp;quot;, &amp;quot;5&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="4"&gt;
+    &lt;li&gt;&lt;strong&gt;Select all&lt;/strong&gt; of the values of the range for the function \(h\), graphed below.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/56d0af3118e4ed206a7350ae234fec3ae6c71cb5" width="300"&gt;&lt;/p&gt;
+    &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/blockquote&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! -3, -2, 2, 4&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 4.12.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answers are -3, -2, 2, 4. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+	 &lt;!--q5--&gt;
+	&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(-5 \leq x \leq 5 \)" data-solution-options="[&amp;quot;\\(-5 \\leq x \\leq 5 \\)&amp;quot;, &amp;quot;\\(-5 \\leq x \\leq 7\\)&amp;quot;, &amp;quot;\\(-5 \\leq y \\leq 5\\)&amp;quot;, &amp;quot;\\(-5 \\leq y \\leq 7\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="5"&gt;
+    &lt;li&gt;Which of the following is the domain of the function graphed below?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/0223a9341fcd7ca2dc3e2ddd4b42c389dbad097e" width="300"&gt;&lt;/p&gt;&lt;/blockquote&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! \(-5≤x≤5\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.12.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(-5≤x≤5\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--Q6--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x \geq 2\)" data-solution-options="[&amp;quot;\\(y \\geq 5 \\)&amp;quot;, &amp;quot;\\(x \\geq 5 \\)&amp;quot;, &amp;quot;\\(y \\geq 2 \\)&amp;quot;, &amp;quot;\\(x \\geq 2\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+     &lt;ol start="6"&gt;
+    &lt;li&gt;Which of the following represents the domain of the function graphed below?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/a79cc63c6acdd168fd53633b75e6c1594d031438" alt="GRAPH OF A LINE FOR ALL X GREATER THAN OR EQUAL TO 2, WITH POINT SHOWN AT (2 5), AND PASSING THROUGH THE POINTS (3, 8) AND (5, 14)." width="300"&gt;&lt;/p&gt;&lt;/blockquote&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!  \(x≥2\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 4.12.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x≥2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	
+  &lt;!--Q7--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y \geq 5 \)" data-solution-options="[&amp;quot;\\(y \\geq 5 \\)&amp;quot;, &amp;quot;\\(x \\geq 5 \\)&amp;quot;, &amp;quot;\\(y \\geq 2 \\)&amp;quot;, &amp;quot;\\(x \\geq 2\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="7"&gt;
+    &lt;li&gt;Which of the following represents the range of the function graphed below?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/a79cc63c6acdd168fd53633b75e6c1594d031438" alt="GRAPH OF A LINE FOR ALL X GREATER THAN OR EQUAL TO 2, WITH POINT SHOWN AT (2 5), AND PASSING THROUGH THE POINTS (3, 8) AND (5, 14)." width="300"&gt;&lt;/p&gt;&lt;/blockquote&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! \(y \geq 5 \)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.12.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(y≥5\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+	
+  
+&lt;!--Do not edit below this line--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2147">
+            <jumpto>956</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662805</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous </answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2148">
+            <jumpto>958</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662805</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="958">
+        <prevpageid>957</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659662930</timecreated>
+        <timemodified>1662594345</timemodified>
+        <title>4.12.7: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Determine a reasonable domain and range for the function when given a description of a function in a situation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 4.12.1: Different Features of a Graph &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you compared features of 4 different graphs to determine which did not belong. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 4.12.2: Graphs of Functions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you matched graphs to situations they could represent. You then determined the domain and range when you were given more information about the graphs. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 4.12.2: Self Check &lt;/li&gt;
+  &lt;li&gt; 4.12.3: Finding Domain and Range Using a Graph &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you used a graph to determine the domain and range using maximum and minimum values. You also determined the value of the \(x\)- and \(y\)-intercepts. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 4.12.3: Self Check &lt;/li&gt;
+  &lt;li&gt; 4.12.4: Real-World Domain and Range &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you looked at graphs representing real-world situations that were both discrete and continuous functions. You then determined the domain and range of each type of function. For continuous functions, you wrote the domain and range as inequalities. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 4.12.4: Self Check &lt;/li&gt;
+  &lt;li&gt; 4.12.5: Graph of a Function and the Domain and Range Connection &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you examined a graph and determined if a value was in the range. You then identified the range and also determined if there is a solution to the graph. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 4.12.6: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
+  
+  &lt;!--pulldown--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2149">
+            <jumpto>957</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662930</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2150">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659662930</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

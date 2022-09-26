@@ -1,0 +1,2526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="94" moduleid="126" modulename="lesson" contextid="137">
+  <lesson id="94">
+    <course>2</course>
+    <name>Lesson 4.7: Using Graphs to Find Average Rate of Change</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>127</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1660880698</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="843">
+        <prevpageid>0</prevpageid>
+        <nextpageid>844</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659308353</timecreated>
+        <timemodified>1662639403</timemodified>
+        <title>4.7.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will learn to characterize changes in functions quantitatively, by using average rates of change. You will also learn that the average rate of change can be used to measure how fast a function changes over a given interval.&lt;/p&gt;
+
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Explain the meaning of the term “average rate of change.”&lt;/li&gt;
+    &lt;li&gt;Estimate or calculate the average rate of change between two points from the graph of a function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the &lt;strong&gt;activities &lt;/strong&gt;that will help you reach those goals:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.7.1: Comparing Changes in Output Based on Input&lt;/li&gt;
+    &lt;li&gt;4.7.2: Average Rate of Change and Slope&lt;/li&gt;
+    &lt;li&gt;4.7.2: Self Check&lt;/li&gt;
+    &lt;li&gt;4.7.3: Finding and Interpreting Average Rates of Change&lt;/li&gt;
+    &lt;li&gt;4.7.3: Self Check&lt;/li&gt;
+    &lt;li&gt;4.7.4: Rate of Change of Linear Functions &lt;/li&gt;
+    &lt;li&gt;4.7.4: Self Check&lt;/li&gt;
+    &lt;li&gt;4.7.5: Interpreting Average Rates of Change with Real-World Examples&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.7.6: Practice&lt;/li&gt;
+    &lt;li&gt;4.7.7: Lesson Summary&lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1884">
+            <jumpto>844</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659308353</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="844">
+        <prevpageid>843</prevpageid>
+        <nextpageid>845</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659311364</timecreated>
+        <timemodified>1662639449</timemodified>
+        <title>4.7.1: Comparing Changes in Output Based on Input</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+
+&lt;p&gt;Here are the recorded temperatures at three different times on a winter evening.&lt;/p&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;time&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;4 p.m.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;6 p.m.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;10 p.m.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;temperature&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;25°F&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;17°F&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;8°F&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Tyler says the temperature dropped faster between 4 p.m. and 6 p.m.&lt;/li&gt;
+    &lt;li&gt;Mai says the temperature dropped faster between 6 p.m. and 10 p.m.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;Who do you agree with? Explain your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;I agree with Mai. The temperature dropped 8°F between 4 p.m. and 6 p.m., but it fell 9°F between 6 p.m. and 10 p.m.&lt;/li&gt;
+            &lt;li&gt;I agree with Tyler. The temperature dropped 4°F per hour between 4 p.m. and 6 p.m. It fell less than 4°F per hour in the evening.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1885">
+            <jumpto>843</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659311364</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1886">
+            <jumpto>845</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659311364</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="845">
+        <prevpageid>844</prevpageid>
+        <nextpageid>846</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659311899</timecreated>
+        <timemodified>1662639507</timemodified>
+        <title>4.7.2: Average Rate of Change and Slope</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+
+&lt;p&gt;The table and graph show a more complete picture of the temperature changes on the same winter day. The function \(T\) gives the temperature, in degrees Fahrenheit, \(h\) hours since noon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/GSceYmZRpNzmAcMXQkjkDn92" alt="Discrete function. hours since noon and temperature in degrees Fahrenheit."&gt;&lt;/p&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(h\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;4&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;6&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;7&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;8&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;9&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;10&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;11&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;12&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(T(h)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;18&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;19&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;20&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;20&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;25&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;23&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;17&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;15&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;11&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;11&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;8&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;6&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;7&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;br&gt;
+&lt;p&gt;How much the quantity changes over a particular interval, without worrying about smaller changes in between, is the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;average rate of change&lt;/span&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt; Find the average rate of change for the following intervals. Explain or show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt; between noon and 1 p.m. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;1°F per hour. The temperature rose by 1°F in 1 hour.&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt; between noon and 4 p.m. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;1.75°F per hour. The temperature increased by 7°F in 4 hours. The average increase is \(\frac74\) or 1.75. &lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="3"&gt;
+            &lt;li&gt; between noon and midnight&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;–0.92°F an hour. I found the slope of the line connecting the two points, and it is \(-\frac{11}{12}\). &lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;ol start="2"&gt;
+    &lt;li&gt; Remember Mai and Tyler’s disagreement? Use the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;average rate of change&lt;/span&gt;
+        to show which time period—4 p.m. to 6 p.m. or 6 p.m. to 10 p.m.—experienced a faster temperature drop.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+ 
+	&lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The temperature dropped faster between 4 p.m. and 6 p.m. Sample reasoning: In the first interval, the temperature fell 8°F in 2 hours, which is an average drop of 4°F an hour. In the second, it fell 9°F in 4 hours, which is an average drop of 2.25°F per hour.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+        &lt;p&gt;Refer to graph and table of the previous function \(T\) to answer the questions:&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt; Over what interval did the temperature decrease the most rapidly?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Write your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;between 5 p.m. and 6 p.m. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;Over what interval did the temperature increase the most rapidly?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;between 3 p.m. and 4 p.m. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1887">
+            <jumpto>844</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659311899</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1888">
+            <jumpto>846</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659311899</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="846">
+        <prevpageid>845</prevpageid>
+        <nextpageid>847</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659312397</timecreated>
+        <timemodified>1660427836</timemodified>
+        <title>4.7.2: Self Check</title>
+        <contents>&lt;p&gt;The temperature \(t\), in degrees Fahrenheit, of a cup of coffee that was poured and then forgotten for \(m\) minutes is represented in the table below&lt;/p&gt;
+
+
+                &lt;table border="1" cellpadding="5"&gt;
+                    &lt;colgroup&gt;
+                        &lt;col&gt;
+                        &lt;col&gt;
+                        &lt;col&gt;
+                        &lt;col&gt;
+                        &lt;col&gt;
+                    &lt;/colgroup&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;
+                                &lt;p&gt;&lt;strong&gt;Time in minutes&lt;/strong&gt;&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;p&gt;0&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;p&gt;15&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;p&gt;25&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;p&gt;40&lt;/p&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;
+                                &lt;p&gt;&lt;strong&gt;Temperature&lt;/strong&gt;&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;p&gt;185°F&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;p&gt;155°F&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;p&gt;140°F&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td&gt;
+                                &lt;p&gt;120°F&lt;/p&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;&lt;br&gt;
+
+
+                &lt;p&gt;What was the average rate of change from when the cup was poured to 40 minutes later?&amp;nbsp;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1889">
+            <jumpto>847</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;–2 degrees per minute&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This is the rate of change of the first two values in the table. You need to use the first and last value from the table to find the answer. The answer is –1.625 degrees per minute. &lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1890">
+            <jumpto>847</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;–0.615 degrees per minute&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Remember, the \(y\)-values go on top of the formula, and the \(x\)-values go on the bottom. The answer is –1.625 degrees per minute.  &lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1891">
+            <jumpto>847</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;–1.333 degrees per minute&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This is the rate of change between the last two values in the table. You need to use the first and last value from the table to find the answer. The answer is –1.625 degrees per minute.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1892">
+            <jumpto>848</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659312397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;–1.625 degrees per minute&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\). For this situation, it would be \(\frac{120-185}{40-0}\), which is \(-\frac{65}{40}\). The answer is –1.625 degrees per minute.&amp;nbsp;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1893">
+            <jumpto>847</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="847">
+        <prevpageid>846</prevpageid>
+        <nextpageid>848</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659312555</timecreated>
+        <timemodified>1662639573</timemodified>
+        <title>4.7.2: Additional Resources </title>
+        <contents>&lt;h4&gt;Finding Rates of Change&lt;/h4&gt;
+
+&lt;p&gt;Jay was racing bikes with a friend on the way to the park. A table and a graph of the times are shown below.&lt;/p&gt;
+
+&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="343" colspan="2" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Jay&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Time (minutes)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Distance (miles)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;0.84&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;10&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;1.86&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;15&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;3.00&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;20&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;4.27&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;25&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;5.67&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e2be91d74e2b7550eb702312e03a47f9fe97b6f3" alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67)." width="300" height="298"&gt;&lt;/p&gt;
+
+&lt;p&gt;What is the average rate of change of the first 10 minutes of the race?&lt;/p&gt;
+
+&lt;p&gt;To find the average rate of change of the first 10 minutes of the race, you would look at the first data value on the table and the third data value on the table, since it corresponds to 10 minutes.&lt;/p&gt;
+
+&lt;p&gt;Remember, the average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\), where \((b, f(b))\) typically represents your second data point and \((a, f(a))\) represents your first data point.&lt;/p&gt;
+
+&lt;p&gt;For this situation, it would be \(( 0, 0)\) or \(a=0\) and \(f(a) =0\) and \((10,1.86)\) or \(b= 10\) and \(f(b)=1.86\).&lt;/p&gt;
+
+&lt;p&gt;Substituting the points into the average rate of change formula results in the following:&lt;/p&gt;
+
+&lt;p&gt;\(\frac{f(b)-f(a)}{b-a}\), which is \(\frac{1.86}{10}\) or 0.186 miles per minute.&lt;/p&gt;
+
+&lt;p&gt;Notice that the answer is positive and the points on the graph are higher each time.&lt;/p&gt;
+
+&lt;h4&gt;Try It: Finding Rates of Change&lt;/h4&gt;
+
+&lt;p&gt;Jay was racing bikes with a friend on the way to the park. A table and a graph of the times are shown below.&lt;/p&gt;
+
+&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="343" colspan="2" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Jay&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Time (minutes)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Distance (miles)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;0.84&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;10&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;1.86&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;15&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;3.00&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;20&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;4.27&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;25&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;5.67&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/69e4be4d341573e713fabfb59f2ef379252f1a05" alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67). " width="300" height="300"&gt;&lt;/p&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;What was Jay’s average rate of change from the beginning to 25 minutes later?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Here is how to find the average rate of change of the first 25 minutes of the race:&lt;/p&gt;
+    &lt;p&gt;Remember, the average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\), where \((b, f(b))\) typically represents your second data point and \((a, f(a))\) represents your first data point.&lt;/p&gt;
+    &lt;p&gt;For this situation, it would be \((0, 0)\) or \(a=0\) and \(f(a) =0\) and \((25,5.67)\) or \(b= 25\) and \(f(b)=5.67\).&lt;/p&gt;
+    &lt;p&gt;Substituting the points into the average rate of change formula results in the following:&lt;/p&gt;
+    &lt;p&gt;\(\frac{f(b)-f(a)}{b-a}=\frac{5.67}{25}\), which is 5.6725 or 0.227 miles per minute.&lt;/p&gt;
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1894">
+            <jumpto>846</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312555</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1895">
+            <jumpto>848</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312555</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="848">
+        <prevpageid>847</prevpageid>
+        <nextpageid>849</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659313455</timecreated>
+        <timemodified>1662639617</timemodified>
+        <title>4.7.3: Finding and Interpreting Average Rates of Change</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+
+&lt;p&gt;The graphs show the populations of California and Texas over time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/j1234hnggnytN1WkbJNGxNfQ" alt="Graph of the populations of two states over time on a coordinate plane.&amp;nbsp;"&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;Estimate the average rate of change in the population in each state between 1970 and 2010. Show your reasoning.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The population of California was about 20 million in 1970 and 37 million in 2010. &lt;/p&gt;
+        &lt;p&gt;The average rate of change is: \(\frac{37-20}{2010-1970}=\frac{17}{40}=0.425\) million per year. The population of Texas was about 11 million in 1970 and 25 million in 2010. The average rate of change is \(\frac{25-11}{2010-1970}=\frac{14}{40}=0.35\) million per year.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt;In this situation, what does each rate of change mean?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;On average, the population of California was growing by 425,000 people per year, and the population of Texas was growing by 350,000 people per year.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;Which state’s population grew more quickly between 1900 and 2000? Show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;California grew more quickly. Sample reasoning: If we connect each pair of points representing the population of each state in 1900 and 2000, the segment for California has a greater slope, so it has a greater average rate of change.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;h4&gt;Video: Interpreting Average Rate of Change&lt;/h4&gt;
+
+&lt;p&gt;Watch the following video to learn more about interpreting the average rate of change.&lt;/p&gt;
+
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/b229f583de20650b5a4f2b338b6650c68e5400a6"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/ffe8fb6047a04094415c3cb93e1637e4830369a8" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/b229f583de20650b5a4f2b338b6650c68e5400a6
+&lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1896">
+            <jumpto>845</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313455</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1897">
+            <jumpto>849</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313455</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="849">
+        <prevpageid>848</prevpageid>
+        <nextpageid>850</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659313994</timecreated>
+        <timemodified>1660353133</timemodified>
+        <title>4.7.3: Self Check </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Brooke was racing bikes with a friend on the way to the park. A table of her distance traveled over time is shown.&lt;/p&gt;
+
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="343" colspan="2" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Brooke&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Time (minutes)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;&lt;strong&gt;Distance (miles)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;1.2&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;10&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;2.4&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;15&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;3.6&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;20&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;4.8&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;25&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="171" valign="top"&gt;
+                &lt;p align="center"&gt;6.0&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;p&gt;What was Brooke’s average rate of change between 5 minutes and 20 minutes? What does it mean in the context of the problem?&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1898">
+            <jumpto>850</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313994</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The average rate of change is 3.6 miles per minute.&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: 3.6 is the change in distance. When finding the average rate of change, you need to find the change in the distance and the change in the time. Then divide those values, \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\). The answer is 0.24 mile per minute.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1899">
+            <jumpto>850</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313994</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The average rate of change is 15 minutes per mile.&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: 15 minutes is the change in time. When finding the average rate of change, you need to find the change in the distance and the change in the time. Then divide those values, \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\). The answer is 0.24 mile per minute.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1900">
+            <jumpto>851</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313994</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The average rate of change is 0.24 mile per minute.&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Substitute the data values into the formula to find the \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\), or 3.615. The correct answer is 0.24 mile per minute.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1901">
+            <jumpto>850</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659313994</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The average rate of change is 4.17 minutes per mile.&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This is the change in time over the change in distance. Substitute the data values into the formula to find the \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\), or 3.615. The answer is 0.24 mile per minute.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1902">
+            <jumpto>850</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313994</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="850">
+        <prevpageid>849</prevpageid>
+        <nextpageid>851</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659314180</timecreated>
+        <timemodified>1662639675</timemodified>
+        <title>4.7.3: Additional Resources </title>
+        <contents>&lt;h4&gt;Interpreting Slope&lt;/h4&gt;
+
+&lt;p&gt;A Mars rover collected the following temperature data over 1.6 Martian days. A Martian day is called a Sol. Use the graph to answer the following questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.engageny.org/resource/algebra-i-module-3-topic-b-lesson-13"&gt;&lt;/a&gt;&lt;a href="https://www.engageny.org/resource/algebra-i-module-3-topic-b-lesson-13"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/05d467bbffe79a0a52ce6581d0886fe8a59870f0" alt="A GRAPH THAT SHOWS THE POPULATION IN MILLIONS FROM 1900 TO 2010 FOR THE STATES OF CALIFORNIA AND TEXAS." width="300" height="287"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Which had a greater average rate of change between 10.2 and 10.4 Sol, ground temperature or air temperature? What is the meaning of each rate change?&lt;/p&gt;
+
+&lt;p&gt;Since ground temperature has a greater slant or slope, it has a greater rate of change. Slope is another word for the rate of change of a graph.&lt;/p&gt;
+
+&lt;p&gt;To find the average rate of change, first you need to find Sol on the graph (which is what a day is called on Mars). Find the values of 10.2 and 10.4 on the \(x\)-axis. Find the corresponding \(y\)-values of the points for both the ground temperature and the air temperature graphs. By finding the average rate of change, you will be able to determine which one was greater.&lt;/p&gt;
+
+&lt;p&gt;Ground Temperature: \((10.2, -90)\) \((10.4, -20)\)&lt;/p&gt;
+
+&lt;p&gt;Air Temperature: \((10.2, -70 )\) \((10.4, -40)\)&lt;/p&gt;
+
+&lt;p&gt;Substitute each set of points into the average rate of change formula:&lt;/p&gt;
+
+&lt;p&gt;Ground Temperature = \(\frac{-20-(-90)}{10.4-10.2}=\frac{70}{0.2}=350\)&lt;/p&gt;
+
+&lt;p&gt;Air Temperature = \(\frac{-40-(-70)}{10.4-10.2}=\frac{30}{0.2}=150\)&lt;/p&gt;
+
+&lt;p&gt;Remember that to interpret the meaning of the rate of change, you need to compare the axes. It is the change in the \(y\)-axis units divided by the change in the \(x\)-axis units, or \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{temperature}\;\mathrm{in}\;\mathrm{degrees}\;\mathrm{celsius}}{\mathrm{change}\;\mathrm{in}\;\mathrm{Sol}}\).&amp;nbsp;That means that the average rate of change of each can be interpreted as:&lt;/p&gt;
+
+&lt;p&gt;Ground Temperature’s average rate of change is 350 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
+
+&lt;p&gt;Air Temperature’s average rate of change is 150 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
+
+&lt;h4&gt;Try It: Interpreting Slope&lt;/h4&gt;
+
+&lt;p&gt;A Mars rover collected the following temperature data over 1.6 Martian days. A Martian day is called a Sol. Use the graph to answer the following questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.engageny.org/resource/algebra-i-module-3-topic-b-lesson-13"&gt;&lt;/a&gt;&lt;a href="https://www.engageny.org/resource/algebra-i-module-3-topic-b-lesson-13"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/05d467bbffe79a0a52ce6581d0886fe8a59870f0" alt="A GRAPH THAT SHOWS THE POPULATION IN MILLIONS FROM 1900 TO 2010 FOR THE STATES OF CALIFORNIA AND TEXAS." width="300" height="287"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Which had a greater average rate of change between 10.6 and 11 Sol, ground temperature or air temperature? What is the meaning of each rate change?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to find the average rate of change:&lt;/p&gt;
+    &lt;p&gt;To find the average rate of change, first you need to find Sol on the graph (which is what a day is called on Mars). Find the values of 10.6 and 11 on the \(x\)-axis. Find the corresponding \(y\)-values of the points for both the ground temperature and air temperature graphs. By finding the average rate of change, you will be able to determine which one was greater.&lt;/p&gt;
+
+    &lt;p&gt;Ground Temperature: \((10.6, -3 )\) \((11, -85 )\)&lt;/p&gt;
+    &lt;p&gt;Air Temperature: \((10.6, -5 )\) \((11, -65 )\)&lt;/p&gt;
+    &lt;p&gt;Substitute each set of points into the average rate of change formula:&lt;/p&gt;
+    &lt;p&gt;Ground Temperature = \(\frac{-85-(-3)}{11-10.6}=\frac{-82}{0.4}=-250\)&lt;/p&gt;
+    &lt;p&gt;Air Temperature = \(\frac{-65-(-5)}{11-10.6}=\frac{-60}{0.4}=-150\)&lt;/p&gt;
+
+    &lt;p&gt;Remember that to interpret the meaning of the rate of change, you need to compare the axes. It is the change in the \(y\)-axis units divided by the change in the \(x\)-axis units, or \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{temperature}\;\mathrm{in}\;\mathrm{degrees}\;\mathrm{celsius}}{\mathrm{change}\;\mathrm{in}\;\mathrm{Sol}}\). That means that each average rate of change of each can be interpreted as:&lt;/p&gt;
+
+    &lt;p&gt;Ground temperature’s average rate of change is –205 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
+    &lt;p&gt;Air temperature’s average rate of change is –150 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
+    &lt;p&gt;The ground temperature had a greater rate of decrease per Sol.&lt;/p&gt;
+
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1903">
+            <jumpto>849</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659314180</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1904">
+            <jumpto>851</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659314180</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="851">
+        <prevpageid>850</prevpageid>
+        <nextpageid>852</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659315019</timecreated>
+        <timemodified>1662639733</timemodified>
+        <title>4.7.4: Rate of Change of Linear Functions</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+
+&lt;p&gt;Three people, Adam, Bianca, and Carmen, are competing to see who can save the most money in one month. Use the table, graph, and equation below to answer the questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cb53bc3a01cb0644be0c4a10d3f6d3c4e811ed88" alt="THREE FUNCTIONS REPRESENTING SAVINGS IN DOLLARS AS A FUNCTION OF NUMBER OF DAYS FOR THREE PEOPLE: ADAM, BIANCA, AND CARMEN. THE TOTAL AMOUNT ADAM HAS SAVED IS REPRESENTED BY THE GRAPH OF A LINE THAT PASSES THROUGH THE POINTS (0, 3) AND (1, 6). THE TOTAL AMOUNT BIANCA HAS SAVED IS REPRESENTED BY A TABLE WITH THE POINTS (5, 17), (8, 26), (12, 38), AND (20, 62). THE TOTAL AMOUNT CARMEN HAS SAVED IS REPRESENTED BY THE EQUATION F OF X EQUALS 2X PLUS 30. " width="550" height="348"&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Use the graph to find the average rate of change of the function that represents Adam’s savings for the following intervals:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;between 0 and 1 days&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;3&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt;between 1 and 2 days&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;3&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="3"&gt;
+            &lt;li&gt;between 1 and 3 days&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;3&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;Use the table to find the average rate of change for the function that represents Bianca’s savings for the following intervals: &lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;between 5 and 8 days&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;3&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt;between 12 and 20 days&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;3&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="3"&gt;
+            &lt;li&gt;between 5 and 20 days&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;3&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;Use the equation to find the average rate of change for the function that represents Carmen’s savings for the following intervals: &lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;between 1 and 2 days&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;2&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt;between 2 and 4 days&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;2&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="3"&gt;
+            &lt;li&gt;between 1 and 4 days&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;2&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;ol start="4"&gt;
+    &lt;li&gt;Which statements are true?
+        &lt;ol type="a"&gt;
+            &lt;li&gt;All three functions are linear functions.&lt;/li&gt;
+            &lt;li&gt;All three functions have the same rate of change.&lt;/li&gt;
+            &lt;li&gt;All three functions have a constant rate of change.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;a, c&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;ol start="5"&gt;
+    &lt;li&gt;Who has the most money after 30 days? Explain how you know.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;Adam; Adam’s function is \(A(30)=3(30)+3=93\); Bianca’s function is \(B(30)=3(30)+2=92\); Carmen’s function is \(C(30)=2(30)+30=90\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1905">
+            <jumpto>848</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315019</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1906">
+            <jumpto>852</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315019</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="852">
+        <prevpageid>851</prevpageid>
+        <nextpageid>853</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659315689</timecreated>
+        <timemodified>1660353258</timemodified>
+        <title>4.7.4: Self Check </title>
+        <contents>&lt;p&gt;What is the average rate of change for the linear function? &lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+  &lt;tbody&gt;&lt;tr&gt;
+    &lt;td width="64" valign="top"&gt;&lt;p align="center"&gt;&lt;strong&gt;Input&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;td width="64" valign="top"&gt;&lt;p align="center"&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width="64" valign="top"&gt;&lt;p align="center"&gt;1&lt;/p&gt;&lt;/td&gt;
+    &lt;td width="64" valign="top"&gt;&lt;p align="center"&gt;2&lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width="64" valign="top"&gt;&lt;p align="center"&gt;2&lt;/p&gt;&lt;/td&gt;
+    &lt;td width="64" valign="top"&gt;&lt;p align="center"&gt;–1&lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width="64" valign="top"&gt;&lt;p align="center"&gt;4&lt;/p&gt;&lt;/td&gt;
+    &lt;td width="64" valign="top"&gt;&lt;p align="center"&gt;–7&lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width="64" valign="top"&gt;&lt;p align="center"&gt;6&lt;/p&gt;&lt;/td&gt;
+    &lt;td width="64" valign="top"&gt;&lt;p align="center"&gt;–13&lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1907">
+            <jumpto>853</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315689</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(3\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Watch the signs when finding the differences. The rate of change of a linear function is the slope, \(\frac{\mathrm{change}\;\mathrm{in}\;y}{\mathrm{change}\;\mathrm{in}\;x}\). The answer is –3.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1908">
+            <jumpto>854</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659315689</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(-3\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The rate of change of a linear function is the slope, \(\frac{\mathrm{change}\;\mathrm{in}\;y}{\mathrm{change}\;\mathrm{in}\;x}\). The answer is –3.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1909">
+            <jumpto>853</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315689</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(-\frac13\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This is the reciprocal of the answer. Remember the slope is \(\frac{\mathrm{change}\;\mathrm{in}\;y}{\mathrm{change}\;\mathrm{in}\;x}\). The answer is –3.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1910">
+            <jumpto>853</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315689</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(\frac13\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Watch the signs when finding the differences. Remember the slope is \(\frac{\mathrm{change}\;\mathrm{in}\;y}{\mathrm{change}\;\mathrm{in}\;x}\). The correct answer is –3.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1911">
+            <jumpto>853</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315689</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="853">
+        <prevpageid>852</prevpageid>
+        <nextpageid>854</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659316497</timecreated>
+        <timemodified>1662639790</timemodified>
+        <title>4.7.4: Additional Resources </title>
+        <contents>&lt;h4&gt;Rate of Change of Linear Functions.&lt;/h4&gt;
+
+&lt;p&gt;&amp;nbsp;The graph of a linear function is identical to the graph of the linear equation that describes it. The rate of change of a linear equation is constant. The rate of change is the slope, \(m=\frac{y_2-y_1}{x_2-x_1}\)&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Find the rate of change of a linear function from a graph.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/4498b4f9f306c3d58091822d5829c8d2075c8592" alt="GRAPH OF A LINE PASSING THROUGH THE POINTS (16, 1) AND (24, 1.5)." width="300"&gt;&lt;/p&gt;
+
+&lt;p&gt;The rate of change of a linear function is constant, so you can choose any 2 points to find the slope.&lt;/p&gt;
+&lt;p&gt;Use \((16, 1)\) and \((24, 1,5)\).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(m=\frac{y_2-y_1}{x_2-x_1}=\frac{1.5-1}{24-16}=\frac{0.5}{8}=\frac{1}{16}\)&lt;/p&gt;
+&lt;p&gt;The rate of change is \(frac{1}{16}\)&lt;/p&gt;
+
+&lt;ol start="2"&gt;
+    &lt;li&gt;Find the rate of change of a linear function from a table.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="89" valign="top"&gt;
+                &lt;p align="center"&gt;Input&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="89" valign="top"&gt;
+                &lt;p align="center"&gt;Output&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="89" valign="top"&gt;
+                &lt;p align="center"&gt;-2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="89" valign="top"&gt;
+                &lt;p align="center"&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="89" valign="top"&gt;
+                &lt;p align="center"&gt;8&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="89" valign="top"&gt;
+                &lt;p align="center"&gt;-2&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="89" valign="top"&gt;
+                &lt;p align="center"&gt;10&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="89" valign="top"&gt;
+                &lt;p align="center"&gt;-3&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td width="89" valign="top"&gt;
+                &lt;p align="center"&gt;20&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="89" valign="top"&gt;
+                &lt;p align="center"&gt;-8&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;br&gt;
+    &lt;p&gt;The rate of change of a linear function is constant, so you can choose any 2 points to find the slope.&lt;/p&gt;
+    &lt;p&gt;Use \((-2, 3)\) and \((8, -2)\).&amp;nbsp;&lt;/p&gt;
+    &lt;p&gt;\(m=\frac{y_2-y_1}{x_2-x_1}=\frac{-2-3}{8-(-2)}=\frac{-5}{10}=-\frac{1}{2}\)&lt;/p&gt;
+    &lt;p&gt;The rate of change is \(-\frac{1}{2}\).&lt;/p&gt;
+
+&lt;ol start="3"&gt;
+    &lt;li&gt;Find the rate of change of a linear function from an equation.&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;\(F(x)= 7x +6\)&lt;/p&gt;
+    &lt;p&gt;Use the slope intercept form, y=mx+b, where m is the slope and b is the y-intercept.&lt;/p&gt;
+    &lt;p&gt;\(y=7x+6\)&lt;/p&gt;
+    &lt;p&gt;The slope is 7. The rate of change is 7.&lt;/p&gt;
+
+&lt;h4&gt; Try It: Rate of Change of Linear Functions&lt;/h4&gt;
+
+&lt;p&gt;The function \(V(x)\) gives the volume of water that flows from a faucet in gallons during 𝒙 minutes. \(V(x)\) is a linear function with the graph shown.What is the rate of change of the volume?&lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/ce902e5f4704f14ce0e9553983f400bf1a4a515c" alt="VOLUME IN GALLONS AS A FUNCTION OF TIME IN MINUTES. THE LINE PASSES THROUGH THE POINTS (0, 0) ANGRAPH THAT SHOWSD (7, 4)." width="300"&gt;&lt;/p&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Here is how to find the rate of change of the linear function:&lt;/p&gt;
+    &lt;p&gt;Identify two points on the graph.&lt;/p&gt;
+    &lt;p&gt;Use \((0, 0)\) and \((7, 4)\).&lt;/p&gt;
+    &lt;p&gt;Find the slope:&amp;nbsp;&lt;/p&gt;
+    &lt;p&gt;\(m=\frac{y_2-y_1}{x_2-x_1}=\frac{4-0}{7-0}=\frac47\)&lt;/p&gt;
+    &lt;p&gt;The slope is \(\frac47\), so, the rate of change is \(\frac47\).&lt;/p&gt;
+
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1912">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659316497</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1913">
+            <jumpto>854</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659316497</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="854">
+        <prevpageid>853</prevpageid>
+        <nextpageid>855</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659316949</timecreated>
+        <timemodified>1662639841</timemodified>
+        <title>4.7.5: Interpreting Average Rates of Change with Real-World Examples</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+
+&lt;ol&gt;
+    &lt;li&gt; The graph shows the population of a city from 1900 to 2000.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/nfydLSjSnZHDq31H45RHwTDj" alt="A graph.&amp;nbsp;"&gt;&lt;/p&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;What is the average rate of change of the population between 1930 and 1950? Show your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers: &lt;/p&gt;
+        &lt;p&gt;About 250 people per year. The population was 40,000 in 1930 and about 45,000 in 1950, an increase of 5,000 people over 20 years, which equals 250 people per year.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;ol start="2"&gt;
+    &lt;li&gt;For each interval, decide if the average rate of change is positive or negative.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="A"&gt;
+            &lt;li&gt;from 1930 to 1940&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;positive&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="A" start="2"&gt;
+            &lt;li&gt;from 1950 to 1970&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;negative&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="A" start="3"&gt;
+            &lt;li&gt;from 1930 to 1970&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;negative&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;ol start="3"&gt;
+    &lt;li&gt;In which decade (10-year interval) did the population grow the fastest? Explain how you know.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;From 1910 to 1920. Sample reasoning: The graph has the steepest slope between the two points on the graph \((1910,22)\) and \((1920,32)\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1914">
+            <jumpto>851</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659316949</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1915">
+            <jumpto>855</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659316949</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="855">
+        <prevpageid>854</prevpageid>
+        <nextpageid>856</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659317096</timecreated>
+        <timemodified>1662639919</timemodified>
+        <title>4.7.6: Practice</title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+ 
+	&lt;!--Q1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="negative" data-solution-options="[&amp;quot;positive&amp;quot;, &amp;quot;negative&amp;quot;, &amp;quot;zero&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;li&gt; The temperature was recorded at several times during the day. Function \(T\) gives the temperature in degrees Fahrenheit, \(n\) hours since midnight. &lt;br&gt;
+                    &lt;br&gt;
+                    Here is a graph for this function. For each time interval, decide if the average rate of change is positive, negative, or zero:&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/628c3b7693e07969ceb66d4d1b9c3ed03f8a0fd9" alt="" role="presentation" width="300" height="278"&gt;&lt;/p&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="1"&gt;
+                    &lt;li&gt; From \(n = 1\) to \(n = 5\) &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.1 - 4.7.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is negative. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="positive" data-solution-options="[&amp;quot;positive&amp;quot;, &amp;quot;negative&amp;quot;, &amp;quot;zero&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt;From \(n = 5\) to \(n = 8\) &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.1 - 4.7.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is positive. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q1c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="positive" data-solution-options="[&amp;quot;positive&amp;quot;, &amp;quot;negative&amp;quot;, &amp;quot;zero&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt;From \(n = 10\) to \(n = 20\) &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.1 - 4.7.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is positive. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q1d--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="zero" data-solution-options="[&amp;quot;positive&amp;quot;, &amp;quot;negative&amp;quot;, &amp;quot;zero&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="4"&gt;
+                    &lt;li&gt;From \(n = 10\) to \(n = 20\) &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.1 - 4.7.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is zero. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q1e--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="negative" data-solution-options="[&amp;quot;positive&amp;quot;, &amp;quot;negative&amp;quot;, &amp;quot;zero&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="5"&gt;
+                    &lt;li&gt;From \(n = 20\) to \(n = 24\) &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.1 - 4.7.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is negative. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q2a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Between 80 and 100 seconds" data-solution-options="[&amp;quot;Between 0 and 40 seconds&amp;quot;, &amp;quot;Between 20 and 40 seconds&amp;quot;, &amp;quot;Between 80 and 100 seconds&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="2"&gt;
+                &lt;li&gt;The graph shows the total distance, in feet, walked by a person as a function of time, in seconds.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/fKKKdivd4pWJG1XMNkCHdDkW" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="318" height="239"&gt;&lt;/p&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="1"&gt;
+                    &lt;li&gt; Was the person walking faster between 20 and 40 seconds or between 80 and 100 seconds? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Between 80 and 100 seconds.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activities 4.7.1 - 4.7.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is between 80 and 100 seconds. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q2b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Between 0 and 40 seconds" data-solution-options="[&amp;quot;Between 0 and 40 seconds&amp;quot;, &amp;quot;Between 20 and 40 seconds&amp;quot;, &amp;quot;Between 80 and 100 seconds&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt;Was the person walking faster between 0 and 40 seconds or between 40 and 100 seconds? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Between 0 and 40 seconds.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activities 4.7.1 - 4.7.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is between 0 and 40 seconds. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q3A--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="The average rate of change is large and positive." data-solution-options="[&amp;quot;The average rate of change is negative.&amp;quot;, &amp;quot;The average rate of change is zero. &amp;quot;, &amp;quot;The average rate of change is small and positive.&amp;quot;, &amp;quot;The average rate of change is large and positive.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="3"&gt;
+                &lt;li&gt;The height, in feet, of a squirrel running up and down a tree is a function of time, in seconds.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;blockquote&gt;
+                &lt;p&gt;Here are statements describing the squirrel’s movement during four intervals of time. Match each description with a statement about the average rate of change of the function for that interval.&lt;/p&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; The average rate of change is negative. &lt;/li&gt;
+                    &lt;li&gt; The average rate of change is zero. &lt;/li&gt;
+                    &lt;li&gt; The average rate of change is small and positive. &lt;/li&gt;
+                    &lt;li&gt; The average rate of change is large and positive. &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/blockquote&gt;
+            &lt;ol type="A"&gt;
+                &lt;li&gt;The squirrel runs up the tree very fast.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The average rate of change is large and positive.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.1 - 4.7.5. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is, The average rate of change is large and positive. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q3b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="The average rate of change is zero." data-solution-options="[&amp;quot;The average rate of change is negative.&amp;quot;, &amp;quot;The average rate of change is zero.&amp;quot;, &amp;quot;The average rate of change is small and positive.&amp;quot;, &amp;quot;The average rate of change is large and positive.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="A" start="2"&gt;
+                &lt;li&gt;The squirrel starts and ends at the same height.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The average rate of change is zero.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.1 - 4.7.5. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is, The average rate of change is zero. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q3c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="The average rate of change is negative." data-solution-options="[&amp;quot;The average rate of change is negative.&amp;quot;, &amp;quot;The average rate of change is zero.&amp;quot;, &amp;quot;The average rate of change is small and positive.&amp;quot;, &amp;quot;The average rate of change is large and positive.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="A" start="3"&gt;
+                &lt;li&gt;The squirrel runs down the tree.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The average rate of change is negative.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.1 - 4.7.5. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is, The average rate of change is negative. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q3d--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="The average rate of change is small and positive." data-solution-options="[&amp;quot;The average rate of change is negative.&amp;quot;, &amp;quot;The average rate of change is zero.&amp;quot;, &amp;quot;The average rate of change is small and positive.&amp;quot;, &amp;quot;The average rate of change is large and positive.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="A" start="4"&gt;
+                &lt;li&gt;The squirrel runs up the tree slowly.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.1 - 4.7.5. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is, The average rate of change is small and positive.. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="-1.025 percent per year" data-solution-options="[&amp;quot;1.025 percent per year&amp;quot;, &amp;quot;-1.025 percent per year&amp;quot;, &amp;quot;0.35 percent per year&amp;quot;, &amp;quot;-2.4 percent per year&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="4"&gt;
+                &lt;li&gt;The percentage of voters ages 18 to 29 who participated in each United States presidential election between the years 1988 and 2016 is shown in the table.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;table cellspacing="0" cellpadding="5" border="1"&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;th width="83" valign="top"&gt;
+                            &lt;p align="center"&gt;&lt;strong&gt;year&lt;/strong&gt;&lt;/p&gt;
+                        &lt;/th&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;1988&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;1992&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;1996&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;2000&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;2004&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;2008&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;2012&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;2016&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;th width="83" valign="top"&gt;
+                            &lt;p align="center"&gt;&lt;strong&gt;percentage of voters ages 18–29&lt;/strong&gt;&lt;/p&gt;
+                        &lt;/th&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;35.7&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;42.7&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;33.1&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;34.5&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;45.0&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;48.4&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;40.9&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td width="60" valign="top"&gt;
+                            &lt;p align="center"&gt;43.4&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;p&gt;The function \(P\) gives the percent of voters ages 18 to 29 years old who participated in the election in year \(t\).&lt;/p&gt;
+
+            &lt;p&gt;Determine the average rate of change for \(P\) between 1992 and 2000.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp; -1.025 percent per year &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activities&amp;nbsp; 4.7.1 - 4.7.5 to test your understanding? Then come back and try this question again. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is -1.025 percent per year. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q5--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac25\)" data-solution-options="[&amp;quot;2&amp;quot;, &amp;quot;\\(\\frac25\\)&amp;quot;, &amp;quot;\\(-\\frac25\\)&amp;quot;, &amp;quot;6&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="5"&gt;
+                &lt;li&gt;Some points from a linear function, \(f(x)\), are listed in the table below. What is the rate of change of this linear function?&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;table cellpadding="5" border="1"&gt;
+                &lt;colgroup&gt;
+                    &lt;col&gt;
+                    &lt;col&gt;
+                    &lt;col&gt;
+                    &lt;col&gt;
+                    &lt;col&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;th&gt;
+                            &lt;p&gt;\(x\)&lt;/p&gt;
+                        &lt;/th&gt;
+                        &lt;td&gt;
+                            &lt;p&gt;0&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p&gt;5&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p&gt;10&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p&gt;15&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;th&gt;
+                            &lt;p&gt;\(f(x)\)&lt;/p&gt;
+                        &lt;/th&gt;
+                        &lt;td&gt;
+                            &lt;p&gt;4&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p&gt;6&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p&gt;8&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;p&gt;10&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(\frac25\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(\frac25\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--Q6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-3" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="6"&gt;
+                &lt;li&gt;Find the rate of change of the function, \(g(x)\), graphed below. &lt;strong&gt;Enter only integers.&lt;/strong&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/eeb492073a46c47fa8ff97bc8dcae77a0740168a" alt="GRAPH OF A LINE THAT PASSES THROUGH THE POINTS (0, 2) AND (1, −1)." width="300" height="304"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activity 4.7.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is -3. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--text input--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="7"&gt;
+                &lt;li&gt;What is the rate of change of the function \(h(x)= 4x -7\)? &lt;strong&gt;Enter only integers.&lt;/strong&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.7.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 4. You seem to be stuck. Who can you ask for help??&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Do not edit below this line--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1916">
+            <jumpto>854</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659317096</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1917">
+            <jumpto>856</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659317096</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="856">
+        <prevpageid>855</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659317323</timecreated>
+        <timemodified>1662639984</timemodified>
+        <title>4.7.7: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Explain the meaning of the term “average rate of change.”&lt;/li&gt;
+    &lt;li&gt;Estimate or calculate the average rate of change between two points from the graph of a function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.7.1: Comparing Changes in Output Based on Input&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you compared the change in output over different periods of the input while looking at a table. You made generalizations about the change over time, without finding the specific rate of change.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;4.7.2: Average Rate of Change and Slope&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you learned the average rate of change formula and how to apply it to data given in a table or a graph. You were then able to apply the formula to the generalizations you made in activity 4.7.1 to be more precise in your analysis.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;4.7.2: Self Check&lt;/li&gt;
+    &lt;li&gt;4.7.3: Finding and Interpreting Average Rates of Change
+        &lt;ul&gt;
+            &lt;li&gt;In this activity, you used the average rate of change formula to find the average rate of change from a graph. Once you found the average rate of change, you interpreted the average rate of change in the context of the problem.
+            &lt;/li&gt;
+            &lt;li&gt;4.7.3: Self Check&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;4.7.4 Rate of Change of Linear Functions&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you found the rate of change of linear functions from a graph, a table, and an equation.&lt;/li&gt;
+        &lt;li&gt;4.7.4: Self Check&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;4.7.5: Interpreting Average Rates of Change with Real-World Examples&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you determined if the rate of change was positive, negative, or zero. Then you looked at the rate of change more precisely and compared larger intervals of time on the graph.&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.7.6: Practice&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Checking In&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+
+    &lt;!--pulldown--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1918">
+            <jumpto>855</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659317323</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1919">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659317323</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

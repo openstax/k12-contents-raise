@@ -1,0 +1,2331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="88" moduleid="118" modulename="lesson" contextid="129">
+  <lesson id="88">
+    <course>2</course>
+    <name>Lesson 4.4: Using Function Notation to Describe Rules, Part 1</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>120</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1660880668</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="780">
+        <prevpageid>0</prevpageid>
+        <nextpageid>781</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659063392</timecreated>
+        <timemodified>1662637433</timemodified>
+        <title>4.4.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will use function notation to describe the rule of a function or how a function behaves at any value of input. In addition, you will represent situations symbolically to solve problems.&lt;/p&gt;
+
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Explain rules of functions when they are written in function notation and create tables and graphs to represent the functions.&lt;/li&gt;
+    &lt;li&gt;Write equations that represent the rules of functions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the&lt;strong&gt; activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.4.1: Using Function Notation in Tables of Values&lt;/li&gt;
+    &lt;li&gt;4.4.2: Defining Functions by a Rule&lt;/li&gt;
+    &lt;li&gt;4.4.2: Self Check&lt;/li&gt;
+    &lt;li&gt;4.4.3: Using Tables to Find Function Rules&lt;/li&gt;
+    &lt;li&gt;4.4.3: Self Check&lt;/li&gt;
+    &lt;li&gt;4.4.4: Writing a Rule Using Function Notation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.4.5: Practice&lt;/li&gt;
+    &lt;li&gt;4.4.6: Lesson Summary&lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1740">
+            <jumpto>781</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659063392</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="781">
+        <prevpageid>780</prevpageid>
+        <nextpageid>782</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659064509</timecreated>
+        <timemodified>1661055767</timemodified>
+        <title>4.4.1: Using Function Notation in Tables of Values</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+
+&lt;p&gt;Use the tables to answer each question.&lt;/p&gt;
+
+
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="134"&gt;
+        &lt;col width="142"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="20"&gt;
+                &lt;p&gt;\(x\)&lt;br&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="104"&gt;
+                &lt;p&gt;\(f(x)=10-2x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;8&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;1.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;7&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;–2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;14&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;br&gt;
+
+&lt;table width="153" border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="134"&gt;
+        &lt;col width="142"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="21"&gt;
+                &lt;p&gt;&lt;span&gt;\(x\)&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="100"&gt;
+                &lt;p&gt;\(g(x)=x^3\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;–2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;–8&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;27&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol&gt;
+      &lt;li&gt;What do you notice? &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+	  &lt;ul&gt;
+    &lt;li&gt;
+        The tables don't say “input” and “output.”&lt;/li&gt;
+    &lt;li&gt;
+        While there is a column labeled \(x\), there is not a column labeled \(y\).&lt;/li&gt;
+    &lt;li&gt;
+        One function is called \(f\). The other is called \(g\).&lt;/li&gt;
+    &lt;li&gt;
+        There’s an expression (rather than a number) on the right side of the equation \(f(x)=10−2x\) and \(g(x)=x^3\).
+    &lt;/li&gt;
+    &lt;li&gt;
+        If we substitute the values in the left column for the \(x\) in the expression, we get the values in the right column.
+    &lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="2"&gt;
+      &lt;li&gt;What do you wonder?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+	  &lt;ul&gt;
+    &lt;li&gt;
+        Why is \(x\) on the right side of the equal sign?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Are there rules about how to name functions?
+    &lt;/li&gt;
+    &lt;li&gt;
+        What does each equation, \(f(x)=10-2x\) and \(g(x)=x^3\), mean?
+    &lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1741">
+            <jumpto>780</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659064509</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1742">
+            <jumpto>782</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659064509</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="782">
+        <prevpageid>781</prevpageid>
+        <nextpageid>783</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659105987</timecreated>
+        <timemodified>1661098286</timemodified>
+        <title>4.4.2: Defining Functions by a Rule</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;Match each equation with a verbal description that represents the same function. &lt;/p&gt;
+
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+
+	
+	
+	
+	&lt;!--Q1a--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="To get the output, multiply the input by 3, then subtract 7 from the result." data-solution-options="[&amp;quot;To get the output, subtract 7 from the input, then divide the result by 3.&amp;quot;, &amp;quot;To get the output, subtract 7 from the input, then multiply the result by 3.&amp;quot;, &amp;quot;To get the output, multiply the input by 3, then subtract 7 from the result.&amp;quot;, &amp;quot;To get the output, divide the input by 3, and then subtract 7 from the result.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a"&gt;
+              &lt;li&gt;\(𝑓(𝑥)=3𝑥−7\)&lt;/li&gt;
+            &lt;/ol&gt;
+                
+     &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! To get the output, multiply the input by 3, then subtract 7 from the result.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+	&lt;br&gt;
+	&lt;br&gt;
+&lt;!--END QUESTION.--&gt;	
+	
+		&lt;!--Q1b--&gt;
+	 &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="To get the output, subtract 7 from the input, then multiply the result by 3." data-solution-options="[&amp;quot;To get the output, subtract 7 from the input, then divide the result by 3.&amp;quot;, &amp;quot;To get the output, subtract 7 from the input, then multiply the result by 3.&amp;quot;, &amp;quot;To get the output, multiply the input by 3, then subtract 7 from the result.&amp;quot;, &amp;quot;To get the output, divide the input by 3, and then subtract 7 from the result.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="2"&gt;
+              &lt;li&gt;\(g(x) =3(x−7)\)&lt;/li&gt;
+            &lt;/ol&gt;
+                
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! To get the output, subtract 7 from the input, then multiply the result by 3.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+	
+&lt;!--END QUESTION.--&gt;	
+	
+	&lt;br&gt;
+	&lt;br&gt;
+&lt;!--END QUESTION.--&gt;	
+	
+		&lt;!--Q1c--&gt;
+	 &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="To get the output, divide the input by 3, and then subtract 7 from the result." data-solution-options="[&amp;quot;To get the output, subtract 7 from the input, then divide the result by 3.&amp;quot;, &amp;quot;To get the output, subtract 7 from the input, then multiply the result by 3.&amp;quot;, &amp;quot;To get the output, multiply the input by 3, then subtract 7 from the result.&amp;quot;, &amp;quot;To get the output, divide the input by 3, and then subtract 7 from the result.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="3"&gt;
+              &lt;li&gt;\(h(x)\;=\;\frac x3-7\)&lt;/li&gt;
+            &lt;/ol&gt;
+                
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! To get the output, divide the input by 3, and then subtract 7 from the result.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+	
+&lt;!--END QUESTION.--&gt;	
+	&lt;br&gt;
+	&lt;br&gt;
+&lt;!--END QUESTION.--&gt;	
+	
+		&lt;!--Q1d--&gt;
+	 &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="To get the output, subtract 7 from the input, then divide the result by 3." data-solution-options="[&amp;quot;To get the output, subtract 7 from the input, then divide the result by 3.&amp;quot;, &amp;quot;To get the output, subtract 7 from the input, then multiply the result by 3.&amp;quot;, &amp;quot;To get the output, multiply the input by 3, then subtract 7 from the result.&amp;quot;, &amp;quot;To get the output, divide the input by 3, and then subtract 7 from the result.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="4"&gt;
+              &lt;li&gt;\(h(x)\;=\;\frac x3-7\)&lt;/li&gt;
+            &lt;/ol&gt;
+                
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! To get the output, subtract 7 from the input, then divide the result by 3.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+	
+&lt;!--END QUESTION.--&gt;	
+	
+	&lt;br&gt;
+	&lt;br&gt;
+	&lt;!--Q2--&gt;
+
+   &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="g(x)" data-solution-options="[&amp;quot;f(x)&amp;quot;, &amp;quot;g(x)&amp;quot;, &amp;quot;h(x)&amp;quot;, &amp;quot;k(x)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+           &lt;ol start="2"&gt;
+            &lt;li&gt;For one of the functions, when the input is 6, the output is –3. Which is that function: \(f\), \(g\), \(h\), or \(k\)? Explain how you know. &lt;/li&gt;
+        &lt;/ol&gt;
+            
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! g(x), because when x is 6, the expression 3(x−7) has a value of -3.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+	
+	&lt;!--END QUESTION.--&gt;
+	
+	
+	
+	 &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt;Which function value \(f(x)\), \(g(x)\), \(h(x)\), or \(k(x)\), is the greatest when the input is 0? &lt;br&gt;What about when the input is 10? &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack" style="margin-left: 30px;"&gt;
+
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;When \(x\) is 0, \(k(x)\) has the greatest value. When \(x\) is 10, \(f(x)\) has the greatest value.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+
+        &lt;p&gt;Mai says \(f(x)\) is always greater than \(g(x)\) for the same value of \(x\). Is this true? Explain how you know.&lt;/p&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;Yes. Here is a possible explanation: Rewrite \(g(x)\) as \(g(x)=3x-21\). Then, to get the output of both functions, we first multiply the input, \(x\), by 3 to get \(3x\), and then we subtract a value from it. For function \(f\), we subtract 7. For function \(g\), we subtract 21. The output of \(g\) will always be 14 less than that of \(f\).
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1743">
+            <jumpto>781</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659105987</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1744">
+            <jumpto>783</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659105987</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="783">
+        <prevpageid>782</prevpageid>
+        <nextpageid>784</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659110517</timecreated>
+        <timemodified>1659524533</timemodified>
+        <title>4.4.2: Self Check </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Which function has the least value when \(x =0\)?&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1745">
+            <jumpto>784</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659110517</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=2x+1\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Substitute \(x=0\): \(2(0)+1 =1\). Check all of the functions. One is not the least value. The answer is \(f(x)=2(x-1)\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1746">
+            <jumpto>787</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659110517</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=3x\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;	
+Incorrect. Let’s try again a different way: Substitute \(x=0\): \(3(0) = 0\). Check all of the functions. Zero is not the least value. The answer is \(f(x)=2(x-1)\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1747">
+            <jumpto>785</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659110517</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=2(x-1)\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Substitute \(x=0\) and \(2(0-1)=2(-1)=-2\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1748">
+            <jumpto>784</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659110517</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=-4x +5\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Substitute \(x=0\): \(-4(0)+5 =5\). This is the greatest value, not the least value. The answer is \(f(x)=2(x-1)\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1749">
+            <jumpto>784</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659110517</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="784">
+        <prevpageid>783</prevpageid>
+        <nextpageid>785</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659110718</timecreated>
+        <timemodified>1661056149</timemodified>
+        <title>4.4.2: Additional Resources </title>
+        <contents>&lt;h4&gt;Evaluating Functions with Function Notation&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Find the Value of a Function&lt;/strong&gt;&lt;br&gt;
+    It is very convenient to name a function, and most often we name it \(f\), \(g\), or \(h\). In any function, for each \(x\)-value from the domain we get a corresponding \(y\)-value in the range. For the function \(f\), we write this range value \(y\) as \(f(x)\). This is called function notation, and is read \(f\) of \(x\) or the value of \(f\) at \(x\). In this case, the parentheses do not indicate multiplication.&lt;/p&gt;
+
+&lt;h5&gt;Function Notation&lt;/h5&gt;
+&lt;p&gt;For the function \(y=f(x)\):&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;\(f\) is the name of the function.
+    &lt;/li&gt;
+    &lt;li&gt;
+        \(x\) is the input value.&lt;/li&gt;
+    &lt;li&gt;\(f(x)\) is the output value, \(y\), corresponding to the value of \(x\).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We read \(f(x)\) as \(f\) of \(x\) or the value of \(f\) at \(x\).&lt;/p&gt;
+
+&lt;p&gt;We call \(x\) the independent variable as it can be any value in the domain. We call \(y\) the dependent variable as its value depends on \(x\).&lt;/p&gt;
+
+&lt;h5&gt;Independent and Dependent Variables&lt;/h5&gt;
+&lt;p&gt;For the function \(y=f(x)\),&lt;/p&gt;
+
+&lt;p&gt;\(x\) is the independent variable as it can be any value.&lt;/p&gt;
+&lt;p&gt;\(y\) is the dependent variable as its value depends on \(x\).&lt;/p&gt;
+
+&lt;p&gt;Much as when you first encountered the variable \(x\), function notation may be rather unsettling. It seems strange because it is new. You will feel more comfortable with the notation as you use it.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at the equation \(y=4x-5\). To find the value of \(y\) when \(x=2\), we know to substitute \(x=2\) into the equation and then simplify.&lt;/p&gt;
+
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Original Equation&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=4x−5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Substitute \(x=2\) in for \(x\).&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=4(2)-5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Simplify.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=3\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+&lt;p&gt;The value of the function at \(x=2\) is 3.&lt;/p&gt;
+
+&lt;p&gt;We can do the same thing using function notation. The equation \(y=4x-5\) can be written as \(f(x)=4x-5\). To find the value when \(x=2\), we write:&lt;/p&gt;
+
+
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Original Equation&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x)=4x−5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Substitute \(x=2\) in for \(x\).&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(2)=4(2)-5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Simplify.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(2)=3\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;br&gt;
+&lt;p&gt;The value of the function at \(x=2\) is 3.&lt;/p&gt;
+
+&lt;p&gt;This process of finding the value of \(f(x)\) for a given value of \(x\) is called evaluating the function.&lt;/p&gt;
+
+&lt;h4&gt;Try It: Evaluating Functions with Function Notation&lt;/h4&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;div class="os-raise-ib-cta-content" style="margin-left: 30px;"&gt;
+        &lt;p&gt;Find the value of \(f(x)= 5x + 2\) when \(x = 3\).&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt" style="margin-left: 30px;"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0" style="margin-left: 30px;"&gt;
+    &lt;p&gt;Here is how to evaluate a function:&lt;/p&gt;
+
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Original Equation&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(f(x)= 5x + 2\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Substitute \(x=3\) in for \(x\).&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(f(3)= 5(3) + 2\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Simplify.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(f(3)=17\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+
+    &lt;br&gt;
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1750">
+            <jumpto>783</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659110718</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1751">
+            <jumpto>785</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659110718</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="785">
+        <prevpageid>784</prevpageid>
+        <nextpageid>786</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659137246</timecreated>
+        <timemodified>1662637531</timemodified>
+        <title>4.4.3: Using Tables to Find Function Rules</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;A square that has a side length of 9 cm has an area of 81 \(cm^2\). The relationship between the side length and the area of the square is a function.
+        &lt;br&gt;
+        &lt;br&gt;
+        For questions a-e use the table by answering each question.
+	&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="123"&gt;
+        &lt;col width="211"&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th scope="col"&gt;
+                &lt;p&gt;side length (cm)&lt;/p&gt;
+            &lt;/th&gt;
+            &lt;th scope="col"&gt;
+                &lt;p&gt;area (cm2)&lt;/p&gt;
+            &lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;a. _______&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;b. _______&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;4&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;c. _______&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;6&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;d. _______&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(s\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                e. _______
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    &lt;!--Q1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt;What is the area in \(cm^2\) when the side length is \(1 cm\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The area is 1 \(cm^2\) when the side length is \(1 cm\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; The correct answer is 1. The area is \(1 cm^2\) when the side length is \(1 cm\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;!--Q1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="2"&gt;
+                &lt;li&gt;What is the area in \(cm^2\) when the side length is \(2 cm\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The area is 4 \(cm^2\) when the side length is \(2 cm\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; The correct answer is 4. The area is \(4 cm^2\) when the side length is \(2 cm\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;!--Q1c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="16" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="3"&gt;
+                &lt;li&gt;What is the area in \(cm^2\) when the side length is \(4 cm\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The area is \(16 cm^2\) when the side length is \(4 cm\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; The correct answer is 16. The area is \(16 cm^2\) when the side length is \(4 cm\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;!--Q1d--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="36" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="4"&gt;
+                &lt;li&gt;What is the area in \(cm^2\) when the side length is \(6 cm\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The area is \(36 cm^2\) when the side length is \(6 cm\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; The correct answer is 36. The area is \(36 cm^2\) when the side length is \(6 cm\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="5"&gt;
+            &lt;li&gt;In your math notebook, write a rule for a function, A, that gives the area of the square in cm2 when the side length is s cm, then click solution to compare your answer.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;\(A(s)= s^2\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="6"&gt;
+            &lt;li&gt;What does \(A(2)\) represent in this situation? What is its value? Write your answers in your math notebook, then click &lt;strong&gt;solution&lt;/strong&gt; to compare your answer.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;\(A(2)\) is the area of the square in cm2 when the side length is 2 cm. Its value is 4.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol type="a" start="7"&gt;
+            &lt;li&gt;Use the Desmos graphing tool above or technology outside the course.
+                &lt;br&gt;
+                &lt;br&gt;
+                Sketch a graph of this function.
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your answer: &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Kqoz7NyVcNHr132oFRkPyVks" alt="" width="315" height="199" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;ol start="2"&gt;
+    &lt;li&gt;A roll of paper that is 3 feet wide can be cut to any length.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    &lt;!--Q2a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="11" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt;If we cut a length of 2.5 feet, what is the perimeter of the paper?&lt;br&gt;
+                    &lt;br&gt;
+                    &lt;img src="https://s3.amazonaws.com/im-ims-export/drVY1s6rLrr2jTtSUhBDD2Ue" alt="Roll of paper, slightly unrolled. Its width is 3 feet." width="300"&gt;&lt;br&gt;
+                    &lt;br&gt;
+                    Enter your answer in feet. &lt;strong&gt;Use integers only.&lt;/strong&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The perimeter of the paper is 11 feet. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; The correct answer is 11. The perimeter of the paper is 11 feet.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;For questions b-f, keep in mind that the roll of paper is 3 feet wide. Complete the table by answering each question.&lt;/p&gt;
+&lt;br&gt;
+
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="141"&gt;
+        &lt;col width="215"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;side length (feet)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;perimeter (feet)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;a. _______&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;b. _______&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;11&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;c. _______&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(l\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;d. _______&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    &lt;!--Q2b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="8" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="2"&gt;
+                &lt;li&gt;If we cut a length of 2.5 feet, what is the perimeter of the paper?&lt;br&gt;
+                    &lt;br&gt;
+                    Enter your answer here. &lt;strong&gt;Enter only digits.&lt;/strong&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The perimeter is 8 feet when the side length is \(1 cm\) \((1+3+1+3=8)\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; The correct answer is 8. The perimeter is 8 feet when the side length is \(1 cm) \((1+3+1+3=8)\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;!--Q2c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="10" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="3"&gt;
+                &lt;li&gt;What is the perimeter in feet when the side length is 2 feet?&lt;br&gt;
+                    &lt;br&gt;
+
+                    Enter your answer here. &lt;strong&gt;Enter only digits.&lt;/strong&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The perimeter is 10 feet when the side length is \(2 cm\) \((2+3+2+3=10)\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; The correct answer is 10. The perimeter is 10 feet when the side length is \(2 cm\) \((2+3+2+3=10)\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+
+    &lt;!--Q2d--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="18.6" data-problem-comparator="float"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="4"&gt;
+                &lt;li&gt;What is the perimeter in feet when the side length is 6.3 feet?&lt;br&gt;
+                    &lt;br&gt;
+
+                    Enter your answer here. &lt;strong&gt;Enter only digits and decimals.&lt;/strong&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The perimeter is 18.6 feet when the side length is \(6.3 cm\) \((6.3+3+6.3+3=18.6)\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; The correct answer is 18.6. The perimeter is 18.6 feet when the side length is \(6.3 cm\) \((6.3+3+6.3+3=18.6)\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+
+
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;!--Q2e--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="28" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="5"&gt;
+                &lt;li&gt;What is the perimeter in feet when the side length is 11 feet?&lt;br&gt;
+                    &lt;br&gt;
+
+                    Enter your answer here. &lt;strong&gt;Enter only digits.&lt;/strong&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The perimeter is 28 feet when the side length is \(11 cm\) \((11+3+11+3=28)\).
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt; The correct answer is 28. The perimeter is 28 feet when the side length is \(11 cm\) \((11+3+11+3=28)\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol type="a" start="6"&gt;
+            &lt;li&gt;In your math notebook, write a rule for a function, P, that gives the perimeter of the paper in feet when the side length in feet is &lt;em&gt;i&lt;/em&gt;.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Click &lt;strong&gt;solution&lt;/strong&gt; to compare your answer.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;\(P(l)=6+2l\)&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol type="a" start="7"&gt;
+            &lt;li&gt;What does P(11) represent in this situation? What is its value?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write your answers in your notebook, then click &lt;strong&gt;solution&lt;/strong&gt; to compare your answer.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;\(P(11)\) is the perimeter of the paper in feet when the paper is cut at a length of 11 feet. Its value is 28&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
+
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol type="a" start="8"&gt;
+            &lt;li&gt;Use the Desmos graphing tool above or technology outside the course.&lt;br&gt;
+                &lt;br&gt;
+                Sketch a graph of this function.
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; to compare your answer:&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/YqaqeduYtgFUf1223yQa1veU"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;h4&gt;Video: Writing Function Rules&lt;/h4&gt;
+
+&lt;p&gt;Watch the following video to learn more about writing rules with function notation.&lt;/p&gt;
+
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/0b0b2954ac7af8795e4139744d9614b45807b6d2"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/4bc18e6127fd40ef370bb23db8e3080523984086" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/0b0b2954ac7af8795e4139744d9614b45807b6d2
+&lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1752">
+            <jumpto>782</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659137246</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1753">
+            <jumpto>786</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659137246</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="786">
+        <prevpageid>785</prevpageid>
+        <nextpageid>787</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659137653</timecreated>
+        <timemodified>1660317873</timemodified>
+        <title>4.4.3: Self Check </title>
+        <contents>&lt;p&gt;Which function rule can describe the table below?&lt;/p&gt;
+
+
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="147"&gt;
+        &lt;col width="154"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td width="34"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td width="35"&gt;
+                &lt;p&gt;\(y\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;11&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1754">
+            <jumpto>787</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659137653</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=x+3\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: When 1 is substituted for \(x\), \((1)+3=4\), not 3. This function does not work for the values. The answer is \(f(x)=2x+1\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1755">
+            <jumpto>788</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659137653</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=2x+1\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: When \(x =1\), \(2(1)+1=3\), when \(x=2\), \(2(2)+1=5\), and when \(x=5\), \(2(5)+1=11\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1756">
+            <jumpto>787</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659137653</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=2x+2\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: When 1 is substituted for \(x\), \(2(1)+2=4\), not 3. This function does not work for all values. The answer is \(f(x)=2x+1\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1757">
+            <jumpto>787</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659137653</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=x+2\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: While this rule works for the first row of the table, when \(x = 2\), \((2)+2=4\), not 5, so the rule does not work for all values in the table. The answer is \(f(x)=2x+1\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1758">
+            <jumpto>787</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659137653</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="787">
+        <prevpageid>786</prevpageid>
+        <nextpageid>788</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659137825</timecreated>
+        <timemodified>1662637638</timemodified>
+        <title>4.4.3: Additional Resources </title>
+        <contents>&lt;h4&gt;Write the Function Rule from a Table&lt;/h4&gt;
+
+&lt;p&gt;Kelly can tune 6 cars in 3 hours. The table below is completed to show this relationship. The last column has the output for any \(x\). This is the rule of the function.&lt;/p&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Time spent tuning cars (\(x\))&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;6&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;7&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Number of cars tuned up (\(y\))&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;4&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;6&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;12&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;14&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(2x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+&lt;p&gt;Kelly can tune 6 cars in 3 hours or 2 cars in 1 hour, so the function rule is \(f(x)=2x\).&lt;/p&gt;
+
+&lt;h4&gt;Try It: Write the Function Rule from a Table&lt;/h4&gt;
+
+&lt;p&gt;Determine the rule in function notation for the table below:&lt;/p&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x\) (input)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;4&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y\) (output)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;8&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;11&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;14&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;?&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;Here is how to find the rule in function notation:&lt;/p&gt;
+    &lt;p&gt;In the table, every \(x\) is multiplied by 3, and then 2 is added. The rule is:&lt;/p&gt;
+    &lt;p&gt;\(f(x) = 3x + 2\)&lt;/p&gt;
+    &lt;br&gt;
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1759">
+            <jumpto>786</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659137825</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1760">
+            <jumpto>788</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659137825</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="788">
+        <prevpageid>787</prevpageid>
+        <nextpageid>789</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659138515</timecreated>
+        <timemodified>1662637706</timemodified>
+        <title>4.4.4: Writing a Rule Using Function Notation</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Complete the table with the perimeter of a square for each given side length.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="169"&gt;
+        &lt;col width="159"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;side length (inches)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;perimeter (inches)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;0.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;a. ______&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;7&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;b. ______&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;20&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;c. ______&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;a. ______&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;2&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;b. ______&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;28&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;c. ______&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;80&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;Write a rule for a function, \(P\), that gives the perimeter of a square in inches when the side length is \(x\) inches.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(P(x)=4x\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt;What is the value of \(P(9.1)\)? What does it tell us about the side length and perimeter of the square?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;\(P(9.1)=36.4\). It tells us that when the side length of the square is 9.1 inches, the perimeter of the square is 36.4 inches.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1761">
+            <jumpto>785</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659138515</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous </answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1762">
+            <jumpto>789</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659138515</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="789">
+        <prevpageid>788</prevpageid>
+        <nextpageid>790</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659138625</timecreated>
+        <timemodified>1662637831</timemodified>
+        <title>4.4.5: Practice </title>
+        <contents>&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+
+&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    &lt;!--Q1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="To get the output, multiply the input by 2, then add 4 to the result." data-solution-options="[&amp;quot;To get the output, add 4 to the input, then multiply the result by 2.&amp;quot;, &amp;quot;To get the output, add 2 to the input, then multiply the result by 4.&amp;quot;, &amp;quot;To get the output, multiply the input by 2, then add 4 to the result.&amp;quot;, &amp;quot;To get the output, multiply the input by 4, then add 2 to the result.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="1"&gt;
+                &lt;li&gt;Match each equation with a verbal description that represents the same function.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol type="a" start="1"&gt;
+                &lt;li&gt;\(f(x)=2x+4\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp; To get the output, multiply the input by 2, then add 4 to the result.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is to get the output, multiply the input by 2, then add 4 to the result. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="To get the output, add 4 to the input, then multiply the result by 2." data-solution-options="[&amp;quot;To get the output, add 4 to the input, then multiply the result by 2.&amp;quot;, &amp;quot;To get the output, add 2 to the input, then multiply the result by 4.&amp;quot;, &amp;quot;To get the output, multiply the input by 2, then add 4 to the result.&amp;quot;, &amp;quot;To get the output, multiply the input by 4, then add 2 to the result.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="2"&gt;
+                &lt;li&gt;\(g(x)=2(x+4) \)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp; To get the output, add 4 to the input, then multiply the result by 2.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is To get the output, add 4 to the input, then multiply the result by 2&lt;strong&gt;.&lt;/strong&gt; You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q1c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="To get the output, multiply the input by 4, then add 2 to the result." data-solution-options="[&amp;quot;To get the output, add 4 to the input, then multiply the result by 2.&amp;quot;, &amp;quot;To get the output, add 2 to the input, then multiply the result by 4.&amp;quot;, &amp;quot;To get the output, multiply the input by 2, then add 4 to the result.&amp;quot;, &amp;quot;To get the output, multiply the input by 4, then add 2 to the result.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="3"&gt;
+                &lt;li&gt;\(h(x)=4x+2\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp; To get the output, multiply the input by 4, then add 2 to the result.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is to get the output, multiply the input by 4, then add 2 to the result. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q1d--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="To get the output, add 2 to the input, then multiply the result by 4." data-solution-options="[&amp;quot;To get the output, add 2 to the input, then multiply the result by 2.&amp;quot;, &amp;quot;To get the output, add 2 to the input, then multiply the result by 4.&amp;quot;, &amp;quot;To get the output, multiply the input by 2, then add 4 to the result.&amp;quot;, &amp;quot;To get the output, multiply the input by 4, then add 2 to the result.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a" start="4"&gt;
+                &lt;li&gt;\(k(x)=4(x+2)\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp; To get the output, add 2 to the input, then multiply the result by 4.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is To get the output, add 2 to the input, then multiply the result by 4. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="A(x)=25+10x" data-solution-options="[&amp;quot;A(x)=25+10x&amp;quot;, &amp;quot;B(x)=80-15x&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="2"&gt;
+                &lt;li&gt;Functions A and B are defined by these equations.&lt;br&gt;
+                    \(A(x)=25+10x\) &lt;br&gt;\(B(x)=80-15x\) &lt;br&gt;
+                    Which function has a greater value when \(x\) is 2.5? &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp; Function A has a greater value because B(2.5)=42.5 and A(2.5)=50.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.4.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is Function A has a greater value because \(B(2.5)=42.5\) and \(A(2.5)=50\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(f(x)=2x-7\)" data-solution-options="[&amp;quot;\\(f(x)=2x-7\\)&amp;quot;, &amp;quot;\\(f(x)=-3x+1\\)&amp;quot;, &amp;quot;\\(f(x)= -5x+2\\)&amp;quot;, &amp;quot;\\(f(x)=x-10\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="3"&gt;
+                &lt;li&gt;Which function is greater when \(x = 4\)? &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(f(x)=2x -7\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(f(x)=2x -7\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(f(x)=2x-1\)" data-solution-options="[&amp;quot;\\(f(x)=x+1\\)&amp;quot;, &amp;quot;\\(f(x)=3x-3\\)&amp;quot;, &amp;quot;\\(f(x)=2x-1\\)&amp;quot;, &amp;quot;\\(f(x)=x+2\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="4"&gt;
+                &lt;li&gt;Which function rule describes the table below: &lt;br&gt;
+                    &lt;table border="1" cellpadding="5"&gt;
+                        &lt;colgroup&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                        &lt;/colgroup&gt;
+                        &lt;tbody&gt;
+                            &lt;tr style="border: 1px solid black;"&gt;
+                                &lt;th&gt;
+                                    &lt;p&gt;x&lt;/p&gt;
+                                &lt;/th&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;2&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;3&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;4&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;5&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;6&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr style="border: 1px solid black;"&gt;
+                                &lt;th&gt;
+                                    &lt;p&gt;y&lt;/p&gt;
+                                &lt;/th&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;3&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;5&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;7&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;9&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;11&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                    &lt;/table&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(f(x)=2x-1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 4.4.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(f(x)=2x-1\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q5--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(g(x)=2(x-4)\)" data-solution-options="[&amp;quot;\\(g(x)=2x-4\\)&amp;quot;, &amp;quot;\\(g(x)=-4-2x\\)&amp;quot;, &amp;quot;\\(g(x)=x -8\\)&amp;quot;, &amp;quot;\\(g(x)=2(x-4)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="5"&gt;
+                &lt;li&gt;Write a function \(g(x)\) for the following statement: to get the output, subtract 4 from the input, then multiply the result by 2.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(g(x)=2(x-4)\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.4.1. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(g(x)=2(x-4)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(h(x)=5x+2\)" data-solution-options="[&amp;quot;\\(h(x)=5(x+2)\\)&amp;quot;, &amp;quot;\\(h(x)=5x+2\\)&amp;quot;, &amp;quot;\\(h(x)=x +2(5)\\)&amp;quot;, &amp;quot;\\(h(x)=x+2\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="6"&gt;
+                &lt;li&gt;Write a function h(x) for the following statement: to get the output, multiply the input by 5 and then add 2.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(h(x)=5x+2\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 4.4.1 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(h(x)=5x+2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q7--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="-7" data-solution-options="[&amp;quot;7&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;-1&amp;quot;, &amp;quot;-7&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="7"&gt;
+                &lt;li&gt;Find the value of \(f(x)=−2x−3\) when \(x=2\).&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! -7&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is -7. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q8--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="8" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="8"&gt;
+                &lt;li&gt;Write the rule from the table, then find the value of g(2.5). Enter the integer answer only.
+                    &lt;table border="1" cellpadding="5"&gt;
+                        &lt;colgroup&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                            &lt;col style="border: 1px solid black;"&gt;
+                        &lt;/colgroup&gt;
+                        &lt;tbody&gt;
+                            &lt;tr style="border: 1px solid black;"&gt;
+                                &lt;th&gt;
+                                    &lt;p&gt;x&lt;/p&gt;
+                                &lt;/th&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;1&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;2&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;3&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;4&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr style="border: 1px solid black;"&gt;
+                                &lt;th&gt;
+                                    &lt;p&gt;g(x)&lt;/p&gt;
+                                &lt;/th&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;2&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;6&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;10&lt;/p&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;p&gt;14&lt;/p&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                    &lt;/table&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(g(x)=4x-2\), \(g(2.5)=8\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 4.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(g(x)=4x-2\), \(g(2.5)=8\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Do not edit below this line--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1763">
+            <jumpto>788</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659138625</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous </answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1764">
+            <jumpto>790</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659138625</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="790">
+        <prevpageid>789</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659138882</timecreated>
+        <timemodified>1662637910</timemodified>
+        <title>4.4.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Explain rules of functions when they are written in function notation and create tables and graphs to represent the functions.&lt;/li&gt;
+    &lt;li&gt;Write equations that represent the rules of functions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.4.1: Using Function Notation in Tables of Values&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you made observations about tables of values that incorporated function notation.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;4.4.2: Defining Functions by a Rule&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you matched equations that used function notation to their descriptions. You also compared output values when the same input was entered into different equations.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;4.4.2: Self Check&lt;/li&gt;
+    &lt;li&gt;4.4.3: Using Tables to Find Function Rules&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you worked to find function rules for a table of values. You also determined the meaning of values given function notation in the context of the problem. You then sketched a graph of the function.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;4.4.3: Self Check&lt;/li&gt;
+    &lt;li&gt;4.4.4: Writing a Rule Using Function Notation&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt;In this activity, you wrote a rule from a table of values in function notation. You then used that rule to find other values of the function.&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.4.5: Practice&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Checking In&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+
+    &lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!----------------- Must be included at the bottom of page for dropdown to work ------------&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1765">
+            <jumpto>789</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659138882</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1766">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659138882</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

@@ -1,0 +1,2395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="114" moduleid="150" modulename="lesson" contextid="161">
+  <lesson id="114">
+    <course>2</course>
+    <name>Lesson 4.17: The nth Term of an Arithmetic Sequence</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1660880801</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1039">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1040</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659830248</timecreated>
+        <timemodified>1662583783</timemodified>
+        <title>4.17.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will learn how a function can be represented by two different equations. You will find any term of an arithmetic sequence directly, by using the nth term formula to find any term number \(n\).&lt;/p&gt;
+
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Describe the nth term.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Find terms of sequences directly.&lt;br&gt;&lt;/li&gt;&lt;li&gt;
+    Explain why different equations can represent the same sequence.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    4.17.1: Repeated Addition Is Multiplication
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.17.2: Define a Sequence by the nth Term&lt;/li&gt;
+  &lt;li&gt;
+    4.17.2: Self Check
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.17.3: Identify a Domain for a Function
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.17.3: Self Check
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.17.4: Interchanging Between Formulas
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.17.4: Self Check
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.17.5: Different Types of Equations
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    4.17.6: Practice
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.17.7: Lesson Summary
+  &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2327">
+            <jumpto>1040</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659830248</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1040">
+        <prevpageid>1039</prevpageid>
+        <nextpageid>1041</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659830474</timecreated>
+        <timemodified>1662584681</timemodified>
+        <title>4.17.1: Repeated Addition Is Multiplication</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+
+&lt;p&gt;Which one doesn’t belong?&lt;/p&gt;
+
+&lt;p&gt;A. \(5+2+2+2+2+2+2\)&lt;/p&gt;
+
+&lt;p&gt;B. \(5+6 \cdot 2\)&lt;/p&gt;
+
+&lt;p&gt;C. \(5 \cdot 2^6\)&lt;/p&gt;
+
+&lt;p&gt;D. \(5 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2\)&lt;/p&gt;
+
+
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;A doesn’t belong because:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                It is the only expression with repeated addition.
+            &lt;/li&gt;
+            &lt;li&gt;
+                It is the only expression that only has addition.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;B doesn’t belong because:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                It is the only expression with both addition and multiplication.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;C doesn’t belong because:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                It is the only expression with an exponent.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;D doesn’t belong because:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                It is the only expression with repeated multiplication.
+            &lt;/li&gt;
+            &lt;li&gt;
+                It is the only expression that only has multiplication.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2328">
+            <jumpto>1039</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659830474</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2329">
+            <jumpto>1041</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659830474</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1041">
+        <prevpageid>1040</prevpageid>
+        <nextpageid>1042</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659831624</timecreated>
+        <timemodified>1662584790</timemodified>
+        <title>4.17.2: Define a Sequence by the nth Term</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt;Clare takes a piece of paper with length 8 inches and width 10 inches and cuts it in half. Then she cuts it in half again, and again . . .&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;Instead of writing a recursive definition, Clare writes \(C(n)=80 \cdot(\frac12)^n\), where \(C\) is the area, in square inches, of the paper after \(n\) cuts. Explain where the different terms in her expression came from.
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;Each cut halves the area, and there are \(n\) cuts. The original area is 80, so \(80 \cdot \frac12 \cdot \frac12 \cdot \cdot \cdot \cdot \cdot \frac12\) with \(n\) multiplications of \(\frac12\) is the same as saying \(80 \cdot (\frac{1}{2})^n\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt;Approximately what is the area of the paper after 10 cuts?
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;Approximately 0.078 square inches (exactly \(\frac{80}{1024}\) inches)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;
+        Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1 inch of the width. Then he does it again, and again . . .
+    &lt;/li&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;
+            Complete the table for the area of Kiran’s paper \(K(n)\), in square inches, after \(n\) cuts.
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="56"&gt;
+        &lt;col width="440"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(n\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(K(n)\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;0&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;80&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(80−8−8=80−8(2)=64\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;4&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt; When \(n\) is 1, \(K(n)\) is 72.&lt;br&gt;
+            When \(n\) is 3,
+            \(K(n)\) is 56.&lt;br&gt;
+            When \(n\) is 4,
+            \(K(n)\) is 48.&lt;br&gt;
+            When \(n\) is 5,
+            \(K(n)\) is 40.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt;Kiran says the area after 6 cuts, in square inches, is \(80−8 \cdot6\). Explain where the different terms in his expression came from.
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;Each cut removes 8 square inches, so 6 cuts removes 48 square inches. The original area was 80 square inches, so the remaining area, in square inches, is \(80−8 \cdot 6\).
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="3"&gt;
+            &lt;li&gt;Write a definition for \(K(n)\) that is not recursive.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;\( K(n)=80−8n\) for integers \(0\leq n\leq9\) or equivalent.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+
+
+
+&lt;ol start="3"&gt;
+
+    &lt;li&gt;Which is larger, \(K(6)\) or \(C(6)\)?&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(K(6)\) is larger.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;ol start="4"&gt;
+
+    &lt;li&gt;Is \(K(n)\) arithmetic or geometric?&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(K(n)\) is arithmetic.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;ol start="5"&gt;
+
+    &lt;li&gt;Is \(C(n)\) arithmetic or geometric?&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(C(n)\) is geometric.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;p&gt;A recursive sequence is a sequence in which terms are defined using one or more of the previous terms. If you know the nth term of an arithmetic or geometric sequence and the common difference or factor, you can find the (n+1)th term by using the recursive formula.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Different definitions can often create the same sequence. For arithmetic and geometric sequences, there are general rules, called explicit rules, that can be followed to help find any term in the sequences.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;These are called the nth&amp;nbsp;&lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;term&lt;/span&gt; or the general term of the sequence.&lt;/p&gt;
+&lt;p&gt;Write these definitions down in your math notebook:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Arithmetic Sequence:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;\(a_n=a_1+(n-1)d\)&lt;/p&gt;
+&lt;p&gt;Where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;common difference&lt;/span&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Geometric Sequence:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;\(a_n=a_1r^{n-1}\)&lt;/p&gt;
+&lt;p&gt;Where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;common ratio&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;In the next activity, you will explore how different definitions can represent the same sequence.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2330">
+            <jumpto>1040</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831624</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2331">
+            <jumpto>1042</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831624</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1042">
+        <prevpageid>1041</prevpageid>
+        <nextpageid>1043</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659831762</timecreated>
+        <timemodified>1660948904</timemodified>
+        <title>4.17.2: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;What is the 12th term in an arithmetic sequence where the first term is 22 and the common difference is –2?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2332">
+            <jumpto>1043</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831762</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(–2\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Remember to multiply the difference by \(n-1\), not \(n\). Substitute the values into the nth term formula for arithmetic sequences. The answer is 0.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2333">
+            <jumpto>1043</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831762</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(–22\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Make sure to add to the first term. The answer is 0.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2334">
+            <jumpto>1044</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659831762</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(0\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Substitute into the formula, \(a_n=a_1+(n-1)d\), so that \(a_{12}=22+(12-1)(-2)=22+(-22)=0\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2335">
+            <jumpto>1043</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831762</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(–45056\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Use the formula for arithmetic sequences, not geometric. The answer is 0.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2336">
+            <jumpto>1043</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831762</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1043">
+        <prevpageid>1042</prevpageid>
+        <nextpageid>1044</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659831930</timecreated>
+        <timemodified>1662584927</timemodified>
+        <title>4.17.2: Additional Resources </title>
+        <contents>&lt;h4&gt;The nth Term of Arithmetic Sequences&lt;/h4&gt;
+&lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;
+    &lt;p&gt;&lt;strong&gt; GENERAL TERM (NTH TERM) OF AN ARITHMETIC SEQUENCE
+        &lt;/strong&gt;&lt;/p&gt;
+    &lt;hr&gt;
+    &lt;p&gt;The general term of an arithmetic sequence with first term \(a_1\) and common difference \(d\) is:&amp;nbsp;\(a_n=a_1+(n-1)d\).&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;p&gt;We will use this formula in the next example to find the 15th term of a sequence.&lt;/p&gt;
+&lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;
+    &lt;p&gt; Find the 15th term of a sequence where the first term is 3 and the common difference is 6. &lt;/p&gt;
+    &lt;hr&gt;
+    &lt;table border="1" cellspacing="0" cellpadding="5" width="658"&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td width="342"&gt;
+                    &lt;p&gt;To find the fifteenth term,&amp;nbsp;\(a_{15}\), use the&lt;br&gt;
+                        formula with&amp;nbsp;\(a_1=3\) and \(d=6\). &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width="316"&gt;
+                    &lt;p&gt;\(a_n=a_1+(n−1)d\) &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width="342"&gt;
+                    &lt;p&gt;Substitute in the values.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width="316"&gt;
+                    &lt;p&gt;\(a_{15}=3+(15−1)6\) &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width="342"&gt;
+                    &lt;p&gt;Simplify.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width="316"&gt;
+                    &lt;p&gt;\(a_{15}=3+(14)6\) &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width="342"&gt;&lt;/td&gt;
+                &lt;td width="316"&gt;
+                    &lt;p&gt;\(a_{15}=87\) &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+
+
+
+&lt;h4&gt; Try It: The nth Term of Arithmetic Sequences&lt;/h4&gt;
+
+
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Find the 27th term of a sequence where the first term is 7 and the common difference is 9.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to find the 27th term of the sequence:&lt;/p&gt;
+
+
+
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Write the formula.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_n=a_1+(n−1)d\) &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Substitute \(a_1=7\), \(d=9\), \(n=27\).&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_{27}=7+(27-1)9\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Simplify inside the parentheses.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_{27}=7+(26)9\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Simplify to find \(a_{27}\).&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_{27}=241\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;&lt;br&gt;
+
+
+
+
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2337">
+            <jumpto>1042</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831930</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2338">
+            <jumpto>1044</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831930</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1044">
+        <prevpageid>1043</prevpageid>
+        <nextpageid>1045</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659832403</timecreated>
+        <timemodified>1662584980</timemodified>
+        <title>4.17.3: Identify a Domain for a Function</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;A Sierpinski triangle can be created by starting with an equilateral triangle, breaking the triangle into 4 congruent equilateral triangles, and then removing the middle triangle. Starting from a single black equilateral triangle:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/SXbcEc93qja4MS2RzxM6pYvu" width="624" height="101"&gt;&lt;/p&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;li&gt;
+                Let \(S\) be the number of black triangles in Step \(n\). Define \(S(n)\) recursively.
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;\(S(1)=3\), \(S(n)=3 \cdot S(n−1)\) for \(n\geq2\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;
+                Andre and Lin are asked to write an equation for \(S\) that isn’t recursive. Andre writes \(S(n)=3^n\) for \(n\geq0\), while Lin writes \(S(n)=3^n−1\) for \(n\geq1\). Whose equation do you think is correct? Explain or show your reasoning.
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;They are both correct. Sample response: Lin is correct because if the image shows Steps 1 to 4, her equation gives the correct number of triangles for each step. Andre is correct since if we start with the black triangle, which is like Step 0, then Step 1 is the one with 3 triangles and Step 2 has 9 triangles, and those numbers match his equation.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;h4&gt;Video: Learning About Sierpinski’s Triangle&lt;/h4&gt;
+
+&lt;p&gt;Watch the following video to learn more about how to write a pattern as an nth term.&lt;/p&gt;
+
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/17bb2699a589cb2724aca3802df06b559f5373eb"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/aeab0f85286e27de1337914f956fe61048555c9a" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/17bb2699a589cb2724aca3802df06b559f5373eb
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+        &lt;p&gt;Here is a geometric sequence. Find the missing terms.&lt;/p&gt;
+
+        &lt;p&gt;3, ____, 6, ____, 12, ____, 24&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;\(3\sqrt2\), \(6\sqrt2\), \(12\sqrt2\) or equivalent&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2339">
+            <jumpto>1041</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659832403</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2340">
+            <jumpto>1045</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659832403</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1045">
+        <prevpageid>1044</prevpageid>
+        <nextpageid>1046</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659832511</timecreated>
+        <timemodified>1661054150</timemodified>
+        <title>4.17.3: Self Check </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;For the function \(J(n)= 180(\frac13)^{n-1}\), what is the value of the function when \(n=5\)?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2341">
+            <jumpto>1046</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659832511</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;45&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: \(n=5\) must be substituted into the equation. This is \(\frac{180}{4}\). The answer is \(\frac{180}{81}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2342">
+            <jumpto>1046</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659832511</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(\frac{20}3\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This is the value when \(n=3\). The answer is \(\frac{180}{81}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2343">
+            <jumpto>1047</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659832511</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(\frac{180}{81}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Substitute \(n=5\) into the function. \((\frac13)^4=\frac{1}{81}\), so \(J(4)=\frac{180}{81}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2344">
+            <jumpto>1046</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659832511</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(\frac{1}{81}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Make sure to multiply \((\frac13)^4\) by \(180\). The answer is \(\frac{180}{81}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2345">
+            <jumpto>1046</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659832511</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1046">
+        <prevpageid>1045</prevpageid>
+        <nextpageid>1047</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659832705</timecreated>
+        <timemodified>1662585034</timemodified>
+        <title>4.17.3: Additional Resources </title>
+        <contents>&lt;h4&gt;The nth Term of a Geometric Sequence&lt;/h4&gt;
+
+
+
+&lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;
+
+    &lt;p&gt;
+        &lt;strong&gt; General Term (nth Term) of a Geometric Sequence
+        &lt;/strong&gt;
+    &lt;/p&gt;
+    &lt;hr&gt;
+    &lt;p&gt;The general term of a geometric sequence with first term \(a_1\) and the common ratio \(r\) is: \(a_n=a_1r^{n-1}\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;p&gt;We will use this formula in the next example to find the 14th term of a sequence.&lt;/p&gt;
+&lt;br&gt;
+&lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;
+
+    &lt;p&gt; Find the 14th term of a sequence where the first term is 64 and the common ratio is \(r=\frac12\).&lt;/p&gt;
+    &lt;hr&gt;
+    &lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;&lt;/p&gt;
+
+
+    &lt;table border="1" cellspacing="0" cellpadding="5" width="541"&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;To find the 14th term,&amp;nbsp;\(a_{14}\), use the formula with \(a_1=64\)&amp;nbsp;and&amp;nbsp;\(r=\frac12\).&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_n=a_1r^{n−1}\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Substitute in the values.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_{14}=64(\frac12)^{14−1}\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Simplify.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_{14}=64(\frac12)^{13}\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;&lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_{14}=\frac{1}{128}\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+
+
+&lt;h4&gt;Try It: The nth Term of a Geometric Sequence&lt;/h4&gt;
+&lt;br&gt;
+
+&lt;p&gt;Find the 11th term of a sequence where the first term is 81 and the common ratio is \(r=\frac13\).&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to find the 11th term of the sequence:&lt;/p&gt;
+
+
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Write the formula.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_n=a_1r^{n-1}\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Substitute \(n=11\), \(r=\frac13\), and \(a_1=81\).&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_{11}=81(\frac13)^{11-1}\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Simplify to find \(a_{11}\).&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_{11}=81(\frac13)^{10}\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;&lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_{11}=\frac{81}{59049}=\frac1{729}\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+
+    &lt;br&gt;
+
+
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2346">
+            <jumpto>1045</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659832705</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2347">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659832705</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1047">
+        <prevpageid>1046</prevpageid>
+        <nextpageid>1048</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659832943</timecreated>
+        <timemodified>1662667036</timemodified>
+        <title>4.17.4: Interchanging Between Formulas</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Converting from a Recursive Formula to an Explicit Formula&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;An arithmetic sequence has the following recursive formula:&lt;/p&gt;
+&lt;p&gt;\(a_1=3\)&lt;/p&gt;
+&lt;p&gt;\(a_n=a_{n-1}+3\), \(n\geq2\)&lt;/p&gt;
+&lt;p&gt;Recall that this formula gives us the following two pieces of information:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; The first term is 3.&lt;/li&gt;
+  &lt;li&gt; To get any term from its previous term, &lt;strong&gt;add&lt;/strong&gt; 2. In other words, the common difference is 2.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s find an explicit formula for the sequence.&lt;/p&gt;
+&lt;p&gt;We can represent a sequence whose first term is \(A\) and common difference is \(B\) with the standard explicit form \(A+B(n−1)\).&lt;/p&gt;
+&lt;p&gt;Therefore, an explicit formula of the sequence is \(a_n=3+2(n−1)\).&lt;/p&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt; &lt;ol&gt;
+  &lt;li&gt; Write an explicit (nth term) formula for an arithmetic sequence where \(b_1=2\) and \(b_n=b_{n-1}+7\), \(n\geq2\). &lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(b_n=2+(n-1)7\)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;p&gt;Now try to take the nth term formula and use it to write the recursive formula of an arithmetic sequence.&lt;/p&gt;
+&lt;p&gt;We are given the following nth term of an arithmetic sequence:&lt;/p&gt;
+&lt;p&gt;\(d_n=5+(n-1)16\)&lt;/p&gt;
+&lt;p&gt;This formula is given in the standard explicit form \(A+B(n−1)\), where \(A\)&amp;nbsp;is the first term and \(B\)&amp;nbsp;is the common difference. Therefore, the first term of the sequence is 5, and the common difference is 16.&lt;/p&gt;
+&lt;p&gt;Let’s find a recursive formula for the sequence. Recall that the recursive formula gives us two pieces of information:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The first term, which we know is 5.&lt;/li&gt;
+  &lt;li&gt; The pattern rule to get any term from the term that comes before it, which we know is “add 16.”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Therefore, this is a recursive formula for the sequence:
+  
+  \(d_1=5\), \(d_n=5+(n-1)16\), \(n\geq2\).&lt;/p&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt; 
+    &lt;ol start="2"&gt;
+      &lt;li&gt;Write the recursive formula of \(e_n=12+(n-1)2\).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(e_1=12\), \(e_n=e_{n-1}+2\), \(n\geq2\)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;p&gt;Now change the recursive formula of a geometric sequence into the nth term.&lt;/p&gt;
+&lt;p&gt;Here is the recursive formula of a geometric sequence, \(g(n)\):&lt;/p&gt;
+&lt;p&gt;\(g_1=9\), \(g_n=g_{n-1} \cdot (8)\), \(n\geq2\)&lt;/p&gt;
+&lt;p&gt;9 is the first term of the sequence, and 8 is the common ratio.&lt;/p&gt;
+&lt;p&gt;An explicit formula is structured as: \(g(x)=\) (1st term of sequence) \(\cdot\) (common ratio)\(^{(x-1)}\).&lt;/p&gt;
+&lt;p&gt;Substitute the values, and you get the explicit formula: \(g_n= 9 \cdot 8^{(n-1)}\).&lt;/p&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt; 
+    &lt;ol start="3"&gt;
+      &lt;li&gt;Write the nth term of the geometric sequence where \(g_1=5\) and \(g_n=g_{n-1} \cdot 4\), \(n\geq2\).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(g_n=-5 \cdot 4^{(n-1)}\)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;p&gt;Finally, geometric sequences represented by the nth term can be represented with the recursive definition.&lt;/p&gt;
+    &lt;p&gt;Start with the nth term formula for \(g_n\) where \(g_n=6 \cdot 3^{n-1}\).&lt;/p&gt;
+    &lt;p&gt;Working backward, when \(n=1\), \(g_1=6\). This is the initial term.&lt;/p&gt;
+    &lt;p&gt;The formula for geometric sequences recursively is \(g_n=g_{n-1} \cdot r\), where \(r\) is the common ratio.&lt;/p&gt;
+    &lt;p&gt;The common ratio of the given sequence is 3.&lt;/p&gt;
+    &lt;p&gt;So, \(g_1=6\) and \(g_n=g_{n-1} \cdot 3\), \(n\geq2\).&lt;/p&gt;
+    &lt;ol start="4"&gt;
+      &lt;li&gt;Write the geometric sequence represented by \(g_n=14 \cdot 2^{n-1}\) using the recursive definition.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+      &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+      &lt;p&gt;Compare your answer:&lt;/p&gt;
+      &lt;p&gt;\(g_1=14\), \(g_n=g_{n-1} \cdot2\), \(n\geq2\)&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--Interaction End --&gt; 
+  &lt;br&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2348">
+            <jumpto>1044</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659832943</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2349">
+            <jumpto>1048</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659832943</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1048">
+        <prevpageid>1047</prevpageid>
+        <nextpageid>1049</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659833070</timecreated>
+        <timemodified>1660339009</timemodified>
+        <title>4.17.4: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Write the nth term formula of the geometric sequence represented by \(g_1=-3\) and \(g_n=g_{n-1} \cdot 6\), \(n\geq2\).&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2350">
+            <jumpto>1049</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833070</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(g_n=6n+-3\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The common ratio should be raised to the power of \(n-1\), and the first term should be multiplied, not added. The answer is \(g_n=-3 \cdot 6^{n-1}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2351">
+            <jumpto>1049</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833070</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(g_n=-3 \cdot 6^n\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The first term using this formula is –18. Use \(n-1\) for the exponent. The answer is \(g_n=-3 \cdot 6^{n-1}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2352">
+            <jumpto>1050</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659833070</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(g_n=-3 \cdot 6^{n-1}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The first term was –3, and the common ratio is 6.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2353">
+            <jumpto>1049</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833070</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(g_n=6(n-1)-3\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The first term should be multiplied by the common ratio. The answer is \(g_n=-3 \cdot 6^{n-1}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2354">
+            <jumpto>1049</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833070</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1049">
+        <prevpageid>1048</prevpageid>
+        <nextpageid>1050</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659833212</timecreated>
+        <timemodified>1662585177</timemodified>
+        <title>4.17.4: Additional Resources </title>
+        <contents>&lt;h4&gt;Switching Between Definitions of Sequences&lt;/h4&gt;
+
+&lt;p&gt;A recursive formula defines each term of a sequence using the previous terms.&lt;/p&gt;
+&lt;p&gt;An explicit or nth term formula defines the terms of the sequence using their position in the sequence, without knowing any other terms in the sequence.&lt;/p&gt;
+
+
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="85"&gt;
+        &lt;col width="229"&gt;
+        &lt;col width="314"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Sequence&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Recursive Formula&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Explicit or nth Term Formula&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Arithmetic&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt; \(F_1=a_1\), \(F_n=F_{n-1}+d\), where \(a_1\) is the first term and \(d\) is the common difference.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_n=a_1+(n-1)d\),&amp;nbsp;where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Geometric&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(H_1=a_1\), \(H_n=H_{n-1} \cdot r\), where \(a_1\) is the first term and \(r\) is the common ratio.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_n=a_1r^{n-1}\),&amp;nbsp;where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+&lt;p&gt;&lt;strong&gt;Find the explicit formula for each sequence given in recursive form:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol type="a"&gt;
+    &lt;li&gt;
+        \(a_1=5\), \(a_n=a_{n-1}+6\), \(n\geq2\)
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="323"&gt;
+        &lt;col width="301"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Write the recursive formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;
+                    \(a_1=5\), \(a_n=a_{n-1}+6\), \(n\geq2\)
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Identify the first term.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_1=5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Identify the common difference.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(d=6\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Write the explicit formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_n=a_1+(n-1)d\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Substitute \(a_1\) and \(d\) into the formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_n=5+(n-1)6\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Check by finding the first 3 terms using each formula:&lt;/p&gt;
+
+
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col width="84"&gt;
+        &lt;col width="170"&gt;
+        &lt;col width="214"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_1=5\), \(a(n)=a_n=a_{n-1}+6\), \(n\geq2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_1=5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_2=5+6=11\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_3=11+6=17\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_n=5+(n-1)6\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_1=5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_2=5+(2-1)6=11\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_3=5+(3-1)6=17\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Both formulas produce the same first 3 terms: 5, 11, 17.&lt;/p&gt;
+
+
+&lt;ol type="a" start="2"&gt;
+    &lt;li&gt;\(b_1=4\), \(b_n=b_{n-1} \cdot 5\), \(n\geq2\)&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="323"&gt;
+        &lt;col width="301"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Write the recursive formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(b_1=4\), \(b_n=b_{n-1} \cdot 5\), \(n\geq2\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Identify the first term.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_1=4\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Identify the common ratio.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(r=5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Write the explicit formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_n=a_1r^{n-1}\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Substitute \(a_1\) and \(r\) into the formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_n=4(5)^{n-1}\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Check by finding the first 3 terms using each formula:&lt;/p&gt;
+
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col width="84"&gt;
+        &lt;col width="183"&gt;
+        &lt;col width="201"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(b_1=4\), \(b_n=b_{n-1} \cdot 5\), \(n\geq2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_1=4\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(b_2=b_{2-1} \cdot 5=4 \cdot 5=20\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(b_3=b_{3-1} \cdot 5=20 \cdot 5=100\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_n=4(5)^{n-1}\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_1=4(5)^{1-1}=4\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_2=4(5)^{2-1}=20\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_3=4(5)^{3-1}=100\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+&lt;p&gt;Both formulas produce the same first 3 terms: 4, 20, 100.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Find the recursive formula for each sequence given in explicit form:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol type="a"&gt;
+    &lt;li&gt;\(a_n=21+(n-1)(-2)\)
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="323"&gt;
+        &lt;col width="301"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Write the explicit formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_n=21+(n-1)(-2)\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Identify the first term.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_1=21\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Identify the common difference.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(d=-2\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Write the recursive formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt; \(F_1=a_1\), \(F_n=F_{n-1}+d\), \(n\geq2\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Substitute \(a_1\) and \(d\) into the formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(F_1=21\), \(F_n=F_{n-1}-2\), \(n\geq2\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Both formulas produce the same first 3 terms: 21, 19, 17.&lt;/p&gt;
+
+&lt;ol type="a" start="2"&gt;
+    &lt;li&gt;
+        \(a_n=3 \cdot (\frac14)^{n-1}\)
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="323"&gt;
+        &lt;col width="301"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Write the explicit formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_n=3 \cdot (\frac14)^{n-1}\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Identify the first term.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a_1=3\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Identify the common ratio.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(r= \frac14\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Write the recursive formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(H_1=a_1\), \(H_n=H_{n-1} \cdot R\), \(n\geq2\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;Substitute \(a_1\) and \(r\) into the formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(H_1=3\), \(H_n=H_{n-1} \cdot \frac14\), \(n\geq2\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Both formulas produce the same first three terms: 3, \(\frac34\), \(\frac{3}{16}\).&lt;/p&gt;
+
+
+&lt;h4&gt;Try It: Switching Between Definitions of Sequences&lt;/h4&gt;
+&lt;p&gt;Write the recursive formula for the sequence below that is given in explicit form:&lt;/p&gt;
+&lt;p&gt;\(a_n=14+(n-1)(3)\)&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to write the sequence using the recursive definition:&lt;/p&gt;
+
+
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col width="323"&gt;
+            &lt;col width="301"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Write the explicit formula.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_n=14+(n-1)(3)\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Identify the first term.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a_1=14\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Identify the common difference.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(d=3\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Write the recursive formula.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(F1=a_1\), \(F_n=F_{n-1}+d\), \(n\geq2\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Substitute \(a_1\) and \(d\) into the formula.&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(F_1=14\), \(F_n=F_{n-1}+3\), \(n\geq2\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    &lt;p&gt;Both formulas give the same first 3 terms: 14, 17, 20.&lt;/p&gt;
+
+
+
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2355">
+            <jumpto>1048</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833212</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2356">
+            <jumpto>1050</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833212</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1050">
+        <prevpageid>1049</prevpageid>
+        <nextpageid>1051</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659833453</timecreated>
+        <timemodified>1662585256</timemodified>
+        <title>4.17.5: Different Types of Equations</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol&gt;
+    &lt;li&gt;
+        A sequence is defined by \(f_1=-3\), \(f_n=f_{n-1}+0.5\) for \(n\geq2\). Diego writes an equation for the nth term of the sequence as \(a_n=-3+(n-1)(0.5)\). Is he correct? Explain how you know.
+    &lt;/li&gt;
+&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Yes. Sample response: Both definitions create a sequence that starts at –3 and increases by 0.5 each term.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;
+        How would you describe the representation \(f_1=-3\), \(f_n=f_{n-1}+0.5\) for \(n\geq2\) for Diego’s sequence?
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;It is the recursive definition of the sequence.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;
+        How would you describe the representation of Diego’s sequence, \(a_n=-3+(n-1)(0.5)\)?
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;This is the nth term of the sequence.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2357">
+            <jumpto>1047</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833453</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2358">
+            <jumpto>1051</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833453</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1051">
+        <prevpageid>1050</prevpageid>
+        <nextpageid>1052</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659833518</timecreated>
+        <timemodified>1661055017</timemodified>
+        <title>4.17.6: Practice </title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+
+
+    &lt;!--1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="163" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;li&gt;Find the value of each of the arithmetic sequences below. Enter your answers as an integer only. &lt;strong&gt;Enter Only Integers&lt;/strong&gt;. Do not include commas or periods.&lt;/li&gt;
+                &lt;ol type="a" start="1"&gt;
+                    &lt;li&gt;Find the \(21^{st}\) term of a sequence where the first term is \(3\) and the common difference is \(8\).&lt;br&gt;
+                        Enter your answer here:
+                    &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 163&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.17.2 and 4.17.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(163\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="131" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt;Find the \(30^{th}\) term of a sequence where the first term is \(–14\) and the common difference is \(5\).&lt;br&gt;
+                        Enter your answer here:
+
+                    &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(131\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.17.2 and 4.17.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(131\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--1c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-79" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt;Find the \(16^{th}\) term of a sequence where the first term is \(11\) and the common difference is \(–6\).&lt;br&gt;
+                        Enter your answer here:
+
+                    &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! –79&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.17.2 and 4.17.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(–79\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="472392" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="2"&gt;
+                &lt;li&gt;Find the value of each of the geometric sequences below. Do not use commas or spaces in your answers. Enter your answer as integers only. Enter Only Integers. Do not include commas or periods.&lt;/li&gt;
+                &lt;ol type="a" start="1"&gt;
+                    &lt;li&gt;Find the \(11^{th}\) term given the first term is \(8\) and the common ratio is \(3\).&lt;br&gt;
+                        Enter your answer here:
+
+                    &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(472392\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 4.17.2–4.17.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(472392\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="3072" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt;Find the \(10^{th}\) term given the first term is \(–6\) and the common ratio is \(–2\).&lt;br&gt;
+                        Enter your answer here:
+
+                    &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 3072&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 4.17.2–4.17.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(3072\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(a_{n}=-6+(n-1)(-2) \)" data-solution-options="[&amp;quot;\\(a_{n}=-2+(n-1)(-6) \\)&amp;quot;, &amp;quot;\\(a_{n}=-6+(n-1)(-2) \\)&amp;quot;, &amp;quot;\\(a_{n}=-6+(n-1)+(-2)\\)&amp;quot;, &amp;quot;\\(a_{n}=-6+(n)(-2)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="3"&gt;
+                &lt;li&gt;A sequence is defined recursively by \(f_1=-6, f_n-f_{n-1}-2\), for \(n≥2\). Which of the following gives the nth term for \(n≥0\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a_{n}=-6+(n-1)(-2) \)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.17.2–4.17.5. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a_{n}=-6+(n-1)(-2) \). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(a_{n}=-20+(n-1)(5)\)" data-solution-options="[&amp;quot;\\(a_{n}=-20+(n-1)+5\\)&amp;quot;, &amp;quot;\\(a_{n}=-20+(n-1)(-2)\\)&amp;quot;, &amp;quot;\\(a_{n}=-20+(n-1)(5)\\)&amp;quot;, &amp;quot;\\(a_{n}=5+(n-1)(-20)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="4"&gt;
+                &lt;li&gt;A sequence is defined recursively by \(f_1=-20, f_n=f_{(n-1)}+5\) for \(n≥2\). Which of the following is the nth term?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a_{n}=-20+(n-1)(5)\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 4.17.2–4.17.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a_{n}=-20+(n-1)(5)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--Q5--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(f(n)=3 \cdot 2^{n-1}\)" data-solution-options="[&amp;quot;\\(f(n)=3 \\cdot 2^{n-1}\\)&amp;quot;, &amp;quot;\\(f(n)=3^{n}\\)&amp;quot;, &amp;quot;\\(f(n)=3+2 n\\)&amp;quot;, &amp;quot;\\(f(n)=3+2^{n}\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="5"&gt;
+                &lt;li&gt;A sequence is defined recursively by \(f_1=3, f_n=2,\;f_{n-1}, n\geq2\). Which of the following gives the nth term for \(n≥0\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(f(n)=3 \cdot 2^{n-1} \)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.17.2–4.17.5. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(f_n=3⋅2^(n-1)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Q6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(4n-7\)" data-solution-options="[&amp;quot;\\(4n-3\\)&amp;quot;, &amp;quot;\\(4n-7\\)&amp;quot;, &amp;quot;\\(7n-4\\)&amp;quot;, &amp;quot;\\(3n-4\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="1" start="6"&gt;
+                &lt;li&gt; A sequence of numbers is given by \(a_2=1,a_3=5,a_4=9,a_5=13,a_6=17\). Which equation can be used to find the nth term of the sequence? &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(4n-7\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 4.17.2–4.17.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(4n-7\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Do not edit below this line--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2359">
+            <jumpto>1050</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833518</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2360">
+            <jumpto>1052</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833518</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1052">
+        <prevpageid>1051</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659833748</timecreated>
+        <timemodified>1662585288</timemodified>
+        <title>4.17.7: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Explain why different equations can represent the same sequence.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the &lt;strong&gt;activities &lt;/strong&gt;that helped you reach those goals:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    4.17.1: Repeated Addition Is Multiplication
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      In this activity, you looked at different ways to represent repeated addition with multiplication and exponents.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+    4.17.2: Define a Sequence by the nth Term
+  &lt;ul&gt;
+    &lt;li&gt;
+      In this activity, you learned how to represent sequences with definitions that aren’t recursive.
+    &lt;/li&gt;
+  &lt;li&gt;
+    4.17.2: Self Check&amp;nbsp;
+  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;
+    4.17.3: Identify a Domain for a Function
+  &lt;ul&gt;
+    &lt;li&gt;
+      In this activity, you explored two different ways to write the geometric sequence formed by the pattern of the Sierpinski triangle.
+    &lt;/li&gt;
+  &lt;li&gt;
+    4.17.3: Self Check&amp;nbsp;
+  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;
+    4.17.4: Interchanging Between Formulas
+  &lt;ul&gt;
+    &lt;li&gt;
+      In this activity, you learned that arithmetic and geometric sequences can be written using the recursive definition and the nth term. It is possible to use them interchangeably.
+    &lt;/li&gt;
+  &lt;li&gt;
+    4.17.4: Self Check
+  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;
+    4.17.5: Different Types of Equations
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      In this activity, you looked at how the same arithmetic sequence was represented recursively and with the nth term.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After these activities, you completed the following&lt;strong&gt; practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    4.17.6: Practice
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+
+    &lt;!--pulldown--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2361">
+            <jumpto>1051</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833748</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2362">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659833748</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

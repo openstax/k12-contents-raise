@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="101" moduleid="135" modulename="lesson" contextid="146">
+  <lesson id="101">
+    <course>2</course>
+    <name>Lesson 4.11 Teacher Guide: Domain and Range, Part 1</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>138</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1662772366</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="917">
+        <prevpageid>0</prevpageid>
+        <nextpageid>918</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659565901</timecreated>
+        <timemodified>1662595588</timemodified>
+        <title>4.11.0: Lesson Overview</title>
+        <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
+&lt;p&gt;Before this lesson, students have considered (even if only peripherally) input and output values that would make sense in the context of a function. Some examples:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; When analyzing the cost of buying bagels, it was intuitive to consider only positive whole numbers for the input. &lt;/li&gt;
+  &lt;li&gt; When studying the total number of barks of a dog as a function of time, it was natural to consider only positive whole numbers for the output. &lt;/li&gt;
+  &lt;li&gt; When looking at the height of a projectile as a function of time, it made sense to limit the input from the launch of the object to the moment the object hits the ground. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this lesson and the next one, students focus their attention on possible input and output values, framing them as the domain and range of a function. In this lesson, they identify the domain and range of functions and describe them using words, lists of numbers, or inequalities (if appropriate). In the next lesson, students will relate the domain and range of a function with features of its graph.&lt;/p&gt;
+&lt;p&gt;Students’ analyses of inputs and outputs continue to be grounded in context, allowing many chances to reason quantitatively and abstractly. In an optional activity, there is an opportunity to study the domain of a function without a context.&lt;/p&gt;
+&lt;p&gt;The insights students gain here will help them later in the unit and throughout the course as they make sense of other kinds of functions: piecewise-defined, exponential, and quadratic. These understandings will also expand students’ capacity to model with mathematics.&lt;/p&gt;
+&lt;h4&gt; Learning Goals (Teacher Facing)&lt;/h4&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Given a description of a function that represents a situation, determine reasonable domain and range. &lt;/li&gt;
+  &lt;li&gt; Understand that the domain of a function is the set of all possible inputs and the range is the set of all possible outputs. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt; Learning Targets (Student Facing)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt; Describe the “domain” and “range” of a function. &lt;/li&gt;
+  &lt;li&gt; When given a description of a function in a situation, determine a reasonable domain and range for the function. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;A2(A) determine the domain and range of a linear function in mathematical problems; determine reasonable domain and range values for real-world situations, both continuous and discrete; and represent domain and range using inequalities;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Foundational: Lesson provides foundational content necessary for students to be able to perform this TEKS in later lessons.&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Lesson Activities&lt;/h4&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 4.11.1: Determining Reasonable Inputs and Outputs &lt;/li&gt;
+  &lt;li&gt; 4.11.2: Domain: The Input of a Function &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 4.11.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 4.11.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 4.11.3: Range: The Output of a Function &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 4.11.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 4.11.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 4.11.4: Using Graphs to Determine the Domain of a Function (Optional) &lt;/li&gt;
+  &lt;li&gt; 4.11.5: Using Functions to Answer Real-World Questions &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will also complete a series of problems in the 4.11.6: Practice.&lt;/p&gt;
+&lt;h4&gt;Required Materials&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt; Graphing technology &lt;/li&gt;
+  &lt;li&gt; Pre-printed cards, cut from copies of the blackline master &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Required Preparation&lt;/h4&gt;
+&lt;p&gt;Graphing technology is required for the optional activity What Could Be the Trouble? Acquire devices that can run Desmos (recommended) or other graphing technology. It is ideal if each student has their own device. (Desmos is available under Math Tools.)&lt;/p&gt;
+&lt;h4&gt; Lesson Vocabulary&lt;/h4&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
+  &lt;li&gt; Encourage students to use key vocabulary words in “math talk” and their written and oral explanations. &lt;/li&gt;
+  &lt;li&gt; Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank" title="Mathematics Vocabulary Word Wall Cards"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson include:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; function &lt;/li&gt;
+  &lt;li&gt; input &lt;/li&gt;
+  &lt;li&gt; output &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; domain &lt;/li&gt;
+  &lt;li&gt; range &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Support for Building Character&lt;/h4&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;creativity&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/finding-flow/" target="_blank" title="Finding Flow"&gt;Finding Flow&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/creative-spirit/" target="_blank" title="The Creative Spirit"&gt;The Creative Spirit&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find other tips located here in the&amp;nbsp;&lt;a href="https://characterlab.org/playbooks/creativity" target="_blank"&gt;Playbook on Creativity&lt;/a&gt;&amp;nbsp;from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2055">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659565901</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="918">
+        <prevpageid>917</prevpageid>
+        <nextpageid>919</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659566151</timecreated>
+        <timemodified>1662595618</timemodified>
+        <title>4.11.1: Determining Reasonable Inputs and Outputs</title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
+&lt;p&gt;This warm-up prompts students to consider possible input and output values for a familiar function in a familiar context. The work here prepares students to do the same in other mathematical contexts and to think about domain and range in the rest of the lesson.&lt;/p&gt;
+&lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
+&lt;p&gt;Earlier, you saw a situation where the total number of times a dog has barked was a function of the time, in seconds, after its owner tied its leash to a post and left. Less than 3 minutes after he left, the owner returned, untied the leash, and walked away with the dog.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; Could each value be an input of the function? Be prepared to explain your reasoning.
+    &lt;ol type="a"&gt;
+      &lt;li&gt;15 seconds&lt;br&gt;
+        &lt;br&gt;
+      &lt;/li&gt;
+      &lt;li&gt;\(84\frac12\) seconds&lt;br&gt;
+        &lt;br&gt;
+      &lt;/li&gt;
+      &lt;li&gt;300 seconds&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt; Could each value be an output of the function? Be prepared to explain your reasoning.
+    &lt;ol type="a"&gt;
+      &lt;li&gt;15&lt;br&gt;
+        &lt;br&gt;
+      &lt;/li&gt;
+      &lt;li&gt;\(84\frac12\)&lt;br&gt;
+        &lt;br&gt;
+      &lt;/li&gt;
+      &lt;li&gt;300&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Student Response&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;ol type="a"&gt;
+      &lt;li&gt;Yes&lt;/li&gt;
+      &lt;li&gt; Yes &lt;/li&gt;
+      &lt;li&gt;No. The owner returned in under 180 seconds and then walked away with the dog, so 300 is not a possible input (assuming that the function is limited to the time the dog was tied to the leash and when the owner was away). &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol type="a"&gt;
+      &lt;li&gt;Yes &lt;/li&gt;
+      &lt;li&gt;No. It is not possible for the dog to bark a fractional number of times. &lt;/li&gt;
+      &lt;li&gt;Yes &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Invite students to share their responses and reasoning. Highlight explanations that make a convincing case as to why values beyond 180 could not be inputs for this function and why fractional values could not be outputs.&lt;/p&gt;
+&lt;p&gt;Some students may argue that 300 could be an input because “300 seconds after the dog’s owner walked away” is an identifiable moment, even though the dog and its owner have walked away and may no longer be near the post. Acknowledge that this is a valid point and that it highlights the need for a function to be more specifically defined in terms of when it “begins” and “ends.” If time permits, solicit some ideas on how this could be done.&lt;/p&gt;
+&lt;p&gt;Tell students that, in this lesson, they will think more about values that make sense as inputs and outputs of functions.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2056">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659566151</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2057">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659566151</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="919">
+        <prevpageid>918</prevpageid>
+        <nextpageid>920</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659566446</timecreated>
+        <timemodified>1662595835</timemodified>
+        <title>4.11.2: Domain: The Input of a Function</title>
+        <contents>&lt;h3&gt;Activity (20 minutes)&lt;/h3&gt;
+&lt;p&gt;Students continue to think about reasonable input values for functions based on the situation that they represent. They are given three functions and a set of cards containing rational values. For each function, they determine which values make sense as inputs and why. The idea of the domain of a function is then introduced.&lt;/p&gt;
+&lt;p&gt;Each blackline master contains two sets of cards. Here are the numbers on the cards for your reference and planning:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;–3 &lt;/li&gt;
+  &lt;li&gt; 9 &lt;/li&gt;
+  &lt;li&gt;\(\frac35\) &lt;/li&gt;
+  &lt;li&gt; 15 &lt;/li&gt;
+  &lt;li&gt; 0.8 &lt;/li&gt;
+  &lt;li&gt; 4 &lt;/li&gt;
+  &lt;li&gt; 0 &lt;/li&gt;
+  &lt;li&gt; \(\frac{25}4\) &lt;/li&gt;
+  &lt;li&gt; 0.001 &lt;/li&gt;
+  &lt;li&gt;–18 &lt;/li&gt;
+  &lt;li&gt; 6.8 &lt;/li&gt;
+  &lt;li&gt; 72 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As students sort the cards and discuss their thinking in groups, listen for their reasons for classifying a number one way or another. Identify students who can correctly and clearly articulate why certain numbers are or are not possible inputs.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Arrange students in groups of 2–4. Give each group a set of cards from the blackline master.&lt;/p&gt;
+&lt;p&gt;For each function defined in their activity statement, ask students to sort the cards into two groups, “possible inputs” and “impossible inputs,” based on whether the function could take the number on the card as an input. Clarify that the cards will get sorted three times (once for each function), so students should record their sorting results for one function before moving on to the next function.&lt;/p&gt;
+&lt;p&gt;Consider asking groups to pause after sorting possible inputs for the first function and to discuss their decisions with another group. If the two groups disagree on where a number belongs, they should discuss until they reach an agreement, and then they should continue with the rest of the activity.&lt;/p&gt;
+&lt;p&gt;Some students may be unfamiliar with camps, and they may not know that other units besides Fahrenheit and Celsius are used to measure temperature. Provide a brief orientation, if needed.&lt;/p&gt;
+&lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+  &lt;p&gt;After sorting possible inputs for the first function, provide the class with the following sentence frames to help groups respond to each other: “_____ is a possible/impossible input because . . .” and “I agree/disagree because . . . .” When monitoring discussions, re-voice student ideas to demonstrate mathematical language. This will help students listen and respond to each other as they explain how they sorted the cards.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h4&gt;&lt;br&gt;
+&lt;/h4&gt;
+&lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
+&lt;p&gt;Your teacher will give you a set of cards that each contain a number. Decide whether each number is a possible input for the functions described here. Sort the cards into two groups: possible inputs and impossible inputs. Record your sorting decisions.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; The area of a square, in square centimeters, is a function of its side length, \(s\), in centimeters. The equation \(A(s) =s^2\) defines this function. &lt;/li&gt;
+  &lt;ol type="a"&gt;
+    &lt;li&gt; Possible inputs: &lt;/li&gt;
+    &lt;li&gt; Impossible inputs: &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; A tennis camp charges $40 per student for a full-day camp. The camp only runs if at least 5 students sign up, and it limits the enrollment to 16 campers a day. The amount of revenue, in dollars, that the tennis camp collects is a function of the number of students who enroll.
+    The equation \(R(n)=40n\) defines this function.
+    &lt;ol type="a"&gt;
+      &lt;li&gt; Possible inputs: &lt;/li&gt;
+      &lt;li&gt; Impossible inputs: &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt; The relationship between temperature in Celsius and the temperature in Kelvin can be represented by a function \(k\). The equation \(k(c)=c+273.15\) defines this function, where \(c\) is the temperature in Celsius and \(k(c)\) is the temperature in Kelvin.
+    &lt;ol type="a"&gt;
+      &lt;li&gt; Possible inputs: &lt;/li&gt;
+      &lt;li&gt; Impossible inputs: &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write this definition in your math notebook: The domain of a function is the set of all of its possible input values.&lt;/p&gt;
+&lt;h4&gt;Student Response&lt;/h4&gt;
+&lt;p&gt;Your teacher will give you a set of cards that each contain a number. Decide whether each number is a possible input for the functions described here. Sort the cards into two groups-possible inputs and impossible inputs. Record your sorting decisions.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; The area of a square, in square centimeters, is a function of its side length, s, in centimeters. The equation \(A(s) =s^2\) defines this function. &lt;/li&gt;
+  &lt;ol type="a"&gt;
+    &lt;li&gt; Possible inputs: \(9\), \(\frac35\), \(15\), \(0\), \(0.8\), \(4\),
+      \(\frac{25}4\)
+      , \(0.001\), \(6.8\), \(72\) &lt;/li&gt;
+    &lt;li&gt; Impossible inputs: –3, –18 &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; &lt;/li&gt;
+  &lt;ol type="a"&gt;
+    &lt;li&gt; Possible inputs: 9, 15 &lt;/li&gt;
+    &lt;li&gt; Impossible inputs: \(-3\), \(-18\), \(\frac35\), \(0.8\), \(0\), \(\frac{25}4\), \(0.001\), \(4\), \(6.8\), \(72\) &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt; &lt;/li&gt;
+  &lt;ol type="a"&gt;
+    &lt;li&gt; Possible inputs: All values &lt;/li&gt;
+    &lt;li&gt; Impossible inputs: No values &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Students may not know that 0°K or –273.15°C is absolute zero temperature, or a temperature that is agreed upon as the lowest possible temperature. Consider sharing this information with them as they describe the domain of function \(k\).&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Area: \(s\), the input of function \(A\), can be any value equal to or greater than 0: \(s\geq0\). The side length can be 0 or any positive number, including irrational numbers. There may be a debate over whether 0 is a possible length of the side of a square. Either side of the debate should be accepted as long as the connection between the input and the side length of a square is made correctly. &lt;/li&gt;
+  &lt;li&gt; Tennis camp: \(n\), the input of function \(R\), can be any whole-number value that is at least 5 and at most 16: \(5\leq n\leq16\). The number of campers cannot be fractional. &lt;/li&gt;
+  &lt;li&gt; Temperature: \(c\), the input of function \(k\), can be any value that is greater than –273.15. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4.11.2: Self Check&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col width="302"&gt;
+  &lt;col width="322"&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td colspan="2"&gt;&lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt; Jose created a function \(W(h)\) for the weight, \(W\), of his family members given their height, \(h\), in inches.&lt;/p&gt;
+        &lt;p&gt;Which of the following provides a group of possible inputs for the function?&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(36\), \(52\), \(-70\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: Height cannot be negative. The answer is \(47\), \(50.2\), \(60\frac12\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(5\), \(40\), \(62\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: A height of 5 inches is not realistic. The answer is \(47\), \(50.2\), \(60\frac12\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(47\), \(50.2\), \(60\frac12\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;That’s correct! Check yourself: Height can be expressed in fractions and decimals, and these are reasonable values for the input in inches.&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(62\), \(-68\), \(70\frac34\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: Height cannot be negative. The answer is \(47\), \(50.2\), \(60\frac12\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;4.11.2: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Finding Possible Input Values&lt;/h4&gt;
+&lt;p&gt;Micah mows lawns every week at a function \(M\), number of lawns mowed, as a function of \(d\), days, represented by the equation \(M(d)=4d\). He always finishes a lawn that he starts to mow.&lt;/p&gt;
+&lt;p&gt;Which of the following are possible inputs?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;–2, 0, 2.5, 4&lt;/p&gt;
+  &lt;p&gt;The possible inputs are 0, 2.5, and 4. It is possible for Micah to work 0, 2.5, or 4 days. It is not possible for him to work a negative number of days.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Note: Fractions, decimals, and negative numbers are all allowed as input values but may be eliminated depending on the context of the problem that the function represents.&lt;/p&gt;
+&lt;h4&gt;Try It: Finding Possible Input Values&lt;/h4&gt;
+&lt;p&gt;Elena runs at a constant speed. Her distance, \(D\), in miles is a function of the time, \(t\), in minutes. Her running distance is represented by the function \(D(t)=9t\).&lt;/p&gt;
+&lt;p&gt;Which of the following are possible input values?&lt;/p&gt;
+&lt;p&gt;\(-7\), \(\frac23\) , \(45\), \(60.5\)&lt;/p&gt;
+&lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to find the possible input values:&lt;/p&gt;
+&lt;p&gt;–7 is not possible because she cannot run for a negative amount of time&lt;/p&gt;
+&lt;p&gt;\(\frac23\) is possible. However, it is not always reasonable because it stands for \(\frac23\) of one minute. It is important to always look at the entire problem to see if there are any other restrictions like a minimum amount of time running.&lt;/p&gt;
+&lt;p&gt;45 and 60.5 are both possible input values because she could run for 45 minutes or 60.5 minutes.&lt;/p&gt;
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2058">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659566446</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2059">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659566446</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="920">
+        <prevpageid>919</prevpageid>
+        <nextpageid>921</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659570171</timecreated>
+        <timemodified>1662753977</timemodified>
+        <title>4.11.3: Range: The Output of a Function</title>
+        <contents>&lt;h3&gt;Activity (10 minutes)&lt;/h3&gt;
+&lt;p&gt;Earlier, students learned that the domain of a function refers to the set of all possible inputs. In this activity, students are introduced to the range of a function and examine it in terms of a situation. They begin to consider how the domain and range of a function are related to the features of its graph.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Keep students in groups of 2–4. Give students a few minutes of quiet work time, and then a moment to share their responses with their group. Leave a few minutes for whole-class discussion.&lt;/p&gt;
+&lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+    &lt;p&gt;Leverage choice around perceived challenge. Invite students to analyze either the area function or the revenue function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h4&gt;Student-Facing Statement &lt;/h4&gt;
+&lt;p&gt;In an earlier activity, you saw a function representing the area of a square (function \(A\)) and another representing the revenue of a tennis camp (function \(R\)). Refer to the descriptions of those functions to answer these questions.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt; Here is a graph that represents function \(A\), defined by \(A(s)=s^2\), where \(s\) is the side length of the square in centimeters. &lt;br&gt;
+        &lt;br&gt;
+      &lt;img src="https://s3.amazonaws.com/im-ims-export/ckcefLzR51iwLCHZUxve59Xm" alt="A graph.&amp;nbsp;"&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; Name three possible input-output pairs of this function. &lt;/li&gt;
+        &lt;li&gt; Earlier, we described the set of all possible input values of \(A\) as “any number greater than or equal to 0.” How would you describe the set of all possible output values of \(A\)? &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt; Function \(R\) is defined by \(R(n)=40n\), where \(n\) is the number of campers.
+        &lt;ol type="a"&gt;
+            &lt;li&gt; Is 20 a possible output value in this situation? What about 100? Explain your reasoning. &lt;/li&gt;
+            &lt;li&gt; Here are two graphs that relate number of students and camp revenue in dollars. Which graph could represent function \(R\)? Explain why the other one could not represent the function.&lt;br&gt;
+                &lt;br&gt;
+              &lt;img src="https://s3.amazonaws.com/im-ims-export/HLNL2k6Wjz1kjoMCLi6zLVMj" alt="A graph.&amp;nbsp;"&gt; &lt;br&gt;
+                &lt;br&gt;
+              &lt;img src="https://s3.amazonaws.com/im-ims-export/idfgHv7hYxqaekvuiQMqSPwJ" alt="A graph.&amp;nbsp;"&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; Describe the set of all possible output values of \(R\). &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;h4&gt; Student Response&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt; Sample response: &lt;/li&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;\(A(2)=4\), \(A(3)=9\), and \(A(7)=49\), or \((2,4)\), \((3,9)\), \((7,49)\)&lt;/li&gt;
+        &lt;li&gt; The outputs of \(A\) are also all numbers greater than or equal to 0. &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt; Sample response: &lt;/li&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; No, both 20 and 100 cannot be outputs because the input (the number of campers) cannot be fractions. &lt;/li&gt;
+        &lt;li&gt; The second graph could represent function \(R\). The first graph could not represent the function \(R\) because it includes all points for \(n\)-values between 0 and 5, \(n\)-values greater than 16, and fractional \(n\)-values. All of these \(n\)-values don’t apply in this situation. &lt;/li&gt;
+        &lt;li&gt; The outputs of \(R\) are all multiples of 40 between 200 and 640 (200, 240, 280, and so on). &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write the following definition in your math notebook:&amp;nbsp;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;The set of output values form the range of the function.&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Video: Identifying Outputs of a Function&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about identifying outputs of a function.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+  &lt;source src="https://k12.openstax.org/contents/raise/resources/21adf0146df228d483924077672ad2140a3bb95d"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/e0decf3ffc5d4cbc1b14b2110a48743a7ffa6739" kind="captions" srclang="en_us" label="On" default="true"&gt;
+    https://k12.openstax.org/contents/raise/resources/21adf0146df228d483924077672ad2140a3bb95d
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
+&lt;h5&gt;Are you ready for more?&lt;/h5&gt;
+&lt;p&gt;If the camp wishes to collect at least $500 from the participants, how many students can they have? Explain how this information is shown on the graph.&lt;/p&gt;
+&lt;h4&gt;Extension Student Response&lt;/h4&gt;
+&lt;p&gt;They will need at least 13 students to collect $500 or more, so the possibilities are 13, 14, 15, and 16. On the graph, there are only 4 dots that lie on or above the horizontal line representing $500.&lt;/p&gt;
+&lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;Some students may mistakenly associate the domain and range of a function with the horizontal and vertical values that are visible in a graphing window, or with the upper and lower limits of the scale of each axis on a coordinate plane. For example, they may think that the range of the area function, \(A\), includes only values from 0 to 50 because the scale on the vertical axis goes from 0 to 50. Ask these students if it is possible to use a different scale on each axis or, if the function is graphed using technology, to adjust the graphing window. Clarify that the domain and range should be considered in terms of a situation rather than the graphing boundaries.&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Invite students to share their descriptions of the possible outputs for each function. Explain that we call the set of all possible output values of a function the range of the function. Emphasize that the range of a function depends on its domain (or all possible input values).&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; For the area of the square, the range—all the possible values of \(A(s)\)—includes all numbers that are at least 0. &lt;/li&gt;
+    &lt;li&gt; For the revenue of the tennis camp, the range—all the possible values of \(R(n)\)—includes positive multiples of 40 that are at least 200 and at most 640. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Next, focus the discussion on function \(R\).&lt;/p&gt;
+&lt;p&gt;Ask students to explain which values could or could not be the outputs of \(R\) and which of the two graphs represents the function. Clarify that although the graph showing only points more accurately reflects the domain and range of the function, plotting those points could be pretty tedious. We could use a line graph to represent the function, as long as we specify or are clear that only whole numbers are in the domain and only multiples of 20 are in the range.&lt;/p&gt;
+&lt;p&gt;If time permits, draw students’ attention to the temperature function they saw in an earlier activity, defined by \(k(c)=c+273.15\). It gives the temperature in Kelvin as a function of the temperature in Celsius, \(c\). Ask students:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;“What values are in the domain of this function?” (The domain includes any value that is at least –273.15, the lowest possible temperature in Celsius, or greater.) &lt;/li&gt;
+    &lt;li&gt;“What about the range?” (The range includes any value that is at least 0, the lowest possible temperature in Kelvin, or greater.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+    &lt;p&gt;Before students share their descriptions of the possible output values of \(A\), present an incorrect response and explanation. For example, “The outputs of \(A\) are numbers from 0 to 50 because I looked on the vertical axis and saw that the graph reaches up to 50.” Ask students to identify the error, critique the reasoning, and write a correct explanation. As students discuss with a partner, monitor for students who clarify that the output values are not restricted by the graphing boundaries shown. This helps students evaluate, and improve upon, the written mathematical arguments of others as they discuss the range of a function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h3&gt;4.11.3: Self Check&amp;nbsp;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Looking at the graph below, which statement about the values graphed is true?&lt;/p&gt;
+                &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/94a38b96d0df6fd05f92cff8642a934fc7ffc7b2" alt="SCATTER PLOT WITH POINTS AT (2, 7), (3, 9), (4, 11), (5, 13), (6, 15), (7, 17), AND (8, 19)." width="300"&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The largest output value is 8.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: When graphed, the largest input value is 8 since it is an \(x\)-value in the point \((8,19)\). The&amp;nbsp; answer is the largest output value is 19.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The largest output value is 19.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That’s correct! Check yourself: The largest \(y\)-value graphed is 19, so that is the largest output.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The largest input value is 19.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: Since 19 in the point \((8,19)\) is a \(y\)-coordinate, it is an output value. The answer is the largest output value is 19.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;All odd numbers are outputs.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: While the output values are odd numbers, the numbers in the outputs do not begin until 7. The answer is the largest output value is 19.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;4.11.3: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Naming Input-Output Pairs&lt;/h4&gt;
+&lt;p&gt;A graph is yet another way that a relation can be represented. The set of ordered pairs of all the points plotted is the relation. The set of all \(x\)-coordinates, or the input values, is the domain of the relation, and the set of all \(y\)-coordinates, or outputs, is the range.&lt;/p&gt;
+&lt;p&gt;Recall a coordinate is written \((x, y)\).&lt;/p&gt;
+&lt;p&gt;Name the input-output pairs for the graph below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/57ace179bf0134cf2d8555e9ce779dae0fd467c8" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;The input values are the \(x\)-values and the output values are the \(y\)-values.&lt;/p&gt;
+&lt;p&gt;\((1, 3)\) \((2, 6)\) \((3, 12)\) \((4, 24)\)&lt;/p&gt;
+&lt;h4&gt;Try It: Naming Input-Output Pairs&lt;/h4&gt;
+&lt;p&gt;Name the input-output pairs of the graph below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/24ef66d8ee5e588cdb682ef865db1e5ccb4e127c" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to write the input-output pairs:&lt;/p&gt;
+&lt;p&gt;\((1, 4.5)\) \((2, 9)\) \((3, 18)\) \((4,36)\)&lt;/p&gt;
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2060">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659570171</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2061">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659570171</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="921">
+        <prevpageid>920</prevpageid>
+        <nextpageid>922</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659570269</timecreated>
+        <timemodified>1662596078</timemodified>
+        <title>4.11.4: Using Graphs to Determine the Domain of a Function (Optional)</title>
+        <contents>&lt;h3&gt;Optional Activity (10 Minutes)&lt;/h3&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Provide access to graphing technology.&lt;/p&gt;
+&lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+  &lt;p&gt;Provide access to tools and assistive technologies such as a graphing calculator or graphing software. Some students may benefit from a checklist or list of steps to be able to use the calculator or software.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
+&lt;p&gt;Consider the function \(f(x) = \frac{6}{x-2}\).&lt;/p&gt;
+&lt;p&gt;To find out the sets of possible input and output values of the function, Clare created a table and evaluated \(f\) at some values of \(x\). Along the way, she ran into some trouble.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; Find \(f(x)\) for each \(x\)-value Clare listed. Describe what Clare’s trouble might be. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col width="43"&gt;
+  &lt;col width="44"&gt;
+  &lt;col width="36"&gt;
+  &lt;col width="30"&gt;
+  &lt;col width="35"&gt;
+  &lt;col width="27"&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(x\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;–10&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(\frac12\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;8&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(f(x)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;br&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;br&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;br&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;br&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;br&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; Use graphing technology to graph function \(f\). What do you notice about the graph? &lt;/li&gt;
+  &lt;li&gt; Use a calculator to compute the value you and Clare had trouble computing. What do you notice about the computation? &lt;/li&gt;
+  &lt;li&gt; How would you describe the domain of function \(f\)? &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Student Response&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt; Sample response: When \(x\) is \(2\), \(f(x)\) is \(\frac60\), which is undefined. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col width="43"&gt;
+  &lt;col width="44"&gt;
+  &lt;col width="36"&gt;
+  &lt;col width="30"&gt;
+  &lt;col width="35"&gt;
+  &lt;col width="27"&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(x\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;–10&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;12&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;8&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(f(x)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;–12&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;–3&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;–4&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(\frac60\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; Sample response: The graph splits where the \(x\)-value is around 2. See graph. &lt;br&gt;
+    &lt;img src="https://s3.amazonaws.com/im-ims-export/yyYiTCdXKLXdUybEv9dfpYm9"&gt;&lt;br&gt;
+  &lt;/li&gt;
+  &lt;li&gt; When I tried to find \(f(2)\) with a calculator, it gave an error message. &lt;/li&gt;
+  &lt;li&gt; Sample response: The domain includes all numbers except 2. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
+&lt;h5&gt;Are You Ready for More?&lt;/h5&gt;
+&lt;p&gt;Why do you think the graph of function \(f\) looks the way it does? Why are there two parts that split at \(x=2\), with one curving down as it approaches \(x=2\) from the left and the other curving up as it approaches \(x=2\) from the right?&lt;/p&gt;
+&lt;p&gt;Evaluate function \(f\) at different \(x\)-values that approach 2 but are not exactly 2, such as 1.8, 1.9, 1.95, 1.999, 2.2, 2.1, 2.05, 2.001, and so on. What do you notice about the values of \(f(x)\) as the \(x\)-values get closer and closer to 2?&lt;/p&gt;
+&lt;h4&gt;Extension Student Response&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt; When \(x\) is less than 2, as it gets closer to 2 (from the left side), the denominator in \(\frac{6}{x-2}\) becomes a smaller and smaller negative value, so the quotient, \(f(x)\), gets larger and larger in the negative direction. It does so very quickly, which explains why the curve bends down rather dramatically. &lt;/li&gt;
+  &lt;li&gt; When \(x\) is greater than 2, as it approaches 2 (from the right side), the denominator in \(\frac{6}{x-2}\) becomes a smaller and smaller positive value, so \(f(x)\) gets larger and larger in the positive direction. It does so very quickly as well, which explains the graph shooting up if we trace it from right to left. &lt;/li&gt;
+  &lt;li&gt; The expression \(\frac{6}{x-2}\) is undefined at \(x=2\), and we can see that the two pieces of the graph shoot off in opposite directions as \(x\) approaches 2 from the left and from the right, which explains the gap at \(x=2\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Display a graph of the function for all to see. Invite students to share their observations of the behavior of function \(f\) based on the completed table and their graph. Solicit their ideas on what the problem might be with this function.&lt;/p&gt;
+&lt;p&gt;If no students mentioned division by 0 as the issue, bring this up. Ask questions such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“What happens when we divide a number by 0?” (The result is undefined.) &lt;/li&gt;
+  &lt;li&gt;“In the expression \(\frac{6}{x-2}\), what value or values of \(x\) would result in a denominator of 0?” (Only 2 gives a denominator of 0.) &lt;/li&gt;
+  &lt;li&gt;“If 2 does not produce an output, is it a possible input for \(f\)?” (No) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Highlight that the domain of \(f\) includes all numbers except 2.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2062">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659570269</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2063">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659570269</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="922">
+        <prevpageid>921</prevpageid>
+        <nextpageid>923</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659571454</timecreated>
+        <timemodified>1662596098</timemodified>
+        <title>4.11.5: Using Functions to Answer Real-World Questions</title>
+        <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;
+&lt;h4&gt;Student-Facing Statement &lt;/h4&gt;
+&lt;p&gt;Diego’s club earns money for charity when members of the club perform community service after school. For each student who does community service, the club earns $5. There are 12 students in the club.&lt;/p&gt;
+&lt;p&gt;The total dollar amount earned, \(E\), is a function of the number of members who perform community service, \(n\).&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; Is 5 a possible input value? Why or why not? &lt;/li&gt;
+  &lt;li&gt; Is 24 a possible output value? Why or why not? &lt;/li&gt;
+  &lt;li&gt; Describe the domain of this function. &lt;/li&gt;
+  &lt;li&gt; Describe the range of this function.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Student Responses&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;\(n=5\) is possible. It means that 5 students perform community service. &lt;/li&gt;
+  &lt;li&gt; No, 24 is not possible as an output value. An output value has to be a multiple of 5. &lt;/li&gt;
+  &lt;li&gt; All integers from 0 to 12&lt;/li&gt;
+  &lt;li&gt; Multiples of 5 from 0 to 60&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
+&lt;h5&gt;More Chances&lt;/h5&gt;
+&lt;p&gt;Students will have more opportunities to understand the mathematical ideas in this cool-down, so there is no need to slow down or add additional work to the next lessons. Instead, use the results of this cool-down to provide guidance for what to look for and emphasize over the next several lessons to support students in advancing their current understanding.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2064">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659571454</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2065">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659571454</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="923">
+        <prevpageid>922</prevpageid>
+        <nextpageid>924</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659571496</timecreated>
+        <timemodified>1661048890</timemodified>
+        <title>4.11.6: Practice</title>
+        <contents>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;The cost for an upcoming field trip is $15 per student. The cost of the field trip \(C\), in dollars, is a function of the number of students, \(x\).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Select all&lt;/strong&gt; the possible outputs for the function defined by \(C(x)=15x\).&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;
+            20
+        &lt;/li&gt;
+        &lt;li&gt;
+            30
+        &lt;/li&gt;
+        &lt;li&gt;
+            50
+        &lt;/li&gt;
+        &lt;li&gt;
+            90
+        &lt;/li&gt;
+        &lt;li&gt;
+            100
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWERS:&lt;/strong&gt; 30, 90&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol start="2"&gt;
+    &lt;li&gt;A rectangle has an area of 24 \(cm^2\). Function \(f\) gives the length of the rectangle, in centimeters, when the width is \(w\) cm.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Determine which values, in centimeters, are possible inputs of the function.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Select all &lt;/strong&gt;that apply.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;
+            3
+        &lt;/li&gt;
+        &lt;li&gt;
+            0.5
+        &lt;/li&gt;
+        &lt;li&gt;
+            48
+        &lt;/li&gt;
+        &lt;li&gt;–6
+        &lt;/li&gt;
+        &lt;li&gt;
+            0
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+
+
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWERS:&lt;/strong&gt;&amp;nbsp;3, 0.5, 48&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol start="3"&gt;
+    &lt;li&gt;&lt;strong&gt;Select all&lt;/strong&gt; the possible input-output pairs for the function \(y=x^3\).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;&lt;span&gt;\((-1,-1)\)&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;
+            \((-2,8)\)&lt;/li&gt;
+        &lt;li&gt;
+            \((3,9)\)&lt;/li&gt;
+        &lt;li&gt;
+            \((\frac12,\frac18)\)
+        &lt;/li&gt;
+        &lt;li&gt;&lt;span&gt;
+                \((4,64)\)&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;
+            \((1,-1)\)&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWERS: &lt;/strong&gt;(-1,-1), \((\frac12,\frac18)\), (4,64)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+
+
+&lt;ol start="4"&gt;
+    &lt;li&gt;Two functions are defined by the equations \(f(x)=5−0.2x\) and \(g(x)=0.2(x+5)\).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;Select all &lt;/strong&gt;statements that are true about the functions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;
+            \(f(3)&amp;gt;0\)
+        &lt;/li&gt;
+        &lt;li&gt;\(
+            f(3)&amp;gt;5\)
+        &lt;/li&gt;
+        &lt;li&gt;
+            \(g(-1)=0.8\)
+        &lt;/li&gt;
+        &lt;li&gt;\(
+            f(0)=g(0)\)
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWERS: &lt;/strong&gt;\(f(3)&amp;gt;0\), \(g(-1)=0.8\)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start="5"&gt;
+    &lt;li&gt;Is the relation graphed below a function?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/ebe09614d777e240f2411010a72af33998fb9b3a" alt="The figure shows the graph of some points on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The points (negative 3, 4), (negative 3, negative 1), (0, negative 3), (2, 3), (4, negative 1), and (4, negative 3)."&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; No; this is not a function because 4 maps to both –1 and –3.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start="6"&gt;
+    &lt;li&gt;Is the relation graphed below a function?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c26a999a0d0a7ad911c353f0086dbd924ea0ba97" alt="The figure shows the graph of some points on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The points (negative 3, 4), (negative 3, negative 4), (negative 2, 0), (negative 1, 3), (1, 5), and (4, negative 2)."&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;No; this is not a function because –3 maps to both 4 and –4.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start="7"&gt;
+    &lt;li&gt;For a fundraiser, Chi and her class are having a talent show and charging $7 a ticket. There are 100 seats in the theater. The function \(T\) gives the total for selling \(n\) tickets and is represented by \(T(n)=7n\). Describe the domain of the function.
+        &lt;ol&gt;
+            &lt;li type="a"&gt;
+                Enter the minimum domain value.
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 0; The minimum domain value is 0.&lt;/p&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt;
+            Enter the maximum domain value.
+        &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;100; The maximum domain value is 100.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol start="8"&gt;
+    &lt;li&gt;For a fundraiser, Chi and her class are having a talent show and charging $7 a ticket. There are 100 seats in the theater. The function \(T\) gives the total for selling \(n\) tickets and is represented by \(T(n)=7n\). Is 30 a possible output in the range?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; No; 30 is not a possible value in the range because all values of the range must be multiples of 7.&lt;/p&gt;
+&lt;/blockquote&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2066">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659571496</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2067">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659571496</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="924">
+        <prevpageid>923</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659572731</timecreated>
+        <timemodified>1662596123</timemodified>
+        <title>4.11.7: Lesson Synthesis</title>
+        <contents>&lt;p&gt;Tell students that function \(q\) gives the number of minutes a person sleeps as a function of the number of hours they sleep in a 24-hour period. Display a graphic organizer such as shown.&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col width="180"&gt;
+  &lt;col width="127"&gt;
+  &lt;col width="113"&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;in the domain?&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;in the range?&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;negative values&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;values less than 1&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;24&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;25&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;60&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;fractions&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;values greater than 480&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;1,500&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Ask students to decide whether each value or set of values described in the first column could be in the domain and in the range of the function. They should be prepared to explain their decisions (some of which may depend on the assumptions they made about the situation).&lt;/p&gt;
+&lt;p&gt;Once the class completes the organizer (an example is shown here), give students a moment to come up with a holistic description of the domain and range of this function.&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col width="180"&gt;
+  &lt;col width="127"&gt;
+  &lt;col width="113"&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;in the domain?&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;in the range?&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;negative values&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;no&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;no&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;values less than 1&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;24&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;25&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;no&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;60&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;no&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;fractions&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;values greater than 480&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;no&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;yes&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;1,500&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;no&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;no&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2068">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659572731</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2069">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659572731</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

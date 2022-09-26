@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="110" moduleid="146" modulename="lesson" contextid="157">
+  <lesson id="110">
+    <course>2</course>
+    <name>Lesson 4.15: Different Types of Sequences</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>148</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1660880776</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1002">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1003</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659793783</timecreated>
+        <timemodified>1662589371</timemodified>
+        <title>4.15.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will learn how to explain the difference between an arithmetic and a geometric sequence. You will determine arithmetic sequences that will help you solve real-world problems, such as how much fuel is left in your vehicle or how fast the money in your bank account is increasing.&lt;/p&gt;
+
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Explain what it means for a sequence to be arithmetic or geometric.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the&lt;strong&gt; activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    4.15.1: Interpreting Function Notation
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.15.2: What Is an Arithmetic Sequence?
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.15.2: Self Check
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.15.3: A Sequence Is a Type of Function
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.15.3: Self Check
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.15.4: Identify and Generate Sequences
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    4.15.5: Practice
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.15.6: Lesson Summary
+  &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2245">
+            <jumpto>1003</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659793783</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1003">
+        <prevpageid>1002</prevpageid>
+        <nextpageid>1004</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659794066</timecreated>
+        <timemodified>1662589402</timemodified>
+        <title>4.15.1: Interpreting Function Notation</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;p&gt;Consider the function \(f\) given by \(f(n)=3n−7\). This function takes an input, multiplies it by 3, and then subtracts 7.&lt;/p&gt;
+&lt;p&gt;Evaluate.&lt;/p&gt;
+
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;li&gt;\(f(10)\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;23&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;\(f(10)−1\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare&amp;nbsp;your answer:&lt;/p&gt;
+        &lt;p&gt;22&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt;\(f(10−1)\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare&amp;nbsp;your answer:&lt;/p&gt;
+        &lt;p&gt;20&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="4"&gt;
+            &lt;li&gt;\(f(5)−f(4)\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare&amp;nbsp;your answer:&lt;/p&gt;
+        &lt;p&gt;3&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2246">
+            <jumpto>1002</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659794066</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2247">
+            <jumpto>1004</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659794066</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1004">
+        <prevpageid>1003</prevpageid>
+        <nextpageid>1005</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659795028</timecreated>
+        <timemodified>1662589433</timemodified>
+        <title>4.15.2: What Is an Arithmetic Sequence?</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+
+
+&lt;p&gt;Here are the values of the first 5 terms of 3 sequences:&lt;/p&gt;
+&lt;ol type="A"&gt;
+    &lt;li&gt;
+        30, 40, 50, 60, 70, . . .
+    &lt;/li&gt;
+    &lt;li&gt;
+        0, 5, 15, 30, 50, . . .
+    &lt;/li&gt;
+    &lt;li&gt;
+        1, 2, 4, 8, 16, . . .
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;li&gt;
+                For each sequence, describe a way to produce a new term from the previous term.
+
+                &lt;ol type="A"&gt;
+                    &lt;li&gt;
+                        30, 40, 50, 60, 70, . . .
+                    &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Each term is 10 more than the previous term.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+
+            &lt;ol type="A" start="2"&gt;
+                &lt;li&gt;
+                    0, 5, 15, 30, 50, . . .
+                &lt;/li&gt;
+            &lt;/ol&gt;
+
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Each term is the result of adding 5 more than was added to the previous term (add 5, then add 10, then add 15).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+
+            &lt;ol type="A" start="3"&gt;
+                &lt;li&gt;
+                    1, 2, 4, 8, 16, . . .
+                &lt;/li&gt;
+            &lt;/ol&gt;
+
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Each term is double the previous term.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;
+                If the patterns you described continue, which sequence has the second-greatest value for the 10th term?
+
+
+            &lt;/li&gt;
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Sequence &lt;span&gt;B&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt;
+                Which of these could be geometric sequences? Explain how you know.
+
+
+            &lt;/li&gt;
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Sequence &lt;span&gt;C&lt;/span&gt;. Sample response: A geometric sequence has the same multiplier from one term to the next, the common ratio, and neither A nor B has this. Sequence C does; the common ratio is 2.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;p&gt;An &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;arithmetic sequence&lt;/span&gt; is a sequence in which each term is the previous term plus a constant.
+    This constant is called the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;common difference&lt;/span&gt;.
+&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="4"&gt;
+            &lt;li&gt;
+                Which of these could be arithmetic sequences? Explain how you know.
+
+
+            &lt;/li&gt;
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Sequence &lt;span&gt;A&lt;/span&gt;. Sample response: An arithmetic sequence gets each term by adding the same constant to the previous term. Sequence A adds 5 to each term to find the next term.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;h4&gt; Video: Comparing Sequences&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about comparing arithmetic and geometric sequences.
+&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/509740b91324e860a23860c580fa239d8a51c4dd"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/12c5ed810194f2f3cdae39856f3db5a28cd0d3c8" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/509740b91324e860a23860c580fa239d8a51c4dd
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+        &lt;p&gt;Elena says that it’s not possible to have a sequence of numbers that is both arithmetic and geometric. Do you agree with Elena? Explain your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Elena is incorrect. Sample explanation: the sequence 1,1,1, . . . is arithmetic (adding 0 each time), but it is also geometric (multiplying by 1 each time).
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;
+&lt;br&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2248">
+            <jumpto>1003</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659795028</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2249">
+            <jumpto>1005</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659795028</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1005">
+        <prevpageid>1004</prevpageid>
+        <nextpageid>1006</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659795129</timecreated>
+        <timemodified>1660229576</timemodified>
+        <title>4.15.2: Self Check </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Which of the following sequences is arithmetic?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2250">
+            <jumpto>1006</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659795129</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;3, 4, 6, 9, 13, . . .&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: While a constant is added to the previous term to generate the next term, the constant is different each time. The answer is 3, 7, 11, 15, . . .&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2251">
+            <jumpto>1006</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659795129</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;1, 4, 16, 64, . . .&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This sequence is geometric with a common ratio of 4. The answer is 3, 7, 11, 15, . . .&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2252">
+            <jumpto>1007</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659795129</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;3, 7, 11, 15, . . .&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: To find the next term, 4 is added to the previous term. This is arithmetic.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2253">
+            <jumpto>1006</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659795129</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;25, 5, 1, \(\frac15\), . . .&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This sequence has a common ratio of \(\frac15\) and is geometric. The answer is 3, 7, 11, 15, . . .&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2254">
+            <jumpto>1006</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659795129</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1006">
+        <prevpageid>1005</prevpageid>
+        <nextpageid>1007</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659795670</timecreated>
+        <timemodified>1662677415</timemodified>
+        <title>4.15.2: Additional Resources </title>
+        <contents>&lt;h4&gt;Arithmetic Sequences&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Finding Common Differences&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Companies often make large purchases, such as computers and vehicles, for business use.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        A woman who starts a small contracting business purchases a new truck for $25,000.
+    &lt;/li&gt;
+    &lt;li&gt;
+        After five years, she estimates that she will be able to sell the truck for $8,000. The loss in value of the truck will therefore be $17,000, which is $3,400 per year for five years.
+    &lt;/li&gt;
+    &lt;li&gt;
+        The truck will be worth $21,600 after the first year; $18,200 after two years; $14,800 after three years; $11,400 after four years; and $8,000 at the end of five years.
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The values of the truck in the example are said to form an arithmetic sequence because they change by a constant amount each year. Each term increases or decreases by the same constant value called the common difference of the sequence. For this sequence, the common difference is –3,400.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/b4ef05a451ee9ddbd41a3de6a0018926dcdbd443" alt="ARITHMETIC SEQUENCE WITH SIX TERMS WITH A COMMON DIFFERENCE OF NEGATIVE THREE THOUSAND FOUR HUNDRED, STARTING WITH A VALUE OF TWENTY-FIVE THOUSAND AND ENDING WITH A VALUE OF EIGHT THOUSAND.
+" width="550"&gt;&lt;/p&gt;
+&lt;p&gt;The sequence below is another example of an arithmetic sequence. In this case, the common difference is 3. You can choose any term of the sequence and add 3 to find the subsequent term.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/ad2abbd7eab8709bee9fc741c600c38ac25e82a6" alt="ARITHMETIC SEQUENCE WITH A COMMON DIFFERENCE OF THREE, WRITTEN AS THREE, SIX, NINE, TWELVE, FIFTEEN, DOT DOT DOT.
+"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ARITHMETIC SEQUENCE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;An arithmetic sequence is a sequence that has the property that the difference between any two consecutive terms is a constant. This constant is called the common difference. If \(a_1\) is the first term of an arithmetic sequence and \(d\) is the common difference, the sequence will be:&lt;/p&gt;
+&lt;p&gt;{\(a_n\)}={\(a_1, a_1+d, a_1+2d, a_1+3d\), . . .}&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;p&gt;Is each sequence arithmetic? If so, find the common difference.&lt;/p&gt;
+&lt;ol type="a"&gt;
+    &lt;li&gt;
+        {1, 2, 4, 8, 16, . . .}
+    &lt;/li&gt;
+    &lt;li&gt;
+        (–3, 1, 5, 9, 13, . . .}
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Subtract each term from the subsequent term to determine whether a common difference exists.&lt;/p&gt;
+&lt;ol type="a"&gt;
+    &lt;li&gt;
+        The sequence is not arithmetic because there is no common difference.
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;\(2-1=1\)&amp;nbsp; &amp;nbsp; &amp;nbsp;\(4-2=2\)&amp;nbsp; &amp;nbsp; &amp;nbsp;\(8-4=4\)&amp;nbsp; &amp;nbsp; &amp;nbsp;\(16-8=8\)
+    &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol type="a" start="2"&gt;
+    &lt;li&gt;
+        The sequence is arithmetic because there is a common difference. The common difference is 4.
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;\(1-(-3)=4\)&amp;nbsp; &amp;nbsp; &amp;nbsp;\(5-1=4\)&amp;nbsp; &amp;nbsp; &amp;nbsp;\(9-5=4\)&amp;nbsp; &amp;nbsp; &amp;nbsp;\(13-9=4\)
+    &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h4&gt;Try It: Arithmetic Sequences&lt;/h4&gt;
+
+&lt;p&gt;Is the given sequence arithmetic? If so, find the common difference.&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;{18, 16, 14, 12, 10, . . .}&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to determine if the sequence is arithmetic:&lt;/p&gt;
+    &lt;p&gt;\(16-18=-2\)&lt;br&gt;
+        \(
+        14-16=-2\)&lt;br&gt;
+        \(
+        12-14=-2\)&lt;br&gt;
+        \(
+        10-12=-2\)&lt;/p&gt;
+
+    &lt;p&gt;This is an arithmetic sequence with a common difference of –2.&lt;/p&gt;
+
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2255">
+            <jumpto>1005</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659795670</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2256">
+            <jumpto>1007</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659795670</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1007">
+        <prevpageid>1006</prevpageid>
+        <nextpageid>1008</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659795911</timecreated>
+        <timemodified>1662589565</timemodified>
+        <title>4.15.3: A Sequence Is a Type of Function</title>
+        <contents>&lt;h4&gt;Activity &lt;/h4&gt;
+&lt;p&gt;Jada and Mai are trying to decide what type of sequence this could be:&lt;/p&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="114"&gt;
+        &lt;col width="55"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;term number&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;value&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;6&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;18&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Jada says: “I think this sequence is geometric because in the value column, each row is 3 times the previous row.”&lt;/p&gt;
+
+&lt;p&gt;Mai says: “I don’t think it is geometric. I graphed it, and it doesn’t look geometric.”&lt;/p&gt;
+
+
+
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;Do you agree with Jada or Mai? Explain or show your reasoning using a graph.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;I agree with Mai. Jada noticed that each value is multiplied by 3 to get to the next row, but the table skips terms. If the sequence were geometric, it would have to be 2, 6, 18, 54, 108. When Mai made a graph, she could see the gap in the sequence.
+        &lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/tM9DHpxLoiU8GUDQYGZZ2ybm" alt="" width="201" height="186" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+        &lt;p&gt;Without knowing the missing terms, we don’t know for sure if the sequence is arithmetic, but it could be since the three given points are all on the same line with slope 4. The missing points could be \((3,10)\) and \((4,14)\) so that the sequence would be 2, 6, 10, 14, 18.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2257">
+            <jumpto>1004</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659795911</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2258">
+            <jumpto>1008</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659795911</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1008">
+        <prevpageid>1007</prevpageid>
+        <nextpageid>1009</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659796016</timecreated>
+        <timemodified>1660230032</timemodified>
+        <title>4.15.3: Self Check </title>
+        <contents>&lt;p&gt;Which two terms could be next in the sequence to make it arithmetic?&lt;/p&gt;
+
+                &lt;p&gt;5, 8, ____, ____&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2259">
+            <jumpto>1009</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796016</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;12.8, 7.68&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: These would be the next two terms if the sequence were geometric. The answer is 11, 14.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2260">
+            <jumpto>1010</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659796016</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;11, 14&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The common difference from 5 to 8 is 3, so continue to add 3 to find the next two terms.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2261">
+            <jumpto>1009</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796016</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;13, 20&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This is the result of adding 3, then 5, and then 7. The common difference remains the same in an arithmetic sequence. The answer is 11, 14.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2262">
+            <jumpto>1009</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796016</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;13, 21&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This is the result of adding the two previous terms. This sequence does not have a common difference. The answer is 11, 14.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2263">
+            <jumpto>1009</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796016</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1009">
+        <prevpageid>1008</prevpageid>
+        <nextpageid>1010</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659796117</timecreated>
+        <timemodified>1662589595</timemodified>
+        <title>4.15.3: Additional Resources </title>
+        <contents>&lt;h4&gt;Creating a Sequence&lt;/h4&gt;
+
+
+&lt;p&gt;For a sequence: 1, 3, . . .&lt;/p&gt;
+&lt;p&gt;Write the next two terms that would make the sequence&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;
+        geometric
+    &lt;/li&gt;
+    &lt;li&gt;
+        arithmetic
+    &lt;/li&gt;
+
+    &lt;li&gt;
+        To make the sequence geometric, there must be a common ratio.
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;\(1\cdot3=3\), so use a common ratio of 3 to multiply each term by.&lt;/p&gt;
+&lt;p&gt;The sequence becomes: 1, 3, 9, 27 . . .&lt;/p&gt;
+
+&lt;ol start="2"&gt;
+    &lt;li&gt;
+        To make the sequence arithmetic, there must be a common difference.
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;\(3-1=2\), so use a common difference of 2 to add to each term.&lt;/p&gt;
+&lt;p&gt;The sequence becomes: 1, 3, 5, 7 . . .&lt;/p&gt;
+
+&lt;h4&gt;Try It: Creating a Sequence&lt;/h4&gt;
+
+&lt;p&gt;Write the next two terms to create an arithmetic sequence.&lt;/p&gt;
+
+
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;2, 6, . . .&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to create an arithmetic sequence given two terms:&lt;/p&gt;
+
+    &lt;p&gt;Find the common difference by subtracting the first term from the second term:&lt;/p&gt;
+    &lt;p&gt;\(6-2=4\)&lt;/p&gt;
+    &lt;p&gt;The common difference is 4.&lt;/p&gt;
+    &lt;p&gt;Add 4 to the previous term to find the next terms.&lt;/p&gt;
+    &lt;p&gt;The sequence becomes: 2, 6, 10, 14 . . .&lt;/p&gt;
+
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2264">
+            <jumpto>1008</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796117</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2265">
+            <jumpto>1010</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796117</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1010">
+        <prevpageid>1009</prevpageid>
+        <nextpageid>1011</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659796277</timecreated>
+        <timemodified>1662589621</timemodified>
+        <title>4.15.4: Identify and Generate Sequences</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+
+
+&lt;p&gt;Many sequences start with the terms 2 and 8.&lt;/p&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Find the next two terms of the arithmetic sequence 2, 8, ____, ____.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;14, 20&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;Find the next two terms of the geometric sequence 2, 8, ____, ____.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;32, 128&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;Find two possible next terms of a sequence 2, 8, ____, ____ that is neither geometric nor arithmetic.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;9, 16&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2266">
+            <jumpto>1007</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796277</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2267">
+            <jumpto>1011</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796277</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1011">
+        <prevpageid>1010</prevpageid>
+        <nextpageid>1012</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659796332</timecreated>
+        <timemodified>1660786682</timemodified>
+        <title>4.15.5: Practice </title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
+  &lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+	
+	
+	 
+  &lt;!--Q1--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="22" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;li&gt;Here are the first two terms of some different arithmetic sequences. What is the 5th term of each sequence?&lt;/li&gt;&lt;ol type="a" start="1"&gt;
+        &lt;li&gt;–2, 4 &lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;
+&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! 22; The pattern continues 10, 16, 22. &lt;/p&gt;
+&lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.15.2–4.15.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 22. The pattern continues 10, 16, 22. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+
+ &lt;!--Q1b--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="411" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="2"&gt;
+        &lt;li&gt;11, 111 &lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;
+&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! 411&lt;/p&gt;
+&lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.15.2–4.15.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 411. The pattern continues 211, 311, 411. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+	
+	&lt;!--Q1c--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="15" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="3"&gt;
+        &lt;li&gt;5, 7.5 &lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;
+&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! 15&lt;/p&gt;
+&lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.15.2–4.15.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 15. The pattern continues 10, 12.5, 15. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+	
+	
+	&lt;!--Q1d--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-31" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="4"&gt;
+        &lt;li&gt;5, –4&lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;
+&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! –31&lt;/p&gt;
+&lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.15.2–4.15.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is –31. The pattern continues –13, –22, –31. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+	
+	
+	&lt;!--Q2a--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Geometric" data-solution-options="[&amp;quot;Geometric&amp;quot;, &amp;quot;Arithmetic&amp;quot;, &amp;quot;Neither&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+    &lt;ol type="1" start="2"&gt; &lt;li&gt;For each sequence, decide whether it could be arithmetic, geometric, or neither.&lt;/li&gt; &lt;ol type="a" start="1"&gt;
+        &lt;li&gt;200, 40, 8, . . .&lt;/li&gt;
+		&lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! Geometric&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 4.15.2–4.15.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is geometric. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	
+	
+	&lt;!--Q2b--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Neither" data-solution-options="[&amp;quot;Geometric&amp;quot;, &amp;quot;Arithmetic&amp;quot;, &amp;quot;Neither&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+    &lt;ol&gt;  &lt;ol type="a" start="2"&gt;
+        &lt;li&gt;2, 4, 16, . . .&lt;/li&gt;
+		&lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! Neither&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 4.15.2–4.15.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is neither. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	&lt;!--Q2c--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Arithmetic" data-solution-options="[&amp;quot;Geometric&amp;quot;, &amp;quot;Arithmetic&amp;quot;, &amp;quot;Neither&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+    &lt;ol&gt;  &lt;ol type="a" start="3"&gt;
+        &lt;li&gt;10, 20, 30, . . .&lt;/li&gt;
+		&lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! Arithmetic&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 4.15.2–4.15.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is arithmetic. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	
+	&lt;!--Q2d--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Geometric" data-solution-options="[&amp;quot;Geometric&amp;quot;, &amp;quot;Arithmetic&amp;quot;, &amp;quot;Neither&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+    &lt;ol&gt;  &lt;ol type="a" start="4"&gt;
+        &lt;li&gt;100, 20, 4, . . .&lt;/li&gt;
+		&lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! Geometric&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 4.15.2–4.15.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is geometric. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	
+	&lt;!--Q2e--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Arithmetic" data-solution-options="[&amp;quot;Geometric&amp;quot;, &amp;quot;Arithmetic&amp;quot;, &amp;quot;Neither&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+    &lt;ol&gt;  &lt;ol type="a" start="5"&gt;
+        &lt;li&gt;6, 12, 18, . . .&lt;/li&gt;
+		&lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! Arithmetic&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 4.15.2–4.15.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is arithmetic. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	 &lt;!--Q3--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-1" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol type="1" start="3"&gt;&lt;li&gt;Complete each arithmetic sequence with its missing terms in your math notebook. Then, state the common difference for each sequence. Enter the common difference as integers only.&lt;/li&gt;&lt;ol type="a" start="1"&gt;
+        &lt;li&gt;–3, –2, ___, ___, 1
+        &lt;br&gt;
+Common Difference&lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! –1; The missing terms are –1, 0.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.15.2–4.15.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is –1. The missing terms are –1, 0. You seem to be stuck. Who can you ask for help?
+
+&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	
+	
+	 &lt;!--Q3b--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="12" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="2"&gt;
+        &lt;li&gt;___, 13, 25, ___, ___&lt;br&gt;Common Difference&lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;
+&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! 12; The sequence should be 1, 13, 25, 37, 49.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.15.2–4.15.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 12. The sequence should be 1, 13, 25, 37, 49. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	&lt;!--Q3c--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-0.75" data-problem-comparator="float"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="3"&gt;
+        &lt;li&gt;1, 0.25, ___, –1.25, ___&lt;br&gt;Common Difference&lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Digits and Decimals&lt;/strong&gt;&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! –0.75; The sequence is 1, 0.25, –0.5, –1.25, –2.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.15.2–4.15.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is –0.75. The sequence is 1, 0.25, –0.5, –1.25, –2. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	
+	&lt;!--Q3d--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-3" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="4"&gt;
+        &lt;li&gt;92, ___, ___ ,___, 80&lt;br&gt;Common Difference&lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! –3; The sequence is 92, 89, 86, 83, 80.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.15.2–4.15.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is –3. The sequence is 92, 89, 86, 83, 80. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	&lt;!--4a--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol type="1" start="4"&gt;&lt;li&gt;Complete each arithmetic sequence with the missing terms in your math notebook. Then find the common difference for each. Enter the common difference as integers only.&lt;/li&gt;&lt;ol type="a" start="1"&gt;
+        &lt;li&gt;___, 6, 10, ___, 18&lt;br&gt;Common Difference&lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!  4; The sequence is 2, 6, 10, 14, 18.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 4.15.2–4.15.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 4. The sequence is 2, 6, 10, 14, 18. You seem to be stuck. Who can you ask for help?
+&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	&lt;!--Q4b--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-5" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="2"&gt;
+        &lt;li&gt;–1, ___, –11, –16, ___&lt;br&gt;Common Difference&lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! –5; The sequence is –1, –6, –11, –16, –21.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 4.15.2–4.15.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is –5. The sequence is –1, –6, –11, –16, –21. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	&lt;!--Q4c--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-5" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="3"&gt;
+        &lt;li&gt;10, 5, ___, ___, –10&lt;br&gt;Common Difference&lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! –5; The sequence is 10, 5, 0, –5, –10.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 4.15.2–4.15.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is –5. The sequence is 10, 5, 0, –5, –10. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	&lt;!--Q4d--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1.5" data-problem-comparator="float"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="4"&gt;
+        &lt;li&gt;___, ___, 4.5, 6, ___&lt;br&gt;Common Difference&lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Digits and Decimals&lt;/strong&gt;&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! 1.5; The sequence is 1.5, 3, 4.5, 6.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 4.15.2–4.15.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 1.5. The sequence is 1.5, 3, 4.5, 6. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	&lt;!--Q4e--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-6" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="5"&gt;
+        &lt;li&gt;___, 12, 6, 0, ___&lt;br&gt;Common Difference&lt;br&gt;
+Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! –6; The sequence is 18, 12, 6, 0, –6.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 4.15.2–4.15.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is –6. The sequence is 18, 12, 6, 0, –6. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;!--Do not edit below this line--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2268">
+            <jumpto>1010</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796332</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2269">
+            <jumpto>1012</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796332</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1012">
+        <prevpageid>1011</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659796555</timecreated>
+        <timemodified>1662589721</timemodified>
+        <title> 4.15.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Explain what it means for a sequence to be arithmetic or geometric.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the &lt;strong&gt;activities &lt;/strong&gt;that helped you reach those goals:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    4.15.1: Interpreting Function Notation
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      In this activity, you mentally evaluated functions given a function in function notation.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+    4.15.2: What Is an Arithmetic Sequence?
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      In this activity, you learned what makes a sequence arithmetic.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+    4.15.2: Self Check
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.15.3: A Sequence Is a Type of Function
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      In this activity, you represented a sequence in a graph and discussed if it could be geometric or arithmetic.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+    4.15.3: Self Check
+  &lt;/li&gt;
+  &lt;li&gt;
+    4.15.4: Identify and Generate Sequences
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      In this activity, you completed the same sequence with different terms to make it arithmetic, then geometric, and then neither.
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    4.15.5: Practice
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+
+    &lt;!--pulldown--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2270">
+            <jumpto>1011</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796555</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2271">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659796555</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

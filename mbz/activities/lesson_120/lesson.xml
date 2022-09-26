@@ -1,0 +1,1769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="90" moduleid="120" modulename="lesson" contextid="131">
+  <lesson id="90">
+    <course>2</course>
+    <name>Lesson 4.5: Using Function Notation to Describe Rules, Part 2</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1660880679</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="799">
+        <prevpageid>0</prevpageid>
+        <nextpageid>800</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658952748</timecreated>
+        <timemodified>1662638055</timemodified>
+        <title>4.5.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will use rules of functions to find the output when the input is given (or to evaluate functions) and to find the input when the output is known (or to solve equations that define functions). To make connections between different representations of functions, you will interpret rules of functions by comparing cell phone data plans to choose the most cost-effective plan. &lt;/p&gt;
+
+&lt;p&gt;When you finish this lesson, you will be able to: &lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Use technology to graph a function given in function notation, and use the graph to find the values of the function.&lt;/li&gt;
+    &lt;li&gt;Be able to identify if a graph represents a function through the vertical line test.&lt;/li&gt;
+    &lt;li&gt;Explain different ways to find the value of a function and to solve equations written in function notation.&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;Explain what makes a function a linear function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.5.1: Finding Solutions of Equations &lt;/li&gt;
+    &lt;li&gt;4.5.2: Using the Vertical Line Test&lt;/li&gt;
+    &lt;li&gt;4.5.2: Self Check&lt;/li&gt;
+    &lt;li&gt;4.5.3: Comparing Functions &lt;/li&gt;
+    &lt;li&gt;4.5.3: Self Check &lt;/li&gt;
+    &lt;li&gt;4.5.4: Using Function Notation and Graphing Technology (Optional)&lt;/li&gt;
+    &lt;li&gt;4.5.4: Self Check &lt;/li&gt;
+    &lt;li&gt;4.5.5: Using Graphical and Algebraic Approaches for Finding Unknowns of Linear Functions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.5.6: Practice&lt;/li&gt;
+    &lt;li&gt;4.5.7: Lesson Summary&lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1782">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952748</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="800">
+        <prevpageid>799</prevpageid>
+        <nextpageid>801</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658952766</timecreated>
+        <timemodified>1662638125</timemodified>
+        <title>4.5.1: Finding Solutions of Equations</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+
+&lt;p&gt;Consider the equation \(q = 4 + 0.8p\).&lt;/p&gt;
+
+&lt;!--Question 1a --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;li&gt;What value of \(q\) would make the equation true when: &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol start="1" type="a"&gt;
+            &lt;li&gt;\(p\) is 7?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(q=9.6\)&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;!--Question 1b --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" type="a"&gt;
+            &lt;li&gt;\(p\) is 100?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(q=84\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;!--Question 2a --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" type="1"&gt;
+            &lt;li&gt;What value of \(p\) would make the equation true when:&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+            &lt;ol start="1" type="a"&gt;
+                &lt;li&gt;\(q\) is 12?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(p=10\)&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;!--Question 2b --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;b. \(q\) is 60?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;\(p=70\)&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1783">
+            <jumpto>799</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952766</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1814">
+            <jumpto>801</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952766</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="801">
+        <prevpageid>800</prevpageid>
+        <nextpageid>802</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658952790</timecreated>
+        <timemodified>1662660033</timemodified>
+        <title>4.5.2: Using the Vertical Line Test</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;A table for the relation \(f\) is below. &lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="0" width="624"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th width="89" valign="top"&gt; &lt;p&gt;\(x\)&lt;/p&gt;
+      &lt;/th&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th width="89" valign="top"&gt; &lt;p&gt;\(f\)&lt;/p&gt;
+      &lt;/th&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;–1&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;–2&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+      &lt;td width="89" valign="top"&gt;&lt;p&gt;–2&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;!--Question 2 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt; &lt;br&gt;
+    &lt;br&gt;
+    &lt;ol start="1" type="1"&gt;
+      &lt;li&gt;Is this relation a function? Explain your answer.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(f\) is not a function because \(f(1) =-1\) and \(f(1)=1 \).&lt;br&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol start="2" type="1"&gt;
+      &lt;li&gt;Use the graphing tool above or technology outside the course. &lt;br&gt;
+        &lt;br&gt;
+        Interact with the graph. Graph the points in the relation on a coordinate grid. &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answer:&lt;/p&gt;
+  &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/ee925e215fe7152df93361e3c7ca8524294e4166" alt="ALT TEXT: COORDINATE GRID FROM −1 TO 8 ON THE X-AXIS AND FROM −2 TO 6 ON THE Y-AXIS. THE POINTS (1, −1), (2, 5), (3, −2), (1, 1), (4, 3), AND (5, −2) ARE PLOTTED." width="300" height="300"&gt;&lt;br&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt; &lt;/div&gt;
+&lt;br&gt;
+&lt;!--Question 3 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="3" type="1"&gt;
+      &lt;li&gt;What do you notice about the points \((1, -1)\) and \((1,1)\)?&lt;br&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;They are on the same vertical line.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;VERTICAL LINE TEST&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point.&lt;/p&gt;
+&lt;p&gt;If any vertical line intersects the graph in more than one point, the graph does not represent a function.&lt;/p&gt;
+&lt;p&gt;If the graph does represent a function, we say it “passes the vertical line test.”&lt;/p&gt;
+&lt;ol start="4" type="1"&gt;
+  &lt;li&gt;For the graphs below, tell if the graph passes the vertical line test and if it is the graph of a function.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e43b54da4912632226f7bc4c2a61b9ed1359f826" alt="The figure has two graphs. In graph a there is a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). In graph b there is a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2)."&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Question Part A --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;p&gt;a.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Yes, this passes the vertical line test and is a function.&lt;/p&gt;
+    &lt;img src="https://k12.openstax.org/contents/raise/resources/4463db3a1f658e1734cf80330610c7e00c842471" alt="ALT TEXT: THE GRAPH OF A STRAIGHT LINE THAT PASSES THROUGH THE POINTS (0, 2) AND (3, 0), SHOWN IN RED. A BLUE VERTICAL LINE PASSING THROUGH (−2, 0). A GREEN VERTICAL LINE PASSING THROUGH (4, 0)." width="300" height="297" class="img-fluid atto_image_button_text-bottom"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!--Question Part b --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;p&gt;b.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;No, this graph does not pass the vertical line test, and it is not a function. For example, the vertical line \(x=1\) crosses the graph more than once.&lt;/p&gt;
+    &lt;img src="https://k12.openstax.org/contents/raise/resources/46678dbea19435947004bff8050dd8ce0fbebcc2" alt="A SIDEWAYS PARABOLA THAT OPENS TO THE RIGHT AND PASSES THROUGH THE POINTS (−1, 0), (3, 2), AND (3, −2). A BLACK VERTICAL LINE PASSING THROUGH (1, 0)." width="195" height="193"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Notice that the graph of a line will always be a function. This is called a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;linear function&lt;/span&gt;. &lt;/p&gt;
+&lt;h4&gt;Video: Interpreting Function Notation&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about function notation.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+  &lt;source src="https://k12.openstax.org/contents/raise/resources/fe84d773f2ac6fbbb436b9cc3b52bf2479c62f05"&gt;
+  &lt;track src="https://k12.openstax.org/contents/raise/resources/04c3307620f6a76063ddbcb4de503b09273a447a" kind="captions" srclang="en_us" label="On" default="true"&gt;
+  https://k12.openstax.org/contents/raise/resources/fe84d773f2ac6fbbb436b9cc3b52bf2479c62f05 &lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1784">
+            <jumpto>800</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952790</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1817">
+            <jumpto>802</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952790</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="802">
+        <prevpageid>801</prevpageid>
+        <nextpageid>803</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658958788</timecreated>
+        <timemodified>1660329130</timemodified>
+        <title>4.5.2: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span lang="EN"&gt;Which of the following graphs is the graph of a function?&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1793">
+            <jumpto>803</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658958788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/af8e3793684afca4a6c89f1a2c546a8fcd294907" alt="The figure has a circle graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The circle goes through the points (negative 3, 0), (3, 0), (0, negative 3), and (0, 3)." width="229" height="235"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: For a graph to be that of a function, it must pass the vertical line test. For this graph, there are multiple places where an imaginary vertical line would touch more than once. For example, the vertical line \(x = 2\) crosses the graph more than once. The answer is:&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." width="229" height="235"&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1794">
+            <jumpto>803</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658958788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8bcdce1d348b87577df82f0bf6cad83db03dd7e9" alt="The figure has a parabola opening right graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The parabola goes through the points (negative 2, 0), (negative 1, 1), (negative 1, negative 1), (negative 2, 2), and (2, 2)." width="229" height="235"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: For a graph to be that of a function, it must pass the vertical line test. For this graph, there are multiple places where an imaginary vertical line would touch more than once. For example, the vertical line \(x =2\) crosses the graph more than once. The answer is:&lt;br&gt;&amp;nbsp;&lt;img src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." width="229" height="235" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1795">
+            <jumpto>810</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658958788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." width="229" height="235" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: If an imaginary vertical line was drawn anywhere on the graph, it would only touch once. This graph passes the vertical line test and is the graph of a function.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1796">
+            <jumpto>803</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658958788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/450c9e05950d38bccf933c33f97b7e287471c583" alt="The figure has a sideways absolute value function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The line bends at the point (0, 2) and goes to the right. The line goes through the points (1, 3), (2, 4), (1, 1), and (2, 0)." width="229" height="235"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: For a graph to be that of a function, it must pass the vertical line test. For this graph, there are multiple places where an imaginary vertical line would touch more than once. For example, the vertical line \(x = 2\) crosses the graph more than once. The answer is:&lt;br&gt;&amp;nbsp;&lt;img src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." width="229" height="235"&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1803">
+            <jumpto>803</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658958788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="803">
+        <prevpageid>802</prevpageid>
+        <nextpageid>810</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658952835</timecreated>
+        <timemodified>1661427467</timemodified>
+        <title>4.5.2: Additional Resources</title>
+        <contents>&lt;h4&gt;Determine If a Graph Is a Function&lt;/h4&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8cafc286f38f1825dd57670ce189645f0e417f3d" alt="This figure has a graph next to a table. The graph has a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The line is labeled f of x equals2 x minus 3. There are several vertical arrows that relate values on the x-axis to points on the line. The first arrow relates x equalsnegative 2 on the x-axis to the point (negative 2, negative 7) on the line. The second arrow relates x equalsnegative 1 on the x-axis to the point (negative 1, negative 5) on the line. The next arrow relates x equals0 on the x-axis to the point (0, negative 3) on the line. The next arrow relates x equals3 on the x-axis to the point (3, 3) on the line. The last arrow relates x equals4 on the x-axis to the point (4, 5) on the line. The table has 7 rows and 3 columns. The first row is a title row with the label f of x equals2 x minus 3. The second row is a header row with the headers x, f of x, and (x, f of x). The third row has the coordinates negative 2, negative 7, and (negative 2, negative 7). The fourth row has the coordinates negative 1, negative 5, and (negative 1, negative 5). The fifth row has the coordinates 0, negative 3, and (0, negative 3). The sixth row has the coordinates 3, 3, and (3, 3). The seventh row has the coordinates 4, 5, and (4, 5)." width="688" height="496"&gt;&lt;br&gt;
+    A relation is a function if every input has exactly one output value. So the relation defined by the equation \(y=2x−3\) is a function. Notice that a line will always be a function, so it is called a linear function.&lt;/p&gt;
+&lt;p&gt;If we look at the graph, each vertical dashed line intersects the line at only one point. This makes sense because in a function, for every \(x\)-value there is only one \(y\)-value.&lt;/p&gt;
+&lt;p&gt;If the vertical line hit the graph twice, the&amp;nbsp;\(x\)-value would be mapped to two \(y\)-values, so the graph would not represent a function.&lt;/p&gt;
+&lt;p&gt;This leads us to the vertical line test. A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point. If any vertical line intersects the graph in more than one point, the graph does not represent a function.&lt;/p&gt;
+&lt;p&gt;Look at the graphs below:&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src="https://k12.openstax.org/contents/raise/resources/f036b97c1d7e062abba7b5b7eb4a54663d3d43f8" alt="The figure has two graphs. In graph a there is a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 2 to 10. The parabola goes through the points (0, negative 1), (negative 1, 0), (1, 0), (negative 2, 3), and (2, 3). In graph b there is a circle graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The circle goes through the points (negative 2, 0), (2, 0), (0, negative 2), and (0, 2)." width="675" height="358"&gt;
+&lt;/p&gt;
+&lt;p&gt;Graph a passes the vertical line test because if an imaginary vertical line were drawn anywhere on the graph, it would only touch one time.&lt;/p&gt;
+&lt;p&gt;Graph a is a function.&lt;/p&gt;
+&lt;p&gt;Graph b does not pass the vertical line test because when a vertical line is drawn down the graph, there is at least one place where the vertical line touches twice.&lt;/p&gt;
+&lt;p&gt;Graph b is not a function.&lt;/p&gt;
+&lt;h4&gt;Try It: Determine if a Graph Is a Function&lt;/h4&gt;
+&lt;p&gt;Determine if each graph is a function. Use the vertical line test to explain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5b86b8dab19477d50e868d209cf51562ebc30909" alt="The figure has two graphs. In graph a there is an ellipse graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The ellipse goes through the points (0, negative 3), (negative 2, 0), (2, 0), and (0, 3). In graph b there is a straight line graphed on the x y-coordinate plane. The x-axis runs from negative 12 to 12. The y-axis runs from negative 12 to 12. The line goes through the points (0, negative 2), (2, 0), and (4, 2)." width="679" height="359"&gt;
+&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+
+    &lt;p&gt;Compare your answser:&lt;/p&gt;
+    &lt;p&gt;Here is how to determine if a graph is a function:&lt;/p&gt;
+    &lt;p&gt;Graph a does not pass the vertical line test because if a vertical line were drawn down the graph, there would be at least one place where the vertical line would touch more than once. For example, a vertical line drawn at \(x=1\) would cross the graph more than once.&lt;/p&gt;
+    &lt;p&gt;Graph a is not a function.&lt;/p&gt;
+    &lt;p&gt;Graph b does pass the vertical line test because a vertical line drawn anywhere on the graph will only touch one time.&lt;/p&gt;
+    &lt;p&gt;Graph b is a function.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about&amp;nbsp;&lt;em&gt;why&amp;nbsp;&lt;/em&gt;you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1785">
+            <jumpto>802</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952835</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1804">
+            <jumpto>810</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952835</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="810">
+        <prevpageid>803</prevpageid>
+        <nextpageid>804</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658952877</timecreated>
+        <timemodified>1662679804</timemodified>
+        <title>4.5.3: Comparing Functions</title>
+        <contents>&lt;p&gt;A college student is choosing between two data plans for her new cell phone. Both plans include an allowance of 2 gigabytes of data per month. The monthly cost of each option can be seen as a function and represented with an equation:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Option A: \(A(x)=60\)&lt;/li&gt;
+    &lt;li&gt;Option B:&amp;nbsp;\(B(x)=10x+25\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In each function, the input, \(x\), represents the gigabytes of data used&amp;nbsp;&lt;em&gt;over&lt;/em&gt;&amp;nbsp;the monthly allowance.&lt;/p&gt;
+
+
+&lt;!--Question 1 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="1" type="1"&gt;
+            &lt;li&gt;The student decides to find the values of \(A(1)\) and \(B(1)\)&amp;nbsp;and compare them. What are those values?&lt;/li&gt;
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answers here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(A(1) = 60\); \(B(1) = 35\) &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Question 2 --&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" type="1"&gt;
+            &lt;li&gt;After looking at some of her past phone bills, she decided to compare&amp;nbsp;\(A(7.5)\) and \(B(7.5)\). What are those values?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answers here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(A(7.5) = 60\); \(B(7.5) = 100 \)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Question 3 --&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3" type="1"&gt;
+            &lt;li&gt;Describe each data plan in words.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Option A charges a flat fee of $60 each month. It doesn’t matter how many gigabytes of data are used. Option B charges a $25 fee plus $10 for each gigabyte of data over the 2-gigabytes allowance. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Question 4 --&gt;
+&lt;br&gt;&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;&lt;br&gt;
+
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol type="1" start="4"&gt;
+    &lt;li&gt;Use the graphing tool above or technology outside the course. Interact with the graph below. Graph each function on the same coordinate plane. Then, explain which plan you think she should choose.
+        
+    &lt;/li&gt;
+&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/RTkuzSe22j7pySW4UkDS57nk" alt="Two linear functions. data used over allowance (gigabytes) and cost(dollars)." width="314" height="286" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+    &lt;p&gt;Your answers may vary, but here are some examples:&lt;/p&gt;
+    &lt;ol&gt;
+        &lt;ol&gt;
+            &lt;li&gt;She should choose Option A if she plans on using around 7.5 gigabytes a month. &lt;/li&gt;
+            &lt;li&gt;She should choose Option A if she uses more than 5.5 gigabytes a month (or more than 3.5 gigabytes over the allowance). &lt;/li&gt;
+            &lt;li&gt;She should choose Option B if she uses only about 2 gigabytes a month. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;!--Question 5 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="1" start="5"&gt;
+            &lt;li&gt;The student only budgeted&amp;nbsp;$50 a month for her cell phone. She thought, “I wonder how many gigabytes of data I would have for&amp;nbsp;$50 if I go with Option B?” and wrote \(B(x)=50\).&amp;nbsp;What is the answer to her question? Explain or show how you know.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;2.5 gigabytes over the allowance (or 4.5 gigabytes in total). Your answers may vary, but here are some explanations:&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;ol&gt;
+                &lt;li&gt;I used the graph to estimate the gigabytes of data when the cost is $50, and it is about 2.5. &lt;/li&gt;
+                &lt;li&gt;I knew that \(B(x)\) is equal to \(10x + 25\), so I wrote \(10x + 25 = 50\) and solved for \(x\), which gave \(x = 2.5\). &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+        &lt;p&gt;Describe a different data plan that, for any amount of data used, would cost no more than one of the given plans and no less than the other given plan. Explain or show how you know this data plan would meet these requirements.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Your answers may vary, but here are some examples:&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;The graph of this data plan would be a line whose slope is between the slope of the other two graphs (greater than 0 but less than 10) and goes through the intersection of the other two graphs.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+        &lt;p&gt;The plan charges $4 for each gigabyte of data over the 2-gigabyte allowance, plus a $6 fee. With this plan:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;If we use exactly 13.5 additional gigabytes above the allowance (that is, 5.5 gigabytes in total), all three plans would cost $60.&lt;/li&gt;
+            &lt;li&gt;If we use less than that, our plan would cost less than Option A but more than Option B.&lt;/li&gt;
+            &lt;li&gt;If we use more than that, our plan would cost more than Option A but less than Option B.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1786">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952877</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1805">
+            <jumpto>804</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952877</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="805">
+        <prevpageid>804</prevpageid>
+        <nextpageid>812</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658952902</timecreated>
+        <timemodified>1662638248</timemodified>
+        <title>4.5.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Comparing Function Values&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Functions&lt;/strong&gt;&amp;nbsp;are used in a variety of real-life situations. They are useful in making comparisons, especially when comparing the cost.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;br&gt;The daily cost to printing company A to print a book is modeled by a function&amp;nbsp;\(C(x)=3.25x+1500\),&amp;nbsp;where&amp;nbsp;\(C\)&amp;nbsp;is the total daily cost, in dollars, and \(x\)&amp;nbsp;is the number of books printed.&lt;/p&gt;
+
+&lt;p&gt;Their competitor, company&amp;nbsp; B, &amp;nbsp;can print a book at a cost modeled by&amp;nbsp;\(C(x)=2.75x+2500\).&lt;/p&gt;
+
+&lt;p&gt;Find \(C(1000)\) for each company and make a statement about the result.&lt;/p&gt;
+
+&lt;p&gt;Company A: \(C(1000)=3.25(1000)+1500\) &lt;/p&gt;
+
+&lt;p&gt;\(C=4750\) &lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;Company B: \(C(1000)=2.75(1000)+2500\) &lt;/p&gt;
+
+&lt;p&gt;\( C=5250\) &lt;/p&gt;
+ 
+&lt;p&gt;When 1,000 books are printed, Company A has the better price.&lt;/p&gt;
+
+&lt;h4&gt;Try It: Comparing Function Values&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;The daily cost to manufacturing company A is modeled by the function&lt;br&gt;\(C(x)=7.25x+2500\), where \(C(x)\) is the total daily cost and \(x\)&amp;nbsp;is the number of items manufactured.&lt;/p&gt;
+        &lt;p&gt;The daily cost to manufacturing company B is modeled by the function \(C(x)=8.5x +1500\).&lt;/p&gt;
+        &lt;p&gt;Which company is less at \(C(1000)\)? Explain the meaning of the result.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Your answers may vary, but here are some examples:&lt;br&gt;&lt;/p&gt;
+    &lt;p&gt;Here is how to determine which company costs less at \(C(1000)\):&lt;/p&gt;
+    &lt;p&gt;Substitute 1,000 in for \(x\) in each function.&lt;/p&gt;
+    
+	&lt;table border="1" cellspacing="0" cellpadding="0" width="624"&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;th width="312"&gt;&lt;br&gt;
+                    Company A’s Cost Equation&lt;/th&gt;
+                &lt;td width="312"&gt;
+                    &lt;p&gt;\(C(x)=7.25x+2500\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th width="312"&gt;
+                    &lt;p&gt;Substitute \(x=1000\)&lt;/p&gt;
+                &lt;/th&gt;
+                &lt;td width="312"&gt;
+                    &lt;p&gt;\(C(1000)=7.25(1000)+2500\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th width="312"&gt;
+                    &lt;p&gt;Simplify&lt;/p&gt;
+                &lt;/th&gt;
+                &lt;td width="312"&gt;
+                    &lt;p&gt;\(C(1000)=9750\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    
+	&lt;table border="1" cellspacing="0" cellpadding="5" width="624"&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;th width="312" valign="top"&gt;
+                    &lt;p&gt;Company B’s Cost Equation&lt;/p&gt;
+                &lt;/th&gt;
+                &lt;td width="312" valign="top"&gt;
+                    &lt;p&gt;\(C(x)=8.5x&amp;nbsp;+1500\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th width="312" valign="top"&gt;
+                    &lt;p&gt;Substitute \(x=1000\)&lt;/p&gt;
+                &lt;/th&gt;
+                &lt;td width="312" valign="top"&gt;
+                    &lt;p&gt;\(C(1000)=8.5(1000)+1500\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+
+            &lt;tr&gt;
+                &lt;th width="312" valign="top"&gt;
+                    &lt;p&gt;Simplify&lt;/p&gt;
+                &lt;/th&gt;
+                &lt;td width="312" valign="top"&gt;
+                    &lt;p&gt;\(C(1000)=10,000\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    
+	&lt;p&gt;When 1,000 items are manufactured, Company A costs less. &lt;/p&gt;&lt;br&gt;
+    &lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about&amp;nbsp;&lt;em&gt;why&amp;nbsp;&lt;/em&gt;you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1787">
+            <jumpto>804</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952902</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1811">
+            <jumpto>812</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952902</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="812">
+        <prevpageid>805</prevpageid>
+        <nextpageid>806</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658952930</timecreated>
+        <timemodified>1662638292</timemodified>
+        <title>4.5.4: Using Function Notation and Graphing Technology (Optional)</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+
+&lt;p&gt;The function \(B\) is defined by the equation \(B(x)=10x+25\). Use the graphing tool here or technology outside the course. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work:&lt;/p&gt;
+
+&lt;ol start="1" type="1"&gt;
+    &lt;li&gt;Find the value of each expression: &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="1"&gt;
+            &lt;li&gt;\(B(6)\), and tell the window values for \(x\) and \(y\) that you used.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(B(6)=85\)&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;!--Question 1b --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt;\(B(2.75)\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(B(2.75)=52.5\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;!--Question 1c --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="3"&gt;
+            &lt;li&gt;\(B(1.482)\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(B(1.482)=39.82\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;!--Question 2a --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" type="1"&gt;
+            &lt;li&gt;Solve each equation: &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol type="a" start="1"&gt;
+            &lt;li&gt;\(B(x)=93\), and tell the window values for \(x\) and \(y\) that you used. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+
+        &lt;p&gt;\(x=6.8\)&lt;br&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;!--Question 2b --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt;\(B(x)=42.1\) &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(x=1.71\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;!--Question 2c --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="3"&gt;
+            &lt;li&gt;\(B(x)=116.25\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(x=9.125\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1788">
+            <jumpto>810</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952930</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1797">
+            <jumpto>806</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952930</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="807">
+        <prevpageid>806</prevpageid>
+        <nextpageid>811</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658952954</timecreated>
+        <timemodified>1662638363</timemodified>
+        <title>4.5.4: Additional Resources</title>
+        <contents>&lt;h4&gt;Finding Missing Values&lt;/h4&gt;
+
+&lt;p&gt;Function \(G\) is defined by \(G(x)=5x+20\).&amp;nbsp;Find the following values using graphing technology.&lt;/p&gt;
+
+&lt;ol start="1" type="a"&gt;
+    &lt;li&gt;&lt;span id="MathJax-Element-2-Frame" tabindex="0" data-mathml="&lt;math xmlns='http://www.w3.org/1998/Math/MathML'&gt;&lt;mi&gt;G&lt;/mi&gt;&lt;mo stretchy='false'&gt;(&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo stretchy='false'&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"&gt;&lt;span role="presentation"&gt;\(G(2)\)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To find \(G(2)\), look at \(x=2\) on the \(x\)-axis on the graph of \(G(x)\). Use proper steps with your graphing technology to find the \(y\)-value on the line: \(G(2)=30\).&lt;br&gt;&lt;br&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/53b0a95f8355556121169eeec75706012c7a0b9e" alt="GRAPH OF A STRAIGHT LINE WITH Y-INTERCEPT OF 20 THAT PASSES THROUGH THE POINT (2, 30)." width="300" height="307" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+
+&lt;ol start="2" type="a"&gt;
+    &lt;li&gt;\(G(x)=32\)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To find the value of \(x\) where \(G(x)=32\), look at where the graph crosses the \(y\)-value of 32. Use proper steps with your graphing technology to find the \(x\)-value where the graph meets \(y=32\).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/0b8db35d10d091627f644e451f3267ab28421acc" alt="GRAPH OF A STRAIGHT LINE WITH Y-INTERCEPT OF 20 THAT PASSES THROUGH THE POINT (2.4, 32). A GREEN HORIZONTAL LINE THAT PASSES THROUGH (0, 32)." width="300" height="307" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;\(G(2.4)=32\)&lt;/p&gt;
+
+&lt;h4&gt;Try It: Finding Missing Values&lt;/h4&gt;
+
+&lt;p&gt;Function \(H\)&amp;nbsp;is defined by&amp;nbsp;\(H(x)=2x+4\). Find \(H(x)=10.4\) using graphing technology.&lt;/p&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Use the graphing tool here or technology outside the course. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to find the value of \(H(x)\)&amp;nbsp;using graphing technology:&lt;br&gt;To find the value of \(x\) where&amp;nbsp;\(H(x)=10.4\), look at where the graph of&amp;nbsp;\(H(x)=2x+4\) crosses the&amp;nbsp;\(y\)-value of 10.4. Use proper steps with your graphing technology to find the \(x\)-value where the graph meets \(y=10.4\).&lt;/p&gt;
+    &lt;p&gt;\(H(3.2)=10.4\)&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/84083ff5ffe53389d428f550de6048a04cf9f7dd" alt="GRAPH OF A STRAIGHT LINE WITH Y-INTERCEPT OF 4 THAT PASSES THROUGH THE POINT (3.2, 10.4). A RED HORIZONTAL LINE THAT PASSES THROUGH (0, 10.4)" width="300" height="309" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1789">
+            <jumpto>806</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952954</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1802">
+            <jumpto>811</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952954</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="811">
+        <prevpageid>807</prevpageid>
+        <nextpageid>808</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658952975</timecreated>
+        <timemodified>1662638502</timemodified>
+        <title>4.5.5: Using Graphical and Algebraic Approaches for Finding Unknowns of Linear Functions</title>
+        <contents>&lt;h4 style="text-align: left;"&gt;Cool Down Activity&lt;/h4&gt;
+
+&lt;p&gt;The college student who is looking for a data plan for her cell phone found a third option, which also offers a 2-gigabyte monthly allowance for data.&lt;/p&gt;
+
+&lt;p&gt;The monthly cost of this option can be represented by function \(C\), defined by \(C(x)=30x+5\), where \(x\) is the gigabytes of data used over the monthly allowance.&lt;/p&gt;
+
+&lt;!--Question 2 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="1" type="1"&gt;
+            &lt;li&gt;Find \(C(0.7)\)&amp;nbsp;&lt;span id="MathJax-Element-3-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mo stretchy=&amp;quot;false&amp;quot;&gt;(&lt;/mo&gt;&lt;mn&gt;0.7&lt;/mn&gt;&lt;mo stretchy=&amp;quot;false&amp;quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"&gt;&lt;/span&gt;and explain what it means in this situation.&amp;nbsp;&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+
+        &lt;p&gt;\(C(0.7)=26\) because \(30(0.7)+5=26\). Your answers
+            may vary, but here is a possible explanation: It means that the cost would be $26 if she used 0.7 gigabyte over the 2-gigabytes allowance in a month.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Question 2 --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" type="1"&gt;
+            &lt;li&gt;Her budget is still $50 a month. To find out how many gigabytes of data she could use if she chose this plan, she writes \(C(x)=50\)&amp;nbsp;and solves for \(x\). What value of \(x\) makes this equation true? Show your reasoning.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;p&gt;\(x=1.5\). Your answers may vary, but here is a possible explanation: Because \(C(x)=30x+5\), we can write \(C(x)=50\) as \(30x+5=50\) and solve for \(x\), which gives 1.5.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1790">
+            <jumpto>811</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952975</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1813">
+            <jumpto>808</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952975</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="809">
+        <prevpageid>808</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658953039</timecreated>
+        <timemodified>1662638649</timemodified>
+        <title>4.5.7: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Use technology to graph a function given in function notation, and use the graph to find the values of the function.&lt;/li&gt;
+    &lt;li&gt;Be able to identify if a graph represents a function through the vertical line test.&lt;/li&gt;
+    &lt;li&gt;Explain different ways to find the value of a function and to solve equations written in function notation.&lt;/li&gt;
+    &lt;li&gt;Explain what makes a function a linear function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.5.1: Finding Solutions of Equations
+        &lt;ul&gt;
+            &lt;li&gt;In this activity, you evaluated functions at a specific input value to find the output.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;4.5.2: Using the Vertical Line Test
+        &lt;ul&gt;
+            &lt;li&gt;In this activity, you determined which graphs were functions based on the vertical line test.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;4.5.2: Self Check &lt;/li&gt;
+    &lt;li&gt;4.5.3: Comparing Functions
+        &lt;ul&gt;
+            &lt;li&gt;In this activity, you compared the values of two functions representing cell phone plans. You explained the function notation in words and graphed the functions.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;4.5.3: Self Check &lt;/li&gt;
+    &lt;li&gt;4.5.4: Using Function Notation and Graphing Technology (Optional)
+        &lt;ul&gt;
+            &lt;li&gt;In this activity, you used graphing technology to find the output value of a function given an input value. You also worked backward to find the input value given an output value of a function.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;4.5.4: Self Check &lt;/li&gt;
+    &lt;li&gt;4.5.5: Using Graphical and Algebraic Approaches for Finding Unknowns of Linear Functions&lt;ul&gt;
+            &lt;li&gt;In this activity, you used graphical or algebraic approaches to find missing inputs or outputs. You explained the meaning of function notation in the given context.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;4.5.6: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+
+    &lt;!--pulldown--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1792">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658953039</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1816">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658953039</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="804">
+        <prevpageid>810</prevpageid>
+        <nextpageid>805</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659388152</timecreated>
+        <timemodified>1659638620</timemodified>
+        <title>4.5.3: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Rental car company A charges $50 a day plus $0.50 a mile, \(m\), and is modeled by function \(A\).
+Rental car company B charges $20 a day plus $1.00 a mile, \(m\), and is modeled by function \(B\).
+Which statement is true for the cost of one day after \(m\) miles?
+&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1806">
+            <jumpto>805</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659388152</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(A(100)&amp;gt;B(100)\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: \(A(m)=50+0.50m\), \(B(m)=20+1m\) are the two equations, so \(A(100)=100\) and \(B(100)=120\). The answer is \(A(100)&amp;lt;B(100)\).&lt;b(100)\).&lt; p=""&gt;&lt;/b(100)\).&lt;&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1807">
+            <jumpto>805</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659388152</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(A(100)=B(100)\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: \(A(m)=50+0.50m\), \(B(m)=20+1m\) are the two equations, so \(A(100)=100\) and \(B(100)=120\). The answer is \(A(100)&amp;lt;B(100)\).&lt;b(100)\).&lt; p=""&gt;&lt;/b(100)\).&lt;&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1808">
+            <jumpto>812</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659388152</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(A(100)&amp;lt;B(100)\)&lt;b(100)\) &lt;="" p=""&gt;&lt;/b(100)\)&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: \(A(m)=50+0.50m\), \(B(m)=20+1m\) are the two equations, so \(A(100)=100\) and \(B(100)=120\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1809">
+            <jumpto>805</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659388152</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Company A is always more than Company B.&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: \(A(m)=50+0.50m\), \(B(m)=20+1m\) are the two equations, so \(A(100)=100\) and \(B(100)=120\). The answer is \(A(100)&amp;lt;B(100)\).&lt;b(100)\).&lt; p=""&gt;&lt;/b(100)\).&lt;&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1810">
+            <jumpto>805</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659388152</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="808">
+        <prevpageid>811</prevpageid>
+        <nextpageid>809</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658952998</timecreated>
+        <timemodified>1662638579</timemodified>
+        <title>4.5.6: Practice</title>
+        <contents>&lt;!--Do not edit this div tag. It must surround the interaction block--&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="3" data-button-text="Check" data-schema-version="1.0"&gt;
+ 
+ &lt;!--1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="It costs $40 to use 2 gigabytes of data using plan C." data-solution-options="[&amp;quot;It costs $40 to use 2 gigabytes of data using plan C.&amp;quot;, &amp;quot;It costs $40 to use 2 gigabytes of data using plan D.&amp;quot;, &amp;quot;It costs $2 to use 40 gigabytes of data using plan C.&amp;quot;, &amp;quot;It costs $2 to use 40 gigabytes of data using plan D.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="1" type="1"&gt;
+                &lt;li&gt;The cell phone plan from Company C costs $10 per month, plus $15 per gigabyte for data used. The plan from Company D costs $80 per month, with unlimited data.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Rule \(C\) gives the monthly cost, in dollars, of using \(g\) gigabytes of data on Company C’s plan. Rule \(D\) gives the monthly cost, in dollars, of using \(g\) gigabytes of data on Company D’s plan.&lt;/p&gt;
+            &lt;ol start="1" type="a"&gt;
+                &lt;li&gt;Which sentence describes the meaning of the statement \(C(2)=40\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! It costs $40 to use 2 gigabytes of data using plan C.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Correct! It costs $40 to use 2 gigabytes of data using plan C.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is It costs $40 to use 2 gigabytes of data using plan C.You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="C(4)" data-solution-options="[&amp;quot;C(4)&amp;quot;, &amp;quot;D(4)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="2" type="a"&gt;
+                &lt;li&gt;Which is less,&amp;nbsp;\(C(4)\)or \(D(4)\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(C(4)\) is less. \(C(4)=70\) and \(D(4)=80\). The phone plan from Company C is less expensive if 4 gigabytes of data are used.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.5.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(C(4)\) is less. \(C(4)=70\) and \(D(4)=80\). The phone plan from Company C is less expensive if 4 gigabytes of data are used. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="D(5)" data-solution-options="[&amp;quot;C(5)&amp;quot;, &amp;quot;D(5)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="3" type="a"&gt;
+                &lt;li&gt;Which is less, \(C(5)\) or \(D(5)\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(D(5)\) is less. \(D(5)=80\) and \(C(5) =85\). The phone plan from Company D is less expensive if 5 gigabytes of data are used.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.5.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(D(5)\) is less. \(D(5)=80\) and \(C(5) =85\). The phone plan from Company D is less expensive if 5 gigabytes of data are used. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--text input--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="8" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="4" type="a"&gt;
+                &lt;li&gt;For what number \(g\) is&amp;nbsp;\(C(g)=130\)? &lt;br&gt; Enter Answer Here: &lt;strong&gt;Enter Only Integers&lt;/strong&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 4.5.3–4.5.5. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 8. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="2" type="1"&gt;
+                &lt;li&gt;Function \(G\) takes a student’s first name for its input and gives the number of letters in the first name for its output.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol start="1" type="a"&gt;
+                &lt;li&gt;Describe the meaning of \(G(\text{Jada})\).&amp;nbsp;&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The name “Jada” has 4 letters.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.5.5. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is the name “Jada” has 4 letters. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="5" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="2" type="a"&gt;
+                &lt;li&gt;Find the value of&amp;nbsp;\(G(\text{Diego})\).&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.5.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 5. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="3" type="1"&gt;
+                &lt;li&gt;Is the following graph a function?&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;br&gt; &amp;nbsp;&lt;img src="https://k12.openstax.org/contents/raise/resources/8e377a41847030865efbafb8ae4e8c83db43dc88" alt="The figure has an absolute value function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The vertex is at the point (0, negative 1). The line goes through the points (negative 1, 0) and (1, 0)."&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Yes, this is a function because the graph passes the vertical line test.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 4.5.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: Yes, this is a function because the graph passes the vertical line test. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="4" type="1"&gt;
+                &lt;li&gt;Is the following graph a function?&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;img src="https://k12.openstax.org/contents/raise/resources/1f2d86b6714ef87d94be2f3aa4741273c2f2f4d5" alt="The figure has a half-circle graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The curved line segment starts at the point (negative 2, 0). The line goes through the point (0, 2) and ends at the point (2, 0)."&gt;
+            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Yes, this is a function because the graph passes the vertical line test.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 4.5.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: Yes, this is a function because the graph passes the vertical line test. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+ 
+ &lt;!--5--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="5" type="1"&gt;
+                &lt;li&gt;Is the following graph a function?&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;img src="https://k12.openstax.org/contents/raise/resources/b27425bc88681f1b290617df73d1d63458f6116c" alt="The figure has two curved lines graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The curved line on the left goes through the points (negative 2, 0), (negative 4, 5), and (negative 4, negative 5). The curved line on the right goes through the points (2, 0), (4, 5), and (4, negative 5)."&gt;
+            &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! No, this is not a function because the graph does not pass the vertical line test.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 4.5.2 to test your understanding? Then come back and try this question again&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: No, this is not a function because the graph does not pass the vertical line test. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Do not edit below this line--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1791">
+            <jumpto>811</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952998</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1815">
+            <jumpto>809</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658952998</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="806">
+        <prevpageid>812</prevpageid>
+        <nextpageid>807</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659120885</timecreated>
+        <timemodified>1660328093</timemodified>
+        <title>4.5.4: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;The function \(D\) is defined by the equation \(D(x)=2.5x&amp;nbsp;+12\).&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span style="font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 0.9375rem;"&gt;Which describes the window that can be used to find the value of \(x\) when \(D(x)=23.25\) using graphing technology and gives the correct value of \(x\)?&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1798">
+            <jumpto>807</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659120885</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Graph \(y=2.5x+12\), \(x=23.25\); window: \(x\) from 0 to 30, \(y\) from 0 to 100; \(x=70.125\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The value 23.25 is the output value, not the input value. The window must include the value of \(D(x)\) and the estimated value of \(x\). The answer is: Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\).&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1799">
+            <jumpto>811</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659120885</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Graph each equation using a window for \(y\)\ close to the given value and a window for \(x\) close to an estimated value. The value of&amp;nbsp;\(x\) where the lines meet is 4.5.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1800">
+            <jumpto>807</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659120885</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;Graph \(y=2.5x\), \(y=23.25\);&amp;nbsp;window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=9.3\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: be sure to graph the full equation for \(D(x)\), using a window for \(y\) close to the given value and a window for \(x\) close to an estimated value. The answer is: Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\).&lt;span id="MathJax-Element-22-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;4.5&lt;/mn&gt;&lt;/math&gt;" role="presentation"&gt;&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-64"&gt;&lt;span id="MathJax-Span-65"&gt;&lt;span id="MathJax-Span-68"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1801">
+            <jumpto>807</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659120885</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Graph \(y=2.5x+12\), \(y=23.25\);&amp;nbsp;window:&amp;nbsp;\(x\) from 20 to 25, \(y\) from 0 to 10; \(x=4.5\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Make sure to use a window where you can see that given value of \(y\) and the estimated value of \(x\). The answer is: Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\).&amp;nbsp;&lt;span id="MathJax-Element-22-Frame" tabindex="0" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;4.5&lt;/mn&gt;&lt;/math&gt;" role="presentation"&gt;&lt;nobr aria-hidden="true"&gt;&lt;span id="MathJax-Span-64"&gt;&lt;span id="MathJax-Span-65"&gt;&lt;span id="MathJax-Span-68"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/nobr&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1812">
+            <jumpto>807</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659120885</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>
