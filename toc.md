@@ -661,13 +661,10 @@
         * [Unit 3 Overview: Am I Ready to Learn This?](./html/e80e3435-d545-40f4-89b5-a69a354520ee.html)
         * [Question #1: Distinguish Patterns ](./html/416a9bf7-1a9c-4fca-9f4d-eda8ca5f263e.html)
         * [Distinguish Patterns: Mini-Lesson Review](./html/acbfb0de-47bb-4dfc-a303-d46fe83bb8a8.html)
-        * [Distinguish Patterns: Mini-Lesson Review Check](./html/4d46a737-23f1-43f8-8ddd-38c01aff5f1f.html)
         * [Question #2: Identify Positive and Negative Trends](./html/527bd030-9998-4c9e-9a5b-f6a848c8cd52.html)
         * [Identify Positive and Negative Trends: Mini-Lesson Review](./html/ede08846-5f82-475a-9ec7-dd361679ffe4.html)
-        * [Identify Positive and Negative Trends: Mini-Lesson Review Check](./html/0cb45f71-432b-481c-965e-8c0189890ac9.html)
         * [Question #3: Interpret Slope and y-Intercept](./html/6a2b1292-1a74-4f29-a996-13170397a1ce.html)
         * [Interpret Slope and y-Intercept: Mini-Lesson Review](./html/193e1ecd-149a-4aad-bdb6-fb36fae24682.html)
-        * [Interpret Slope and y-Intercept: Mini-Lesson Review Check](./html/9862de70-46b9-4801-99e8-cc7c2d0e60ca.html)
         * [Unit 3 Overview: Wrap Up](./html/30a8915c-daa6-492d-ab88-fb6d980c3ffc.html)
     * [Unit 3, Section A Overview: Scatter Plots](./html/76947afd-a6ee-4913-b0d4-c25046c7ebe5.html)
     * Lesson 3.1 Teacher Guide: Linear Models
@@ -678,7 +675,7 @@
         * [3.1.4: Interpreting the Slope and Vertical Intercept of a Scatter Plot](./html/a1d98125-0fba-4dc3-9f1c-c45332e91545.html)
         * [3.1.5: Using an Equation for a Fit Line ](./html/3142e865-b01e-4454-b0e4-95411a409889.html)
         * [3.1.6: Practice](./html/3107b4b5-170a-4fc4-bc4f-dee2caa0e850.html)
-        * [3.1.7: Lesson Summary](./html/a2d622df-aa8a-49bc-8b87-e45200ee9a6a.html)
+        * [3.1.7: Lesson Synthesis](./html/a2d622df-aa8a-49bc-8b87-e45200ee9a6a.html)
     * Lesson 3.1: Linear Models
         * [3.1.0: Lesson Overview](./html/8e9d9a93-988a-4d8b-9df8-b3632b96ca36.html)
         * [3.1.1: Exploring Scatter Plots](./html/d013660f-3672-434e-8c03-4779aa577260.html)
@@ -701,7 +698,7 @@
         * [3.2.3: Assessing the Fit of a Linear Model](./html/25ed3bfa-ab94-416a-bfb3-65582b3e5235.html)
         * [3.2.4: Working with Fitted Lines](./html/236c9455-64d0-49d6-b7bb-de067f955657.html)
         * [3.2.5: Practice ](./html/9d3a3ac2-3766-4254-94f0-39d98232e1bf.html)
-        * [3.2.6: Lesson Summary](./html/c294557a-339d-4bb2-b51b-f8cc1c581bc9.html)
+        * [3.2.6: Lesson Synthesis](./html/c294557a-339d-4bb2-b51b-f8cc1c581bc9.html)
     * Lesson 3.2: Fitting Lines
         * [3.2.0: Lesson Overview](./html/c2556494-249b-4422-835f-3be8c1a2f2b1.html)
         * [3.2.1: Selecting the Best Line](./html/cdd1f599-5765-45b1-978a-5f4a086143bf.html)
@@ -721,7 +718,7 @@
         * [3.3.3: Matching Residuals Graphs to Scatter Plots](./html/f25f0afa-6a1a-4794-ba10-4571d7a61f5c.html)
         * [3.3.4: Identifying Best Fit Line for Residuals on a Graph ](./html/e8fa961a-9730-4152-bd30-0f7309830e26.html)
         * [3.3.5: Practice ](./html/8afd0d02-0187-4458-8958-cf7f2d849f86.html)
-        * [3.3.6: Lesson Summary](./html/c2cfb498-3510-4188-bd7b-a7371198aa8c.html)
+        * [3.3.6: Lesson Synthesis](./html/c2cfb498-3510-4188-bd7b-a7371198aa8c.html)
     * Lesson 3.3: Residuals
         * [3.3.0: Lesson Overview](./html/e92c3ce3-32e1-4a4c-8f37-968f78ae17c8.html)
         * [3.3.1: Subtracting an Estimated Value from an Actual Value](./html/624eeb99-7551-4cf2-9407-82f888a2db34.html)
@@ -741,7 +738,7 @@
         * [3.4.3: Matching Correlation Coefficients](./html/c0b57151-848d-4623-b902-bb30718f5f5a.html)
         * [3.4.4: Using Correlation Coefficient to Determine Best Fit](./html/8c81a9ff-02fc-4792-b65a-78a8a5367688.html)
         * [3.4.5: Practice ](./html/22095a6f-b6ec-4c8a-821c-14a372c8f1b6.html)
-        * [3.4.6: Lesson Summary](./html/ab902bf2-0dcd-4a72-acd9-95e967a034a9.html)
+        * [3.4.6: Lesson Synthesis](./html/ab902bf2-0dcd-4a72-acd9-95e967a034a9.html)
     * Lesson 3.4: The Correlation Coefficient
         * [3.4.0: Lesson Overview](./html/9a277ae9-a126-4ab0-bda6-20371d20c48d.html)
         * [3.4.1: Comparing Scatter Plots with Linear and Nonlinear Trends](./html/911561b1-259e-4bac-907e-9d178c558912.html)
@@ -754,6 +751,7 @@
         * [3.4.4: Using Correlation Coefficient to Determine Best Fit](./html/f99e8baa-3d1f-46a2-878f-656980ac60b4.html)
         * [3.4.5: Practice](./html/e5be4e7f-b7dc-4978-b997-af7e246983da.html)
         * [3.4.6: Lesson Summary](./html/a96b4d02-332a-442b-88c9-668db2737d46.html)
+    * [Unit 3, Section B Overview: Correlation Coefficient](./html/53416abf-3628-409a-870d-25bc16fd2af1.html)
     * Lesson 3.5 Teacher Guide: Using the Correlation Coefficient
         * [3.5.0: Lesson Overview](./html/f372a1d6-a091-4566-8824-1a91900b0736.html)
         * [3.5.1: Using Bivariate Data in Context](./html/656a08a0-d01c-488e-91e1-da78d33a01f2.html)
@@ -761,7 +759,7 @@
         * [3.5.3: Using Correlation Coefficient to Describe Relationships between Two Variables](./html/64252c6b-bec6-4033-aec5-0118e9bf32a0.html)
         * [3.5.4: Interpreting the Correlation Coefficient](./html/1de2c0e5-704c-408f-b6aa-da2882c95855.html)
         * [3.5.5: Practice](./html/c67a4d4d-21d9-406c-a577-869b9f6b5bda.html)
-        * [3.5.6: Lesson Summary](./html/f8f17c98-4bd4-4b5e-ba8d-89b15d85b347.html)
+        * [3.5.6: Lesson Synthesis](./html/f8f17c98-4bd4-4b5e-ba8d-89b15d85b347.html)
     * Lesson 3.5: Using the Correlation Coefficient
         * [3.5.0: Lesson Overview](./html/6f3134ff-505e-4da2-8087-2a22f3b7ea36.html)
         * [3.5.1: Using Bivariate Data in Context](./html/11645ad3-fa32-4a64-89ec-d53bb0be4a61.html)
@@ -781,7 +779,7 @@
         * [3.6.3: Using the Term Causal Relationship](./html/e708c0da-9b99-49d1-a0a6-8c8bdc1f962e.html)
         * [3.6.4: Determining the Type of Relationship](./html/ea400c3c-cdf4-408a-a33c-d31d14e04639.html)
         * [3.6.5: Practice](./html/453ceb49-fdb7-47e5-bcd4-cedd59905969.html)
-        * [3.6.6: Lesson Summary](./html/838cdf84-21f4-488f-a185-3c0b9ba50942.html)
+        * [3.6.6: Lesson Synthesis](./html/838cdf84-21f4-488f-a185-3c0b9ba50942.html)
     * Lesson 3.6: Casual Relationships
         * [3.6.0: Lesson Overview](./html/7128819d-010b-4ca2-a6bf-c127336c67be.html)
         * [3.6.1: Describe the Relationship between Variables](./html/8c14434b-ba83-466f-ba4f-7a16687866ca.html)
@@ -794,7 +792,6 @@
         * [3.6.4: Determining the Type of Relationship](./html/b1a2dda7-efb5-44b8-9295-c63fba86fa28.html)
         * [3.6.5: Practice](./html/f4a1836d-d9f8-407f-8edd-3e5d6f949cde.html)
         * [3.6.6: Lesson Summary](./html/368f3630-d586-472a-9407-1200e28046d1.html)
-    * [Unit 3, Section B Overview: Correlation Coefficient](./html/53416abf-3628-409a-870d-25bc16fd2af1.html)
     * Project 3 Teacher Guide: Two-Variable Statistics
         * [Project 3 Overview](./html/e6f602e6-66b3-436d-8b9a-655dfe988523.html)
         * [Activity P3.1: Estimating Lengths](./html/bb07a9cd-2ef6-4c33-8649-51b80849bb55.html)
