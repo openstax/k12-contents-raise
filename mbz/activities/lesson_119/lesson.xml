@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="89" moduleid="119" modulename="lesson" contextid="130">
   <lesson id="89">
     <course>2</course>
     <name>Lesson 4.5 Teacher Guide: Using Function Notation to Describe Rules, Part 2</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>120</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -54,133 +54,102 @@
         <timemodified>1662654805</timemodified>
         <title>4.5.0: Lesson Overview</title>
         <contents>&lt;h4&gt;Lesson Narrative &lt;/h4&gt;
-
 &lt;p&gt;In an earlier lesson, students learned that some functions can be defined with a rule and the rule can be expressed using function notation. In this lesson, students use rules of functions to find the output when the input is given (or to evaluate functions) and to find the input when the output is known (or to solve equations that define functions). They also interpret rules of functions in terms of a situation. Along the way, they practice reasoning quantitatively and abstractly.&lt;/p&gt;
-
 &lt;p&gt;The term &lt;strong&gt;linear function&lt;/strong&gt; is introduced here. In middle school, students learned that a relationship between two quantities is linear if one quantity changes at a constant rate relative to the other. Students see that a linear function can be understood in similar terms: a function is linear if the output changes by a constant rate relative to its input.&lt;/p&gt;
-
-&lt;p&gt;This lesson includes an optional activity that is designed to enable students to use technology to graph and evaluate functions expressed in function notation. This skill can help develop students’ understanding of functions and ability to solve problems in this unit and in future units.&lt;/p&gt;
-
+&lt;p&gt;This lesson includes an optional activity that is designed to enable students to use technology to graph and evaluate functions expressed in function notation. This skill can help develop students&amp;rsquo; understanding of functions and ability to solve problems in this unit and in future units.&lt;/p&gt;
 &lt;h4&gt;Learning Goals (Teacher Facing) &lt;/h4&gt;
-
 &lt;p&gt;Students will be able to:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Evaluate functions and solve equations given in function notation, either by graphing or by reasoning algebraically. &lt;/li&gt;
-    &lt;li&gt;Understand a linear function as a function whose output changes at a constant rate and whose graph is a line. &lt;/li&gt;
-    &lt;li&gt;Use technology to graph and evaluate functions given in function notation. &lt;/li&gt;
+&lt;li&gt;Evaluate functions and solve equations given in function notation, either by graphing or by reasoning algebraically. &lt;/li&gt;
+&lt;li&gt;Understand a linear function as a function whose output changes at a constant rate and whose graph is a line. &lt;/li&gt;
+&lt;li&gt;Use technology to graph and evaluate functions given in function notation. &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Learning Targets (Student Facing) &lt;/h4&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Use technology to graph a function given in function notation, and use the graph to find the values of the function. &lt;/li&gt;
-    &lt;li&gt;Use the vertical line test to determine whether or not a graph represents a function.&lt;/li&gt;
-    &lt;li&gt;Explain different ways to find the value of a function and to solve equations written in function notation.&lt;/li&gt;
-    &lt;li&gt;Explain what makes a function a linear function.&lt;/li&gt;
+&lt;li&gt;Use technology to graph a function given in function notation, and use the graph to find the values of the function. &lt;/li&gt;
+&lt;li&gt;Use the vertical line test to determine whether or not a graph represents a function.&lt;/li&gt;
+&lt;li&gt;Explain different ways to find the value of a function and to solve equations written in function notation.&lt;/li&gt;
+&lt;li&gt;Explain what makes a function a linear function.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Texas Essential Knowledge and Skills (TEKS) &lt;/h4&gt;
 &lt;br&gt;
-
-&lt;table cellspacing="0" cellpadding="5" border="1"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;th width="312" valign="top"&gt;
-                &lt;p&gt;TEKS&lt;/p&gt;
-            &lt;/th&gt;
-            &lt;th width="312" valign="top"&gt;
-                &lt;p&gt;Explanation of Coverage&lt;/p&gt;
-            &lt;/th&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;A12(B) evaluate functions, expressed in function notation, given one or more elements in their domains; &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;Foundational: Lesson provides foundational content necessary for students to be able to perform this TEKS in later lessons.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th valign="top" width="312"&gt;
+&lt;p&gt;TEKS&lt;/p&gt;
+&lt;/th&gt;
+&lt;th valign="top" width="312"&gt;
+&lt;p&gt;Explanation of Coverage&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;A12(B) evaluate functions, expressed in function notation, given one or more elements in their domains; &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;Foundational: Lesson provides foundational content necessary for students to be able to perform this TEKS in later lessons.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;h4&gt;Lesson Activities &lt;/h4&gt;
-
 &lt;p&gt;Here are the instructional activities for the lesson: &lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;4.5.1: Finding Solutions of Equations &lt;/li&gt;
-    &lt;li&gt;4.5.2: Using the Vertical Line Test
+&lt;li&gt;4.5.1: Finding Solutions of Equations &lt;/li&gt;
+&lt;li&gt;4.5.2: Using the Vertical Line Test
         &lt;ul&gt;
-            &lt;li&gt;4.5.2: Self Check &lt;/li&gt;
-            &lt;li&gt;4.5.2: Additional Resources&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;4.5.3: Comparing Functions
-        &lt;ul&gt;
-            &lt;li&gt;4.5.3: Self Check &lt;/li&gt;
-            &lt;li&gt;4.5.3: Additional Resources&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;4.5.4: Using Function Notation and Graphing Technology (Optional)
-        &lt;ul&gt;
-            &lt;li&gt;4.5.4: Self Check &lt;/li&gt;
-            &lt;li&gt;4.5.4: Additional Resources&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;4.5.5: Using Graphical and Algebraic Approaches for Finding Unknowns of Linear Functions&lt;/li&gt;
+&lt;li&gt;4.5.2: Self Check &lt;/li&gt;
+&lt;li&gt;4.5.2: Additional Resources&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;/li&gt;
+&lt;li&gt;4.5.3: Comparing Functions
+        &lt;ul&gt;
+&lt;li&gt;4.5.3: Self Check &lt;/li&gt;
+&lt;li&gt;4.5.3: Additional Resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4.5.4: Using Function Notation and Graphing Technology (Optional)
+        &lt;ul&gt;
+&lt;li&gt;4.5.4: Self Check &lt;/li&gt;
+&lt;li&gt;4.5.4: Additional Resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4.5.5: Using Graphical and Algebraic Approaches for Finding Unknowns of Linear Functions&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Students will also complete a series of problems in the 4.5.6: Practice.&lt;/p&gt;
-
 &lt;h4&gt;Required Materials &lt;/h4&gt;
-
 &lt;p&gt;Graphing technology &lt;/p&gt;
-
 &lt;h4&gt;Required Preparation &lt;/h4&gt;
-
 &lt;p&gt;For the optional activity Function Notation and Graphing Technology, acquire devices that can run Desmos (recommended) or other graphing technology. It is ideal if each student has their own device. (Desmos is available under Math Tools.) &lt;/p&gt;
-
 &lt;h4&gt;Lesson Vocabulary &lt;/h4&gt;
-
 &lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
-    &lt;li&gt;Encourage students to use key vocabulary words in “math talk” and their written and oral explanations.&lt;/li&gt;
-    &lt;li&gt;Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
+&lt;li&gt;Encourage students to use key vocabulary words in &amp;ldquo;math talk&amp;rdquo; and their written and oral explanations.&lt;/li&gt;
+&lt;li&gt;Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Vocabulary words that are emphasized in this lesson include:&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;dependent variable &lt;/li&gt;
-    &lt;li&gt;function &lt;/li&gt;
-    &lt;li&gt;function notation &lt;/li&gt;
-    &lt;li&gt;independent variable &lt;/li&gt;
+&lt;li&gt;dependent variable &lt;/li&gt;
+&lt;li&gt;function &lt;/li&gt;
+&lt;li&gt;function notation &lt;/li&gt;
+&lt;li&gt;independent variable &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;linear function &lt;/li&gt;
-    &lt;li&gt;vertical line test&lt;/li&gt;
+&lt;li&gt;linear function &lt;/li&gt;
+&lt;li&gt;vertical line test&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Support for Building Character &lt;/h4&gt;
-
 &lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;creativity&lt;/strong&gt;. &lt;/p&gt;
-
 &lt;p&gt;Here are some tips to try during this lesson: &lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/less-can-be-more/" target="_blank"&gt;Less Can Be More&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/work-smarter-sooner/" target="_blank"&gt;Work Smarter, Sooner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/less-can-be-more/" target="_blank"&gt;Less Can Be More&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/work-smarter-sooner/" target="_blank"&gt;Work Smarter, Sooner&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;You can find other tips located here in the&amp;nbsp;&lt;a href="https://characterlab.org/playbooks/creativity" target="_blank"&gt;Playbook on Creativity&lt;/a&gt;&amp;nbsp;from Character Lab.&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -213,50 +182,41 @@
         <timemodified>1662654864</timemodified>
         <title>4.5.1: Finding Solutions of Equations</title>
         <contents>&lt;h4&gt; Warm Up (5 minutes)&lt;/h4&gt;
-
 &lt;p&gt;This warm-up refreshes the idea of evaluating and solving equations, preparing students for the main work of the lesson. It reminds students that to solve a variable equation is to find one or more values for the variable that would make the equation true. In subsequent activities, students will work with equations in function notation to find unknown input or output values. &lt;/p&gt;
-
 &lt;h4&gt; Student-Facing Statement &lt;/h4&gt;
-
 &lt;p&gt;Consider the equation \(q = 4 + 0.8p\).&lt;/p&gt;
-
 &lt;ol start="1" type="1"&gt;
-    &lt;li&gt;What value of \(q\) would make the equation true when: &lt;/li&gt;
-    &lt;ol start="1" type="a"&gt;
-        &lt;li&gt;\(p\) is 7?&lt;/li&gt;
-        &lt;li&gt;\(p\) is 100?&lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt;What value of \(q\) would make the equation true when: &lt;/li&gt;
+&lt;ol start="1" type="a"&gt;
+&lt;li&gt;\(p\) is 7?&lt;/li&gt;
+&lt;li&gt;\(p\) is 100?&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/ol&gt;
 &lt;ol start="2" type="1"&gt;
-    &lt;li&gt;What value of \(p\) would make the equation true when:&lt;/li&gt;
-    &lt;ol start="1" type="a"&gt;
-        &lt;li&gt;\(q\) is 12?&lt;/li&gt;
-        &lt;li&gt;\(q\) is 60?&lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt;What value of \(p\) would make the equation true when:&lt;/li&gt;
+&lt;ol start="1" type="a"&gt;
+&lt;li&gt;\(q\) is 12?&lt;/li&gt;
+&lt;li&gt;\(q\) is 60?&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/ol&gt;
 &lt;h4&gt;Student Response &lt;/h4&gt;
-
 &lt;ol start="1" type="1"&gt;
-    &lt;li&gt;&amp;nbsp;&lt;/li&gt;
-    &lt;ol start="1" type="a"&gt;
-        &lt;li&gt;\(q =9.6 \)&lt;/li&gt;
-        &lt;li&gt;\(q = 84 \)&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;li&gt;&amp;nbsp;&lt;/li&gt;
-    &lt;ol start="1" type="a"&gt;
-        &lt;li&gt;\(p= 10\)&lt;/li&gt;
-        &lt;li&gt;\(p = 70\) &lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt;&amp;nbsp;&lt;/li&gt;
+&lt;ol start="1" type="a"&gt;
+&lt;li&gt;\(q =9.6 \)&lt;/li&gt;
+&lt;li&gt;\(q = 84 \)&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;li&gt;&amp;nbsp;&lt;/li&gt;
+&lt;ol start="1" type="a"&gt;
+&lt;li&gt;\(p= 10\)&lt;/li&gt;
+&lt;li&gt;\(p = 70\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Activity Synthesis &lt;/h4&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Invite students to share their response and strategy for answering the questions.&lt;/li&gt;
-    &lt;li&gt;To find the values of \(p\) in the second set of questions, some students may have guessed and checked, but many students should have recognized that they could solve the equations for \(p\) (either before or after substituting the value of \(q\)). If no students mentioned solving the equations, bring it to their attention. &lt;/li&gt;
-    &lt;li&gt;Remind students that to solve \(12 = 4 + 0.8p \) is to find the value of \(p\) that makes the equation true. &lt;/li&gt;
+&lt;li&gt;Invite students to share their response and strategy for answering the questions.&lt;/li&gt;
+&lt;li&gt;To find the values of \(p\) in the second set of questions, some students may have guessed and checked, but many students should have recognized that they could solve the equations for \(p\) (either before or after substituting the value of \(q\)). If no students mentioned solving the equations, bring it to their attention. &lt;/li&gt;
+&lt;li&gt;Remind students that to solve \(12 = 4 + 0.8p \) is to find the value of \(p\) that makes the equation true. &lt;/li&gt;
 &lt;/ul&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -303,229 +263,179 @@
         <timemodified>1662654951</timemodified>
         <title>4.5.2: Using the Vertical Line Test</title>
         <contents>&lt;h4&gt;Activity (25 minutes)&lt;/h4&gt;
-
 &lt;p&gt;A table for the relation \(f\) is below. &lt;/p&gt;
-
-&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;th width="89" valign="top"&gt;
-                &lt;p&gt;\(x\)&lt;/p&gt;
-            &lt;/th&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;1&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;2&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;3&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;1&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;4&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;5&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;th width="89" valign="top"&gt;
-                &lt;p&gt;\(f\)&lt;/p&gt;
-            &lt;/th&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;–1&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;5&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;–2&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;1&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;3&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p&gt;–2&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th valign="top" width="89"&gt;
+&lt;p&gt;\(x\)&lt;/p&gt;
+&lt;/th&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th valign="top" width="89"&gt;
+&lt;p&gt;\(f\)&lt;/p&gt;
+&lt;/th&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;&amp;ndash;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;&amp;ndash;2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p&gt;&amp;ndash;2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;ol start="1" type="1"&gt;
-    &lt;li&gt;Is this relation a function? Explain your answer.&lt;/li&gt;
-    &lt;li&gt;Interact with the graph below. Graph the points in the relation on a coordinate grid.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;
-
-    &lt;li&gt;What do you notice about the points \((1, -1)\) and \((1,1)\)?&lt;/li&gt;
+&lt;li&gt;Is this relation a function? Explain your answer.&lt;/li&gt;
+&lt;li&gt;Interact with the graph below. Graph the points in the relation on a coordinate grid.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;What do you notice about the points \((1, -1)\) and \((1,1)\)?&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;&lt;strong&gt;VERTICAL LINE TEST&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point.&lt;/p&gt;
-
 &lt;p&gt;If any vertical line intersects the graph in more than one point, the graph does not represent a function.&lt;/p&gt;
-
-&lt;p&gt;If the graph does represent a function, we say it “passes the vertical line test.”&lt;/p&gt;
-
+&lt;p&gt;If the graph does represent a function, we say it &amp;ldquo;passes the vertical line test.&amp;rdquo;&lt;/p&gt;
 &lt;ol start="4" type="1"&gt;
-    &lt;li&gt;For the graphs below, tell if the graph passes the vertical line test and if it is the graph of a function.&lt;/li&gt;
+&lt;li&gt;For the graphs below, tell if the graph passes the vertical line test and if it is the graph of a function.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e43b54da4912632226f7bc4c2a61b9ed1359f826" alt="The figure has two graphs. In graph a there is a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). In graph b there is a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2)."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="The figure has two graphs. In graph a there is a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). In graph b there is a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2)." src="https://k12.openstax.org/contents/raise/resources/e43b54da4912632226f7bc4c2a61b9ed1359f826"&gt;&lt;/p&gt;
 &lt;p&gt;Notice that the graph of a line will always be a function. This is called a &lt;strong&gt;linear function&lt;/strong&gt;.&lt;/p&gt;
-
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
 &lt;ol start="1" type="1"&gt;
-    &lt;li&gt;\(f\) is not a function because \(f(1) =-1\) and \(f(1)=1\).&lt;/li&gt;
+&lt;li&gt;\(f\) is not a function because \(f(1) =-1\) and \(f(1)=1\).&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;ol start="2" type="1"&gt;
-    &lt;li&gt;&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;&amp;nbsp;&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/ee925e215fe7152df93361e3c7ca8524294e4166" alt="COORDINATE GRID FROM −1 TO 8 ON THE X-AXIS AND FROM −2 TO 6 ON THE Y-AXIS. THE POINTS (1, −1), (2, 5), (3, −2), (1, 1), (4, 3" width="350" height="347" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="COORDINATE GRID FROM &amp;minus;1 TO 8 ON THE X-AXIS AND FROM &amp;minus;2 TO 6 ON THE Y-AXIS. THE POINTS (1, &amp;minus;1), (2, 5), (3, &amp;minus;2), (1, 1), (4, 3" class="img-fluid atto_image_button_text-bottom" height="347" src="https://k12.openstax.org/contents/raise/resources/ee925e215fe7152df93361e3c7ca8524294e4166" width="350"&gt;&lt;/p&gt;
 &lt;ol start="3" type="1"&gt;
-    &lt;li&gt;They are on the same vertical line. &lt;/li&gt;
+&lt;li&gt;They are on the same vertical line. &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;&lt;strong&gt;VERTICAL LINE TEST&lt;/strong&gt;&lt;br&gt;
     A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point.&lt;/p&gt;
-
 &lt;p&gt;If any vertical line intersects the graph in more than one point, the graph does not represent a function.&lt;/p&gt;
-
-&lt;p&gt;If the graph does represent a function, we say it “passes the vertical line test.”&lt;/p&gt;
-
+&lt;p&gt;If the graph does represent a function, we say it &amp;ldquo;passes the vertical line test.&amp;rdquo;&lt;/p&gt;
 &lt;ol start="4" type="1"&gt;
-    &lt;li&gt;a. Yes, this passes the vertical line test and is a function.&lt;/li&gt;
+&lt;li&gt;a. Yes, this passes the vertical line test and is a function.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/4463db3a1f658e1734cf80330610c7e00c842471" alt="The figure has a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). Three dashed vertical straight lines are drawn at x equalsnegative 5, x equalsnegative 3, and x equals3. Each line intersects the slanted line at exactly one point." width="317" height="325" class="atto_image_button_text-bottom"&gt;&lt;/p&gt;
-
-&lt;p&gt;b. No, this graph does not pass the vertical line test and it is not a function. For example, the vertical line \(x=1\) crosses the graph more than once.&lt;/p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/46678dbea19435947004bff8050dd8ce0fbebcc2" alt="The figure has a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2). Three dashed vertical straight lines are drawn at x equalsnegative 2, x equalsnegative 1, and x equals2. The vertical line x – negative 2 does not intersect the parabola. The vertical line x equalsnegative 1 intersects the parabola at exactly one point. The vertical line x equals3 intersects the parabola at two separate points." width="305" height="311" class="atto_image_button_text-bottom"&gt;
+&lt;p&gt;&lt;img alt="The figure has a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). Three dashed vertical straight lines are drawn at x equalsnegative 5, x equalsnegative 3, and x equals3. Each line intersects the slanted line at exactly one point." class="atto_image_button_text-bottom" height="325" src="https://k12.openstax.org/contents/raise/resources/4463db3a1f658e1734cf80330610c7e00c842471" width="317"&gt;&lt;/p&gt;
+&lt;p&gt;b. No, this graph does not pass the vertical line test and it is not a function. For example, the vertical line \(x=1\) crosses the graph more than once.&lt;/p&gt;&lt;img alt="The figure has a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2). Three dashed vertical straight lines are drawn at x equalsnegative 2, x equalsnegative 1, and x equals2. The vertical line x &amp;ndash; negative 2 does not intersect the parabola. The vertical line x equalsnegative 1 intersects the parabola at exactly one point. The vertical line x equals3 intersects the parabola at two separate points." class="atto_image_button_text-bottom" height="311" src="https://k12.openstax.org/contents/raise/resources/46678dbea19435947004bff8050dd8ce0fbebcc2" width="305"&gt;
 &lt;p&gt;Notice that the graph of a line will always be a function. This is called a &lt;strong&gt;linear function&lt;/strong&gt;.&lt;/p&gt;
-
 &lt;h4&gt;Video: Interpreting Function Notation &lt;/h4&gt;
-
 &lt;p&gt;Watch the following video to learn more about function notation.&lt;/p&gt;
-
 &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
-    &lt;source src="https://k12.openstax.org/contents/raise/resources/fe84d773f2ac6fbbb436b9cc3b52bf2479c62f05"&gt;
-    &lt;track src="https://k12.openstax.org/contents/raise/resources/04c3307620f6a76063ddbcb4de503b09273a447a" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/fe84d773f2ac6fbbb436b9cc3b52bf2479c62f05
+&lt;source src="https://k12.openstax.org/contents/raise/resources/fe84d773f2ac6fbbb436b9cc3b52bf2479c62f05"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/04c3307620f6a76063ddbcb4de503b09273a447a" srclang="en_us"&gt;https://k12.openstax.org/contents/raise/resources/fe84d773f2ac6fbbb436b9cc3b52bf2479c62f05
 &lt;/video&gt;
 &lt;br&gt;
 &lt;br&gt;
-
 &lt;h4&gt;4.5.2: Self Check &lt;/h4&gt;
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;th width="624" colspan="2" valign="top"&gt;QUESTION: Which of the following graphs is the graph of a function? &lt;/th&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;th width="302" valign="top"&gt;
-                &lt;p align="center"&gt;ANSWERS&lt;/p&gt;
-            &lt;/th&gt;
-            &lt;th width="322" valign="top"&gt;
-                &lt;p align="center"&gt;FEEDBACK&lt;/p&gt;
-            &lt;/th&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="302" valign="top"&gt;
-                &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/af8e3793684afca4a6c89f1a2c546a8fcd294907" alt="The figure has a circle graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The circle goes through the points (negative 3, 0), (3, 0), (0, negative 3), and (0, 3)." width="229" height="235" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="322" valign="top"&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: For a graph to be that of a function, it must pass the vertical line test. For this graph, there are multiple places where an imaginary vertical line would touch more than once. For example, the vertical line \(x = 2\) crosses the graph more than once. The answer is:&lt;br&gt;
-                    &amp;nbsp;&lt;img src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." width="229" height="235" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="302" valign="top"&gt;
-                &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8bcdce1d348b87577df82f0bf6cad83db03dd7e9" alt="The figure has a parabola opening right graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The parabola goes through the points (negative 2, 0), (negative 1, 1), (negative 1, negative 1), (negative 2, 2), and (2, 2)." width="229" height="235" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="322" valign="top"&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: For a graph to be that of a function, it must pass the vertical line test. For this graph, there are multiple places where an imaginary vertical line would touch more than once. For example, the vertical line \(x =2\) crosses the graph more than once. The answer is:&lt;br&gt;
-                    &amp;nbsp;&lt;img src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." width="229" height="235" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="302" valign="top"&gt;
-                &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." width="229" height="235" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="322" valign="top"&gt;
-                &lt;p&gt;That’s correct! Check yourself: If an imaginary vertical line were drawn anywhere on the graph, it would only touch once. This graph passes the vertical line test and is the graph of a function.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="302" valign="top"&gt;
-                &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/450c9e05950d38bccf933c33f97b7e287471c583" alt="The figure has a sideways absolute value function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The line bends at the point (0, 2) and goes to the right. The line goes through the points (1, 3), (2, 4), (1, 1), and (2, 0)." width="229" height="235" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="322" valign="top"&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: For a graph to be that of a function, it must pass the vertical line test. For this graph, there are multiple places where an imaginary vertical line would touch more than once. For example, the vertical line \(x = 2\) crosses the graph more than once. The answer is:&lt;br&gt;
-                    &amp;nbsp;&lt;img src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." width="229" height="235" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th colspan="2" valign="top" width="624"&gt;QUESTION: Which of the following graphs is the graph of a function? &lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th valign="top" width="302"&gt;
+&lt;p align="center"&gt;ANSWERS&lt;/p&gt;
+&lt;/th&gt;
+&lt;th valign="top" width="322"&gt;
+&lt;p align="center"&gt;FEEDBACK&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="302"&gt;
+&lt;p&gt;&lt;img alt="The figure has a circle graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The circle goes through the points (negative 3, 0), (3, 0), (0, negative 3), and (0, 3)." class="img-fluid atto_image_button_text-bottom" height="235" src="https://k12.openstax.org/contents/raise/resources/af8e3793684afca4a6c89f1a2c546a8fcd294907" width="229"&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="322"&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: For a graph to be that of a function, it must pass the vertical line test. For this graph, there are multiple places where an imaginary vertical line would touch more than once. For example, the vertical line \(x = 2\) crosses the graph more than once. The answer is:&lt;br&gt;
+                    &amp;nbsp;&lt;img alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." class="img-fluid atto_image_button_text-bottom" height="235" src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" width="229"&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="302"&gt;
+&lt;p&gt;&lt;img alt="The figure has a parabola opening right graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The parabola goes through the points (negative 2, 0), (negative 1, 1), (negative 1, negative 1), (negative 2, 2), and (2, 2)." class="img-fluid atto_image_button_text-bottom" height="235" src="https://k12.openstax.org/contents/raise/resources/8bcdce1d348b87577df82f0bf6cad83db03dd7e9" width="229"&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="322"&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: For a graph to be that of a function, it must pass the vertical line test. For this graph, there are multiple places where an imaginary vertical line would touch more than once. For example, the vertical line \(x =2\) crosses the graph more than once. The answer is:&lt;br&gt;
+                    &amp;nbsp;&lt;img alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." class="img-fluid atto_image_button_text-bottom" height="235" src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" width="229"&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="302"&gt;
+&lt;p&gt;&lt;img alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." class="img-fluid atto_image_button_text-bottom" height="235" src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" width="229"&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="322"&gt;
+&lt;p&gt;That&amp;rsquo;s correct! Check yourself: If an imaginary vertical line were drawn anywhere on the graph, it would only touch once. This graph passes the vertical line test and is the graph of a function.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="302"&gt;
+&lt;p&gt;&lt;img alt="The figure has a sideways absolute value function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The line bends at the point (0, 2) and goes to the right. The line goes through the points (1, 3), (2, 4), (1, 1), and (2, 0)." class="img-fluid atto_image_button_text-bottom" height="235" src="https://k12.openstax.org/contents/raise/resources/450c9e05950d38bccf933c33f97b7e287471c583" width="229"&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="322"&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: For a graph to be that of a function, it must pass the vertical line test. For this graph, there are multiple places where an imaginary vertical line would touch more than once. For example, the vertical line \(x = 2\) crosses the graph more than once. The answer is:&lt;br&gt;
+                    &amp;nbsp;&lt;img alt="The figure has a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The parabola goes through the points (negative 2, 6), (1, 3), (0, 2), (1, 3), and (2, 6)." class="img-fluid atto_image_button_text-bottom" height="235" src="https://k12.openstax.org/contents/raise/resources/a334a980171d2cb3f7ed2a3be3d17e4c6ccfb0a6" width="229"&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;Additional Resources&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it. &lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;h4&gt;Determine if a Graph Is a Function&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8cafc286f38f1825dd57670ce189645f0e417f3d" alt="This figure has a graph next to a table. The graph has a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The line is labeled f of x equals2 x minus 3. There are several vertical arrows that relate values on the x-axis to points on the line. The first arrow relates x equalsnegative 2 on the x-axis to the point (negative 2, negative 7) on the line. The second arrow relates x equalsnegative 1 on the x-axis to the point (negative 1, negative 5) on the line. The next arrow relates x equals0 on the x-axis to the point (0, negative 3) on the line. The next arrow relates x equals3 on the x-axis to the point (3, 3) on the line. The last arrow relates x equals4 on the x-axis to the point (4, 5) on the line. The table has 7 rows and 3 columns. The first row is a title row with the label f of x equals2 x minus 3. The second row is a header row with the headers x, f of x, and (x, f of x). The third row has the coordinates negative 2, negative 7, and (negative 2, negative 7). The fourth row has the coordinates negative 1, negative 5, and (negative 1, negative 5). The fifth row has the coordinates 0, negative 3, and (0, negative 3). The sixth row has the coordinates 3, 3, and (3, 3). The seventh row has the coordinates 4, 5, and (4, 5)." width="651" height="469" class="img-fluid atto_image_button_text-bottom"&gt; &lt;br&gt;
-    A relation is a function if every input has exactly one output value. So the relation defined by the equation \(y=2x−3\) is a function. Notice that a line will always be a function, so it is called a linear function.&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="This figure has a graph next to a table. The graph has a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The line is labeled f of x equals2 x minus 3. There are several vertical arrows that relate values on the x-axis to points on the line. The first arrow relates x equalsnegative 2 on the x-axis to the point (negative 2, negative 7) on the line. The second arrow relates x equalsnegative 1 on the x-axis to the point (negative 1, negative 5) on the line. The next arrow relates x equals0 on the x-axis to the point (0, negative 3) on the line. The next arrow relates x equals3 on the x-axis to the point (3, 3) on the line. The last arrow relates x equals4 on the x-axis to the point (4, 5) on the line. The table has 7 rows and 3 columns. The first row is a title row with the label f of x equals2 x minus 3. The second row is a header row with the headers x, f of x, and (x, f of x). The third row has the coordinates negative 2, negative 7, and (negative 2, negative 7). The fourth row has the coordinates negative 1, negative 5, and (negative 1, negative 5). The fifth row has the coordinates 0, negative 3, and (0, negative 3). The sixth row has the coordinates 3, 3, and (3, 3). The seventh row has the coordinates 4, 5, and (4, 5)." class="img-fluid atto_image_button_text-bottom" height="469" src="https://k12.openstax.org/contents/raise/resources/8cafc286f38f1825dd57670ce189645f0e417f3d" width="651"&gt; &lt;br&gt;
+    A relation is a function if every input has exactly one output value. So the relation defined by the equation \(y=2x&amp;minus;3\) is a function. Notice that a line will always be a function, so it is called a linear function.&lt;/p&gt;
 &lt;p&gt;If we look at the graph, each vertical dashed line intersects the line at only one point. This makes sense because in a function, for every \(x\)-value there is only one \(y\)-value.&lt;/p&gt;
-
 &lt;p&gt;If the vertical line hit the graph twice, the \(x\)-value would be mapped to two \(y\)-values, so the graph would not represent a function.&lt;/p&gt;
-
 &lt;p&gt;This leads us to the vertical line test. A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point. If any vertical line intersects the graph in more than one point, the graph does not represent a function.&lt;/p&gt;
-
 &lt;p&gt;Look at the graphs below:&lt;br&gt;
-    &lt;img src="https://k12.openstax.org/contents/raise/resources/f036b97c1d7e062abba7b5b7eb4a54663d3d43f8" alt="The figure has two graphs. In graph a there is a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 2 to 10. The parabola goes through the points (0, negative 1), (negative 1, 0), (1, 0), (negative 2, 3), and (2, 3). In graph b there is a circle graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The circle goes through the points (negative 2, 0), (2, 0), (0, negative 2), and (0, 2)." width="675" height="358" class="img-fluid atto_image_button_text-bottom"&gt;
+&lt;img alt="The figure has two graphs. In graph a there is a parabola opening up graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 2 to 10. The parabola goes through the points (0, negative 1), (negative 1, 0), (1, 0), (negative 2, 3), and (2, 3). In graph b there is a circle graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The circle goes through the points (negative 2, 0), (2, 0), (0, negative 2), and (0, 2)." class="img-fluid atto_image_button_text-bottom" height="358" src="https://k12.openstax.org/contents/raise/resources/f036b97c1d7e062abba7b5b7eb4a54663d3d43f8" width="675"&gt;
 &lt;/p&gt;
-
 &lt;p&gt;Graph a passes the vertical line test because if an imaginary vertical line were drawn anywhere on the graph, it would only touch one time.&lt;/p&gt;
-
 &lt;p&gt;Graph a is a function.&lt;/p&gt;
-
 &lt;p&gt;Graph b does not pass the vertical line test because when a vertical line is drawn down the graph, there is at least one place where the vertical line touches twice.&lt;/p&gt;
-
 &lt;p&gt;Graph b is not a function.&lt;/p&gt;
-
 &lt;h4&gt;Try It: Determine if a Graph Is a Function&lt;/h4&gt;
-
 &lt;p&gt;Determine if each graph is a function. Use the vertical line test to explain.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5b86b8dab19477d50e868d209cf51562ebc30909" alt="The figure has two graphs. In graph a there is an ellipse graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The ellipse goes through the points (0, negative 3), (negative 2, 0), (2, 0), and (0, 3). In graph b there is a straight line graphed on the x y-coordinate plane. The x-axis runs from negative 12 to 12. The y-axis runs from negative 12 to 12. The line goes through the points (0, negative 2), (2, 0), and (4, 2)." width="679" height="359" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="The figure has two graphs. In graph a there is an ellipse graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The ellipse goes through the points (0, negative 3), (negative 2, 0), (2, 0), and (0, 3). In graph b there is a straight line graphed on the x y-coordinate plane. The x-axis runs from negative 12 to 12. The y-axis runs from negative 12 to 12. The line goes through the points (0, negative 2), (2, 0), and (4, 2)." class="img-fluid atto_image_button_text-bottom" height="359" src="https://k12.openstax.org/contents/raise/resources/5b86b8dab19477d50e868d209cf51562ebc30909" width="679"&gt;&lt;/p&gt;
 &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-
 &lt;h5&gt;Solution&lt;/h5&gt;
-
 &lt;p&gt;Here is how to determine if a graph is a function:&lt;/p&gt;
-
 &lt;p&gt;Graph a does not pass the vertical line test because if a vertical line were drawn down the graph, there would be at least one place where the vertical line would touch more than once. For example, a vertical line drawn at \(x=1\) would cross the graph more than once.&lt;/p&gt;
-
 &lt;p&gt;Graph a is not a function.&lt;/p&gt;
-
 &lt;p&gt;Graph b does pass the vertical line test since a vertical line drawn anywhere on the graph will only touch one time.&lt;/p&gt;
-
 &lt;p&gt;Graph b is a function.&lt;/p&gt;
-
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why &lt;/em&gt;you got the question wrong. Then you won’t get this type of question wrong again! &lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why &lt;/em&gt;you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again! &lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1770">
@@ -570,39 +480,37 @@
         <timecreated>1658862792</timecreated>
         <timemodified>1662655372</timemodified>
         <title>4.5.3: Comparing Functions</title>
-        <contents>&lt;table border="1" cellspacing="0" cellpadding="5" width="624"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;th width="312" valign="top"&gt;
-                &lt;p&gt;Company B’s Cost Equation&lt;/p&gt;
-            &lt;/th&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;\(C(x)=8.5x+1500\)&lt;br&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;th width="312" valign="top"&gt;
-                &lt;p&gt;Substitute \(x=1000\)&lt;/p&gt;
-            &lt;/th&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;\(C(1000)=8.5(1000)+1500\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;th width="312" valign="top"&gt;
-                &lt;p&gt;Simplify&lt;/p&gt;
-            &lt;/th&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;\(C(1000)=10,000\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+        <contents>&lt;table border="1" cellpadding="5" cellspacing="0" width="624"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th valign="top" width="312"&gt;
+&lt;p&gt;Company B&amp;rsquo;s Cost Equation&lt;/p&gt;
+&lt;/th&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;\(C(x)=8.5x+1500\)&lt;br&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th valign="top" width="312"&gt;
+&lt;p&gt;Substitute \(x=1000\)&lt;/p&gt;
+&lt;/th&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;\(C(1000)=8.5(1000)+1500\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th valign="top" width="312"&gt;
+&lt;p&gt;Simplify&lt;/p&gt;
+&lt;/th&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;\(C(1000)=10,000\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;p&gt;When 1,000 items are manufactured, Company A costs less. &lt;/p&gt;
-
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why &lt;/em&gt;you got the question wrong. Then you won’t get this type of question wrong again! &lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why &lt;/em&gt;you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again! &lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1771">
@@ -648,203 +556,159 @@
         <timemodified>1662679689</timemodified>
         <title>4.5.4: Using Function Notation and Graphing Technology (Optional)</title>
         <contents>&lt;h4&gt;Optional Activity (20 minutes)&lt;/h4&gt;
-
 &lt;p&gt;In this optional activity, students learn to use graphing technology to graph an equation in function notation, evaluate the function at a specific input value, create a table of inputs and outputs, and identify the coordinates of the points along a graph. They also revisit how to set an appropriate graphing window.&lt;br&gt;&lt;/p&gt;
-
 &lt;h4&gt;Launch&lt;/h4&gt;
-
 &lt;p&gt;Display the equation \(B(x)=10x+25\)&amp;nbsp;for all to see. Ask students:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;“How would you go about finding the value of \(B(1.482)\)?” (Substitute 1.482 into the expression \(10x+25\)&amp;nbsp;and evaluate, or use the graph of&amp;nbsp;\(y=10x+25\)&amp;nbsp;to estimate the \(y\)-value when \(x\)&amp;nbsp;is 1.482.)&lt;/li&gt;
-    &lt;li&gt;“How would you find the value of&amp;nbsp;\(x\) that makes \(B(x)=103.75\) true? Try solving the equation." (Solve&amp;nbsp;\(10x+25=103.75\),&amp;nbsp;or use the graph of&amp;nbsp;\(y=10x+25\) to estimate the \(x\)-value when \(y\) is 103.75.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How would you go about finding the value of \(B(1.482)\)?&amp;rdquo; (Substitute 1.482 into the expression \(10x+25\)&amp;nbsp;and evaluate, or use the graph of&amp;nbsp;\(y=10x+25\)&amp;nbsp;to estimate the \(y\)-value when \(x\)&amp;nbsp;is 1.482.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How would you find the value of&amp;nbsp;\(x\) that makes \(B(x)=103.75\) true? Try solving the equation." (Solve&amp;nbsp;\(10x+25=103.75\),&amp;nbsp;or use the graph of&amp;nbsp;\(y=10x+25\) to estimate the \(x\)-value when \(y\) is 103.75.)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Explain that while it’s possible to use a graph to find or estimate unknown input or output values, it is hard to be precise when using a hand-drawn or printed graph. We can evaluate the expression or solve the equation algebraically, but computing by hand can get cumbersome (though a calculator can take care of the most laborious part). Let's see how graphing technology can help us!&lt;/p&gt;
-
+&lt;p&gt;Explain that while it&amp;rsquo;s possible to use a graph to find or estimate unknown input or output values, it is hard to be precise when using a hand-drawn or printed graph. We can evaluate the expression or solve the equation algebraically, but computing by hand can get cumbersome (though a calculator can take care of the most laborious part). Let's see how graphing technology can help us!&lt;/p&gt;
 &lt;p&gt;The digital version of this activity includes instructions for using the Desmos Math Tool to graph an equation, change the graphing window, and find the output of a function for a given input. If students will be using different graphing technology, consider preparing alternate instructions.&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Demonstrate how to graph&amp;nbsp;\(B(x)=10x+25\),&amp;nbsp;change the graphing window, and find&amp;nbsp;\(B(4)\)&amp;nbsp;on the graph.&lt;/li&gt;
-    &lt;li&gt;Ask students to find the value of&amp;nbsp;\(x\) when&amp;nbsp;\(B(x)\)&amp;nbsp;is 100. Then, demonstrate some ways (other than approximating visually) to solve for&amp;nbsp;\(x\)&amp;nbsp;given&amp;nbsp;\(B(x)=100\):&amp;nbsp;
+&lt;li&gt;Demonstrate how to graph&amp;nbsp;\(B(x)=10x+25\),&amp;nbsp;change the graphing window, and find&amp;nbsp;\(B(4)\)&amp;nbsp;on the graph.&lt;/li&gt;
+&lt;li&gt;Ask students to find the value of&amp;nbsp;\(x\) when&amp;nbsp;\(B(x)\)&amp;nbsp;is 100. Then, demonstrate some ways (other than approximating visually) to solve for&amp;nbsp;\(x\)&amp;nbsp;given&amp;nbsp;\(B(x)=100\):&amp;nbsp;
         &lt;ol&gt;
-            &lt;li&gt;Trace the line. Coordinates appear as we move along the line. Stop when the \(y\)-coordinate is 100 and see what the \(x\)-coordinate is.&lt;/li&gt;
-            &lt;li&gt;Type \(y=100\)&amp;nbsp;in the expression list. A horizontal line appears. Find the intersection of this line and the graph of&amp;nbsp;\(B\).&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
+&lt;li&gt;Trace the line. Coordinates appear as we move along the line. Stop when the \(y\)-coordinate is 100 and see what the \(x\)-coordinate is.&lt;/li&gt;
+&lt;li&gt;Type \(y=100\)&amp;nbsp;in the expression list. A horizontal line appears. Find the intersection of this line and the graph of&amp;nbsp;\(B\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Ask students to use one or both of these strategies to complete the activity.&lt;/p&gt;
-
 &lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
-
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-    &lt;em&gt;Action and Expression: Provide Access for Physical Action.&lt;/em&gt;&amp;nbsp;Support effective and efficient use of tools and assistive technologies. To use graphing technology, some students may benefit from a demonstration or access to step-by-step instructions.&lt;br&gt;&lt;em&gt;Supports accessibility for: Organization; Memory; Attention&lt;/em&gt;
+&lt;div&gt;
+&lt;em&gt;Action and Expression: Provide Access for Physical Action.&lt;/em&gt;&amp;nbsp;Support effective and efficient use of tools and assistive technologies. To use graphing technology, some students may benefit from a demonstration or access to step-by-step instructions.&lt;br&gt;&lt;em&gt;Supports accessibility for: Organization; Memory; Attention&lt;/em&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
 &lt;br&gt;&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;&lt;br&gt;
 &lt;p&gt;The function&amp;nbsp;\(B\) is defined by the equation&amp;nbsp;\(B(x)=10x+25\). Use graphing technology above to:&lt;/p&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;Find the value of each expression:
+&lt;li&gt;Find the value of each expression:
         
         &lt;br&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt; \(B(6)\)&lt;/li&gt;
-            &lt;li&gt; \(B(2.75)\)&lt;/li&gt;
-            &lt;li&gt; \(B(1.482)\)&lt;br&gt;&lt;br&gt;&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-    &lt;li&gt;Solve each equation:
-        &lt;ol type="a"&gt;
-            &lt;li&gt; \(B(x)=93\)&lt;/li&gt;
-            &lt;li&gt;\(B(x)=42.1\)&lt;/li&gt;
-            &lt;li&gt; \(B(x)=116.25\) &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt; \(B(6)\)&lt;/li&gt;
+&lt;li&gt; \(B(2.75)\)&lt;/li&gt;
+&lt;li&gt; \(B(1.482)\)&lt;br&gt;&lt;br&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;li&gt;Solve each equation:
+        &lt;ol type="a"&gt;
+&lt;li&gt; \(B(x)=93\)&lt;/li&gt;
+&lt;li&gt;\(B(x)=42.1\)&lt;/li&gt;
+&lt;li&gt; \(B(x)=116.25\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;\(B(6)=85\); &lt;/li&gt;
-            &lt;li&gt;\(B(2.75)=52.5\); &lt;/li&gt;
-            &lt;li&gt;\(B(1.482)=39.82\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;\(x=6.8\); &lt;/li&gt;
-            &lt;li&gt;\(x=1.71\); &lt;/li&gt;
-            &lt;li&gt;\(x=9.125\)
-            &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
+&lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;\(B(6)=85\); &lt;/li&gt;
+&lt;li&gt;\(B(2.75)=52.5\); &lt;/li&gt;
+&lt;li&gt;\(B(1.482)=39.82\)&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;\(x=6.8\); &lt;/li&gt;
+&lt;li&gt;\(x=1.71\); &lt;/li&gt;
+&lt;li&gt;\(x=9.125\)
+            &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
-
 &lt;p&gt;Invite students to share any insights they had while using the graphing tool and techniques to evaluate expressions and solve equations. In what ways might the tool and techniques be handy? When might they be limited?&lt;/p&gt;
-
-&lt;p&gt;Also discuss any issues that students encountered while completing the task—technical or otherwise.&lt;/p&gt;
-
+&lt;p&gt;Also discuss any issues that students encountered while completing the task&amp;mdash;technical or otherwise.&lt;/p&gt;
 &lt;p&gt;If desired, consider showing another way to obtain input-output pairs of a function in Desmos.&lt;/p&gt;
-
-&lt;p&gt;Let’s assign a new input variable, say \(n\), to function \(B\). If we enter&amp;nbsp;\(n,B(n)\) in the expression list, activate a slider for&amp;nbsp;\(n\), and enable the option to label points, the graph will show the coordinate pair for any value of&amp;nbsp;\(n\).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/V92932ma83o22g4m9vNEEAYA" alt="Screenshot of a Desmos graph." width="400"&gt;&lt;/p&gt;
-
+&lt;p&gt;Let&amp;rsquo;s assign a new input variable, say \(n\), to function \(B\). If we enter&amp;nbsp;\(n,B(n)\) in the expression list, activate a slider for&amp;nbsp;\(n\), and enable the option to label points, the graph will show the coordinate pair for any value of&amp;nbsp;\(n\).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot of a Desmos graph." src="https://s3.amazonaws.com/im-ims-export/V92932ma83o22g4m9vNEEAYA" width="400"&gt;&lt;/p&gt;
 &lt;h4&gt;Support for English Language Learners&lt;/h4&gt;
-
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-    &lt;p&gt;Give students additional time to share their insights in small groups before the whole-class discussion. Invite groups to discuss the advantages and disadvantages of using the graphing tool and to rehearse what they will say when they share with the whole class. Rehearsing provides students with additional opportunities to speak and clarify their thinking, and will improve the quality of explanations shared during the whole-class discussion.
+&lt;div&gt;
+&lt;p&gt;Give students additional time to share their insights in small groups before the whole-class discussion. Invite groups to discuss the advantages and disadvantages of using the graphing tool and to rehearse what they will say when they share with the whole class. Rehearsing provides students with additional opportunities to speak and clarify their thinking, and will improve the quality of explanations shared during the whole-class discussion.
     &lt;/p&gt;
 &lt;/div&gt;&lt;br&gt;
-
 &lt;h3&gt;4.5.4: Self Check&lt;/h3&gt;
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table border="1" cellspacing="0" cellpadding="5" width="624"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="624" colspan="2" valign="top"&gt;
-                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
-                &lt;p&gt;The function \(D\) is defined by the equation \(D(x)=2.5x&amp;nbsp;+12\).&lt;/p&gt;
-                &lt;p dir="ltr"&gt;Which describes the window that can be used to find the value of \(x\) when \(D(x)=23.25\) using graphing technology and gives the correct value of \(x\)?&lt;/p&gt;
-
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p align="center"&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p align="center"&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;Graph \(y=2.5x+12\), \(x=23.25\); window: \(x\) from 0 to 30, \(y\) from 0 to 100; \(x=70.125\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: The value 23.25 is the output value, not the input value. The window must include the value of \(D(x)\) and the estimated value of \(x\). The answer is: Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\).&amp;nbsp;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;That’s correct! Check yourself: Graph each equation using a window for \(y\) close to the given value and a window for \(x\) close to an estimated value. The value of \(x\) where the lines meet is 4.5. &lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;Graph \(y=2.5x\), \(y=23.25\); window \(x\) from 0 to 10, \(y\) from 20 to 25; \(x=9.3\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: be sure to graph the full equation for \(D(x)\), using a window for \(y\) close to the given value and a window for \(x\) close to an estimated value. The answer is: Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\).&amp;nbsp;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;Graph \(y=2.5x+12\), \(y=23.25\);&amp;nbsp;window:&amp;nbsp;\(x\) from 20 to 25, \(y\) from 0 to 10; \(x=4.5\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="312" valign="top"&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: Make sure to use a window where you can see that given value of \(y\) and the estimated value of \(x\). The answer is: Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\).&amp;nbsp; &lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0" width="624"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2" valign="top" width="624"&gt;
+&lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The function \(D\) is defined by the equation \(D(x)=2.5x&amp;nbsp;+12\).&lt;/p&gt;
+&lt;p dir="ltr"&gt;Which describes the window that can be used to find the value of \(x\) when \(D(x)=23.25\) using graphing technology and gives the correct value of \(x\)?&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;Graph \(y=2.5x+12\), \(x=23.25\); window: \(x\) from 0 to 30, \(y\) from 0 to 100; \(x=70.125\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: The value 23.25 is the output value, not the input value. The window must include the value of \(D(x)\) and the estimated value of \(x\). The answer is: Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\).&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;That&amp;rsquo;s correct! Check yourself: Graph each equation using a window for \(y\) close to the given value and a window for \(x\) close to an estimated value. The value of \(x\) where the lines meet is 4.5. &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;Graph \(y=2.5x\), \(y=23.25\); window \(x\) from 0 to 10, \(y\) from 20 to 25; \(x=9.3\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: be sure to graph the full equation for \(D(x)\), using a window for \(y\) close to the given value and a window for \(x\) close to an estimated value. The answer is: Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\).&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;Graph \(y=2.5x+12\), \(y=23.25\);&amp;nbsp;window:&amp;nbsp;\(x\) from 20 to 25, \(y\) from 0 to 10; \(x=4.5\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="312"&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Make sure to use a window where you can see that given value of \(y\) and the estimated value of \(x\). The answer is: Graph \(y=2.5x+12\), \(y=23.25\); window:&amp;nbsp;\(x\) from 0 to 10, \(y\) from 20 to 25; \(x=4.5\).&amp;nbsp; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;h3&gt;4.5.4: Additional Resources&lt;/h3&gt;
-
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
 &lt;h4&gt;Finding Missing Values&lt;/h4&gt;
-
 &lt;p&gt;Function \(G\) is defined by \(G(x)=5x+20\).&amp;nbsp;Find the following values using graphing technology.&lt;/p&gt;
-
 &lt;ol start="1" type="a"&gt;
-    &lt;li&gt;\(G(2)\)&lt;/li&gt;
+&lt;li&gt;\(G(2)\)&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;To find \(G(2)\), look at \(x=2\) on the \(x\)-axis on the graph of \(G(x)\). Use proper steps with your graphing technology to find the \(y\)-value on the line: \(G(2)=30\).&lt;br&gt;
-    &lt;img src="https://k12.openstax.org/contents/raise/resources/53b0a95f8355556121169eeec75706012c7a0b9e" alt="GRAPH OF A STRAIGHT LINE WITH Y-INTERCEPT OF 20 THAT PASSES THROUGH THE POINT (2, 30)." width="300" height="307" class="img-fluid atto_image_button_text-bottom"&gt;
+&lt;img alt="GRAPH OF A STRAIGHT LINE WITH Y-INTERCEPT OF 20 THAT PASSES THROUGH THE POINT (2, 30)." class="img-fluid atto_image_button_text-bottom" height="307" src="https://k12.openstax.org/contents/raise/resources/53b0a95f8355556121169eeec75706012c7a0b9e" width="300"&gt;
 &lt;/p&gt;
-
 &lt;ol start="2" type="a"&gt;
-    &lt;li&gt;\(G(x)=32\)&lt;/li&gt;
+&lt;li&gt;\(G(x)=32\)&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;To find the value of \(x\) where \(G(x)=32\), look at where the graph crosses the \(y\)-value of 32. Use proper steps with your graphing technology to find the \(x\)-value where the graph meets \(y=32\).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/0b8db35d10d091627f644e451f3267ab28421acc" alt="GRAPH OF A STRAIGHT LINE WITH Y-INTERCEPT OF 20 THAT PASSES THROUGH THE POINT (2.4, 32). A GREEN HORIZONTAL LINE THAT PASSES THROUGH (0, 32)." width="300" height="307" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="GRAPH OF A STRAIGHT LINE WITH Y-INTERCEPT OF 20 THAT PASSES THROUGH THE POINT (2.4, 32). A GREEN HORIZONTAL LINE THAT PASSES THROUGH (0, 32)." class="img-fluid atto_image_button_text-bottom" height="307" src="https://k12.openstax.org/contents/raise/resources/0b8db35d10d091627f644e451f3267ab28421acc" width="300"&gt;&lt;/p&gt;
 &lt;p&gt;\(G(2.4)=32\)&lt;/p&gt;
-
 &lt;h4&gt;Try It: Finding Missing Values&lt;/h4&gt;
-
 &lt;p&gt;Function \(H\)&amp;nbsp;is defined by&amp;nbsp;\(H(x)=2x+4\). Find \(H(x)=10.4\) using graphing technology.&lt;/p&gt;
-
 &lt;p&gt;In your notebook, write down your answer. Then select the&amp;nbsp;&lt;strong&gt;Solution&lt;/strong&gt;&amp;nbsp;button to check your work.&lt;/p&gt;
-
 &lt;h5&gt;Solution&lt;/h5&gt;
-
 &lt;p&gt;Here is how to find the value of \(H(x)\)&amp;nbsp;using graphing technology:&lt;br&gt;To find the value of \(x\) where&amp;nbsp;\(H(x)=10.4\), look at where the graph of&amp;nbsp;\(H(x)=2x+4\) crosses the&amp;nbsp;\(y\)-value of 10.4. Use proper steps with your graphing technology to find the \(x\)-value where the graph meets \(y=10.4\).&lt;br&gt;&lt;/p&gt;
-
 &lt;p&gt;\(H(3.2)=10.4\)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/84083ff5ffe53389d428f550de6048a04cf9f7dd" alt="GRAPH OF A STRAIGHT LINE WITH Y-INTERCEPT OF 4 THAT PASSES THROUGH THE POINT (3.2, 10.4). A RED HORIZONTAL LINE THAT PASSES THROUGH (0, 10.4)" width="300" height="309" class="img-fluid atto_image_button_text-bottom"&gt;
+&lt;p&gt;&lt;img alt="GRAPH OF A STRAIGHT LINE WITH Y-INTERCEPT OF 4 THAT PASSES THROUGH THE POINT (3.2, 10.4). A RED HORIZONTAL LINE THAT PASSES THROUGH (0, 10.4)" class="img-fluid atto_image_button_text-bottom" height="309" src="https://k12.openstax.org/contents/raise/resources/84083ff5ffe53389d428f550de6048a04cf9f7dd" width="300"&gt;
 &lt;/p&gt;
-
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about&amp;nbsp;&lt;em&gt;why&amp;nbsp;&lt;/em&gt;you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about&amp;nbsp;&lt;em&gt;why&amp;nbsp;&lt;/em&gt;you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1775">
@@ -890,29 +754,20 @@
         <timemodified>1662655530</timemodified>
         <title>4.5.5: Using Graphical and Algebraic Approaches for Finding Unknowns of Linear Functions.</title>
         <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;
-
 &lt;h4&gt;Student-Facing Statement &lt;/h4&gt;
-
 &lt;p&gt;The college student who is looking for a data plan for her cell phone found a third option, which also offers a 2-gigabyte monthly allowance for data.&lt;/p&gt;
-
 &lt;p&gt;The monthly cost of this option can be represented by function \(C\), defined by \( C(x)=30x+5\), where \(x\) is the gigabytes of data used over the monthly allowance.&lt;/p&gt;
-
 &lt;ol start="1" type="1"&gt;
-    &lt;li&gt;Find \(C(0.7)\) and explain what it means in this situation. &lt;/li&gt;
-    &lt;li&gt;Her budget is still $50 a month. To find out how many gigabytes of data she could use if she chose this plan, she writes&amp;nbsp;\(C(x)=50\)&amp;nbsp;and solves for \(x\). What value of \(x\) makes this equation true? Show your reasoning. &lt;/li&gt;
+&lt;li&gt;Find \(C(0.7)\) and explain what it means in this situation. &lt;/li&gt;
+&lt;li&gt;Her budget is still $50 a month. To find out how many gigabytes of data she could use if she chose this plan, she writes&amp;nbsp;\(C(x)=50\)&amp;nbsp;and solves for \(x\). What value of \(x\) makes this equation true? Show your reasoning. &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
 &lt;ol start="1" type="1"&gt;
-    &lt;li&gt;\(C(0.7)=26\) because \(30(0.7)+5=26\). Here is a possible explanation: It means that the cost would be $26 if she used 0.7 gigabyte over the 2-gigabytes allowance in a month. &lt;/li&gt;
-    &lt;li&gt;\(x=1.5\). Here is a possible explanation: Because \( C(x)=30x+5\), we can write \(C(x)=50\) as \(30x+5=50\) and solve for \(x\), which gives 1.5. &lt;/li&gt;
+&lt;li&gt;\(C(0.7)=26\) because \(30(0.7)+5=26\). Here is a possible explanation: It means that the cost would be $26 if she used 0.7 gigabyte over the 2-gigabytes allowance in a month. &lt;/li&gt;
+&lt;li&gt;\(x=1.5\). Here is a possible explanation: Because \( C(x)=30x+5\), we can write \(C(x)=50\) as \(30x+5=50\) and solve for \(x\), which gives 1.5. &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
-
 &lt;h5&gt;Press Pause&lt;/h5&gt;
-
 &lt;p&gt;At this point, students need to be able to evaluate and interpret equations given in function notation. If students continue to struggle, select examples of cool-downs from this unit to highlight and clarify misconceptions, and then have students work to revise cool-downs and reflect on their misconceptions. Practice problems 1, 3, 4, and 5 from this lesson all provide opportunities for practice and additional formative assessment.&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -959,81 +814,58 @@
         <timemodified>1662655589</timemodified>
         <title>4.5.6: Practice</title>
         <contents>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol type="1" start="1"&gt;
-    &lt;li&gt;The cell phone plan from Company C costs $10 per month, plus $15 per gigabyte for data used. The plan from Company D costs $80 per month, with unlimited data.&lt;/li&gt;
+&lt;ol start="1" type="1"&gt;
+&lt;li&gt;The cell phone plan from Company C costs $10 per month, plus $15 per gigabyte for data used. The plan from Company D costs $80 per month, with unlimited data.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;Rule \(C\) gives the monthly cost, in dollars, of using \(g\) gigabytes of data on Company C’s plan. Rule \(D\) gives the monthly cost, in dollars, of using \(g\) gigabytes of data on Company D’s plan. &lt;/p&gt;
-
+&lt;p&gt;Rule \(C\) gives the monthly cost, in dollars, of using \(g\) gigabytes of data on Company C&amp;rsquo;s plan. Rule \(D\) gives the monthly cost, in dollars, of using \(g\) gigabytes of data on Company D&amp;rsquo;s plan. &lt;/p&gt;
 &lt;ol start="1" type="a"&gt;
-    &lt;li&gt;Which sentence describes the meaning of the statement \(C(2)=40\)?&lt;/li&gt;
+&lt;li&gt;Which sentence describes the meaning of the statement \(C(2)=40\)?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-    &lt;li&gt;It costs $40 to use 2 gigabytes of data using plan C. &lt;/li&gt;
-    &lt;li&gt;It costs $40 to use 2 gigabytes of data using plan D.&lt;/li&gt;
-    &lt;li&gt;It costs $2 to use 40 gigabytes of data using plan C.&lt;/li&gt;
-    &lt;li&gt;It costs $2 to use 40 gigabytes of data using plan D.&lt;/li&gt;
+&lt;li&gt;It costs $40 to use 2 gigabytes of data using plan C. &lt;/li&gt;
+&lt;li&gt;It costs $40 to use 2 gigabytes of data using plan D.&lt;/li&gt;
+&lt;li&gt;It costs $2 to use 40 gigabytes of data using plan C.&lt;/li&gt;
+&lt;li&gt;It costs $2 to use 40 gigabytes of data using plan D.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;It costs $40 to use 2 gigabytes of data using plan C. &lt;/p&gt;
-
 &lt;ol start="2" type="a"&gt;
-    &lt;li&gt;Which is less, \(C(4)\) or \(D(4)\)? &lt;/li&gt;
+&lt;li&gt;Which is less, \(C(4)\) or \(D(4)\)? &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\(C(4)\) is less. \(C(4)=70\) and \(D(4)=80\).&amp;nbsp;The phone plan from Company C is less expensive if 4 gigabytes of data are used.&lt;/p&gt;
-
 &lt;ol start="3" type="a"&gt;
-    &lt;li&gt;Which is less, \(C(5)\) or \(D(5)\)?&lt;/li&gt;
+&lt;li&gt;Which is less, \(C(5)\) or \(D(5)\)?&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\(D(5)\) is less. \(D(5)=80\) and \(C(5) =85\). The phone plan from Company D is less expensive if 5 gigabytes of data are used.&lt;/p&gt;
-
 &lt;ol start="4" type="a"&gt;
-    &lt;li&gt;For what number \(g\) is \(C(g)=130\)?&lt;/li&gt;
+&lt;li&gt;For what number \(g\) is \(C(g)=130\)?&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;&amp;nbsp;8 &lt;/p&gt;
-
-&lt;ol type="1" start="2"&gt;
-    &lt;li&gt;Function \(G\) takes a student’s first name for its input and gives the number of letters in the first name for its output.&lt;/li&gt;
+&lt;ol start="2" type="1"&gt;
+&lt;li&gt;Function \(G\) takes a student&amp;rsquo;s first name for its input and gives the number of letters in the first name for its output.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ol start="1" type="a"&gt;
-    &lt;li&gt;Describe the meaning of \(G(\text{Jada})=4\). &lt;/li&gt;
+&lt;li&gt;Describe the meaning of \(G(\text{Jada})=4\). &lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;The name “Jada” has 4 letters.&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;The name &amp;ldquo;Jada&amp;rdquo; has 4 letters.&lt;/p&gt;
 &lt;ol start="2" type="a"&gt;
-    &lt;li&gt;Find the value of \(G(\text{Diego})\). &lt;/li&gt;
+&lt;li&gt;Find the value of \(G(\text{Diego})\). &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;5 &lt;/p&gt;
-
-&lt;ol type="1" start="3"&gt;
-    &lt;li&gt;Is the following graph a function? Explain.&lt;/li&gt;
+&lt;ol start="3" type="1"&gt;
+&lt;li&gt;Is the following graph a function? Explain.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;br&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8e377a41847030865efbafb8ae4e8c83db43dc88" alt="The figure has an absolute value function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The vertex is at the point (0, negative 1). The line goes through the points (negative 1, 0) and (1, 0)."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="The figure has an absolute value function graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 4 to 8. The vertex is at the point (0, negative 1). The line goes through the points (negative 1, 0) and (1, 0)." src="https://k12.openstax.org/contents/raise/resources/8e377a41847030865efbafb8ae4e8c83db43dc88"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;Yes, this is a function because the graph passes the vertical line test.&lt;/p&gt;
-
-&lt;ol type="1" start="4"&gt;
-    &lt;li&gt;Is the following graph a function? Explain. &lt;br&gt;&lt;/li&gt;
+&lt;ol start="4" type="1"&gt;
+&lt;li&gt;Is the following graph a function? Explain. &lt;br&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/1f2d86b6714ef87d94be2f3aa4741273c2f2f4d5" alt="The figure has a half-circle graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The curved line segment starts at the point (negative 2, 0). The line goes through the point (0, 2) and ends at the point (2, 0)."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="The figure has a half-circle graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The curved line segment starts at the point (negative 2, 0). The line goes through the point (0, 2) and ends at the point (2, 0)." src="https://k12.openstax.org/contents/raise/resources/1f2d86b6714ef87d94be2f3aa4741273c2f2f4d5"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;Yes, this is a function because the graph passes the vertical line test.&lt;/p&gt;
-
-&lt;ol type="1" start="5"&gt;
-    &lt;li&gt;Is the following graph a function? Explain. &lt;br&gt;&lt;/li&gt;
+&lt;ol start="5" type="1"&gt;
+&lt;li&gt;Is the following graph a function? Explain. &lt;br&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/b27425bc88681f1b290617df73d1d63458f6116c" alt="The figure has two curved lines graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The curved line on the left goes through the points (negative 2, 0), (negative 4, 5), and (negative 4, negative 5). The curved line on the right goes through the points (2, 0), (4, 5), and (4, negative 5)."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="The figure has two curved lines graphed on the x y-coordinate plane. The x-axis runs from negative 6 to 6. The y-axis runs from negative 6 to 6. The curved line on the left goes through the points (negative 2, 0), (negative 4, 5), and (negative 4, negative 5). The curved line on the right goes through the points (2, 0), (4, 5), and (4, negative 5)." src="https://k12.openstax.org/contents/raise/resources/b27425bc88681f1b290617df73d1d63458f6116c"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;No, this is not a function because the graph does not pass the vertical line test. &lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1080,31 +912,21 @@
         <timemodified>1662655677</timemodified>
         <title>4.5.7: Lesson Synthesis</title>
         <contents>&lt;p&gt;Refer back to the Function Rules activity. Display the two graphs for all to see.&lt;/p&gt;
-
 &lt;p&gt;Ask students to use the graphs to find:&lt;/p&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;the values of \(A(0.8)\) and \(B(0.8)\)&lt;/li&gt;
-    &lt;li&gt;the solutions to \(A(x)=72\) and \(B(x)=72\)&lt;/li&gt;
+&lt;li&gt;the values of \(A(0.8)\) and \(B(0.8)\)&lt;/li&gt;
+&lt;li&gt;the solutions to \(A(x)=72\) and \(B(x)=72\)&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/MQxs29JrqXmFRsH7Fch8Wiqa" alt="" width="300" height="273" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-
-&lt;p&gt;Next, display the two equations for all to see. (Hold off on discussing students’ responses.)&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt class="img-fluid atto_image_button_text-bottom" height="273" role="presentation" src="https://s3.amazonaws.com/im-ims-export/MQxs29JrqXmFRsH7Fch8Wiqa" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;Next, display the two equations for all to see. (Hold off on discussing students&amp;rsquo; responses.)&lt;/p&gt;
 &lt;p&gt;Ask students to use the equations to find the same four values they have just found using the graphs.&lt;/p&gt;
-
 &lt;p&gt;\(A(x)=60\)&lt;/p&gt;
-
 &lt;p&gt;\(B(x)=10x+25\)&lt;/p&gt;
-
 &lt;p&gt;Invite students to compare and contrast the graphical and algebraic approaches for finding unknown inputs and outputs of linear functions. Discuss questions such as:&lt;/p&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;“How easy was it to use the graph of \(B\) to find an output value, such as \(B(0.8)\)? What about using the graph to find an input value, such as the \(x\) in \(B(x)=72\)?” (Both were fairly straightforward, but they may not have been very precise. Some estimation was necessary. It was very easy to see that there was no solution to \(A(x)=72\).)&lt;/li&gt;
-    &lt;li&gt;“How easy was it to use the rule \(B(x)=10x+25\) to find an output value, such as \(B(0.8)\)? What about finding an input value, such as the \(x\) in \(B(x)=72\)?” (Both were fairly simple, but if the rule or the given input or output involves numbers that are harder to compute by hand, it might be more complicated.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How easy was it to use the graph of \(B\) to find an output value, such as \(B(0.8)\)? What about using the graph to find an input value, such as the \(x\) in \(B(x)=72\)?&amp;rdquo; (Both were fairly straightforward, but they may not have been very precise. Some estimation was necessary. It was very easy to see that there was no solution to \(A(x)=72\).)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How easy was it to use the rule \(B(x)=10x+25\) to find an output value, such as \(B(0.8)\)? What about finding an input value, such as the \(x\) in \(B(x)=72\)?&amp;rdquo; (Both were fairly simple, but if the rule or the given input or output involves numbers that are harder to compute by hand, it might be more complicated.)&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;If students did the optional activity on using graphing technology, ask students to identify some ways that technology could help them find unknown input and output values of a function.&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>

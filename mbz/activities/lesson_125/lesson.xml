@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="93" moduleid="125" modulename="lesson" contextid="136">
   <lesson id="93">
     <course>2</course>
     <name>Lesson 4.7 Teacher Guide: Using Graphs to Find Average Rate of Change</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>0</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>126</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -54,141 +54,106 @@
         <timemodified>1662656459</timemodified>
         <title>4.7.0: Lesson Overview</title>
         <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
-
 &lt;p&gt;Previously, students have characterized how functions are changing qualitatively, by describing them as increasing, staying constant, or decreasing in value. In earlier units and prior to this course, students have also computed and compared the slopes of line graphs and interpreted them in terms of rates of change. In this lesson, students learn to characterize changes in functions quantitatively, by using average rates of change.&lt;/p&gt;
-
 &lt;p&gt;Students learn that average rate of change can be used to measure how fast a function changes over a given interval. This can be done when we know the input-output pairs that mark the interval of interest or by estimating them from a graph.&lt;/p&gt;
-
 &lt;p&gt;Attention to units is important in computing or estimating average rates of change because units give meaning to how much the output quantity changes relative to the input. In thinking carefully about appropriate units to use, students practice attending to precision.&lt;/p&gt;
-
 &lt;p&gt;Students also engage in aspects of mathematical modeling when they use a data set or a graph to compute average rates of change and then use it to analyze a situation or make predictions.&lt;/p&gt;
-
 &lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
-
 &lt;p&gt;Students will be able to:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Given a graph of a function, estimate or calculate the average rate of change over a specified interval.&lt;/li&gt;
-    &lt;li&gt;Recognize that the slope of a line joining two points on a graph of a function is the average rate of change.&lt;/li&gt;
-    &lt;li&gt;Understand that the average rate of change describes how fast the output of a function changes for every unit of change in the input.&lt;/li&gt;
+&lt;li&gt;Given a graph of a function, estimate or calculate the average rate of change over a specified interval.&lt;/li&gt;
+&lt;li&gt;Recognize that the slope of a line joining two points on a graph of a function is the average rate of change.&lt;/li&gt;
+&lt;li&gt;Understand that the average rate of change describes how fast the output of a function changes for every unit of change in the input.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Explain the meaning of the term “average rate of change.”&lt;/li&gt;
-    &lt;li&gt;Estimate or calculate the average rate of change between two points from the graph of a function.&lt;/li&gt;
+&lt;li&gt;Explain the meaning of the term &amp;ldquo;average rate of change.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Estimate or calculate the average rate of change between two points from the graph of a function.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
 &lt;br&gt;
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;A3(A) &lt;u&gt;determine the slope of a line given a table of values, a graph, two points on the line,&lt;/u&gt; and an equation written in various forms, including \(y = mx + b\), \(Ax + By = C\), and \(y - y1 = m(x - x1)\);&lt;/p&gt;
-
-                &lt;p&gt;A3(B) &lt;u&gt;calculate the rate of change of a linear function represented tabularly, graphically, or algebraically in context of mathematical and real-world problems;&lt;/u&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-
-                &lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
-
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;A3(A) &lt;u&gt;determine the slope of a line given a table of values, a graph, two points on the line,&lt;/u&gt; and an equation written in various forms, including \(y = mx + b\), \(Ax + By = C\), and \(y - y1 = m(x - x1)\);&lt;/p&gt;
+&lt;p&gt;A3(B) &lt;u&gt;calculate the rate of change of a linear function represented tabularly, graphically, or algebraically in context of mathematical and real-world problems;&lt;/u&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;h4&gt;Lesson Activities&lt;/h4&gt;
-
 &lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;4.7.1: Comparing Changes in Output Based on Input&lt;/li&gt;
-    &lt;li&gt;4.7.2: Average Rate of Change and Slope&lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt;4.7.2: Self Check&lt;/li&gt;
-        &lt;li&gt;4.7.2: Additional Resources&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;li&gt;4.7.3: Finding and Interpreting Average Rates of Change&lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt;4.7.3: Self Check&lt;/li&gt;
-        &lt;li&gt;4.7.3: Additional Resources&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;li&gt;4.7.4: Rate of Change of Linear Functions
+&lt;li&gt;4.7.1: Comparing Changes in Output Based on Input&lt;/li&gt;
+&lt;li&gt;4.7.2: Average Rate of Change and Slope&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;4.7.2: Self Check&lt;/li&gt;
+&lt;li&gt;4.7.2: Additional Resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;4.7.3: Finding and Interpreting Average Rates of Change&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;4.7.3: Self Check&lt;/li&gt;
+&lt;li&gt;4.7.3: Additional Resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;4.7.4: Rate of Change of Linear Functions
         &lt;ul&gt;
-            &lt;li&gt;4.7.4: Self Check&lt;/li&gt;
-            &lt;li&gt;4.7.4: Additional Resources&lt;br&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;4.7.5: Interpreting Average Rates of Change with Real-World Examples&lt;/li&gt;
+&lt;li&gt;4.7.4: Self Check&lt;/li&gt;
+&lt;li&gt;4.7.4: Additional Resources&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;/li&gt;
+&lt;li&gt;4.7.5: Interpreting Average Rates of Change with Real-World Examples&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Students will also complete a series of problems in the 4.7.6: Practice.&lt;/p&gt;
-
 &lt;h4&gt;Required Materials&lt;/h4&gt;
-
 &lt;p&gt;None&lt;/p&gt;
-
 &lt;h4&gt;Required Preparation&lt;/h4&gt;
-
 &lt;p&gt;None&lt;/p&gt;
-
 &lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
-
 &lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings.&lt;/li&gt;
-    &lt;li&gt;Encourage students to use key vocabulary words in “math talk” and their written and oral explanations.&lt;/li&gt;
-    &lt;li&gt;Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings.&lt;/li&gt;
+&lt;li&gt;Encourage students to use key vocabulary words in &amp;ldquo;math talk&amp;rdquo; and their written and oral explanations.&lt;/li&gt;
+&lt;li&gt;Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Vocabulary words that are emphasized in this lesson include:&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;function&lt;/li&gt;
-    &lt;li&gt;output&lt;/li&gt;
-    &lt;li&gt;input&lt;/li&gt;
-    &lt;li&gt;slope&lt;/li&gt;
+&lt;li&gt;function&lt;/li&gt;
+&lt;li&gt;output&lt;/li&gt;
+&lt;li&gt;input&lt;/li&gt;
+&lt;li&gt;slope&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;average rate of change&lt;/li&gt;
-    &lt;li&gt;positive slope&lt;/li&gt;
-    &lt;li&gt;negative slope&lt;/li&gt;
-    &lt;li&gt;zero slope&lt;/li&gt;
+&lt;li&gt;average rate of change&lt;/li&gt;
+&lt;li&gt;positive slope&lt;/li&gt;
+&lt;li&gt;negative slope&lt;/li&gt;
+&lt;li&gt;zero slope&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Social Emotional Learning (SEL) Support&lt;/h4&gt;
-
 &lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;creativity&lt;/strong&gt;.&lt;/p&gt;
-
 &lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/work-smarter-sooner/" target="_blank"&gt;Work Smarter, Sooner&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/free-your-mind/" target="_blank"&gt;Free Your Mind&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/work-smarter-sooner/" target="_blank"&gt;Work Smarter, Sooner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/free-your-mind/" target="_blank"&gt;Free Your Mind&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;You can find other tips located here in the&amp;nbsp;&lt;a href="https://characterlab.org/playbooks/creativity" target="_blank"&gt;Playbook on Creativity&lt;/a&gt;&amp;nbsp;from Character Lab.&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -221,83 +186,66 @@
         <timemodified>1662656526</timemodified>
         <title>4.7.1: Comparing Changes in Output Based on Input</title>
         <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
-
 &lt;p&gt;In this warm-up, students compare the changes in output (temperature) over two intervals of input (time). The temperature in one interval changes by a greater amount than in the other interval, but in the latter, temperature changes more rapidly.&lt;/p&gt;
-
-&lt;p&gt;Thinking about what it means for temperature to drop “faster” activates the idea of rates of change and prepares for the work later in the lesson.&lt;/p&gt;
-
+&lt;p&gt;Thinking about what it means for temperature to drop &amp;ldquo;faster&amp;rdquo; activates the idea of rates of change and prepares for the work later in the lesson.&lt;/p&gt;
 &lt;h4&gt;Launch&lt;/h4&gt;
-
 &lt;p&gt;Display the task for all to see. Give students 2 minutes of quiet time to work the question and then follow with a whole-class discussion.&lt;/p&gt;
-
 &lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
-
 &lt;p&gt;Here are the recorded temperatures at three different times on a winter evening.&lt;/p&gt;
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;time&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;4 p.m.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;6 p.m.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;10 p.m.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;temperature&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;25°F&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;17°F&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;8°F&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;time&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;4 p.m.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;6 p.m.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;10 p.m.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;temperature&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;25&amp;deg;F&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;17&amp;deg;F&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;8&amp;deg;F&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Tyler says the temperature dropped faster between 4 p.m. and 6 p.m.&lt;/li&gt;
-    &lt;li&gt;Mai says the temperature dropped faster between 6 p.m. and 10 p.m.&lt;/li&gt;
+&lt;li&gt;Tyler says the temperature dropped faster between 4 p.m. and 6 p.m.&lt;/li&gt;
+&lt;li&gt;Mai says the temperature dropped faster between 6 p.m. and 10 p.m.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Who do you agree with? Explain your reasoning.&lt;/p&gt;
-
 &lt;h4&gt; Student Response&lt;/h4&gt;
-
 &lt;p&gt;Sample responses:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;I agree with Mai. The temperature dropped 8°F between 4 p.m. and 6 p.m., but it fell 9°F between 6 p.m. and 10 p.m.&lt;/li&gt;
-    &lt;li&gt;I agree with Tyler. The temperature dropped 4°F per hour between 4 p.m. and 6 p.m. It fell less than 4°F per hour in the evening.&lt;/li&gt;
+&lt;li&gt;I agree with Mai. The temperature dropped 8&amp;deg;F between 4 p.m. and 6 p.m., but it fell 9&amp;deg;F between 6 p.m. and 10 p.m.&lt;/li&gt;
+&lt;li&gt;I agree with Tyler. The temperature dropped 4&amp;deg;F per hour between 4 p.m. and 6 p.m. It fell less than 4&amp;deg;F per hour in the evening.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Anticipated Misconceptions &lt;/h4&gt;
-
-&lt;p&gt;Some students may ask for a clarification as to what is meant by “faster” in this situation. Acknowledge that thinking about its meaning in context is a great way to approach the task. Encourage these students to interpret the word based on their understanding of the given information.&lt;/p&gt;
-
+&lt;p&gt;Some students may ask for a clarification as to what is meant by &amp;ldquo;faster&amp;rdquo; in this situation. Acknowledge that thinking about its meaning in context is a great way to approach the task. Encourage these students to interpret the word based on their understanding of the given information.&lt;/p&gt;
 &lt;h4&gt;Activity Synthesis &lt;/h4&gt;
-
-&lt;p&gt;Poll the class on whether they agree with Mai or with Tyler. Select 1–2 students from each group to explain their reasoning. As they explain, record and display their thinking for all to see. After both groups have had a chance to present, ask if anyone changed their mind because of the explanation they heard. If so, invite them to share their reasons.&lt;/p&gt;
-
+&lt;p&gt;Poll the class on whether they agree with Mai or with Tyler. Select 1&amp;ndash;2 students from each group to explain their reasoning. As they explain, record and display their thinking for all to see. After both groups have had a chance to present, ask if anyone changed their mind because of the explanation they heard. If so, invite them to share their reasons.&lt;/p&gt;
 &lt;p&gt;It is not necessary to resolve the question at this point. Students will continue thinking about this question in the next activity.&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -344,532 +292,456 @@
         <timemodified>1662656605</timemodified>
         <title>4.7.2: Average Rate of Change and Slope</title>
         <contents>&lt;h3&gt;Activity (20 minutes)&lt;/h3&gt;
-
 &lt;p&gt;This activity introduces students to the average rate of change by building on what students know about rate of change and slope.&lt;/p&gt;
-
 &lt;p&gt;Students see that finding the change in the output for every unit of change in the input can be a useful way to generalize what happens between two function values, regardless of the behaviors of individual data points between them. They recognize that this number tells us how, on average, one quantity is changing relative to the other, and that it can be useful for comparing the trends in different intervals of a function.&lt;/p&gt;
-
 &lt;p&gt;In the activity, students find average rates of change by reasoning and using their knowledge of linear relationships. Monitor for the following strategies (the examples shown are for finding the average rate of change between 6 p.m. and 10 p.m.):&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Find the hourly changes in temperature and calculate the average. The temperature fell by 2°F the first hour, then 4°F, 0°F, and 3°F in the next three hours. The average is \(\frac{2+4+0+3}4=\frac94\), or 2.25°F per hour.&lt;/li&gt;
+&lt;li&gt;Find the hourly changes in temperature and calculate the average. The temperature fell by 2&amp;deg;F the first hour, then 4&amp;deg;F, 0&amp;deg;F, and 3&amp;deg;F in the next three hours. The average is \(\frac{2+4+0+3}4=\frac94\), or 2.25&amp;deg;F per hour.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Find the overall change in temperature and divide by the overall change in hours. The temperature fell 9°F in 4 hours, which means an average drop of 2.25°F per hour.&lt;/li&gt;
-    &lt;li&gt;Find the slope of the line connecting the two end points of the interval. The slope between \((6,17)\) and \((10,8)\) is \(\frac{8-17}{10-6}=\frac{-9}4=-2.25\), which means an average drop of 2.25°F per hour.&lt;/li&gt;
+&lt;li&gt;Find the overall change in temperature and divide by the overall change in hours. The temperature fell 9&amp;deg;F in 4 hours, which means an average drop of 2.25&amp;deg;F per hour.&lt;/li&gt;
+&lt;li&gt;Find the slope of the line connecting the two end points of the interval. The slope between \((6,17)\) and \((10,8)\) is \(\frac{8-17}{10-6}=\frac{-9}4=-2.25\), which means an average drop of 2.25&amp;deg;F per hour.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;In the activity synthesis, students generalize their reasoning and see that finding the average rate of change is indeed equivalent to finding the slope of the line connecting the two points.&lt;/p&gt;
-
 &lt;h4&gt;Launch&lt;/h4&gt;
-
 &lt;p&gt;Ask students to keep their materials closed. Display a scatter plot with the two temperature data points plotted, as shown.&lt;/p&gt;
-
 &lt;p&gt;Tell students that it shows the temperature at 4 p.m. and the temperature at 10 p.m.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/C2QnPUJ76G75xfMgrFswvT2J" alt="Two points. hours since noon and temperature in degrees Fahrenheit."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Two points. hours since noon and temperature in degrees Fahrenheit." src="https://s3.amazonaws.com/im-ims-export/C2QnPUJ76G75xfMgrFswvT2J"&gt;&lt;/p&gt;
 &lt;p&gt;Ask students:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;“How did the temperature change between 4 p.m. and 10 p.m.?” (It fell.)&lt;/li&gt;
-    &lt;li&gt;“How much did it fall?” (17°F)&lt;/li&gt;
-    &lt;li&gt;“Can we tell how fast, or at what rate, the temperature was falling? If so, how?” (It fell 17°F in 6 hours. If it was falling at a constant rate, it would be falling \(\frac{17}{6}\) or about 2.8°F per hour. If we connect the points with a line and find its slope, it would be about –2.8.)&lt;/li&gt;
-    &lt;li&gt;“If not, why not?” (There is not enough information about what happened between the two data points. It might not be falling at the same rate.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How did the temperature change between 4 p.m. and 10 p.m.?&amp;rdquo; (It fell.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How much did it fall?&amp;rdquo; (17&amp;deg;F)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Can we tell how fast, or at what rate, the temperature was falling? If so, how?&amp;rdquo; (It fell 17&amp;deg;F in 6 hours. If it was falling at a constant rate, it would be falling \(\frac{17}{6}\) or about 2.8&amp;deg;F per hour. If we connect the points with a line and find its slope, it would be about &amp;ndash;2.8.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;If not, why not?&amp;rdquo; (There is not enough information about what happened between the two data points. It might not be falling at the same rate.)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Display a scatter plot with the hourly data points plotted.&lt;/p&gt;
-
 &lt;p&gt;Give students a moment to notice and wonder something about the data and solicit a few responses. If no students mention the temperatures changing at different rates (a lot, a little, or not at all) each hour, ask them about it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/GSceYmZRpNzmAcMXQkjkDn92" alt="Discrete function. hours since noon and temperature in degrees Fahrenheit."&gt;&lt;/p&gt;
-
-&lt;p&gt;Discuss with students: “Do the hourly data between 4 p.m. and 10 p.m. help us better characterize how fast the temperature was falling between 4 p.m. and 10 p.m.? Could we still say that it was falling about 2.8°F an hour?”&lt;/p&gt;
-
-&lt;p&gt;Students are likely to comment that a line connecting \((4,25)\) and \((10,8)\) approximates the distribution of points in that interval and conclude that –2.8°F per hour is a reasonable rate to use.&lt;/p&gt;
-
-&lt;p&gt;Explain to students that it can be helpful to have a way to quantify how a quantity is changing over a particular interval, without worrying about the smaller changes during the interval. The rate of –2.8°F per hour serves that purpose. It is the average rate of change between 4 p.m. and 10 p.m.&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Discrete function. hours since noon and temperature in degrees Fahrenheit." src="https://s3.amazonaws.com/im-ims-export/GSceYmZRpNzmAcMXQkjkDn92"&gt;&lt;/p&gt;
+&lt;p&gt;Discuss with students: &amp;ldquo;Do the hourly data between 4 p.m. and 10 p.m. help us better characterize how fast the temperature was falling between 4 p.m. and 10 p.m.? Could we still say that it was falling about 2.8&amp;deg;F an hour?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Students are likely to comment that a line connecting \((4,25)\) and \((10,8)\) approximates the distribution of points in that interval and conclude that &amp;ndash;2.8&amp;deg;F per hour is a reasonable rate to use.&lt;/p&gt;
+&lt;p&gt;Explain to students that it can be helpful to have a way to quantify how a quantity is changing over a particular interval, without worrying about the smaller changes during the interval. The rate of &amp;ndash;2.8&amp;deg;F per hour serves that purpose. It is the average rate of change between 4 p.m. and 10 p.m.&lt;/p&gt;
 &lt;h4&gt;Student-Facing Statement &lt;/h4&gt;
-
 &lt;p&gt;The table and graph show a more complete picture of the temperature changes on the same winter day. The function \(T\) gives the temperature in degrees Fahrenheit, \(h\) hours since noon.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/GSceYmZRpNzmAcMXQkjkDn92" alt="Discrete function. hours since noon and temperature in degrees Fahrenheit."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Discrete function. hours since noon and temperature in degrees Fahrenheit." src="https://s3.amazonaws.com/im-ims-export/GSceYmZRpNzmAcMXQkjkDn92"&gt;&lt;/p&gt;
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;\(h\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;0&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;1&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;2&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;3&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;4&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;5&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;6&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;7&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;8&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;9&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;10&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;11&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;12&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;\(T(h)\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;18&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;19&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;20&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;20&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;25&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;23&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;17&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;15&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;11&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;11&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;8&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;6&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;7&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;\(h\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;6&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;7&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;8&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;9&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;10&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;11&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;12&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;\(T(h)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;18&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;19&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;20&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;20&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;25&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;23&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;17&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;11&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;11&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;8&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;6&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;7&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;p&gt;How much the quantity changes over a particular interval, without worrying about smaller changes in between, is the average rate of change.&lt;/p&gt;
-
 &lt;ol&gt;
-    &lt;li&gt; Find the average rate of change for the following intervals. Explain or show your reasoning.
+&lt;li&gt; Find the average rate of change for the following intervals. Explain or show your reasoning.
         &lt;ol type="a"&gt;
-            &lt;li&gt; between noon and 1 p.m. &lt;/li&gt;
-            &lt;li&gt; between noon and 4 p.m. &lt;/li&gt;
-            &lt;li&gt; between noon and midnight &lt;br&gt;
+&lt;li&gt; between noon and 1 p.m. &lt;/li&gt;
+&lt;li&gt; between noon and 4 p.m. &lt;/li&gt;
+&lt;li&gt; between noon and midnight &lt;br&gt;
                 Write your answer here:&lt;br&gt;&lt;br&gt;&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-    &lt;li&gt; Remember Mai and Tyler’s disagreement? Use the average rate of change to show which time period—4 p.m. to 6 p.m. or 6 p.m. to 10 p.m.—experienced a faster temperature drop.
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt; Remember Mai and Tyler&amp;rsquo;s disagreement? Use the average rate of change to show which time period&amp;mdash;4 p.m. to 6 p.m. or 6 p.m. to 10 p.m.&amp;mdash;experienced a faster temperature drop.
     &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;1°F per hour. The temperature rose by 1°F in 1 hour. &lt;/li&gt;
-            &lt;li&gt;1.75°F per hour. The temperature increased by 7°F in 4 hours. The average increase is \(\frac74\) or 1.75. &lt;/li&gt;
-            &lt;li&gt;–0.92°F an hour. I found the slope of the line connecting the two points, and it is \(-\frac{11}{12}\). &lt;br&gt;&lt;br&gt;&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-    &lt;li&gt;The temperature dropped faster between 4 p.m. and 6 p.m. Sample reasoning: In the first interval, the temperature fell 8°F in 2 hours, which is an average drop of 4°F an hour. In the second, it fell 9°F in 4 hours, which is an average drop of 2.25°F per hour.&lt;/li&gt;
+&lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;1&amp;deg;F per hour. The temperature rose by 1&amp;deg;F in 1 hour. &lt;/li&gt;
+&lt;li&gt;1.75&amp;deg;F per hour. The temperature increased by 7&amp;deg;F in 4 hours. The average increase is \(\frac74\) or 1.75. &lt;/li&gt;
+&lt;li&gt;&amp;ndash;0.92&amp;deg;F an hour. I found the slope of the line connecting the two points, and it is \(-\frac{11}{12}\). &lt;br&gt;&lt;br&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;li&gt;The temperature dropped faster between 4 p.m. and 6 p.m. Sample reasoning: In the first interval, the temperature fell 8&amp;deg;F in 2 hours, which is an average drop of 4&amp;deg;F an hour. In the second, it fell 9&amp;deg;F in 4 hours, which is an average drop of 2.25&amp;deg;F per hour.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
-
 &lt;h5&gt;Are you ready for more?&lt;/h5&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;Over what interval did the temperature decrease the most rapidly?&lt;/li&gt;
-    &lt;li&gt;Over what interval did the temperature increase the most rapidly?&lt;/li&gt;
+&lt;li&gt;Over what interval did the temperature decrease the most rapidly?&lt;/li&gt;
+&lt;li&gt;Over what interval did the temperature increase the most rapidly?&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Extension Student Response&lt;/h4&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;between 5 p.m. and 6 p.m.&lt;/li&gt;
-    &lt;li&gt;between 3 p.m. and 4 p.m.&lt;/li&gt;
+&lt;li&gt;between 5 p.m. and 6 p.m.&lt;/li&gt;
+&lt;li&gt;between 3 p.m. and 4 p.m.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
-
 &lt;p&gt;It is possible that students will not understand that a graph is also read from left to right. This could be a problem when determining intervals of increase and decrease. Often students forget that the \(y\)-values are on top of the formula for average rate of change, and the \(x\)-values are on the bottom. One way to check themselves if they are mixing up the numerator and denominator is for them to check the reasonableness of the answer. Sometimes this helps them find their mistakes on their own.&lt;/p&gt;
-
 &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
-
 &lt;p&gt;Select students to share how they determined the average rates of change for the specified intervals. Arrange the presentations in the order listed in the Activity Narrative.&lt;/p&gt;
-
 &lt;p&gt;Then, point out that all strategies involve finding how much the temperature (the output) changed per unit of change in time (the input), and that this is done by division.&lt;/p&gt;
-
 &lt;p&gt;Display a graph with two points labeled \((a,f(a))\) and \((b,f(b))\). Ask students how we might find the average rate of change between the two points.&lt;/p&gt;
-
 &lt;p&gt;Make sure students can generalize their work and see that:&lt;/p&gt;
-
 &lt;p&gt;average rate of \(\mathrm{change} = \frac{f(b)-f(a)}{b-a}\)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Ms5enrUaHZ2zaJnVUyR1B1DY" alt="Discrete function graph."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Discrete function graph." src="https://s3.amazonaws.com/im-ims-export/Ms5enrUaHZ2zaJnVUyR1B1DY"&gt;&lt;/p&gt;
 &lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
-
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-    &lt;p&gt;Prior to the whole-class discussion, invite students to create a visual display that shows how they determined the average rates of change for the specified intervals. Students should consider how to represent their strategy so that other students will be able to understand their solution method. Students may wish to add notes or details to their displays to help communicate their reasoning and thinking. Begin the whole-class discussion by selecting and arranging 2–4 displays for all to see. Give students 1–2 minutes of quiet think time to interpret the displays before inviting the authors to share their strategies as described in the activity narrative. This will help students make connections between different ways to find the average rate of change.&lt;/p&gt;
-
+&lt;div&gt;
+&lt;p&gt;Prior to the whole-class discussion, invite students to create a visual display that shows how they determined the average rates of change for the specified intervals. Students should consider how to represent their strategy so that other students will be able to understand their solution method. Students may wish to add notes or details to their displays to help communicate their reasoning and thinking. Begin the whole-class discussion by selecting and arranging 2&amp;ndash;4 displays for all to see. Give students 1&amp;ndash;2 minutes of quiet think time to interpret the displays before inviting the authors to share their strategies as described in the activity narrative. This will help students make connections between different ways to find the average rate of change.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;h3&gt;4.7.2: Self Check&amp;nbsp;&lt;/h3&gt;
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col width="302"&gt;
-        &lt;col width="322"&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td colspan="2"&gt;
-                &lt;p&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-
-                &lt;p&gt;The temperature \(t\), in degrees Fahrenheit, of a cup of coffee that was poured and then forgotten for \(m\) minutes is represented in the table below&lt;/p&gt;
-
-
-                &lt;table border="1" cellpadding="5"&gt;
-                    &lt;colgroup&gt;
-                        &lt;col&gt;
-                        &lt;col&gt;
-                        &lt;col&gt;
-                        &lt;col&gt;
-                        &lt;col&gt;
-                    &lt;/colgroup&gt;
-                    &lt;tbody&gt;
-                        &lt;tr&gt;
-                            &lt;td&gt;
-                                &lt;p&gt;&lt;strong&gt;Time in minutes&lt;/strong&gt;&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td&gt;
-                                &lt;p&gt;0&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td&gt;
-                                &lt;p&gt;15&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td&gt;
-                                &lt;p&gt;25&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td&gt;
-                                &lt;p&gt;40&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td&gt;
-                                &lt;p&gt;&lt;strong&gt;Temperature&lt;/strong&gt;&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td&gt;
-                                &lt;p&gt;185°F&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td&gt;
-                                &lt;p&gt;155°F&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td&gt;
-                                &lt;p&gt;140°F&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td&gt;
-                                &lt;p&gt;120°F&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                    &lt;/tbody&gt;
-                &lt;/table&gt;
-                &lt;br&gt;
-
-                &lt;p&gt;What was the average rate of change from when the cup was poured to 40 minutes later?&lt;/p&gt;
-                &lt;br&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;–2 degrees per minute&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: This is the rate of change of the first two values in the table. You need to use the first and last value from the table to find the answer. The answer is –1.625 degrees per minute.&amp;nbsp;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;–0.615 degrees per minute&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: Remember, the \(y\)-values go on top of the formula and the \(x\)-values go on the bottom. The answer is –1.625 degrees per minute. &amp;nbsp;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;–1.333 degrees per minute&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: This is the rate of change between the last two values in the table. You need to use the first and last value from the table to find the answer. The answer is –1.625 degrees per minute.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;–1.625 degrees per minute&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;That’s correct! Check yourself: The average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\). For this situation, it would be \(\frac{120-185}{40-0}\), which is \(\frac{-65}{40}\). The answer is –1.625 degrees per minute.&amp;nbsp;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col width="302"&gt;
+&lt;col width="322"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The temperature \(t\), in degrees Fahrenheit, of a cup of coffee that was poured and then forgotten for \(m\) minutes is represented in the table below&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;Time in minutes&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;25&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;40&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;Temperature&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;185&amp;deg;F&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;155&amp;deg;F&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;140&amp;deg;F&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;120&amp;deg;F&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;br&gt;
-
+&lt;p&gt;What was the average rate of change from when the cup was poured to 40 minutes later?&lt;/p&gt;
+&lt;br&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&amp;ndash;2 degrees per minute&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: This is the rate of change of the first two values in the table. You need to use the first and last value from the table to find the answer. The answer is &amp;ndash;1.625 degrees per minute.&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&amp;ndash;0.615 degrees per minute&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Remember, the \(y\)-values go on top of the formula and the \(x\)-values go on the bottom. The answer is &amp;ndash;1.625 degrees per minute. &amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&amp;ndash;1.333 degrees per minute&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: This is the rate of change between the last two values in the table. You need to use the first and last value from the table to find the answer. The answer is &amp;ndash;1.625 degrees per minute.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&amp;ndash;1.625 degrees per minute&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;That&amp;rsquo;s correct! Check yourself: The average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\). For this situation, it would be \(\frac{120-185}{40-0}\), which is \(\frac{-65}{40}\). The answer is &amp;ndash;1.625 degrees per minute.&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
 &lt;h3&gt; 4.7.2: Additional Resources&lt;/h3&gt;
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;h4&gt; Finding Rates of Change&amp;nbsp;&lt;/h4&gt;
-
 &lt;p&gt;Jay was racing bikes with a friend on the way to the park. A table and a graph of the times are shown below.&lt;/p&gt;
-
-&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="343" colspan="2" valign="top"&gt;
-                &lt;p align="center"&gt;&lt;strong&gt;Jay&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;&lt;strong&gt;Time (minutes)&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;&lt;strong&gt;Distance (miles)&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;0&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;0&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;5&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;0.84&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;10&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;1.86&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;15&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;3.00&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;20&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;4.27&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;25&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;5.67&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2" valign="top" width="343"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;Jay&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;Time (minutes)&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;Distance (miles)&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;0.84&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;10&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;1.86&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;3.00&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;20&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;4.27&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;25&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;5.67&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e2be91d74e2b7550eb702312e03a47f9fe97b6f3" alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67)." width="300" height="298" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67)." class="img-fluid atto_image_button_text-bottom" height="298" src="https://k12.openstax.org/contents/raise/resources/e2be91d74e2b7550eb702312e03a47f9fe97b6f3" width="300"&gt;&lt;/p&gt;
 &lt;p&gt;What is the average rate of change of the first 10 minutes of the race?&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-
 &lt;p&gt;To find the average rate of change of the first 10 minutes of the race, you would look at the first data value on the table and the third data value on the table, since it corresponds to 10 minutes.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-
 &lt;p&gt;Remember the The average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\), where \((b, f(b))\) typically represents your second data point and \((a, f(a))\) represents your first data point.&lt;/p&gt;
-
 &lt;p&gt;For this situation, it would be \(( 0, 0)\) or \(a=0\) and \(f(a) =0\) and \((10,1.86)\) or \(b= 10\) and \(f(b)=1.86\).&lt;/p&gt;
-
 &lt;p&gt;Substituting the points into the average rate of change formula results in the following:&lt;/p&gt;
-
 &lt;p&gt;\(\frac{f(b)-f(a)}{b-a}\), which is \(\frac{1.86}{10}\) or 0.186 mile per minute.&amp;nbsp;&lt;/p&gt;
-
 &lt;p&gt;Notice that the answer is positive, and the points on the graph are higher each time.&lt;/p&gt;
-
 &lt;h4&gt;Try It: Finding Rates of Change&amp;nbsp;&lt;/h4&gt;
-
 &lt;p&gt;Jay was racing bikes with a friend on the way to the park. A table and a graph of the times are shown below.&lt;/p&gt;
-&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="343" colspan="2" valign="top"&gt;
-                &lt;p align="center"&gt;&lt;strong&gt;Jay&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;&lt;strong&gt;Time (minutes)&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;&lt;strong&gt;Distance (miles)&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;0&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;0&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;5&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;0.84&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;10&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;1.86&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;15&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;3.00&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;20&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;4.27&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;25&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="171" valign="top"&gt;
-                &lt;p align="center"&gt;5.67&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2" valign="top" width="343"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;Jay&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;Time (minutes)&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;Distance (miles)&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;0.84&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;10&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;1.86&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;3.00&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;20&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;4.27&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;25&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;5.67&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/69e4be4d341573e713fabfb59f2ef379252f1a05" alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67). " width="300" height="300" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-
-&lt;p&gt;What was Jay’s average rate of change from the beginning to 25 minutes later?&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67). " class="img-fluid atto_image_button_text-bottom" height="300" src="https://k12.openstax.org/contents/raise/resources/69e4be4d341573e713fabfb59f2ef379252f1a05" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;What was Jay&amp;rsquo;s average rate of change from the beginning to 25 minutes later?&lt;/p&gt;
 &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-
 &lt;h5&gt;Solution&lt;/h5&gt;
-
 &lt;p&gt;Here is how to find the average rate of change of the first 25 minutes of the race:&lt;/p&gt;
-
 &lt;p&gt;Remember, the average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\), where \((b, f(b))\) typically represents your second data point and \((a, f(a))\) represents your first data point.&lt;/p&gt;
-
 &lt;p&gt;For this situation, it would be \((0, 0)\) or \(a=0\) and \(f(a) =0\) and \((25,5.67)\) or \(b= 25\) and \(f(b)=5.67\).&lt;/p&gt;
-
 &lt;p&gt;Substituting the points into the average rate of change formula results in the following:&lt;/p&gt;
-
 &lt;p&gt;\(\frac{f(b)-f(a)}{b-a}=\frac{5.67}{25}\), which is 5.6725 or 0.227 mile per minute.&lt;/p&gt;
-
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1872">
@@ -915,282 +787,222 @@
         <timemodified>1662656669</timemodified>
         <title>4.7.3: Finding and Interpreting Average Rates of Change</title>
         <contents>&lt;h3&gt;Activity (10 minutes)&lt;/h3&gt;
-
 &lt;p&gt;This activity allows students to practice finding and interpreting average rates of change in a different context. No tables of values are given here, so students will need to estimate the coordinates on the graph to compute the average rates of change.&lt;/p&gt;
-
 &lt;p&gt;Students reason quantitatively and abstractly as they extract contextual information from a graph, manipulate it symbolically, and then interpret the numerical results in context. To interpret the average rates of change, students need to pay attention to the units used to measure the input (years) and output (people in millions). This is a chance to practice attending to precision.&lt;/p&gt;
-
 &lt;h4&gt;Launch&lt;/h4&gt;
 &lt;br&gt;
-
 &lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
-
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-
-    &lt;p&gt;Create a display of important terms and vocabulary. During the launch, take time to review terms that students will need to access this activity. Invite students to suggest language or diagrams to include that will support their understanding of rate of change, slope, and average rate of change.&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Create a display of important terms and vocabulary. During the launch, take time to review terms that students will need to access this activity. Invite students to suggest language or diagrams to include that will support their understanding of rate of change, slope, and average rate of change.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;h4&gt;Student-Facing Statement &lt;/h4&gt;
-
 &lt;p&gt;The graphs show the populations of California and Texas over time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/j1234hnggnytN1WkbJNGxNfQ" alt="Graph of the populations of two states over time on a coordinate plane.&amp;nbsp;"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Graph of the populations of two states over time on a coordinate plane.&amp;nbsp;" src="https://s3.amazonaws.com/im-ims-export/j1234hnggnytN1WkbJNGxNfQ"&gt;&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;Estimate the average rate of change in the population in each state between 1970 and 2010. Show your reasoning. &lt;br&gt;
-                &lt;br&gt;
-            &lt;/li&gt;
-            &lt;li&gt;In this situation, what does each rate of change mean? &lt;br&gt;
-                &lt;br&gt;
-            &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-
-    &lt;li&gt;Which state’s population grew more quickly between 1900 and 2000? Show your reasoning.&lt;/li&gt;
+&lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;Estimate the average rate of change in the population in each state between 1970 and 2010. Show your reasoning. &lt;br&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;In this situation, what does each rate of change mean? &lt;br&gt;
+&lt;br&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;li&gt;Which state&amp;rsquo;s population grew more quickly between 1900 and 2000? Show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Student Response&lt;/h4&gt;
 &lt;ol&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;The population of California was about 20 million in 1970 and 37 million in 2010. The average rate of change is: \(\frac{37-20}{2010-1970}=\frac{17}{40}=0.425\) million per year. The population of Texas was about 11 million in 1970 and 25 million in 2010. The average rate of change is \(\frac{25-11}{2010-1970}=\frac{14}{40}=0.35\) million per year.
+&lt;li&gt;
+&lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;The population of California was about 20 million in 1970 and 37 million in 2010. The average rate of change is: \(\frac{37-20}{2010-1970}=\frac{17}{40}=0.425\) million per year. The population of Texas was about 11 million in 1970 and 25 million in 2010. The average rate of change is \(\frac{25-11}{2010-1970}=\frac{14}{40}=0.35\) million per year.
             &amp;nbsp;&lt;br&gt;
-            &lt;br&gt;
-        &lt;/li&gt;
-        &lt;li&gt;On average, the population of California was growing by 425,000 people per year, and the population of Texas was growing by 350,000 people per year.&lt;br&gt;
-            &lt;br&gt;
-        &lt;/li&gt;
-    &lt;/ol&gt;
-
-    &lt;li&gt;California is growing more quickly. Sample reasoning: If we connect each pair of points representing the population of each state in 1900 and 2000, the segment for California has a greater slope, so it has a greater average rate of change.&lt;/li&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;On average, the population of California was growing by 425,000 people per year, and the population of Texas was growing by 350,000 people per year.&lt;br&gt;
+&lt;br&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;li&gt;California is growing more quickly. Sample reasoning: If we connect each pair of points representing the population of each state in 1900 and 2000, the segment for California has a greater slope, so it has a greater average rate of change.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Video: Interpreting Average Rate of Change&lt;/h4&gt;
-
 &lt;p&gt;Watch the following video to learn more about interpreting the average rate of change.&lt;/p&gt;
-
 &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
-    &lt;source src="https://k12.openstax.org/contents/raise/resources/b229f583de20650b5a4f2b338b6650c68e5400a6"&gt;
-    &lt;track src="https://k12.openstax.org/contents/raise/resources/ffe8fb6047a04094415c3cb93e1637e4830369a8" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/b229f583de20650b5a4f2b338b6650c68e5400a6
+&lt;source src="https://k12.openstax.org/contents/raise/resources/b229f583de20650b5a4f2b338b6650c68e5400a6"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/ffe8fb6047a04094415c3cb93e1637e4830369a8" srclang="en_us"&gt;https://k12.openstax.org/contents/raise/resources/b229f583de20650b5a4f2b338b6650c68e5400a6
 &lt;/video&gt;
 &lt;br&gt;
 &lt;br&gt;
-
 &lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
-
-&lt;p&gt;The interpretation of the slope is the most difficult part of this section. It’s often hard for students to think about the points on the graph as meaningful pieces of data. Try to talk about each coordinate as the data value it represents. Again remind students that the \(y\)-values are on top if the average rate of change formula, so the meaning of the slope is always \(y\) units per&amp;nbsp;\(x\) unit. Sometimes it helps to point out slope as a unit rate, or the rate of change over 1 \(x\)-axis unit.&lt;/p&gt;
-
+&lt;p&gt;The interpretation of the slope is the most difficult part of this section. It&amp;rsquo;s often hard for students to think about the points on the graph as meaningful pieces of data. Try to talk about each coordinate as the data value it represents. Again remind students that the \(y\)-values are on top if the average rate of change formula, so the meaning of the slope is always \(y\) units per&amp;nbsp;\(x\) unit. Sometimes it helps to point out slope as a unit rate, or the rate of change over 1 \(x\)-axis unit.&lt;/p&gt;
 &lt;h4&gt; Activity Synthesis&lt;/h4&gt;
-
 &lt;p&gt;When calculating average rates of change for the populations of California and Texas between 1970 and 2010, students are likely to get slightly different results from one another. Discuss why this might be. If not mentioned by students, point out that it is most likely due to differences in how they estimated the populations from the graphs.&lt;/p&gt;
-
 &lt;p&gt;Invite students to share their response to the last question. Make sure students recognize that it is not always necessary to compute average rates of change or slopes of lines to compare the trends of two functions. We can visually compare the steepness of the lines connecting the endpoints of each graph.&lt;/p&gt;
-
 &lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-
-    &lt;p&gt;Use this routine to help students improve their verbal and written responses to the question, “Which state’s population grew more quickly between 1900 and 2000?” Give students time to meet with 2–3 partners to share and get feedback on their responses. The listener should press for detail and precision in language by asking: “Can you say that a different way?”; “Does your method work using a different time interval?”; or “Besides computing the average rate of change, can you think of another way to determine this?” Invite students to go back and revise or refine their written explanation based on the feedback from peers. This will help students find and interpret average rates of change in context.&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Use this routine to help students improve their verbal and written responses to the question, &amp;ldquo;Which state&amp;rsquo;s population grew more quickly between 1900 and 2000?&amp;rdquo; Give students time to meet with 2&amp;ndash;3 partners to share and get feedback on their responses. The listener should press for detail and precision in language by asking: &amp;ldquo;Can you say that a different way?&amp;rdquo;; &amp;ldquo;Does your method work using a different time interval?&amp;rdquo;; or &amp;ldquo;Besides computing the average rate of change, can you think of another way to determine this?&amp;rdquo; Invite students to go back and revise or refine their written explanation based on the feedback from peers. This will help students find and interpret average rates of change in context.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;h4&gt; 4.7.3: Self Check&lt;/h4&gt;
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td colspan="2"&gt;
-                &lt;p&gt;&lt;strong&gt;QUESTION: &lt;/strong&gt;&lt;/p&gt;
-                &lt;p&gt;Brooke was racing bikes with a friend on the way to the park. A table of her distance traveled over time is shown.&lt;/p&gt;
-
-                &lt;table border="1" cellspacing="0" cellpadding="5"&gt;
-                    &lt;tbody&gt;
-                        &lt;tr&gt;
-                            &lt;td width="343" colspan="2" valign="top"&gt;
-                                &lt;p align="center"&gt;&lt;strong&gt;Brooke&lt;/strong&gt;&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;&lt;strong&gt;Time (minutes)&lt;/strong&gt;&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;&lt;strong&gt;Distance (miles)&lt;/strong&gt;&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;0&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;0&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;5&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;1.2&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;10&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;2.4&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;15&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;3.6&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;20&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;4.8&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;25&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="171" valign="top"&gt;
-                                &lt;p align="center"&gt;6.0&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                    &lt;/tbody&gt;
-                &lt;/table&gt;
-                &lt;p&gt;What was Brooke’s average rate of change between 5 minutes and 20 minutes? What does it mean in the context of the problem?&lt;/p&gt;
-                &lt;br&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;The average rate of change is 3.6 miles per minute.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: 3.6 is the change in distance. When finding the average rate of change, you need to find the change in the distance and the change in the time. Then divide those values, \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\). The answer is 0.24 mile per minute.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;The average rate of change is 15 minutes per mile.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: 15 minutes is the change in time. When finding the average rate of change, you need to find the change in the distance and the change in the time. Then divide those values, \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\). The answer is 0.24 mile per minute.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;The average rate of change is 0.24 mile per minute.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;That’s correct! Check yourself: Substitute the data values into the formula to find the&amp;nbsp;\(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\), or 3.615. The correct answer is 0.24 mile per minute.&lt;/p&gt;
-
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;The average rate of change is 4.17 minutes per mile.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: This is the change in time over the change in distance. Substitute the data values into the formula to find the \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\), or 3.615. The answer is 0.24 mile per minute.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;&lt;strong&gt;QUESTION: &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Brooke was racing bikes with a friend on the way to the park. A table of her distance traveled over time is shown.&lt;/p&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2" valign="top" width="343"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;Brooke&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;Time (minutes)&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;&lt;strong&gt;Distance (miles)&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;1.2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;10&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;2.4&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;3.6&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;20&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;4.8&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;25&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="171"&gt;
+&lt;p align="center"&gt;6.0&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;What was Brooke&amp;rsquo;s average rate of change between 5 minutes and 20 minutes? What does it mean in the context of the problem?&lt;/p&gt;
+&lt;br&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;The average rate of change is 3.6 miles per minute.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: 3.6 is the change in distance. When finding the average rate of change, you need to find the change in the distance and the change in the time. Then divide those values, \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\). The answer is 0.24 mile per minute.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;The average rate of change is 15 minutes per mile.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: 15 minutes is the change in time. When finding the average rate of change, you need to find the change in the distance and the change in the time. Then divide those values, \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\). The answer is 0.24 mile per minute.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;The average rate of change is 0.24 mile per minute.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;That&amp;rsquo;s correct! Check yourself: Substitute the data values into the formula to find the&amp;nbsp;\(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\), or 3.615. The correct answer is 0.24 mile per minute.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;The average rate of change is 4.17 minutes per mile.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: This is the change in time over the change in distance. Substitute the data values into the formula to find the \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\), or 3.615. The answer is 0.24 mile per minute.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;h3&gt;4.7.3: Additional Resources&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;h4&gt;Interpreting Slope&lt;/h4&gt;
-
 &lt;p&gt;A Mars rover collected the following temperature data over 1.6 Martian days. A Martian day is called a Sol. Use the graph to answer the following questions.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/05d467bbffe79a0a52ce6581d0886fe8a59870f0" alt="A GRAPH THAT SHOWS THE POPULATION IN MILLIONS FROM 1900 TO 2010 FOR THE STATES OF CALIFORNIA AND TEXAS." width="300" height="287" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="A GRAPH THAT SHOWS THE POPULATION IN MILLIONS FROM 1900 TO 2010 FOR THE STATES OF CALIFORNIA AND TEXAS." class="img-fluid atto_image_button_text-bottom" height="287" src="https://k12.openstax.org/contents/raise/resources/05d467bbffe79a0a52ce6581d0886fe8a59870f0" width="300"&gt;&lt;/p&gt;
 &lt;p&gt;Which had a greater average rate of change between 10.2 and 10.4 Sol, ground temperature or air temperature? What is the meaning of each rate change?&lt;/p&gt;
-
 &lt;p&gt;Since ground temperature has a greater slant or slope, it has a greater rate of change. Slope is another word for the rate of change of a graph.&lt;/p&gt;
-
 &lt;p&gt;To find the average rate of change, first you need to find Sol on the graph (which is what a day is called on Mars). Find the values of 10.2 and 10.4 on the \(x\)-axis. Find the corresponding \(y\)-values of the points for both the ground temperature and air temperature graphs. By finding the average rate of change, you will be able to determine exactly one was greater.&lt;/p&gt;
-
 &lt;p&gt;Ground Temperature: \((10.2, -90)\) \((10.4, -20)\)&lt;/p&gt;
-
 &lt;p&gt;Air Temperature: \((10.2, -70 )\) \((10.4, -40)\)&lt;/p&gt;
-
 &lt;p&gt;Substitute each set of points into the average rate of change formula:&lt;/p&gt;
-
 &lt;p&gt;Ground Temperature = \(\frac{-20-(-90)}{10.4-10.2}=\frac{70}{0.2}=350\)&lt;/p&gt;
-
 &lt;p&gt;Air Temperature = \(\frac{-40-(-70)}{10.4-10.2}=\frac{30}{0.2}=150\)&lt;/p&gt;
-
 &lt;p&gt;Remember that to interpret the meaning of the rate of change, you need to compare the axes. It is the change in the \(y\)-axis units divided by the change in the \(x\)-axis units, or \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{temperature}\;\mathrm{in}\;\mathrm{degrees}\;\mathrm{celsius}}{\mathrm{change}\;\mathrm{in}\;\mathrm{Sol}}\). That means that each average rate of change of each can be interpreted as:&lt;/p&gt;
-
-&lt;p&gt;Ground Temperature’s average rate of change is 350 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
-
-&lt;p&gt;Air Temperature’s average rate of change is 150 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
-
+&lt;p&gt;Ground Temperature&amp;rsquo;s average rate of change is 350 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
+&lt;p&gt;Air Temperature&amp;rsquo;s average rate of change is 150 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
 &lt;h4&gt;Try It: Interpreting Slope&lt;/h4&gt;
-
 &lt;p&gt;A Mars rover collected the following temperature data over 1.6 Martian days. A Martian day is called a Sol. Use the graph to answer the following questions.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.engageny.org/resource/algebra-i-module-3-topic-b-lesson-13"&gt;&lt;/a&gt;&lt;a href="https://www.engageny.org/resource/algebra-i-module-3-topic-b-lesson-13"&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/05d467bbffe79a0a52ce6581d0886fe8a59870f0" alt="A GRAPH THAT SHOWS THE POPULATION IN MILLIONS FROM 1900 TO 2010 FOR THE STATES OF CALIFORNIA AND TEXAS." width="300" height="287"&gt;&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href="https://www.engageny.org/resource/algebra-i-module-3-topic-b-lesson-13"&gt;&lt;/a&gt;&lt;a href="https://www.engageny.org/resource/algebra-i-module-3-topic-b-lesson-13"&gt;&lt;img alt="A GRAPH THAT SHOWS THE POPULATION IN MILLIONS FROM 1900 TO 2010 FOR THE STATES OF CALIFORNIA AND TEXAS." height="287" src="https://k12.openstax.org/contents/raise/resources/05d467bbffe79a0a52ce6581d0886fe8a59870f0" width="300"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Which had a greater average rate of change between 10.6 and 11 Sol, ground temperature or air temperature? What is the meaning of each rate change?&lt;/p&gt;
-
 &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-
 &lt;h5&gt;Solution&lt;/h5&gt;
 &lt;p&gt;Here is how to find the average rate of change:&lt;/p&gt;
-
 &lt;p&gt;To find the average rate of change, first you need to find Sol on the graph (which is what a day is called on Mars). Find the values of 10.6 and 11 on the \(x\)-axis. Find the corresponding \(y\)-values of the points for both the ground temperature and air temperature graphs. By finding the average rate of change, you will be able to determine&amp;nbsp; which one was greater.&lt;/p&gt;
-
 &lt;p&gt;Ground Temperature: \((10.6, -3 )\) \((11, -85 )\)&lt;/p&gt;
-
 &lt;p&gt;Air Temperature: \((10.6, -5 )\) \((11, -65 )\)&lt;/p&gt;
-
 &lt;p&gt;Substitute each set of points into the average rate of change formula:&lt;/p&gt;
-
 &lt;p&gt;Ground Temperature = \(\frac{-85-(-3)}{11-10.6}=\frac{-82}{0.4}=-250\)&lt;/p&gt;
-
 &lt;p&gt;Air Temperature = \(\frac{-65-(-5)}{11-10.6}=\frac{-60}{0.4}=-150\)&lt;/p&gt;
-
 &lt;p&gt;Remember that to interpret the meaning of the rate of change, you need to compare the axes. It is the change in the \(y\)-axis units divided by the change in the \(x\)-axis units, or \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{temperature}\;\mathrm{in}\;\mathrm{degrees}\;\mathrm{celsius}}{\mathrm{change}\;\mathrm{in}\;\mathrm{Sol}}\). That means that each average rate of change of each can be interpreted as:&lt;/p&gt;
-
-&lt;p&gt;Ground Temperature’s average rate of change is –205 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
-
-&lt;p&gt;Air Temperature’s average rate of change is –150 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
-
+&lt;p&gt;Ground Temperature&amp;rsquo;s average rate of change is &amp;ndash;205 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
+&lt;p&gt;Air Temperature&amp;rsquo;s average rate of change is &amp;ndash;150 degrees celsius per Sol (or day on Mars).&lt;/p&gt;
 &lt;p&gt;The ground temperature had a greater rate of decrease per Sol.&lt;/p&gt;
-
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1874">
@@ -1236,304 +1048,266 @@
         <timemodified>1662656734</timemodified>
         <title>4.7.4: Rate of Change of Linear Functions</title>
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
-
 &lt;p&gt;Three people, Adam, Bianca, and Carmen, are competing to see who can save the most money in one month. Use the table, graph, and equation below to answer the questions.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cb53bc3a01cb0644be0c4a10d3f6d3c4e811ed88" alt="THREE FUNCTIONS REPRESENTING SAVINGS IN DOLLARS AS A FUNCTION OF NUMBER OF DAYS FOR THREE PEOPLE: ADAM, BIANCA, AND CARMEN. THE TOTAL AMOUNT ADAM HAS SAVED IS REPRESENTED BY THE GRAPH OF A LINE THAT PASSES THROUGH THE POINTS (0, 3) AND (1, 6). THE TOTAL AMOUNT BIANCA HAS SAVED IS REPRESENTED BY A TABLE WITH THE POINTS (5, 17), (8, 26), (12, 38), AND (20, 62). THE TOTAL AMOUNT CARMEN HAS SAVED IS REPRESENTED BY THE EQUATION F OF X EQUALS 2X PLUS 30. " width="550" height="348" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="THREE FUNCTIONS REPRESENTING SAVINGS IN DOLLARS AS A FUNCTION OF NUMBER OF DAYS FOR THREE PEOPLE: ADAM, BIANCA, AND CARMEN. THE TOTAL AMOUNT ADAM HAS SAVED IS REPRESENTED BY THE GRAPH OF A LINE THAT PASSES THROUGH THE POINTS (0, 3) AND (1, 6). THE TOTAL AMOUNT BIANCA HAS SAVED IS REPRESENTED BY A TABLE WITH THE POINTS (5, 17), (8, 26), (12, 38), AND (20, 62). THE TOTAL AMOUNT CARMEN HAS SAVED IS REPRESENTED BY THE EQUATION F OF X EQUALS 2X PLUS 30. " class="img-fluid atto_image_button_text-bottom" height="348" src="https://k12.openstax.org/contents/raise/resources/cb53bc3a01cb0644be0c4a10d3f6d3c4e811ed88" width="550"&gt;&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;Use the graph to find the average rate of change of the function that represents Adam’s savings for the following intervals:
+&lt;li&gt;Use the graph to find the average rate of change of the function that represents Adam&amp;rsquo;s savings for the following intervals:
 		&lt;ol type="a"&gt;
-            &lt;li&gt;between 0 and 1 days&lt;/li&gt;
-            &lt;li&gt;between 1 and 2 days&lt;/li&gt;
-            &lt;li&gt;between 1 and 3 days&lt;br&gt;&lt;br&gt;&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-    &lt;li&gt;Use the table to find the average rate of change for the function that represents Bianca’s savings for the following intervals:
-        &lt;ol type="a"&gt;
-            &lt;li&gt;between 5 and 8 days&lt;/li&gt;
-            &lt;li&gt;between 12 and 20 days&lt;/li&gt;
-            &lt;li&gt;between 5 and 20 days&lt;br&gt;&lt;br&gt;&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-    &lt;li&gt;Use the equation to find the average rate of change for the function that represents Carmen’s savings for the following intervals:
-        &lt;ol type="a"&gt;
-            &lt;li&gt;between 1 and 2 days&lt;/li&gt;
-            &lt;li&gt;between 2 and 4 days&lt;/li&gt;
-            &lt;li&gt;between 1 and 4 days&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
+&lt;li&gt;between 0 and 1 days&lt;/li&gt;
+&lt;li&gt;between 1 and 2 days&lt;/li&gt;
+&lt;li&gt;between 1 and 3 days&lt;br&gt;&lt;br&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;li&gt;Use the table to find the average rate of change for the function that represents Bianca&amp;rsquo;s savings for the following intervals:
+        &lt;ol type="a"&gt;
+&lt;li&gt;between 5 and 8 days&lt;/li&gt;
+&lt;li&gt;between 12 and 20 days&lt;/li&gt;
+&lt;li&gt;between 5 and 20 days&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Use the equation to find the average rate of change for the function that represents Carmen&amp;rsquo;s savings for the following intervals:
+        &lt;ol type="a"&gt;
+&lt;li&gt;between 1 and 2 days&lt;/li&gt;
+&lt;li&gt;between 2 and 4 days&lt;/li&gt;
+&lt;li&gt;between 1 and 4 days&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ol start="4"&gt;
-    &lt;li&gt;Which statements are true?
+&lt;li&gt;Which statements are true?
         &lt;ol type="a"&gt;
-            &lt;li&gt;All three functions are linear functions.&lt;/li&gt;
-            &lt;li&gt;All three functions have the same rate of change.&lt;/li&gt;
-            &lt;li&gt;All three functions have a constant rate of change.
+&lt;li&gt;All three functions are linear functions.&lt;/li&gt;
+&lt;li&gt;All three functions have the same rate of change.&lt;/li&gt;
+&lt;li&gt;All three functions have a constant rate of change.
                 &lt;br&gt;
-                &lt;br&gt;
-            &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-    &lt;li&gt;Who has the most money after 30 days? Explain how you know.&lt;/li&gt;
+&lt;br&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;li&gt;Who has the most money after 30 days? Explain how you know.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;
-
-    &lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;3&lt;/li&gt;
-        &lt;li&gt;3&lt;/li&gt;
-        &lt;li&gt;3&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;li&gt;&lt;br&gt;&lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;3&lt;/li&gt;
-        &lt;li&gt;3&lt;/li&gt;
-        &lt;li&gt;3&lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;3&lt;/li&gt;
+&lt;li&gt;3&lt;/li&gt;
+&lt;li&gt;3&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;li&gt;&lt;br&gt;&lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;3&lt;/li&gt;
+&lt;li&gt;3&lt;/li&gt;
+&lt;li&gt;3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/ol&gt;
 &lt;ol start="3"&gt;
-    &lt;li&gt;
-
-    &lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;2&lt;/li&gt;
-        &lt;li&gt;2&lt;/li&gt;
-        &lt;li&gt;2&lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;2&lt;/li&gt;
+&lt;li&gt;2&lt;/li&gt;
+&lt;li&gt;2&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/ol&gt;
 &lt;ol start="4"&gt;
-    &lt;li&gt;a,c&lt;/li&gt;
+&lt;li&gt;a,c&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;ol start="5"&gt;
-    &lt;li&gt;Adam; Adam’s function is \(A(30)=3(30)+3=93\); Bianca’s function is \(B(30)=3(30)+2=92\); Carmen’s function is \(C(30)=2(30)+30=90\).&lt;/li&gt;
+&lt;li&gt;Adam; Adam&amp;rsquo;s function is \(A(30)=3(30)+3=93\); Bianca&amp;rsquo;s function is \(B(30)=3(30)+2=92\); Carmen&amp;rsquo;s function is \(C(30)=2(30)+30=90\).&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h3&gt; 4.7.4: Self Check&lt;/h3&gt;
 &lt;br&gt;
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td colspan="2"&gt;
-                &lt;p&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-                &lt;p&gt;What is the average rate of change for the linear function?&amp;nbsp;&lt;/p&gt;
-                &lt;br&gt;
-
-                &lt;table border="1" cellspacing="0" cellpadding="5"&gt;
-                    &lt;tbody&gt;
-                        &lt;tr&gt;
-                            &lt;td width="89" valign="top"&gt;
-                                &lt;p align="center"&gt;Input&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="89" valign="top"&gt;
-                                &lt;p align="center"&gt;Output&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="89" valign="top"&gt;
-                                &lt;p align="center"&gt;1&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="89" valign="top"&gt;
-                                &lt;p align="center"&gt;2&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="89" valign="top"&gt;
-                                &lt;p align="center"&gt;2&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="89" valign="top"&gt;
-                                &lt;p align="center"&gt;-1&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="89" valign="top"&gt;
-                                &lt;p align="center"&gt;4&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="89" valign="top"&gt;
-                                &lt;p align="center"&gt;-7&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                        &lt;tr&gt;
-                            &lt;td width="89" valign="top"&gt;
-                                &lt;p align="center"&gt;6&lt;/p&gt;
-                            &lt;/td&gt;
-                            &lt;td width="89" valign="top"&gt;
-                                &lt;p align="center"&gt;-13&lt;/p&gt;
-                            &lt;/td&gt;
-                        &lt;/tr&gt;
-                    &lt;/tbody&gt;
-                &lt;/table&gt;
-                &lt;br&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;3&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: Watch the signs when finding the differences. The rate of change of a linear function is the slope, change in ychange in x.The answer is -3.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;-3&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;That’s correct! Check yourself: The rate of change of a linear function is the slope, change in ychange in x. The answer is -3.&lt;/p&gt;
-
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-                &lt;p&gt;-13&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: This is the reciprocal of the answer. Remember the slope is change in ychange in x.The answer is -3.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-                &lt;p&gt;13&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: Watch the signs when finding the differences. Remember the slope is change in ychange in x.The correct answer is -3.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;What is the average rate of change for the linear function?&amp;nbsp;&lt;/p&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;Input&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;Output&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;-1&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;4&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;-7&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;6&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;-13&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Watch the signs when finding the differences. The rate of change of a linear function is the slope, change in ychange in x.The answer is -3.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;-3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;That&amp;rsquo;s correct! Check yourself: The rate of change of a linear function is the slope, change in ychange in x. The answer is -3.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;-13&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: This is the reciprocal of the answer. Remember the slope is change in ychange in x.The answer is -3.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;13&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Watch the signs when finding the differences. Remember the slope is change in ychange in x.The correct answer is -3.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
 &lt;h3&gt;4.7.4: Additional Resources&lt;/h3&gt;
 &lt;h4&gt;Rate of Change of Linear Functions.&lt;/h4&gt;
-
 &lt;p&gt;&amp;nbsp;The graph of a linear function is identical to the graph of the linear equation that describes it. The rate of change of a linear equation is constant. The rate of change is the slope, \(m=\frac{y_2-y_1}{x_2-x_1}\)&lt;/p&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;Find the rate of change of a linear function from a graph.
+&lt;li&gt;Find the rate of change of a linear function from a graph.
         &lt;br&gt;
-        &lt;br&gt;
-    &lt;/li&gt;
+&lt;br&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/4498b4f9f306c3d58091822d5829c8d2075c8592" alt="GRAPH OF A LINE PASSING THROUGH THE POINTS (16, 1) AND (24, 1.5)." width="300"&gt;&lt;/p&gt;
-
-
-    &lt;p&gt;The rate of change of a linear function is constant, so you can choose any 2 points to find the slope.&lt;/p&gt;
-    &lt;p&gt;Use \((16, 1)\) and \((24, 1,5)\).&amp;nbsp;&lt;/p&gt;
-    &lt;p&gt;\(m=\frac{y_2-y_1}{x_2-x_1}=\frac{1.5-1}{24-16}=\frac{0.5}{8}=\frac{1}{16}\)&lt;/p&gt;
-    &lt;p&gt;The rate of change is \(frac{1}{16}\)&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="GRAPH OF A LINE PASSING THROUGH THE POINTS (16, 1) AND (24, 1.5)." src="https://k12.openstax.org/contents/raise/resources/4498b4f9f306c3d58091822d5829c8d2075c8592" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;The rate of change of a linear function is constant, so you can choose any 2 points to find the slope.&lt;/p&gt;
+&lt;p&gt;Use \((16, 1)\) and \((24, 1,5)\).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(m=\frac{y_2-y_1}{x_2-x_1}=\frac{1.5-1}{24-16}=\frac{0.5}{8}=\frac{1}{16}\)&lt;/p&gt;
+&lt;p&gt;The rate of change is \(frac{1}{16}\)&lt;/p&gt;
 &lt;ol start="2"&gt;
-    &lt;li&gt;Find the rate of change of a linear function from a table.&lt;/li&gt;
+&lt;li&gt;Find the rate of change of a linear function from a table.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p align="center"&gt;Input&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p align="center"&gt;Output&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p align="center"&gt;-2&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p align="center"&gt;3&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p align="center"&gt;8&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p align="center"&gt;-2&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p align="center"&gt;10&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p align="center"&gt;-3&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p align="center"&gt;20&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="89" valign="top"&gt;
-                &lt;p align="center"&gt;-8&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;Input&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;Output&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;-2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;8&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;-2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;10&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;-3&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;20&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="89"&gt;
+&lt;p align="center"&gt;-8&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
-    &lt;p&gt;The rate of change of a linear function is constant, so you can choose any 2 points to find the slope.&lt;/p&gt;
-    &lt;p&gt;Use \((-2, 3)\) and \((8, -2)\).&amp;nbsp;&lt;/p&gt;
-    &lt;p&gt;\(m=\frac{y_2-y_1}{x_2-x_1}=\frac{-2-3}{8-(-2)}=\frac{-5}{10}=-\frac{1}{2}\)&lt;/p&gt;
-    &lt;p&gt;The rate of change is \(-\frac{1}{2}\).&lt;/p&gt;
-
+&lt;p&gt;The rate of change of a linear function is constant, so you can choose any 2 points to find the slope.&lt;/p&gt;
+&lt;p&gt;Use \((-2, 3)\) and \((8, -2)\).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(m=\frac{y_2-y_1}{x_2-x_1}=\frac{-2-3}{8-(-2)}=\frac{-5}{10}=-\frac{1}{2}\)&lt;/p&gt;
+&lt;p&gt;The rate of change is \(-\frac{1}{2}\).&lt;/p&gt;
 &lt;ol start="3"&gt;
-    &lt;li&gt;Find the rate of change of a linear function from an equation.&lt;/li&gt;
+&lt;li&gt;Find the rate of change of a linear function from an equation.&lt;/li&gt;
 &lt;/ol&gt;
-
-    &lt;p&gt;\(F(x)= 7x +6\)&lt;/p&gt;
-    &lt;p&gt;Use the slope intercept form, y=mx+b, where m is the slope and b is the y-intercept.&lt;/p&gt;
-    &lt;p&gt;\(y=7x+6\)&lt;/p&gt;
-    &lt;p&gt;The slope is 7. The rate of change is 7.&lt;/p&gt;
-
+&lt;p&gt;\(F(x)= 7x +6\)&lt;/p&gt;
+&lt;p&gt;Use the slope intercept form, y=mx+b, where m is the slope and b is the y-intercept.&lt;/p&gt;
+&lt;p&gt;\(y=7x+6\)&lt;/p&gt;
+&lt;p&gt;The slope is 7. The rate of change is 7.&lt;/p&gt;
 &lt;h4&gt; Try It: Rate of Change of Linear Functions&lt;/h4&gt;
-
 &lt;p&gt;The function \(V(x)\) gives the volume of water that flows from a faucet in gallons during 𝒙 minutes. \(V(x)\) is a linear function with the graph shown.What is the rate of change of the volume?&lt;/p&gt;
 &lt;br&gt;
-
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/ce902e5f4704f14ce0e9553983f400bf1a4a515c" alt="VOLUME IN GALLONS AS A FUNCTION OF TIME IN MINUTES. THE LINE PASSES THROUGH THE POINTS (0, 0) ANGRAPH THAT SHOWSD (7, 4)." width="300"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="VOLUME IN GALLONS AS A FUNCTION OF TIME IN MINUTES. THE LINE PASSES THROUGH THE POINTS (0, 0) ANGRAPH THAT SHOWSD (7, 4)." src="https://k12.openstax.org/contents/raise/resources/ce902e5f4704f14ce0e9553983f400bf1a4a515c" width="300"&gt;&lt;/p&gt;
 &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
-
 &lt;h5&gt;Solution&lt;/h5&gt;
-
 &lt;p&gt;Here is how to find the rate of change of the linear function:&lt;/p&gt;
-
 &lt;p&gt;Identify two points on the graph.&lt;/p&gt;
-
 &lt;p&gt;Use \((0, 0)\) and \((7, 4)\).&lt;/p&gt;
-
 &lt;p&gt;Find the slope:&amp;nbsp;&lt;/p&gt;
-
 &lt;p&gt;\(m=\frac{y_2-y_1}{x_2-x_1}=\frac{4-0}{7-0}=\frac47\)&lt;/p&gt;
-
 &lt;p&gt;The slope is \(\frac47\), so, the rate of change is \(\frac47\).&lt;/p&gt;
-
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1876">
@@ -1579,47 +1353,38 @@
         <timemodified>1662656797</timemodified>
         <title>4.7.5: Interpreting Average Rates of Change with Real-World Examples</title>
         <contents>&lt;h3&gt;Cool Down Activity&lt;/h3&gt;
-
 &lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
-
 &lt;ol&gt;
-    &lt;li aria-level="1"&gt;The graph shows the population of a city from 1900 to 2000. &lt;/li&gt;
+&lt;li aria-level="1"&gt;The graph shows the population of a city from 1900 to 2000. &lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/nfydLSjSnZHDq31H45RHwTDj" alt="A graph.&amp;nbsp;"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="A graph.&amp;nbsp;" src="https://s3.amazonaws.com/im-ims-export/nfydLSjSnZHDq31H45RHwTDj"&gt;&lt;/p&gt;
 &lt;p&gt;What is the average rate of change of the population between 1930 and 1950? Show your reasoning.&lt;/p&gt;
-
 &lt;ol start="2"&gt;
-    &lt;li&gt; For each interval, decide if the average rate of change is positive or negative. &lt;/li&gt;
-
-    &lt;ol type="A"&gt;
-        &lt;li&gt; from 1930 to 1940 &lt;/li&gt;
-        &lt;li&gt;from 1950 to 1970&lt;/li&gt;
-        &lt;li&gt; from 1930 to 1970 &lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt; For each interval, decide if the average rate of change is positive or negative. &lt;/li&gt;
+&lt;ol type="A"&gt;
+&lt;li&gt; from 1930 to 1940 &lt;/li&gt;
+&lt;li&gt;from 1950 to 1970&lt;/li&gt;
+&lt;li&gt; from 1930 to 1970 &lt;/li&gt;
 &lt;/ol&gt;
-
-
+&lt;/ol&gt;
 &lt;ol start="3"&gt;
-    &lt;li aria-level="1"&gt; In which decade (10-year interval) did the population grow the fastest? Explain how you know. &lt;/li&gt;
+&lt;li aria-level="1"&gt; In which decade (10-year interval) did the population grow the fastest? Explain how you know. &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt; Student Response&lt;/h4&gt;
 &lt;ol&gt;
-    &lt;li&gt;Compare your answer to the sample response: About 250 people per year. The population was 40,000 in 1930 and about 45,000 in 1950, an increase of 5,000 people over 20 years, which equals 250 people per year.&lt;br&gt;
-        &lt;br&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;ol type="A"&gt;
-            &lt;li&gt;Positive &lt;/li&gt;
-            &lt;li&gt;Negative &lt;/li&gt;
-            &lt;li&gt;Negative &lt;br&gt;
-                &lt;br&gt;
-            &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-    &lt;li&gt;From 1910 to 1920. Sample reasoning: The graph has the steepest slope between the two points on the graph \((1910,22)\) and \((1920,32)\).&lt;/li&gt;
+&lt;li&gt;Compare your answer to the sample response: About 250 people per year. The population was 40,000 in 1930 and about 45,000 in 1950, an increase of 5,000 people over 20 years, which equals 250 people per year.&lt;br&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol type="A"&gt;
+&lt;li&gt;Positive &lt;/li&gt;
+&lt;li&gt;Negative &lt;/li&gt;
+&lt;li&gt;Negative &lt;br&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;From 1910 to 1920. Sample reasoning: The graph has the steepest slope between the two points on the graph \((1910,22)\) and \((1920,32)\).&lt;/li&gt;
 &lt;/ol&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1667,163 +1432,163 @@
         <title>4.7.6: Practice</title>
         <contents>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;The temperature was recorded at several times during the day. Function \(T\) gives the temperature in degrees Fahrenheit, \(n\) hours since midnight.
+&lt;li&gt;The temperature was recorded at several times during the day. Function \(T\) gives the temperature in degrees Fahrenheit, \(n\) hours since midnight.
     
     
     Here is a graph for this function. For each time interval, decide if the average rate of change is positive, negative, or zero: &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/628c3b7693e07969ceb66d4d1b9c3ed03f8a0fd9" alt="" width="300" height="278" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt class="img-fluid atto_image_button_text-bottom" height="278" role="presentation" src="https://k12.openstax.org/contents/raise/resources/628c3b7693e07969ceb66d4d1b9c3ed03f8a0fd9" width="300"&gt;&lt;/p&gt;
 &lt;ol&gt;
-  &lt;ol type="a"&gt;
-    &lt;li&gt;From \(n = 1\) to \(n = 5\) &lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;From \(n = 1\) to \(n = 5\) &lt;/li&gt;
+&lt;/ol&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; negative&lt;/p&gt;
 &lt;ol&gt;
-  &lt;ol type="a" start="2"&gt;
-    &lt;li&gt;From \(n = 5\) to \(n = 8\)&lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;From \(n = 5\) to \(n = 8\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/ol&gt;
 &lt;p&gt; &lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;positive &lt;/p&gt;
 &lt;ol&gt;
-  &lt;ol type="a" start="3"&gt;
-    &lt;li&gt;From \(n = 10\) to \(n = 20\)&lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol start="3" type="a"&gt;
+&lt;li&gt;From \(n = 10\) to \(n = 20\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/ol&gt;
 &lt;p&gt; &lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;positive &lt;/p&gt;
 &lt;ol&gt;
-  &lt;ol type="a" start="4"&gt;
-    &lt;li&gt;From \(n = 15\) to \(n = 18\)&lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol start="4" type="a"&gt;
+&lt;li&gt;From \(n = 15\) to \(n = 18\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/ol&gt;
 &lt;p&gt; &lt;strong&gt;ANSWER:&lt;/strong&gt; zero &lt;/p&gt;
 &lt;ol&gt;
-  &lt;ol type="a" start="5"&gt;
-    &lt;li&gt;From \(n = 20\) to \(n = 24\)&lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol start="5" type="a"&gt;
+&lt;li&gt;From \(n = 20\) to \(n = 24\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/ol&gt;
 &lt;p&gt; &lt;strong&gt;ANSWER:&lt;/strong&gt; negative &lt;/p&gt;
 &lt;ol start="2"&gt;
-  &lt;li&gt;The graph shows the total distance, in feet, walked by a person as a function of time, in seconds.&lt;/li&gt;
+&lt;li&gt;The graph shows the total distance, in feet, walked by a person as a function of time, in seconds.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/fKKKdivd4pWJG1XMNkCHdDkW" alt="" width="318" height="239" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt class="img-fluid atto_image_button_text-bottom" height="239" role="presentation" src="https://s3.amazonaws.com/im-ims-export/fKKKdivd4pWJG1XMNkCHdDkW" width="318"&gt;&lt;/p&gt;
 &lt;ol&gt;
-  &lt;ol type="a"&gt;
-    &lt;li&gt;Was the person walking faster between 20 and 40 seconds or between 80 and 100 seconds?&lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;Was the person walking faster between 20 and 40 seconds or between 80 and 100 seconds?&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/ol&gt;
 &lt;p&gt; &lt;strong&gt;ANSWER: &lt;/strong&gt;Between 80 and 100 seconds &lt;/p&gt;
 &lt;ol&gt;
-  &lt;ol type="a" start="2"&gt;
-    &lt;li&gt;Was the person walking faster between 0 and 40 seconds or between 40 and 100 seconds? &lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;Was the person walking faster between 0 and 40 seconds or between 40 and 100 seconds? &lt;/li&gt;
+&lt;/ol&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Between 0 and 40 seconds &lt;/p&gt;
 &lt;ol start="3"&gt;
-  &lt;li&gt;The height, in feet, of a squirrel running up and down a tree is a function of time, in seconds.
+&lt;li&gt;The height, in feet, of a squirrel running up and down a tree is a function of time, in seconds.
     
-    Here are statements describing the squirrel’s movement during four intervals of time. Match each description with a statement about the average rate of change of the function for that interval.&lt;br&gt;
-    &lt;br&gt;
-    &lt;ol type="a"&gt;
-      &lt;ol type="a"&gt;
-        &lt;li&gt;The average rate of change is negative.&lt;/li&gt;
-        &lt;li&gt;The average rate of change is zero.&lt;/li&gt;
-        &lt;li&gt;The average rate of change is small and positive.&lt;/li&gt;
-        &lt;li&gt;The average rate of change is large and positive. &lt;br&gt;
-          &lt;br&gt;
-        &lt;/li&gt;
-      &lt;/ol&gt;
-      &lt;li&gt;The squirrel runs up the tree very fast.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
+    Here are statements describing the squirrel&amp;rsquo;s movement during four intervals of time. Match each description with a statement about the average rate of change of the function for that interval.&lt;br&gt;
+&lt;br&gt;
+&lt;ol type="a"&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;The average rate of change is negative.&lt;/li&gt;
+&lt;li&gt;The average rate of change is zero.&lt;/li&gt;
+&lt;li&gt;The average rate of change is small and positive.&lt;/li&gt;
+&lt;li&gt;The average rate of change is large and positive. &lt;br&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;li&gt;The squirrel runs up the tree very fast.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt; &lt;strong&gt;ANSWER: &lt;/strong&gt;The average rate of change is large and positive. &lt;/p&gt;
 &lt;ol&gt;
-  &lt;ol type="a" start="2"&gt;
-    &lt;li&gt;The squirrel starts and ends at the same height.&lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;The squirrel starts and ends at the same height.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/ol&gt;
 &lt;p&gt; &lt;strong&gt;ANSWER: &lt;/strong&gt;The average rate of change is zero. &lt;/p&gt;
 &lt;ol&gt;
-  &lt;ol type="a" start="3"&gt;
-    &lt;li&gt;The squirrel runs down the tree.&lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol start="3" type="a"&gt;
+&lt;li&gt;The squirrel runs down the tree.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/ol&gt;
 &lt;p&gt; &lt;strong&gt;ANSWER: &lt;/strong&gt;The average rate of change is negative. &lt;/p&gt;
 &lt;ol&gt;
-  &lt;ol type="a" start="4"&gt;
-    &lt;li&gt;The squirrel runs up the tree slowly.&lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol start="4" type="a"&gt;
+&lt;li&gt;The squirrel runs up the tree slowly.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/ol&gt;
 &lt;p&gt; &lt;strong&gt;ANSWER: &lt;/strong&gt;The average rate of change is small and positive. &lt;/p&gt;
 &lt;ol start="4"&gt;
-  &lt;li&gt;The percentage of voters ages 18 to 29 who participated in each United States presidential election between the years 1988 and 2016 is shown in the table.&lt;/li&gt;
+&lt;li&gt;The percentage of voters ages 18 to 29 who participated in each United States presidential election between the years 1988 and 2016 is shown in the table.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td width="83" valign="top"&gt;&lt;p align="center"&gt;&lt;strong&gt;year&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;1988&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;1992&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;1996&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;2000&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;2004&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;2008&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;2012&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;2016&lt;/p&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td width="83" valign="top"&gt;&lt;p align="center"&gt;&lt;strong&gt;percentage of voters ages 18–29&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;35.7&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;42.7&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;33.1&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;34.5&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;45.0&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;48.4&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;40.9&lt;/p&gt;&lt;/td&gt;
-      &lt;td width="60" valign="top"&gt;&lt;p align="center"&gt;43.4&lt;/p&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="83"&gt;&lt;p align="center"&gt;&lt;strong&gt;year&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;1988&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;1992&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;1996&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;2000&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;2004&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;2008&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;2012&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;2016&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="83"&gt;&lt;p align="center"&gt;&lt;strong&gt;percentage of voters ages 18&amp;ndash;29&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;35.7&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;42.7&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;33.1&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;34.5&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;45.0&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;48.4&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;40.9&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="top" width="60"&gt;&lt;p align="center"&gt;43.4&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;The function \(P\) gives the percent of voters ages 18 to 29 years old who participated in the election in year \(t\).&lt;/p&gt;
 &lt;p&gt;Determine the average rate of change for \(P\) between 1992 and 2000.&lt;/p&gt;
-&lt;p&gt; &lt;strong&gt;ANSWER: &lt;/strong&gt;–1.025 percent of voters per year &lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;ANSWER: &lt;/strong&gt;&amp;ndash;1.025 percent of voters per year &lt;/p&gt;
 &lt;ol start="5"&gt;
-  &lt;li&gt;Some points from a linear function, \(f(x)\), are listed in the table below. What is the rate of change of this linear function?&lt;/li&gt;
+&lt;li&gt;Some points from a linear function, \(f(x)\), are listed in the table below. What is the rate of change of this linear function?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table border="1" cellpadding="5"&gt;
-  &lt;colgroup&gt;
-  &lt;col&gt;
-  &lt;col&gt;
-  &lt;col&gt;
-  &lt;col&gt;
-  &lt;col&gt;
-  &lt;/colgroup&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;p&gt;\(x\)&lt;/p&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;p&gt;10&lt;/p&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;p&gt;15&lt;/p&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;p&gt;\(f(x)\)&lt;/p&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;p&gt;6&lt;/p&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;p&gt;8&lt;/p&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;p&gt;10&lt;/p&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;\(x\)&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;10&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;15&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;\(f(x)\)&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;6&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;8&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;10&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(\frac25\)&lt;/p&gt;
 &lt;ol start="6"&gt;
-  &lt;li&gt;Find the rate of change of the function, \(g(x)\), graphed below. Enter only integer values. &lt;img src="https://k12.openstax.org/contents/raise/resources/eeb492073a46c47fa8ff97bc8dcae77a0740168a" alt="GRAPH OF A LINE THAT PASSES THROUGH THE POINTS (0, 2) AND (1, −1)." width="300" height="304" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/li&gt;
+&lt;li&gt;Find the rate of change of the function, \(g(x)\), graphed below. Enter only integer values. &lt;img alt="GRAPH OF A LINE THAT PASSES THROUGH THE POINTS (0, 2) AND (1, &amp;minus;1)." class="img-fluid atto_image_button_text-bottom" height="304" src="https://k12.openstax.org/contents/raise/resources/eeb492073a46c47fa8ff97bc8dcae77a0740168a" width="300"&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt; &lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;–3&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;&amp;ndash;3&lt;/p&gt;
 &lt;ol start="7"&gt;
-  &lt;li&gt;What is the rate of change of the function \(h(x)= 4x -7\)? Enter your answer as an integer value.&lt;strong&gt;ANSWER: &lt;/strong&gt;4&lt;/li&gt;
+&lt;li&gt;What is the rate of change of the function \(h(x)= 4x -7\)? Enter your answer as an integer value.&lt;strong&gt;ANSWER: &lt;/strong&gt;4&lt;/li&gt;
 &lt;/ol&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1871,11 +1636,11 @@
         <title>4.7.7: Lesson Synthesis</title>
         <contents>&lt;h4&gt;Discuss questions such as:&lt;/h4&gt;
 &lt;ul&gt;
-    &lt;li&gt;“How would you explain average rate of change to a classmate who is absent today? What does it tell us? How do we find it?”&lt;/li&gt;
-    &lt;li&gt;“Which representation—a table or a graph—can give us a better sense of the general trend of a function over a certain interval? Why?” (A graph, because we can visualize a line that fits the data in an interval and reason about its slope.)&lt;/li&gt;
-    &lt;li&gt;“What does a negative average rate of change tell us?” (The output of the function is decreasing for every unit of increase in input.)&lt;/li&gt;
-    &lt;li&gt;“If a function has a negative average rate of change over an interval, does it mean that the function value never increases?” (No, there might be parts of the interval where the function value rises, but overall it is falling.)&lt;/li&gt;
-    &lt;li&gt;“When dealing with Mai and Tyler’s case, we compared average rates of change over two intervals that are not the same length. Was that a fair comparison? Does the length of the interval matter?” (Yes, it is a fair comparison. The length of the interval doesn’t matter because an average rate of change gives the amount of change per unit of input.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How would you explain average rate of change to a classmate who is absent today? What does it tell us? How do we find it?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Which representation&amp;mdash;a table or a graph&amp;mdash;can give us a better sense of the general trend of a function over a certain interval? Why?&amp;rdquo; (A graph, because we can visualize a line that fits the data in an interval and reason about its slope.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;What does a negative average rate of change tell us?&amp;rdquo; (The output of the function is decreasing for every unit of increase in input.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;If a function has a negative average rate of change over an interval, does it mean that the function value never increases?&amp;rdquo; (No, there might be parts of the interval where the function value rises, but overall it is falling.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;When dealing with Mai and Tyler&amp;rsquo;s case, we compared average rates of change over two intervals that are not the same length. Was that a fair comparison? Does the length of the interval matter?&amp;rdquo; (Yes, it is a fair comparison. The length of the interval doesn&amp;rsquo;t matter because an average rate of change gives the amount of change per unit of input.)&lt;/li&gt;
 &lt;/ul&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>

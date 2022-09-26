@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="97" moduleid="129" modulename="lesson" contextid="140">
   <lesson id="97">
     <course>2</course>
     <name>Lesson 4.9 Teacher Guide: Comparing Graphs</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>0</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>130</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -54,136 +54,105 @@
         <timemodified>1662658445</timemodified>
         <title>4.9.0: Lesson Overview</title>
         <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
-
 &lt;p&gt;In this lesson, students deepen their understanding of functions by comparing representations of several functions relating the same pair of quantities. They analyze two or more graphs simultaneously, interpreting their relative features and their average rates of change in context.&lt;/p&gt;
-
 &lt;p&gt;Students also study comparative statements in function notation, such as \(A(x)=B(x)\), \(B(10)&amp;gt;A(10)\), and explain them in terms of changes in population, changes in the trends of phone ownership, and the popularity of different television shows.&lt;/p&gt;
-
 &lt;p&gt;Students pay close attention to the intersection of two graphs in this lesson. Earlier in their study, they learned that a solution to a system of linear equations in two variables is a point where the graphs of the equations in the system intersect. Here, students recognize equations of the form \(f(x)=g(x)\) to mean functions \(f\) and \(g\) having the same output value at the same input value. They see that a solution to such an equation is the \(x\)-coordinate of a point where the graphs of \(f\) and \(g\) intersect.&lt;/p&gt;
-
 &lt;p&gt;Making comparisons involves looking beyond individual pieces of information. To accurately relate the information from multiple representations requires careful and precise use of mathematical language and notation. Students continue reasoning abstractly and quantitatively as they use their analyses of representations of functions to draw conclusions about the quantities in situations.&lt;/p&gt;
-
 &lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
-
 &lt;p&gt;Students will be able to:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Compare key features of graphs of functions and interpret them in context.&lt;/li&gt;
-    &lt;li&gt;Find the solutions and meanings of \(f(x)=g(x)\) in terms of a situation and a graph.&lt;/li&gt;
-    &lt;li&gt;Interpret statements about two or more functions written in function notation.&lt;/li&gt;
+&lt;li&gt;Compare key features of graphs of functions and interpret them in context.&lt;/li&gt;
+&lt;li&gt;Find the solutions and meanings of \(f(x)=g(x)\) in terms of a situation and a graph.&lt;/li&gt;
+&lt;li&gt;Interpret statements about two or more functions written in function notation.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
 &lt;ul&gt;
-    &lt;li&gt;Compare the features of graphs of functions and explain what they mean in the situations represented.&lt;/li&gt;
-    &lt;li&gt;Make sense of an equation of the form&amp;nbsp;\(f(x)=g(x)\)&amp;nbsp;in terms of a situation and a graph, and know how to find the solutions.&lt;/li&gt;
-    &lt;li&gt;Explain statements about two or more functions when they are written in function notation.&lt;/li&gt;
+&lt;li&gt;Compare the features of graphs of functions and explain what they mean in the situations represented.&lt;/li&gt;
+&lt;li&gt;Make sense of an equation of the form&amp;nbsp;\(f(x)=g(x)\)&amp;nbsp;in terms of a situation and a graph, and know how to find the solutions.&lt;/li&gt;
+&lt;li&gt;Explain statements about two or more functions when they are written in function notation.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt; Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
 &lt;br&gt;
-
-&lt;table cellpadding="5" border="1"&gt;
-    &lt;colgroup&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;A3(B) &lt;u&gt;calculate the rate of change of a linear function represented&lt;/u&gt; tabularly, &lt;u&gt;graphically&lt;/u&gt;, or &lt;u&gt;algebraically in context of mathematical and real-world problems;&lt;/u&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;table border="1" cellpadding="5"&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;A3(B) &lt;u&gt;calculate the rate of change of a linear function represented&lt;/u&gt; tabularly, &lt;u&gt;graphically&lt;/u&gt;, or &lt;u&gt;algebraically in context of mathematical and real-world problems;&lt;/u&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;h4&gt; Lesson Activities&lt;/h4&gt;
-
 &lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;4.9.1: Analyzing Graphs and Statements in Function Notation&lt;/li&gt;
-    &lt;li&gt;4.9.2: Interpreting Graphs and Statements in Terms of a Situation&lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt;4.9.2: Self Check&lt;/li&gt;
-        &lt;li&gt;4.9.2: Additional Resources&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;li&gt;4.9.3: Comparing Functions Represented in Separate Graphs&lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt;4.9.3: Self Check&lt;/li&gt;
-        &lt;li&gt;4.9.3: Additional Resources&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;li&gt;4.9.4: Compare Graphs and Statements that Represent Functions without a Context&lt;/li&gt;
-    &lt;li&gt;&lt;ul&gt;
-            &lt;li&gt;4.9.4: Self Check&lt;/li&gt;
-            &lt;li&gt;4.9.4: Additional Resources&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;4.9.5: Analyzing Functions Using Real-World Context&lt;/li&gt;
+&lt;li&gt;4.9.1: Analyzing Graphs and Statements in Function Notation&lt;/li&gt;
+&lt;li&gt;4.9.2: Interpreting Graphs and Statements in Terms of a Situation&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;4.9.2: Self Check&lt;/li&gt;
+&lt;li&gt;4.9.2: Additional Resources&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;li&gt;4.9.3: Comparing Functions Represented in Separate Graphs&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;4.9.3: Self Check&lt;/li&gt;
+&lt;li&gt;4.9.3: Additional Resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;4.9.4: Compare Graphs and Statements that Represent Functions without a Context&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;4.9.4: Self Check&lt;/li&gt;
+&lt;li&gt;4.9.4: Additional Resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4.9.5: Analyzing Functions Using Real-World Context&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Students will also complete a series of problems in the 4.9.6: Practice.&lt;/p&gt;
-
 &lt;h4&gt;Required Materials&lt;/h4&gt;
-
 &lt;p&gt;None&lt;/p&gt;
-
 &lt;h4&gt;Required Preparation&lt;/h4&gt;
-
 &lt;p&gt;None&lt;/p&gt;
-
 &lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
-
 &lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings.&lt;/li&gt;
-    &lt;li&gt;Encourage students to use key vocabulary words in “math talk” and their written and oral explanations.&lt;/li&gt;
-    &lt;li&gt;Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank" title="Mathematics Vocabulary Word Wall Cards"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;
-    &lt;/li&gt;
+&lt;li&gt;Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings.&lt;/li&gt;
+&lt;li&gt;Encourage students to use key vocabulary words in &amp;ldquo;math talk&amp;rdquo; and their written and oral explanations.&lt;/li&gt;
+&lt;li&gt;Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank" title="Mathematics Vocabulary Word Wall Cards"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Vocabulary words that are emphasized in this lesson include:&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;function&lt;/li&gt;
-    &lt;li&gt;value&lt;/li&gt;
-    &lt;li&gt;equation&lt;/li&gt;
-    &lt;li&gt;proportion&lt;/li&gt;
-    &lt;li&gt;probability&lt;/li&gt;
+&lt;li&gt;function&lt;/li&gt;
+&lt;li&gt;value&lt;/li&gt;
+&lt;li&gt;equation&lt;/li&gt;
+&lt;li&gt;proportion&lt;/li&gt;
+&lt;li&gt;probability&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;none&lt;/li&gt;
+&lt;li&gt;none&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Social Emotional Learning (SEL) Support&lt;/h4&gt;
-
 &lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;creativity&lt;/strong&gt;.&lt;/p&gt;
-
 &lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/sample-then-specialize/" target="_blank" title="Sample, Then Specialize"&gt;Sample, Then Specialize&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/compound-interest/" target="_blank" title="Compound Interest"&gt;Compound Interest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/sample-then-specialize/" target="_blank" title="Sample, Then Specialize"&gt;Sample, Then Specialize&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://characterlab.org/tips-of-the-week/compound-interest/" target="_blank" title="Compound Interest"&gt;Compound Interest&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;You can find other tips located here in the&amp;nbsp;&lt;a href="https://characterlab.org/playbooks/creativity" target="_blank"&gt;Playbook on Creativity&lt;/a&gt;&amp;nbsp;from Character Lab.&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -216,44 +185,33 @@
         <timemodified>1662658508</timemodified>
         <title>4.9.1: Analyzing Graphs and Statements in Function Notation </title>
         <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
-
 &lt;p&gt;In this warm-up, students compare functions by analyzing graphs and statements in function notation. The work here prepares students to make more sophisticated comparisons later in the lesson.&lt;/p&gt;
-
 &lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
-
 &lt;p&gt;This graph shows the populations of Baltimore and Cleveland in the 20th century. \(B(t)\) is the population of Baltimore in year \(t\). \(C(t)\) is the population of Cleveland in year \(t\).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/tAd99gdASx6XYhexeuSmdMhh" alt="Two functions. year and population."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Two functions. year and population." src="https://s3.amazonaws.com/im-ims-export/tAd99gdASx6XYhexeuSmdMhh"&gt;&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;Estimate \(B(1930)\) and explain what it means in this situation.&lt;/li&gt;
-    &lt;li&gt;Here are pairs of statements about the two populations. In each pair, which statement is true? Be prepared to explain how you know.&lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;\(B(2000)&amp;gt;C(2000)\) or \(B(2000)&amp;lt;C(2000)\)&lt;/li&gt;
-        &lt;li&gt;\(B(1900)=C(1900)\) or \(B(1900)&amp;gt;C(1900)\)&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;li&gt;Were the two cities’ populations ever the same? If so, when?&lt;/li&gt;
+&lt;li&gt;Estimate \(B(1930)\) and explain what it means in this situation.&lt;/li&gt;
+&lt;li&gt;Here are pairs of statements about the two populations. In each pair, which statement is true? Be prepared to explain how you know.&lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;\(B(2000)&amp;gt;C(2000)\) or \(B(2000)&amp;lt;C(2000)\)&lt;/li&gt;
+&lt;li&gt;\(B(1900)=C(1900)\) or \(B(1900)&amp;gt;C(1900)\)&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;li&gt;Were the two cities&amp;rsquo; populations ever the same? If so, when?&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;\(B(1930)\) is about 800,000. It’s the population of Baltimore in 1930.&lt;/li&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;\(B(2000)&amp;gt;C(2000)\)&lt;/li&gt;
-        &lt;li&gt;\(B(1900)&amp;gt;C(1900)\)&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;li&gt;Yes. The populations were the same in roughly 1910 and 1943.&lt;/li&gt;
+&lt;li&gt;\(B(1930)\) is about 800,000. It&amp;rsquo;s the population of Baltimore in 1930.&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;\(B(2000)&amp;gt;C(2000)\)&lt;/li&gt;
+&lt;li&gt;\(B(1900)&amp;gt;C(1900)\)&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;li&gt;Yes. The populations were the same in roughly 1910 and 1943.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
-
-&lt;p&gt;Invite students to share their response to the first question. After students give a reasonable estimate of the population of Baltimore (about 800,000), display the statement \(B(1930)=800,000\) for all to see. Make sure students can interpret it to mean: “In 1930, the population of Baltimore was about 800,000 people.”&lt;/p&gt;
-
+&lt;p&gt;Invite students to share their response to the first question. After students give a reasonable estimate of the population of Baltimore (about 800,000), display the statement \(B(1930)=800,000\) for all to see. Make sure students can interpret it to mean: &amp;ldquo;In 1930, the population of Baltimore was about 800,000 people.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Next, ask students to explain how they knew which statement in each pair of inequalities is true, and how they knew that there were two points in time when Baltimore and Cleveland had the same population.&lt;/p&gt;
-
 &lt;p&gt;Ask students how we could use function notation to express that the populations of Baltimore and Cleveland were equal in 1910. If no students mention \(B(1910)=C(1910)\) or \(B(t)=C(t)\) for \(t=1910\), bring these up and display these statements for all to see.&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -300,303 +258,250 @@
         <timemodified>1662658565</timemodified>
         <title>4.9.2: Interpreting Graphs and Statements in Terms of a Situation</title>
         <contents>&lt;h3&gt;Activity (20 minutes)&lt;/h3&gt;
-
 &lt;p&gt;In this activity, students continue to compare two functions by studying graphs and statements in function notation, as well as interpreting them in terms of a situation. They also revisit the meaning of a solution to an equation such as \(C(t)=20\), both abstractly and in context, and apply what they know about average rate of change to compare the trend shown by each graph.&lt;/p&gt;
-
-&lt;p&gt;Additionally, the activity draws students’ attention to the point where the two graphs intersect, its meaning in context, and its corresponding representation in function notation.&lt;/p&gt;
-
+&lt;p&gt;Additionally, the activity draws students&amp;rsquo; attention to the point where the two graphs intersect, its meaning in context, and its corresponding representation in function notation.&lt;/p&gt;
 &lt;h4&gt;Launch&lt;/h4&gt;
-
 &lt;p&gt;Ask students how many of them have a landline phone at home and how many only have cell phones. If students are unfamiliar with landline phones, explain as needed.&lt;/p&gt;
-
 &lt;p&gt;Display the graphs for all to see. Discuss questions such as:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;“How would you describe the trends in phone ownership over the years?” (Cell phones are increasing in use, and landlines are decreasing.)&lt;/li&gt;
-    &lt;li&gt;“How would you describe the shape of the graph of each function?” (Both are roughly linear. The value of \(H\) is decreasing over time, so the graph slants downward. The value of \(C\) is increasing over time, so the graph slants upward.)&lt;/li&gt;
-    &lt;li&gt;“In what year did about 60% of homes have a landline?” (2012)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How would you describe the trends in phone ownership over the years?&amp;rdquo; (Cell phones are increasing in use, and landlines are decreasing.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How would you describe the shape of the graph of each function?&amp;rdquo; (Both are roughly linear. The value of \(H\) is decreasing over time, so the graph slants downward. The value of \(C\) is increasing over time, so the graph slants upward.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;In what year did about 60% of homes have a landline?&amp;rdquo; (2012)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Student-Facing Statement &lt;/h4&gt;
-
 &lt;p&gt;\(H(t)\) is the percentage of homes in the United States that have a landline phone in year \(t\). \(C(t)\) is the percentage of homes with only a cell phone. Here are the graphs of \(H\) and \(C\).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/tT95M7BitejHpYMvk8jJYQdi" alt="Graph of 2 functions. Blue solid line represents&amp;nbsp;percentage of homes in US&amp;nbsp;with&amp;nbsp;a landline phone in year t. Red dotted line represents the percentage of homes with&amp;nbsp;only&amp;nbsp;a cell phone."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Graph of 2 functions. Blue solid line represents&amp;nbsp;percentage of homes in US&amp;nbsp;with&amp;nbsp;a landline phone in year t. Red dotted line represents the percentage of homes with&amp;nbsp;only&amp;nbsp;a cell phone." src="https://s3.amazonaws.com/im-ims-export/tT95M7BitejHpYMvk8jJYQdi"&gt;&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;Estimate \(H(2006)\) and \(C(2006)\). Explain what each value tells us about the phones.&lt;/li&gt;
-    &lt;li&gt;What is the approximate solution to \(C(t)=20\)? Explain what the solution means in this situation.
+&lt;li&gt;Estimate \(H(2006)\) and \(C(2006)\). Explain what each value tells us about the phones.&lt;/li&gt;
+&lt;li&gt;What is the approximate solution to \(C(t)=20\)? Explain what the solution means in this situation.
     &lt;/li&gt;
-    &lt;li&gt;Determine if each equation is true. Be prepared to explain how you know.&lt;br&gt;
-        &lt;br&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;\(C(2011)=H(2011)\)&lt;/li&gt;
-            &lt;li&gt;\(C(2015)=H(2015)\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;Between 2004 and 2015, did the percentage of homes with landlines decrease at the same rate at which the percentage of cell-phones-only homes increased?&lt;/li&gt;
-        &lt;li&gt;Explain or show your reasoning.&lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt;Determine if each equation is true. Be prepared to explain how you know.&lt;br&gt;
+&lt;br&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;\(C(2011)=H(2011)\)&lt;/li&gt;
+&lt;li&gt;\(C(2015)=H(2015)\)&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;Between 2004 and 2015, did the percentage of homes with landlines decrease at the same rate at which the percentage of cell-phones-only homes increased?&lt;/li&gt;
+&lt;li&gt;Explain or show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
-&lt;h4&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/tT95M7BitejHpYMvk8jJYQdi" alt="Graph of 2 functions. Blue solid line represents&amp;nbsp;percentage of homes in US&amp;nbsp;with&amp;nbsp;a landline phone in year t. Red dotted line represents the percentage of homes with&amp;nbsp;only&amp;nbsp;a cell phone."&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;img alt="Graph of 2 functions. Blue solid line represents&amp;nbsp;percentage of homes in US&amp;nbsp;with&amp;nbsp;a landline phone in year t. Red dotted line represents the percentage of homes with&amp;nbsp;only&amp;nbsp;a cell phone." src="https://s3.amazonaws.com/im-ims-export/tT95M7BitejHpYMvk8jJYQdi"&gt;&lt;/h4&gt;
 &lt;ol&gt;
-    &lt;li&gt;\(H(2006)\) is about 85, and \(C(2006)\) is about 14. In 2006, 85% of homes had a landline phone, and 14% of homes had only a cell phone.&lt;/li&gt;
-    &lt;li&gt;Approximately 2008. It means that around 2008, 20% of homes used only cell phones.&lt;/li&gt;
+&lt;li&gt;\(H(2006)\) is about 85, and \(C(2006)\) is about 14. In 2006, 85% of homes had a landline phone, and 14% of homes had only a cell phone.&lt;/li&gt;
+&lt;li&gt;Approximately 2008. It means that around 2008, 20% of homes used only cell phones.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;ol start="3"&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;Sample response: No, because \(C(2011)\) is about 30 and \(H(2011)\) is about 70. The percentage of homes with a landline phone and the percentage of homes with only a cell phone were not equal.&lt;/li&gt;
-        &lt;li&gt;Sample Response: Yes, because in 2015 the percentage of homes with a landline and the percentage of homes with only a cell phone were equal, as shown by the intersection of the graphs.&lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;Sample response: No, because \(C(2011)\) is about 30 and \(H(2011)\) is about 70. The percentage of homes with a landline phone and the percentage of homes with only a cell phone were not equal.&lt;/li&gt;
+&lt;li&gt;Sample Response: Yes, because in 2015 the percentage of homes with a landline and the percentage of homes with only a cell phone were equal, as shown by the intersection of the graphs.&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/ol&gt;
 &lt;ol start="4"&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;Sample responses:
+&lt;li&gt;
+&lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;Sample responses:
             Yes, one decreased at roughly the same rate as the other one increased.&lt;br&gt;
             No, the percentage of cell-phones-only homes increased at a rate close to that by which the percentage of landline-owning homes decreased, but not exactly the same.&lt;/li&gt;
-        &lt;li&gt;Sample explanation:
+&lt;li&gt;Sample explanation:
             &lt;ul&gt;
-                &lt;li&gt;In 2004, only about 6% of homes had only cell phones. In 2015, about 48% did. The average rate of change for \(C\) is \(\frac{48-6}{2015-2004}=\frac{42}{11}\), or about 3.8. This means the percentage of homes relying only on cell phones grew by about 3.8% each year.
+&lt;li&gt;In 2004, only about 6% of homes had only cell phones. In 2015, about 48% did. The average rate of change for \(C\) is \(\frac{48-6}{2015-2004}=\frac{42}{11}\), or about 3.8. This means the percentage of homes relying only on cell phones grew by about 3.8% each year.
                 &lt;/li&gt;
-                &lt;li&gt;In 2004, about 92% of homes had a landline. In 2015, only about 48% did. The average rate of change for \(H\) is \(\frac{48-92}{2015-2004}=\frac{-44}{11}\), or –4. This means the percentage of homes that used landlines fell by 4% each year.
+&lt;li&gt;In 2004, about 92% of homes had a landline. In 2015, only about 48% did. The average rate of change for \(H\) is \(\frac{48-92}{2015-2004}=\frac{-44}{11}\), or &amp;ndash;4. This means the percentage of homes that used landlines fell by 4% each year.
                 &lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/li&gt;
-    &lt;/ol&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/ol&gt;
 &lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
-
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-
-    &lt;p&gt;Use this routine to help students compare and interpret two functions. Display the student task statement and graph, leaving out the questions. Ask students to write down possible mathematical questions that could be asked about the situation. Invite students to compare their questions before revealing the activity’s questions. Listen for and amplify any questions involving the overall shape of the graphs, trends over specific time intervals, and the intersection point of the two graphs. The process of creating mathematical questions, without the pressure of producing answers or solutions, prompts students to make sense of the given information and to activate the language of mathematical questions. This work helps prepare students to process the actual questions.&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Use this routine to help students compare and interpret two functions. Display the student task statement and graph, leaving out the questions. Ask students to write down possible mathematical questions that could be asked about the situation. Invite students to compare their questions before revealing the activity&amp;rsquo;s questions. Listen for and amplify any questions involving the overall shape of the graphs, trends over specific time intervals, and the intersection point of the two graphs. The process of creating mathematical questions, without the pressure of producing answers or solutions, prompts students to make sense of the given information and to activate the language of mathematical questions. This work helps prepare students to process the actual questions.&lt;/p&gt;
 &lt;/div&gt;
-
 &lt;br&gt;
-
 &lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
-
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-    &lt;p&gt;Encourage and support opportunities for peer interactions. Prior to the whole-class discussion, invite students to share their work with a partner. Display sentence frames to support student conversation, such as: “One thing that is the same is . . .,” “One thing that is different is . . .,” and “_____ represents _____.”&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Encourage and support opportunities for peer interactions. Prior to the whole-class discussion, invite students to share their work with a partner. Display sentence frames to support student conversation, such as: &amp;ldquo;One thing that is the same is . . .,&amp;rdquo; &amp;ldquo;One thing that is different is . . .,&amp;rdquo; and &amp;ldquo;_____ represents _____.&amp;rdquo;&lt;/p&gt;
 &lt;/div&gt;
-
 &lt;br&gt;
 &lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
-
 &lt;h5&gt;Are you ready for more?&lt;/h5&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;Explain why the statement \(C(t)+H(t)\leq100\) is true in this situation.&lt;/li&gt;
-    &lt;li&gt;What value does \(C(t)+H(t)\) appear to take between 2004 and 2017? How much does this value vary in that interval?&lt;/li&gt;
+&lt;li&gt;Explain why the statement \(C(t)+H(t)\leq100\) is true in this situation.&lt;/li&gt;
+&lt;li&gt;What value does \(C(t)+H(t)\) appear to take between 2004 and 2017? How much does this value vary in that interval?&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Extension Student Response&lt;/h4&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;Each household either has a landline or has no landline and relies only on cell phones, so \(H(t)\) and \(C(t)\) calculate separate groups of people. As long as there are not rounding errors, \(H(t)\) and \(C(t)\) together can only be 100 percent, and it is less if there are people with no phone service at all.&lt;/li&gt;
-    &lt;li&gt;It appears to take a value a little less than 100, maybe close to 97. For example, the two graphs meet below the midway point (50). At the beginning and the end of the shown interval, they add up to a little less than 100 as well. The sum is not constant (the shapes of the two graphs are different) but does not vary much, so the percentage of people with no phone service is small for the entire period.&lt;/li&gt;
+&lt;li&gt;Each household either has a landline or has no landline and relies only on cell phones, so \(H(t)\) and \(C(t)\) calculate separate groups of people. As long as there are not rounding errors, \(H(t)\) and \(C(t)\) together can only be 100 percent, and it is less if there are people with no phone service at all.&lt;/li&gt;
+&lt;li&gt;It appears to take a value a little less than 100, maybe close to 97. For example, the two graphs meet below the midway point (50). At the beginning and the end of the shown interval, they add up to a little less than 100 as well. The sum is not constant (the shapes of the two graphs are different) but does not vary much, so the percentage of people with no phone service is small for the entire period.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
-
 &lt;p&gt;Students encounter percentages as the output of a function for the first time in this activity. Some students might think that the output of the functions here must be number of homes, and that they cannot estimate any output values because only percentages are known. Clarify that percent is the unit used in this case because we are studying how the proportion of the two groups (rather than the actual number of homes in each group) changed over time.&lt;/p&gt;
-
 &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
-
 &lt;p&gt;Focus the discussion on the meaning of equations, such as \(C(t)=20\) and \(C(2015)=H(2015)\), and on the meaning of the average rate of change of each function.&lt;/p&gt;
-
-&lt;p&gt;Select students to share their responses. Highlight the following points, if not already mentioned in students’ explanations:&lt;/p&gt;
-
+&lt;p&gt;Select students to share their responses. Highlight the following points, if not already mentioned in students&amp;rsquo; explanations:&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;\(C(t)=20\) means “in year \(t\), 20% of homes relied only on cell phones” and, based on the graph of \(C\), the value of \(t\) that makes that statement true is 2008.&lt;/li&gt;
-    &lt;li&gt;\(C(2015)=H(2015)\) means “in year 2015, the percentage of homes with only cell phones and the percentage of homes with landlines are equal.” We know this is true because at \(t=2015\) the two graphs intersect, which also means they share the same output value.&lt;/li&gt;
-    &lt;li&gt;The average rate of change for \(C\) is positive because, in the measured interval, the value of \(C\) increased overall. The average rate of change for \(H\) is negative because the value of \(H\) decreased overall.&lt;/li&gt;
-    &lt;li&gt;An average rate of change of 3.8% per year for \(C\) means that the percentage of homes relying only on cell phones grew by about 3.8% each year.&lt;/li&gt;
-    &lt;li&gt;An average rate of change of –4% per year means the percentage of homes that used landlines fell by 4% each year.&lt;/li&gt;
+&lt;li&gt;\(C(t)=20\) means &amp;ldquo;in year \(t\), 20% of homes relied only on cell phones&amp;rdquo; and, based on the graph of \(C\), the value of \(t\) that makes that statement true is 2008.&lt;/li&gt;
+&lt;li&gt;\(C(2015)=H(2015)\) means &amp;ldquo;in year 2015, the percentage of homes with only cell phones and the percentage of homes with landlines are equal.&amp;rdquo; We know this is true because at \(t=2015\) the two graphs intersect, which also means they share the same output value.&lt;/li&gt;
+&lt;li&gt;The average rate of change for \(C\) is positive because, in the measured interval, the value of \(C\) increased overall. The average rate of change for \(H\) is negative because the value of \(H\) decreased overall.&lt;/li&gt;
+&lt;li&gt;An average rate of change of 3.8% per year for \(C\) means that the percentage of homes relying only on cell phones grew by about 3.8% each year.&lt;/li&gt;
+&lt;li&gt;An average rate of change of &amp;ndash;4% per year means the percentage of homes that used landlines fell by 4% each year.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;If time permits, discuss with students:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;“The average rate of change for \(C\) is 4% per year, while the average rate of change for \(H\) is –3.8% per year, which is very close to –4%. Why might the rate at which one increased be so close to the rate at which the other decreased? Could it be a coincidence?” (One possible explanation is that, as people relied more on cell phones, they relied less on landlines, and they discontinued using landlines around the same time they acquired new cell phones. These people essentially went from one group to the other.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The average rate of change for \(C\) is 4% per year, while the average rate of change for \(H\) is &amp;ndash;3.8% per year, which is very close to &amp;ndash;4%. Why might the rate at which one increased be so close to the rate at which the other decreased? Could it be a coincidence?&amp;rdquo; (One possible explanation is that, as people relied more on cell phones, they relied less on landlines, and they discontinued using landlines around the same time they acquired new cell phones. These people essentially went from one group to the other.)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3&gt;4.9.2: Self Check&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col width="302"&gt;
-        &lt;col width="322"&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td colspan="2"&gt;
-                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
-
-                &lt;p&gt;A Mars rover collected the following temperature data over 1.6 Martian days. A Martian day is called a Sol. Which of the following is true about the comparison between ground temperature and air temperature?&lt;/p&gt;
-
-                &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/05d467bbffe79a0a52ce6581d0886fe8a59870f0" alt="GRAPH THAT SHOWS AIR TEMPERATURE AND GROUND TEMPERATURE IN DEGREES CELSIUS FOR 10 TO 11.6 SOLS." width="300"&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;At 11 Sols, the ground temperature is warmer than the air temperature.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: The ground temperature’s graph is below that of the air temperature at this time. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;The ground temperature is always warmer than the air temperature.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: Throughout the temperature collection, the ground and air temperatures change which is greater than the other. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;At 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;That’s correct! Check yourself: The graph of the air temperature is above the graph of the ground temperature at the place where the \(x\)-axis is 11 Sols.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;The air temperature is always warmer than the ground temperature.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: Throughout the temperature collection, the ground and air temperatures change which is greater than the other. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col width="302"&gt;
+&lt;col width="322"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A Mars rover collected the following temperature data over 1.6 Martian days. A Martian day is called a Sol. Which of the following is true about the comparison between ground temperature and air temperature?&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH THAT SHOWS AIR TEMPERATURE AND GROUND TEMPERATURE IN DEGREES CELSIUS FOR 10 TO 11.6 SOLS." src="https://k12.openstax.org/contents/raise/resources/05d467bbffe79a0a52ce6581d0886fe8a59870f0" width="300"&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;At 11 Sols, the ground temperature is warmer than the air temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: The ground temperature&amp;rsquo;s graph is below that of the air temperature at this time. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;The ground temperature is always warmer than the air temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Throughout the temperature collection, the ground and air temperatures change which is greater than the other. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;At 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;That&amp;rsquo;s correct! Check yourself: The graph of the air temperature is above the graph of the ground temperature at the place where the \(x\)-axis is 11 Sols.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;The air temperature is always warmer than the ground temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Throughout the temperature collection, the ground and air temperatures change which is greater than the other. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
-
 &lt;h3&gt;4.9.2: Additional Resources&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
 &lt;h4&gt;Comparing Populations&lt;/h4&gt;
-
 &lt;p&gt;Graphs are very useful for comparing two or more functions. Here are graphs of functions \(C\) and \(T\), which give the populations (in millions) of California and Texas in year \(x\).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/j1234hnggnytN1WkbJNGxNfQ" alt="Graph of the populations of two states over time on a coordinate plane.&amp;nbsp;"&gt;&lt;/p&gt;
-
-&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;&lt;strong&gt;What can we tell about the populations?&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;&lt;strong&gt;How can we tell? &lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;&lt;strong&gt;How can we convey this with function notation? &lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;In the early 1900s, California had a smaller population than Texas.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;The graph of \(C\)&amp;nbsp;is below the graph of \(T\)&amp;nbsp;when \(x\)&lt;em&gt; &lt;/em&gt;is 1900.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;\(C(1900)&amp;lt;T(1900)\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;Around 1935, the two states had the same population of about 5 million people.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;The graphs intersect at about \((1935, 5)\).&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;\(C(1935)=5\) and &lt;br&gt;
+&lt;p&gt;&lt;img alt="Graph of the populations of two states over time on a coordinate plane.&amp;nbsp;" src="https://s3.amazonaws.com/im-ims-export/j1234hnggnytN1WkbJNGxNfQ"&gt;&lt;/p&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;&lt;strong&gt;What can we tell about the populations?&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;&lt;strong&gt;How can we tell? &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;&lt;strong&gt;How can we convey this with function notation? &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;In the early 1900s, California had a smaller population than Texas.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;The graph of \(C\)&amp;nbsp;is below the graph of \(T\)&amp;nbsp;when \(x\)&lt;em&gt; &lt;/em&gt;is 1900.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;\(C(1900)&amp;lt;T(1900)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;Around 1935, the two states had the same population of about 5 million people.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;The graphs intersect at about \((1935, 5)\).&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;\(C(1935)=5\) and &lt;br&gt;
                     \(T(1935)=5\), and &lt;br&gt;
                     \(C(1935)=T(1935)\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;After 1935, California has had more people than Texas. &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;When \(x\) is greater than 1935, the graph of \(C(x)\) is above that of \(T(x)\).&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;\(C(x)&amp;gt;T(x)\) for&lt;br&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;After 1935, California has had more people than Texas. &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;When \(x\) is greater than 1935, the graph of \(C(x)\) is above that of \(T(x)\).&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;\(C(x)&amp;gt;T(x)\) for&lt;br&gt;
                     \(x&amp;gt;1935\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;Both populations have increased over time, with no periods of decline. &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;Both graphs slant upward from left to right. &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;From 1900 to 2010, the population of California has risen faster than that of Texas. California had a greater average rate of change. &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;If we draw a line to connect the points for 1900 and 2010 on each graph, the line for &lt;em&gt;C&lt;/em&gt; has a greater slope than that for &lt;em&gt;T&lt;/em&gt;. &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;\(\frac{C(2010)-C(1900)}{201-1900}&amp;gt;\frac{T(2010)-T(1900)}{2010-1900}\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;Both populations have increased over time, with no periods of decline. &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;Both graphs slant upward from left to right. &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;From 1900 to 2010, the population of California has risen faster than that of Texas. California had a greater average rate of change. &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;If we draw a line to connect the points for 1900 and 2010 on each graph, the line for &lt;em&gt;C&lt;/em&gt; has a greater slope than that for &lt;em&gt;T&lt;/em&gt;. &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;\(\frac{C(2010)-C(1900)}{201-1900}&amp;gt;\frac{T(2010)-T(1900)}{2010-1900}\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;h4&gt;Try It: Comparing Populations&lt;/h4&gt;
 &lt;br&gt;
-
 &lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
 &lt;br&gt;
-
 &lt;p&gt;Which state had a greater population in 1920?&lt;/p&gt;
-
 &lt;p&gt;Use the graphing tool here or technology outside the course. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-
 &lt;h5&gt;Solution&lt;/h5&gt;
-
 &lt;p&gt;Here is how to read the graph to find the larger population:&lt;/p&gt;
-
 &lt;p&gt;On the horizontal axis, at 1920, the graph for Texas touches at about 5 million, while the graph for California touches at about 4 million.&lt;/p&gt;
-
 &lt;p&gt;In 1920, Texas had a larger population than California.&lt;/p&gt;
-
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1967">
@@ -642,316 +547,253 @@
         <timemodified>1662658708</timemodified>
         <title>4.9.3: Comparing Functions Represented in Separate Graphs</title>
         <contents>&lt;h3&gt;Activity (20 minutes)&lt;/h3&gt;
-
 &lt;p&gt;In this activity, students continue to compare two functions by studying graphs and statements in function notation, as well as interpreting them in terms of a situation. They also revisit the meaning of a solution to an equation such as \(C(t)=20\), both abstractly and in context, and apply what they know about average rate of change to compare the trend shown by each graph.&lt;/p&gt;
-
-&lt;p&gt;Additionally, the activity draws students’ attention to the point where the two graphs intersect, its meaning in context, and its corresponding representation in function notation.&lt;/p&gt;
-
+&lt;p&gt;Additionally, the activity draws students&amp;rsquo; attention to the point where the two graphs intersect, its meaning in context, and its corresponding representation in function notation.&lt;/p&gt;
 &lt;h4&gt;Launch&lt;/h4&gt;
-
 &lt;p&gt;Ask students how many of them have a landline phone at home and how many only have cell phones. If students are unfamiliar with landline phones, explain as needed.&lt;/p&gt;
-
 &lt;p&gt;Display the graphs for all to see. Discuss questions such as:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;“How would you describe the trends in phone ownership over the years?” (Cell phones are increasing in use, and landlines are decreasing.)&lt;/li&gt;
-    &lt;li&gt;“How would you describe the shape of the graph of each function?” (Both are roughly linear. The value of \(H\) is decreasing over time, so the graph slants downward. The value of \(C\) is increasing over time, so the graph slants upward.)&lt;/li&gt;
-    &lt;li&gt;“In what year did about 60% of homes have a landline?” (2012)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How would you describe the trends in phone ownership over the years?&amp;rdquo; (Cell phones are increasing in use, and landlines are decreasing.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;How would you describe the shape of the graph of each function?&amp;rdquo; (Both are roughly linear. The value of \(H\) is decreasing over time, so the graph slants downward. The value of \(C\) is increasing over time, so the graph slants upward.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;In what year did about 60% of homes have a landline?&amp;rdquo; (2012)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Student-Facing Statement &lt;/h4&gt;
-
 &lt;p&gt;\(H(t)\) is the percentage of homes in the United States that have a landline phone in year \(t\). \(C(t)\) is the percentage of homes with only a cell phone. Here are the graphs of \(H\) and \(C\).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/tT95M7BitejHpYMvk8jJYQdi" alt="Graph of 2 functions. Blue solid line represents&amp;nbsp;percentage of homes in US&amp;nbsp;with&amp;nbsp;a landline phone in year t. Red dotted line represents the percentage of homes with&amp;nbsp;only&amp;nbsp;a cell phone."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Graph of 2 functions. Blue solid line represents&amp;nbsp;percentage of homes in US&amp;nbsp;with&amp;nbsp;a landline phone in year t. Red dotted line represents the percentage of homes with&amp;nbsp;only&amp;nbsp;a cell phone." src="https://s3.amazonaws.com/im-ims-export/tT95M7BitejHpYMvk8jJYQdi"&gt;&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;Estimate \(H(2006)\) and \(C(2006)\). Explain what each value tells us about the phones.&lt;/li&gt;
-    &lt;li&gt;What is the approximate solution to \(C(t)=20\)? Explain what the solution means in this situation.&lt;/li&gt;
-    &lt;li&gt;Determine if each equation is true. Be prepared to explain how you know.&lt;/li&gt;
+&lt;li&gt;Estimate \(H(2006)\) and \(C(2006)\). Explain what each value tells us about the phones.&lt;/li&gt;
+&lt;li&gt;What is the approximate solution to \(C(t)=20\)? Explain what the solution means in this situation.&lt;/li&gt;
+&lt;li&gt;Determine if each equation is true. Be prepared to explain how you know.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;ol start="4"&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;ol type="A"&gt;
-        &lt;li&gt;Between 2004 and 2015, did the percentage of homes with landlines decrease at the same rate at which the percentage of cell-phones-only homes increased?&lt;/li&gt;
-        &lt;li&gt;Explain or show your reasoning.&lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;ol type="A"&gt;
+&lt;li&gt;Between 2004 and 2015, did the percentage of homes with landlines decrease at the same rate at which the percentage of cell-phones-only homes increased?&lt;/li&gt;
+&lt;li&gt;Explain or show your reasoning.&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/ol&gt;
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
-&lt;h4&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/tT95M7BitejHpYMvk8jJYQdi" alt="Graph of 2 functions. Blue solid line represents&amp;nbsp;percentage of homes in US&amp;nbsp;with&amp;nbsp;a landline phone in year t. Red dotted line represents the percentage of homes with&amp;nbsp;only&amp;nbsp;a cell phone."&gt;&lt;/h4&gt;
-
+&lt;h4&gt;&lt;img alt="Graph of 2 functions. Blue solid line represents&amp;nbsp;percentage of homes in US&amp;nbsp;with&amp;nbsp;a landline phone in year t. Red dotted line represents the percentage of homes with&amp;nbsp;only&amp;nbsp;a cell phone." src="https://s3.amazonaws.com/im-ims-export/tT95M7BitejHpYMvk8jJYQdi"&gt;&lt;/h4&gt;
 &lt;ol&gt;
-    &lt;li&gt;\(H(2006)\) is about 85, and \(C(2006)\) is about 14. In 2006, 85% of homes had a landline phone, and 14% of homes had only a cell phone.&lt;/li&gt;
-    &lt;li&gt;Approximately 2008. It means that around 2008, 20% of homes used only cell phones.&lt;/li&gt;
+&lt;li&gt;\(H(2006)\) is about 85, and \(C(2006)\) is about 14. In 2006, 85% of homes had a landline phone, and 14% of homes had only a cell phone.&lt;/li&gt;
+&lt;li&gt;Approximately 2008. It means that around 2008, 20% of homes used only cell phones.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;ol start="3"&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;ol&gt;
-        &lt;li&gt;Sample response: No, because \(C(2011)\) is about 30 and \(H(2011)\) is about 70. The percentage of homes with a landline phone and the percentage of homes with only a cell phone were not equal.&lt;/li&gt;
-        &lt;li&gt;Sample Response: Yes, because in 2015 the percentage of homes with a landline and the percentage of homes with only a cell phone were equal, as shown by the intersection of the graphs.&lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;ol&gt;
+&lt;li&gt;Sample response: No, because \(C(2011)\) is about 30 and \(H(2011)\) is about 70. The percentage of homes with a landline phone and the percentage of homes with only a cell phone were not equal.&lt;/li&gt;
+&lt;li&gt;Sample Response: Yes, because in 2015 the percentage of homes with a landline and the percentage of homes with only a cell phone were equal, as shown by the intersection of the graphs.&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/ol&gt;
 &lt;ol start="4"&gt;
-    &lt;li&gt;
-    &lt;/li&gt;
-    &lt;ol&gt;
-        &lt;li&gt;Sample responses:&lt;/li&gt;
-    &lt;/ol&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;ol&gt;
+&lt;li&gt;Sample responses:&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/ol&gt;
 &lt;p&gt;Yes, one decreased at roughly the same rate as the other one increased.&lt;/p&gt;
-
 &lt;p&gt;No, the percentage of cell-phones-only homes increased at a rate close to that by which the percentage of landline-owning homes decreased, but not exactly the same.
 &lt;/p&gt;
-
 &lt;ol start="2"&gt;
-    &lt;li&gt;Sample explanation:&lt;/li&gt;
+&lt;li&gt;Sample explanation:&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;In 2004, only about 6% of homes had only cell phones. In 2015, about 48% did. The average rate of change for \(C\) is \(\frac{48-6}{2015-2004}=\frac{42}{11}\), or about 3.8. This means the percentage of homes relying only on cell phones grew by about 3.8% each year.&lt;/li&gt;
-    &lt;li&gt;In 2004, about 92% of homes had a landline. In 2015, only about 48% did. The average rate of change for \(H\) is \(\frac{48-92}{2015-2004}=\frac{-44}{11}\), or –4. This means the percentage of homes that used landlines fell by 4% each year.&lt;/li&gt;
+&lt;li&gt;In 2004, only about 6% of homes had only cell phones. In 2015, about 48% did. The average rate of change for \(C\) is \(\frac{48-6}{2015-2004}=\frac{42}{11}\), or about 3.8. This means the percentage of homes relying only on cell phones grew by about 3.8% each year.&lt;/li&gt;
+&lt;li&gt;In 2004, about 92% of homes had a landline. In 2015, only about 48% did. The average rate of change for \(H\) is \(\frac{48-92}{2015-2004}=\frac{-44}{11}\), or &amp;ndash;4. This means the percentage of homes that used landlines fell by 4% each year.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
-
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-
-    &lt;p&gt;Use this routine to help students compare and interpret two functions. Display the student task statement and graph, leaving out the questions. Ask students to write down possible mathematical questions that could be asked about the situation. Invite students to compare their questions before revealing the activity’s questions. Listen for and amplify any questions involving the overall shape of the graphs, trends over specific time intervals, and the intersection point of the two graphs. The process of creating mathematical questions, without the pressure of producing answers or solutions, prompts students to make sense of the given information and to activate the language of mathematical questions. This work helps prepare students to process the actual questions.&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Use this routine to help students compare and interpret two functions. Display the student task statement and graph, leaving out the questions. Ask students to write down possible mathematical questions that could be asked about the situation. Invite students to compare their questions before revealing the activity&amp;rsquo;s questions. Listen for and amplify any questions involving the overall shape of the graphs, trends over specific time intervals, and the intersection point of the two graphs. The process of creating mathematical questions, without the pressure of producing answers or solutions, prompts students to make sense of the given information and to activate the language of mathematical questions. This work helps prepare students to process the actual questions.&lt;/p&gt;
 &lt;/div&gt;
-
 &lt;br&gt;
-
 &lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
-
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-
-    &lt;p&gt;Encourage and support opportunities for peer interactions. Prior to the whole-class discussion, invite students to share their work with a partner. Display sentence frames to support student conversation, such as: “One thing that is the same is . . .,” “One thing that is different is . . .,” and “_____ represents _____.”&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;Encourage and support opportunities for peer interactions. Prior to the whole-class discussion, invite students to share their work with a partner. Display sentence frames to support student conversation, such as: &amp;ldquo;One thing that is the same is . . .,&amp;rdquo; &amp;ldquo;One thing that is different is . . .,&amp;rdquo; and &amp;ldquo;_____ represents _____.&amp;rdquo;&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
-
 &lt;h5&gt;Are you ready for more?&lt;/h5&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;Explain why the statement \(C(t)+H(t)\leq100\) is true in this situation.&lt;/li&gt;
-    &lt;li&gt;What value does \(C(t)+H(t)\) appear to take between 2004 and 2017? How much does this value vary in that interval?&lt;/li&gt;
+&lt;li&gt;Explain why the statement \(C(t)+H(t)\leq100\) is true in this situation.&lt;/li&gt;
+&lt;li&gt;What value does \(C(t)+H(t)\) appear to take between 2004 and 2017? How much does this value vary in that interval?&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Extension Student Response&lt;/h4&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;Each household either has a landline or has no landline and relies only on cell phones, so \(H(t)\) and \(C(t)\) calculate separate groups of people. As long as there are not rounding errors, \(H(t)\) and \(C(t)\) together can only be 100 percent, and it is less if there are people with no phone service at all.&lt;/li&gt;
-    &lt;li&gt;It appears to take a value a little less than 100, maybe close to 97. For example, the two graphs meet below the midway point (50). At the beginning and the end of the shown interval, they add up to a little less than 100 as well. The sum is not constant (the shapes of the two graphs are different) but does not vary much, so the percentage of people with no phone service is small for the entire period.&lt;/li&gt;
+&lt;li&gt;Each household either has a landline or has no landline and relies only on cell phones, so \(H(t)\) and \(C(t)\) calculate separate groups of people. As long as there are not rounding errors, \(H(t)\) and \(C(t)\) together can only be 100 percent, and it is less if there are people with no phone service at all.&lt;/li&gt;
+&lt;li&gt;It appears to take a value a little less than 100, maybe close to 97. For example, the two graphs meet below the midway point (50). At the beginning and the end of the shown interval, they add up to a little less than 100 as well. The sum is not constant (the shapes of the two graphs are different) but does not vary much, so the percentage of people with no phone service is small for the entire period.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Video: Comparing Functions Represented in Separate Graphs&lt;/h4&gt;
-
 &lt;p&gt;Watch the following video to learn more about how to compare functions that are represented in separate graphs.&lt;/p&gt;
-
 &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
-    &lt;source src="https://k12.openstax.org/contents/raise/resources/7529123fb47025e11d6485c60baf00b6394e707b"&gt;
-    &lt;track src="https://k12.openstax.org/contents/raise/resources/1af5d87de5044b4982064fda2d8d6f8bf6144ff9" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/7529123fb47025e11d6485c60baf00b6394e707b
+&lt;source src="https://k12.openstax.org/contents/raise/resources/7529123fb47025e11d6485c60baf00b6394e707b"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/1af5d87de5044b4982064fda2d8d6f8bf6144ff9" srclang="en_us"&gt;https://k12.openstax.org/contents/raise/resources/7529123fb47025e11d6485c60baf00b6394e707b
 &lt;/video&gt;
 &lt;br&gt;
 &lt;br&gt;
-
 &lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
-
 &lt;p&gt;Students encounter percentages as the output of a function for the first time in this activity. Some students might think that the output of the functions here must be number of homes, and that they cannot estimate any output values because only percentages are known. Clarify that percent is the unit used in this case because we are studying how the proportion of the two groups (rather than the actual number of homes in each group) changed over time.&lt;/p&gt;
-
 &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
-
 &lt;p&gt;Focus the discussion on the meaning of equations, such as \(C(t)=20\) and \(C(2015)=H(2015)\), and on the meaning of the average rate of change of each function.&lt;/p&gt;
-
-&lt;p&gt;Select students to share their responses. Highlight the following points, if not already mentioned in students’ explanations:&lt;/p&gt;
-
+&lt;p&gt;Select students to share their responses. Highlight the following points, if not already mentioned in students&amp;rsquo; explanations:&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;\(C(t)=20\) means “in year \(t\), 20% of homes relied only on cell phones” and, based on the graph of \(C\), the value of \(t\) that makes that statement true is 2008.&lt;/li&gt;
-    &lt;li&gt;\(C(2015)=H(2015)\) means “in year 2015, the percentage of homes with only cell phones and the percentage of homes with landlines are equal.” We know this is true because at \(t=2015\) the two graphs intersect, which also means they share the same output value.&lt;/li&gt;
-    &lt;li&gt;The average rate of change for \(C\) is positive because, in the measured interval, the value of \(C\) increased overall. The average rate of change for \(H\) is negative because the value of \(H\) decreased overall.&lt;/li&gt;
-    &lt;li&gt;An average rate of change of 3.8% per year for \(C\) means that the percentage of homes relying only on cell phones grew by about 3.8% each year.&lt;/li&gt;
-    &lt;li&gt;An average rate of change of –4% per year means the percentage of homes that used landlines fell by 4% each year.&lt;/li&gt;
+&lt;li&gt;\(C(t)=20\) means &amp;ldquo;in year \(t\), 20% of homes relied only on cell phones&amp;rdquo; and, based on the graph of \(C\), the value of \(t\) that makes that statement true is 2008.&lt;/li&gt;
+&lt;li&gt;\(C(2015)=H(2015)\) means &amp;ldquo;in year 2015, the percentage of homes with only cell phones and the percentage of homes with landlines are equal.&amp;rdquo; We know this is true because at \(t=2015\) the two graphs intersect, which also means they share the same output value.&lt;/li&gt;
+&lt;li&gt;The average rate of change for \(C\) is positive because, in the measured interval, the value of \(C\) increased overall. The average rate of change for \(H\) is negative because the value of \(H\) decreased overall.&lt;/li&gt;
+&lt;li&gt;An average rate of change of 3.8% per year for \(C\) means that the percentage of homes relying only on cell phones grew by about 3.8% each year.&lt;/li&gt;
+&lt;li&gt;An average rate of change of &amp;ndash;4% per year means the percentage of homes that used landlines fell by 4% each year.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;If time permits, discuss with students:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;“The average rate of change for \(C\) is 4% per year, while the average rate of change for \(H\) is –3.8% per year, which is very close to –4%. Why might the rate at which one increased be so close to the rate at which the other decreased? Could it be a coincidence?” (One possible explanation is that, as people relied more on cell phones, they relied less on landlines, and they discontinued using landlines around the same time they acquired new cell phones. These people essentially went from one group to the other.)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The average rate of change for \(C\) is 4% per year, while the average rate of change for \(H\) is &amp;ndash;3.8% per year, which is very close to &amp;ndash;4%. Why might the rate at which one increased be so close to the rate at which the other decreased? Could it be a coincidence?&amp;rdquo; (One possible explanation is that, as people relied more on cell phones, they relied less on landlines, and they discontinued using landlines around the same time they acquired new cell phones. These people essentially went from one group to the other.)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3&gt;4.9.2: Self Check&lt;/h3&gt;
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col width="302"&gt;
-        &lt;col width="322"&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td colspan="2"&gt;
-                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
-
-                &lt;p&gt;A Mars rover collected the following temperature data over 1.6 Martian days. A Martian day is called a Sol. Which of the following is true about the comparison between ground temperature and air temperature?&lt;/p&gt;
-
-                &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/05d467bbffe79a0a52ce6581d0886fe8a59870f0" alt="GRAPH THAT SHOWS AIR TEMPERATURE AND GROUND TEMPERATURE IN DEGREES CELSIUS FOR 10 TO 11.6 SOLS." width="300"&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;At 11 Sols, the ground temperature is warmer than the air temperature.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: The ground temperature’s graph is below that of the air temperature at this time. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;The ground temperature is always warmer than the air temperature.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: Throughout the temperature collection, the ground and air temperatures change which is greater than the other. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;At 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;That’s correct! Check yourself: The graph of the air temperature is above the graph of the ground temperature at the place where the \(x\)-axis is 11 Sols.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;The air temperature is always warmer than the ground temperature.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: Throughout the temperature collection, the ground and air temperatures change which is greater than the other. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col width="302"&gt;
+&lt;col width="322"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A Mars rover collected the following temperature data over 1.6 Martian days. A Martian day is called a Sol. Which of the following is true about the comparison between ground temperature and air temperature?&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH THAT SHOWS AIR TEMPERATURE AND GROUND TEMPERATURE IN DEGREES CELSIUS FOR 10 TO 11.6 SOLS." src="https://k12.openstax.org/contents/raise/resources/05d467bbffe79a0a52ce6581d0886fe8a59870f0" width="300"&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;At 11 Sols, the ground temperature is warmer than the air temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: The ground temperature&amp;rsquo;s graph is below that of the air temperature at this time. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;The ground temperature is always warmer than the air temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Throughout the temperature collection, the ground and air temperatures change which is greater than the other. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;At 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;That&amp;rsquo;s correct! Check yourself: The graph of the air temperature is above the graph of the ground temperature at the place where the \(x\)-axis is 11 Sols.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;The air temperature is always warmer than the ground temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Throughout the temperature collection, the ground and air temperatures change which is greater than the other. The answer is at 11 Sols, the air temperature is warmer than the ground temperature.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;h3&gt;4.9.2: Additional Resources&lt;/h3&gt;
-
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
 &lt;h4&gt;Comparing Populations&lt;/h4&gt;
-
 &lt;p&gt;Graphs are very useful for comparing two or more functions. Here are graphs of functions \(C\) and \(T\), which give the populations (in millions) of California and Texas in year \(x\).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/j1234hnggnytN1WkbJNGxNfQ" alt="Graph of the populations of two states over time on a coordinate plane.&amp;nbsp;"&gt;&lt;/p&gt;
-
-&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;&lt;strong&gt;What can we tell about the populations?&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;&lt;strong&gt;How can we tell? &lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;&lt;strong&gt;How can we convey this with function notation? &lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;In the early 1900s, California had a smaller population than Texas.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;The graph of \(C\)&amp;nbsp;is below the graph of \(T\)&amp;nbsp;when \(x\)&lt;em&gt; &lt;/em&gt;is 1900.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;\(C(1900)&amp;lt;T(1900)\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;Around 1935, the two states had the same population of about 5 million people.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;The graphs intersect at about \((1935, 5)\).&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;\(C(1935)=5\) and &lt;br&gt;
+&lt;p&gt;&lt;img alt="Graph of the populations of two states over time on a coordinate plane.&amp;nbsp;" src="https://s3.amazonaws.com/im-ims-export/j1234hnggnytN1WkbJNGxNfQ"&gt;&lt;/p&gt;
+&lt;table border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;&lt;strong&gt;What can we tell about the populations?&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;&lt;strong&gt;How can we tell? &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;&lt;strong&gt;How can we convey this with function notation? &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;In the early 1900s, California had a smaller population than Texas.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;The graph of \(C\)&amp;nbsp;is below the graph of \(T\)&amp;nbsp;when \(x\)&lt;em&gt; &lt;/em&gt;is 1900.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;\(C(1900)&amp;lt;T(1900)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;Around 1935, the two states had the same population of about 5 million people.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;The graphs intersect at about \((1935, 5)\).&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;\(C(1935)=5\) and &lt;br&gt;
                     \(T(1935)=5\), and &lt;br&gt;
                     \(C(1935)=T(1935)\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;After 1935, California has had more people than Texas. &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;When \(x\) is greater than 1935, the graph of \(C(x)\) is above that of \(T(x)\).&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;\(C(x)&amp;gt;T(x)\) for&lt;br&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;After 1935, California has had more people than Texas. &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;When \(x\) is greater than 1935, the graph of \(C(x)\) is above that of \(T(x)\).&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;\(C(x)&amp;gt;T(x)\) for&lt;br&gt;
                     \(x&amp;gt;1935\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;Both populations have increased over time, with no periods of decline. &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;Both graphs slant upward from left to right. &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;From 1900 to 2010, the population of California has risen faster than that of Texas. California had a greater average rate of change. &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;If we draw a line to connect the points for 1900 and 2010 on each graph, the line for &lt;em&gt;C&lt;/em&gt; has a greater slope than that for &lt;em&gt;T&lt;/em&gt;. &lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td width="208" valign="top"&gt;
-                &lt;p&gt;\(\frac{C(2010)-C(1900)}{201-1900}&amp;gt;\frac{T(2010)-T(1900)}{2010-1900}\)&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;Both populations have increased over time, with no periods of decline. &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;Both graphs slant upward from left to right. &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;From 1900 to 2010, the population of California has risen faster than that of Texas. California had a greater average rate of change. &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;If we draw a line to connect the points for 1900 and 2010 on each graph, the line for &lt;em&gt;C&lt;/em&gt; has a greater slope than that for &lt;em&gt;T&lt;/em&gt;. &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="top" width="208"&gt;
+&lt;p&gt;\(\frac{C(2010)-C(1900)}{201-1900}&amp;gt;\frac{T(2010)-T(1900)}{2010-1900}\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;h4&gt;Try It: Comparing Populations&lt;/h4&gt;
 &lt;br&gt;
-
 &lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
 &lt;br&gt;
-
 &lt;p&gt;Which state had a greater population in 1920?&lt;/p&gt;
-
 &lt;p&gt;Use the graphing tool here or technology outside the course. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-
 &lt;h5&gt;Solution&lt;/h5&gt;
-
 &lt;p&gt;Here is how to read the graph to find the larger population:&lt;/p&gt;
-
 &lt;p&gt;On the horizontal axis, at 1920, the graph for Texas touches at about 5 million, while the graph for California touches at about 4 million.&lt;/p&gt;
-
 &lt;p&gt;In 1920, Texas had a larger population than California.&lt;/p&gt;
-
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1969">
@@ -997,168 +839,125 @@
         <timemodified>1662658775</timemodified>
         <title>4.9.4: Compare Graphs and Statements that Represent Functions without a Context</title>
         <contents>&lt;h3&gt;Activity (10 minutes)&lt;/h3&gt;
-
 &lt;p&gt;In this activity, students compare graphs and statements that represent functions without a context. Because no concrete information is given, students need to rely on their understanding of function notation and points on a graph to make comparisons and to interpret intersections of the graphs.&lt;/p&gt;
-
 &lt;p&gt;Previously, students saw equations such as \(f(8)=g(8)\) and interpreted them in terms of a situation. Here, they begin to reason more abstractly about statements of the form \(f(x)=g(x)\) and relate it to one or more points where the graphs of \(f\) and \(g\) intersect. They see that a value of \(x\) that makes this equation true, or a solution to the equation, is the input value of such an intersection.&lt;/p&gt;
-
 &lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
-
 &lt;p&gt;Here are graphs that represent two functions, (f\) and \(g\).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/vksqPXVgGdYnGjuogUhGdDpp" alt="A graph.&amp;nbsp;"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="A graph.&amp;nbsp;" src="https://s3.amazonaws.com/im-ims-export/vksqPXVgGdYnGjuogUhGdDpp"&gt;&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;Decide which function value is greater for each given input. Be prepared to explain your reasoning.
+&lt;li&gt;Decide which function value is greater for each given input. Be prepared to explain your reasoning.
         &lt;ol type="a"&gt;
-            &lt;li&gt;\(f(2)\) or \(g(2)\)&lt;/li&gt;
-            &lt;li&gt;\(f(4)\) or \(g(4)\)&lt;/li&gt;
-            &lt;li&gt;\(f(6)\) or \(g(6)\)&lt;/li&gt;
-            &lt;li&gt;\(f(8)\) or \(g(8)\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-
-    &lt;li&gt;Is there a value of \(x\) at which the equation \(f(x)=g(x)\) is true? Explain your reasoning.&lt;/li&gt;
-    &lt;li&gt;Identify at least two values of \(x\) at which the inequality \(f(x)&amp;lt;g(x)\) is true.&lt;/li&gt;
+&lt;li&gt;\(f(2)\) or \(g(2)\)&lt;/li&gt;
+&lt;li&gt;\(f(4)\) or \(g(4)\)&lt;/li&gt;
+&lt;li&gt;\(f(6)\) or \(g(6)\)&lt;/li&gt;
+&lt;li&gt;\(f(8)\) or \(g(8)\)&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;li&gt;Is there a value of \(x\) at which the equation \(f(x)=g(x)\) is true? Explain your reasoning.&lt;/li&gt;
+&lt;li&gt;Identify at least two values of \(x\) at which the inequality \(f(x)&amp;lt;g(x)\) is true.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;
-
-        &lt;ol type="a"&gt;
-            &lt;li&gt;\(g(2)\) is greater.&lt;/li&gt;
-            &lt;li&gt;They appear to be equal.&lt;/li&gt;
-            &lt;li&gt;\(f(6)\) is greater.&lt;/li&gt;
-            &lt;li&gt;\(
+&lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;\(g(2)\) is greater.&lt;/li&gt;
+&lt;li&gt;They appear to be equal.&lt;/li&gt;
+&lt;li&gt;\(f(6)\) is greater.&lt;/li&gt;
+&lt;li&gt;\(
                 f(8)\) is greater.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-
-    &lt;li&gt;Yes. Sample reasoning: If the graphs intersect when \(x\) is 4 and when it is 9, then \(f(4)=g(4)\) and \(f(9)=g(9)\).&lt;/li&gt;
-    &lt;li&gt;Sample response: 1, 3, 10, 11, or other \(x\)-values that are less than 4 and greater than 9&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;li&gt;Yes. Sample reasoning: If the graphs intersect when \(x\) is 4 and when it is 9, then \(f(4)=g(4)\) and \(f(9)=g(9)\).&lt;/li&gt;
+&lt;li&gt;Sample response: 1, 3, 10, 11, or other \(x\)-values that are less than 4 and greater than 9&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
-
 &lt;p&gt;Display the graphs of \(f\) and \(g\) for all to see. Invite students to share their responses to the first set of questions. As they point out the greater function value in each pair, mark the point on the graph and write a corresponding statement in function notation:&lt;/p&gt;
-
 &lt;p&gt;\(f(2)&amp;lt;g(2)\), \(f(4)=g(4)\), \(f(6)&amp;gt;g(6)\), and \(f(8)&amp;gt;g(8)\). Emphasize that the function value that is greater in each pair has a higher vertical value on the coordinate plane for the same input value.&lt;/p&gt;
-
 &lt;p&gt;Next, discuss if there are values of \(x\) that make \(f(x)=g(x)\) true and how we can tell. Point out that earlier we wrote \(f(4)=g(4)\) because the values of&amp;nbsp;(f\) and \(g\) are equal when the input is 4. This means that \((4,f(4))\) and \((4,g(4))\) are coordinates of the same point.&lt;/p&gt;
-
 &lt;p&gt;So, we can interpret an equation such as \(f(x)=g(x)\) to mean that the values of \(f\) and \(g\) are equal when the input is \(x\), and that \(x\) must be the horizontal value of the intersection of both graphs, which is a point that they share.&lt;/p&gt;
-
 &lt;h4&gt;4.9.4: Self Check&lt;/h4&gt;
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td colspan="2"&gt;
-                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
-                &lt;p&gt;Which of the following is true about the graphs of \(f(x)\) and \(g(x)\) below?&lt;/p&gt;
-                &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/18ca75d15cf8ee241809e9ecfee4b5a7d0872e8b" alt="GRAPH OF TWO FUNCTIONS. ONE IS A PARABOLA THAT OPENS UP. THE OTHER IS A LINE WITH A NEGATIVE SLOPE. THE FUNCTIONS INTERSECT AT THE POINTS (1, −3) AND (−2, 0).
-" width="300"&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;\(f(0)&amp;gt;g(0)\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: The graph of \(g\) is higher than the graph of \(f\) at \(x=0\). The answer is \(f(1)=g(1)\).&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;\(f(1)=g(1)\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;That’s correct! Check yourself: When \(x=1\), both \(f\) and \(g\) equal –3.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;\(f(-3)&amp;lt;g(-3)\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: At \(x = -3\), \(f\) is higher than \(g\). The answer is \(f(1)=g(1)\).&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;\(f(-1)=g(-1)\)&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: At \(x =-1\), \(g\) is greater than \(f\). The answer is \(f(1)=g(1)\).&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Which of the following is true about the graphs of \(f(x)\) and \(g(x)\) below?&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH OF TWO FUNCTIONS. ONE IS A PARABOLA THAT OPENS UP. THE OTHER IS A LINE WITH A NEGATIVE SLOPE. THE FUNCTIONS INTERSECT AT THE POINTS (1, &amp;minus;3) AND (&amp;minus;2, 0).
+" src="https://k12.openstax.org/contents/raise/resources/18ca75d15cf8ee241809e9ecfee4b5a7d0872e8b" width="300"&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;\(f(0)&amp;gt;g(0)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: The graph of \(g\) is higher than the graph of \(f\) at \(x=0\). The answer is \(f(1)=g(1)\).&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;\(f(1)=g(1)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;That&amp;rsquo;s correct! Check yourself: When \(x=1\), both \(f\) and \(g\) equal &amp;ndash;3.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;\(f(-3)&amp;lt;g(-3)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: At \(x = -3\), \(f\) is higher than \(g\). The answer is \(f(1)=g(1)\).&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;\(f(-1)=g(-1)\)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: At \(x =-1\), \(g\) is greater than \(f\). The answer is \(f(1)=g(1)\).&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
-
 &lt;h3&gt;4.9.4: Additional Resources&lt;/h3&gt;
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;h4&gt;Using Graphs to Find Values&lt;/h4&gt;
-
 &lt;p&gt;Two functions, \(f(x)\) and \(g(x)\), are graphed below.&lt;/p&gt;
-
 &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/986c876b6a7ce62300a07a46d57b9ba670fc452d" width="300"&gt;&lt;/p&gt;
-
 &lt;p&gt;What is the value of \(f(-1)\)?&lt;/p&gt;
-
-&lt;p&gt;Look at where \(x=-1\) touches the graph of \(f\). The \(y\)-value is –3.&lt;/p&gt;
-
+&lt;p&gt;Look at where \(x=-1\) touches the graph of \(f\). The \(y\)-value is &amp;ndash;3.&lt;/p&gt;
 &lt;p&gt;\(f(-1)=-3\)&lt;/p&gt;
-
 &lt;p&gt;What is the value of \(g(-1)\)?&lt;/p&gt;
-
-&lt;p&gt;Look where \(x=-1\) touches the graph of \(g\). The \(y\)-value is –1.&lt;/p&gt;
-
+&lt;p&gt;Look where \(x=-1\) touches the graph of \(g\). The \(y\)-value is &amp;ndash;1.&lt;/p&gt;
 &lt;p&gt;\(g(-1)=-1\)&lt;/p&gt;
-
 &lt;p&gt;Which value is greater?&lt;/p&gt;
-
 &lt;p&gt;\(g(-1)&amp;gt;f(-1)\)&lt;/p&gt;
-
 &lt;h4&gt;Try It: Using Graphs to Find Values&lt;/h4&gt;
-
 &lt;p&gt;Two functions, \(f(x)\) and \(g(x)\), are graphed below.&lt;/p&gt;
-
 &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/0a95f97942851a42c0c3da2b29964995d4775d74" width="300"&gt;&lt;/p&gt;
-
 &lt;p&gt;Which is greater, \(f(1)\) or \(g(1)\)?&lt;/p&gt;
-
 &lt;p&gt;In your notebook, write down your answer. Then select the&lt;strong&gt; Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-
 &lt;h5&gt;Solution&lt;/h5&gt;
-
 &lt;p&gt;Here is how to determine which value is greater:&lt;/p&gt;
-
 &lt;p&gt;Looking at the graph, \(f(1)\) is where \(x=1\) reaches the graph of \(f(x)\). The \(y\)-value there is 4. So, \(f(1)=4\).&lt;/p&gt;
-
 &lt;p&gt;Similarly, \(g(1)\) is where \(x=1\) reaches the graph of \(g(x)\). The \(y\)-value there is 2.&lt;/p&gt;
-
 &lt;p&gt;So, \(f(1) &amp;gt;g(1)\).&lt;/p&gt;
-
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1971">
@@ -1204,26 +1003,20 @@
         <timemodified>1662658828</timemodified>
         <title>4.9.5: Analyzing Functions Using Real-World Context</title>
         <contents>&lt;h4&gt;Cool Down (5 minutes)&lt;/h4&gt;
-
 &lt;p&gt;Teacher note: students may need a review on inequalities.&lt;/p&gt;
-
 &lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
-
 &lt;p&gt;Functions \(R\) and \(D\) give the height, in feet, of a toy rocket and a drone, \(t\) seconds after they are released. Here are the graphs of \(R\) (for the rocket) and \(D\) (for the drone).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/uRQcsYCfgkvuMAP9GikN626e" alt="Two functions graphed on a cooridnate plane."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Two functions graphed on a cooridnate plane." src="https://s3.amazonaws.com/im-ims-export/uRQcsYCfgkvuMAP9GikN626e"&gt;&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;Which of the inequalities is true: \(R(2)&amp;gt;D(2)\) or \(D(2)&amp;gt; R(2)\)?&lt;/li&gt;
-    &lt;li&gt;What was the height of the drone when the toy rocket hit the ground?&lt;/li&gt;
-    &lt;li&gt;For what value of \(t\) is \(R(t)=D(t)\) true? What does this tell you about the drone and the toy rocket?&lt;/li&gt;
+&lt;li&gt;Which of the inequalities is true: \(R(2)&amp;gt;D(2)\) or \(D(2)&amp;gt; R(2)\)?&lt;/li&gt;
+&lt;li&gt;What was the height of the drone when the toy rocket hit the ground?&lt;/li&gt;
+&lt;li&gt;For what value of \(t\) is \(R(t)=D(t)\) true? What does this tell you about the drone and the toy rocket?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;\(R(2)&amp;gt;D(2)\)&lt;/li&gt;
-    &lt;li&gt;20 feet&lt;/li&gt;
-    &lt;li&gt;About \(t=4.5\). At 4.5 seconds, the toy rocket and the drone are at the same height.&lt;/li&gt;
+&lt;li&gt;\(R(2)&amp;gt;D(2)\)&lt;/li&gt;
+&lt;li&gt;20 feet&lt;/li&gt;
+&lt;li&gt;About \(t=4.5\). At 4.5 seconds, the toy rocket and the drone are at the same height.&lt;/li&gt;
 &lt;/ol&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1271,72 +1064,72 @@
         <title>4.9.6: Practice </title>
         <contents>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Functions \(R\) and \(D\) give the height, in feet, of a toy rocket and a drone, \(t\) seconds after they are released.&lt;/li&gt;
+&lt;li&gt;Functions \(R\) and \(D\) give the height, in feet, of a toy rocket and a drone, \(t\) seconds after they are released.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Here are the graphs of \(R\) (for the rocket) and \(D\) (for the drone).&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/uRQcsYCfgkvuMAP9GikN626e" alt="Two functions graphed on a cooridnate plane."&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Two functions graphed on a cooridnate plane." src="https://s3.amazonaws.com/im-ims-export/uRQcsYCfgkvuMAP9GikN626e"&gt;&lt;/p&gt;
 &lt;p&gt;Decide whether the following statements are true or false.&lt;/p&gt;
 &lt;ol type="a"&gt;
-  &lt;li&gt;\(R(3)&amp;gt;D(3)\) &lt;/li&gt;
+&lt;li&gt;\(R(3)&amp;gt;D(3)\) &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; True&lt;/p&gt;
 &lt;ol start="2" type="a"&gt;
-  &lt;li&gt;\(R(0)=D(0)\) &lt;/li&gt;
+&lt;li&gt;\(R(0)=D(0)\) &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; False&lt;/p&gt;
 &lt;ol start="3" type="a"&gt;
-  &lt;li&gt;\(R(4)=D(4)\) &lt;/li&gt;
+&lt;li&gt;\(R(4)=D(4)\) &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;True&lt;/p&gt;
 &lt;ol start="4" type="a"&gt;
-  &lt;li&gt;\(R(0)=D(0)+25\) &lt;/li&gt;
+&lt;li&gt;\(R(0)=D(0)+25\) &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;True&lt;/p&gt;
 &lt;ol start="5" type="a"&gt;
-  &lt;li&gt;\(D(7)&amp;gt;R(5)\) &lt;/li&gt;
+&lt;li&gt;\(D(7)&amp;gt;R(5)\) &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; False&lt;/p&gt;
 &lt;ol start="2"&gt;
-  &lt;li&gt;\(A(t)\) is the average high temperature in Aspen, Colorado, \(t\) months after the start of the year. \(M(t)\) is the average high temperature in Minneapolis, Minnesota, \(t\) months after the start of the year. Temperature is measured in degrees Fahrenheit. &lt;img src="https://k12.openstax.org/contents/raise/resources/7b3766d3ead874b4e2db8f1013d3f0b5420120a9" alt="" width="300" height="278" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt; Which function had the higher average rate of change between the beginning of January and middle of March? &lt;/li&gt;
+&lt;li&gt;\(A(t)\) is the average high temperature in Aspen, Colorado, \(t\) months after the start of the year. \(M(t)\) is the average high temperature in Minneapolis, Minnesota, \(t\) months after the start of the year. Temperature is measured in degrees Fahrenheit. &lt;img alt class="img-fluid atto_image_button_text-bottom" height="278" role="presentation" src="https://k12.openstax.org/contents/raise/resources/7b3766d3ead874b4e2db8f1013d3f0b5420120a9" width="300"&gt; Which function had the higher average rate of change between the beginning of January and middle of March? &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Minneapolis&lt;/p&gt;
 &lt;ol start="3"&gt;
-  &lt;li&gt;Here are two graphs representing functions \(f\) and \(g\).&lt;/li&gt;
+&lt;li&gt;Here are two graphs representing functions \(f\) and \(g\).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Select all statements that are true about functions \(f\) and \(g\).&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/YSUqiee4YWNbWEf1qbwu5CNR" width="324" height="213"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img height="213" src="https://s3.amazonaws.com/im-ims-export/YSUqiee4YWNbWEf1qbwu5CNR" width="324"&gt;&lt;/p&gt;
 &lt;ol type="a"&gt;
-  &lt;li&gt;\(f(0)&amp;gt;g(0)\)&lt;/li&gt;
-  &lt;li&gt;There are values of \(x\) where \(f(x)=g(x)\).&lt;/li&gt;
-  &lt;li&gt;\(f(-1)&amp;gt;g(-1)\)&lt;/li&gt;
-  &lt;li&gt;\(f(-3)&amp;gt;g(4)\) &lt;/li&gt;
+&lt;li&gt;\(f(0)&amp;gt;g(0)\)&lt;/li&gt;
+&lt;li&gt;There are values of \(x\) where \(f(x)=g(x)\).&lt;/li&gt;
+&lt;li&gt;\(f(-1)&amp;gt;g(-1)\)&lt;/li&gt;
+&lt;li&gt;\(f(-3)&amp;gt;g(4)\) &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;There are values of \(x\) where \(f(x)=g(x)\), \(f(-1)&amp;gt;g(-1)\), \(f(-3)&amp;gt;g(4)\)&lt;/p&gt;
-&lt;p&gt;For questions 4–6, use the three graphs below:&lt;/p&gt;
+&lt;p&gt;For questions 4&amp;ndash;6, use the three graphs below:&lt;/p&gt;
 &lt;p&gt;The three graphs represent the progress of three runners in a 400-meter race.&lt;/p&gt;
 &lt;p&gt;The solid line represents Runner A. The dotted line represents Runner B. The dashed line represents Runner C.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/SpyL6hTHF8F1HXDEkJE5Jqf2" width="324" height="213"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img height="213" src="https://s3.amazonaws.com/im-ims-export/SpyL6hTHF8F1HXDEkJE5Jqf2" width="324"&gt;&lt;/p&gt;
 &lt;ol start="4"&gt;
-  &lt;li&gt;Which runner ran at a constant rate throughout the race? &lt;/li&gt;
+&lt;li&gt;Which runner ran at a constant rate throughout the race? &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;Runner C&amp;nbsp;&lt;/p&gt;
 &lt;ol start="5"&gt;
-  &lt;li&gt;Which runner stopped running for a while? &lt;/li&gt;
+&lt;li&gt;Which runner stopped running for a while? &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;Runner A&lt;/p&gt;
 &lt;ol start="6"&gt;
-  &lt;li&gt; Which runner won the race? &lt;/li&gt;
+&lt;li&gt; Which runner won the race? &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;Runner C&lt;/p&gt;
-&lt;p&gt;Use the graphs below for questions 7–8.&lt;/p&gt;
+&lt;p&gt;Use the graphs below for questions 7&amp;ndash;8.&lt;/p&gt;
 &lt;p&gt;Show A&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Show B&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Show C&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/4ac31af5cda20f893e4a37940e125dea4f2d0f23" width="550"&gt;&lt;/p&gt;
 &lt;ol start="7"&gt;
-  &lt;li&gt;Which show had the largest audience for episode 4? &lt;/li&gt;
+&lt;li&gt;Which show had the largest audience for episode 4? &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Show B&lt;/p&gt;
 &lt;ol start="8"&gt;
-  &lt;li&gt;Which show had the largest audience for their first episode? &lt;/li&gt;
+&lt;li&gt;Which show had the largest audience for their first episode? &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Show B&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
@@ -1384,68 +1177,64 @@
         <timemodified>1662659471</timemodified>
         <title>4.9.7: Lesson Synthesis</title>
         <contents>&lt;p&gt;Refer back to the population graphs for Baltimore and Cleveland from 1900 to 2010, which students saw in the warm-up. Display the graphs for all to see.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/tAd99gdASx6XYhexeuSmdMhh" alt="Two functions. year and population."&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Two functions. year and population." src="https://s3.amazonaws.com/im-ims-export/tAd99gdASx6XYhexeuSmdMhh"&gt;&lt;/p&gt;
 &lt;p&gt;Present students with the following statements, one at a time, about the populations of the two cities. Tell students that their job is to explain how they could tell from the graphs that each statement is true, and to translate each verbal description into a statement with the same meaning but written in function notation.&lt;/p&gt;
-
-&lt;p&gt;Consider using a three-column graphic organizer to organize students’ responses.&lt;/p&gt;
-
+&lt;p&gt;Consider using a three-column graphic organizer to organize students&amp;rsquo; responses.&lt;/p&gt;
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col width="312"&gt;
-        &lt;col width="73"&gt;
-        &lt;col width="239"&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;What can we tell about the&lt;/strong&gt;&lt;/p&gt;
-                &lt;p&gt;&lt;strong&gt;populations?&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;How can we tell?&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;How can we convey this with function notation?&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;In 2010, Baltimore had more people than Cleveland.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;Baltimore and Cleveland had the same population twice in the past century, in 1910 and around 1944.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;After the mid-1940s, Cleveland has had a smaller population than Baltimore.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;In the first half of the 20th century, the population of Cleveland grew at a faster rate than that of Baltimore.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;Since 1950, the population of Cleveland has dropped at a faster rate than that of Baltimore.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col width="312"&gt;
+&lt;col width="73"&gt;
+&lt;col width="239"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;What can we tell about the&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;populations?&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;How can we tell?&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;How can we convey this with function notation?&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;In 2010, Baltimore had more people than Cleveland.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Baltimore and Cleveland had the same population twice in the past century, in 1910 and around 1944.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;After the mid-1940s, Cleveland has had a smaller population than Baltimore.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;In the first half of the 20th century, the population of Cleveland grew at a faster rate than that of Baltimore.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Since 1950, the population of Cleveland has dropped at a faster rate than that of Baltimore.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>

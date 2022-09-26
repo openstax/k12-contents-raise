@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="107" moduleid="143" modulename="lesson" contextid="154">
   <lesson id="107">
     <course>2</course>
     <name>Lesson 4.14 Teacher Guide: Introducing Geometric Sequences</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>146</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -54,175 +54,151 @@
         <timemodified>1662591654</timemodified>
         <title>4.14.0: Lesson Overview</title>
         <contents>&lt;h4&gt; Lesson Narrative&lt;/h4&gt;
-&lt;p&gt;The purpose of this lesson is for students to understand what makes a sequence a geometric sequence and to begin to connect that idea with their learning about exponential functions in an earlier course. The lesson also gives students the opportunity to use precise language to describe the relationship between consecutive terms in a sequence—in particular, how the terms of a geometric sequence grow by the same factor from one term to the next. For example, this is a geometric sequence: 0.5, 2, 8, 32, 128, . . . Each term is 4 times the previous term. Two ways to think about how you know the sequence is geometric are:&lt;/p&gt;
-
+&lt;p&gt;The purpose of this lesson is for students to understand what makes a sequence a geometric sequence and to begin to connect that idea with their learning about exponential functions in an earlier course. The lesson also gives students the opportunity to use precise language to describe the relationship between consecutive terms in a sequence&amp;mdash;in particular, how the terms of a geometric sequence grow by the same factor from one term to the next. For example, this is a geometric sequence: 0.5, 2, 8, 32, 128, . . . Each term is 4 times the previous term. Two ways to think about how you know the sequence is geometric are:&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Each term is multiplied by a factor of 4 to get the next term.
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         The ratio of each term and the previous term is 4.
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We call 4 the common ratio or the growth factor. After considering some examples of geometric sequences in the warm-up and how they are similar, students then develop two different sequences from the context of continually cutting a piece of paper in half. Using tables and graphs to identify the common ratio of these sequences, geometric sequences are defined. Next, students practice calculating missing terms of geometric sequences by first identifying the common ratio.&lt;/p&gt;
 &lt;p&gt;In an earlier course, students encountered the idea of functions and studied exponential functions specifically. Some students may see that a geometric sequence is simply an exponential function whose outputs are the terms and whose inputs are the positions of the terms. Later lessons will elaborate on this idea. This lesson invites recall of those ideas with a light touch by referring to, for example, "the size of each piece as a function of the number of cuts" and by using the term common ratio rather than common ratio. Students are also asked to describe how graphs representing each quantity in the paper cutting context are the same and different, and in so doing may recall prior knowledge of the behavior of exponential functions. In the last activity, the connection is made explicit.&lt;/p&gt;
-&lt;p&gt;A note on language and notation: In earlier courses, students may have learned that a ratio is an association between two or more quantities. In more advanced work, such as this course, “ratio” is typically used as a synonym for “quotient.” This expanded use of the word “ratio” comes into play in this lesson with the introduction of the term “common ratio.”&lt;/p&gt;
-
+&lt;p&gt;A note on language and notation: In earlier courses, students may have learned that a ratio is an association between two or more quantities. In more advanced work, such as this course, &amp;ldquo;ratio&amp;rdquo; is typically used as a synonym for &amp;ldquo;quotient.&amp;rdquo; This expanded use of the word &amp;ldquo;ratio&amp;rdquo; comes into play in this lesson with the introduction of the term &amp;ldquo;common ratio.&amp;rdquo;&lt;/p&gt;
 &lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
 &lt;p&gt;Students will be able to:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Create tables and graphs to represent geometric sequences.
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Determine missing terms in geometric sequences.
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Determine the common ratio of a geometric sequence.
     &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Find missing terms in a geometric sequence.
     &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
 &lt;br&gt;
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;A12(C) &lt;u&gt;identify terms&lt;/u&gt;&lt;u&gt; of &lt;/u&gt;arithmetic and &lt;u&gt;geometric sequences&lt;/u&gt; when the sequences are given in function form using recursive processes;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;A12(C) &lt;u&gt;identify terms&lt;/u&gt;&lt;u&gt; of &lt;/u&gt;arithmetic and &lt;u&gt;geometric sequences&lt;/u&gt; when the sequences are given in function form using recursive processes;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;br&gt;
-
 &lt;h4&gt;Lesson Activities&lt;/h4&gt;
-
 &lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         4.14.1: What Are the Patterns?
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         4.14.2: Using Tables and Graphs to Represent Geometric Sequences
     &lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
             4.14.2: Self Check
         &lt;/li&gt;
-        &lt;li&gt;
+&lt;li&gt;
             4.14.2: Additional Resources
         &lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;li&gt;
+&lt;/ul&gt;
+&lt;li&gt;
         4.14.3: Complete the Sequence
     &lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
             4.14.3: Self Check
         &lt;/li&gt;
-        &lt;li&gt;
+&lt;li&gt;
             4.14.3: Additional Resources
         &lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;li&gt;
+&lt;/ul&gt;
+&lt;li&gt;
         4.14.4: Connecting the Common Ratio and the Term in a Sequence
     &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Students will also complete a series of problems in the 4.14.5: Practice.&lt;/p&gt;
-
-
 &lt;h4&gt;Required Materials&lt;/h4&gt;
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Sheets of 8-inch by 10-inch paper
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Scissors
     &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4&gt;Required Preparation&lt;/h4&gt;
 &lt;p&gt;Scissors and pieces of paper will be needed if students will physically carry out the paper cutting instead of observing how the paper-cutting would look. If using, prepare one pair of scissors and one 8 inch by 10 inch piece of blank paper for every two students.&amp;nbsp;&lt;/p&gt;
-
-
 &lt;h4&gt; Lesson Vocabulary&lt;/h4&gt;
 &lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings.
     &lt;/li&gt;
-    &lt;li&gt;
-        Encourage students to use key vocabulary words in “math talk” and their written and oral explanations.
+&lt;li&gt;
+        Encourage students to use key vocabulary words in &amp;ldquo;math talk&amp;rdquo; and their written and oral explanations.
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;
-    &lt;/li&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Vocabulary words that are emphasized in this lesson include:&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         constant
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         term
     &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         geometric sequence
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         common ratio
     &lt;/li&gt;
 &lt;/ul&gt;
-
-
 &lt;h4&gt;Support for Building Character&lt;/h4&gt;
-
 &lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;creativity&lt;/strong&gt;.&lt;/p&gt;
-
 &lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;
-        &lt;a href="https://characterlab.org/tips-of-the-week/sample-then-specialize" target="_blank"&gt;Sample, Them Specialize&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;a href="https://characterlab.org/tips-of-the-week/free-your-mind/" target="_blank"&gt;Free Your Mind&lt;/a&gt;
-    &lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://characterlab.org/tips-of-the-week/sample-then-specialize" target="_blank"&gt;Sample, Them Specialize&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://characterlab.org/tips-of-the-week/free-your-mind/" target="_blank"&gt;Free Your Mind&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;You can find other tips located here in the &lt;a href="https://characterlab.org/playbooks/creativity/" target="_blank"&gt;Playbook on Creativity&lt;/a&gt; from Character Lab.&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -255,107 +231,86 @@
         <timemodified>1662591691</timemodified>
         <title>4.14.1: What Are the Patterns?</title>
         <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
-
-&lt;p&gt;In this activity, students are asked to notice and wonder. Some students may need a reminder on what is expected with this type of activity. The prompt to students is: “What do you notice? What do you wonder?” Students are given a few minutes to write down things they notice and things they wonder. After students have had a chance to write down their responses, ask several students to share things they noticed and things they wondered. Record these for all to see. Often, the goal is to steer the conversation to wondering about something mathematical that the class is about to focus on. The purpose is to make a mathematical task accessible to all students with these two approachable questions. By thinking about them and responding, students gain entry into the context and might get their curiosity piqued.&lt;/p&gt;
-
+&lt;p&gt;In this activity, students are asked to notice and wonder. Some students may need a reminder on what is expected with this type of activity. The prompt to students is: &amp;ldquo;What do you notice? What do you wonder?&amp;rdquo; Students are given a few minutes to write down things they notice and things they wonder. After students have had a chance to write down their responses, ask several students to share things they noticed and things they wondered. Record these for all to see. Often, the goal is to steer the conversation to wondering about something mathematical that the class is about to focus on. The purpose is to make a mathematical task accessible to all students with these two approachable questions. By thinking about them and responding, students gain entry into the context and might get their curiosity piqued.&lt;/p&gt;
 &lt;p&gt;The purpose of this task is to reintroduce the common ratio (also known as growth factor). Students notice and describe that each sequence is characterized by the same type of relationship between consecutive terms.&lt;/p&gt;
-
 &lt;p&gt;When students articulate what they notice and wonder, they have an opportunity to attend to precision in the language they use to describe what they see. They might first propose less formal or precise language, and then they might restate their observation with more precise language to communicate more clearly.&lt;/p&gt;
-
-&lt;p&gt;The last two sequences may present a challenge since the common ratio is less than 1. The purpose of including these sequences is to encourage students to notice and make use of structure. If they notice that in the first two sequences, each pair of consecutive terms has the same quotient, they could inspect the quotients in the last sequence. These two sequences also give the opportunity to point out that we still use “common ratio,” even when the terms are decreasing.&lt;/p&gt;
-
-
+&lt;p&gt;The last two sequences may present a challenge since the common ratio is less than 1. The purpose of including these sequences is to encourage students to notice and make use of structure. If they notice that in the first two sequences, each pair of consecutive terms has the same quotient, they could inspect the quotients in the last sequence. These two sequences also give the opportunity to point out that we still use &amp;ldquo;common ratio,&amp;rdquo; even when the terms are decreasing.&lt;/p&gt;
 &lt;h4&gt;Launch&lt;/h4&gt;
-
 &lt;p&gt;Display the four sequences for all to see. Ask students to think of at least one thing they notice and at least one thing they wonder. Give students 1 minute of quiet think time, and then 1 minute to discuss the things they notice and wonder with their partner, followed by a whole-class discussion.&lt;/p&gt;
-
 &lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-    &lt;p&gt;Provide students with a graphic organizer to record what they notice and wonder.&lt;/p&gt;
-
+&lt;div&gt;
+&lt;p&gt;Provide students with a graphic organizer to record what they notice and wonder.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         40, 120, 360, 1,080, 3,240
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         2, 8, 32, 128, 512
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         1,000, 500, 250, 125, 62.5
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         256, 192, 144, 108, 81
     &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;
+&lt;li&gt;
         What do you notice?
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         What do you wonder?
     &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Student Response&lt;/h4&gt;
 &lt;ol&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Things students may notice:
     &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         The first two sequences are increasing, and the second two are decreasing.
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         The next number in the list comes from always multiplying the previous number by the same value.
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         If we choose a number in the list and divide it by the previous number, we always get the same value.
     &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;ol start="2"&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Things students may wonder:
     &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Why do all the sequences start with even numbers?
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Will the last sequence eventually have decimal numbers like the one before it since it is also decreasing?
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Are these sequences related in some way?
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Is the next term of the second sequence 1,024?
     &lt;/li&gt;
 &lt;/ul&gt;
-
-
 &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
-
-&lt;p&gt;Ask students to share the things they noticed and wondered. Record and display their responses for all to see. If possible, record the relevant reasoning on or near the sequence. After all responses have been recorded without commentary or editing, ask students, “Is there anything on this list that you are wondering about now?” Encourage students to respectfully disagree, ask for clarification, or point out contradicting information.&lt;/p&gt;
-&lt;p&gt;If the idea of each consecutive term in a sequence growing by the same factor or having a common ratio does not come up during the conversation, ask students to discuss this idea. Students may describe how the “same thing” is happening with consecutive terms. Encourage students to use the word “term” and to be specific when they describe what is happening. For example:&lt;/p&gt;
-
+&lt;p&gt;Ask students to share the things they noticed and wondered. Record and display their responses for all to see. If possible, record the relevant reasoning on or near the sequence. After all responses have been recorded without commentary or editing, ask students, &amp;ldquo;Is there anything on this list that you are wondering about now?&amp;rdquo; Encourage students to respectfully disagree, ask for clarification, or point out contradicting information.&lt;/p&gt;
+&lt;p&gt;If the idea of each consecutive term in a sequence growing by the same factor or having a common ratio does not come up during the conversation, ask students to discuss this idea. Students may describe how the &amp;ldquo;same thing&amp;rdquo; is happening with consecutive terms. Encourage students to use the word &amp;ldquo;term&amp;rdquo; and to be specific when they describe what is happening. For example:&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;“In the first sequence, you always multiply a term by 3 to get the next term.”&lt;/li&gt;
-    &lt;li&gt;“In the last sequence, if you divide any term by the previous term, you always get \(\frac34\).”&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;In the first sequence, you always multiply a term by 3 to get the next term.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;In the last sequence, if you divide any term by the previous term, you always get \(\frac34\).&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Tell students that this “same thing” is called the common ratio or growth factor, and that we will use the first of these. For example, in the second list, the common ratio is 4 because \(8=4\cdot2, 32=4\cdot8\), \(128=4\cdot32\), and \(512=4\cdot128\).&lt;/p&gt;
-
-&lt;p&gt;Emphasize that the common ratio is defined to be the multiplier from one term to the next; said another way,&amp;nbsp; it is the quotient of a term and the previous term. For example, students may want to say that the pattern of the third sequence is “divide by 2 each time.” This is true, but the common ratio is \(\frac12\) because it is the number you multiply by to get the next term.&lt;/p&gt;
-
-&lt;p&gt;In earlier courses, students may have learned that a ratio has two or more parts. In more advanced courses (like this one), “ratio” is sometimes used as a synonym for “quotient.”&lt;/p&gt;</contents>
+&lt;p&gt;Tell students that this &amp;ldquo;same thing&amp;rdquo; is called the common ratio or growth factor, and that we will use the first of these. For example, in the second list, the common ratio is 4 because \(8=4\cdot2, 32=4\cdot8\), \(128=4\cdot32\), and \(512=4\cdot128\).&lt;/p&gt;
+&lt;p&gt;Emphasize that the common ratio is defined to be the multiplier from one term to the next; said another way,&amp;nbsp; it is the quotient of a term and the previous term. For example, students may want to say that the pattern of the third sequence is &amp;ldquo;divide by 2 each time.&amp;rdquo; This is true, but the common ratio is \(\frac12\) because it is the number you multiply by to get the next term.&lt;/p&gt;
+&lt;p&gt;In earlier courses, students may have learned that a ratio has two or more parts. In more advanced courses (like this one), &amp;ldquo;ratio&amp;rdquo; is sometimes used as a synonym for &amp;ldquo;quotient.&amp;rdquo;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="2192">
@@ -401,492 +356,413 @@
         <timemodified>1663015346</timemodified>
         <title>4.14.2: Using Tables and Graphs to Represent Geometric Sequences</title>
         <contents>&lt;h3&gt;Activity (20 minutes)&lt;/h3&gt;
-
 &lt;p&gt;In this activity, students generate two geometric sequences from a mathematical situation. The purpose is to create representations of geometric sequences using tables and graphs. At this time, students do not need to write equations for the situation since that work will be the focus of a future lesson.&lt;/p&gt;
-
 &lt;p&gt;Monitor for students sketching neat and accurate graphs to highlight during the whole-class discussion. Note that future lessons will focus on a reasonable domain for sequences when regarded as functions. In this activity, students may "connect the dots" in the graphs with lines, but it's not crucial to address at this time whether or not that's a sensible thing to do.&lt;/p&gt;
-
-
 &lt;h4&gt;Launch&lt;/h4&gt;
-
 &lt;p&gt;Arrange students in groups of 2. Invite them to read the introduction to the task. If time allows, distribute scissors and blank paper and let students work with their partner to carry out the paper cutting while completing the first few rows of the table. If time is limited, conduct a demonstration of the paper cutting.&lt;/p&gt;
-
 &lt;p&gt;Tell students to pause after completing the first few rows of the table and then ask,&lt;/p&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;
+&lt;li&gt;
     "What happens to the number of pieces after each cut?"
   &lt;/li&gt;
-  &lt;li&gt;
+&lt;li&gt;
     "What happens to the area of each piece after each cut?"
   &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Ask students to share their responses with a partner, and then invite a few groups to share their response with the class. Ensure students can articulate that as a result of a cut, the number of pieces doubles, and the area of each piece is halved. Students then proceed with the remainder of the activity.&lt;/p&gt;
-
 &lt;h5&gt; Support for English Language Learners&lt;/h5&gt;
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+&lt;div&gt;
 &lt;p&gt;Use this routine to help students consider the context of this problem. Without revealing the questions that follow, display and read aloud only the task statement that describes Clare's actions. Ask students to write down possible mathematical questions that could be asked about the situation. Invite 3-4 students to share their questions with the class. Listen for and amplify any questions that include language related to looking for patterns.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+&lt;div&gt;
 &lt;p&gt;Use this routine to help students consider the Engagement: Provide Access by Recruiting Interest. Begin with a whole-class demonstration. If time does not allow for students to carry out paper cutting themselves, demonstrate the initial cuts so that students can complete the first few rows of the table.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;h4&gt;Student-Facing Statement &lt;/h4&gt;
 &lt;p&gt;Clare takes a piece of paper, cuts it in half, then stacks the pieces. She takes the stack of two pieces, then cuts in half again to form four pieces, stacking them. She keeps repeating the process.&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;
+&lt;li&gt;
     The original piece of paper has length 8 inches and width 10 inches. Complete the table.
   &lt;/li&gt;
 &lt;/ol&gt;
-
-
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-      &lt;col width="75"&gt;
-      &lt;col width="212"&gt;
-      &lt;col width="251"&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;number&lt;/p&gt;
-          &lt;p&gt;of cuts&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;number&lt;/p&gt;
-          &lt;p&gt;of pieces&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;area in square inches&lt;/p&gt;
-          &lt;p&gt;of each piece&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
+&lt;colgroup&gt;
+&lt;col width="75"&gt;
+&lt;col width="212"&gt;
+&lt;col width="251"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;number&lt;/p&gt;
+&lt;p&gt;of cuts&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;number&lt;/p&gt;
+&lt;p&gt;of pieces&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;area in square inches&lt;/p&gt;
+&lt;p&gt;of each piece&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;br&gt;
-
-
 &lt;ol start="2"&gt;
-  &lt;li&gt;
+&lt;li&gt;
     Describe in words how you can use the results after 5 cuts to find the results after 6 cuts.
   &lt;/li&gt;
 &lt;/ol&gt;
-
-
 &lt;ol start="3"&gt;
-  &lt;li&gt;
-    &lt;ol type="a"&gt;
-      &lt;li&gt;On the given axes, sketch a graph of the number of pieces as a function of the number of cuts.&amp;nbsp;
+&lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;On the given axes, sketch a graph of the number of pieces as a function of the number of cuts.&amp;nbsp;
         &lt;br&gt;
-        &lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/EpdDWmvNMsaDgPQwmCY7bBoB" alt="Blank coordinate plane with grid, origin O. Horizontal axis from 0 to 6 by 1’s, labeled “number of cuts”. Vertical axis from 0 to 50 by 5’s, labeled “number of pieces”."&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
+&lt;br&gt;&lt;img alt="Blank coordinate plane with grid, origin O. Horizontal axis from 0 to 6 by 1&amp;rsquo;s, labeled &amp;ldquo;number of cuts&amp;rdquo;. Vertical axis from 0 to 50 by 5&amp;rsquo;s, labeled &amp;ldquo;number of pieces&amp;rdquo;." src="https://s3.amazonaws.com/im-ims-export/EpdDWmvNMsaDgPQwmCY7bBoB"&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-
-
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ol start="4"&gt;
-  &lt;ol start="2" type="a"&gt;
-    &lt;li&gt;How can you see on the graph how the number of pieces is changing with each cut?&lt;br&gt;
-      &lt;br&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-  &lt;li&gt;
-    &lt;ol type="a"&gt;
-      &lt;li&gt; On the given axes, sketch a graph of the area of each piece as a function of the number of cuts.&amp;nbsp;
-        &lt;br&gt;
-        &lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/FFPUjHBqDXVuZFr9PhWrmtCh" alt="Blank coordinate plane with grid, origin O. Horizontal axis from 0 to 6 by 1’s, labeled “number of cuts”. Vertical axis from 0 to 100 by 5’s, labeled “area of each piece”."&gt;
-        &lt;br&gt;
-        &lt;br&gt;
-      &lt;/li&gt;
-      &lt;li&gt;How can you see how the area of each piece is changing with each cut?&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;How can you see on the graph how the number of pieces is changing with each cut?&lt;br&gt;
+&lt;br&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-
-
+&lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt; On the given axes, sketch a graph of the area of each piece as a function of the number of cuts.&amp;nbsp;
+        &lt;br&gt;
+&lt;br&gt;&lt;img alt="Blank coordinate plane with grid, origin O. Horizontal axis from 0 to 6 by 1&amp;rsquo;s, labeled &amp;ldquo;number of cuts&amp;rdquo;. Vertical axis from 0 to 100 by 5&amp;rsquo;s, labeled &amp;ldquo;area of each piece&amp;rdquo;." src="https://s3.amazonaws.com/im-ims-export/FFPUjHBqDXVuZFr9PhWrmtCh"&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;How can you see how the area of each piece is changing with each cut?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt; Student Response&lt;/h4&gt;
-
-
 &lt;ol&gt;
-  &lt;li&gt;
+&lt;li&gt;
     The original piece of paper has length 8 inches and width 10 inches. Complete the table.
   &lt;/li&gt;
 &lt;/ol&gt;
-
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-      &lt;col width="75"&gt;
-      &lt;col width="212"&gt;
-      &lt;col width="251"&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;number&lt;/p&gt;
-          &lt;p&gt;of cuts&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;number&lt;/p&gt;
-          &lt;p&gt;of pieces&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;area in square inches&lt;/p&gt;
-          &lt;p&gt;of each piece&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;80&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;40&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;20&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt; 8&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;10&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;16&lt;/p&gt;
-        &lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;5&lt;/p&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;32&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;\(frac52\) or 2.5&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
+&lt;colgroup&gt;
+&lt;col width="75"&gt;
+&lt;col width="212"&gt;
+&lt;col width="251"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;number&lt;/p&gt;
+&lt;p&gt;of cuts&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;number&lt;/p&gt;
+&lt;p&gt;of pieces&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;area in square inches&lt;/p&gt;
+&lt;p&gt;of each piece&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;0&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;80&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;40&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;20&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt; 8&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;10&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;16&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;32&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;\(frac52\) or 2.5&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;br&gt;
-
-
-
 &lt;ol start="2"&gt;
-  &lt;li&gt;
+&lt;li&gt;
     Sample response: Double the number of pieces, from 32 to 64. Halve the area of each piece, from \(\frac52\) to \(\frac54\).
   &lt;/li&gt;
 &lt;/ol&gt;
-
-
 &lt;ol start="3"&gt;
-  &lt;li&gt;
-    &lt;ol type="a"&gt;
-      &lt;li&gt;    &lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/VAebaLLcTwt2x59e2VTFk3dD" alt="A graph. Number of pieces. Number of cuts."&gt;
-
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
+&lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt; &lt;br&gt;&lt;img alt="A graph. Number of pieces. Number of cuts." src="https://s3.amazonaws.com/im-ims-export/VAebaLLcTwt2x59e2VTFk3dD"&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ol start="4"&gt;
-  &lt;ol type="a" start="2"&gt;
-    &lt;li&gt;Sample response: The height of each plotted point is twice the height of the previous plotted point.&lt;/li&gt;
-  &lt;/ol&gt;
-  &lt;li&gt;
-    &lt;ol type="a"&gt;
-      &lt;li&gt;&amp;nbsp;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;Sample response: The height of each plotted point is twice the height of the previous plotted point.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;&amp;nbsp;
       
-        &lt;br&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/x9n4UF9DuYEzHjmDNz8HQkeZ" alt="A discrete graph of a function. Area of each piece. Number of cuts."&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
+        &lt;br&gt;&lt;img alt="A discrete graph of a function. Area of each piece. Number of cuts." src="https://s3.amazonaws.com/im-ims-export/x9n4UF9DuYEzHjmDNz8HQkeZ"&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-
-
-
-
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ol&gt;
-  &lt;ol type="a" start="2"&gt;
-    &lt;li&gt;How can you see how the area of each piece is changing with each cut?&lt;/li&gt;
-  &lt;/ol&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;How can you see how the area of each piece is changing with each cut?&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/ol&gt;
 &lt;p&gt;Sample response: The height of each plotted point is half the height of the previous plotted point.&lt;/p&gt;
-
-
 &lt;h4&gt; Student-Facing Extension&lt;/h4&gt;
-
 &lt;h5&gt;Are you ready for more?&lt;/h5&gt;
-
 &lt;ol&gt;
-  &lt;li&gt;
+&lt;li&gt;
     Clare has a piece of paper that is 8 inches by 10 inches.&amp;nbsp;&lt;br&gt;
-    &lt;br&gt;
-    &lt;ol type="a"&gt;
-      &lt;li&gt;
+&lt;br&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;
         How many pieces of paper will Clare have if she cuts the paper in half&lt;em&gt; n&lt;/em&gt; times?&amp;nbsp;
       &lt;/li&gt;
-      &lt;li&gt;
+&lt;li&gt;
         What will the area of each piece be?
           &lt;br&gt;
-          &lt;br&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-
-  &lt;li&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
     Why is the product of the number of pieces and the area of each piece always the same? Explain how you know.
   &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Extension Student Response&lt;/h4&gt;
-
-
 &lt;ol&gt;
-  &lt;li&gt;
+&lt;li&gt;
     Clare has a piece of paper that is 8 inches by 10 inches.&amp;nbsp;
     &lt;ol type="a"&gt;
-      &lt;li&gt;
+&lt;li&gt;
         \(2^n\) pieces.
       &lt;/li&gt;
-      &lt;li&gt;
+&lt;li&gt;
         Each piece has area \(\frac{80}{2^n}\) square inches.
           &lt;br&gt;
-          &lt;br&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-
-  &lt;li&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
     Sample explanation: It's always the same because adding up the area of the little pieces of paper gives the area of the original sheet of paper.
   &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt; Anticipated Misconceptions&lt;/h4&gt;
 &lt;p&gt;If students struggle to remember the meaning of area, ask them what they remember about the idea from their previous courses. A workable definition is "the number of one-inch squares covered by the piece of paper." (Length times width is how one computes the area of the region bounded by a rectangle, but it doesn't explain what area means.)&lt;/p&gt;
-
-
 &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
 &lt;p&gt;The goal of this discussion is for students to identify the common ratio for each sequence and learn that sequences with a common ratio are called geometric sequences.&lt;/p&gt;
-
 &lt;p&gt;Invite previously identified students to share their graphs with the class. Display the two sequences in this activity (1, 2, 4, 8, 16, 32 and 80, 40, 20, 10, 5, 2.5) for all to see.&lt;/p&gt;
-
 &lt;p&gt;Here are some possible questions for discussion:&lt;/p&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;
+&lt;li&gt;
     "When did you stop cutting the paper and complete the table using a pattern?"
   &lt;/li&gt;
-  &lt;li&gt;
+&lt;li&gt;
     "What was the pattern you noticed?" (To find the number of pieces, multiply the previous number by 2. To find the area, multiply the previous number by \(\frac12\).)
   &lt;/li&gt;
-  &lt;li&gt;
+&lt;li&gt;
     "How did you find the results after six cuts?" (Multiply 32 by 2 to get 64, and divide 2.5 by 2 to get 1.25.)
   &lt;/li&gt;
-  &lt;li&gt;
+&lt;li&gt;
     "What is the common ratio for each sequence?" (It's 2 for the number of pieces and&amp;nbsp; \(\frac12\).)
   &lt;/li&gt;
-  &lt;li&gt;
+&lt;li&gt;
     "How can you see the common ratio in each graph?" (For the number of pieces, the height of each plotted point is twice the height of the previous plotted point. For the area, the height of each plotted point is half the height of the previous plotted point.)
   &lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Tell students that the sequences they have seen today (in this activity and in the warm-up) have a special name: geometric sequences. Geometric sequences are characterized by a common ratio. In a geometric sequence if you divide any term by the previous term, you always get the same value: the common ratio for the sequence. Reiterate that the common ratio for the area sequence is&amp;nbsp; \(\frac12 \) because it's what you multiply by to get the next term.&lt;/p&gt;
-
 &lt;p&gt;Some students may notice the similarity between a geometric sequence and an exponential function. Invite these students to share their observations, such as how both are defined by a common ratio. Tell students that geometric sequences are a type of exponential function and that their knowledge of exponential functions will help them describe geometric sequences during this unit. If students do not bring up the connection to exponential functions, ask "What do you remember about exponential functions?" Record student responses for all to see and invite comparisons between exponential functions and geometric sequences.&lt;/p&gt;
-
-
 &lt;h3&gt;4.14.2: Self Check&amp;nbsp;&lt;/h3&gt;
-
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-
-  &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-      &lt;col width="302"&gt;
-      &lt;col width="322"&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td colspan="2"&gt;&lt;p&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-          &lt;p&gt;Given the table below, what would be the next term in the sequence?&lt;/p&gt;
-          
-          &lt;div align="left"&gt;
-            &lt;table&gt;
-              &lt;colgroup&gt;
-                &lt;col&gt;
-                &lt;col&gt;
-                &lt;col&gt;
-                &lt;col&gt;
-                &lt;col&gt;
-                &lt;col&gt;
-              &lt;/colgroup&gt;
-              &lt;tbody&gt;
-                &lt;tr&gt;
-                  &lt;td&gt;&lt;p&gt;x&lt;/p&gt;&lt;/td&gt;
-                  &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
-                  &lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
-                  &lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
-                  &lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
-                  &lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                  &lt;td&gt;&lt;p&gt;y&lt;/p&gt;&lt;/td&gt;
-                  &lt;td&gt;&lt;p&gt;270&lt;/p&gt;&lt;/td&gt;
-                  &lt;td&gt;&lt;p&gt;90&lt;/p&gt;&lt;/td&gt;
-                  &lt;td&gt;&lt;p&gt;30&lt;/p&gt;&lt;/td&gt;
-                  &lt;td&gt;&lt;p&gt;10&lt;/p&gt;&lt;/td&gt;
-                  &lt;td&gt;&lt;p&gt;103&lt;/p&gt;&lt;/td&gt;
-                &lt;/tr&gt;
-              &lt;/tbody&gt;
-            &lt;/table&gt;
-          &lt;/div&gt;
-          &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;\(\frac{10}{6}\)&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: Each term is multiplied by \(frac13\) not \(\frac12\). The answer is \(\frac{10}{9}\).&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;\(\frac{11}{3}\)&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: To find the 6th term, the 5th term is multiplied by \(\frac13\) , not added. The answer is \(\frac{10}{9}\).&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;\(\frac{10}{9}\)&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;That’s correct! Check yourself: The 5th term was 103. Each term before was multiplied by \(\frac13\). So, \(\frac{10}{3} \cdot \frac{1}{3}=\frac{10}{9}\).&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;\(\frac{10}{27}\)&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: This would be term 7. The answer is \(\frac{10}{9}\).&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
+&lt;table border="1" cellpadding="5"&gt;
+&lt;colgroup&gt;
+&lt;col width="302"&gt;
+&lt;col width="322"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;&lt;p&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Given the table below, what would be the next term in the sequence?&lt;/p&gt;
+&lt;div align="left"&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;x&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;y&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;270&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;90&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;30&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;10&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;103&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;\(\frac{10}{6}\)&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Each term is multiplied by \(frac13\) not \(\frac12\). The answer is \(\frac{10}{9}\).&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;\(\frac{11}{3}\)&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: To find the 6th term, the 5th term is multiplied by \(\frac13\) , not added. The answer is \(\frac{10}{9}\).&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;\(\frac{10}{9}\)&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;That&amp;rsquo;s correct! Check yourself: The 5th term was 103. Each term before was multiplied by \(\frac13\). So, \(\frac{10}{3} \cdot \frac{1}{3}=\frac{10}{9}\).&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;\(\frac{10}{27}\)&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: This would be term 7. The answer is \(\frac{10}{9}\).&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;br&gt;
-
-
-
 &lt;h3&gt; 4.14.2: Additional Resources&lt;/h3&gt;
-
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;h3&gt;Graphs of Sequences&lt;/h3&gt;
 &lt;p&gt;Graph the sequence {18, 36, 72, 144, 288, ...}.&lt;/p&gt;
 &lt;p&gt;First make a table&amp;nbsp;&lt;/p&gt;
-
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-      &lt;col&gt;
-      &lt;col&gt;
-      &lt;col&gt;
-      &lt;col&gt;
-      &lt;col&gt;
-      &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;Term&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;Value&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;18&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;36&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;72&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;144&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;288&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;Term&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;Value&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;18&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;36&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;72&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;144&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;288&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;br&gt;
-
 &lt;p&gt;Now, graph the points&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f80cefc97907cdc250dfe7949abf7d406fdc14ed" alt="Graph of the geometric sequence." height="300"&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img alt="Graph of the geometric sequence." height="300" src="https://k12.openstax.org/contents/raise/resources/f80cefc97907cdc250dfe7949abf7d406fdc14ed"&gt;&lt;/p&gt;
 &lt;p&gt;Notice that each height is double the previous height.&lt;/p&gt;
 &lt;p&gt;Each term is also double the previous term.&lt;/p&gt;
 &lt;h4&gt; Try It: Graphs of Sequences&lt;/h4&gt;
-
 &lt;p&gt;&amp;nbsp;Graph the following sequence and explain the pattern.&lt;/p&gt;
-&lt;p&gt;1, 3, 9, 27, …&lt;/p&gt;
-
+&lt;p&gt;1, 3, 9, 27, &amp;hellip;&lt;/p&gt;
 &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-
 &lt;h5&gt;Solution&lt;/h5&gt;
-
 &lt;p&gt;Here is how to determine the pattern of a sequence with a graph:&lt;/p&gt;
-
 &lt;p&gt;First make a table:&lt;/p&gt;
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-      &lt;col&gt;
-      &lt;col&gt;
-      &lt;col&gt;
-      &lt;col&gt;
-      &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;Term&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;p&gt;Value&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;9&lt;/p&gt;&lt;/td&gt;
-        &lt;td&gt;&lt;p&gt;27&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;Term&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;2&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;p&gt;Value&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;3&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;9&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;27&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;br&gt;
-
 &lt;p&gt;Next, plot the points:&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/9e69225cf486825f1b31d8331149e987257b2600" width="300"&gt;&lt;/p&gt;
-
 &lt;p&gt;Each point is 3 times the height of the previous point.&lt;/p&gt;
 &lt;p&gt;Notice that in the sequence, each term is 3 times the previous term.&lt;/p&gt;
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about why you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="2194">
@@ -932,255 +808,210 @@
         <timemodified>1662592148</timemodified>
         <title>4.14.3: Complete the Sequence</title>
         <contents>&lt;h3&gt;Activity (10 minutes)&lt;/h3&gt;
-
 &lt;p&gt;The purpose of this task is to provide students with practice working with geometric sequences and identifying the common ratio of a sequence.&lt;/p&gt;
 &lt;p&gt;For each sequence, invite a student to share how they completed the sequence and determined the common ratio. Highlight the method of dividing any term by the previous term to find the common ratio. Emphasize that the presence of a common ratio is what makes a sequence a geometric sequence.&lt;/p&gt;
-
 &lt;h4&gt;Launch&lt;/h4&gt;
-
-
 &lt;h5&gt; Support for Students with Disabilities&lt;/h5&gt;
-&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
-    &lt;p&gt;Provide access to tools and assistive technologies, such as a calculator or graphing software. Some students may benefit from a checklist or list of steps to use the calculator or software.&lt;/p&gt;
-
+&lt;div&gt;
+&lt;p&gt;Provide access to tools and assistive technologies, such as a calculator or graphing software. Some students may benefit from a checklist or list of steps to use the calculator or software.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;h4&gt;Student-Facing Statement &lt;/h4&gt;
 &lt;p&gt;Write the following terms and definitions in your math notebook:&lt;/p&gt;
 &lt;p&gt;A geometric sequence is a sequence in which each term is found by multiplying the previous term by the same constant.&lt;/p&gt;
 &lt;p&gt;The number that is multiplied by each term is called the common ratio.&lt;/p&gt;
-
 &lt;ol&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Complete each geometric sequence.
     &lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;
             1.5, 3, 6, _a__, 24, _b__
         &lt;/li&gt;
-        &lt;li&gt;
+&lt;li&gt;
             40, 120, 360, __a__, __b__
         &lt;/li&gt;
-        &lt;li&gt;
+&lt;li&gt;
             200, 20, 2, __a__, 0.02, __b__
         &lt;/li&gt;
-        &lt;li&gt;
+&lt;li&gt;
             \(\frac17\), __a__, \(\frac97\), \(\frac{27}7\), __b__
         &lt;/li&gt;
-        &lt;li&gt;
+&lt;li&gt;
             24, 12, 6, __a__, __b__
         &lt;/li&gt;
-    &lt;/ol&gt;
 &lt;/ol&gt;
-
+&lt;/ol&gt;
 &lt;h4&gt;Video: Completing Geometric Sequences&lt;/h4&gt;
-
 &lt;p&gt;Watch the following video to learn more about geometric sequences.&lt;/p&gt;
-
 &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
-    &lt;source src="https://k12.openstax.org/contents/raise/resources/befe818ae5a7e5b370b57698151b35c39b80849f"&gt;
-    &lt;track src="https://k12.openstax.org/contents/raise/resources/6b6a6694b54997af858d05e4d65298543c67fe0e" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/befe818ae5a7e5b370b57698151b35c39b80849f
+&lt;source src="https://k12.openstax.org/contents/raise/resources/befe818ae5a7e5b370b57698151b35c39b80849f"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/6b6a6694b54997af858d05e4d65298543c67fe0e" srclang="en_us"&gt;https://k12.openstax.org/contents/raise/resources/befe818ae5a7e5b370b57698151b35c39b80849f
 &lt;/video&gt;
 &lt;br&gt;
 &lt;br&gt;
-
-
-
 &lt;ol start="2"&gt;
-    &lt;li&gt;
+&lt;li&gt;
         For each sequence, find its common ratio.
         &lt;ol type="a"&gt;
-            &lt;li&gt;
+&lt;li&gt;
                 1.5, 3, 6, ___, 24, ___
             &lt;/li&gt;
-            &lt;li&gt;
+&lt;li&gt;
                 40, 120, 360, ___, ___
             &lt;/li&gt;
-            &lt;li&gt;
+&lt;li&gt;
                 200, 20, 2, ___, 0.02, ___
             &lt;/li&gt;
-            &lt;li&gt;
+&lt;li&gt;
                 \(\frac17\), ___, \(\frac97\), \(\frac{27}7\), ___
             &lt;/li&gt;
-            &lt;li&gt;
+&lt;li&gt;
                 24, 12, 6, ___, ___
             &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
 &lt;/ol&gt;
-
-
-
-
-
-
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Student Response&lt;/h4&gt;
-
-
 &lt;ol&gt;
-    &lt;li&gt;&lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;
             12 , 48 &lt;/li&gt;
-        &lt;li&gt;
+&lt;li&gt;
             1,080, 3,240
 
 
         &lt;/li&gt;
-        &lt;li&gt;
+&lt;li&gt;
             0.2,
             0.002
 
 
         &lt;/li&gt;
-        &lt;li&gt;
+&lt;li&gt;
             \(\frac37\),
             \(\frac{81}7\)
 
 
         &lt;/li&gt;
-        &lt;li&gt;
+&lt;li&gt;
             3,
             1.5
 
             &lt;br&gt;
-            &lt;br&gt;
-        &lt;/li&gt;
-    &lt;/ol&gt;
-
-    &lt;li&gt;
-        &lt;ol type="a"&gt;
-            &lt;li&gt;
+&lt;br&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;
                 2
             &lt;/li&gt;
-            &lt;li&gt;
+&lt;li&gt;
                 3
             &lt;/li&gt;
-            &lt;li&gt;
+&lt;li&gt;
                 \(\frac{1}{10}\)
             &lt;/li&gt;
-            &lt;li&gt;
+&lt;li&gt;
                 3
             &lt;/li&gt;
-            &lt;li&gt;
+&lt;li&gt;
                 \(\frac12\)
             &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4&gt;Activity Synthesis&lt;/h4&gt;
-
-&lt;p&gt;In the lead up to writing recursive definitions for sequences, it is important for students to understand that for geometric sequences, the common ratio is defined to be the multiplier from one term to the next. Said another way, the common ratio is the quotient of a term and the previous term. For example, many students will want to say that the pattern of the third sequence is “divide by 10 each time.” This is true, but the common ratio is \(\frac1{10}\).&lt;/p&gt;
-
-
-
-
+&lt;p&gt;In the lead up to writing recursive definitions for sequences, it is important for students to understand that for geometric sequences, the common ratio is defined to be the multiplier from one term to the next. Said another way, the common ratio is the quotient of a term and the previous term. For example, many students will want to say that the pattern of the third sequence is &amp;ldquo;divide by 10 each time.&amp;rdquo; This is true, but the common ratio is \(\frac1{10}\).&lt;/p&gt;
 &lt;h3&gt;4.14.3: Self Check&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col&gt;
-        &lt;col&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td colspan="2"&gt;
-                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
-                &lt;p&gt;Which of the following sequences is geometric?&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;5, 10, 15, 20 . . .&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: The sequence creates terms by adding 5 to the previous term, so there is not a common ratio. The answer is 48, 24, 12, 6, . . .&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;48, 24, 12, 6, . . .&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;That’s correct! Check yourself: The common ratio is \(\frac12\), so this is a geometric sequence.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;3, 5, 8, 10, 13, . . .&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: The sequence is formed by adding 2, then adding 3, and repeating that pattern. There is not a common ratio. The answer is 48, 24, 12, 6, . . .&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;10, 7, 4, 1, . . .&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;Incorrect. Let’s try again a different way: The sequence is formed by subtracting 3 from the previous term. There is not a common ratio. The answer is 48, 24, 12, 6, . . .&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;
+&lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Which of the following sequences is geometric?&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;5, 10, 15, 20 . . .&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: The sequence creates terms by adding 5 to the previous term, so there is not a common ratio. The answer is 48, 24, 12, 6, . . .&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;48, 24, 12, 6, . . .&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;That&amp;rsquo;s correct! Check yourself: The common ratio is \(\frac12\), so this is a geometric sequence.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;3, 5, 8, 10, 13, . . .&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: The sequence is formed by adding 2, then adding 3, and repeating that pattern. There is not a common ratio. The answer is 48, 24, 12, 6, . . .&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;10, 7, 4, 1, . . .&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: The sequence is formed by subtracting 3 from the previous term. There is not a common ratio. The answer is 48, 24, 12, 6, . . .&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;br&gt;
-
 &lt;h3&gt;4.14.3: Additional Resources&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;h4&gt;Finding a Common Ratio&lt;/h4&gt;
-
 &lt;h5&gt;Definition of a Geometric Sequence&lt;/h5&gt;
 &lt;p&gt;A geometric sequence is one in which any term divided by the previous term is a constant. This constant is called the common ratio of the sequence. The common ratio can be found by dividing any term in the sequence by the previous term. If \(a_1\) is the initial term of a geometric sequence and \(r\) is the common ratio, the sequence will be&lt;/p&gt;
 &lt;p&gt;{\(a_1, a_1\cdot r, a_1\cdot r^2, a_1\cdot r^3\), . . .}&lt;/p&gt;
-
 &lt;p&gt;How to:&lt;/p&gt;
 &lt;p&gt;Given a set of numbers, determine if they represent a geometric sequence.&lt;/p&gt;
-
 &lt;p&gt;1. Divide each term by the previous term.&lt;/p&gt;
 &lt;p&gt;2. Compare the quotients. If they are the same, a common ratio exists and the sequence is geometric.&lt;/p&gt;
-
-
 &lt;p&gt;Example:&lt;/p&gt;
 &lt;p&gt;Is the sequence geometric? If so, find the common ratio.&lt;/p&gt;
 &lt;p&gt;a. 1, 2, 4, 8, 16, . . .&lt;/p&gt;
 &lt;p&gt;b. 48, 12, 4, 2, . . .&lt;/p&gt;
-
 &lt;ol type="a"&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Is a geometric sequence. Each term is multiplied by 2, so 2 is the common ratio.
     &lt;/li&gt;
-    &lt;li&gt;
+&lt;li&gt;
         This is not geometric because each term is not multiplied by the same constant. There is not a common ratio.
     &lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h4&gt;Try It: Finding a Common Ratio&lt;/h4&gt;
 &lt;p&gt;Is the sequence geometric? If so, find the common ratio.&lt;/p&gt;
 &lt;p&gt;100, 20, 4, \(\frac45\), . . .&lt;/p&gt;
-
-
 &lt;p&gt;In your notebook, write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
-
 &lt;h5&gt;Solution&lt;/h5&gt;
-
 &lt;p&gt;Here is how to determine if the sequence is geometric:&lt;/p&gt;
-
 &lt;p&gt;Each term is \(\frac15\) of the previous term. So, the common ratio is \(\frac15\), and this is a geometric sequence.&lt;/p&gt;
-
-
-&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won’t get this type of question wrong again!&lt;/p&gt;</contents>
+&lt;p&gt;How did you do? Know that you learn more from wrong answers than from right answers! Wrong answers help us find flaws in our thinking. Take a minute to think about &lt;em&gt;why&lt;/em&gt; you got the question wrong. Then you won&amp;rsquo;t get this type of question wrong again!&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="2196">
@@ -1229,27 +1060,27 @@
 &lt;h4&gt;Student-Facing Statement&lt;/h4&gt;
 &lt;p&gt;Here is a sequence: 500, 100, 20, . . .&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Explain why this sequence could be a geometric sequence.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the next term?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Explain how you know the next term.&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Explain why this sequence could be a geometric sequence.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the next term?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Explain how you know the next term.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4&gt;Student Response&lt;/h4&gt;
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;The given terms have a common ratio. \(100=\frac15\cdot 500\), and \(20=\frac15\cdot 100\).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;\(20 \cdot \frac15 = 4\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Multiplying a term by the common ratio gives the next term.&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The given terms have a common ratio. \(100=\frac15\cdot 500\), and \(20=\frac15\cdot 100\).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\(20 \cdot \frac15 = 4\)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Multiplying a term by the common ratio gives the next term.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
 &lt;h5&gt; More Chances&lt;/h5&gt;
@@ -1299,423 +1130,365 @@
         <timemodified>1662598868</timemodified>
         <title>4.14.5: Practice </title>
         <contents>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-
 &lt;ol&gt;
-    &lt;li&gt;
+&lt;li&gt;
         Here are the first two terms of a geometric sequence: 2, 4. What is the 5th term in the sequence?
     &lt;/li&gt;
 &lt;/ol&gt;
-
-    &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;32&lt;/p&gt;
-
-
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;32&lt;/p&gt;
 &lt;ol start="2"&gt;
-    &lt;li&gt;
+&lt;li&gt;
         What are the common ratios of each geometric sequence? What is the 5th term? Enter integers only.
     &lt;/li&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;
             1, 1, 1, 1&lt;/li&gt;
-    &lt;/ol&gt;
 &lt;/ol&gt;
-
-    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 1&lt;/p&gt;
-
-
-
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 1&lt;/p&gt;
 &lt;ol start="2"&gt;
-    &lt;ol type="a" start="2"&gt;
-        &lt;li&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;
             256, 128, 64
         &lt;/li&gt;
-    &lt;/ol&gt;
 &lt;/ol&gt;
-
-    &lt;p&gt;&lt;strong&gt;ANSWER&lt;/strong&gt;&lt;strong&gt;: &lt;/strong&gt;0.5&lt;/p&gt;
-
-
-
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER&lt;/strong&gt;&lt;strong&gt;: &lt;/strong&gt;0.5&lt;/p&gt;
 &lt;ol start="3"&gt;
-    &lt;ol type="a" start="3"&gt;
-        &lt;li&gt;
+&lt;ol start="3" type="a"&gt;
+&lt;li&gt;
             18, 54, 162
         &lt;/li&gt;
-    &lt;/ol&gt;
 &lt;/ol&gt;
-
-    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 3&lt;/p&gt;
-
-
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 3&lt;/p&gt;
 &lt;ol&gt;
-    &lt;ol type="a" start="4"&gt;
-        &lt;li&gt;
+&lt;ol start="4" type="a"&gt;
+&lt;li&gt;
             0.8, 0.08, 0.008
         &lt;/li&gt;
-    &lt;/ol&gt;
 &lt;/ol&gt;
-
-    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 0.1&lt;/p&gt;
-
-
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 0.1&lt;/p&gt;
 &lt;ol start="5"&gt;
-    &lt;ol type="a" start="5"&gt;
-        &lt;li&gt;
+&lt;ol start="5" type="a"&gt;
+&lt;li&gt;
             0.008, 0.08, 0.8
         &lt;/li&gt;
-    &lt;/ol&gt;
 &lt;/ol&gt;
-
-    &lt;p&gt;&lt;strong&gt;ANSWER:&amp;nbsp;&lt;/strong&gt;10&lt;/p&gt;
-
-
-
-
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&amp;nbsp;&lt;/strong&gt;10&lt;/p&gt;
 &lt;ol start="3"&gt;
-    &lt;li&gt;A person owes $1,000 on a credit card that charges an interest rate of 2% per month.&lt;/li&gt;
+&lt;li&gt;A person owes $1,000 on a credit card that charges an interest rate of 2% per month.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;Complete this table showing the credit card balance each month if they do not make any payments. Enter each answer to the hundredth place.&lt;/p&gt;
-
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col width="87"&gt;
-        &lt;col width="583"&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;month&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;total bill in dollars&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;1&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;1,000&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;2&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;1,020&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;3&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;1,040.40&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td height="33"&gt;
-                &lt;p&gt;4&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;5&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;6&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;7&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;8&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col width="87"&gt;
+&lt;col width="583"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;month&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;total bill in dollars&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;1,000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;1,020&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;1,040.40&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td height="33"&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;6&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;7&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;8&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;br&gt;
-
 &lt;ol&gt;
-    &lt;ol type="a"&gt;
-        &lt;li&gt;
+&lt;ol type="a"&gt;
+&lt;li&gt;
             Month 4
         &lt;/li&gt;
-    &lt;/ol&gt;
 &lt;/ol&gt;
-        &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;1061.21&lt;/p&gt;
-
-
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;1061.21&lt;/p&gt;
 &lt;ol&gt;
-        &lt;ol type="a" start="2"&gt;
-            &lt;li&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;
                 Month 5
             &lt;/li&gt;
-        &lt;/ol&gt;
-&lt;/ol&gt;      
-
-            &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;1082.43&lt;/p&gt;
+&lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;1082.43&lt;/p&gt;
 &lt;ol&gt;
-        &lt;ol type="a" start="3"&gt;
-            &lt;li&gt;
+&lt;ol start="3" type="a"&gt;
+&lt;li&gt;
                 Month 6
             &lt;/li&gt;
-        &lt;/ol&gt;
-&lt;/ol&gt;    
-            &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;1104.08&lt;/p&gt;
- &lt;ol&gt;
-        &lt;ol type="a" start="4"&gt;
-            &lt;li&gt;
+&lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;1104.08&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="4" type="a"&gt;
+&lt;li&gt;
                 Month 7
             &lt;/li&gt;
-        &lt;/ol&gt;
-&lt;/ol&gt;   
-            &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;1126.16&lt;/p&gt;
-    &lt;ol&gt;
-        &lt;ol type="a" start="5"&gt;
-            &lt;li&gt;
+&lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;1126.16&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="5" type="a"&gt;
+&lt;li&gt;
                 Month 8
             &lt;/li&gt;
-        &lt;/ol&gt;
-   &lt;/ol&gt;    
-            &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;1148.69&lt;/p&gt;
-
-
-&lt;ol start="4"&gt;
-    &lt;li&gt;A Sierpinski triangle can be created by starting with an equilateral triangle, breaking the triangle into 4 congruent equilateral triangles, and then removing the middle triangle. Starting from a single black equilateral triangle with an area of 256 square inches, here are the first four steps:&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/DMJKY13vuzXB2NQfJXQGiQNa" alt="A pattern of 4 congruent equilateral triangles. Starting with the first triangle, remove smaller congruent triangles to create the triangle to its right."&gt;&lt;/p&gt;
-
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;1148.69&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;A Sierpinski triangle can be created by starting with an equilateral triangle, breaking the triangle into 4 congruent equilateral triangles, and then removing the middle triangle. Starting from a single black equilateral triangle with an area of 256 square inches, here are the first four steps:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="A pattern of 4 congruent equilateral triangles. Starting with the first triangle, remove smaller congruent triangles to create the triangle to its right." src="https://s3.amazonaws.com/im-ims-export/DMJKY13vuzXB2NQfJXQGiQNa"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Complete this table showing the number of shaded triangles in each step and the area of each triangle. Enter each answer as an integer.&lt;/p&gt;
-
-
 &lt;table border="1" cellpadding="5"&gt;
-    &lt;colgroup&gt;
-        &lt;col width="75"&gt;
-        &lt;col width="212"&gt;
-        &lt;col width="251"&gt;
-    &lt;/colgroup&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;step number&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;number&lt;/p&gt;
-                &lt;p&gt;of shaded triangles&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;area of one shaded triangle in square inches&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;0&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;1&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;256&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;1&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;3&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;a.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;2&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;b.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;c.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;3&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;d.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;e.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;
-                &lt;p&gt;4&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;f.&lt;/p&gt;
-            &lt;/td&gt;
-            &lt;td&gt;
-                &lt;p&gt;g.&lt;/p&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col width="75"&gt;
+&lt;col width="212"&gt;
+&lt;col width="251"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;step number&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;number&lt;/p&gt;
+&lt;p&gt;of shaded triangles&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;area of one shaded triangle in square inches&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;0&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;256&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;a.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;b.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;c.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;d.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;e.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;f.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;g.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;&lt;/p&gt;
 &lt;ol&gt;
-    &lt;ol type="a" start="1"&gt;
-        &lt;li&gt;
+&lt;ol start="1" type="a"&gt;
+&lt;li&gt;
             In Step 1, what is the area of each shaded triangle in square inches?
         &lt;/li&gt;
-    &lt;/ol&gt;
 &lt;/ol&gt;
- 
-        &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;64; The area of each shaded triangle in square inches is 64.&lt;/p&gt;
- 
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;64; The area of each shaded triangle in square inches is 64.&lt;/p&gt;
 &lt;ol&gt;
-        &lt;ol type="a" start="2"&gt;
-            &lt;li&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;
                 In Step 2, what is the number of shaded triangles?
             &lt;/li&gt;
-        &lt;/ol&gt;&lt;/ol&gt;
-   
-            &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 9; The number of shaded triangles is 9.&lt;/p&gt;
-    &lt;ol&gt;
-        &lt;ol type="a" start="3"&gt;
-            &lt;li&gt;
+&lt;/ol&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 9; The number of shaded triangles is 9.&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="3" type="a"&gt;
+&lt;li&gt;
                 In Step 2, what is the area of each shaded triangle in square inches?
             &lt;/li&gt;
-        &lt;/ol&gt;&lt;/ol&gt;
-
-            &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 16; The area of each shaded triangle in square inches is 16.&lt;/p&gt;
-       &lt;ol&gt;
-        &lt;ol type="a" start="4"&gt;
-            &lt;li&gt;
+&lt;/ol&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 16; The area of each shaded triangle in square inches is 16.&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="4" type="a"&gt;
+&lt;li&gt;
                 In Step 3, what is the number of shaded triangles?
             &lt;/li&gt;
-        &lt;/ol&gt;&lt;/ol&gt;
-     
-            &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;27; The number of shaded triangles is 27.&lt;/p&gt;
-      &lt;ol&gt;
-        &lt;ol type="a" start="5"&gt;
-            &lt;li&gt;
+&lt;/ol&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;27; The number of shaded triangles is 27.&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="5" type="a"&gt;
+&lt;li&gt;
                 In Step 3, what is the area of each shaded triangle in square inches?
             &lt;/li&gt;
-        &lt;/ol&gt;&lt;/ol&gt;
-       
-            &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;4; The area of each shaded triangle in square inches is 4.&lt;/p&gt;
-     &lt;ol&gt;
-        &lt;ol type="a" start="6"&gt;
-            &lt;li&gt;
+&lt;/ol&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;4; The area of each shaded triangle in square inches is 4.&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="6" type="a"&gt;
+&lt;li&gt;
                 In Step 4, what is the number of shaded triangles?
             &lt;/li&gt;
-        &lt;/ol&gt;&lt;/ol&gt;
-       
-            &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;81; The number of shaded triangles is 81.&lt;/p&gt;
-       &lt;ol&gt;
-        &lt;ol type="a" start="7"&gt;
-            &lt;li&gt;
+&lt;/ol&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;81; The number of shaded triangles is 81.&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="7" type="a"&gt;
+&lt;li&gt;
                 In Step 4, what is the area of each shaded triangle in square inches?
             &lt;/li&gt;
-        &lt;/ol&gt;&lt;/ol&gt;
-
-            &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 1; The area of each shaded triangle in square inches is 1.&lt;/p&gt;
-
+&lt;/ol&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 1; The area of each shaded triangle in square inches is 1.&lt;/p&gt;
 &lt;ol start="5"&gt;
-    &lt;li&gt;Complete each geometric sequence with the missing terms in your math notebook. Then find and enter the common ratio for each. Enter the common ratio in integers only. Enter decimals to the tenths place. Example form for a decimal: 0.3
+&lt;li&gt;Complete each geometric sequence with the missing terms in your math notebook. Then find and enter the common ratio for each. Enter the common ratio in integers only. Enter decimals to the tenths place. Example form for a decimal: 0.3
     &lt;/li&gt;&lt;/ol&gt;
-
-   
-            &lt;ol&gt;
-              &lt;ol type="a" start="1"&gt;
-                &lt;li&gt;
+&lt;ol&gt;
+&lt;ol start="1" type="a"&gt;
+&lt;li&gt;
                   ___, 5, 25, ___, 625&lt;br&gt;
-                  &lt;br&gt;
+&lt;br&gt;
                   Common Ratio
                   
                 &lt;/li&gt;
-              &lt;/ol&gt;
-            &lt;/ol&gt;
-     
-            &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;5&lt;/p&gt;
-
-
-
-        &lt;ol&gt;
-            &lt;ol type="a" start="2"&gt;
-              &lt;li&gt;–1, ___, –36, 216, ___
+&lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;5&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="2" type="a"&gt;
+&lt;li&gt;&amp;ndash;1, ___, &amp;ndash;36, 216, ___
                 &lt;br&gt;
-                &lt;br&gt;
+&lt;br&gt;
                 Common Ratio&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/ol&gt;
-            &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;–6&lt;/p&gt;
-
-        &lt;ol&gt;
-            &lt;ol type="a" start="3"&gt;
-              &lt;li&gt;
+&lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;&amp;ndash;6&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="3" type="a"&gt;
+&lt;li&gt;
                 10, 5, ___, ___, 0.625
                   &lt;br&gt;
-                  &lt;br&gt;
+&lt;br&gt;
               Common Ratio&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/ol&gt;
-            &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;0.5&lt;/p&gt;
-     
-        &lt;ol&gt;
-            &lt;ol type="a" start="4"&gt;
-              &lt;li&gt;
-                ___, ___, 36, –108, ___
+&lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;0.5&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="4" type="a"&gt;
+&lt;li&gt;
+                ___, ___, 36, &amp;ndash;108, ___
                   &lt;br&gt;
-                  &lt;br&gt;
+&lt;br&gt;
               Common Ratio&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/ol&gt;
-            &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;–3&lt;/p&gt;
-
-            &lt;ol&gt;
-              &lt;ol type="a" start="5"&gt;
-                &lt;li&gt;
+&lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;&amp;ndash;3&lt;/p&gt;
+&lt;ol&gt;
+&lt;ol start="5" type="a"&gt;
+&lt;li&gt;
                   ___, 12, 18, 27, ___
                     &lt;br&gt;
-                    &lt;br&gt;
+&lt;br&gt;
                 Common Ratio&lt;/li&gt;
-              &lt;/ol&gt;
-            &lt;/ol&gt;
-    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 1.5&lt;/p&gt;</contents>
+&lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 1.5&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="2200">
@@ -1760,8 +1533,7 @@
         <timecreated>1659744836</timecreated>
         <timemodified>1662592286</timemodified>
         <title>4.14.6: Lesson Synthesis</title>
-        <contents>&lt;p&gt;Arrange students in groups of 2. Ask each group to come up with a new geometric sequence and be prepared to explain why it is a geometric sequence. After a brief work time, select 3–4 groups to share their sequence and why it is a geometric sequence. Encourage students to use precise language as they share with the class, such as “term,” “multiplier,” and “common ratio.”&lt;/p&gt;
-
+        <contents>&lt;p&gt;Arrange students in groups of 2. Ask each group to come up with a new geometric sequence and be prepared to explain why it is a geometric sequence. After a brief work time, select 3&amp;ndash;4 groups to share their sequence and why it is a geometric sequence. Encourage students to use precise language as they share with the class, such as &amp;ldquo;term,&amp;rdquo; &amp;ldquo;multiplier,&amp;rdquo; and &amp;ldquo;common ratio.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;If time allows, ask students if they think the sequence 2, 2, 2, 2, 2 is a geometric sequence. (Yes, it has a common ratio of 1.)&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
