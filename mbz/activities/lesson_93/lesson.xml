@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <activity id="70" moduleid="93" modulename="lesson" contextid="104">
   <lesson id="70">
     <course>2</course>
     <name>Lesson 3.3 Teacher Guide: Residuals</name>
-    <intro/>
+    <intro></intro>
     <introformat>1</introformat>
     <practice>0</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password/>
+    <password></password>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>0</activitylink>
-    <mediafile/>
+    <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -43,9 +43,9 @@
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="630">
+      <page id="627">
         <prevpageid>0</prevpageid>
-        <nextpageid>631</nextpageid>
+        <nextpageid>628</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -56,12 +56,147 @@
         <contents>&lt;div class="os-raise-content" data-content-id="27e40302-18e9-4b1f-9411-5cc604107af2"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1410">
-            <jumpto>631</jumpto>
+          <answer id="1402">
+            <jumpto>628</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
             <timecreated>1658447556</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="628">
+        <prevpageid>627</prevpageid>
+        <nextpageid>629</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658450046</timecreated>
+        <timemodified>1658847195</timemodified>
+        <title>3.3.1: Subtracting an Estimated Value from an Actual Value</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="4f633a41-6184-4b48-9004-65c95b5681e7"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1403">
+            <jumpto>627</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658450046</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1404">
+            <jumpto>629</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658450046</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="629">
+        <prevpageid>628</prevpageid>
+        <nextpageid>630</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658452083</timecreated>
+        <timemodified>1659041588</timemodified>
+        <title>3.3.2: Plotting and Analyzing Residuals</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="0dbff3c2-3791-4f01-98d6-5c9f8224179d"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1405">
+            <jumpto>628</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658452083</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1406">
+            <jumpto>630</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658452083</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="630">
+        <prevpageid>629</prevpageid>
+        <nextpageid>631</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658453646</timecreated>
+        <timemodified>1659042294</timemodified>
+        <title>3.3.3: Matching Residuals Graphs to Scatter Plots</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="f25f0afa-6a1a-4794-ba10-4571d7a61f5c"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1407">
+            <jumpto>629</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658453646</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1408">
+            <jumpto>631</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658453646</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -81,18 +216,18 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1658450046</timecreated>
-        <timemodified>1658847195</timemodified>
-        <title>3.3.1: Subtracting an Estimated Value from an Actual Value</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="4f633a41-6184-4b48-9004-65c95b5681e7"&gt;&lt;/div&gt;</contents>
+        <timecreated>1658453893</timecreated>
+        <timemodified>1658751443</timemodified>
+        <title>3.3.4: Identifying Best Fit Line for Residuals on a Graph </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="e8fa961a-9730-4152-bd30-0f7309830e26"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1411">
+          <answer id="1409">
             <jumpto>630</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658450046</timecreated>
+            <timecreated>1658453893</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -101,12 +236,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="1412">
+          <answer id="1410">
             <jumpto>632</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658450046</timecreated>
+            <timecreated>1658453893</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -126,18 +261,18 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1658452083</timecreated>
-        <timemodified>1659041588</timemodified>
-        <title>3.3.2: Plotting and Analyzing Residuals</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="0dbff3c2-3791-4f01-98d6-5c9f8224179d"&gt;&lt;/div&gt;</contents>
+        <timecreated>1658454565</timecreated>
+        <timemodified>1658749104</timemodified>
+        <title>3.3.5: Practice </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="8afd0d02-0187-4458-8958-cf7f2d849f86"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1413">
+          <answer id="1411">
             <jumpto>631</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658452083</timecreated>
+            <timecreated>1658454565</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -146,12 +281,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="1414">
+          <answer id="1412">
             <jumpto>633</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658452083</timecreated>
+            <timecreated>1658454565</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -166,160 +301,39 @@
       </page>
       <page id="633">
         <prevpageid>632</prevpageid>
-        <nextpageid>634</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658453646</timecreated>
-        <timemodified>1659042294</timemodified>
-        <title>3.3.3: Matching Residuals Graphs to Scatter Plots</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="f25f0afa-6a1a-4794-ba10-4571d7a61f5c"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1415">
-            <jumpto>632</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658453646</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1416">
-            <jumpto>634</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658453646</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="634">
-        <prevpageid>633</prevpageid>
-        <nextpageid>635</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658453893</timecreated>
-        <timemodified>1658751443</timemodified>
-        <title>3.3.4: Identifying Best Fit Line for Residuals on a Graph </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="e8fa961a-9730-4152-bd30-0f7309830e26"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1417">
-            <jumpto>633</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658453893</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1418">
-            <jumpto>635</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658453893</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="635">
-        <prevpageid>634</prevpageid>
-        <nextpageid>636</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658454565</timecreated>
-        <timemodified>1658749104</timemodified>
-        <title>3.3.5: Practice </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="8afd0d02-0187-4458-8958-cf7f2d849f86"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1419">
-            <jumpto>634</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658454565</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1420">
-            <jumpto>636</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658454565</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="636">
-        <prevpageid>635</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
         <timecreated>1658454617</timecreated>
-        <timemodified>1659044319</timemodified>
-        <title>3.3.6: Lesson Summary</title>
+        <timemodified>1663870499</timemodified>
+        <title>3.3.6: Lesson Synthesis</title>
         <contents>&lt;div class="os-raise-content" data-content-id="c2cfb498-3510-4188-bd7b-a7371198aa8c"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1421">
-            <jumpto>635</jumpto>
+          <answer id="1413">
+            <jumpto>632</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
             <timecreated>1658454617</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1414">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658454617</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>

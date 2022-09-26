@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <moodle_backup>
   <information>
-    <name>backup-moodle2-course-2-alg1_staging-20220825-2011-nu.mbz</name>
-    <moodle_version>2022041902</moodle_version>
-    <moodle_release>4.0.2 (Build: 20220711)</moodle_release>
+    <name>backup-moodle2-course-2-alg1_staging-20220926-2112-nu.mbz</name>
+    <moodle_version>2022041904</moodle_version>
+    <moodle_release>4.0.4 (Build: 20220912)</moodle_release>
     <backup_version>2022041900</backup_version>
     <backup_release>4.0</backup_release>
-    <backup_date>1661454708</backup_date>
+    <backup_date>1664223166</backup_date>
     <mnet_remoteusers>0</mnet_remoteusers>
     <include_files>1</include_files>
     <include_file_references_to_external_content>0</include_file_references_to_external_content>
     <original_wwwroot>http://localhost:8000</original_wwwroot>
-    <original_site_identifier_hash>7dbafbc22c7ab5bcd4f1a3897faaeec5</original_site_identifier_hash>
+    <original_site_identifier_hash>61955e640d0d9ad98cccac183f6096cd</original_site_identifier_hash>
     <original_course_id>2</original_course_id>
     <original_course_format>topics</original_course_format>
     <original_course_fullname>Algebra 1 - Staging</original_course_fullname>
@@ -21,7 +21,7 @@
     <original_course_contextid>11</original_course_contextid>
     <original_system_contextid>1</original_system_contextid>
     <details>
-      <detail backup_id="919256b987182400033e209c27f6b69b">
+      <detail backup_id="1cf950dcd5eef40cf835a54a807df423">
         <type>course</type>
         <format>moodle2</format>
         <interactive>1</interactive>
@@ -714,37 +714,37 @@
         <activity>
           <moduleid>98</moduleid>
           <sectionid>5</sectionid>
-          <modulename>lesson</modulename>
-          <title>Lesson 3.5 Teacher Guide: Using the Correlation Coefficient</title>
-          <directory>activities/lesson_98</directory>
+          <modulename>page</modulename>
+          <title>Unit 3, Section B Overview: Correlation Coefficient</title>
+          <directory>activities/page_98</directory>
         </activity>
         <activity>
           <moduleid>99</moduleid>
           <sectionid>5</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 3.5: Using the Correlation Coefficient</title>
+          <title>Lesson 3.5 Teacher Guide: Using the Correlation Coefficient</title>
           <directory>activities/lesson_99</directory>
         </activity>
         <activity>
           <moduleid>100</moduleid>
           <sectionid>5</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 3.6 Teacher Guide: Casual Relationships</title>
+          <title>Lesson 3.5: Using the Correlation Coefficient</title>
           <directory>activities/lesson_100</directory>
         </activity>
         <activity>
           <moduleid>101</moduleid>
           <sectionid>5</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 3.6: Casual Relationships</title>
+          <title>Lesson 3.6 Teacher Guide: Casual Relationships</title>
           <directory>activities/lesson_101</directory>
         </activity>
         <activity>
           <moduleid>102</moduleid>
           <sectionid>5</sectionid>
-          <modulename>page</modulename>
-          <title>Unit 3, Section B Overview: Correlation Coefficient</title>
-          <directory>activities/page_102</directory>
+          <modulename>lesson</modulename>
+          <title>Lesson 3.6: Casual Relationships</title>
+          <directory>activities/lesson_102</directory>
         </activity>
         <activity>
           <moduleid>103</moduleid>
@@ -764,7 +764,7 @@
           <moduleid>105</moduleid>
           <sectionid>5</sectionid>
           <modulename>quiz</modulename>
-          <title>Unit 3 Test</title>
+          <title>Unit 3 Quiz</title>
           <directory>activities/quiz_105</directory>
         </activity>
         <activity>
@@ -819,7 +819,7 @@
       <setting>
         <level>root</level>
         <name>filename</name>
-        <value>backup-moodle2-course-2-alg1_staging-20220825-2011-nu.mbz</value>
+        <value>backup-moodle2-course-2-alg1_staging-20220926-2112-nu.mbz</value>
       </setting>
       <setting>
         <level>root</level>
@@ -2147,14 +2147,14 @@
       </setting>
       <setting>
         <level>activity</level>
-        <activity>lesson_98</activity>
-        <name>lesson_98_included</name>
+        <activity>page_98</activity>
+        <name>page_98_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>lesson_98</activity>
-        <name>lesson_98_userinfo</name>
+        <activity>page_98</activity>
+        <name>page_98_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
@@ -2195,14 +2195,14 @@
       </setting>
       <setting>
         <level>activity</level>
-        <activity>page_102</activity>
-        <name>page_102_included</name>
+        <activity>lesson_102</activity>
+        <name>lesson_102_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>page_102</activity>
-        <name>page_102_userinfo</name>
+        <activity>lesson_102</activity>
+        <name>lesson_102_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
