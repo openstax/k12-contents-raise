@@ -37,6 +37,8 @@ services:
       - ../../html:/html
     networks:
       - raisemoodle
+    environment:
+      - CONTENT_VARIANT
     ports:
       - 8800:80
   postgres:
