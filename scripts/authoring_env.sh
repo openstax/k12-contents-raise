@@ -8,13 +8,15 @@ help () {
     echo "
     Commands
 
-    up         Start the authoring environment
-    down       Stop the authoring environment
-    destroy    Stop the authoring environment and destroy all state.
+    up            Start the authoring environment
+    down          Stop the authoring environment
+    destroy       Stop the authoring environment and destroy all state.
+    set-variant   Configure content variant used for preview
+    reset-variant Reset variant used for preview to default
     "
 }
 
-if [ $# -ne 1 ]; then
+if [ $# -eq 0 ]; then
     help
     echo "Please provide one of the valid commands."
     exit 1
@@ -47,6 +49,31 @@ if [ $ACTION == "destroy" ]; then
     then
         docker compose down -v
     fi
+    exit 0
+fi
+
+if [ $ACTION == "set-variant" ]; then
+    VARIANT=$2
+
+    if [[ -z $VARIANT ]]; then
+        echo "Please provide a variant name"
+        exit 1
+    fi
+
+    set -e
+
+    cp ./authoring/docker/.env ./authoring/docker/.env.variant
+    sed -i 's/CONTENT_VARIANT=.*/CONTENT_VARIANT='$VARIANT'/' ./authoring/docker/.env.variant
+    docker compose --env-file ./authoring/docker/.env.variant up --build -d
+
+    exit 0
+fi
+
+if [ $ACTION == "reset-variant" ]; then
+    set -e
+
+    docker compose up --build -d
+
     exit 0
 fi
 
