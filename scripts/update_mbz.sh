@@ -11,10 +11,10 @@ fi
 remove-styles mbz
 git add mbz
 git commit -m "Run mbtools remove-styles"
-# Fix html script to remove tags causing unwanted spacing
-fix-html html
 # Extract HTML
 extract-html-contents mbz html
+# Fix html script to remove tags causing unwanted spacing
+fix-html html
 git add mbz html
 git commit -m "Run mbtools extract-html"
 html-to-json html json
