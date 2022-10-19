@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="143" moduleid="188" modulename="lesson" contextid="199">
+  <lesson id="143">
+    <course>2</course>
+    <name>Lesson 5.13: Reasoning about Exponential Graphs, Part 2</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>190</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1662773152</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1321">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1322</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662163310</timecreated>
+        <timemodified>1663675597</timemodified>
+        <title>5.13.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will investigate the relationship between the parameters \(a\) and \(b\)&amp;nbsp;in the expression \(a \cdot b^x\) and a graph representing the function \(f\)&amp;nbsp;given by \(f(x)=a \cdot b^x\). You will start by identifying a function represented by a given graph and using the graph to make sense of a situation. You will also examine two abstract graphs, with unlabeled axes, and decide which one represents a given situation. In both cases, you will use your understanding of the connections between the parameters in an exponential expression and the features of an exponential graph to answer questions.&lt;/p&gt;
+&lt;p&gt;When you finish this lesson, you will be able to:&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Explain the meaning of the intersection of the graphs of two functions in terms of the situations they represent. &lt;/li&gt;
+  &lt;li&gt; Write an equation for the function given two points on a graph of an exponential function. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the&lt;strong&gt; activities &lt;/strong&gt;that will help you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 5.13.1: Comparing Functions &lt;/li&gt;
+  &lt;li&gt; 5.13.2: Creating Exponential Functions from Graphs
+    &lt;ul&gt;
+      &lt;li&gt; 5.13.2: Self Check&amp;nbsp; &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt; 5.13.3: Comparing Exponential Functions
+    &lt;ul&gt;
+      &lt;li&gt; 5.13.3: Self Check&amp;nbsp; &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt; 5.13.4: Interpreting Features of an Exponential Graph &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 5.13.5: Practice &lt;/li&gt;
+  &lt;li&gt; 5.13.6: Lesson Summary &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2966">
+            <jumpto>1322</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662163310</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1322">
+        <prevpageid>1321</prevpageid>
+        <nextpageid>1323</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662164028</timecreated>
+        <timemodified>1663675829</timemodified>
+        <title>5.13.1: Comparing Functions</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Which one doesn’t belong?&lt;/p&gt;
+        &lt;p&gt;\(f(n)=8 \cdot 2^n\)&lt;/p&gt;
+        &lt;p&gt;\(g(n)=2 \cdot 8^n\)&lt;/p&gt;
+        &lt;p&gt;\(h(n)=8+2n\)&lt;/p&gt;
+        &lt;p&gt;\(j(n)=8 \cdot (\frac{1}{2})^n\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(f\) is the only one that doubles when \(n\) increases by 1.&lt;/p&gt;
+    &lt;p&gt;\(g\) is the only one that does not have 8 for its vertical intercept.&lt;/p&gt;
+    &lt;p&gt;\(h\) is the only one that is not an exponential function.&lt;/p&gt;
+    &lt;p&gt; \(j\) is the only one that is not increasing.&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2967">
+            <jumpto>1321</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662164028</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2968">
+            <jumpto>1323</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662164028</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1323">
+        <prevpageid>1322</prevpageid>
+        <nextpageid>1324</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662164059</timecreated>
+        <timemodified>1663676866</timemodified>
+        <title>5.13.2: Creating Exponential Functions from Graphs</title>
+        <contents>&lt;h4&gt;Activity &lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt; Here is a graph representing an exponential function \(f\). The function \(f\) gives the value of a computer, in dollars, as a function of time, \(x\), measured in years since the time of purchase. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cd2c8b301539b02974ca385d8f1e5d472bcb8440" alt="GRAPH OF AN EXPONENTIAL DECAY FUNCTION, WHERE VALUE IN DOLLARS IS A FUNCTION OF TIME. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA FOUR HUNDRED, 2 COMMA 100, AND 4 COMMA 25." width="300"&gt;&lt;/p&gt;
+&lt;p&gt;Based on the graph, what can you say about the following?&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt; The purchase price of the computer&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;$400 &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt;The value of \(f\) when \(x\) is 1 &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(f(1)=200\) &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol type="a" start="3"&gt;
+            &lt;li&gt; The meaning of \(f(1)\) &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;The value of the computer after 1 year &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol type="a" start="4"&gt;
+            &lt;li&gt; How the value of the computer is changing each year &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;The computer loses half of its value each year. &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol type="a" start="5"&gt;
+            &lt;li&gt;An equation that defines \(f\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(f(x)=400(\frac{1}{2})^x\) or equivalent (i.e., \(f(x)=400 \cdot (0.5)^x\)). &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal4" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol type="a" start="6"&gt;
+            &lt;li&gt;Whether the value of \(f\) will reach 0 after 10 years&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal4" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;No, it will not. After 10 years, the value of the computer will be a little less than $0.40. &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h4&gt; Video: Interpreting an Exponential Function from a Graph&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about interpreting exponential functions:&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/caccc8b7929b24bca06458ed8e8c609a93390e10"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/afc27f8039b61755fbb806ef23d7d2648754e9ee" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/caccc8b7929b24bca06458ed8e8c609a93390e10
+&lt;/video&gt;
+&lt;br&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal5" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt; Here are graphs of two exponential functions. For each, write an equation that defines the function and find the value of the function when \(x\) is 5. &lt;/li&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt; &lt;img src="https://k12.openstax.org/contents/raise/resources/706e82e99b6d42e7d57b030e561e0396529f0669" alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 5, 1 COMMA 15, AND 2 COMMA 45." width="300"&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal5" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; \(f(x)=5\cdot 3^x\) and \(f(5)=1,215\) &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal6" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a" start="2"&gt;
+                &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/2cc8a01ad67c48ca53839eefddc5c83144c7167b" alt="GRAPH OF AN EXPONENTIAL DECAY FUNCTION. THE GRAPH PASSES THROUGH THE POINTS NEGATIVE 1 COMMA 40, 0 COMMA 20, AND 2 COMMA 5." width="300"&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal6" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; \(f(x)=20 \cdot (\frac{1}{2})^x\) (or equivalent, i.e., \(f(x)=20 \cdot (0.5)^x\)) and \(f(5)=0.625\) (or equivalent). &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt; Extending Your Thinking&lt;/h4&gt;
+        &lt;p&gt;Consider a function \(f\) defined by \(f(x)=a \cdot b^x\).&lt;/p&gt;
+        &lt;p&gt;If the graph of \(f\) goes through the points \((2,10)\) and \((8,30)\), would you expect \(f(5)\) to be less than, equal to, or greater than 20?&lt;/p&gt;
+        &lt;p&gt;If the graph of \(f\) goes through the points \((2,30)\) and \((8,10)\), would you expect \(f(5)\) to be less than, equal to, or greater than 20?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The value 20 is what you would get for \(f(5)\) if \(f\) were a linear function through \((2,10)\) and \((8,30)\) (or \((2,30)\) and \((8,10)\)). Looking at graphs representing our exponential functions, we can see that the line connecting two points on the graph always seems to be above the graph of the exponential function itself. Thus, we would expect \(f(5)&amp;lt;20\) in both cases.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2969">
+            <jumpto>1322</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662164059</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2970">
+            <jumpto>1324</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662164059</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1324">
+        <prevpageid>1323</prevpageid>
+        <nextpageid>1325</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1662165378</timecreated>
+        <timemodified>1663776369</timemodified>
+        <title>5.13.2: Self Check</title>
+        <contents>&lt;p&gt;Which of the following is the function for the curve graphed below?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c4d878067481b139a3072634aca8674d31c2d0f6" alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 100, 1 COMMA THREE HUNDRED, AND 2 COMMA 900." width="300"&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2971">
+            <jumpto>1325</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662165378</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=100+3^x\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: The starting value must be multiplied by the growth factor. The answer is \(f(x)=100 \cdot 3^x\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2972">
+            <jumpto>1325</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662165378</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=3 \cdot 100^x\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The \(a\) and \(b\) need to be switched. The answer is \(f(x)=100 \cdot 3^x\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2973">
+            <jumpto>1326</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1662165378</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=100 \cdot 3^x\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The starting value was 100, and the growth factor is 3.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2974">
+            <jumpto>1325</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662165378</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=(100^3)^x\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: Only the 3 should be raised to the \(x\) power. The answer is \(f(x)=100 \cdot 3^x\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2975">
+            <jumpto>1325</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662165378</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1325">
+        <prevpageid>1324</prevpageid>
+        <nextpageid>1326</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662165406</timecreated>
+        <timemodified>1663676588</timemodified>
+        <title>5.13.2: Additional Resources</title>
+        <contents>&lt;h4&gt; Writing Functions from Graphs&lt;/h4&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f5b8e4ad98579e421c915d6944c68bd1c9524248" alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 4, 1 COMMA 12, AND 2 COMMA 36." width="300"&gt;&lt;/p&gt;
+&lt;p&gt;Find the equation of the function graphed above. Then find the value at \(f(5)\).&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol&gt;
+                    &lt;li&gt; Find the value of \(a\), the starting point. &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a=4\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol start="2"&gt;
+                    &lt;li&gt; Find the \(b\), the growth factor. &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(b=3\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol start="3"&gt;
+                    &lt;li&gt; Write the equation of the function. &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x)=4 \cdot 3^x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol start="4"&gt;
+                    &lt;li&gt; Find \(f(5)\). &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(5)=4 \cdot 3^5=972\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt; Try It: Writing Functions from Graphs&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Use the graph below to write the equation of the function. Then find \(f(5)\).&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c6886dff32bbb16d44b05f5c51a3a9d21993da87" alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 2, 1 COMMA 8, AND 2 COMMA 32." width="300"&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;p&gt;Here is how to write the exponential function from the graph:&lt;/p&gt;
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col&gt;
+            &lt;col&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol&gt;
+                        &lt;li&gt; Find the value of \(a\), the starting point. &lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(a=2\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol start="2"&gt;
+                        &lt;li&gt; Find the \(b\), the growth factor. &lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(b=4\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol start="3"&gt;
+                        &lt;li&gt; Write the equation of the function. &lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(f(x)=2 \cdot 4^x\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ol start="4"&gt;
+                        &lt;li&gt; Find \(f(5)\). &lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(f(x)=2 \cdot 4^5=2048\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2976">
+            <jumpto>1324</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662165406</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2977">
+            <jumpto>1326</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662165406</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1326">
+        <prevpageid>1325</prevpageid>
+        <nextpageid>1327</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662165545</timecreated>
+        <timemodified>1663677492</timemodified>
+        <title>5.13.3: Comparing Exponential Functions</title>
+        <contents>&lt;h4&gt;Activity &lt;/h4&gt;
+&lt;p&gt;Here are graphs representing two functions and descriptions of two functions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Sacb9dwYh1r5ayrVxnSvNf2S" alt="Graph of two exponential functions, origin O. time(months) and area (square inches).&amp;nbsp;"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Function \(f\): The area of a wall that is covered by Mold A, in square inches, doubling every month. &lt;/li&gt;
+    &lt;li&gt; Function \(g\): The area of a wall that is covered by Mold B, in square inches, tripling every month. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol&gt;
+            &lt;li&gt; Which graph represents each function? Explain your answer. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Since Mold B is growing more quickly, the graph that shows a greater growth factor (the one starting lower and ending higher) is function \(g\) (solid). &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt; When the mold was first spotted and measured, was there more of Mold A or Mold B? Explain how you know. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;There was more of Mold A. The graph for \(f\) (dashed) shows a greater vertical intercept.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;&lt;br&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt; What does the point \((p,q)\) tell us in this situation? Explain your answer. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;After \(p\) months, there was the same amount of Mold A and Mold B on the wall (\(q\) square inches), after which Mold B started to have larger area than Mold A. &lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2978">
+            <jumpto>1323</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662165545</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2979">
+            <jumpto>1327</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662165545</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1327">
+        <prevpageid>1326</prevpageid>
+        <nextpageid>1328</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1662166925</timecreated>
+        <timemodified>1663776404</timemodified>
+        <title>5.13.3: Self Check </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;In the formula \(f(x)=a \cdot b^x\), what changes on the graph when \(a\) changes?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2980">
+            <jumpto>1328</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662166925</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The \(x\)-intercept&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The \(a\) value changes the vertical intercept. The answer is the \(y\)-intercept.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2981">
+            <jumpto>1329</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1662166925</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The \(y\)-intercept&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The \(a\) value in the exponential function causes the value when \(x = 0\) to change.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2982">
+            <jumpto>1328</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662166925</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The slope&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: The slope is affected by changes in \(b\). The answer is the \(y\)-intercept.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2983">
+            <jumpto>1328</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662166925</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The growth factor&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The growth factor is affected by changes in \(b\). The answer is the \(y\)-intercept.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2984">
+            <jumpto>1328</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662166925</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1328">
+        <prevpageid>1327</prevpageid>
+        <nextpageid>1329</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662167022</timecreated>
+        <timemodified>1663887039</timemodified>
+        <title>5.13.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Reading Exponential Graphs&lt;/h4&gt;
+&lt;p&gt;The graphs of \(f\) and \(g\) are located below and are functions of the form \(y=a \cdot b^x\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cf82658767676ae9948f2725a0a00f2b82d786dc" alt="GRAPH OF EXPONENTIAL GROWTH FUNCTIONS, F AND G. FUNCTION G HAS A SMALLER Y-INTERCEPT AND CLIMBS MORE QUICKLY THAN FUNCTION F." width="300" height="302" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+&lt;p&gt;Which curve has the larger \(a\) value?&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(f(x)\) because its \(y\)-intercept is higher.&lt;/p&gt;
+&lt;p&gt;Which curve has the larger \(b\) value?&lt;/p&gt;
+&lt;p&gt;\(g(x)\) because it is growing more quickly.&lt;/p&gt;
+&lt;h4&gt;Try It: Reading Exponential Graphs&lt;/h4&gt;
+&lt;p&gt;The graphs of \(f\) and \(g\) are located below and are functions of the form \(y=ab^x\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/0bb68cfe7139d9a4552aa673ce3ac2fb56238e98" alt="GRAPH OF EXPONENTIAL GROWTH FUNCTIONS, F AND G. FUNCTION F HAS A SMALLER Y-INTERCEPT AND CLIMBS MORE QUICKLY THAN FUNCTION G." width="300" height="307" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Which curve has the larger \(b\) value?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(f(x)\) has the larger \(b\) value because it is growing faster than \(g(x)\).&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2985">
+            <jumpto>1327</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662167022</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2986">
+            <jumpto>1329</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662167022</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1329">
+        <prevpageid>1328</prevpageid>
+        <nextpageid>1330</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662167099</timecreated>
+        <timemodified>1663887102</timemodified>
+        <title>5.13.4: Interpreting Features of an Exponential Graph</title>
+        <contents>&lt;h4&gt; Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;Here are two graphs representing the function \(f\) given by \(f(x)=10 \cdot 2^x\) and the function \(g\) defined by \(g(x)=a \cdot b^x\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5283751983633ec10bad64c7553e141f15a67af5" alt="" width="300" height="305" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol&gt;
+            &lt;li&gt; Is \(b\) greater than or less than 2? Explain how you know. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;&lt;span&gt;\(b\)&lt;/span&gt;&amp;nbsp;is greater than 2.&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt; The graph of \(g\) starts off being below the graph of \(f\), but later it surpasses the graph of \(f\). Since \(g\) grows more quickly than \(f\), the growth factor \(b\) for \(g\) must be greater than the growth factor for \(f\), which is 2. &lt;/li&gt;
+        &lt;li&gt; The growth factor from the first point \((0,3)\) to the second point \((1,12)\) is 4 because \(\frac{12}{3}=4\), and 4 is greater than 2.&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt; Write an equation that defines \(g\). Explain your answer. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; \(g(x)=3 \cdot 4^x\) because the initial value is 3 and the \(y\)-value is multiplied by 4 when the \(x\)-value increases by 1, so the growth factor is 4. &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt; \(f\) and \(g\) represent the number, in thousands, of social media followers of two organizations as a function of years since 2010. What does the intersection of \(f\) and \(g\) mean in this context?&amp;nbsp;&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;It represents the time, in years since 2010, when the two organizations have the same number of followers. &lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2987">
+            <jumpto>1326</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662167099</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2988">
+            <jumpto>1330</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662167099</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1330">
+        <prevpageid>1329</prevpageid>
+        <nextpageid>1331</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662169131</timecreated>
+        <timemodified>1663709216</timemodified>
+        <title>5.13.5: Practice</title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
+  &lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+  
+	
+  &lt;!--q1--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="3" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+     &lt;ol&gt;
+    &lt;li&gt;Here is a graph of \(p\), an insect population, \(w\) weeks after it was first measured. The population grows exponentially.&amp;nbsp;&lt;br&gt;
+        &lt;img src="https://k12.openstax.org/contents/raise/resources/be8f4718ec44f2071d0a890cab99468e1bc5a1c2" alt="" width="300" height="305" role="presentation"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;
+                What is the weekly factor of growth for the insect population? Enter integers only. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 5.13.2. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 3. You seem to be stuck. Who can you ask for help?
+&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+  &lt;!--1b--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="300" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="2"&gt;
+        &lt;li&gt;What was the population when it was first measured? Enter integers only.&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 5.13.2. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 300. You seem to be stuck. Who can you ask for help?
+&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	 &lt;!--1ce--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(p=300 \cdot 3^w\)" data-solution-options="[&amp;quot;\\(p=300+3^w\\)&amp;quot;, &amp;quot;\\(p=300 \\cdot 3^w\\)&amp;quot;, &amp;quot;\\(p= \\frac{300}{3^w}\\)&amp;quot;, &amp;quot;\\(p=-300 \\cdot 3^w\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+     &lt;ol&gt; &lt;ol type="a" start="3"&gt;
+        &lt;li&gt;Write an equation relating \(p\) and \(w\).&lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 5.13.2. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(p=300 \cdot 3^w\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	&lt;!--q2--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(\\frac{1}{10}\\)&amp;quot;, &amp;quot;\\(\\frac12\\)&amp;quot;, &amp;quot;\\(\\frac{9}{10}\\)&amp;quot;]" data-solution-options="[&amp;quot;0&amp;quot;, &amp;quot;\\(\\frac{1}{10}\\)&amp;quot;, &amp;quot;\\(\\frac12\\)&amp;quot;, &amp;quot;\\(\\frac{9}{10}\\)&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;1.3&amp;quot;, &amp;quot;\\(\\frac{18}{5}\\) &amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol type="1" start="2"&gt;
+        &lt;li&gt;Here is a graph of the function \(f\) defined by \(f(x)=a \cdot b^x\).&lt;br&gt; &lt;img src="https://k12.openstax.org/contents/raise/resources/8557128fefac88efa9d2e444483c4358ec43784e" alt="" width="300" height="292" role="presentation"&gt;&lt;br&gt;&lt;strong&gt;
+        Select all&lt;/strong&gt; possible values of \(b\).&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 5.13.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(\frac{1}{10}\), \(\frac12\), and \(\frac{9}{10}\). You seem to be stuck. Who can you ask for help?
+&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	
+	&lt;!--q3--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Graph 1" data-solution-options="[&amp;quot;Graph 1&amp;quot;, &amp;quot;Graph 2&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol type="1" start="3"&gt;
+        &lt;li&gt;The function \(f\) is given by \(f(x)=50\cdot (\frac{1}{2})^x\), and the function \(g\)&amp;nbsp;is given by \(g(x)=50 \cdot (\frac{1}{3})^x\).&lt;br&gt;
+        Here are graphs of \(f\) and \(g\).&lt;br&gt;
+        &lt;br&gt;
+        &lt;img src="https://s3.amazonaws.com/im-ims-export/EH2t9kUmJhCC9EYYLAVExP4S" alt="Graph of two decreasing exponential functions, xy-plane, origin O."&gt;&lt;br&gt;
+        &lt;br&gt;
+        Which graph is the graph of \(f(x)\)?
+    &lt;/li&gt;
+&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 5.13.3–5.13.4. Are you using it the right way?
+&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is Graph 1. The growth factor for \(f(x)\) is greater than that of \(g(x)\), so \(f(x)\) lies above \(g(x)\) on the graph. You seem to be stuck. Who can you ask for help?
+&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	&lt;!--Q4--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="greater than" data-solution-options="[&amp;quot;greater than&amp;quot;, &amp;quot;less than&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="4"&gt;
+    &lt;li&gt;The function \(f\)&amp;nbsp;is defined by \(f(x)=50 \cdot 3^x\). The function \(g\)&amp;nbsp;is defined by \(g(x)=a \cdot b^x\).&lt;br&gt;
+        Here are graphs of \(f\) and \(g\).&lt;br&gt;
+        &lt;br&gt;
+        &lt;img src="https://s3.amazonaws.com/im-ims-export/XsdsVm8Zspp9VZxBfnhGwhyp" alt="Graph of two increasing exponential functions, labeled f and g, xy-plane, origin O."&gt;&lt;br&gt;
+        &lt;br&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;
+                In \(g(x)\), \(a\)&amp;nbsp;is &lt;span&gt;greater than/less than&lt;/span&gt; 50. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 5.13.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is greater than. The \(y\)-intercept of \(g\)&amp;nbsp;is above the \(y\)-intercept of \(f\). You seem to be stuck. Who can you ask for help?
+&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+	&lt;!--4b--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="less than" data-solution-options="[&amp;quot;greater than&amp;quot;, &amp;quot;less than&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;&lt;ol type="a" start="2"&gt;
+        &lt;li&gt;In \(g(x)\), \(b\) is greater than/less than 3. &lt;/li&gt;
+      &lt;/ol&gt;&lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 5.13.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is less than. In \(g(x)\), \(b\) is less than 3 (but still larger than 1) because the growth rate of \(f\) is faster than the growth rate of \(g\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--Do not edit below this line--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2989">
+            <jumpto>1329</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662169131</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2990">
+            <jumpto>1331</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662169131</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1331">
+        <prevpageid>1330</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662169177</timecreated>
+        <timemodified>1663631830</timemodified>
+        <title>5.13.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Explain the meaning of the intersection of the graphs of two functions in terms of the situations they represent. &lt;/li&gt;
+  &lt;li&gt; Write an equation for the function given two points on a graph of an exponential function. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 5.13.1: Comparing Functions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you looked closely at functions and explained the ways in which they were similar or distinct. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 5.13.2: Creating Exponential Functions from Graphs&amp;nbsp; &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you analyzed graphs of exponential functions to identify the initial value and the growth factor. You then created corresponding equations for the functions. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 5.13.2: Self Check&amp;nbsp; &lt;/li&gt;
+  &lt;li&gt; 5.13.3: Comparing Exponential Functions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you were presented with two graphs without numerical values assigned to any points on the graphs. Using the graphs, you compared their starting values and growth factors in the context of the situation. You also analyzed the point of intersection. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 5.13.3: Self Check&amp;nbsp; &lt;/li&gt;
+  &lt;li&gt; 5.13.4: Interpreting Features of an Exponential Graph &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you used the graph of a given exponential function to determine possible values in the equation of the other exponential function. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 5.13.5: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
+  
+  &lt;!--pulldown--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2991">
+            <jumpto>1330</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662169177</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2992">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662169177</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

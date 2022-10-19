@@ -1,0 +1,2906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="159" moduleid="211" modulename="lesson" contextid="222">
+  <lesson id="159">
+    <course>2</course>
+    <name>Lesson 6.5 Teacher Guide: Factor Trinomials</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>212</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1664245912</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1473">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1474</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663190418</timecreated>
+        <timemodified>1664118330</timemodified>
+        <title>6.5.0: Lesson Overview</title>
+        <contents>&lt;h4&gt; Lesson Narrative&lt;/h4&gt;
+&lt;p&gt;This lesson introduces a method for factoring trinomials of the form \(x^2 + bx + c\). By undoing FOIL, students can reverse the process used to multiply binomials and find the factored form of the trinomials.&lt;/p&gt;
+&lt;p&gt;This lesson also introduces multiple ways to factor trinomials of the form \(ax^2 + bx + c\). The simplest way is to factor out the GCF and determine that simplifies the form of the trinomial. If the form is still \(ax^2 + bx + c\), then students may choose from trial and error and the “\(ac\)” method. The “\(ac\)” method will work for any trinomial of the form \(ax^2 + bx + c\).&lt;/p&gt;
+&lt;p&gt;If a polynomial does not seem to fit the known forms for factoring, it may be possible to substitute the variable \(u\) for an expression, thus simplifying the trinomial into a more recognizable form. The trinomial can then be factored, and the original expression is then substituted back in for \(u\).&lt;/p&gt;
+&lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Factor trinomials of the form \(x^2 + bx + c\) by undoing FOIL. &lt;/li&gt;
+  &lt;li&gt; Factor trinomials of the form \(ax^2 + bx + c\) using trial and error to guess the binomial factors of the factored form. &lt;/li&gt;
+  &lt;li&gt; Factor trinomials of the form \(ax^2 + bx + c\) using the “\(ac\)” method to factor any trinomial. &lt;/li&gt;
+  &lt;li&gt; Factor trinomials that do not readily appear to be of the form \(ax^2 + bx + c\) by substituting \(u\)&lt;em&gt; f&lt;/em&gt;or a value before factoring. &lt;/li&gt;
+  &lt;li&gt; Analyze a trinomial and determine their own way of factoring. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt; Factor trinomials of the form \(x^2 + bx + c\). &lt;/li&gt;
+  &lt;li&gt; Factor trinomials of the form \(ax^2 + bx + c\) using trial and error. &lt;/li&gt;
+  &lt;li&gt; Factor trinomials of the form \(ax^2 + bx + c\) using the “\(ac\)” method. &lt;/li&gt;
+  &lt;li&gt; Factor trinomials using substitution. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;A10(E) &lt;u&gt;factor, if possible, trinomials with real factors in the form \(ax^2 + bx + c\)&lt;/u&gt;, including perfect square trinomials of degree two; and&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Lesson Activities&lt;/h4&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 6.5.1: Undoing FOIL &lt;/li&gt;
+  &lt;li&gt; 6.5.2: Factoring Trinomials with Leading Coefficients of 1&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 6.5.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 6.5.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 6.5.3: Factoring Trinomials Using Trial and Error &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 6.5.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 6.5.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 6.5.4: Factoring Trinomials Using the “\(ac\)” Method and Substitution &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 6.5.4: Self Check &lt;/li&gt;
+    &lt;li&gt; 6.5.4: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 6.5.5: Choosing Your Own Method to Factor Trinomials &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will also complete a series of problems in the 6.5.6: Practice.&lt;/p&gt;
+&lt;h4&gt;Required Materials&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Paper and pencil &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt; Required Preparation&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;None &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
+  &lt;li&gt; Encourage students to use key vocabulary words in “math talk” and their written and oral explanations. &lt;/li&gt;
+  &lt;li&gt; Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson include:&lt;/p&gt;
+&lt;table border="1" cellpadding="5" width="550"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;&lt;strong&gt;Previous Vocabulary &lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;&lt;strong&gt;New Vocabulary &lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;ul&gt;
+          &lt;li&gt; binomial &lt;/li&gt;
+          &lt;li&gt; trinomial &lt;/li&gt;
+          &lt;li&gt; polynomial &lt;/li&gt;
+          &lt;li&gt; factoring &lt;/li&gt;
+          &lt;li&gt; greatest common factor (GCF) &lt;/li&gt;
+        &lt;/ul&gt;&lt;/td&gt;
+      &lt;td valign="top"&gt;&lt;ul&gt;
+          &lt;li&gt;none&lt;/li&gt;
+        &lt;/ul&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt; Support for Building Character&lt;/h4&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;judgment&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/fundamental-beliefs/" target="_blank"&gt;Fundamental Beliefs&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/reserve-judgment/" target="_blank"&gt;Reserve Judgment&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find other tips located here in the &lt;a href="https://characterlab.org/playbooks/judgment/" target="_blank"&gt;Playbook on Judgment&lt;/a&gt; from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3314">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663190418</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1474">
+        <prevpageid>1473</prevpageid>
+        <nextpageid>1475</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663198474</timecreated>
+        <timemodified>1664310181</timemodified>
+        <title>6.5.1: Undoing FOIL</title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
+&lt;p&gt;This warm up activity introduces the idea of reversing the FOIL process to factor a trinomial back into its factored form.&lt;/p&gt;
+&lt;h4&gt; Launch&lt;/h4&gt;
+&lt;p&gt;Introduce the first activity by identifying the trinomial \(q^2 + 10q + 24\). Allow 2–3 minutes for students to write down their answers, completing the table. Once they have finished, review the solution to ensure their table is correct. Emphasize that we are looking for the factors that multiply to 24 and have a sum of 10. Once students identify the correct factors, display the factored expression.&lt;/p&gt;
+&lt;p&gt;As a check, use FOIL to multiply the expression the students just found. This will demonstrate why they were searching for factors that multiplied to 24 and added to 10.&lt;/p&gt;
+&lt;h4&gt; Student Activity&lt;/h4&gt;
+&lt;p&gt;We are going to factor the trinomial \(q^2 + 10q + 24\) by reversing the process of FOIL.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Find all the different combinations of factors of 24. One example is provided in the table.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="174"&gt;
+        &lt;col width="174"&gt;
+  &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Factors of 24&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Sum of Factors&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(1, 24\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(1 + 24 = 25\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Write down your answers. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;div&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="174"&gt;
+        &lt;col width="174"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Factors of 24&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Sum of Factors&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(1\), \(24\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(1 + 24 = 25\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(2\), \(12\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(2 + 12 = 13\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(3\), \(8\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(3 + 8 = 11\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(4\), \(6\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(4 + 6 = 10\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;We’re going to look at these factors to see which of them would fit in the boxes and multiply to make the trinomial \(q^2 + 10q + 24\) that we started with in the beginning.&lt;/p&gt;
+&lt;p&gt;\((q+\square)(q+\square)\)&lt;/p&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt;Which pair of factors fits the situation? What is the factored expression?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(4\), \(6\); \((q + 4)(q + 6)\)&lt;/p&gt;
+&lt;p&gt;So, by undoing FOIL, we found that the trinomial \(q^2 + 10q + 24\) factors to the expression \((q + 4)(q + 6)\).&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;The FOIL process is a way of multiplying two binomials. By thinking about reversing this process, students can start to see how a trinomial might be rewritten into its factored form.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3315">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663198474</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3316">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663198474</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1475">
+        <prevpageid>1474</prevpageid>
+        <nextpageid>1476</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663199118</timecreated>
+        <timemodified>1664326983</timemodified>
+        <title>6.5.2: Factoring Trinomials with Leading Coefficients of 1</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;This activity introduces students to factoring a trinomial of the form \(x^2 + bx + c\) by visualizing how to undo the FOIL process. Students will try to think of two numbers that are factors of \(c\) and have a sum of \(b\). The factors that meet these requirements will be the last terms of the binomial factors of the trinomial.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Solve the first example as a class. Pause on each question for students to answer. After students identify the correct factors, ask what should happen next. When students are able to correctly say they should be placed as the last terms of the two binomial factors, click the &lt;strong&gt;Solution&lt;/strong&gt; button to reveal the factored form.&lt;/p&gt;
+&lt;p&gt;Then allow students to solve the problems individually. As students finish, ask if there are any questions.&lt;/p&gt;
+&lt;h4&gt;Student Activity &lt;/h4&gt;
+&lt;p&gt;Let’s factor this trinomial.&lt;/p&gt;
+&lt;p&gt;\(t^2 + 14t + 24\)&lt;/p&gt;
+&lt;p&gt;Think:&lt;br&gt;
+  What are the factors of \(24\)?&lt;br&gt;
+  Which of these factors add to \(14\)?&lt;/p&gt;
+&lt;p&gt;Here is the table we made in the previous activity:&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col width="174"&gt;
+  &lt;col width="174"&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Factors of 24&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Sum of factors&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;1, 24&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(1 + 24 = 25\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;2, 12&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(2 + 12 = 13\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;3, 8&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(3 + 8 = 11\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;4, 6&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(4 + 6 = 10\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Write down your answers. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&lt;br&gt;
+  \(2 \cdot 12 = 24\)&lt;br&gt;
+  \(2 + 12 = 14\)&lt;/p&gt;
+&lt;p&gt;So, use \(2\) and \(12\) as the last terms of the binomials.&lt;/p&gt;
+&lt;p&gt;\((t + 2)(t + 12)\)&lt;/p&gt;
+&lt;p&gt;Factor each trinomial. If the trinomial cannot be factored, write “prime.”&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;\(9m + m^2 + 18\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((m + 3)(m + 6)\) &lt;/p&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt;\(a^2 − 11ab + 10b^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((a − b)(a − 10b)\) &lt;/p&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt;\(u^2 − 9uv − 12v^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; prime &lt;/p&gt;
+&lt;ol start="4"&gt;
+  &lt;li&gt;\(
+    5p − 6 + p^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((p − 1)(p + 6)\) &lt;/p&gt;
+&lt;ol start="5"&gt;
+  &lt;li&gt; \(m^2 − 64mn − 65n^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((m + n)(m − 65n)\) &lt;/p&gt;
+&lt;h4&gt; Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Emphasize to students that for “undoing FOIL” to be possible as a way to factor a polynomial, it must be a trinomial of the form \(x^2 + bx + c\). If the coefficient of the first term of degree \(2\) is not \(1\), then this is not an effective way to factor the polynomial.&lt;/p&gt;
+&lt;p&gt;When “undoing FOIL” to factor a trinomial, \(x^2 + bx + c\):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Think: What are the factors of \(c\)? &lt;/li&gt;
+  &lt;li&gt; Which of these factors have a sum of \(b\)? &lt;/li&gt;
+  &lt;li&gt; Use the factors that meet these requirements as the last terms of the binomial factors. &lt;/li&gt;
+  &lt;li&gt; Multiply the binomials using FOIL to check your answer. The product should be the original trinomial. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Video: Factoring Trinomials of the Form \(x^2 + bx + c\)&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about how factor trinomials of the form \(x^2 + bx + c\).&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+  &lt;source src="https://k12.openstax.org/contents/raise/resources/b768d8c99b6a4d262b7d77626f7598859a277e53"&gt;
+  &lt;track src="https://k12.openstax.org/contents/raise/resources/892dadf86a37130b7b56e4477a71799bee89bd87" kind="captions" srclang="en_us" label="On" default="true"&gt;
+  https://k12.openstax.org/contents/raise/resources/b768d8c99b6a4d262b7d77626f7598859a277e53 &lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h3&gt;6.5.2: Self Check&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col width="302"&gt;
+  &lt;col width="322"&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td colspan="2"&gt;&lt;p&gt;&lt;strong&gt;QUESTION: &lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Factor: \(y^2 − 16y + 63\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\((y − 7)(y + 9)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: These factors do not produce the term \(− 16y\) or the term \(+63\). The answer is \((y − 7)(y − 9)\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\((y + 7)(y − 9)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: These factors do not produce the term \(− 16y\) or&amp;nbsp; the term \(+63\). The answer is \((y − 7)(y − 9)\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\((y + 7)(y + 9)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: These factors do not produce the term \(− 16y\). The answer is \((y − 7)(y − 9)\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\((y − 7)(y − 9)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;That’s correct! Check yourself: Use FOIL on the factors to verify that they are equivalent to \(y^2 − 16y + 63\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;6.5.2: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt; How to Factor a Trinomial of the Form \(x^2 + bx + c\)&lt;/h4&gt;
+&lt;p&gt;To figure out how we would factor a trinomial of the form \(x^2+bx+c\), such as \(x^2+5x+6\), and factor it to \((x+2)(x+3)\), let’s start with two general binomials of the form \((x+m)\) and \((x+n)\).&lt;/p&gt;
+&lt;p&gt;\((x+m)(x+n)\)&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  FOIL to find the product.&lt;br&gt;
+  \(x^2+mx+nx+mn\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Factor the GCF from the middle terms.&lt;br&gt;
+  \(x^2+(m+n)x+mn\)&lt;/p&gt;
+&lt;p&gt; Our trinomial is of the form \(x^2+bx+c\).&lt;br&gt;
+  &lt;img src="https://k12.openstax.org/contents/raise/resources/cc6b9de6e3165344c6329fec488951bee8002e8c" alt="." width="250"&gt; &lt;/p&gt;
+&lt;p&gt;This tells us that to factor a trinomial of the form \(x^2 + bx + c\), we need two factors \((x + m)\) and \((x + n)\) where the two numbers \(m\) and \(n\) multiply to \(c\) and add to \(b\).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EXAMPLE 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Factor: \(x^2+11x+24\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Write the factors as two binomials with the first terms \(x\).&lt;br&gt;
+  Write two sets of parentheses and put \(x\) as the first term.&lt;br&gt;
+  \(x^2 + 11x + 24\)&lt;br&gt;
+  \((x \;\;\;\; )(x \;\;\;\; )\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Find two numbers, \(m\) and \(n\), that&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; multiply to \(c\): \(m \cdot n = c\) &lt;/li&gt;
+  &lt;li&gt; add to \(b\): \(m + n = b\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find two numbers that multiply to 24 and add to 11.&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col width="117"&gt;
+  &lt;col width="125"&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Factors of 24&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Sum of factors&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(1, 24\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(1 + 24 = 25\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(2, 12\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(2 + 12 = 14\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(3, 8\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(3 + 8 = 11 \checkmark\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(4, 6\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(4 + 6 = 10\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  Use \(m\) and \(n\) as the last terms of the factors.&lt;br&gt;
+  Use 3 and 8 as the last terms of the binomials.&lt;br&gt;
+  \((x + 3)(x + 8)\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Check by multiplying the factors.&lt;br&gt;
+  \((x + 3)(x + 8)\)&lt;br&gt;
+  \(x^2 + 8x + 3x + 24\)&lt;br&gt;
+  \(x^2 + 11x + 24✓\)&lt;/p&gt;
+&lt;p&gt;Let’s summarize the steps we used to find the factors.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to factor trinomials of the form \(x^2 + bx + c\):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Write the factors as two binomials with first terms x.&lt;br&gt;
+  \(x^2\;+\;bx\;+\;c\\\;(x\;\;\;\;\;)(x\;\;\;\;\;)\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;strong&gt;&lt;br&gt;
+  &lt;/strong&gt; Find two numbers, \(m\) and \(n\), that&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; multiply to \(c\): \(m \cdot n = c\) &lt;/li&gt;
+  &lt;li&gt; add to \(b\): \(m + n = b\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  Use \(m\) and \(n\) as the last terms of the factors.&lt;br&gt;
+  \((x + m)(x + n)\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Check by multiplying the factors.&lt;/p&gt;
+&lt;p&gt;In the first example, all terms in the trinomial were positive. What happens when there are negative terms? Well, it depends which term is negative. Let’s look first at trinomials with only the middle term negative.&lt;/p&gt;
+&lt;p&gt;How do you get a &lt;em&gt;positive product&lt;/em&gt; and a &lt;em&gt;negative sum&lt;/em&gt;? We use two negative numbers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EXAMPLE 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Factor: \(y^2 − 11y + 28\).&lt;/p&gt;
+&lt;p&gt;Again, with the positive last term, \(28\), and the negative middle term, \(−11y\), we need two negative factors. Find two numbers that multiply to \(28\) and add to \(−11\).&lt;/p&gt;
+&lt;p&gt;Step 1 &lt;br&gt;
+  Write the factors as two binomials with first terms \(y\).&lt;br&gt;
+  \((y \;\;\;\; )(y \;\;\;\; )\) &lt;/p&gt;
+&lt;p&gt;Step 2 &lt;br&gt;
+  Find two numbers that multiply to 28 and add to –11. &lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5" width="358"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;&lt;strong&gt;Factors of 28 &lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td valign="top"&gt;&lt;p align="center"&gt;&lt;strong&gt;Sum of factors&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;\(−1,−28\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(−1+(−28)= −29\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(−2,−14\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;\(−2+(−14)= −16\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(−4,−7\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(−4+(−7)= −11 \checkmark\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  Use –4 and –7 as the last two terms of the binomials.&lt;br&gt;
+  \((y−4)(y−7)\) &lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Check.&lt;br&gt;
+  \(\begin{array}{l}(y-4)(y-7)\\y^2-7y-4y+28\\y^2-11y+28\checkmark\end{array}\)&lt;/p&gt;
+&lt;p&gt;Now, what if the last term in the trinomial is negative? Think about FOIL. The last term is the product of the last terms in the two binomials. A negative product results from multiplying two numbers with opposite signs. You have to be very careful when you choose factors to make sure you get the correct sign for the middle term, too. How do you get a negative product and a positive sum? We use one positive and one negative number. When we factor trinomials, we must have the terms written in descending order—in order from highest degree to lowest degree.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EXAMPLE 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Factor: \(2x + x^2 − 48\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Put the terms in decreasing degree order.&lt;br&gt;
+  \(x^2 + 2x − 48\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Write the factors as two binomials with first terms \(x\).&lt;br&gt;
+  \((x \;\;\;\; )(x \;\;\;\; )\)&lt;/p&gt;
+&lt;p&gt;Step 3 &lt;br&gt;
+  Find two numbers that multiply to −48 and add to 2. &lt;/p&gt;
+&lt;br&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5" width="419"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;&lt;strong&gt;Factors of –&lt;/strong&gt;&lt;strong&gt;48&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td valign="bottom"&gt;&lt;p&gt;&lt;strong&gt;Sum of factors&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;\(−1,48\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(−1+48=47\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(−2,24\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(−2+24=22\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(−3,16\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(−3+16=13\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(−4,12\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(−4+12=8\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(−6,8\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(−6+8=2^ \ast\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Since the middle term of the trinomial is positive, the sum of the factors must also be positive. This means that we are only looking at the factors in which the larger number is positive. This is why factors such as 1 and −48 are not included in the table.&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Use –6 and 8 as the last terms of the binomials.&lt;br&gt;
+  \((x - 6)(x + 8)\) &lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+  Check.&lt;br&gt;
+  \(\begin{array}{l}(x - 6)(x+8)\\x^2\;–\;6x\;+\;8x\;–\;48\\x^2\;+\;2x\;–\;48\;{\style{color:red}\checkmark}\end{array}\)&lt;/p&gt;
+&lt;p&gt;Sometimes you’ll need to factor trinomials of the form \(x^2 + bxy + cy^2\) with two variables, such as \(x^2 + 12xy + 36y^2\). The first term, \(x^2\), is the product of the first terms of the binomial factors, \(x \cdot x\). The \(y^2\) in the last term means that the second terms of the binomial factors must each contain \(y\). To get the coefficients \(b\) and \(c\), you use the same process summarized above.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EXAMPLE 4&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Factor: \(r^2 − 8rs − 9s^2\).&lt;/p&gt;
+&lt;p&gt;We need \(r\) in the first term of each binomial and \(s\) in the second term. The last term of the trinomial is negative, so the factors must have opposite signs.&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Note that the first terms are \(r\) and the last terms contain \(s\).&lt;br&gt;
+  \((r \;\;\;\; s)(r \;\;\;\; s)\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Find the numbers that multiply to −9 and add to −8.&lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5" width="491"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;&lt;strong&gt;Factors of −9&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td valign="bottom"&gt;&lt;p&gt;&lt;strong&gt;Sum of factors&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;\(-1,9\) &lt;/p&gt;&lt;/td&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;\(−1+9=8\) &lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;\(1,-9\) &lt;/p&gt;&lt;/td&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;\(1+(−9)=−8 \checkmark \) &lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;\(3,−3\) &lt;/p&gt;&lt;/td&gt;
+      &lt;td valign="top"&gt;&lt;p&gt;\(3+(−3)=0\) &lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;
+  Step 3 &lt;br&gt;
+  Use 1 and –9 as coefficients of the last terms. &lt;br&gt;
+  \((r+s)(r−9s)\) &lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Check.&lt;br&gt;
+  \(\begin{array}{l}(r-9s)(r+s)\\r^2+rs-9rs-9s^2\\r^2-8rs-9s^2\end{array}\)&lt;/p&gt;
+&lt;p&gt;It is important to keep in mind that some trinomials are prime. The only way to be certain a trinomial is prime is to list all the possibilities and show that none of them work. If there are no factor pairs that fit all the requirements, then the trinomial is prime.&lt;/p&gt;
+&lt;p&gt;Let’s summarize the method we just developed to factor trinomials of the form \(x^2 + bx + c\).&lt;/p&gt;
+&lt;br&gt;
+&lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;
+  &lt;p&gt; &lt;strong&gt;STRATEGY FOR FACTORING TRINOMIALS OF THE FORM \(x^2+bx+c\) &lt;/strong&gt;&lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p&gt;When we factor a trinomial, we look at the signs of its terms first to determine the signs of the binomial factors.&lt;/p&gt;
+  &lt;p&gt;
+    &lt;math xmlns="http://www.w3.org/1998/Math/MathML" display="block"&gt;
+      &lt;semantics&gt;
+        &lt;mrow&gt;
+          &lt;mrow&gt;
+            &lt;mtable&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mtable&gt;
+                    &lt;mtr&gt;
+                      &lt;mtd&gt;
+                        &lt;msup&gt;
+                          &lt;mi&gt;x&lt;/mi&gt;
+                          &lt;mn&gt;2&lt;/mn&gt;
+                        &lt;/msup&gt;
+                        &lt;mo&gt;+&lt;/mo&gt;
+                        &lt;mi&gt;b&lt;/mi&gt;
+                        &lt;mi&gt;x&lt;/mi&gt;
+                        &lt;mo&gt;+&lt;/mo&gt;
+                        &lt;mi&gt;c&lt;/mi&gt;
+                      &lt;/mtd&gt;
+                    &lt;/mtr&gt;
+                    &lt;mtr&gt;
+                      &lt;mtd&gt;
+                        &lt;mrow&gt;
+                          &lt;mo&gt;(&lt;/mo&gt;
+                          &lt;mrow&gt;
+                            &lt;mi&gt;x&lt;/mi&gt;
+                            &lt;mo&gt;+&lt;/mo&gt;
+                            &lt;mi&gt;m&lt;/mi&gt;
+                          &lt;/mrow&gt;
+                          &lt;mo&gt;)&lt;/mo&gt;
+                        &lt;/mrow&gt;
+                        &lt;mrow&gt;
+                          &lt;mo&gt;(&lt;/mo&gt;
+                          &lt;mrow&gt;
+                            &lt;mi&gt;x&lt;/mi&gt;
+                            &lt;mo&gt;+&lt;/mo&gt;
+                            &lt;mi&gt;n&lt;/mi&gt;
+                          &lt;/mrow&gt;
+                          &lt;mo&gt;)&lt;/mo&gt;
+                        &lt;/mrow&gt;
+                      &lt;/mtd&gt;
+                    &lt;/mtr&gt;
+                  &lt;/mtable&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mtext mathvariant="bold"&gt;When&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;c&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;is positive,&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;m&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;and&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;n&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;have the same sign.&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mi&gt;b&lt;/mi&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;positive&lt;/mtext&gt;
+                  &lt;mspace width="16.5em"&gt;&lt;/mspace&gt;
+                  &lt;mi&gt;b&lt;/mi&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;negative&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mi&gt;m&lt;/mi&gt;
+                  &lt;mo&gt;,&lt;/mo&gt;
+                  &lt;mi&gt;n&lt;/mi&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;positive&lt;/mtext&gt;
+                  &lt;mspace width="15em"&gt;&lt;/mspace&gt;
+                  &lt;mi&gt;m&lt;/mi&gt;
+                  &lt;mo&gt;,&lt;/mo&gt;
+                  &lt;mi&gt;n&lt;/mi&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;negative&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;msup&gt;
+                    &lt;mi&gt;x&lt;/mi&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;/msup&gt;
+                  &lt;mo&gt;+&lt;/mo&gt;
+                  &lt;mn&gt;5&lt;/mn&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mo&gt;+&lt;/mo&gt;
+                  &lt;mn&gt;6&lt;/mn&gt;
+                  &lt;mspace width="16em"&gt;&lt;/mspace&gt;
+                  &lt;msup&gt;
+                    &lt;mi&gt;x&lt;/mi&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;/msup&gt;
+                  &lt;mo&gt;−&lt;/mo&gt;
+                  &lt;mn&gt;6&lt;/mn&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mo&gt;+&lt;/mo&gt;
+                  &lt;mn&gt;8&lt;/mn&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;+&lt;/mo&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;+&lt;/mo&gt;
+                      &lt;mn&gt;3&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mspace width="15em"&gt;&lt;/mspace&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;−&lt;/mo&gt;
+                      &lt;mn&gt;4&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;−&lt;/mo&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mtext&gt;same signs&lt;/mtext&gt;
+                  &lt;mspace width="16em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;same signs&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mtext mathvariant="bold"&gt;When&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;c&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;is negative,&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;m&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;and&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;n&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;have opposite signs.&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;msup&gt;
+                    &lt;mi&gt;x&lt;/mi&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;/msup&gt;
+                  &lt;mo&gt;+&lt;/mo&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mo&gt;−&lt;/mo&gt;
+                  &lt;mn&gt;12&lt;/mn&gt;
+                  &lt;mspace width="16em"&gt;&lt;/mspace&gt;
+                  &lt;msup&gt;
+                    &lt;mi&gt;x&lt;/mi&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;/msup&gt;
+                  &lt;mo&gt;−&lt;/mo&gt;
+                  &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mo&gt;−&lt;/mo&gt;
+                  &lt;mn&gt;15&lt;/mn&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;+&lt;/mo&gt;
+                      &lt;mn&gt;4&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;−&lt;/mo&gt;
+                      &lt;mn&gt;3&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mspace width="15em"&gt;&lt;/mspace&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;−&lt;/mo&gt;
+                      &lt;mn&gt;5&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;+&lt;/mo&gt;
+                      &lt;mn&gt;3&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mtext&gt;opposite signs&lt;/mtext&gt;
+                  &lt;mspace width="15em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;opposite signs&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+            &lt;/mtable&gt;
+          &lt;/mrow&gt;
+        &lt;/mrow&gt;
+        &lt;annotation-xml encoding="MathML-Content"&gt;
+          &lt;mrow&gt;
+            &lt;mtable&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mtable&gt;
+                    &lt;mtr&gt;
+                      &lt;mtd&gt;
+                        &lt;msup&gt;
+                          &lt;mi&gt;x&lt;/mi&gt;
+                          &lt;mn&gt;2&lt;/mn&gt;
+                        &lt;/msup&gt;
+                        &lt;mo&gt;+&lt;/mo&gt;
+                        &lt;mi&gt;b&lt;/mi&gt;
+                        &lt;mi&gt;x&lt;/mi&gt;
+                        &lt;mo&gt;+&lt;/mo&gt;
+                        &lt;mi&gt;c&lt;/mi&gt;
+                      &lt;/mtd&gt;
+                    &lt;/mtr&gt;
+                    &lt;mtr&gt;
+                      &lt;mtd&gt;
+                        &lt;mrow&gt;
+                          &lt;mo&gt;(&lt;/mo&gt;
+                          &lt;mrow&gt;
+                            &lt;mi&gt;x&lt;/mi&gt;
+                            &lt;mo&gt;+&lt;/mo&gt;
+                            &lt;mi&gt;m&lt;/mi&gt;
+                          &lt;/mrow&gt;
+                          &lt;mo&gt;)&lt;/mo&gt;
+                        &lt;/mrow&gt;
+                        &lt;mrow&gt;
+                          &lt;mo&gt;(&lt;/mo&gt;
+                          &lt;mrow&gt;
+                            &lt;mi&gt;x&lt;/mi&gt;
+                            &lt;mo&gt;+&lt;/mo&gt;
+                            &lt;mi&gt;n&lt;/mi&gt;
+                          &lt;/mrow&gt;
+                          &lt;mo&gt;)&lt;/mo&gt;
+                        &lt;/mrow&gt;
+                      &lt;/mtd&gt;
+                    &lt;/mtr&gt;
+                  &lt;/mtable&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mtext mathvariant="bold"&gt;When&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;c&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;is positive,&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;m&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;and&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;n&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;have the same sign.&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mi&gt;b&lt;/mi&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;positive&lt;/mtext&gt;
+                  &lt;mspace width="16.5em"&gt;&lt;/mspace&gt;
+                  &lt;mi&gt;b&lt;/mi&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;negative&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mi&gt;m&lt;/mi&gt;
+                  &lt;mo&gt;,&lt;/mo&gt;
+                  &lt;mi&gt;n&lt;/mi&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;positive&lt;/mtext&gt;
+                  &lt;mspace width="15em"&gt;&lt;/mspace&gt;
+                  &lt;mi&gt;m&lt;/mi&gt;
+                  &lt;mo&gt;,&lt;/mo&gt;
+                  &lt;mi&gt;n&lt;/mi&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;negative&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;msup&gt;
+                    &lt;mi&gt;x&lt;/mi&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;/msup&gt;
+                  &lt;mo&gt;+&lt;/mo&gt;
+                  &lt;mn&gt;5&lt;/mn&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mo&gt;+&lt;/mo&gt;
+                  &lt;mn&gt;6&lt;/mn&gt;
+                  &lt;mspace width="16em"&gt;&lt;/mspace&gt;
+                  &lt;msup&gt;
+                    &lt;mi&gt;x&lt;/mi&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;/msup&gt;
+                  &lt;mo&gt;−&lt;/mo&gt;
+                  &lt;mn&gt;6&lt;/mn&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mo&gt;+&lt;/mo&gt;
+                  &lt;mn&gt;8&lt;/mn&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;+&lt;/mo&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;+&lt;/mo&gt;
+                      &lt;mn&gt;3&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mspace width="15em"&gt;&lt;/mspace&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;−&lt;/mo&gt;
+                      &lt;mn&gt;4&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;−&lt;/mo&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mtext&gt;same signs&lt;/mtext&gt;
+                  &lt;mspace width="16em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;same signs&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mtext mathvariant="bold"&gt;When&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;c&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;is negative,&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;m&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;and&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold-italic"&gt;n&lt;/mtext&gt;
+                  &lt;mspace width="0.2em"&gt;&lt;/mspace&gt;
+                  &lt;mtext mathvariant="bold"&gt;have opposite signs.&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;msup&gt;
+                    &lt;mi&gt;x&lt;/mi&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;/msup&gt;
+                  &lt;mo&gt;+&lt;/mo&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mo&gt;−&lt;/mo&gt;
+                  &lt;mn&gt;12&lt;/mn&gt;
+                  &lt;mspace width="16em"&gt;&lt;/mspace&gt;
+                  &lt;msup&gt;
+                    &lt;mi&gt;x&lt;/mi&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;/msup&gt;
+                  &lt;mo&gt;−&lt;/mo&gt;
+                  &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mo&gt;−&lt;/mo&gt;
+                  &lt;mn&gt;15&lt;/mn&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;+&lt;/mo&gt;
+                      &lt;mn&gt;4&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;−&lt;/mo&gt;
+                      &lt;mn&gt;3&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mspace width="15em"&gt;&lt;/mspace&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;−&lt;/mo&gt;
+                      &lt;mn&gt;5&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                  &lt;mrow&gt;
+                    &lt;mo&gt;(&lt;/mo&gt;
+                    &lt;mrow&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mo&gt;+&lt;/mo&gt;
+                      &lt;mn&gt;3&lt;/mn&gt;
+                    &lt;/mrow&gt;
+                    &lt;mo&gt;)&lt;/mo&gt;
+                  &lt;/mrow&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+              &lt;mtr&gt;
+                &lt;mtd&gt;
+                  &lt;mtext&gt;opposite signs&lt;/mtext&gt;
+                  &lt;mspace width="15em"&gt;&lt;/mspace&gt;
+                  &lt;mtext&gt;opposite signs&lt;/mtext&gt;
+                &lt;/mtd&gt;
+              &lt;/mtr&gt;
+            &lt;/mtable&gt;
+          &lt;/mrow&gt;
+        &lt;/annotation-xml&gt;
+      &lt;/semantics&gt;
+    &lt;/math&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Notice that, in the case when \(m\) and \(n\) have opposite signs, the sign of the one with the larger absolute value matches the sign of \(b\).&lt;/p&gt;
+  &lt;br&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h4&gt;Try It: How to Factor a Trinomial of the Form \(x^2 + bx + c\)&lt;/h4&gt;
+&lt;p&gt;Factor each trinomial.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;\(
+    q^2 + 10q + 24\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; \(−7n + 12 + n^2\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt; \(m^2 − 13mn + 12n^2\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answers. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Check your solutions for factoring trinomials of the form \(x^2 + bx + c\).&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;\(
+    (q + 4)(q + 6)\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; \((n − 3)(n − 4)\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt; \((m − n)(m − 12n)\) &lt;/li&gt;
+&lt;/ol&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3317">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663199118</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3318">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663199118</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1476">
+        <prevpageid>1475</prevpageid>
+        <nextpageid>1477</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663207350</timecreated>
+        <timemodified>1664403617</timemodified>
+        <title>6.5.3: Factoring Trinomials Using Trial and Error</title>
+        <contents>&lt;h3&gt;Activity (20 minutes)&lt;/h3&gt;
+&lt;p&gt;This activity introduces students to a new way to factor trinomials of the form \(ax^2 + bx + c\), where the leading coefficient is not \(1\). Students will use trial and error to find the binomial factors.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Introduce the trial and error process used to factor a trinomial of the form \(ax^2 + bx + c\). Explain this is similar to the Undoing FOIL process, but that it is made more complicated when the leading coefficient is not \(1\).&lt;/p&gt;
+&lt;p&gt;Assign students partners to help them talk through the process of using trial and error to factor trinomials.&lt;/p&gt;
+&lt;p&gt;Read the helpful rules as a class. Discuss each one.&lt;/p&gt;&lt;p&gt;Allow each pair of students to work together to solve the remaining problems. Encourage them to share their reasoning as they use trial and error to factor the trinomials.&lt;/p&gt;
+&lt;h4&gt;Student Activity &lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;How to factor trinomials of the form \(ax^2 + bx + c\) using trial and error.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+Write the trinomial in descending order of degrees as needed.&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+Factor any GCF.&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+Find all the factor pairs of the first term.&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+Find all the factor pairs of the third term.&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+Test all the possible combinations of the factors until the correct product is found.&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+Check by multiplying.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Remember these helpful rules when factoring trinomials:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Factor out the GCF first.
+    &lt;ul&gt;
+      &lt;li&gt;This is an important rule 
+since it makes the remaining trinomial much simpler to factor. It may 
+change the trinomial from the form \(ax^2 + bx + c\) to the form \(x^2 +
+ bx + c\). This would allow you to use the “undoing FOIL” process 
+instead of trial and error.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When the middle term is negative and the last term is positive, the signs in the binomials must both be negative.
+    &lt;ul&gt;
+      &lt;li&gt;Only two negative numbers will result in a negative sum and a positive product.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If the leading coefficient is negative, so is the GCF.
+    &lt;ul&gt;
+      &lt;li&gt;Factoring out the negative sign from the leading coefficient will make the trinomial simpler to factor.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When the leading term is not 1
+ and there is no GCF, then the first two terms of the binomial factors 
+will multiply to equal the leading term.
+    &lt;ul&gt;
+      &lt;li&gt;This means you can use trial and error to find the correct binomial factors. &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Work with a partner. Factor each trinomial. Ask your partner if you 
+get stuck. Compare your answers and discuss any issues you had.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; \(2a^2 + 5a + 3\) &lt;br&gt;
+        &lt;strong&gt;ANSWER:&lt;/strong&gt; \((a + 1)(2a + 3)\)
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; \(8x^2 − 14x + 3\) &lt;br&gt;
+        &lt;strong&gt;ANSWER:&lt;/strong&gt; \((2x − 3)(4x − 1)\)
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt; \(18x^2 − 3xy − 10y^2\) &lt;br&gt;
+        &lt;strong&gt;ANSWER:&lt;/strong&gt; \((3x + 2y)(6x − 5y)\)
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="4"&gt;
+  &lt;li&gt; \(15n^3 − 85n^2 + 100n\) &lt;br&gt;
+        &lt;strong&gt;ANSWER:&lt;/strong&gt; \(5n(n − 4)(3n − 5)\)
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="5"&gt;
+  &lt;li&gt; \(−10y^4 − 55y^3 − 60y^2\) &lt;br&gt;
+        &lt;strong&gt;ANSWER:&lt;/strong&gt; \(−5y^2(y + 4)(2y + 3)\)
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="6"&gt;
+  &lt;li&gt; \(56q^3 + 320q^2 − 96q\)&lt;br&gt;
+        &lt;strong&gt;ANSWER:&lt;/strong&gt; \(8q(q + 6)(7q − 2)\)
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Invite students to provide suggestions for how to factor a trinomial of the form \(x^2 + bx + c\).&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Undo FOIL &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Invite students to provide suggestions for how to factor a trinomial of the form \(ax^2 + bx + c\).&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; First, check to see if a GCF can be factored out from the trinomial. &lt;/li&gt;
+  &lt;ul&gt;
+        &lt;li&gt; If yes, and a trinomial of the form \(x^2 + bx + c\) remains, then “Undo FOIL.” &lt;/li&gt;
+    &lt;li&gt; If yes or no, and a trinomial of the form \(ax^2 + bx + c\) remains, try trial and error. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ask a student to summarize in their own words the steps used when factoring a trinomial using trial and error. Display the steps shown at the start of the activity.&lt;/p&gt;
+&lt;p&gt;Then review the rules for factoring using trial and error that were introduced at the start of the activity. Ask students if there is any point of confusion regarding these rules for factoring trinomials.&lt;/p&gt;
+&lt;h3&gt;6.5.3: Self Check&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table cellpadding="5" border="1"&gt;
+  &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION: &lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Factor the trinomial completely: \(6y^3 + 18y^2 − 60y\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(6y(y + 2)(y − 5)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The middle term is positive, so the greater number in the binomials should be added, not subtracted. The correct answer is \(6y(y − 2)(y + 5)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((6y^2 − 12y)(y + 5)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The answer is not completely factored. The first step is to factor out the GCF of 6y. The correct answer is \(6y(y − 2)(y + 5)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(6y(y − 2)(y + 5)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That’s correct! Check yourself: Multiply the factors together to determine if you have \(6y^3 + 18y^2 − 60y\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(6y(y + 2)(y + 5)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The last term of the trinomials is negative, so the binomials should have opposite signs. After removing the GCF of \(6y\), the trinomial is not correctly factored. The correct answer is \(6y(y − 2)(y + 5)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;6.5.3: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Factoring Trinomials Using Trial and Error&lt;/h4&gt;
+&lt;p&gt;Our next step is to factor trinomials whose leading coefficient is not \(1\), trinomials of the form \(ax^2 + bx + c\). Remember to always check for a GCF first! Sometimes, after you factor the GCF, the leading coefficient of the trinomial becomes \(1\) and you can factor it by the methods we’ve used so far. Let’s do an example to see how this works.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EXAMPLE 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Factor completely: \(4x^3 + 16x^2 − 20x\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+The trinomial is already written in descending order of degrees.&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Is there a greatest common factor?&lt;br&gt;
+    \(4x^3+16x^2−20x\)&lt;br&gt;
+    Yes, \(GCF=4x\). Factor it.&lt;br&gt;
+\(4x(x^2+4x−5)\)&lt;/p&gt;
+&lt;p&gt; Is it a binomial, trinomial, or more than three terms?&lt;br&gt;
+    \(4x(x^2+4x−5)\) &lt;br&gt;
+    It is now a trinomial with a leading coefficient of \(1\). So “undo FOIL.”&lt;br&gt;
+\(4x (x&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)(x&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+Use a table like the one shown to find two numbers that multiply to \(−5\) and add to \(4\).&lt;/p&gt;
+&lt;table width="491" cellspacing="0" cellpadding="5" border="1"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;&lt;strong&gt;Factors of &lt;/strong&gt;\(−5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="bottom"&gt;
+                &lt;p&gt;&lt;strong&gt;Sum of factors&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;\(-1,5\) &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;\(−1+5=4^ \ast\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;\(1,-5\) &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;p&gt;\(1+(−5)=−4\) &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    Use −1 and 5 as coefficients of the last terms.&lt;br&gt;
+\(4x(x−1)(x+5)\)&lt;/p&gt;
+
+&lt;p&gt;Step 5&lt;br&gt;
+    Check.&lt;br&gt;
+  &lt;math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"&gt;
+        &lt;semantics&gt;
+            &lt;mrow&gt;
+                &lt;mrow&gt;
+                    &lt;mspace&gt;&lt;/mspace&gt;
+                    &lt;mtable&gt;
+
+                        &lt;mtr&gt;
+                            &lt;mtd&gt;
+                                &lt;mn&gt;4&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mrow&gt;
+                                    &lt;mo&gt;(&lt;/mo&gt;
+                                    &lt;mrow&gt;
+                                        &lt;mi&gt;x&lt;/mi&gt;
+                                        &lt;mo&gt;−&lt;/mo&gt;
+                                        &lt;mn&gt;1&lt;/mn&gt;
+                                    &lt;/mrow&gt;
+                                    &lt;mo&gt;)&lt;/mo&gt;
+                                &lt;/mrow&gt;
+                                &lt;mrow&gt;
+                                    &lt;mo&gt;(&lt;/mo&gt;
+                                    &lt;mrow&gt;
+                                        &lt;mi&gt;x&lt;/mi&gt;
+                                        &lt;mo&gt;+&lt;/mo&gt;
+                                        &lt;mn&gt;5&lt;/mn&gt;
+                                    &lt;/mrow&gt;
+                                    &lt;mo&gt;)&lt;/mo&gt;
+                                &lt;/mrow&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                        &lt;mtr&gt;
+                            &lt;mtd&gt;
+                                &lt;mn&gt;4&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;+&lt;/mo&gt;
+                                &lt;mn&gt;5&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;5&lt;/mn&gt;
+                                &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                        &lt;mtr&gt;
+                            &lt;mtd&gt;
+                                &lt;mn&gt;4&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;+&lt;/mo&gt;
+                                &lt;mn&gt;4&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;5&lt;/mn&gt;
+                                &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                        &lt;mtr&gt;
+                            &lt;mtd&gt;
+                                &lt;mn&gt;4&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;3&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;+&lt;/mo&gt;
+                                &lt;mn&gt;16&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;20&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo&gt;✓&lt;/mo&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                    &lt;/mtable&gt;
+                &lt;/mrow&gt;
+            &lt;/mrow&gt;
+            &lt;annotation-xml encoding="MathML-Content"&gt;
+                &lt;mrow&gt;
+                    &lt;mspace&gt;&lt;/mspace&gt;
+                    &lt;mtable&gt;
+
+                        &lt;mtr&gt;
+                            &lt;mtd&gt;
+                                &lt;mn&gt;4&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mrow&gt;
+                                    &lt;mo&gt;(&lt;/mo&gt;
+                                    &lt;mrow&gt;
+                                        &lt;mi&gt;x&lt;/mi&gt;
+                                        &lt;mo&gt;−&lt;/mo&gt;
+                                        &lt;mn&gt;1&lt;/mn&gt;
+                                    &lt;/mrow&gt;
+                                    &lt;mo&gt;)&lt;/mo&gt;
+                                &lt;/mrow&gt;
+                                &lt;mrow&gt;
+                                    &lt;mo&gt;(&lt;/mo&gt;
+                                    &lt;mrow&gt;
+                                        &lt;mi&gt;x&lt;/mi&gt;
+                                        &lt;mo&gt;+&lt;/mo&gt;
+                                        &lt;mn&gt;5&lt;/mn&gt;
+                                    &lt;/mrow&gt;
+                                    &lt;mo&gt;)&lt;/mo&gt;
+                                &lt;/mrow&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                        &lt;mtr&gt;
+                            &lt;mtd&gt;
+                                &lt;mn&gt;4&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;+&lt;/mo&gt;
+                                &lt;mn&gt;5&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;5&lt;/mn&gt;
+                                &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                        &lt;mtr&gt;
+                            &lt;mtd&gt;
+                                &lt;mn&gt;4&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;+&lt;/mo&gt;
+                                &lt;mn&gt;4&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;5&lt;/mn&gt;
+                                &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                        &lt;mtr&gt;
+                            &lt;mtd&gt;
+                                &lt;mn&gt;4&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;3&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;+&lt;/mo&gt;
+                                &lt;mn&gt;16&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;20&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mo&gt;✓&lt;/mo&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                    &lt;/mtable&gt;
+                &lt;/mrow&gt;
+            &lt;/annotation-xml&gt;
+        &lt;/semantics&gt;
+  &lt;/math&gt;
+&lt;/p&gt;
+&lt;p&gt;What happens when the leading coefficient is not \(1\) and there is no GCF? There are several methods that can be used to factor these trinomials. First we will use the trial and error method.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EXAMPLE 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Factor the trinomial \(3x^2 + 5x + 2\).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The trinomial is already written in descending order of degrees. There is no GCF to factor. &lt;/p&gt;
+&lt;p&gt;From our earlier work, we expect this will factor into two binomials.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{c}3x^2\;+\;5x\;+\;2 \\ (\;\;\;\;\;)(\;\;\;\;\;)\end{array}\)&lt;/p&gt;
+&lt;p&gt;We know the first terms of the binomial factors will multiply to give us \(3xa^2\). The only factors of \(3x^2\) are \(1x\), \(3x\). We can place them in the binomials.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/4977264cc626cf770be99c26036105b7aa466e33" width="150" height="94"&gt;&lt;/p&gt;
+&lt;p&gt;Check: Does&amp;nbsp; \(1x \cdot 3x = 3x^2\)?&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;We know the last terms of the binomials will multiply to \(2\). Since this trinomial has all positive terms, we only need to consider positive factors. The only factors of \(2\) are \(1\), \(2\). But we now have two cases to consider because it will make a difference if we write \(1\), \(2\) or \(2\), \(1\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8e8c59ff6baab1efe41c6fbc9fbb0176429fe026" alt="" width="327" height="103" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+&lt;p&gt;Which factors are correct? To decide that, we multiply the inner and outer terms.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f466817b24fdee3114db0962e1c5f5b102eee6a9" alt="" width="367" height="208" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+&lt;p&gt;Since the middle term of the trinomial is \(5x\), the factors in the first case will work. Let’s use FOIL to check.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{c}(x\;+\;1)(3x\;+\;2)\\3x^2\;+\;2x\;+\;3x\;+\;2\\3x^2\;+\;5x\;+\;2\;{\style{color:red}\checkmark}\end{array}\)&lt;/p&gt;
+&lt;p&gt;Our result of the factoring is:&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{c}3x^2\;+\;5x\;+\;2 \\ (x\;+\;1)(3x\;+\;2)\end{array}\)&lt;/p&gt;
+&lt;br&gt;
+&lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;
+    &lt;p&gt;&lt;strong&gt;How to factor trinomials of the form \(ax^2 + bx + c\) using trial and error.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+  &lt;hr&gt;
+   
+    &lt;p&gt;Step 1&lt;br&gt;
+        Write the trinomial in descending order of degrees as needed.&amp;nbsp;&lt;/p&gt;
+    &lt;p&gt;Step 2&lt;br&gt;
+        Factor any GCF.&amp;nbsp;&lt;/p&gt;
+    &lt;p&gt;Step 3&lt;br&gt;
+        Find all the factor pairs of the first term.&amp;nbsp;&lt;/p&gt;
+    &lt;p&gt;Step 4&lt;br&gt;
+        Find all the factor pairs of the third term.&amp;nbsp;&lt;/p&gt;
+    &lt;p&gt;Step 5&lt;br&gt;
+        Test all the possible combinations of the factors until the correct product is found.&amp;nbsp;&lt;/p&gt;
+  &lt;p&gt;Step 6&lt;br&gt;
+  Check by multiplying.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Remember, when the middle term is negative and the last term is positive, the signs in the binomials must both be negative.&lt;/p&gt;
+&lt;p&gt;When we factor an expression, we always look for a greatest common factor first. If the expression does not have a greatest common factor, there cannot be one in its factors either. This may help us eliminate some of the possible factor combinations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EXAMPLE 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Factor completely using trial and error: \(18x^2 − 37xy + 15y^2\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    The trinomial is already in descending order.&lt;br&gt;
+\(18x^2-37xy+15y^2\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Find the factors of the first term. &lt;br&gt;
+    \(18x^2-37xy+15y^22\\
+    {\style{color:red}1}
+    {\style{color:red}x}
+    \;
+    {\style{color:red}\cdot}
+    \;
+    {\style{color:red}1}
+    {\style{color:red}8}
+    {\style{color:red}x}
+    \\
+    {\style{color:red}2}
+    {\style{color:red}x}
+    \;
+    {\style{color:red}\cdot}
+    \;
+    {\style{color:red}9}
+    {\style{color:red}x}
+    \\
+    {\style{color:red}3}
+    {\style{color:red}x}
+    \;
+    {\style{color:red}\cdot}
+    \;
+    {\style{color:red}6}
+    {\style{color:red}x}
+\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Find the factors of the last term. Consider the signs. Since 15 is positive and the coefficient of the middle term is negative, we use the negative factors.&lt;br&gt;
+    &lt;img src="https://k12.openstax.org/contents/raise/resources/ff0a9cf59f60aca8b6d2c5acba51b6b3a582f84d" width="175" height="92"&gt;
+&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+Consider all the combinations of factors.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/50952db8306e2e88b351a22c2cad21871e66e036" alt="This table shows the possible factors and corresponding products of the trinomial 18 x squared minus 37xy plus 15 y squared. In some pairs of factors, when one factor contains two terms with a common factor, that factor is highlighted. In such cases, product is not an option because if trinomial has no common factors, then neither factor can contain a common factor. Factor: open parentheses x minus 1y close parentheses open parentheses 18x minus 15y close parentheses, highlighted. Factor, open parentheses x minus 15y close parentheses open parentheses 18x minus 1y close parentheses; product: 18 x squared minus 271xy plus 15 y squared. Factor open parentheses x minus 3y close parentheses open parentheses 18x minus 5 y close parentheses; product: 18 x squared minus 59xy plus 15 y squared. Factor: open parentheses x minus 5y close parentheses open parentheses 18x minus 3y close parentheses highlighted. Factor: open parentheses 2x minus 1y close parentheses open parentheses 9x minus 15y close parentheses highlighted. Factor: open parentheses 2x minus 15y close parentheses open parentheses 9x minus 1y close parentheses; product 18 x squared minus 137 xy plus 15y squared. Factor: open parentheses 2x minus 3y close parentheses open parentheses 9x minus 5y close parentheses; product: 18 x squared minus 37xy plus 15 y squared, which is the original trinomial. Factor: open parentheses 2x minus 57 close parentheses open parentheses 9x minus 3y close parentheses highlighted. Factor: open parentheses 3x minus 1y close parentheses open parentheses 6x minus 15y close parentheses highlighted. Factor: open parentheses 3x minus 15y close parentheses highlighted open parentheses 6x minus 1y close parentheses. Factor: open parentheses 3x minus 3y close parentheses highlighted open parentheses 6x minus 5y." width="600"&gt;&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    The correct factors are those whose product is the original trinomial.&lt;br&gt;
+\((2x−3y)(9x−5y)\)&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+    Check by multiplying.&lt;br&gt;
+  &lt;math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"&gt;
+        &lt;semantics&gt;
+            &lt;mrow&gt;
+                &lt;mrow&gt;
+                    &lt;mspace&gt;&lt;/mspace&gt;
+                    &lt;mtable&gt;
+
+                        &lt;mtr&gt;
+                            &lt;mtd columnalign="center"&gt;
+                                &lt;mrow&gt;
+                                    &lt;mo&gt;(&lt;/mo&gt;
+                                    &lt;mrow&gt;
+                                        &lt;mn&gt;2&lt;/mn&gt;
+                                        &lt;mi&gt;x&lt;/mi&gt;
+                                        &lt;mo&gt;−&lt;/mo&gt;
+                                        &lt;mn&gt;3&lt;/mn&gt;
+                                        &lt;mi&gt;y&lt;/mi&gt;
+                                        &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+                                        &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+                                        &lt;mn&gt;9&lt;/mn&gt;
+                                        &lt;mi&gt;x&lt;/mi&gt;
+                                        &lt;mo&gt;−&lt;/mo&gt;
+                                        &lt;mn&gt;5&lt;/mn&gt;
+                                        &lt;mi&gt;y&lt;/mi&gt;
+                                    &lt;/mrow&gt;
+                                    &lt;mo&gt;)&lt;/mo&gt;
+                                &lt;/mrow&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                        &lt;mtr&gt;
+
+                            &lt;mtd columnalign="center"&gt;
+                                &lt;mn&gt;18&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;10&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mi&gt;y&lt;/mi&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;27&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mi&gt;y&lt;/mi&gt;
+                                &lt;mo&gt;+&lt;/mo&gt;
+                                &lt;mn&gt;15&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;y&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                        &lt;mtr&gt;
+                            &lt;mtd columnalign="center"&gt;
+                                &lt;mn&gt;18&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;37&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mi&gt;y&lt;/mi&gt;
+                                &lt;mo&gt;+&lt;/mo&gt;
+                                &lt;mn&gt;15&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;y&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;✓&lt;/mo&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                    &lt;/mtable&gt;
+                &lt;/mrow&gt;
+            &lt;/mrow&gt;
+            &lt;annotation-xml encoding="MathML-Content"&gt;
+                &lt;mrow&gt;
+                    &lt;mspace width="4em"&gt;&lt;/mspace&gt;
+                    &lt;mtable&gt;
+                        &lt;mtr&gt;&lt;/mtr&gt;
+                        &lt;mtr&gt;&lt;/mtr&gt;
+                        &lt;mtr&gt;
+                            &lt;mtd columnalign="center"&gt;
+                                &lt;mrow&gt;
+                                    &lt;mo&gt;(&lt;/mo&gt;
+                                    &lt;mrow&gt;
+                                        &lt;mn&gt;2&lt;/mn&gt;
+                                        &lt;mi&gt;x&lt;/mi&gt;
+                                        &lt;mo&gt;−&lt;/mo&gt;
+                                        &lt;mn&gt;3&lt;/mn&gt;
+                                        &lt;mi&gt;y&lt;/mi&gt;
+                                        &lt;mo stretchy="false"&gt;)&lt;/mo&gt;
+                                        &lt;mo stretchy="false"&gt;(&lt;/mo&gt;
+                                        &lt;mn&gt;9&lt;/mn&gt;
+                                        &lt;mi&gt;x&lt;/mi&gt;
+                                        &lt;mo&gt;−&lt;/mo&gt;
+                                        &lt;mn&gt;5&lt;/mn&gt;
+                                        &lt;mi&gt;y&lt;/mi&gt;
+                                    &lt;/mrow&gt;
+                                    &lt;mo&gt;)&lt;/mo&gt;
+                                &lt;/mrow&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                        &lt;mtr&gt;
+                            &lt;mtd columnalign="center"&gt;
+                                &lt;mn&gt;18&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;10&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mi&gt;y&lt;/mi&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;27&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mi&gt;y&lt;/mi&gt;
+                                &lt;mo&gt;+&lt;/mo&gt;
+                                &lt;mn&gt;15&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;y&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                        &lt;mtr&gt;
+                            &lt;mtd columnalign="center"&gt;
+                                &lt;mn&gt;18&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;x&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;−&lt;/mo&gt;
+                                &lt;mn&gt;37&lt;/mn&gt;
+                                &lt;mi&gt;x&lt;/mi&gt;
+                                &lt;mi&gt;y&lt;/mi&gt;
+                                &lt;mo&gt;+&lt;/mo&gt;
+                                &lt;mn&gt;15&lt;/mn&gt;
+                                &lt;msup&gt;
+                                    &lt;mi&gt;y&lt;/mi&gt;
+                                    &lt;mn&gt;2&lt;/mn&gt;
+                                &lt;/msup&gt;
+                                &lt;mo&gt;✓&lt;/mo&gt;
+                            &lt;/mtd&gt;
+                        &lt;/mtr&gt;
+                    &lt;/mtable&gt;
+                &lt;/mrow&gt;
+            &lt;/annotation-xml&gt;
+        &lt;/semantics&gt;
+  &lt;/math&gt;
+&lt;/p&gt;
+&lt;p&gt;In other trinomials, don’t forget to look for a GCF first, and remember if the leading coefficient is negative, so is the GCF.&lt;/p&gt;
+&lt;h4&gt;Try It: Factoring Trinomials Using Trial and Error&lt;/h4&gt;
+&lt;p&gt;Factor each trinomial completely using trial and error.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; \(5x^3 + 15x^2 − 20x\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; \(10y^2 − 37y + 7\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt; \(6n^3 − 34n^2 + 40n\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer. Then select the&lt;strong&gt; Solution &lt;/strong&gt;button to check your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to factor trinomials using trial and error.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; \(5x(x − 1)(x + 4)\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; \((2y − 7)(5y − 1)\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt;\(2n(n − 4)(3n − 5)\) &lt;/li&gt;
+&lt;/ol&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3319">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663207350</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3320">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663207350</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1477">
+        <prevpageid>1476</prevpageid>
+        <nextpageid>1478</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663544259</timecreated>
+        <timemodified>1664312534</timemodified>
+        <title>6.5.4: Factoring Trinomials Using the “ac” Method and Substitution</title>
+        <contents>&lt;h3&gt;Activity (20 minutes)&lt;/h3&gt;
+&lt;p&gt;Students have already learned one way to factor trinomials of the form \(ax^2 + bx + c\). In this activity, they will be introduced to the “\(ac\)” method, which works on any trinomial of the form \(ax^2 + bx + c\).&lt;/p&gt;
+&lt;p&gt;Students will also learn to recognise situations where they can substitute the variable \(u\) for an expression, which leaves them a trinomial of the form \(ax^2 + bx + c\), which is much more recognizable to factor.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Open the activity by introducing the “\(ac\)” method to students. Explain that this method will allow them to factor any trinomial of the form \(ax^2 + bx + c\). Tell students that while this is a new way to factor trinomials, it is based on skills that they have already learned. Read through each step, stopping to address any confusion as needed.&lt;/p&gt;
+&lt;p&gt;Keep the steps visible to the class and work through the first problem. This will help solidify the process using the “\(ac\)” method. If students are feeling less confident in the process, allow them to work in pairs as they complete questions 2–3. This will encourage them to talk out the process as they learn a new method to factor trinomials.&lt;/p&gt;
+&lt;p&gt;As a class, read the text on factoring by substitution that precedes question 4. To provide a hint for question 4, display the equation \(u = y^2\). By using this equation to substitute, students will find a trinomial of the form \(x^2 + bx + c\) that they will recognize.&lt;/p&gt;
+&lt;p&gt;Allow time for students to complete questions 4–6. Pause for student questions about using substitution to factor before moving to the activity synthesis.&lt;/p&gt;
+&lt;h4&gt;Student Activity &lt;/h4&gt;
+&lt;p&gt;Let’s learn a new method that always works on any trinomial of the form \(ax^2 + bx + c\).&lt;/p&gt;
+&lt;br&gt;
+&lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;
+  &lt;p&gt; &lt;strong&gt; How to factor trinomials of the form \(ax^2 + bx + c\) using the “\(ac\)” method: &lt;/strong&gt;&lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p&gt;Step 1&lt;br&gt;
+    Factor any GCF. Don’t forget!&lt;/p&gt;
+  &lt;p&gt;Step 2&lt;br&gt;
+    Find the product \(ac\).&lt;/p&gt;
+  &lt;p&gt;Step 3&lt;br&gt;
+    Find two numbers, \(m\) and \(n\), that&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;multiply to \(ac\): \(m \cdot n = a \cdot c\).&lt;/li&gt;
+    &lt;li&gt;add to \(b\): \(m + n = b\).&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;Step 4&lt;br&gt;
+    Split the middle term using \(m\) and \(n\).&lt;br&gt;
+    \(ax^2 + mx + nx + c\)&lt;/p&gt;
+  &lt;p&gt;Step 5&lt;br&gt;
+    Factor by grouping.&lt;/p&gt;
+  &lt;p&gt;Step 6&lt;br&gt;
+    Check by multiplying the factors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Factor each trinomial using the “\(ac\)” method.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt; \(16x^2 − 32x + 12\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(4(2x − 3)(2x − 1)\)&lt;/p&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; \(6y^2 + y − 15\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;strong&gt;ANSWER:&lt;/strong&gt; \((3y + 5)(2y − 3)\)&lt;/p&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt;\(48z^3 − 102z^2 − 45z\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;strong&gt;ANSWER:&lt;/strong&gt; \(3z(8z + 3)(2z − 5)\)&lt;/p&gt;
+&lt;p&gt;There will be times when a trinomial does not seem to be in the form \(ax^2 + bx + c\).&lt;/p&gt;
+&lt;p&gt;In some of these cases, we can make a substitution that allows the trinomial to be written in the \(ax^2 + bx + c\) form. This is called factoring by substitution.&lt;/p&gt;
+&lt;p&gt;It is standard to use \(u\) for the substitution. The substitution for \(u\) might be a variable with an exponent, such as \(x^2\), or it might be a binomial, such as \((x − 3)\).&lt;/p&gt;
+&lt;p&gt;Factor each trinomial using the substitution method.&lt;/p&gt;
+&lt;ol start="4"&gt;
+  &lt;li&gt; \(y^4 − y^2 − 20\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((y^2 + 4)(y^2 − 5)\)&lt;/p&gt;
+&lt;ol start="5"&gt;
+  &lt;li&gt;\(
+    (x−5)^2 + 6(x − 5) + 8\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((x − 3)(x − 1)\)&lt;/p&gt;
+&lt;ol start="6"&gt;
+  &lt;li&gt; \(x^4 − 3x^2 − 28\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; &lt;strong&gt;ANSWER:&lt;/strong&gt; \((x^2 − 7)(x^2 + 4)\)&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;In this activity, students learned two new ways to factor trinomials. By using the “\(ac\)” method, students can solve any trinomial of the form \(ax^2 + bx + c\).&lt;/p&gt;
+&lt;p&gt;Ask the class as a whole to brainstorm the steps used in the “\(ac\)” method.&lt;/p&gt;
+&lt;br&gt;
+&lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;
+  &lt;p&gt; &lt;strong&gt; How to factor trinomials of the form \(ax^2 + bx + c\) using the “\(ac\)” method: &lt;/strong&gt;&lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p&gt;Step 1&lt;br&gt;
+    Factor any GCF. Don’t forget!&lt;/p&gt;
+  &lt;p&gt;Step 2&lt;br&gt;
+    Find the product \(ac\).&lt;/p&gt;
+  &lt;p&gt;Step 3&lt;br&gt;
+    Find two numbers, \(m\) and \(n\), that&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;multiply to \(ac\): \(m \cdot n = a \cdot c\).&lt;/li&gt;
+    &lt;li&gt;add to \(b\): \(m + n = b\).&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;Step 4&lt;br&gt;
+    Split the middle term using \(m\) and \(n\).&lt;br&gt;
+    \(ax^2 + mx + nx + c\)&lt;/p&gt;
+  &lt;p&gt;Step 5&lt;br&gt;
+    Factor by grouping.&lt;/p&gt;
+  &lt;p&gt;Step 6&lt;br&gt;
+    Check by multiplying the factors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;By using substitution, some trinomials that could not previously be factored using the methods we know will now seem to have the form \(ax^2 + bx + c\).&lt;/p&gt;
+&lt;p&gt;Ask students to name sample values for which \(u\) could be substituted in a polynomial:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; \(x^2, y^2, (x − 7)\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt; 6.5.4: Self Check&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table cellpadding="5" border="1"&gt;
+  &lt;colgroup&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td colspan="2"&gt;&lt;p&gt;&lt;strong&gt;QUESTION: &lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Factor using the “\(ac\)” method: \(6x^2 + 13x + 2\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\((x + 2)(6x + 1)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;That’s correct! Check yourself: Multiply using FOIL to check to make sure the answer is equivalent to the starting polynomial.&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\((6x + 2)(x + 1)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: These factors do not multiply to the correct \(b\) term. The correct answer is \((x + 2)(6x + 1)\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\((x − 2)(6x − 1)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: These factors do not multiply to the correct \(b\) term. The correct answer is \((x + 2)(6x + 1)\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\((x − 2)(6x + 1)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Incorrect. Let’s try again a different way: These factors do not multiply to the correct \(b\) or \(c\) term. The correct answer is \((x + 2)(6x + 1)\).&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;6.5.4: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Factoring Trinomials Using the “\(ac\)” Method&lt;/h4&gt;
+&lt;p&gt;Another way to factor trinomials of the form \(ax^2 + bx + c\) is the “\(ac\)” method. (The “\(ac\)” method is sometimes called the grouping method.) The “\(ac\)” method is actually an extension of the methods you used in the last section to factor trinomials with a leading coefficient of 1. This method is very structured (that is, step by step), and it always works!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EXAMPLE 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Factor using the “\(ac\)” method: \(6x^2 + 7x + 2\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Factor any GCF.&lt;br&gt;
+  Is there a greatest common factor?&lt;br&gt;
+  \(6x^2 + 7x + 2\)&lt;br&gt;
+  No!&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Find the product \(ac\).&lt;br&gt;
+  \(
+  {\style{color:red}a}
+  {\style{color:red}x}
+  ^
+  {\style{color:red}2}
+  \;
+  {\style{color:red}+}
+  \;
+  {\style{color:red}b}
+  {\style{color:red}x}
+  \;
+  {\style{color:red}+}
+  \;
+  {\style{color:red}c}
+  \\6x^2+7x+2\)
+  \(6 \cdot 2\)&lt;br&gt;
+  12&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  Find two numbers, \(m\) and \(n\), that&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;multiply to \(ac\): \(m \cdot n = a \cdot c\).&lt;/li&gt;
+  &lt;li&gt;add to \(b\): \(m + n = b\).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find two numbers that multiply to 12 and add to 7. Both factors must be positive.&lt;br&gt;
+  \(3 \cdot 4 = 12\)&lt;br&gt;
+  \(3 + 4 = 7\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Split the middle term using \(m\) and \(n\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/aa741f0ec41115d2cf8f76221c37bf20a304e192" alt="."&gt;&lt;/p&gt;
+&lt;p&gt;Rewrite \(7x\) as \(3x + 4x\). It would give the same result if we used \(4x + 3x\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/2ca4486c53dd0687007d3652147d4d17e1b3c2f1" alt="."&gt;&lt;/p&gt;
+&lt;p&gt;Notice that \(6x^2 + 3x + 4x + 2\) is equal to \(6x^2 + 7x + 2\). We just split the middle term to get a more useful form.&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+  Factor by grouping.&lt;br&gt;
+  \(3x(2x + 1) + 2(2x + 1)\)&lt;br&gt;
+  \((2x + 1)(3x + 2)\)&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+  Check by multiplying the factors.&lt;br&gt;
+  \((2x + 1)(3x + 2)\)&lt;br&gt;
+  \(6x^2 + 4x + 3x + 2\)&lt;br&gt;
+  \(6x^2 + 7x + 2 \checkmark\)&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;The “\(ac\)” method is summarized here:&lt;/p&gt;
+&lt;div style="border:2px solid #e6e6e6; background-color:#f2f2f2; padding:5px;"&gt;
+  &lt;p&gt; &lt;strong&gt; How to factor trinomials of the form \(ax^2 + bx + c\) using the “\(ac\)” method: &lt;/strong&gt;&lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p&gt;Step 1&lt;br&gt;
+    Factor any GCF. Don’t forget!&lt;/p&gt;
+  &lt;p&gt;Step 2&lt;br&gt;
+    Find the product \(ac\).&lt;/p&gt;
+  &lt;p&gt;Step 3&lt;br&gt;
+    Find two numbers, \(m\) and \(n\), that&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;multiply to \(ac\): \(m \cdot n = a \cdot c\).&lt;/li&gt;
+    &lt;li&gt;add to \(b\): \(m + n = b\).&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;Step 4&lt;br&gt;
+    Split the middle term using \(m\) and \(n\).&lt;br&gt;
+    \(ax^2 + mx + nx + c\)&lt;/p&gt;
+  &lt;p&gt;Step 5&lt;br&gt;
+    Factor by grouping.&lt;/p&gt;
+  &lt;p&gt;Step 6&lt;br&gt;
+    Check by multiplying the factors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;Try It: Factoring Trinomials Using the “\(ac\)” Method&lt;/h4&gt;
+&lt;p&gt;Factor using the “\(ac\)” method: \(10y^2 − 55y + 70\).&lt;/p&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution &lt;/strong&gt;button to compare your work.&lt;/p&gt;
+&lt;h5&gt; Solution&lt;/h5&gt;
+
+&lt;p&gt;Here is how to use the “\(ac\)” method to factor a trinomial.&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Is there a greatest common factor?&lt;br&gt;
+  \(10y^2-55y+70\)&lt;br&gt;
+  Yes. The GCF is 5.&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Factor it.&lt;br&gt;
+  \(5(2y^2-11y+14)\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  The trinomial inside the parentheses has a leading coefficient that is not \(1\).&lt;br&gt;
+  \(\begin{array}{c}{\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}+{\style{color:red}b}{\style{color:red}x}+{\style{color:red}c}\\5(2y^2-11y+14)\end{array}\) &lt;/p&gt;
+&lt;p&gt;Find the product \(ac\).&lt;br&gt;
+  \(ac=28\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Find two numbers that multiply to \(ac\) and add to \(b\).&lt;br&gt;
+  \((-4)(-7)=28\)&lt;br&gt;
+  \(-4+(-7)=-11\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+  Split the middle term.&lt;br&gt;
+  &lt;img src="https://k12.openstax.org/contents/raise/resources/2bd20fbcb7c846a9536d0ae1464d5c3bde7ccaea" alt="."&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+  Factor the trinomial by grouping.&lt;br&gt;
+  \(5(y(2y-7)-2(2y-7))\)&lt;br&gt;
+  \(5(y-2)(2y-7)\)&lt;/p&gt;
+&lt;p&gt;Step 7&lt;br&gt;
+  Check by multiplying all three factors.&lt;br&gt;
+  &lt;math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"&gt;
+    &lt;semantics&gt;
+      &lt;mrow&gt;
+        &lt;mrow&gt;
+          &lt;mspace width="4em"&gt;&lt;/mspace&gt;
+          &lt;mtable&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;mi&gt;y&lt;/mi&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;mi&gt;y&lt;/mi&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;7&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;msup&gt;
+                      &lt;mi&gt;y&lt;/mi&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/msup&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;7&lt;/mn&gt;
+                    &lt;mi&gt;y&lt;/mi&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;4&lt;/mn&gt;
+                    &lt;mi&gt;y&lt;/mi&gt;
+                    &lt;mo&gt;+&lt;/mo&gt;
+                    &lt;mn&gt;14&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;msup&gt;
+                      &lt;mi&gt;y&lt;/mi&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/msup&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;11&lt;/mn&gt;
+                    &lt;mi&gt;y&lt;/mi&gt;
+                    &lt;mo&gt;+&lt;/mo&gt;
+                    &lt;mn&gt;14&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;mn&gt;10&lt;/mn&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;y&lt;/mi&gt;
+                  &lt;mn&gt;2&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;55&lt;/mn&gt;
+                &lt;mi&gt;y&lt;/mi&gt;
+                &lt;mo&gt;+&lt;/mo&gt;
+                &lt;mn&gt;70&lt;/mn&gt;
+                &lt;mo&gt;✓&lt;/mo&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+          &lt;/mtable&gt;
+        &lt;/mrow&gt;
+      &lt;/mrow&gt;
+      &lt;annotation-xml encoding="MathML-Content"&gt;
+        &lt;mrow&gt;
+          &lt;mspace width="4em"&gt;&lt;/mspace&gt;
+          &lt;mtable&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;mi&gt;y&lt;/mi&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;mi&gt;y&lt;/mi&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;7&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;msup&gt;
+                      &lt;mi&gt;y&lt;/mi&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/msup&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;7&lt;/mn&gt;
+                    &lt;mi&gt;y&lt;/mi&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;4&lt;/mn&gt;
+                    &lt;mi&gt;y&lt;/mi&gt;
+                    &lt;mo&gt;+&lt;/mo&gt;
+                    &lt;mn&gt;14&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;msup&gt;
+                      &lt;mi&gt;y&lt;/mi&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/msup&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;11&lt;/mn&gt;
+                    &lt;mi&gt;y&lt;/mi&gt;
+                    &lt;mo&gt;+&lt;/mo&gt;
+                    &lt;mn&gt;14&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;mn&gt;10&lt;/mn&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;y&lt;/mi&gt;
+                  &lt;mn&gt;2&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;55&lt;/mn&gt;
+                &lt;mi&gt;y&lt;/mi&gt;
+                &lt;mo&gt;+&lt;/mo&gt;
+                &lt;mn&gt;70&lt;/mn&gt;
+                &lt;mo&gt;✓&lt;/mo&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+          &lt;/mtable&gt;
+        &lt;/mrow&gt;
+      &lt;/annotation-xml&gt;
+    &lt;/semantics&gt;
+  &lt;/math&gt;
+&lt;/p&gt;
+&lt;h4&gt;Factoring Trinomials Using Substitution&lt;/h4&gt;
+&lt;p&gt;Sometimes a trinomial does not appear to be in the \(ax^2 + bx + c\) form. However, we can often make a thoughtful substitution that will allow us to make it fit the \(ax^2 + bx + c\) form. This is called factoring by substitution. It is standard to use \(u\) for the substitution.&lt;/p&gt;
+&lt;p&gt;In the form \(ax^2 + bx + c\), the middle term has a variable, \(x\), and its square, \(x^2\), is the variable part of the first term. Look for this relationship as you try to find a substitution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EXAMPLE 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Factor by substitution: \(x^4 − 4x^2 − 5\).&lt;/p&gt;
+&lt;p&gt;The variable part of the middle term is \(x^2\), and its square, \(x^4\), is the variable part of the first term. (We know \((x^2)^2 = x^4)\). If we let \(u = x^2\), we can put our trinomial in the \(ax^2 + bx + c\) form we need to factor it.&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Rewrite the trinomial to prepare for the substitution.&lt;br&gt;
+  \(({\style{color:red}x}^{\style{color:red}2})^2-4({\style{color:red}x}^{\style{color:red}2})-5\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Let \(u=x^2\) and substitute.&lt;br&gt;
+  \({\style{color:red}u}^2-4{\style{color:red}u}-5\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  Factor the trinomial.&lt;br&gt;
+  \((u +1)(u-5)\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Replace \(u\) with \(x^2\).&lt;br&gt;
+  \(({\style{color:red}x}^{\style{color:red}2}+1)({\style{color:red}x}^{\style{color:red}2}-5)\) &lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+  Check:&lt;/p&gt;
+&lt;p&gt;
+  &lt;math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"&gt;
+    &lt;semantics&gt;
+      &lt;mrow&gt;
+        &lt;mrow&gt;
+          &lt;mspace width="3em"&gt;&lt;/mspace&gt;
+          &lt;mtable&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;msup&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/msup&gt;
+                    &lt;mo&gt;+&lt;/mo&gt;
+                    &lt;mn&gt;1&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;msup&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/msup&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;5&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mn&gt;4&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mn&gt;2&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;+&lt;/mo&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mn&gt;2&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mn&gt;4&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;4&lt;/mn&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mn&gt;2&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+                &lt;mo&gt;✓&lt;/mo&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+          &lt;/mtable&gt;
+        &lt;/mrow&gt;
+      &lt;/mrow&gt;
+      &lt;annotation-xml encoding="MathML-Content"&gt;
+        &lt;mrow&gt;
+          &lt;mspace width="3em"&gt;&lt;/mspace&gt;
+          &lt;mtable&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;msup&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/msup&gt;
+                    &lt;mo&gt;+&lt;/mo&gt;
+                    &lt;mn&gt;1&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+                &lt;mrow&gt;
+                  &lt;mo&gt;(&lt;/mo&gt;
+                  &lt;mrow&gt;
+                    &lt;msup&gt;
+                      &lt;mi&gt;x&lt;/mi&gt;
+                      &lt;mn&gt;2&lt;/mn&gt;
+                    &lt;/msup&gt;
+                    &lt;mo&gt;−&lt;/mo&gt;
+                    &lt;mn&gt;5&lt;/mn&gt;
+                  &lt;/mrow&gt;
+                  &lt;mo&gt;)&lt;/mo&gt;
+                &lt;/mrow&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mn&gt;4&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mn&gt;2&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;+&lt;/mo&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mn&gt;2&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+            &lt;mtr&gt;
+              &lt;mtd columnalign="center"&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mn&gt;4&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;4&lt;/mn&gt;
+                &lt;msup&gt;
+                  &lt;mi&gt;x&lt;/mi&gt;
+                  &lt;mn&gt;2&lt;/mn&gt;
+                &lt;/msup&gt;
+                &lt;mo&gt;−&lt;/mo&gt;
+                &lt;mn&gt;5&lt;/mn&gt;
+                &lt;mo&gt;✓&lt;/mo&gt;
+              &lt;/mtd&gt;
+            &lt;/mtr&gt;
+          &lt;/mtable&gt;
+        &lt;/mrow&gt;
+      &lt;/annotation-xml&gt;
+    &lt;/semantics&gt;
+  &lt;/math&gt;
+&lt;/p&gt;
+&lt;h4&gt; Try It: Factoring Trinomials Using Substitution&lt;/h4&gt;
+&lt;p&gt;Factor by substitution: \((x − 2)^2 + 7(x − 2) + 12\)&lt;/p&gt;
+&lt;p&gt;In this case, the expression to be substituted is not a monomial. Let \(u = x − 2\).&lt;/p&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to factor using substitution.&lt;/p&gt;
+&lt;p&gt;The binomial in the middle term, \((x − 2)\), is squared in the first term. If we let \(u = x − 2\) and substitute, our trinomial will be in \(ax^2 + bx + c\) form.&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Rewrite the trinomial to prepare for the substitution.&lt;br&gt;
+  \({\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}2}{\style{color:red})}^2+7{\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}2}{\style{color:red})}+12\)&lt;/p&gt;
+&lt;p&gt;Step 2 &lt;br&gt;
+  Let \(u=x−2\) and substitute.&lt;br&gt;
+  \(u^2+7u+12\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  Factor the trinomial.&lt;br&gt;
+  \(({\style{color:red}u}+3)({\style{color:red}u}+4)\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Replace \(u\) with \(x−2\).&lt;br&gt;
+  \(({\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}2}{\style{color:red})}+3)({\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}2}{\style{color:red})}+4)\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+  Simplify inside the parentheses.&lt;br&gt;
+  \((x+1)(x+2)\) &lt;/p&gt;
+&lt;p&gt;This could also be factored by first multiplying out the \((x − 2)^2\) and the \(7(x − 2)\), combining like terms, and then factoring. Most students prefer the substitution method.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3321">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663544259</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3322">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663544259</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1478">
+        <prevpageid>1477</prevpageid>
+        <nextpageid>1479</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663647283</timecreated>
+        <timemodified>1664199613</timemodified>
+        <title>6.5.5: Choosing Your Own Method to Factor Trinomials</title>
+        <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Work with a partner. For each trinomial, explain which method you would use to factor. When you have discussed your reasoning, factor the trinomial and compare solutions.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;\(
+    x^2 − 14x − 32\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;trial and error; for example, \((x − 16)(x + 2)\)&lt;/p&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt; \(6r^2 + 30r + 36\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; the “\(ac\)” method; for example, \(6(r + 3)(r + 2)\)&lt;/p&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt; \((x + 3)^2 − 9(x + 3) − 36\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;&amp;nbsp;substitution; for example, \((x − 9)(x + 6)\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3323">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663647283</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3324">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663647283</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1479">
+        <prevpageid>1478</prevpageid>
+        <nextpageid>1480</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663726549</timecreated>
+        <timemodified>1664200240</timemodified>
+        <title>6.5.6: Practice </title>
+        <contents>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For questions 1–3, factor.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;\(u^2 − 9u + 18\)
+        &lt;ul&gt;
+          &lt;li&gt;\((u + 9)(u + 2)\)&lt;/li&gt;
+          &lt;li&gt;\((u − 3)(u − 6)\)&lt;/li&gt;
+          &lt;li&gt;\((u + 3)(u + 6)\)&lt;/li&gt;
+          &lt;li&gt;\((u + 3)(u − 6)\)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt; \((u − 3)(u − 6)\)&lt;/p&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;\(8 − 6x + x^2\)
+        &lt;ul&gt;
+          &lt;li&gt;\((x + 4)(x + 2)\)&lt;/li&gt;
+          &lt;li&gt;\((x − 8)(x + 1)\)&lt;/li&gt;
+          &lt;li&gt;\((x − 4)(x − 2)\)&lt;/li&gt;
+          &lt;li&gt;\((x + 4)(x − 2)\)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;  \((x − 4)(x − 2)\)&lt;/p&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;\(a^2 + 5ab − 24b^2\)
+        &lt;ul&gt;
+          &lt;li&gt;\((a − 8b)(a + 3b)\) &lt;/li&gt;
+          &lt;li&gt;\((a − 8b)(a − 3b)\) &lt;/li&gt;
+          &lt;li&gt;\((a + 8b)(a + 3b)\) &lt;/li&gt;
+          &lt;li&gt;\((a + 8b)(a − 3b)\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt; \((a + 8b)(a − 3b)\) &lt;/p&gt;
+&lt;p&gt;For questions 4–5, factor using the trial and error method.&lt;/p&gt;
+&lt;ol start="4"&gt;
+    &lt;li&gt;\( 4b^2 + 5b + 1\)
+        &lt;ul&gt;
+          &lt;li&gt;\((b − 1)(4b − 1)\)&lt;/li&gt;
+          &lt;li&gt; \((5b + 1)(b − 1)\)&lt;/li&gt;
+          &lt;li&gt;\((5b + 1)(b + 1)\)&lt;/li&gt;
+          &lt;li&gt;\((b + 1)(4b + 1)\)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\((b + 1)(4b + 1)\)&lt;/p&gt;
+&lt;ol start="5"&gt;
+    &lt;li&gt;\(30x^2 − 53xy − 21y^2\)
+        &lt;ul&gt;
+          &lt;li&gt;\((3x + y)(10x − 21y)\)&lt;/li&gt;
+          &lt;li&gt;\((15x + y)(2x − 21y)\)&lt;/li&gt;
+          &lt;li&gt;\((5x + y)(6x − 21y)\)&lt;/li&gt;
+          &lt;li&gt;\((3x − y)(10x − 21y)\)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\((3x + y)(10x − 21y)\)&lt;/p&gt;
+&lt;ol start="6"&gt;
+    &lt;li&gt;Factor completely using the “\(ac\)” method: \(4y^2 + 8y + 3\).
+        &lt;ul&gt;
+          &lt;li&gt;\((2y − 1)(2y − 3)\)&lt;/li&gt;
+          &lt;li&gt;\((2y + 1)(2y + 3)\)&lt;/li&gt;
+          &lt;li&gt;\((2y − 1)(2y + 3)\)&lt;/li&gt;
+          &lt;li&gt;\((2y + 1)(2y − 3)\)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt;  \((2y + 1)(2y + 3)\)&lt;/p&gt;
+&lt;ol start="7"&gt;
+    &lt;li&gt;Factor completely using the “\(ac\)” method: \(18w^2 − 39w + 18\).
+        &lt;ul&gt;
+          &lt;li&gt; \((9w − 2)(2w − 3)\) &lt;/li&gt;
+          &lt;li&gt;\( 3(3w − 2)(2w − 3)\) &lt;/li&gt;
+          &lt;li&gt; \(3(3w + 2)(2w + 3)\) &lt;/li&gt;
+          &lt;li&gt; \(3(3w + 2)(2w − 3)\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\( 3(3w − 2)(2w − 3)\) &lt;/p&gt;
+&lt;ol start="8"&gt;
+    &lt;li&gt;Factor by substitution: \(h^4 + 4h^2 − 12\).
+        &lt;ul&gt;
+          &lt;li&gt; \((h^2 + 2)(h^2 − 6)\)&lt;/li&gt;
+          &lt;li&gt; \((h − 2)(h + 6)\)&lt;/li&gt;
+          &lt;li&gt; \((h + 2)(h − 6)\)&lt;/li&gt;
+          &lt;li&gt; \((h^2 − 2)(h^2 + 6)\)&lt;/li&gt;
+        &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((h^2 − 2)(h^2 + 6)\)&lt;/p&gt;
+&lt;ol start="9"&gt;
+    &lt;li&gt;Factor by substitution: \((y − 4)^2 + 8(y − 4) + 15\).
+        &lt;ul&gt;
+          &lt;li&gt;\((y + 1)^2\) &lt;/li&gt;
+          &lt;li&gt;\((y + 5)(y + 3)\)&lt;/li&gt;
+          &lt;li&gt;\((y − 1)(y + 1)\)&lt;/li&gt;
+          &lt;li&gt;\((y − 5)(y − 3)\)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((y − 1)(y + 1)\)&lt;/p&gt;
+&lt;ol start="10"&gt;
+    &lt;li&gt;Factor using any method: \(13z^2 + 39z − 26\).&lt;ul&gt;
+          &lt;li&gt;\(13(2z + 1)(z + 2)\)&lt;/li&gt;
+          &lt;li&gt;\(13(2z − 1)(z + 2)\)&lt;/li&gt;
+          &lt;li&gt;\(13(2z + 1)(z − 2)\)&lt;/li&gt;
+          &lt;li&gt;\((2z − 1)(z + 2)\)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(13(2z − 1)(z + 2)\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3325">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663726549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3326">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663726549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1480">
+        <prevpageid>1479</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663726655</timecreated>
+        <timemodified>1664201015</timemodified>
+        <title>6.5.7: Lesson Synthesis</title>
+        <contents>&lt;p&gt;To help students’ understanding of key points from the lesson, discuss each of the following ways to factor trinomials:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; To factor a trinomial of the form \(x^2 + bx + c\), undo FOIL to find the binomial factors: &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; Write the factors as two binomials with the first terms \(x\). &lt;/li&gt;
+    &lt;li&gt; Find two numbers that multiply to \(c\) and add to \(b\). &lt;/li&gt;
+    &lt;li&gt; Use these numbers as the last terms of the binomial factors. &lt;/li&gt;
+    &lt;li&gt; Check by multiplying the factors together. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt; To factor a trinomial of the form \(ax^2 + bx + c\), use the trial and error method: &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; Factor any GCF. &lt;/li&gt;
+    &lt;li&gt; Find all the factor pairs of the first term. &lt;/li&gt;
+    &lt;li&gt; Find all the factor pairs of the third term.&lt;/li&gt;
+    &lt;li&gt; Test all the possible combinations of the factors until the correct product is found. &lt;/li&gt;
+    &lt;li&gt; Check by multiplying the factors together. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt; For another way to factor a trinomial of the form \(ax^2 + bx + c\), use the “\(ac\)” method: &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; This method works on any trinomial of the form \(ax^2 + bx + c\). &lt;/li&gt;
+    &lt;li&gt; Factor any GCF. &lt;/li&gt;
+    &lt;li&gt; Find the product \(ac\). &lt;/li&gt;
+    &lt;li&gt; Find two numbers, \(m\) and \(n\), that multiply to \(ac\) and add to \(b\). &lt;/li&gt;
+    &lt;li&gt; Split the middle term using \(m\) and \(n\): \(ax^2 + mx + nx + c\).&lt;/li&gt;
+    &lt;li&gt; Factor by grouping. &lt;/li&gt;
+    &lt;li&gt; Check by multiplying the factors together. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt; To factor a polynomial that does not appear to be written in the form \(ax^2 + bx + c\), use substitution: &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; Factor any GCF. &lt;/li&gt;
+    &lt;li&gt; Substitute \(u\) for a common expression in the first terms. &lt;/li&gt;
+    &lt;li&gt; Factor as if the trinomial is of the form \(ax^2 + bx + c\). &lt;/li&gt;
+    &lt;li&gt; Replace \(u\) with the original value. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3327">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663726655</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3328">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663726655</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="142" moduleid="187" modulename="lesson" contextid="198">
+  <lesson id="142">
+    <course>2</course>
+    <name>Lesson 5.13 Teacher Guide: Reasoning about Exponential Graphs, Part 2</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>190</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1662773068</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1314">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1315</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662147335</timecreated>
+        <timemodified>1663675753</timemodified>
+        <title>5.13.0: Lesson Overview</title>
+        <contents>&lt;h4&gt;Lesson Narrative&amp;nbsp;&lt;/h4&gt;
+&lt;p&gt;This lesson continues to investigate the relationship between the parameters \(a\) and \(b\) in the expression \(a \cdot b^x\) and a graph representing the function \(f\) given by \(f(x)=a \cdot b^x\). Students start by identifying a function represented by a given graph and using the graph to make sense of a situation. They also examine two abstract graphs, with unlabeled axes, and decide which one represents a given situation. This level of abstraction is appropriate at this stage. It gives students an opportunity to apply what they have learned about the relationship between an exponential context and its graph and to use graphs to better interpret the contexts. In both cases, they rely on their understanding of the connections between the parameters in an exponential expression and the features of an exponential graph to answer questions. Connecting exponential functions to real-world situations helps students understand why it is important to learn about this type of function.&lt;/p&gt;
+&lt;h4&gt;Learning Goals (Teacher Facing)&amp;nbsp;&lt;/h4&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Identify the initial value and growth factor of an exponential function given a graph showing two points with non-consecutive input values. &lt;/li&gt;
+    &lt;li&gt; Interpret the intersection of the graphs of two functions that represent a situation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Learning Targets (Student Facing) &amp;nbsp;&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt; Explain the meaning of the intersection of the graphs of two functions in terms of the situations they represent. &lt;/li&gt;
+    &lt;li&gt; Write an equation for the function given two points on a graph of an exponential function. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&amp;nbsp;&lt;/h4&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A9(D) &lt;u&gt;graph exponential functions that model growth and decay and identify key features, including \(y\)-intercept and asymptote, in mathematical and real-world problems.&lt;/u&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt; Lesson Activities&lt;/h4&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; 5.13.1: Comparing Functions &lt;/li&gt;
+    &lt;li&gt; 5.13.2: Creating Exponential Functions from Graphs
+        &lt;ul&gt;
+            &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;5.13.2: Self Check&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul&gt;
+            &lt;li&gt;5.13.2: Additional Resources&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;5.13.3: Comparing Exponential Functions&lt;/span&gt;&lt;br&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;5.13.3: Self Check&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;5.13.3: Additional Resources&lt;/span&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt; 5.13.4: Interpreting Features of an Exponential Graph &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will also complete a series of problems in the 5.13.5: Practice.&lt;/p&gt;
+&lt;h4&gt; Required Materials&lt;/h4&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;h4&gt;Required Preparation&lt;/h4&gt;
+&lt;p&gt;Devices that can run Desmos (recommended) or other graphing technology should be available as an optional tool for students to select.&lt;/p&gt;
+&lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Familiarize students with the vocabulary words they will see throughout the lesson.&amp;nbsp;&lt;span style="font-size: calc(0.90375rem + 0.045vw);"&gt;Encourage students to look for these words and notice their use and meanings.&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt; Encourage students to use key vocabulary words in “math talk” and their written and oral explanations. &lt;/li&gt;
+    &lt;li&gt; Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank" title="Mathematics Vocabulary Word Wall Cards"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson include:&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;ul&gt;
+                       &lt;li&gt; exponential function &lt;/li&gt;                    
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;None&lt;/li&gt;
+                    
+                &lt;/ul&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+
+&lt;h4&gt;Support for Building Character&amp;nbsp;&lt;/h4&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;grit&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/imitation-is-inspiration/" target="_blank" title="Imitation is Inspiration"&gt;Imitation Is Inspiration&lt;/a&gt; &lt;/li&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/sampling/" target="_blank" title="Sampling"&gt;Sampling&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find other tips located here in the&amp;nbsp;&lt;a href="https://characterlab.org/playbooks/grit/" target="_blank"&gt;Playbook on Grit&lt;/a&gt;&amp;nbsp;from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2953">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662147335</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1315">
+        <prevpageid>1314</prevpageid>
+        <nextpageid>1316</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662154719</timecreated>
+        <timemodified>1663675950</timemodified>
+        <title>5.13.1: Comparing Functions</title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
+&lt;p&gt;This warm-up encourages students to look closely at functions and articulate the ways in which they are similar or distinct. There are many possible responses to the question. Given their current work on exponential functions, students might be inclined to wonder if the equations define exponential functions, to look for a growth factor, or to think about the initial value of the function.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Which one doesn’t belong?&lt;/p&gt;
+&lt;p&gt;\(f(n)=8 \cdot 2^n\)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer: &lt;/strong&gt;\(f\) is the only one that doubles when \(n\) increases by 1.&lt;/p&gt;
+&lt;p&gt;\(g(n)=2 \cdot 8^n\)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer: &lt;/strong&gt;\(g\)&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;is the only one that does not have 8 for its vertical intercept.&lt;/p&gt;
+&lt;p&gt;\(h(n)=8+2n\)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;\(h\) is the only one that is not an exponential function.&lt;/p&gt;
+&lt;p&gt;\(j(n)=8 \cdot (\frac{1}{2})^n\)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;\(j\) is the only one that is not increasing.&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Invite students to share their responses. Highlight ideas that are important to this unit, for example, how the vertical intercept for each function can be identified, that \(j\) is a function involving exponential decay, etc. Encourage precision in students’ mathematical language, for instance, by reinforcing the use of terms such as &lt;em&gt;exponential&lt;/em&gt;, &lt;em&gt;growth factor&lt;/em&gt;, &lt;em&gt;initial amount&lt;/em&gt;, &lt;em&gt;base&lt;/em&gt;, &lt;em&gt;exponent&lt;/em&gt;, &lt;em&gt;linear&lt;/em&gt;, etc.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2954">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662154719</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2955">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662154719</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1316">
+        <prevpageid>1315</prevpageid>
+        <nextpageid>1317</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662156574</timecreated>
+        <timemodified>1663677409</timemodified>
+        <title>5.13.2: Creating Exponential Functions from Graphs</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;In a previous lesson, students used equations defining functions to reason about graphs. Here they work in the opposite direction, analyzing graphs and creating corresponding equations. In the first question, the coordinates given are not of two consecutive values of \(x\), so students need to reason about the decay factor indirectly. They may:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Try different factors that, when multiplied by \(f(0)\) twice, give \(f(2)\). &lt;/li&gt;
+    &lt;li&gt; Use the graph to estimate \(f(1)\), and then use that estimate to find a reasonable decay factor. &lt;/li&gt;
+    &lt;li&gt; Find the factor that takes \(f(0)\) to \(f(2)\) (or \(f(2)\) to \(f(4)\)), recognize that number as \(b^2\), and then find \(b\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The second question has no context and is thus more abstract. This prepares students to interpret graphs in the next activity, where minimal information is given.&lt;/p&gt;
+&lt;h4&gt; Launch&lt;/h4&gt;
+&lt;p&gt;Arrange students in groups of 2. Ask students to take a few minutes of quiet think time on each question before discussing their thinking with a partner.&lt;/p&gt;
+&lt;h5&gt; Support for English Language Learners&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+    &lt;p&gt;To help students make sense of an exponential situation in which the graph is given before the equation, start by displaying only the first task statement and its graph. Give students 1–2 minutes to write their own mathematical questions about the situation. Invite students to share their questions with the class, and then reveal the questions. Listen for and amplify any questions seeking to write an equation, interpret the meaning of various points, or predict future trends. This will help students create questions and use language that demonstrates what they know is true about a situation given a graph first.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt; Here is a graph representing an exponential function \(f\). The function \(f\) gives the value of a computer, in dollars, as a function of time, \(x\), measured in years since the time of purchase. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cd2c8b301539b02974ca385d8f1e5d472bcb8440" alt="GRAPH OF AN EXPONENTIAL DECAY FUNCTION, WHERE VALUE IN DOLLARS IS A FUNCTION OF TIME. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA FOUR HUNDRED, 2 COMMA 100, AND 4 COMMA 25." width="300"&gt;&lt;/p&gt;
+&lt;p&gt;Based on the graph, what can you say about the following?&lt;/p&gt;
+&lt;ol type="a"&gt;
+    &lt;li&gt; The purchase price of the computer &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer:&lt;/strong&gt; $400 &lt;br&gt;
+        &lt;br&gt;
+    &lt;/li&gt;
+    &lt;li&gt; The value of \(f\) when \(x\) is 1 &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer:&lt;/strong&gt; \(f(1)=200\) &lt;br&gt;
+        &lt;br&gt;
+    &lt;/li&gt;
+    &lt;li&gt; The meaning of \(f(1)\) &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer:&lt;/strong&gt; The value of the computer after 1 year &lt;br&gt;
+        &lt;br&gt;
+    &lt;/li&gt;
+    &lt;li&gt; How the value of the computer is changing each year &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer: &lt;/strong&gt; The computer loses half of its value each year. &lt;br&gt;
+        &lt;br&gt;
+    &lt;/li&gt;
+    &lt;li&gt; An equation that defines \(f\) &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer:&lt;/strong&gt; \(f(x)=400(\frac{1}{2})^x\) or equivalent (i.e., \(f(x)=400 \cdot (0.5)^x\)). &lt;br&gt;
+        &lt;br&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Whether the value of \(f\) will reach 0 after 10 years&amp;nbsp;&lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer:&lt;/strong&gt; No, it will not. After 10 years, the value of the computer will be a little less than $0.40.
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt; Video: Interpreting an Exponential Function from a Graph&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about interpreting exponential functions:&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/caccc8b7929b24bca06458ed8e8c609a93390e10"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/afc27f8039b61755fbb806ef23d7d2648754e9ee" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/caccc8b7929b24bca06458ed8e8c609a93390e10
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt; Here are graphs of two exponential functions. For each, write an equation that defines the function and find the value of the function when \(x\) is 5. &lt;/li&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/706e82e99b6d42e7d57b030e561e0396529f0669" alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 5, 1 COMMA 15, AND 2 COMMA 45." width="300"&gt;&lt;br&gt;
+            &lt;br&gt;
+            &lt;strong&gt;Answer:&lt;/strong&gt; \(f(x)=5\cdot 3^x\) and \(f(5)=1,215\) &lt;br&gt;
+            &lt;br&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/2cc8a01ad67c48ca53839eefddc5c83144c7167b" alt="GRAPH OF AN EXPONENTIAL DECAY FUNCTION. THE GRAPH PASSES THROUGH THE POINTS NEGATIVE 1 COMMA 40, 0 COMMA 20, AND 2 COMMA 5." width="300"&gt;&lt;br&gt;
+            &lt;br&gt;
+            &lt;strong&gt;Answer:&lt;/strong&gt; \(f(x)=20 \cdot (\frac{1}{2})^x\) (or equivalent, i.e., \(f(x)=20 \cdot (0.5)^x\)) and \(f(5)=0.625\) (or equivalent).
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;h4&gt; Student-Facing Extension&lt;/h4&gt;
+&lt;h5&gt; Are you ready for more?&lt;/h5&gt;
+&lt;p&gt;Consider a function \(f\) defined by \(f(x)=a \cdot b^x\).&lt;/p&gt;
+&lt;p&gt;If the graph of \(f\) goes through the points \((2,10)\) and \((8,30)\), would you expect \(f(5)\) to be less than, equal to, or greater than 20?&lt;/p&gt;
+&lt;p&gt;If the graph of \(f\) goes through the points \((2,30)\) and \((8,10)\), would you expect \(f(5)\) to be less than, equal to, or greater than 20?&lt;/p&gt;
+&lt;h4&gt;Extension Student Response&lt;/h4&gt;
+&lt;p&gt;The value 20 is what you would get for \(f(5)\) if \(f\) were a linear function through \((2,10)\) and \((8,30)\) (or \((2,30)\) and \((8,10)\)). Looking at graphs representing our exponential functions, we can see that the line connecting two points on the graph always seems to be above the graph of the exponential function itself. Thus, we would expect \(f(5)&amp;lt;20\) in both cases.&lt;/p&gt;
+&lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;If students have trouble getting started, ask them to consider the graph and say what they know is true about the situation that the graph represents. Most likely, they will answer some parts of the first question by doing this and will be in a better position to figure out any questions they didn’t answer.&lt;/p&gt;
+&lt;h4&gt; Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Select students to share their responses to the first question. Focus the discussion on how students found the decay factor for the computer. Make sure students understand that the key is to notice that every 2 years, the computer’s value is multiplied by \(\frac14\). This means that the annual decay factor is \(\frac12\) since \((\frac{1}{2})^2=\frac{1}{4}\).&lt;/p&gt;
+&lt;p&gt;For the last graph, discuss questions such as:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;“What information is needed to describe an exponential function?” (the factor of growth or decay and the initial value) &lt;/li&gt;
+    &lt;li&gt;“Where on the graph do we see the initial value?” (the \(y\)-intercept of the graph) &lt;/li&gt;
+    &lt;li&gt;“What points on the graph can we use to help us find the growth factor?” (the points \((-1,40)\) and \((0,20)\), or the points \((0,20)\) and \((2,5)\)) &lt;/li&gt;
+    &lt;li&gt;“Why might \((-1,40)\) and \((0,20)\) be a more strategic choice than \((0,20)\) and \((2,5)\) for finding the factor of growth?” (The \(x\)-coordinates of first two points differ by 1, so the quotient of the \(y\)-coordinates of those points can be used to find the factor of decay. It is a more direct way to find the factor of decay, which is the factor by which the output of \(f\) changes when the input \(x\) changes by 1. In the second pair, the \(x\)-coordinate changes by 2.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Support for Students with Disabilities&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+    &lt;p&gt;Demonstrate and encourage students to use color coding and annotations to highlight connections between representations in a problem. For example, display the equation \(100=400 \cdot (b)^2\) and use color or annotations to illustrate how each value or variable is represented graphically.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h3&gt; 5.13.2: Self Check&amp;nbsp;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="302"&gt;
+        &lt;col width="322"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Which of the following is the function for the curve graphed below?&lt;/p&gt;
+                &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c4d878067481b139a3072634aca8674d31c2d0f6" alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 100, 1 COMMA THREE HUNDRED, AND 2 COMMA 900." width="300"&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x)=100+3^x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The starting value must be multiplied by the growth factor. The answer is \(f(x)=100 \cdot 3^x\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x)=3 \cdot 100^x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The \(a\) and \(b\) need to be switched. The answer is \(f(x)=100 \cdot 3^x\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x)=100 \cdot 3^x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That’s correct! Check yourself: The starting value was 100, and the growth factor is 3.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x)=(100^3)^x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: Only the 3 should be raised to the \(x\) power. The answer is \(f(x)=100 \cdot 3^x\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;5.13.2: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt; Writing Functions from Graphs&lt;/h4&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f5b8e4ad98579e421c915d6944c68bd1c9524248" alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 4, 1 COMMA 12, AND 2 COMMA 36." width="300"&gt;&lt;/p&gt;
+&lt;p&gt;Find the equation of the function graphed above. Then find the value at \(f(5)\).&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol&gt;
+                    &lt;li&gt; Find the value of \(a\), the starting point. &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a=4\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol start="2"&gt;
+                    &lt;li&gt; Find the \(b\), the growth factor. &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(b=3\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol start="3"&gt;
+                    &lt;li&gt; Write the equation of the function. &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x)=4 \cdot 3^x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol start="4"&gt;
+                    &lt;li&gt; Find \(f(5)\). &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(5)=4 \cdot 3^5=972\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt; Try It: Writing Functions from Graphs&lt;/h4&gt;
+&lt;p&gt;Use the graph below to write the equation of the function. Then find \(f(5)\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c6886dff32bbb16d44b05f5c51a3a9d21993da87" alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 2, 1 COMMA 8, AND 2 COMMA 32." width="300"&gt;&lt;/p&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+&lt;h5&gt; Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to write the exponential function from the graph:&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol&gt;
+                    &lt;li&gt; Find the value of \(a\), the starting point. &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(a=2\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol start="2"&gt;
+                    &lt;li&gt; Find the \(b\), the growth factor. &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(b=4\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol start="3"&gt;
+                    &lt;li&gt; Write the equation of the function. &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x)=2 \cdot 4^x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ol start="4"&gt;
+                    &lt;li&gt; Find \(f(5)\). &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x)=2 \cdot 4^5=2048\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2956">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662156574</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2957">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662156574</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1317">
+        <prevpageid>1316</prevpageid>
+        <nextpageid>1318</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662160395</timecreated>
+        <timemodified>1663678157</timemodified>
+        <title>5.13.3: Comparing Exponential Functions</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;This activity presents students with two graphs without numerical values assigned to any points on the graphs. The only labeled point is where the two graphs intersect. Students will need to use their understanding that tripling each day is a greater growth factor than doubling each day. This is their only means to decide which function represents which situation. Students then interpret the graphs in terms of the situations that they represent.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Display the graph for all to see. Give students a moment to observe the graph and ask, “What do you notice? What do you wonder?” Invite students to share their observations and questions.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Here are graphs representing two functions and descriptions of two functions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Sacb9dwYh1r5ayrVxnSvNf2S" alt="Graph of two exponential functions, origin O. time(months) and area (square inches).&amp;nbsp;"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Function \(f\): The area of a wall that is covered by Mold A, in square inches, doubling every month. &lt;/li&gt;
+    &lt;li&gt; Function \(g\): The area of a wall that is covered by Mold B, in square inches, tripling every month. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+    &lt;li&gt; Which graph represents each function? Explain your answer. &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer: &lt;/strong&gt; Sample reasoning: Since Mold B is growing more quickly, the graph that shows a greater growth factor (the one starting lower and ending higher) is function \(f\) (solid). &lt;br&gt;
+        &lt;br&gt;
+    &lt;/li&gt;
+    &lt;li&gt; When the mold was first spotted and measured, was there more of Mold A or Mold B? Explain how you know. &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer: &lt;/strong&gt; There was more of Mold A. The graph for \(f\) (dashed) shows a greater vertical intercept. &lt;br&gt;
+        &lt;br&gt;
+    &lt;/li&gt;
+    &lt;li&gt; What does the point \((p,q)\) tell us in this situation? Explain your answer. &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer: &lt;/strong&gt; After \(p\) months, there was the same amount of Mold A and Mold B on the wall (\(q\) square inches), after which Mold B started to have larger area than Mold A.
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt; Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;Some students may think that the dashed graph represents the mold that is tripling because it has a greater vertical intercept. Ask these students to think carefully about the second question.&lt;/p&gt;
+&lt;h4&gt; Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Select students to share their responses and explanations. Focus on how they deciphered the meanings of the graphs. Discuss questions such as:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;“The solid graph started off lower than the dashed graph. What does that mean in this context?” (The mold population represented by the solid graph is initially smaller or covers a smaller area on the wall than the one represented by the dashed graph.) &lt;/li&gt;
+    &lt;li&gt;“After some point, the solid graph passes the dashed one. What does that mean in this context?” (The mold population that started out covering a greater area on the wall is surpassed by the other population, so it is growing at a slower rate.) &lt;/li&gt;
+    &lt;li&gt;“What does the intersection of the two graphs mean? What do \(p\) and \(q\) represent?” (The two mold populations are the same at time \(p\), with populations covering an area of \(q\) square inches.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Support for English Language Learners&lt;/h5&gt;
+&lt;div style="border:1px solid black; padding:5px; background-color:#f2f2f2;"&gt;
+    &lt;p&gt; Use this routine to support whole-class discussion. For each explanation that is shared, ask students to restate what they heard using precise mathematical language. Consider providing students time to restate what they hear to a partner before selecting one or two students to share with the class. Ask the original speaker if their peer was able to accurately restate their thinking. Call students’ attention to any words or phrases that helped clarify the original statement. This provides more students with an opportunity to produce language as they interpret the reasoning of others.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h3&gt;5.13.3: Self Check&amp;nbsp;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION: &lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;In the formula \(f(x)=a \cdot b^x\), what changes on the graph when \(a\) changes?&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The \(x\)-intercept&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The \(a\) value changes the vertical intercept. The answer is the \(y\)-intercept.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The \(y\)-intercept&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That’s correct! Check yourself: The \(a\) value in the exponential function causes the value when \(x = 0\) to change.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The slope&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The slope is affected by changes in \(b\). The answer is the \(y\)-intercept.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The growth factor&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The growth factor is affected by changes in \(b\). The answer is the \(y\)-intercept.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt; 5.13.3: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Reading Exponential Graphs&lt;/h4&gt;
+&lt;p&gt;The graphs of \(f\) and \(g\) are located below and are functions of the form \(y=a \cdot b^x\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cf82658767676ae9948f2725a0a00f2b82d786dc" alt="GRAPH OF EXPONENTIAL GROWTH FUNCTIONS, F AND G. FUNCTION G HAS A SMALLER Y-INTERCEPT AND CLIMBS MORE QUICKLY THAN FUNCTION F." width="300"&gt;&lt;/p&gt;
+&lt;p&gt;Which curve has the larger \(a\) value?&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(f(x)\) because its \(y\)-intercept is higher.&lt;/p&gt;
+&lt;p&gt;Which curve has the larger \(b\) value?&lt;/p&gt;
+&lt;p&gt;\(g(x)\) because it is growing more quickly.&lt;/p&gt;
+&lt;h4&gt;Try It: Reading Exponential Graphs&lt;/h4&gt;
+&lt;p&gt;The graphs of \(f\) and \(g\)&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;are located below and are functions of the form \(y=ab^x\).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/0bb68cfe7139d9a4552aa673ce3ac2fb56238e98" alt="GRAPH OF EXPONENTIAL GROWTH FUNCTIONS, F AND G. FUNCTION F HAS A SMALLER Y-INTERCEPT AND CLIMBS MORE QUICKLY THAN FUNCTION G." width="300"&gt;&lt;/p&gt;
+&lt;p&gt;Which curve has the larger \(b\) value?&lt;/p&gt;
+&lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to check your work.&lt;/p&gt;
+&lt;h5&gt; Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to interpret this graph:&lt;/p&gt;
+&lt;p&gt;\(f(x)\) has the larger \(b\) value because it is growing faster than \(g(x)\).&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2958">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662160395</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2959">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662160395</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1318">
+        <prevpageid>1317</prevpageid>
+        <nextpageid>1319</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662160528</timecreated>
+        <timemodified>1663678449</timemodified>
+        <title>5.13.4: Interpreting Features of an Exponential Graph</title>
+        <contents>&lt;h3&gt; Cool Down (5 minutes)&lt;/h3&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Here are two graphs representing the function \(f\)&amp;nbsp;given by \(f(x)=10 \cdot 2^x\) and the function \(g\) defined by \(g(x)=a \cdot b^x\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5283751983633ec10bad64c7553e141f15a67af5" alt="" width="300" height="305" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt; Is \(b\) greater than or less than 2? Explain how you know. &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer: &lt;/strong&gt;\(b\)&amp;nbsp;is greater than 2. Sample responses:
+        &lt;ul&gt;
+            &lt;li&gt; The graph of \(g\) starts off being below the graph of&amp;nbsp;\(f\), but later it surpasses the graph of&amp;nbsp;\(f\). Since&amp;nbsp;\(g\)&amp;nbsp;grows more quickly than&amp;nbsp;\(f\),&amp;nbsp;the growth factor \(b\) for&amp;nbsp;\(g\)&amp;nbsp;must be greater than the growth factor for&amp;nbsp;\(f\),&amp;nbsp;which is 2. &lt;/li&gt;
+            &lt;li&gt; The growth factor from the first point \((0,3)\) to the second point \((1,12)\) is 4 because \(\frac{12}{3}=4\), and 4 is greater than 2.&lt;br&gt;
+                &lt;br&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt; Write an equation that defines \(g\). Explain your answer. &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer:&lt;/strong&gt; \(g(x)=3 \cdot 4^x\) because the initial value is 3 and the \(y\)-value is multiplied by 4 when the \(x\)-value increases by 1, so the growth factor is 4. &lt;br&gt;
+        &lt;br&gt;
+    &lt;/li&gt;
+    &lt;li&gt;\(f\) and \(g\) represent the number, in thousands, of social media followers of two organizations as a function of years since 2010. What does the intersection of \(f\) and&amp;nbsp;\(g\)&amp;nbsp;mean in this context?&amp;nbsp; &lt;br&gt;
+        &lt;br&gt;
+        &lt;strong&gt;Answer:&lt;/strong&gt; It represents the time, in years since 2010, when the two organizations have the same number of followers.
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
+&lt;h5&gt; More Chances&lt;/h5&gt;
+&lt;p&gt;Students will have more opportunities to understand the mathematical ideas in this cool-down, so there is no need to slow down or add additional work to the next lessons. Instead, use the results of this cool-down to provide guidance for what to look for and emphasize over the next several lessons to support students in advancing their current understanding.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2960">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662160528</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2961">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662160528</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1319">
+        <prevpageid>1318</prevpageid>
+        <nextpageid>1320</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662161467</timecreated>
+        <timemodified>1663709218</timemodified>
+        <title>5.13.5: Practice</title>
+        <contents>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;ol&gt;
+    &lt;li&gt;Here is a graph of \(p\), an insect population, \(w\) weeks after it was first measured. The population grows exponentially. [Teacher note: Graph is drawn to scale, but students may have trouble since at \(t=0\), \(p=300\), and that is not marked on the graph. Students are forced to find the growth factor and work backward.]&lt;br&gt;
+        &lt;img src="https://k12.openstax.org/contents/raise/resources/be8f4718ec44f2071d0a890cab99468e1bc5a1c2" alt="" width="300" height="305" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;
+                What is the weekly factor of growth for the insect population? Enter integers only. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    &lt;strong&gt;ANSWER:&lt;/strong&gt; 3
+&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt;
+            What was the population when it was first measured? Enter integers only. &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br&gt;
+    &lt;strong&gt;ANSWER: &lt;/strong&gt;300
+&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt;
+            Write an equation relating \(p\) and \(w\)&lt;em&gt;.&lt;/em&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt;
+                    \(p=300+3^w\)
+                &lt;/li&gt;
+                &lt;li&gt;
+                    \(p=300 \cdot 3^w\)
+                &lt;/li&gt;
+                &lt;li&gt;
+                    \(p= \frac{300}{3^w}\)
+                &lt;/li&gt;
+                &lt;li&gt;
+                    \(p=-300 \cdot 3^w\)
+
+                &lt;/li&gt;
+            &lt;/ol&gt;
+
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    &lt;strong&gt;ANSWER:&lt;/strong&gt; b. \(p=300 \cdot 3^w\)
+&lt;/p&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;Here is a graph of the function \(f\) defined by \(f(x)=a \cdot b^x\).&lt;br&gt;
+        &lt;img src="https://k12.openstax.org/contents/raise/resources/8557128fefac88efa9d2e444483c4358ec43784e" alt="" width="300" height="292" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;strong&gt;
+            Select all&lt;/strong&gt; possible values of \(b\).
+        &lt;ol type="a"&gt;
+            &lt;li&gt;\(0\)&lt;/li&gt;
+            &lt;li&gt; \(\frac{1}{10}\)&lt;/li&gt;
+            &lt;li&gt;\(\frac12\)&lt;/li&gt;
+            &lt;li&gt; \(\frac{9}{10}\)&lt;/li&gt;
+            &lt;li&gt; \(1\)&lt;/li&gt;
+            &lt;li&gt; \(1.3\)&lt;/li&gt;
+            &lt;li&gt; \(\frac{18}{5}\)
+            &lt;/li&gt;
+        &lt;/ol&gt;
+
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    &lt;strong&gt;ANSWER: &lt;/strong&gt;b, c, and d&lt;br&gt;
+&lt;/p&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;The function \(f\) is given by \(f(x)=50\cdot (\frac{1}{2})^x\), and the function \(g\) is given by \(g(x)=50 \cdot (\frac{1}{3})^x\).&lt;br&gt;
+        Here are graphs of \(f\) and \(g\).&lt;br&gt;
+        &lt;br&gt;
+        &lt;img src="https://s3.amazonaws.com/im-ims-export/EH2t9kUmJhCC9EYYLAVExP4S" alt="Graph of two decreasing exponential functions, xy-plane, origin O."&gt;&lt;br&gt;
+        &lt;br&gt;
+        Which graph is the graph of \(f(x)\)?
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    &lt;strong&gt;ANSWER:&lt;/strong&gt; Graph 1&lt;br&gt;
+&lt;/p&gt;
+&lt;ol start="4"&gt;
+    &lt;li&gt;The function \(f\) is defined by \(f(x)=50 \cdot 3^x\). The function \(g\) is defined by \(g(x)=a \cdot b^x\).&lt;br&gt;
+        Here are graphs of \(f\) and \(g\).&lt;br&gt;
+        &lt;br&gt;
+        &lt;img src="https://s3.amazonaws.com/im-ims-export/XsdsVm8Zspp9VZxBfnhGwhyp" alt="Graph of two increasing exponential functions, labeled f and g, xy-plane, origin O."&gt;&lt;br&gt;
+        &lt;br&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt;
+                In \(g(x)\), \(a\)is greater than/less than 50. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    &lt;strong&gt;ANSWER:&lt;/strong&gt; greater than
+&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt;
+            In \(g(x)\), \(b\) is greater than/less than 3.
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    &lt;strong&gt;ANSWER:&lt;/strong&gt; less than
+&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2962">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662161467</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2963">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662161467</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1320">
+        <prevpageid>1319</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1662162737</timecreated>
+        <timemodified>1663632349</timemodified>
+        <title>5.13.6: Lesson Synthesis  </title>
+        <contents>&lt;p&gt;In this lesson, students interpreted graphs and reasoned about their equations. Show the graph of \(y=f(x)\) for an exponential function \(f\) with some points labeled.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/gbBvBCao7ujTcpYhMNwySjos" alt="Graph of a function on grid."&gt;&lt;/p&gt;
+&lt;p&gt;Tell students that the \(x\)-coordinate of \(Q\) is 1, and the \(x\)-coordinate of \(R\) is 2. Ask students what information would give us insight into the situation and help us write an equation corresponding to the graph.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;“What do you need to know to describe how the function is decreasing?” (coordinates of two of the labeled points) &lt;/li&gt;
+    &lt;li&gt;“If you could find out the coordinates of two of these points, which two would you choose? Why?” (\(P\) and \(Q\) or \(Q\) and \(R\) because the quotient of their \(y\)-coordinates gives the growth factor.) &lt;/li&gt;
+    &lt;li&gt;“How would you find the equation using these two coordinates?” (Use the \(y\)-coordinate of \(P\) and the growth factor.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Consider showing the graph of \(y=f(x)\) along with the graph of \(y=g(x)\) for another exponential function \(g\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Y531wJQEdheL64jQiFz6Mgbf" alt="Graphs of 2 exponential decay functions. Blue graph labeled f and green graph labeled g. Origin labeled O. Horizontal axis labeled x. Vertical axis labeled y."&gt;&lt;/p&gt;
+&lt;p&gt;Ask students to compare the two functions:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;“Which function is decreasing faster? How do you know?” (\(g\) because it has a larger \(y\)-intercept than \(f\) but then takes smaller values than \(f\) as \(x\)&amp;nbsp;grows) &lt;/li&gt;
+    &lt;li&gt; (If the graphs cross) “What does the intersection of the two graphs mean?” (The outputs of \(f\) and \(g\) are the same for this value of \(x\).) &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2964">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662162737</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2965">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1662162737</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>
