@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <activity id="96" moduleid="128" modulename="lesson" contextid="139">
   <lesson id="96">
     <course>2</course>
@@ -8,7 +8,7 @@
     <practice>1</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password/>
+    <password></password>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>130</activitylink>
-    <mediafile/>
+    <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -35,10 +35,10 @@
     <bgcolor>#FFFFFF</bgcolor>
     <displayleft>1</displayleft>
     <displayleftif>0</displayleftif>
-    <progressbar>1</progressbar>
+    <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1660880711</timemodified>
+    <timemodified>1666805864</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
@@ -245,7 +245,7 @@
             <timecreated>1659473725</timecreated>
             <timemodified>0</timemodified>
             <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response/>
+            <response></response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -422,7 +422,7 @@
             <timecreated>1659474385</timecreated>
             <timemodified>0</timemodified>
             <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response/>
+            <response></response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -479,7 +479,7 @@
       </page>
       <page id="873">
         <prevpageid>872</prevpageid>
-        <nextpageid>875</nextpageid>
+        <nextpageid>874</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -505,7 +505,7 @@
             </attempts>
           </answer>
           <answer id="1957">
-            <jumpto>875</jumpto>
+            <jumpto>874</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -522,9 +522,9 @@
         <branches>
         </branches>
       </page>
-      <page id="875">
+      <page id="874">
         <prevpageid>873</prevpageid>
-        <nextpageid>874</nextpageid>
+        <nextpageid>875</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -550,7 +550,7 @@
             </attempts>
           </answer>
           <answer id="1960">
-            <jumpto>874</jumpto>
+            <jumpto>875</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -567,53 +567,8 @@
         <branches>
         </branches>
       </page>
-      <page id="876">
+      <page id="875">
         <prevpageid>874</prevpageid>
-        <nextpageid>0</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1659478122</timecreated>
-        <timemodified>1662640746</timemodified>
-        <title>4.8.7: Lesson Summary</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="1c895e25-d677-4cc6-890e-a1f6753933c4"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1961">
-            <jumpto>874</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659478122</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1962">
-            <jumpto>-9</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659478122</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>End of Lesson</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="874">
-        <prevpageid>875</prevpageid>
         <nextpageid>876</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
@@ -626,7 +581,7 @@
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1958">
-            <jumpto>875</jumpto>
+            <jumpto>874</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -647,6 +602,51 @@
             <timecreated>1659476869</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="876">
+        <prevpageid>875</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659478122</timecreated>
+        <timemodified>1662640746</timemodified>
+        <title>4.8.7: Lesson Summary</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="1c895e25-d677-4cc6-890e-a1f6753933c4"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1961">
+            <jumpto>875</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659478122</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1962">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659478122</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
