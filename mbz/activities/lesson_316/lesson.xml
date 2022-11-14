@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="239" moduleid="316" modulename="lesson" contextid="327">
   <lesson id="239">
     <course>2</course>
     <name>Lesson 9.4: Completing the Square, Part 3</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>318</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -56,29 +56,29 @@
         <contents>&lt;p&gt;In this lesson, you will learn to complete the square to solve non-monic quadratic equations, in which the squared term has a coefficient other than 1.&lt;/p&gt;
 &lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
 &lt;ul class="ol-raise-indent"&gt;
-  &lt;li&gt; Complete the square for quadratic expressions of the form \(ax^2+bx+c\) when \(a\) is not 1 and explain the process. &lt;/li&gt;
-  &lt;li&gt; Solve quadratic equations in which the squared term coefficient is not 1 by completing the square. &lt;/li&gt;
+&lt;li&gt; Complete the square for quadratic expressions of the form \(ax^2+bx+c\) when \(a\) is not 1 and explain the process. &lt;/li&gt;
+&lt;li&gt; Solve quadratic equations in which the squared term coefficient is not 1 by completing the square. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt; 9.4.1: Perfect Squares with Coefficients Other than 1 &lt;/li&gt;
-  &lt;li&gt; 9.4.2: Rewrite Squared Expressions &lt;/li&gt;
-  &lt;ul class="ol-raise-indent"&gt;
-    &lt;li&gt; 9.4.2: Self Check &lt;/li&gt;
-    &lt;li&gt; 9.3.4: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.4.3: Standard Form and Squared Factors &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; 9.4.3: Self Check &lt;/li&gt;
-    &lt;li&gt; 9.4.3: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.4.4: Three Different Methods for Solving an Equation &lt;/li&gt;
-  &lt;li&gt; 9.4.5: Perfect Square and Squared Factors &lt;/li&gt;
+&lt;li&gt; 9.4.1: Perfect Squares with Coefficients Other than 1 &lt;/li&gt;
+&lt;li&gt; 9.4.2: Rewrite Squared Expressions &lt;/li&gt;
+&lt;ul class="ol-raise-indent"&gt;
+&lt;li&gt; 9.4.2: Self Check &lt;/li&gt;
+&lt;li&gt; 9.3.4: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.4.3: Standard Form and Squared Factors &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; 9.4.3: Self Check &lt;/li&gt;
+&lt;li&gt; 9.4.3: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.4.4: Three Different Methods for Solving an Equation &lt;/li&gt;
+&lt;li&gt; 9.4.5: Perfect Square and Squared Factors &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;After that, you'll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul class="ol-raise-indent"&gt;
-  &lt;li&gt; 9.4.6: Practice &lt;/li&gt;
-  &lt;li&gt; 9.4.7: Lesson Summary &lt;/li&gt;
+&lt;li&gt; 9.4.6: Practice &lt;/li&gt;
+&lt;li&gt; 9.4.7: Lesson Summary &lt;/li&gt;
 &lt;/ul&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -112,18 +112,18 @@
         <title>9.4.1: Perfect Squares with Coefficients Other than 1 </title>
         <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
 &lt;p&gt;Elena says, "\((x+3)^2\) can be expanded into \(x^2+6x+9\). Likewise, \((2x+3)^2\) can be expanded into \(4x^2+6x+9\)."&lt;/p&gt;
 &lt;p&gt;Find an error in Elena's statement and correct the error. Show your reasoning.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
 &lt;p&gt;Compare your answer:&lt;/p&gt;
- &lt;p&gt;\((2x+3)^2\) is not equivalent to \(4x^2+6x+9\).&lt;/p&gt;
-&lt;p&gt;Applying the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;distributive property&lt;/span&gt; to \((2x+3)(2x+3)\) gives \(4x^2+6x+6x+9\), which is \(4x^2+12x+9\).&lt;/p&gt;
+&lt;p&gt;\((2x+3)^2\) is not equivalent to \(4x^2+6x+9\).&lt;/p&gt;
+&lt;p&gt;Applying the &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;distributive property&lt;/span&gt; to \((2x+3)(2x+3)\) gives \(4x^2+6x+6x+9\), which is \(4x^2+12x+9\).&lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -171,126 +171,126 @@
         <title>9.4.2: Rewrite Squared Expressions </title>
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent"&gt;
-            &lt;li&gt;Write each expression in standard form:&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;ol class="os-raise-noindent" type="a"&gt;
-            &lt;li&gt;\((4x+1)^2\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;Write each expression in standard form:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\((4x+1)^2\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;\(16x^2+8x+1\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(16x^2+8x+1\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1b" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-            &lt;li&gt;\((5x−2)^2\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\((5x&amp;minus;2)^2\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1b" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;\(25x^2−20x+4\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1b"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(25x^2&amp;minus;20x+4\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1c" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-            &lt;li&gt;\((\frac{1}{2}x+7)^2\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;\((\frac{1}{2}x+7)^2\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1c" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;\(\frac{1}{4}x^2+7x+49\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1c"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(\frac{1}{4}x^2+7x+49\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1d" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" type="a" start="4"&gt;
-            &lt;li&gt;\((3x+n)^2\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="4" type="a"&gt;
+&lt;li&gt;\((3x+n)^2\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1d" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;\(9x^2+2(3)(n)x+n^2\) or \(9x^2+6nx+n^2\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1d"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(9x^2+2(3)(n)x+n^2\) or \(9x^2+6nx+n^2\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1e" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" type="a" start="5"&gt;
-            &lt;li&gt;\((kx+m)^2\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="5" type="a"&gt;
+&lt;li&gt;\((kx+m)^2\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1e" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;\(k^2x^2+2kmx+m^2\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1e"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(k^2x^2+2kmx+m^2\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" start="2"&gt;
-            &lt;li&gt;Decide if each expression is a perfect square. If so, write an equivalent expression of the form \((kx+m)^2\). If not, suggest one change to turn it into a perfect square.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;ol class="os-raise-noindent" type="a"&gt;
-            &lt;li&gt;\(4x^2+12x+9\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;Decide if each expression is a perfect square. If so, write an equivalent expression of the form \((kx+m)^2\). If not, suggest one change to turn it into a perfect square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(4x^2+12x+9\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Yes, a perfect square. \((2x+3)^2\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Yes, a perfect square. \((2x+3)^2\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2b" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-            &lt;li&gt;\(4x^2+8x+25\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(4x^2+8x+25\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2b" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;No, not a perfect square. Suggested changes include:&lt;/p&gt;
-    &lt;ul class="os-raise-indent"&gt;
-        &lt;li&gt; Changing the coefficient of the linear term to 20 gives \(4x^2+20x+25\), which is equivalent to \((2x+5)^2\). &lt;/li&gt;
-        &lt;li&gt; Changing the coefficient of the linear term to -20 gives \(4x^2−20x+25\), which is equivalent to \((2x−5)^2\). &lt;/li&gt;
-        &lt;li&gt; Changing the constant term to 4 gives \(4x^2+8x+4\), which is equivalent to \((2x+2)^2\). &lt;/li&gt;
-    &lt;/ul&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2b"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;No, not a perfect square. Suggested changes include:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+&lt;li&gt; Changing the coefficient of the linear term to 20 gives \(4x^2+20x+25\), which is equivalent to \((2x+5)^2\). &lt;/li&gt;
+&lt;li&gt; Changing the coefficient of the linear term to -20 gives \(4x^2&amp;minus;20x+25\), which is equivalent to \((2x&amp;minus;5)^2\). &lt;/li&gt;
+&lt;li&gt; Changing the constant term to 4 gives \(4x^2+8x+4\), which is equivalent to \((2x+2)^2\). &lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;h4&gt;Video: Rewrite Squared Expressions&lt;/h4&gt;
 &lt;p&gt;Watch the following video to learn more about rewriting squared expressions.&lt;/p&gt;
 &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
-    &lt;source src="https://k12.openstax.org/contents/raise/resources/72e5797ce35541d183e0ff3955751a0ef621703e"&gt;
-    &lt;track src="https://k12.openstax.org/contents/raise/resources/8015b5ed95d318a3d575e2dcb0ce6c29fe6d9d56" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/72e5797ce35541d183e0ff3955751a0ef621703e
+&lt;source src="https://k12.openstax.org/contents/raise/resources/72e5797ce35541d183e0ff3955751a0ef621703e"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/8015b5ed95d318a3d575e2dcb0ce6c29fe6d9d56" srclang="en_us"&gt;https://k12.openstax.org/contents/raise/resources/72e5797ce35541d183e0ff3955751a0ef621703e
 &lt;/video&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -336,7 +336,7 @@
         <timecreated>1667069026</timecreated>
         <timemodified>1667072633</timemodified>
         <title>9.4.2: Self Check</title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Find the equivalent factored expression for \(4x^2+12x+9\).&lt;br&gt;&lt;/p&gt;</contents>
+        <contents>&lt;p dir="ltr"&gt;Find the equivalent factored expression for \(4x^2+12x+9\).&lt;br&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="4887">
@@ -346,8 +346,8 @@
             <flags>0</flags>
             <timecreated>1667069026</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(4(x^2+3x+9)\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: While 4 is the greatest common factor (GCF) of the first two terms, it is not a factor of 9. The answer is \((2x+3)^2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(4(x^2+3x+9)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: While 4 is the greatest common factor (GCF) of the first two terms, it is not a factor of 9. The answer is \((2x+3)^2\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -360,8 +360,8 @@
             <flags>0</flags>
             <timecreated>1667069026</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((2x-3)^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: This is equivalent to \(4x^2-12x+9\). The answer is \((2x+3)^2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\((2x-3)^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This is equivalent to \(4x^2-12x+9\). The answer is \((2x+3)^2\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -374,8 +374,8 @@
             <flags>0</flags>
             <timecreated>1667069026</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((2x+3)^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That's correct! Check yourself: When multiplied using distribution, \((2x + 3)(2x + 3)\) equals the given expression.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\((2x+3)^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: When multiplied using distribution, \((2x + 3)(2x + 3)\) equals the given expression.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -388,8 +388,8 @@
             <flags>0</flags>
             <timecreated>1667069026</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((2x+3)(2x-3)\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: This is equivalent to \(4x^2-9\). The answer is \((2x+3)^2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\((2x+3)(2x-3)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This is equivalent to \(4x^2-9\). The answer is \((2x+3)^2\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -402,8 +402,8 @@
             <flags>0</flags>
             <timecreated>1667069026</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -424,7 +424,7 @@
         <timemodified>1668196095</timemodified>
         <title>9.4.2: Additional Resources</title>
         <contents>&lt;h4&gt;Factoring Perfect Square Trinomials&lt;/h4&gt;
-&lt;p&gt;To factor &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;perfect square trinomial&lt;/span&gt;s, follow the formulas:&lt;/p&gt;
+&lt;p&gt;To factor &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;perfect square trinomial&lt;/span&gt;s, follow the formulas:&lt;/p&gt;
 &lt;p&gt;\(a^2+2ab+b^2=(a+b)^2\)&lt;/p&gt;
 &lt;p&gt;\(a^2-2ab+b^2=(a-b)^2\)&lt;/p&gt;
 &lt;p&gt;Let's look at an example of how to factor perfect square trinomials.&lt;/p&gt;
@@ -433,19 +433,19 @@
 &lt;p&gt;Step 1&lt;br&gt;
     Does the trinomial fit the perfect square trinomial pattern, \(a^2+2ab+b\)? &lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-    &lt;li&gt; Is the first term a perfect square? Write it as a square, \(a^2\). &lt;br&gt;
+&lt;li&gt; Is the first term a perfect square? Write it as a square, \(a^2\). &lt;br&gt;
         Is \(9x^2a\) perfect square? &lt;br&gt;
-        Yes — write it as \((3x)^2\). &lt;br&gt;
+        Yes &amp;mdash; write it as \((3x)^2\). &lt;br&gt;
         \(\begin{array}{l}9x^2\;+\;12x\;+\;4 \\ (3x)^2\;\end{array}\) &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul class="os-raise-indent"&gt;
-    &lt;li&gt; Is the last term a perfect square? Write it as a square, \(b^2\). &lt;br&gt;
+&lt;li&gt; Is the last term a perfect square? Write it as a square, \(b^2\). &lt;br&gt;
         Is 4 a perfect square? &lt;br&gt;
-        Yes — write it as \((2)^2\). &lt;br&gt;
+        Yes &amp;mdash; write it as \((2)^2\). &lt;br&gt;
         \(\begin{array}{l}9x^2\;+\;12x\;+\;4 \\ (3x)^2\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;(2)^2\end{array}\) &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul class="os-raise-indent"&gt;
-    &lt;li&gt; Check the middle term. Is it \(2ab\)?&lt;br&gt;
+&lt;li&gt; Check the middle term. Is it \(2ab\)?&lt;br&gt;
         Is \(12x\) twice the product of \(3x\) and 2? &lt;br&gt;
         Does it match? &lt;br&gt;
         Yes, so we have a perfect trinomial. &lt;/li&gt;
@@ -462,26 +462,26 @@
     \(9x^2+12x+4 ✔\) &lt;/p&gt;
 &lt;h4&gt;Try It: Factoring Perfect Square Trinomials&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;Factor \(9x^2-30x+25\).&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;Factor \(9x^2-30x+25\).&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Here is how to factor a perfect square trinomial:&lt;/p&gt;
-    &lt;p&gt;Step 1&lt;br&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Here is how to factor a perfect square trinomial:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
         Write the first term as \(a^2\) and the last constant as \(b^2=25\). &lt;br&gt;
         \(a^2=(3x)^2\), \(b^2=5^2\) &lt;/p&gt;
-    &lt;p&gt;Make sure the middle term is \(2ab\).&lt;br&gt;
+&lt;p&gt;Make sure the middle term is \(2ab\).&lt;br&gt;
         \(2ab=2(3x)(5)=30x\) &lt;/p&gt;
-    &lt;p&gt;Step 2&lt;br&gt;
+&lt;p&gt;Step 2&lt;br&gt;
         Factor the binomial into: \(a^2-2ab+b^2=(a-b)^2\). &lt;br&gt;
         \((3x-5)^2\) &lt;/p&gt;
-    &lt;p&gt;Step 3&lt;br&gt;
+&lt;p&gt;Step 3&lt;br&gt;
         Check. &lt;/p&gt;
-    &lt;p&gt;\((3x-5)(3x-5)\)&lt;br&gt;
+&lt;p&gt;\((3x-5)(3x-5)\)&lt;br&gt;
         \(=9x^2-15x-15x+25\) &lt;br&gt;
         \(=9x^2-30x+25\) &lt;/p&gt;
 &lt;/div&gt;</contents>
@@ -530,209 +530,209 @@
         <timemodified>1667532713</timemodified>
         <title>9.4.3: Standard Form and Squared Factors</title>
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt; 
-  &lt;!--Q1a--&gt;
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="16" data-problem-comparator="integer"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;ol class="os-raise-noindent"&gt;
-        &lt;li&gt;For each expression, find the value of \(c\) to make a perfect square in standard form \((ax^2+bx+c)\).&lt;/li&gt;
-      &lt;/ol&gt;
-      &lt;ol class="os-raise-noindent" type="a"&gt;
-        &lt;li&gt;\(100x^2+80x+c\)&lt;/li&gt;
-      &lt;/ol&gt;
-      &lt;p&gt;Enter the value of \(c\). &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct! 16. Standard form: \(100x^2+80x+16\).&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;The correct answer is 16. Standard form: \(100x^2+80x+16\).&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;!--END QUESTION.--&gt; 
-  &lt;!--Q1b--&gt;
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="25" data-problem-comparator="integer"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-        &lt;li&gt;\(36x^2−60x+c\)&lt;/li&gt;
-      &lt;/ol&gt;
-      &lt;p&gt;Enter the value of \(c\). &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct! 25. Standard form: \(36x^2−60x+25\).&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;The correct answer is 25. Standard form: \(36x^2−60x+25\).&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;!--END QUESTION.--&gt; 
-  &lt;!--Q1c--&gt;
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="16" data-problem-comparator="integer"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-        &lt;li&gt;\(25x^2+40x+c\)&lt;/li&gt;
-      &lt;/ol&gt;
-      &lt;p&gt;Enter the value of \(c\). &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct! 16. Standard form: \(25x^2+40x+16\).&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;The correct answer is 16. Standard form: \(25x^2+40x+16\).&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;!--END QUESTION.--&gt; 
-  &lt;!--Q1d--&gt;
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="196" data-problem-comparator="integer"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;ol class="os-raise-noindent" type="a" start="4"&gt;
-        &lt;li&gt;\(0.25x^2−14x+c\)&lt;/li&gt;
-      &lt;/ol&gt;
-      &lt;p&gt;Enter the value of \(c\). &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct! 196. Standard form: \(0.25x^2−14x+196\).&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;The correct answer is 196. Standard form: \(0.25x^2−14x+196\).&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;!--END QUESTION.--&gt; 
-  &lt;!--Do not edit below line.--&gt;
-  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--Q1a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="16"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;For each expression, find the value of \(c\) to make a perfect square in standard form \((ax^2+bx+c)\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(100x^2+80x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enter the value of \(c\). &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! 16. Standard form: \(100x^2+80x+16\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answer is 16. Standard form: \(100x^2+80x+16\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q1b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="25"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(36x^2&amp;minus;60x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enter the value of \(c\). &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! 25. Standard form: \(36x^2&amp;minus;60x+25\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answer is 25. Standard form: \(36x^2&amp;minus;60x+25\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q1c--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="16"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;\(25x^2+40x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enter the value of \(c\). &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! 16. Standard form: \(25x^2+40x+16\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answer is 16. Standard form: \(25x^2+40x+16\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q1d--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="196"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4" type="a"&gt;
+&lt;li&gt;\(0.25x^2&amp;minus;14x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enter the value of \(c\). &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! 196. Standard form: \(0.25x^2&amp;minus;14x+196\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answer is 196. Standard form: \(0.25x^2&amp;minus;14x+196\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;ol class="os-raise-noindent" start="2"&gt;
-  &lt;li&gt;For each expression, refer to your responses in question 1 to help write an equivalent expression in the form of squared &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;factors&lt;/span&gt; \((kx+m)^2\).&lt;/li&gt;
+&lt;li&gt;For each expression, refer to your responses in question 1 to help write an equivalent expression in the form of squared &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;factors&lt;/span&gt; \((kx+m)^2\).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2a" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" type="a"&gt;
-      &lt;li&gt;\(100x^2+80x+c\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(100x^2+80x+c\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2a" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\((10x+4)^2\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2a"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\((10x+4)^2\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2b" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-      &lt;li&gt;\(36x^2−60x+c\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(36x^2&amp;minus;60x+c\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2b" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\((6x-5)^2\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2b"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\((6x-5)^2\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2c" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-      &lt;li&gt;\(25x^2+40x+c\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;\(25x^2+40x+c\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2c" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\((5x+4)^2\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2c"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\((5x+4)^2\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2d" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" type="a" start="4"&gt;
-      &lt;li&gt;\(0.25x^2−14x+c\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="4" type="a"&gt;
+&lt;li&gt;\(0.25x^2&amp;minus;14x+c\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2d" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\((0.5x-14)^2\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2d"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\((0.5x-14)^2\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3a" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" start="3"&gt;
-      &lt;li&gt;Write your own pair of equivalent expressions.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;ol class="os-raise-noindent" type="a"&gt;
-      &lt;li&gt;Create an expression in standard form \((ax^2+bx+c)\).&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;Write your own pair of equivalent expressions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;Create an expression in standard form \((ax^2+bx+c)\).&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3a" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;Answers will vary. One expression in standard form is: \(49x^2+14x+1\).&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal3a"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Answers will vary. One expression in standard form is: \(49x^2+14x+1\).&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3b" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-      &lt;li&gt;Now write the same equivalent expression in the form of squared factors \((kx+m)^2\).&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;Now write the same equivalent expression in the form of squared factors \((kx+m)^2\).&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3b" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;Answers will vary. Using the expression above, for example, the squared factor of \(49x^2+14x+1\) would be \((7x+1)^2\).&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal3b"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Answers will vary. Using the expression above, for example, the squared factor of \(49x^2+14x+1\) would be \((7x+1)^2\).&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal4a" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" start="4"&gt;
-      &lt;li&gt;Solve each equation by completing the square.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;ol class="os-raise-noindent" type="a"&gt;
-      &lt;li&gt;\(25x^2+40x=-12\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;Solve each equation by completing the square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(25x^2+40x=-12\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal4a" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(\begin{aligned} 25 x^{2}+40 x &amp;amp;=-12 \\ 25 x^{2}+40 x+12 &amp;amp;=0 \\ 25 x^{2}+40 x+12+4 &amp;amp;=4 \\ 25 x^{2}+40 x+16 &amp;amp;=4 \\ (5 x+4)^{2} &amp;amp;=4 \\ \sqrt{(5 x+4)^{2}} &amp;amp;=\sqrt{4} \\ 5 x+4 &amp;amp;=2 \\ 5 x+4 &amp;amp;=-2 \\ 5 x &amp;amp;=-2 \\ 5 x &amp;amp;=-6 \\ \\ x=-\frac{2}{5} &amp;amp; \text { and } x=-\frac{6}{5} \end{aligned} \)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal4a"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(\begin{aligned} 25 x^{2}+40 x &amp;amp;=-12 \\ 25 x^{2}+40 x+12 &amp;amp;=0 \\ 25 x^{2}+40 x+12+4 &amp;amp;=4 \\ 25 x^{2}+40 x+16 &amp;amp;=4 \\ (5 x+4)^{2} &amp;amp;=4 \\ \sqrt{(5 x+4)^{2}} &amp;amp;=\sqrt{4} \\ 5 x+4 &amp;amp;=2 \\ 5 x+4 &amp;amp;=-2 \\ 5 x &amp;amp;=-2 \\ 5 x &amp;amp;=-6 \\ \\ x=-\frac{2}{5} &amp;amp; \text { and } x=-\frac{6}{5} \end{aligned} \)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal4b" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-      &lt;li&gt;\(36x^2−60x+10=-6\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(36x^2&amp;minus;60x+10=-6\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal4b" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(\begin{aligned} 36 x^{2}-60 x+10 &amp;amp;=-6 \\ 36 x^{2}-60 x+10+15 &amp;amp;=-6+15 \\ 36 x^{2}-60 x+25 &amp;amp;=9 \\ (6 x-5)^{2} &amp;amp;=9 \\ \sqrt{(6 x-5)^{2}} &amp;amp;=\sqrt{9} \\ 6 x-5 &amp;amp;=3 \\ 6 x-5 &amp;amp;=-3 \\ 6 x &amp;amp;=8 \\ 6 x &amp;amp;=2 \\ \\ x=\frac{8}{6}=\frac{4}{3} &amp;amp; \text { and } x=\frac{2}{6}=\frac{1}{3} \end{aligned}\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal4b"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(\begin{aligned} 36 x^{2}-60 x+10 &amp;amp;=-6 \\ 36 x^{2}-60 x+10+15 &amp;amp;=-6+15 \\ 36 x^{2}-60 x+25 &amp;amp;=9 \\ (6 x-5)^{2} &amp;amp;=9 \\ \sqrt{(6 x-5)^{2}} &amp;amp;=\sqrt{9} \\ 6 x-5 &amp;amp;=3 \\ 6 x-5 &amp;amp;=-3 \\ 6 x &amp;amp;=8 \\ 6 x &amp;amp;=2 \\ \\ x=\frac{8}{6}=\frac{4}{3} &amp;amp; \text { and } x=\frac{2}{6}=\frac{1}{3} \end{aligned}\)&lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -778,7 +778,7 @@
         <timecreated>1667070683</timecreated>
         <timemodified>1667072677</timemodified>
         <title>9.4.3: Self Check</title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Solve by completing the square: \(25x^2+30x=7\).&lt;br&gt;&lt;/p&gt;</contents>
+        <contents>&lt;p dir="ltr"&gt;Solve by completing the square: \(25x^2+30x=7\).&lt;br&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="4895">
@@ -788,8 +788,8 @@
             <flags>0</flags>
             <timecreated>1667070683</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=9\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: This is the number that is added to each side, but not the solution. The correct answer is \(x=\frac{1}{5}\), \(x= -\frac{7}{5}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=9\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This is the number that is added to each side, but not the solution. The correct answer is \(x=\frac{1}{5}\), \(x= -\frac{7}{5}\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -802,8 +802,8 @@
             <flags>0</flags>
             <timecreated>1667070683</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=\frac15\), \(x= -\frac75\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That's correct! Check yourself: 9 should be added to each side, then the new equation becomes \((5x+3)^2=16\). When solved, these are the two solutions.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=\frac15\), \(x= -\frac75\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: 9 should be added to each side, then the new equation becomes \((5x+3)^2=16\). When solved, these are the two solutions.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -816,8 +816,8 @@
             <flags>0</flags>
             <timecreated>1667070683</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=\frac{13}{5}\), \(x=-\frac{19}{5}\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: Make sure to take the square root of both sides of the equation. The correct answer is \(x=\frac15\), \(x= -\frac75\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=\frac{13}{5}\), \(x=-\frac{19}{5}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: Make sure to take the square root of both sides of the equation. The correct answer is \(x=\frac15\), \(x= -\frac75\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -830,8 +830,8 @@
             <flags>0</flags>
             <timecreated>1667070683</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=-\frac{3}{5}\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: The solution is not where the factor equals 0. The correct answer is \(x=\frac15\), \(x= -\frac75\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=-\frac{3}{5}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The solution is not where the factor equals 0. The correct answer is \(x=\frac15\), \(x= -\frac75\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -844,8 +844,8 @@
             <flags>0</flags>
             <timecreated>1667070683</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&amp;nbsp;&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&amp;nbsp;&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -868,83 +868,83 @@
         <contents>&lt;h4&gt;Find the Value to Make a Perfect Square and Solve&lt;/h4&gt;
 &lt;p&gt;In earlier lessons, we worked with perfect squares such as \((x+1)^2\) and \((x-5)(x-5)\). We learned that their equivalent expressions in standard form follow a predictable pattern:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; In general, \((x+m)^2\) can be written as \(x^2+2mx +m^2\). &lt;/li&gt;
-  &lt;li&gt; If a quadratic expression of the form \(ax^2+bx +c\) is a perfect square, and the value of \(a\) is 1, then the value of \(b\) is \(2m\), and the value of \(c\) is \(m^2\) for some value of \(m\). &lt;/li&gt;
+&lt;li&gt; In general, \((x+m)^2\) can be written as \(x^2+2mx +m^2\). &lt;/li&gt;
+&lt;li&gt; If a quadratic expression of the form \(ax^2+bx +c\) is a perfect square, and the value of \(a\) is 1, then the value of \(b\) is \(2m\), and the value of \(c\) is \(m^2\) for some value of \(m\). &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this lesson, the variable in the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;factors&lt;/span&gt; being squared had a coefficient other than 1, for example \((3x+1)^2\) and \((2x-5)(2x-5)\). Their equivalent expression in standard form also followed the same pattern we saw earlier.&lt;/p&gt;
+&lt;p&gt;In this lesson, the variable in the &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;factors&lt;/span&gt; being squared had a coefficient other than 1, for example \((3x+1)^2\) and \((2x-5)(2x-5)\). Their equivalent expression in standard form also followed the same pattern we saw earlier.&lt;/p&gt;
 &lt;table class="os-raise-standardtable"&gt;
-  &lt;colgroup&gt;
-  &lt;col&gt;
-  &lt;col&gt;
-  &lt;/colgroup&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th align="center" scope="col"&gt;&lt;p&gt;Squared factors&lt;/p&gt;&lt;/th&gt;
-      &lt;th align="center" scope="col"&gt;&lt;p&gt;Standard form&lt;/p&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td align="center" valign="top"&gt;&lt;p&gt;\((3x+1)^2\)&lt;/p&gt;&lt;/td&gt;
-      &lt;td align="center" valign="top"&gt;&lt;p&gt;\((3x)^2+2(3x)(1)+1^2\) or \(9x^2+6x +1\)&lt;/p&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td align="center" valign="top"&gt;&lt;p&gt;\((2x-5)^2\)&lt;/p&gt;&lt;/td&gt;
-      &lt;td align="center" valign="top"&gt;&lt;p&gt;\((2x)^2+2(2x)(-5) +(-5)^2\)&amp;nbsp; or \(4x^2-20x +25\)&lt;/p&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="center" scope="col"&gt;&lt;p&gt;Squared factors&lt;/p&gt;&lt;/th&gt;
+&lt;th align="center" scope="col"&gt;&lt;p&gt;Standard form&lt;/p&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="center" valign="top"&gt;&lt;p&gt;\((3x+1)^2\)&lt;/p&gt;&lt;/td&gt;
+&lt;td align="center" valign="top"&gt;&lt;p&gt;\((3x)^2+2(3x)(1)+1^2\) or \(9x^2+6x +1\)&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="center" valign="top"&gt;&lt;p&gt;\((2x-5)^2\)&lt;/p&gt;&lt;/td&gt;
+&lt;td align="center" valign="top"&gt;&lt;p&gt;\((2x)^2+2(2x)(-5) +(-5)^2\)&amp;nbsp; or \(4x^2-20x +25\)&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
 &lt;p&gt;In general, \((kx+m)^2\) can be written as:&lt;/p&gt;
 &lt;p&gt;\((kx)^2+2 (kx)(m) +m^2\) or \(k^2x^2+2kmx +m^2\)&lt;/p&gt;
 &lt;p&gt;If a quadratic expression is of the form \(ax^2+bx+c\), then:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; the value of \(a\) is \(k^2\) &lt;/li&gt;
-  &lt;li&gt; the value of \(b\) is \(2km\) &lt;/li&gt;
-  &lt;li&gt; the value of \(c\) is \(m^2\) &lt;/li&gt;
+&lt;li&gt; the value of \(a\) is \(k^2\) &lt;/li&gt;
+&lt;li&gt; the value of \(b\) is \(2km\) &lt;/li&gt;
+&lt;li&gt; the value of \(c\) is \(m^2\) &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We can use this pattern to help us complete the square and solve equations when the squared term \(x^2\) has a coefficient other than 1—for example: \(16x^2+40x =11\).&lt;/p&gt;
+&lt;p&gt;We can use this pattern to help us complete the square and solve equations when the squared term \(x^2\) has a coefficient other than 1&amp;mdash;for example: \(16x^2+40x =11\).&lt;/p&gt;
 &lt;p&gt;What constant term \(c\) can we add to make the expression on the left of the equal sign a perfect square? And how do we write this expression as squared factors?&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 16 is \(4^2\), so the squared factors could be \((4x + m)^2\). &lt;/li&gt;
-  &lt;li&gt; 40 is equal to \(2(4m)\), so \(2(4m) = 40\) or \(8m=40\). This means that \(m = 5\). &lt;/li&gt;
-  &lt;li&gt; If \(c\) is \(m^2\), then \(c =52\) or \(c=25\). &lt;/li&gt;
-  &lt;li&gt; So the expression \(16x^2+40x +25\) is a perfect square and is equivalent to \((4x+5)^2\). &lt;/li&gt;
+&lt;li&gt; 16 is \(4^2\), so the squared factors could be \((4x + m)^2\). &lt;/li&gt;
+&lt;li&gt; 40 is equal to \(2(4m)\), so \(2(4m) = 40\) or \(8m=40\). This means that \(m = 5\). &lt;/li&gt;
+&lt;li&gt; If \(c\) is \(m^2\), then \(c =52\) or \(c=25\). &lt;/li&gt;
+&lt;li&gt; So the expression \(16x^2+40x +25\) is a perfect square and is equivalent to \((4x+5)^2\). &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Let's solve the equation \(16x^2+40x =11\) by completing the square!&lt;/p&gt;
 &lt;p&gt;\(\begin{array}{rcl}\;16^2+40x\;&amp;amp;=&amp;amp;\;11 \\ 16^2+40x+25\;&amp;amp;=&amp;amp;\;11+25 \\ (4x+5)^2&amp;amp;=&amp;amp;36\;\end{array}\)&lt;/p&gt;
 &lt;p&gt;\(4x+5=6\;\;\;\;\mathrm{or}\;\;\;\;4x+5=-6\\\;\;\;\;\;\;\;4x=1\;\;\;\mathrm{or}\;\;\;\;4x=-11\\\;\;\;\;\;\;\;\;\;x=\frac14\;\;\mathrm{or}\;\;\;\;x=\frac{-11}4\)&lt;/p&gt;
 &lt;h4&gt;Try It: Find the Value to Make a Perfect Square and Solve&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;p&gt;Solve \(4x^2+28x=-13\).&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;Solve \(4x^2+28x=-13\).&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;p&gt;Here is how to solve this equation by completing the square:&lt;/p&gt;
-  &lt;p&gt;Step 1&lt;br&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Here is how to solve this equation by completing the square:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
     To be a perfect square, \((2x+m)^2\) is needed. &lt;br&gt;
     \(4x^2+28x=-13\) &lt;/p&gt;
-  &lt;p&gt;Step 2&lt;br&gt;
+&lt;p&gt;Step 2&lt;br&gt;
     Find the value of \(m\) to make a perfect square. &lt;br&gt;
     \(2(2m) = 28\), so \(m = 7\).&lt;/p&gt;
-  &lt;p&gt;Step 3&lt;br&gt;
+&lt;p&gt;Step 3&lt;br&gt;
     Find \(c= m^2\). &lt;br&gt;
     \(c=m^2=7^2=49\)&lt;/p&gt;
-  &lt;p&gt;Step 4&lt;br&gt;
+&lt;p&gt;Step 4&lt;br&gt;
     Add \(c\) to both sides. &lt;br&gt;
     \(4x^2+28x+49=-13+49\)&lt;/p&gt;
-  &lt;p&gt;Step 5&lt;br&gt;
+&lt;p&gt;Step 5&lt;br&gt;
     Factor and simplify. &lt;br&gt;
     \((2x+7)^2=36\)&lt;/p&gt;
-  &lt;p&gt;Step 6&lt;br&gt;
+&lt;p&gt;Step 6&lt;br&gt;
     Take the square root of both sides. Remember the plus or minus. &lt;br&gt;
     \(\sqrt{(2x+7)^2}=\sqrt{36}\)&lt;br&gt;
     \( 2x+7= \pm 6\)&lt;/p&gt;
-  &lt;p&gt;Step 7&lt;br&gt;
+&lt;p&gt;Step 7&lt;br&gt;
     Write two equations and solve. &lt;br&gt;
     \(2x+7=6\)&amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(2x+7=-6\)&lt;br&gt;
     \(x= -\frac12\)&amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  \(x=-\frac{13}{2}\)&lt;/p&gt;
@@ -1007,154 +1007,151 @@
 &lt;p class="os-raise-indent"&gt;\(x=-\frac{5}{3} \text { and } x=-1\)&lt;/p&gt;
 &lt;p&gt;Once you understand the methods, use each method at least one time to solve these equations.&lt;/p&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent"&gt;
-            &lt;li&gt;\(5x^2+17x+6=0\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;\(5x^2+17x+6=0\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Method 1 is used here, but any of the three methods would work.&lt;/p&gt;
-    &lt;p&gt;\(\begin{array}{rcl} 5 x^2+17 x+6 &amp;amp;=&amp;amp; 0 \\ (5x+2)(x+3) &amp;amp;=&amp;amp; 0 \\ 5x+2 &amp;amp;=&amp;amp; 0 \\ 5x &amp;amp;=&amp;amp; -2 \\ x&amp;amp;=&amp;amp; - \frac{2}{5} \\ x+3 &amp;amp;=&amp;amp; 0 \\ x &amp;amp;=&amp;amp; -3 \end{array} \)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Method 1 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl} 5 x^2+17 x+6 &amp;amp;=&amp;amp; 0 \\ (5x+2)(x+3) &amp;amp;=&amp;amp; 0 \\ 5x+2 &amp;amp;=&amp;amp; 0 \\ 5x &amp;amp;=&amp;amp; -2 \\ x&amp;amp;=&amp;amp; - \frac{2}{5} \\ x+3 &amp;amp;=&amp;amp; 0 \\ x &amp;amp;=&amp;amp; -3 \end{array} \)&lt;/p&gt;
 &lt;p class="os-raise-indent"&gt;\(x=-\frac{2}{5} \text { and } x =-3\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" start="2"&gt;
-            &lt;li&gt;\(6x^2+19x=-10\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;\(6x^2+19x=-10\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Method 2 is used here, but any of the three methods would work.&lt;/p&gt;
-    &lt;p&gt;\(\begin{array}{rcl}6x^2+19x&amp;amp;=&amp;amp;-10\\6x^2+19x+10&amp;amp;=&amp;amp;0 \\ 36x^2+114x+60&amp;amp;=&amp;amp;0 \\ (6x)^2+19(6x)+60&amp;amp;=&amp;amp;0 \\ U^2+19U+60&amp;amp;=&amp;amp;0 \\ (U+15)(U+4)&amp;amp;=&amp;amp;0 \\ U+15&amp;amp;=&amp;amp;0 \\ U&amp;amp;=&amp;amp;-15\\6x&amp;amp;=&amp;amp;-15 \\ x&amp;amp;=&amp;amp;-\frac{15}6=-\frac52 \\ (U+4)&amp;amp;=&amp;amp;0 \\ U&amp;amp;=&amp;amp;-4 \\ 6x&amp;amp;=&amp;amp;-4 \\ x&amp;amp;=&amp;amp;-\frac46=-\frac23\end{array}\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Method 2 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}6x^2+19x&amp;amp;=&amp;amp;-10\\6x^2+19x+10&amp;amp;=&amp;amp;0 \\ 36x^2+114x+60&amp;amp;=&amp;amp;0 \\ (6x)^2+19(6x)+60&amp;amp;=&amp;amp;0 \\ U^2+19U+60&amp;amp;=&amp;amp;0 \\ (U+15)(U+4)&amp;amp;=&amp;amp;0 \\ U+15&amp;amp;=&amp;amp;0 \\ U&amp;amp;=&amp;amp;-15\\6x&amp;amp;=&amp;amp;-15 \\ x&amp;amp;=&amp;amp;-\frac{15}6=-\frac52 \\ (U+4)&amp;amp;=&amp;amp;0 \\ U&amp;amp;=&amp;amp;-4 \\ 6x&amp;amp;=&amp;amp;-4 \\ x&amp;amp;=&amp;amp;-\frac46=-\frac23\end{array}\)&lt;/p&gt;
 &lt;p class="os-raise-indent"&gt;\(x=-\frac{5}{2} \text { and } x=-\frac{2}{3}\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" start="3"&gt;
-            &lt;li&gt;\(8x^2−33x+4=0\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;\(8x^2&amp;minus;33x+4=0\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Method 1 is used here, but any of the three methods would work.&lt;/p&gt;
-    &lt;p&gt;\(\begin{array}{rcl} 8 x^{2}-33 x+4 &amp;amp;=&amp;amp;0 \\ (8 x-1)(x-4) &amp;amp;=&amp;amp;0 \\ 8 x-1 &amp;amp;=&amp;amp;0 \\ 8 x &amp;amp;=&amp;amp;1 \\ x &amp;amp;=&amp;amp;\frac{1}{8} \\ x-4 &amp;amp;=0 \\ x &amp;amp;=&amp;amp;4 \end{array} \) &lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal3"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Method 1 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl} 8 x^{2}-33 x+4 &amp;amp;=&amp;amp;0 \\ (8 x-1)(x-4) &amp;amp;=&amp;amp;0 \\ 8 x-1 &amp;amp;=&amp;amp;0 \\ 8 x &amp;amp;=&amp;amp;1 \\ x &amp;amp;=&amp;amp;\frac{1}{8} \\ x-4 &amp;amp;=0 \\ x &amp;amp;=&amp;amp;4 \end{array} \) &lt;/p&gt;
 &lt;p class="os-raise-indent"&gt;\(x=\frac{1}{8} \text { and } x=4\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal4" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" start="4"&gt;
-            &lt;li&gt;\(8x^2−26x=-21\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;\(8x^2&amp;minus;26x=-21\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal4" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Method 1 is used here, but any of the three methods would work.&lt;/p&gt;
-    &lt;p&gt;\(\begin{array}{rcl} 8 x^{2}-26 x &amp;amp;=&amp;amp;-21 \\ 8 x^{2}-26 x+21 &amp;amp;=&amp;amp;0 \\ (4 x-7)(2 x-3) &amp;amp;=&amp;amp;0 \\ 4 x-7 &amp;amp;=&amp;amp;0 \\ 4 x &amp;amp;=&amp;amp;7 \\ x &amp;amp;=&amp;amp;\frac{7}{4} \\ 2 x-3 &amp;amp;=&amp;amp;0 \\ 2 x &amp;amp;=&amp;amp;3 \\ x &amp;amp;=&amp;amp;\frac{3}{2} \\ x=\frac{7}{4} \text { and } x=\frac{3}{2} \end{array} \) &lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal4"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Method 1 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl} 8 x^{2}-26 x &amp;amp;=&amp;amp;-21 \\ 8 x^{2}-26 x+21 &amp;amp;=&amp;amp;0 \\ (4 x-7)(2 x-3) &amp;amp;=&amp;amp;0 \\ 4 x-7 &amp;amp;=&amp;amp;0 \\ 4 x &amp;amp;=&amp;amp;7 \\ x &amp;amp;=&amp;amp;\frac{7}{4} \\ 2 x-3 &amp;amp;=&amp;amp;0 \\ 2 x &amp;amp;=&amp;amp;3 \\ x &amp;amp;=&amp;amp;\frac{3}{2} \\ x=\frac{7}{4} \text { and } x=\frac{3}{2} \end{array} \) &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal5" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" start="5"&gt;
-            &lt;li&gt;\(10x^2+37x=36\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+&lt;li&gt;\(10x^2+37x=36\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal5" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Method 3 is used here, but any of the three methods would work.&lt;/p&gt;
-   &lt;p&gt;\(\begin{array}{rcl} 10x^{2}+37x &amp;amp;=&amp;amp;36 \\ \frac{(10x^{2}+37x)}{10} &amp;amp;=&amp;amp;\frac{36}{10} \\ x^{2}+\frac{37}{10}x &amp;amp;=&amp;amp;\frac{36}{10} \\ x^2+\frac{37}{10}x+((\frac{1}{2})(\frac{37}{10}))^{2} &amp;amp;=&amp;amp;\frac{36}{10}+((\frac{1}{2})(\frac{37}{10}))^{2} \\ x^2+\frac{37}{10}x+\frac{1369}{400} &amp;amp;=&amp;amp;\frac{36}{10}+\frac{1369}{400} \\ x^2+\frac{37}{10}x+\frac{1369}{400} &amp;amp;=&amp;amp;\frac{2809}{400} \\ (x+\frac{37}{20})^{2} &amp;amp;=&amp;amp;\frac{2809}{400} \\ \sqrt{(x+\frac{37}{20})^{2}} &amp;amp;=&amp;amp;\sqrt{\frac{2809}{400}}\\ x+\frac{37}{20} &amp;amp;=&amp;amp;\frac{53}{20} \\ x &amp;amp;=&amp;amp;\frac{16}{20} \\ x &amp;amp;=&amp;amp;\frac{4}{5} \\ x+\frac{37}{20} &amp;amp;=&amp;amp;-\frac{53}{20} \\ x &amp;amp;=&amp;amp;-\frac{90}{20} \\ x &amp;amp;=&amp;amp;-\frac{9}{2} \end{array} \)&lt;/p&gt;
-
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal5"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Method 3 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl} 10x^{2}+37x &amp;amp;=&amp;amp;36 \\ \frac{(10x^{2}+37x)}{10} &amp;amp;=&amp;amp;\frac{36}{10} \\ x^{2}+\frac{37}{10}x &amp;amp;=&amp;amp;\frac{36}{10} \\ x^2+\frac{37}{10}x+((\frac{1}{2})(\frac{37}{10}))^{2} &amp;amp;=&amp;amp;\frac{36}{10}+((\frac{1}{2})(\frac{37}{10}))^{2} \\ x^2+\frac{37}{10}x+\frac{1369}{400} &amp;amp;=&amp;amp;\frac{36}{10}+\frac{1369}{400} \\ x^2+\frac{37}{10}x+\frac{1369}{400} &amp;amp;=&amp;amp;\frac{2809}{400} \\ (x+\frac{37}{20})^{2} &amp;amp;=&amp;amp;\frac{2809}{400} \\ \sqrt{(x+\frac{37}{20})^{2}} &amp;amp;=&amp;amp;\sqrt{\frac{2809}{400}}\\ x+\frac{37}{20} &amp;amp;=&amp;amp;\frac{53}{20} \\ x &amp;amp;=&amp;amp;\frac{16}{20} \\ x &amp;amp;=&amp;amp;\frac{4}{5} \\ x+\frac{37}{20} &amp;amp;=&amp;amp;-\frac{53}{20} \\ x &amp;amp;=&amp;amp;-\frac{90}{20} \\ x &amp;amp;=&amp;amp;-\frac{9}{2} \end{array} \)&lt;/p&gt;
 &lt;p class="os-raise-indent"&gt;\(x=\frac{4}{5} \text { and } x=-\frac{9}{2}\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal6" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent" start="6"&gt;
-            &lt;li&gt;\(12x^2+20x−77=0\)&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="6"&gt;
+&lt;li&gt;\(12x^2+20x&amp;minus;77=0\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal6" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Method 3 is used here, but any of the three methods would work.&lt;/p&gt;
-    &lt;p&gt;\(\begin{array}{rcl}12x^2+20x-77&amp;amp;=&amp;amp;0\\12x^2+20x&amp;amp;=&amp;amp;77\\\frac{\left(12x^2+20x\right)}{12}&amp;amp;=&amp;amp;\frac{77}{12}\\x^2+\frac{20}{12}x&amp;amp;=&amp;amp;\frac{77}{12}\\x^2+\frac{20}{12}x+\left(\left(\frac12\right)\left(\frac{20}{12}\right)\right)^2&amp;amp;=&amp;amp;\frac{77}{12}+\left(\left(\frac12\right)\left(\frac{20}{12}\right)\right)^2\\x^2+\frac{20}{12}x+\frac{100}{144}&amp;amp;=&amp;amp;\frac{77}{12}+\frac{100}{144}=\frac{924}{144}+\frac{100}{144}\\x^2+\frac{20}{12}x+\frac{100}{144}&amp;amp;=&amp;amp;\frac{1024}{144}\\\left(x+\frac{10}{12}\right)^2&amp;amp;=&amp;amp;\frac{1024}{144}\\\sqrt{\left(x+\frac{10}{12}\right)^2}&amp;amp;=&amp;amp;\sqrt{\frac{1024}{144}}\\x+\frac{10}{12}&amp;amp;=&amp;amp;\frac{32}{12}\\x+\frac{10}{12}&amp;amp;=&amp;amp;-\frac{32}{12}\\x&amp;amp;=&amp;amp;\frac{22}{12}\\x&amp;amp;=&amp;amp;-\frac{42}{12}\\x&amp;amp;=&amp;amp;\frac{11}6\\x&amp;amp;=&amp;amp;-\frac{21}6=-\frac72\end{array}\) &lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal6"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Method 3 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}12x^2+20x-77&amp;amp;=&amp;amp;0\\12x^2+20x&amp;amp;=&amp;amp;77\\\frac{\left(12x^2+20x\right)}{12}&amp;amp;=&amp;amp;\frac{77}{12}\\x^2+\frac{20}{12}x&amp;amp;=&amp;amp;\frac{77}{12}\\x^2+\frac{20}{12}x+\left(\left(\frac12\right)\left(\frac{20}{12}\right)\right)^2&amp;amp;=&amp;amp;\frac{77}{12}+\left(\left(\frac12\right)\left(\frac{20}{12}\right)\right)^2\\x^2+\frac{20}{12}x+\frac{100}{144}&amp;amp;=&amp;amp;\frac{77}{12}+\frac{100}{144}=\frac{924}{144}+\frac{100}{144}\\x^2+\frac{20}{12}x+\frac{100}{144}&amp;amp;=&amp;amp;\frac{1024}{144}\\\left(x+\frac{10}{12}\right)^2&amp;amp;=&amp;amp;\frac{1024}{144}\\\sqrt{\left(x+\frac{10}{12}\right)^2}&amp;amp;=&amp;amp;\sqrt{\frac{1024}{144}}\\x+\frac{10}{12}&amp;amp;=&amp;amp;\frac{32}{12}\\x+\frac{10}{12}&amp;amp;=&amp;amp;-\frac{32}{12}\\x&amp;amp;=&amp;amp;\frac{22}{12}\\x&amp;amp;=&amp;amp;-\frac{42}{12}\\x&amp;amp;=&amp;amp;\frac{11}6\\x&amp;amp;=&amp;amp;-\frac{21}6=-\frac72\end{array}\) &lt;/p&gt;
 &lt;p class="os-raise-indent"&gt;\(x=\frac{11}6\text{&amp;nbsp;and&amp;nbsp;}x=-\frac72\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
-        &lt;ol class="os-raise-noindent"&gt;
-            &lt;li&gt;Solve the equation \(2x^2-3x+1=0\), then choose the &lt;strong&gt;two &lt;/strong&gt;roots.&amp;nbsp;&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;ol class="os-raise-indent" type="A"&gt;
-            &lt;li&gt; \(x= -\frac32\) &lt;/li&gt;
-            &lt;li&gt; \(x= -\frac52\) &lt;/li&gt;
-            &lt;li&gt; \(x = 1\)&lt;/li&gt;
-            &lt;li&gt; \(x=\frac52\) &lt;/li&gt;
-            &lt;li&gt; \(x=\frac12\) &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the two roots.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;C. \(x = 1\), E. \(x = \frac12\)&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;Solve the equation \(2x^2-3x+1=0\), then choose the &lt;strong&gt;two &lt;/strong&gt;roots.&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-indent" type="A"&gt;
+&lt;li&gt; \(x= -\frac32\) &lt;/li&gt;
+&lt;li&gt; \(x= -\frac52\) &lt;/li&gt;
+&lt;li&gt; \(x = 1\)&lt;/li&gt;
+&lt;li&gt; \(x=\frac52\) &lt;/li&gt;
+&lt;li&gt; \(x=\frac12\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the two roots.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;C. \(x = 1\), E. \(x = \frac12\)&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
 &lt;br&gt;
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent" start="2"&gt;
-            &lt;li&gt;Explain your reasoning for your solution.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your reasoning.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;Using the techniques of this lesson, the first step is to divide both sides of the equation by 2 to obtain \(x^2-\frac{3}{2}x+\frac{1}{2}=0\), and then complete the square.&amp;nbsp;&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;Explain your reasoning for your solution.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your reasoning.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Using the techniques of this lesson, the first step is to divide both sides of the equation by 2 to obtain \(x^2-\frac{3}{2}x+\frac{1}{2}=0\), and then complete the square.&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;</contents>
         <contentsformat>1</contentsformat>
@@ -1202,62 +1199,62 @@
         <timemodified>1667535508</timemodified>
         <title>9.4.5: Perfect Square and Squared Factors</title>
         <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt; 
-  &lt;!--Q1a--&gt;
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="49" data-problem-comparator="integer"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;ol class="os-raise-noindent"&gt;
-        &lt;li&gt;Answer the following questions for expression \(4x^2−28x+c\).&lt;/li&gt;
-      &lt;/ol&gt;
-      &lt;ol class="os-raise-noindent" type="a"&gt;
-        &lt;li&gt;Find the value of \(c\) to make the expression a perfect square.&lt;/li&gt;
-      &lt;/ol&gt;
-      &lt;p&gt;Enter the value of \(c\). &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct! 49. Standard form: \(4x^2−28x+49\).&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;The correct answer is 49. Standard form: \(4x^2−28x+49\).&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;!--END QUESTION.--&gt; 
-  &lt;!--Do not edit below line.--&gt;
-  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--Q1a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="49"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;Answer the following questions for expression \(4x^2&amp;minus;28x+c\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;Find the value of \(c\) to make the expression a perfect square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enter the value of \(c\). &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! 49. Standard form: \(4x^2&amp;minus;28x+49\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answer is 49. Standard form: \(4x^2&amp;minus;28x+49\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1b" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-      &lt;li&gt;Write an equivalent expression in the form of squared factors.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;Write an equivalent expression in the form of squared factors.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1b" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;Squared factors: \((2x−7)^2\).&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1b"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Squared factors: \((2x&amp;minus;7)^2\).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" start="2"&gt;
-      &lt;li&gt;Solve the equation \(4x^2−28x=-33\) by completing the square. Show your reasoning.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;Solve the equation \(4x^2&amp;minus;28x=-33\) by completing the square. Show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(\begin{aligned} 4 x^{2}-28 x &amp;amp;=-33 \\ 4 x^{2}-28 x+49 &amp;amp;=-33+49 \\ (2 x-7)^{2} &amp;amp;=16 \\ \sqrt{(2 x-7)^{2}} &amp;amp;=\sqrt{16} \\ 2 x-7 &amp;amp;=4 \\ 2 x-7 &amp;amp;=-4 \\ 2 x &amp;amp;=11 \\ 2 x &amp;amp;=3 \end{aligned}\)&lt;/p&gt;
-  &lt;p class="os-raise-indent"&gt; \(x=\frac{11}{2} \text { and } x=\frac{3}{2}\) &lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(\begin{aligned} 4 x^{2}-28 x &amp;amp;=-33 \\ 4 x^{2}-28 x+49 &amp;amp;=-33+49 \\ (2 x-7)^{2} &amp;amp;=16 \\ \sqrt{(2 x-7)^{2}} &amp;amp;=\sqrt{16} \\ 2 x-7 &amp;amp;=4 \\ 2 x-7 &amp;amp;=-4 \\ 2 x &amp;amp;=11 \\ 2 x &amp;amp;=3 \end{aligned}\)&lt;/p&gt;
+&lt;p class="os-raise-indent"&gt; \(x=\frac{11}{2} \text { and } x=\frac{3}{2}\) &lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1305,494 +1302,477 @@
         <title>9.4.6: Practice</title>
         <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
 &lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
-    &lt;!--1--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(9x^2+24x+16\\)&amp;quot;, &amp;quot;\\((7-3x)^2\\)&amp;quot;, &amp;quot;\\((1-2x)(-2x+1)\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(9x^2+24x+16\\)&amp;quot;, &amp;quot;\\(2x^2+20x+100\\)&amp;quot;, &amp;quot;\\((7-3x)^2\\)&amp;quot;, &amp;quot;\\((5x+4)(5x-4)\\)&amp;quot;, &amp;quot;\\((1-2x)(-2x+1)\\)&amp;quot;, &amp;quot;\\(4x^2+6x+94\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent"&gt;
-                &lt;li&gt;&lt;strong&gt;Select three &lt;/strong&gt;expressions that are perfect squares.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(9x^2+24x+16\), \((7-3x)^2\), \((1-2x)(-2x+1)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answers are: \(9x^2+24x+16\), \((7-3x)^2\), \((1-2x)(-2x+1)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--2a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="56" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="2"&gt;
-                &lt;li&gt;Find the missing number that makes the expression a perfect square.&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;\(49x^2-\_\_\_\_\_\_x+16\)&lt;p&gt;Enter the missing number&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(49x^2−56x+16\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 56. \(49x^2−56x+16\). You seem to be stuck. Who can you ask for help?
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="2" data-schema-version="1.0"&gt;
+&lt;!--1--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["\\(9x^2+24x+16\\)", "\\((7-3x)^2\\)", "\\((1-2x)(-2x+1)\\)"]' data-solution-options='["\\(9x^2+24x+16\\)", "\\(2x^2+20x+100\\)", "\\((7-3x)^2\\)", "\\((5x+4)(5x-4)\\)", "\\((1-2x)(-2x+1)\\)", "\\(4x^2+6x+94\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;&lt;strong&gt;Select three &lt;/strong&gt;expressions that are perfect squares.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(9x^2+24x+16\), \((7-3x)^2\), \((1-2x)(-2x+1)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answers are: \(9x^2+24x+16\), \((7-3x)^2\), \((1-2x)(-2x+1)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="56"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;Find the missing number that makes the expression a perfect square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(49x^2-\_\_\_\_\_\_x+16\)&lt;p&gt;Enter the missing number&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(49x^2&amp;minus;56x+16\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 56. \(49x^2&amp;minus;56x+16\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--2b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="24" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;\(36x^2+\_\_\_\_\_\_x+4\)
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="24"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(36x^2+\_\_\_\_\_\_x+4\)
                     &lt;p&gt; Enter the missing number. &lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(36x^2+24x+4\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 24. \(36x^2+24x+4\). You seem to be stuck. Who can you ask for help?
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(36x^2+24x+4\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 24. \(36x^2+24x+4\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--2c--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="20" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-                &lt;li&gt;\(4x^2-\_\_\_\_\_\_x+25\)
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2c--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="20"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;\(4x^2-\_\_\_\_\_\_x+25\)
                     &lt;p&gt; Enter the missing number.&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(4x^2−20x+25\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 20. \(4x^2−20x+25\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--2d--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="18" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="4"&gt;
-                &lt;li&gt;\(9x^2+\_\_\_\_\_\_x+9\)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(4x^2&amp;minus;20x+25\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 20. \(4x^2&amp;minus;20x+25\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2d--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="18"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4" type="a"&gt;
+&lt;li&gt;\(9x^2+\_\_\_\_\_\_x+9\)
                     &lt;p&gt; Enter the missing number.&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(9x^2+18x+9\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 18. \(9x^2+18x+9\). You seem to be stuck. Who can you ask for help?
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(9x^2+18x+9\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 18. \(9x^2+18x+9\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--2e--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="66" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="5"&gt;
-                &lt;li&gt;\(121x^2+\_\_\_\_\_\_x+9\)
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2e--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="66"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="5" type="a"&gt;
+&lt;li&gt;\(121x^2+\_\_\_\_\_\_x+9\)
                     &lt;p&gt; Enter the missing number.&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(121x^2+66x+9\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 66. \(121x^2+66x+9\). You seem to be stuck. Who can you ask for help?
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(121x^2+66x+9\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 66. \(121x^2+66x+9\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--3a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((7x-4)^2\)" data-solution-options="[&amp;quot;\\((7x+4)^2\\)&amp;quot;, &amp;quot;\\((49x-16)^2\\)&amp;quot;, &amp;quot;\\((7x-4)^2\\)&amp;quot;, &amp;quot;\\((28x-11)^2\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="3"&gt;
-                &lt;li&gt; Choose the factored form of the expression.&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;\(49x^2-56x+16\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((7x-4)^2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \((7x-4)^2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--3b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(4(3x+1)^2\)" data-solution-options="[&amp;quot;\\((6x-2)^2\\)&amp;quot;, &amp;quot;\\((36x+4)^2\\)&amp;quot;, &amp;quot;\\((6x-2)^2\\)&amp;quot;, &amp;quot;\\(4(3x+1)^2\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;\(36x^2+24x+4\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(4(3x+1)^2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(4(3x+1)^2\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--3a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((7x-4)^2\)" data-solution-options='["\\((7x+4)^2\\)", "\\((49x-16)^2\\)", "\\((7x-4)^2\\)", "\\((28x-11)^2\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt; Choose the factored form of the expression.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(49x^2-56x+16\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((7x-4)^2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \((7x-4)^2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--3b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(4(3x+1)^2\)" data-solution-options='["\\((6x-2)^2\\)", "\\((36x+4)^2\\)", "\\((6x-2)^2\\)", "\\(4(3x+1)^2\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(36x^2+24x+4\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(4(3x+1)^2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(4(3x+1)^2\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--3c--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((2x-5)^2\)" data-solution-options="[&amp;quot;(\\(10x+7)^2\\)&amp;quot;, &amp;quot;\\((2x-5)^2\\)&amp;quot;, &amp;quot;\\((4x-25)^2\\)&amp;quot;, &amp;quot;\\((2x+5)^2\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-                &lt;li&gt;\(4x^2-20x+25\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((2x-5)^2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \((2x-5)^2\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--3c--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((2x-5)^2\)" data-solution-options='["(\\(10x+7)^2\\)", "\\((2x-5)^2\\)", "\\((4x-25)^2\\)", "\\((2x+5)^2\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;\(4x^2-20x+25\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((2x-5)^2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \((2x-5)^2\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--3d--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((11x+3)^2\)" data-solution-options="[&amp;quot;\\((11x+3)^2\\)&amp;quot;, &amp;quot;\\((121x-9)^2\\)&amp;quot;, &amp;quot;\\((3x-3)^2\\)&amp;quot;,&amp;quot;\\((11x-3)^2\\)&amp;quot; ]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="4"&gt;
-                &lt;li&gt;\(121x^2+66x+9\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((11x+3)^2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \((11x+3)^2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--text input--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="49" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="4"&gt;
-                &lt;li&gt;Find the missing number that makes the expression a perfect square.&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;\(9x^2+42x+\_\_\_\_\_\)
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--3d--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((11x+3)^2\)" data-solution-options='["\\((11x+3)^2\\)", "\\((121x-9)^2\\)", "\\((3x-3)^2\\)","\\((11x-3)^2\\)" ]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4" type="a"&gt;
+&lt;li&gt;\(121x^2+66x+9\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((11x+3)^2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.1 and 9.4.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \((11x+3)^2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--text input--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="49"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;Find the missing number that makes the expression a perfect square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(9x^2+42x+\_\_\_\_\_\)
                     &lt;p&gt; Enter the missing number.&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(9x^2+42x+49\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 49. \(9x^2+42x+49)\. You seem to be stuck. Who can you ask for help?
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(9x^2+42x+49\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 49. \(9x^2+42x+49)\. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--4b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt; \(49x^2-28x+\_\_\_\_\_\)
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--4b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="4"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt; \(49x^2-28x+\_\_\_\_\_\)
                     &lt;p&gt; Enter the missing number.&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(49x^2-28x+4\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(49x^2-28x+4\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 4. \(49x^2-28x+4\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--4c--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="121" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-                &lt;li&gt;\(25x^2+110x+\_\_\_\_\_\)
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 4. \(49x^2-28x+4\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--4c--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="121"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;\(25x^2+110x+\_\_\_\_\_\)
                     &lt;p&gt; Enter the missing number.&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(25x^2+110x+121\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 121. \(25x^2+110x+121\). You seem to be stuck. Who can you ask for help?
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(25x^2+110x+121\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 121. \(25x^2+110x+121\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--4d--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="81" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="4"&gt;
-                &lt;li&gt;\(64x^2-144x+\_\_\_\_\_\)
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--4d--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="81"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4" type="a"&gt;
+&lt;li&gt;\(64x^2-144x+\_\_\_\_\_\)
                     &lt;p&gt; Enter the missing number.&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(64x^2-144x+81\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 81. \(64x^2-144x+81\). You seem to be stuck. Who can you ask for help?
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(64x^2-144x+81\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 81. \(64x^2-144x+81\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--4e--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="36" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="5"&gt;
-                &lt;li&gt;\(4x^2+24x+\_\_\_\_\_\)
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--4e--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="36"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="5" type="a"&gt;
+&lt;li&gt;\(4x^2+24x+\_\_\_\_\_\)
                     &lt;p&gt; Enter the missing number.&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(4x^2+24x+36\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 36. \(4x^2+24x+36\). You seem to be stuck. Who can you ask for help?
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(4x^2+24x+36\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 36. \(4x^2+24x+36\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--5a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((3x+7)^2\)" data-solution-options="[&amp;quot;\\((3x+7)^2\\)&amp;quot;, &amp;quot;\\((9x-21)^2\\)&amp;quot;, &amp;quot;\\((3x-7)^2\\)&amp;quot;, &amp;quot;\\((9x+3)^2\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="5"&gt;
-                &lt;li&gt;Based on your responses in question 4 above, choose the factored form of the expression.&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;\(9x^2+42x+\_\_\_\_\_\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((3x+7)^2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \((3x+7)^2\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--5a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((3x+7)^2\)" data-solution-options='["\\((3x+7)^2\\)", "\\((9x-21)^2\\)", "\\((3x-7)^2\\)", "\\((9x+3)^2\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+&lt;li&gt;Based on your responses in question 4 above, choose the factored form of the expression.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(9x^2+42x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((3x+7)^2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \((3x+7)^2\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--5b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((7x-2)^2\)" data-solution-options="[&amp;quot;\\((4x+7)^2\\)&amp;quot;, &amp;quot;\\((7x+2)^2\\)&amp;quot;, &amp;quot;\\((7x-2)^2\\)&amp;quot;, &amp;quot;\\((7x+7)^2\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;\(49x^2-28x+\_\_\_\_\_\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((7x-2)^2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \((7x-2)^2\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--5b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((7x-2)^2\)" data-solution-options='["\\((4x+7)^2\\)", "\\((7x+2)^2\\)", "\\((7x-2)^2\\)", "\\((7x+7)^2\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(49x^2-28x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((7x-2)^2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \((7x-2)^2\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--5c--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((5x+11)^2\)" data-solution-options="[&amp;quot;\\((5x-11)^2\\)&amp;quot;, &amp;quot;\\((11x+5)^2\\)&amp;quot;, &amp;quot;\\((11x-5)^2\\)&amp;quot;, &amp;quot;\\((5x+11)^2\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-                &lt;li&gt;\(25x^2+110x+\_\_\_\_\_\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((5x+11)^2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \((5x+11)^2\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--5c--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((5x+11)^2\)" data-solution-options='["\\((5x-11)^2\\)", "\\((11x+5)^2\\)", "\\((11x-5)^2\\)", "\\((5x+11)^2\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;\(25x^2+110x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((5x+11)^2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \((5x+11)^2\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--5d--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((8x-9)^2\)" data-solution-options="[&amp;quot;\\((72x-17)^2\\)&amp;quot;, &amp;quot;\\((8x-9)^2\\)&amp;quot;, &amp;quot;\\((64x-9)^2\\)&amp;quot;, &amp;quot;\\((8x+9)^2\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="4"&gt;
-                &lt;li&gt;\(64x^2-144x+\_\_\_\_\_\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((8x-9)^2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \((8x-9)^2\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--5d--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((8x-9)^2\)" data-solution-options='["\\((72x-17)^2\\)", "\\((8x-9)^2\\)", "\\((64x-9)^2\\)", "\\((8x+9)^2\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4" type="a"&gt;
+&lt;li&gt;\(64x^2-144x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((8x-9)^2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \((8x-9)^2\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--5e--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((2x+6)^2\)" data-solution-options="[&amp;quot;\\((2x-6)^2\\)&amp;quot;, &amp;quot;\\((4x-26)^2\\)&amp;quot;, &amp;quot;\\((2x+6)^2\\)&amp;quot;, &amp;quot;\\((x+6)^2\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="5"&gt;
-                &lt;li&gt;\(4x^2+24x+\_\_\_\_\_\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((2x+6)^2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt; The correct answer is: \((2x+6)^2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--6a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="6"&gt;
-                &lt;li&gt;For each expression, find the value of \(c\) to make a perfect square in standard form \((ax^2+bx+c)\).&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;\(4x^2+4x+c\)
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--5e--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((2x+6)^2\)" data-solution-options='["\\((2x-6)^2\\)", "\\((4x-26)^2\\)", "\\((2x+6)^2\\)", "\\((x+6)^2\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="5" type="a"&gt;
+&lt;li&gt;\(4x^2+24x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((2x+6)^2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt; The correct answer is: \((2x+6)^2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--6a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="1"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="6"&gt;
+&lt;li&gt;For each expression, find the value of \(c\) to make a perfect square in standard form \((ax^2+bx+c)\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(4x^2+4x+c\)
                     &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(4x^2+4x+1\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 1. \(4x^2+4x+1\). You seem to be stuck. Who can you ask for help?
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(4x^2+4x+1\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 1. \(4x^2+4x+1\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--6b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="9" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;\(25x^2-30x+c\)
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--6b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="9"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(25x^2-30x+c\)
                     &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
-                &lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(25x^2−30x+9\) &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 9. \(25x^2−30x+9\) . You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--7a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(-\frac12\)" data-solution-options="[&amp;quot;\\(\\frac12\\)&amp;quot;, &amp;quot;\\(-\\frac12\\)&amp;quot;, &amp;quot;\\(\\frac32\\)&amp;quot;, &amp;quot;\\(-\\frac32\\)&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;\\(\\frac16\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="7"&gt;
-                &lt;li&gt;For each equation, solve by completing the square, then choose a solution.&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;\(4x^2+4x+c\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(-\frac12\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.3–9.4.5. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(-\frac12\)x=-12. You seem to be stuck. Who can you ask for help?
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(25x^2&amp;minus;30x+9\) &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.4.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 9. \(25x^2&amp;minus;30x+9\) . You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--7a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(-\frac12\)" data-solution-options='["\\(\\frac12\\)", "\\(-\\frac12\\)", "\\(\\frac32\\)", "\\(-\\frac32\\)", "2", "\\(\\frac16\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="7"&gt;
+&lt;li&gt;For each equation, solve by completing the square, then choose a solution.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(4x^2+4x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(-\frac12\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.3&amp;ndash;9.4.5. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(-\frac12\)x=-12. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--7b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=\frac35\)" data-solution-options="[&amp;quot;\\(x=\\frac12\\)&amp;quot;, &amp;quot;\\(x=-\\frac45\\)&amp;quot;, &amp;quot;\\(x=\\frac25\\)&amp;quot;, &amp;quot;\\(x = 4\\)&amp;quot;, &amp;quot;\\(x = 5\\)&amp;quot;, &amp;quot;\\(x=\\frac35\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;\(25x^2-30x+c\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x=\frac35\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.3–9.4.5. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(x=\frac35\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--7b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=\frac35\)" data-solution-options='["\\(x=\\frac12\\)", "\\(x=-\\frac45\\)", "\\(x=\\frac25\\)", "\\(x = 4\\)", "\\(x = 5\\)", "\\(x=\\frac35\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(25x^2-30x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x=\frac35\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.4.3&amp;ndash;9.4.5. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(x=\frac35\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--Do not edit below this line--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Do not edit below this line--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1840,63 +1820,61 @@
         <title>9.4.7: Lesson Summary</title>
         <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; Complete the square for quadratic expressions of the form \(ax^2+bx+c\) when \(a\) is not 1 and explain the process. &lt;/li&gt;
-  &lt;li&gt; Solve quadratic equations in which the squared term coefficient is not 1 by completing the square. &lt;/li&gt;
+&lt;li&gt; Complete the square for quadratic expressions of the form \(ax^2+bx+c\) when \(a\) is not 1 and explain the process. &lt;/li&gt;
+&lt;li&gt; Solve quadratic equations in which the squared term coefficient is not 1 by completing the square. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 9.4.1: Perfect Squares with Coefficients Other than 1 &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you found the error when completing the square when the leading coefficient is not 1. &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.4.2: Rewrite Squared Expressions &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you determined if a quadratic expression was a perfect square. If it was not a perfect square, you made a suggestion that could make the expression a perfect square. &lt;/li&gt;
-    &lt;li&gt; 9.4.2: Self Check &lt;/li&gt;
-    &lt;li&gt; 9.4.2: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.4.3: Standard Form and Squared Factors &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you found the value of \(c\) to complete the square of the quadratic then wrote the quadratic in factored form. &lt;/li&gt;
-    &lt;li&gt; 9.4.3: Self Check &lt;/li&gt;
-    &lt;li&gt; 9.4.3: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.4.4: Three Different Methods for Solving an Equation &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this optional activity, you explored three different methods for solving quadratic equations then used each method to solve an equation. &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.4.5: Perfect Square and Squared Factors &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you completed the square then solved the quadratic equation. &lt;/li&gt;
-  &lt;/ul&gt;
+&lt;li&gt; 9.4.1: Perfect Squares with Coefficients Other than 1 &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you found the error when completing the square when the leading coefficient is not 1. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.4.2: Rewrite Squared Expressions &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you determined if a quadratic expression was a perfect square. If it was not a perfect square, you made a suggestion that could make the expression a perfect square. &lt;/li&gt;
+&lt;li&gt; 9.4.2: Self Check &lt;/li&gt;
+&lt;li&gt; 9.4.2: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.4.3: Standard Form and Squared Factors &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you found the value of \(c\) to complete the square of the quadratic then wrote the quadratic in factored form. &lt;/li&gt;
+&lt;li&gt; 9.4.3: Self Check &lt;/li&gt;
+&lt;li&gt; 9.4.3: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.4.4: Three Different Methods for Solving an Equation &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this optional activity, you explored three different methods for solving quadratic equations then used each method to solve an equation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.4.5: Perfect Square and Squared Factors &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you completed the square then solved the quadratic equation. &lt;/li&gt;
+&lt;/ul&gt;
 &lt;/ul&gt;
 &lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 9.4.6: Practice &lt;/li&gt;
+&lt;li&gt; 9.4.6: Practice &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Checking In&lt;/h4&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
-  
-  &lt;!--pulldown--&gt;
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct!&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-  &lt;!--Do not edit below line.--&gt;
-  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Submit" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--pulldown--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution data-solution-options='["1 - I&amp;rsquo;m totally lost!", "2 - I could use some more help.", "3 - I mostly understand.", "4 - I can do it.","5 - I&amp;rsquo;ve got this!"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;If you&amp;rsquo;ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>

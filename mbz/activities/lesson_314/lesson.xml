@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="237" moduleid="314" modulename="lesson" contextid="325">
   <lesson id="237">
     <course>2</course>
     <name>Lesson 9.3: Completing the Square, Part 2</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>316</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -56,27 +56,27 @@
         <contents>&lt;p&gt;In this lesson, you will learn that completing the square can be used to solve any quadratic equation, including equations that involve rational numbers that are not integers.&lt;/p&gt;
 &lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; Solve by completing the square when given a quadratic equation in which the coefficient of the squared term is 1. &lt;/li&gt;
+&lt;li&gt; Solve by completing the square when given a quadratic equation in which the coefficient of the squared term is 1. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 9.3.1: Solving Equations with Fractions &lt;/li&gt;
-  &lt;li&gt; 9.3.2: Using Completing the Square to Solve Equations &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; 9.3.2: Self Check &lt;/li&gt;
-    &lt;li&gt; 9.3.2: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.3.3: Solve by Completing the Square &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; 9.3.3: Self Check &lt;/li&gt;
-    &lt;li&gt; 9.3.3: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.3.4: Completing the Square with Fractions &lt;/li&gt;
+&lt;li&gt; 9.3.1: Solving Equations with Fractions &lt;/li&gt;
+&lt;li&gt; 9.3.2: Using Completing the Square to Solve Equations &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; 9.3.2: Self Check &lt;/li&gt;
+&lt;li&gt; 9.3.2: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.3.3: Solve by Completing the Square &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; 9.3.3: Self Check &lt;/li&gt;
+&lt;li&gt; 9.3.3: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.3.4: Completing the Square with Fractions &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;After that, you'll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 9.3.5: Practice &lt;/li&gt;
-  &lt;li&gt; 9.3.6: Lesson Summary &lt;/li&gt;
+&lt;li&gt; 9.3.5: Practice &lt;/li&gt;
+&lt;li&gt; 9.3.6: Lesson Summary &lt;/li&gt;
 &lt;/ul&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -111,63 +111,63 @@
         <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
 &lt;p&gt;Solve each equation mentally.&lt;/p&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent"&gt;
-      &lt;li&gt;\(x+x=\frac14\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;\(x+x=\frac14\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(x=\frac18\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(x=\frac18\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" start="2"&gt;
-      &lt;li&gt;\((\frac{3}{2})^2=x\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;\((\frac{3}{2})^2=x\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(x=\frac94\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(x=\frac94\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" start="3"&gt;
-      &lt;li&gt;\(\frac{3}{5}+x=\frac95\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;\(\frac{3}{5}+x=\frac95\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(x=\frac65\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal3"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(x=\frac65\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal4" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" start="4"&gt;
-      &lt;li&gt;\(\frac{1}{12}+x=\frac14\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer in simplest form, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;\(\frac{1}{12}+x=\frac14\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal4" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(x=\frac16\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer in simplest form, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal4"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(x=\frac16\)&lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -214,7 +214,7 @@
         <timemodified>1668195887</timemodified>
         <title>9.3.2: Using Completing the Square to Solve Equations</title>
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
-&lt;p&gt;&lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;Completing the square&lt;/span&gt; can be used to solve quadratic equations.&lt;/p&gt;
+&lt;p&gt;&lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;Completing the square&lt;/span&gt; can be used to solve quadratic equations.&lt;/p&gt;
 &lt;p&gt;Example: Solve \(x^2+8x-2=0\).&lt;/p&gt;
 &lt;p&gt;To complete the square to solve an equation, follow these steps:&lt;/p&gt;
 &lt;p&gt;Step 1&lt;br&gt;
@@ -227,7 +227,7 @@
     Add the value to both sides of the equation.&lt;br&gt;
     \(x^2+8x+16=-2+16\)&lt;/p&gt;
 &lt;p&gt;Step 4&lt;br&gt;
-    Factor the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;perfect square&lt;/span&gt; trinomial and simplify the constants.&lt;br&gt;
+    Factor the &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;perfect square&lt;/span&gt; trinomial and simplify the constants.&lt;br&gt;
     \((x+4)^2=14\)&lt;/p&gt;
 &lt;p&gt;Step 5&lt;br&gt;
     Take the square root of each side (remember the plus-minus sign with the constant).&lt;br&gt;
@@ -236,224 +236,214 @@
 &lt;p&gt;Step 6&lt;br&gt;
     Write two separate equations and solve each.&lt;br&gt;
     \(x + 4 = \sqrt{14}\) &amp;nbsp;or&amp;nbsp; \(x + 4 =\; - \;\sqrt{14}\)&lt;br&gt;
-    \(x = -4 + \sqrt{14}\) &amp;nbsp;or&amp;nbsp; \(x =\; -\;4\; –\; \sqrt{14}\)&lt;/p&gt;
+    \(x = -4 + \sqrt{14}\) &amp;nbsp;or&amp;nbsp; \(x =\; -\;4\; &amp;ndash;\; \sqrt{14}\)&lt;/p&gt;
 &lt;p&gt;Solve each equation by completing the square. In part a, select the value of \((\frac{b}{2})^2\) that will complete the square. In part b, choose the &lt;strong&gt;two &lt;/strong&gt;roots.&lt;/p&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
-
-    &lt;!--Q#1a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent"&gt;
-                &lt;li&gt;\((x−3)(x+1)=5\)&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;What is the correct value of \((\frac{b}{2})^2\) that will complete the square?&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;p&gt;Enter the value:&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((\frac{b}{2})^2 = 1\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;The correct answer is \((\frac{b}{2})^2 = 1\).&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q#1b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(x = -2\\)&amp;quot;, &amp;quot;\\(x = 4\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(x = -2\\)&amp;quot;, &amp;quot;\\(x = 1\\)&amp;quot;, &amp;quot;\\(x = 8\\)&amp;quot;,&amp;quot;\\(x = 4\\)&amp;quot;, &amp;quot;\\(x = 9\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; roots that solve the quadratic equation.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x = -2\), \(x = 4\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;The correct answers are: \(x = -2\), \(x = 4\).&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--Q#1a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="1"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;\((x&amp;minus;3)(x+1)=5\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;What is the correct value of \((\frac{b}{2})^2\) that will complete the square?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enter the value:&lt;/p&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((\frac{b}{2})^2 = 1\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answer is \((\frac{b}{2})^2 = 1\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q#1b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["\\(x = -2\\)", "\\(x = 4\\)"]' data-solution-options='["\\(x = -2\\)", "\\(x = 1\\)", "\\(x = 8\\)","\\(x = 4\\)", "\\(x = 9\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; roots that solve the quadratic equation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x = -2\), \(x = 4\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answers are: \(x = -2\), \(x = 4\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent" start="2"&gt;
-            &lt;li&gt;\(x^2+\frac{1}{2}x=\frac{3}{16}\)&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;ol class="os-raise-noindent" type="a"&gt;
-            &lt;li&gt;What is the correct value of \((\frac{b}{2})^2\) that will complete the square?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the value: &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;\((\frac{b}{2})^2= \frac{1}{16}\)&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;\(x^2+\frac{1}{2}x=\frac{3}{16}\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;What is the correct value of \((\frac{b}{2})^2\) that will complete the square?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the value: &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\((\frac{b}{2})^2= \frac{1}{16}\)&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;br&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
-    &lt;!--Q#2b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(x=\\frac14\\)&amp;quot;, &amp;quot;\\(x=-\\frac34\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(x = \\frac12\\)&amp;quot;, &amp;quot;\\(x=\\frac14\\)&amp;quot;, &amp;quot;\\(x=-\\frac34\\)&amp;quot;,&amp;quot;\\(x = -\\frac14\\)&amp;quot;, &amp;quot;\\(x = 1\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;&lt;strong&gt;Select two &lt;/strong&gt;roots that solve the quadratic equation.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x=\frac14\), \(x=-\frac34\) &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;The correct answers are: \(x=\frac14\), \(x=-\frac34\).&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--Q#2b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["\\(x=\\frac14\\)", "\\(x=-\\frac34\\)"]' data-solution-options='["\\(x = \\frac12\\)", "\\(x=\\frac14\\)", "\\(x=-\\frac34\\)","\\(x = -\\frac14\\)", "\\(x = 1\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;&lt;strong&gt;Select two &lt;/strong&gt;roots that solve the quadratic equation.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x=\frac14\), \(x=-\frac34\) &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answers are: \(x=\frac14\), \(x=-\frac34\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent" start="3"&gt;
-            &lt;li&gt;\(x^2+3x+\frac{8}{4}=0\)&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;ol class="os-raise-noindent" type="a"&gt;
-            &lt;li&gt;What is the correct value of \((\frac{b}{2})^2\) that will complete the square?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the value: &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;\((\frac{b}{2})^2= \frac94\)&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;\(x^2+3x+\frac{8}{4}=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;What is the correct value of \((\frac{b}{2})^2\) that will complete the square?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the value: &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\((\frac{b}{2})^2= \frac94\)&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;br&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
-    &lt;!--Q#3b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(x = -2\\)&amp;quot;, &amp;quot;\\(x = -1\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(x = -2\\)&amp;quot;, &amp;quot;\\(x=\\frac{1}{16}\\)&amp;quot;, &amp;quot;\\(x = 9\\)&amp;quot;,&amp;quot;\\(x = \\frac14\\)&amp;quot;, &amp;quot;\\(x = -1\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; roots that solve the quadratic equation.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x = -2\), \(x = -1\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;The correct answers are: \(x = -2\), \(x = -1\).&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q4a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="25" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="4"&gt;
-                &lt;li&gt;\((7−x)(3−x)+3=0\)&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;What is the correct value of \((\frac{b}{2})^2\) that will complete the square?&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;p&gt;Enter your answer here.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((\frac{b}{2})^2= 25\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;The correct answer is \((\frac{b}{2})^2= 25\).&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q#4b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(x = 6\\)&amp;quot;, &amp;quot;\\(x = 4\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(x = -2\\)&amp;quot;, &amp;quot;\\(x = 6\\)&amp;quot;, &amp;quot;\\(x = 21\\)&amp;quot;,&amp;quot;\\(x = 4\\)&amp;quot;, &amp;quot;\\(x = 9\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; roots that solve the quadratic equation.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x = 6\), \(x = 4\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;The correct answers are: \(x = 6\), \(x = 4\).&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q#5a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="0.64" data-problem-comparator="float"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="5"&gt;
-                &lt;li&gt;\(x^2+1.6x+0.63=0\)&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;What is the correct value of \((\frac{b}{2})^2\) that will complete the square?&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;p&gt;Enter your answer here.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \((\frac{b}{2})^2=0.64\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;The correct answer is \((\frac{b}{2})^2=0.64\).&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--END QUESTION.--&gt;
-    &lt;!--Q#5b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(x = -0.7\\)&amp;quot;, &amp;quot;\\(x = -0.9\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(x = -0.7\\)&amp;quot;, &amp;quot;\\(x = 0.4\\)&amp;quot;, &amp;quot;\\(x = 0.27\\)&amp;quot;,&amp;quot;\\(x = 0.7\\)&amp;quot;, &amp;quot;\\(x = -0.9\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; roots that solve the quadratic equation.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x = -0.7\), \(x = -0.9\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;The correct answers are: \(x = -0.7\), \(x = -0.9\).&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--END QUESTION.--&gt;
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--Q#3b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["\\(x = -2\\)", "\\(x = -1\\)"]' data-solution-options='["\\(x = -2\\)", "\\(x=\\frac{1}{16}\\)", "\\(x = 9\\)","\\(x = \\frac14\\)", "\\(x = -1\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; roots that solve the quadratic equation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x = -2\), \(x = -1\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answers are: \(x = -2\), \(x = -1\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q4a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="25"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;\((7&amp;minus;x)(3&amp;minus;x)+3=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;What is the correct value of \((\frac{b}{2})^2\) that will complete the square?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enter your answer here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((\frac{b}{2})^2= 25\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answer is \((\frac{b}{2})^2= 25\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q#4b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["\\(x = 6\\)", "\\(x = 4\\)"]' data-solution-options='["\\(x = -2\\)", "\\(x = 6\\)", "\\(x = 21\\)","\\(x = 4\\)", "\\(x = 9\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; roots that solve the quadratic equation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x = 6\), \(x = 4\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answers are: \(x = 6\), \(x = 4\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q#5a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="float" data-problem-type="input" data-solution="0.64"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+&lt;li&gt;\(x^2+1.6x+0.63=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;What is the correct value of \((\frac{b}{2})^2\) that will complete the square?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enter your answer here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \((\frac{b}{2})^2=0.64\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answer is \((\frac{b}{2})^2=0.64\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q#5b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["\\(x = -0.7\\)", "\\(x = -0.9\\)"]' data-solution-options='["\\(x = -0.7\\)", "\\(x = 0.4\\)", "\\(x = 0.27\\)","\\(x = 0.7\\)", "\\(x = -0.9\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; roots that solve the quadratic equation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x = -0.7\), \(x = -0.9\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;The correct answers are: \(x = -0.7\), \(x = -0.9\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;h4&gt;Video: Solve by Completing the Square&lt;/h4&gt;
 &lt;p&gt;Watch the following video to learn more about solving to complete the square.&lt;/p&gt;
 &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
-    &lt;source src="https://k12.openstax.org/contents/raise/resources/288db4630304a967aa6e11fd7c31f5115d5f67ad"&gt;
-    &lt;track src="https://k12.openstax.org/contents/raise/resources/93eb60f23ed4edcf7fbd9d4ae51631981b16557a" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/288db4630304a967aa6e11fd7c31f5115d5f67ad
+&lt;source src="https://k12.openstax.org/contents/raise/resources/288db4630304a967aa6e11fd7c31f5115d5f67ad"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/93eb60f23ed4edcf7fbd9d4ae51631981b16557a" srclang="en_us"&gt;https://k12.openstax.org/contents/raise/resources/288db4630304a967aa6e11fd7c31f5115d5f67ad
 &lt;/video&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -499,7 +489,7 @@
         <timecreated>1667331763</timecreated>
         <timemodified>1667524911</timemodified>
         <title>9.3.2: Self Check </title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;After solving using completing the square, what are the zeros of the quadratic equation \(x^2+5x+\frac{9}{4}=0\)?&lt;br&gt;&lt;/p&gt;</contents>
+        <contents>&lt;p dir="ltr"&gt;After solving using completing the square, what are the zeros of the quadratic equation \(x^2+5x+\frac{9}{4}=0\)?&lt;br&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="4845">
@@ -509,8 +499,8 @@
             <flags>0</flags>
             <timecreated>1667331763</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=\frac{1}{4}\) , \(x=-\frac{19}{4}\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: After adding the \((\frac{b}{2})^2\), make sure to take the square root of both sides. The answer is \(x=\frac{-1}{2}\), \(x=\frac{-9}{2}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=\frac{1}{4}\) , \(x=-\frac{19}{4}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: After adding the \((\frac{b}{2})^2\), make sure to take the square root of both sides. The answer is \(x=\frac{-1}{2}\), \(x=\frac{-9}{2}\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -523,8 +513,8 @@
             <flags>0</flags>
             <timecreated>1667331763</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=\frac{25}{4}\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: This is the value of \((\frac{b}{2})^2\), not a zero. The answer is \(x=\frac{-1}{2}\), \(x=\frac{-9}{2}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=\frac{25}{4}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This is the value of \((\frac{b}{2})^2\), not a zero. The answer is \(x=\frac{-1}{2}\), \(x=\frac{-9}{2}\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -537,8 +527,8 @@
             <flags>0</flags>
             <timecreated>1667331763</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x= \frac{-1}{2}\), \(x=\frac{-9}{2}\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That's correct! Check yourself: Move the \(\frac94\) to the other side of the equation then complete the square and add \(\frac{25}{4}\) to each side. Take the square root of each side then factor. The equation becomes \(x+ \frac{5}{2}= \pm \;2\). Solve for \(x\) and these are the zeros.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(x= \frac{-1}{2}\), \(x=\frac{-9}{2}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: Move the \(\frac94\) to the other side of the equation then complete the square and add \(\frac{25}{4}\) to each side. Take the square root of each side then factor. The equation becomes \(x+ \frac{5}{2}= \pm \;2\). Solve for \(x\) and these are the zeros.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -551,8 +541,8 @@
             <flags>0</flags>
             <timecreated>1667331763</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x= \frac12\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;	
+            <answer_text>&lt;p dir="ltr"&gt;\(x= \frac12\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;	
 Incorrect. Let's try again a different way: The perfect square binomial created is \((x+\frac{5}{2})^2\) but this does not give the zero. The answer is \(x=\frac{-1}{2}\), \(x=\frac{-9}{2}\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
@@ -566,8 +556,8 @@ Incorrect. Let's try again a different way: The perfect square binomial created 
             <flags>0</flags>
             <timecreated>1667331763</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&amp;nbsp;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;&amp;nbsp;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -609,15 +599,15 @@ Incorrect. Let's try again a different way: The perfect square binomial created 
 &lt;p&gt;It takes some practice to become proficient at completing the square, but it makes it possible to solve many more equations than you could by methods you learned previously.&lt;/p&gt;
 &lt;h4&gt;Try It: Completing the Square with Fractions&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-&lt;p&gt;Solve \(x^2+3x-4=0\) using  &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;completing the square&lt;/span&gt;, then find the zeros of the quadratic equation.
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;Solve \(x^2+3x-4=0\) using  &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;completing the square&lt;/span&gt;, then find the zeros of the quadratic equation.
 &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
 &lt;p&gt;Here is how to find the zeros after using completing the square:&lt;/p&gt;
 &lt;p&gt;Step 1&lt;br&gt;
   Add the constant to the other side of the equation.&lt;br&gt;
@@ -629,7 +619,7 @@ Incorrect. Let's try again a different way: The perfect square binomial created 
   Add the constant to each side.&lt;br&gt;
   \(x^2+3x+\frac{9}{4}=\frac{16}{4}+\frac94\)&lt;/p&gt;
 &lt;p&gt;Step 4&lt;br&gt;
-  Simplify and factor the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;perfect square&lt;/span&gt; trinomial.&lt;br&gt;
+  Simplify and factor the &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;perfect square&lt;/span&gt; trinomial.&lt;br&gt;
   \((x+\frac{3}{2})^2=\frac{25}{4}\)&lt;/p&gt;
 &lt;p&gt;Step 5&lt;br&gt;
   Take the square root of both sides of the equation.&lt;br&gt;
@@ -686,71 +676,71 @@ Incorrect. Let's try again a different way: The perfect square binomial created 
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
 &lt;p&gt;Here are four equations followed by worked solutions of the equations. Each solution has at least one error.&lt;/p&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent"&gt;
-      &lt;li&gt;Solve the equation \(x^2+14x=-24\). Then look at the following worked solution (with errors) and find and describe the error or errors in the worked solution.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;\(\begin{array}{rlr} x^{2}+14 x &amp;amp; =-24 &amp;amp; \text { Step 1 } \\ x^{2}+14 x+28 &amp;amp; =4 &amp;amp; \text { Step 2 } \\ (x+7)^{2} &amp;amp; =4 &amp;amp; \text { Step 3 } \\ x+7 &amp;amp; =2 &amp;amp; \text { Step 4 } \\ x+7 &amp;amp; =-2 &amp;amp; \text { Step 5 } \\ x &amp;amp; =-5 \text { and } x=9 &amp;amp; \text { Step 6 } \\ \end{array} \) &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;Solve the equation \(x^2+14x=-24\). Then look at the following worked solution (with errors) and find and describe the error or errors in the worked solution.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;\(\begin{array}{rlr} x^{2}+14 x &amp;amp; =-24 &amp;amp; \text { Step 1 } \\ x^{2}+14 x+28 &amp;amp; =4 &amp;amp; \text { Step 2 } \\ (x+7)^{2} &amp;amp; =4 &amp;amp; \text { Step 3 } \\ x+7 &amp;amp; =2 &amp;amp; \text { Step 4 } \\ x+7 &amp;amp; =-2 &amp;amp; \text { Step 5 } \\ x &amp;amp; =-5 \text { and } x=9 &amp;amp; \text { Step 6 } \\ \end{array} \) &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(x=-2\) and \(x=-12\)&lt;/p&gt;
-  &lt;p&gt;Error: In Step 2, the number being added, 28, is not a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;perfect square&lt;/span&gt;. It should be 49.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(x=-2\) and \(x=-12\)&lt;/p&gt;
+&lt;p&gt;Error: In Step 2, the number being added, 28, is not a &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;perfect square&lt;/span&gt;. It should be 49.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" start="2"&gt;
-      &lt;li&gt;Solve the equation \(x^2−10x+16=0\). Then look at the following worked solution (with errors) and find and describe the error or errors in the worked solution.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;\(\begin{array}{rlr} x^{2}-10 x+16 &amp;amp; =0 &amp;amp; \text { Step 1 } \\ x^{2}-10 x+25 &amp;amp; =9 &amp;amp; \text { Step 2 } \\ (x-5)^{2} &amp;amp; =9 &amp;amp; \text { Step 3 } \\ x-5 &amp;amp; =9 &amp;amp; \text { Step 4 } \\ x-5 &amp;amp; =-9 &amp;amp; \text { Step 5 } \\ x=14 &amp;amp; \text { and } x=-4 &amp;amp; \text { Step 6 } \end{array} \) &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;Solve the equation \(x^2&amp;minus;10x+16=0\). Then look at the following worked solution (with errors) and find and describe the error or errors in the worked solution.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;\(\begin{array}{rlr} x^{2}-10 x+16 &amp;amp; =0 &amp;amp; \text { Step 1 } \\ x^{2}-10 x+25 &amp;amp; =9 &amp;amp; \text { Step 2 } \\ (x-5)^{2} &amp;amp; =9 &amp;amp; \text { Step 3 } \\ x-5 &amp;amp; =9 &amp;amp; \text { Step 4 } \\ x-5 &amp;amp; =-9 &amp;amp; \text { Step 5 } \\ x=14 &amp;amp; \text { and } x=-4 &amp;amp; \text { Step 6 } \end{array} \) &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(x=8\) and \(x=2\)&lt;/p&gt;
-  &lt;p&gt;Errors: Step 4 should have 3 on the right side, not 9. Step 5 should have -3 on the right side, not -9.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(x=8\) and \(x=2\)&lt;/p&gt;
+&lt;p&gt;Errors: Step 4 should have 3 on the right side, not 9. Step 5 should have -3 on the right side, not -9.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" start="3"&gt;
-      &lt;li&gt;Solve the equation \(x^2+2.4x=-0.8\). Then look at the following worked solution (with errors) and find and describe the error or errors in the worked solution.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;\(\begin{array}{rlr}x^2+2.4x=-0.8\;\;\text{&amp;nbsp;Step 1}&amp;amp; \\ x^2+2.4x+1.44=0.64\quad\text{Step 2}&amp;amp; \\ (x+1.2)^2=0.64\quad\text{Step 3}&amp;amp; \\ x+1.2=0.8\quad\text{Step 4}&amp;amp; \\ x=-0.4\quad\text{Step 5}&amp;amp;\end{array} \) &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;Solve the equation \(x^2+2.4x=-0.8\). Then look at the following worked solution (with errors) and find and describe the error or errors in the worked solution.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;\(\begin{array}{rlr}x^2+2.4x=-0.8\;\;\text{&amp;nbsp;Step 1}&amp;amp; \\ x^2+2.4x+1.44=0.64\quad\text{Step 2}&amp;amp; \\ (x+1.2)^2=0.64\quad\text{Step 3}&amp;amp; \\ x+1.2=0.8\quad\text{Step 4}&amp;amp; \\ x=-0.4\quad\text{Step 5}&amp;amp;\end{array} \) &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(x=-0.4\) and \(x=-2\)&amp;nbsp;&lt;/p&gt;
-  &lt;p&gt;Error: In Step 4, only the positive square root is written and the negative square root is neglected.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal3"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(x=-0.4\) and \(x=-2\)&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Error: In Step 4, only the positive square root is written and the negative square root is neglected.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal4" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol class="os-raise-noindent" start="4"&gt;
-      &lt;li&gt;Solve the equation \(x^2−\frac{6}{5}x+\frac{1}{5}=0\). Then look at the following worked solution (with errors) and find and describe the error or errors in the worked solution.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;\(\begin{array}{rrr} x^{2}-\frac{6}{5} x+\frac{1}{5} &amp;amp; =0 &amp;amp; \text { Step 1 } \\ x^{2}-\frac{6}{5} x+\frac{9}{25} &amp;amp; =\frac{9}{25} &amp;amp; \text { Step 2 } \\ \left(x-\frac{3}{5}\right)^{2} &amp;amp; =\frac{9}{25} &amp;amp; \text { Step 3 } \\ x-\frac{3}{5} &amp;amp; =\frac{3}{5} &amp;amp; \text { Step 4 } \\ x-\frac{3}{5} &amp;amp; =-\frac{3}{5} &amp;amp; \text { Step 5 } \\ x=\frac{6}{5} &amp;amp; \text { and } x=0 &amp;amp; \text { Step 6 } \end{array}\) &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;Solve the equation \(x^2&amp;minus;\frac{6}{5}x+\frac{1}{5}=0\). Then look at the following worked solution (with errors) and find and describe the error or errors in the worked solution.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;\(\begin{array}{rrr} x^{2}-\frac{6}{5} x+\frac{1}{5} &amp;amp; =0 &amp;amp; \text { Step 1 } \\ x^{2}-\frac{6}{5} x+\frac{9}{25} &amp;amp; =\frac{9}{25} &amp;amp; \text { Step 2 } \\ \left(x-\frac{3}{5}\right)^{2} &amp;amp; =\frac{9}{25} &amp;amp; \text { Step 3 } \\ x-\frac{3}{5} &amp;amp; =\frac{3}{5} &amp;amp; \text { Step 4 } \\ x-\frac{3}{5} &amp;amp; =-\frac{3}{5} &amp;amp; \text { Step 5 } \\ x=\frac{6}{5} &amp;amp; \text { and } x=0 &amp;amp; \text { Step 6 } \end{array}\) &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal4" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(x=1\) and \(x=\frac{1}{5}\)&lt;/p&gt;
-  &lt;p&gt;Errors: For example: &lt;br&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal4"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(x=1\) and \(x=\frac{1}{5}\)&lt;/p&gt;
+&lt;p&gt;Errors: For example: &lt;br&gt;
 In Step 2, different amounts are added to each side. On the left, \(\frac{4}{25}\) is added. On the right, \(\frac{9}{25}\) is added. Or: While \(\frac{9}{25}\) is added on the right side, \(\frac{1}{5}\) was only subtracted from the left side. Other explanations may also be accurate.&lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
@@ -814,8 +804,8 @@ In Step 2, different amounts are added to each side. On the left, \(\frac{4}{25}
             <flags>0</flags>
             <timecreated>1667332584</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The 7 should have been subtracted from each side.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: The inverse operation was correctly used and 7 was added to both sides. The correct answer is: When taking the square root, only the positive solution was included.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;The 7 should have been subtracted from each side.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The inverse operation was correctly used and 7 was added to both sides. The correct answer is: When taking the square root, only the positive solution was included.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -828,8 +818,8 @@ In Step 2, different amounts are added to each side. On the left, \(\frac{4}{25}
             <flags>0</flags>
             <timecreated>1667332584</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;When taking the square root, only the positive solution was included.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That's correct! Check yourself: When taking \(\sqrt{(x-3)^2}=\sqrt{16}\) the positive and negative 4s must be considered so that \(x-3= \pm \; 4\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;When taking the square root, only the positive solution was included.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: When taking \(\sqrt{(x-3)^2}=\sqrt{16}\) the positive and negative 4s must be considered so that \(x-3= \pm \; 4\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -842,8 +832,8 @@ In Step 2, different amounts are added to each side. On the left, \(\frac{4}{25}
             <flags>0</flags>
             <timecreated>1667332584</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;When completing the square, the wrong number was found for \((\frac{b}{2})^2\).&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: \((\frac{6}{2})^2=9\) so the square was completed correctly. The correct answer is when taking the square root, only the positive solution was included.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;When completing the square, the wrong number was found for \((\frac{b}{2})^2\).&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: \((\frac{6}{2})^2=9\) so the square was completed correctly. The correct answer is when taking the square root, only the positive solution was included.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -856,8 +846,8 @@ In Step 2, different amounts are added to each side. On the left, \(\frac{4}{25}
             <flags>0</flags>
             <timecreated>1667332584</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;This equation cannot be solved by completing the square.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: This problem can be solved by completing the square since it is a quadratic equation with a real coefficient of \(x\). The correct answer is: When taking the square root, only the positive solution was included.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;This equation cannot be solved by completing the square.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This problem can be solved by completing the square since it is a quadratic equation with a real coefficient of \(x\). The correct answer is: When taking the square root, only the positive solution was included.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -870,8 +860,8 @@ In Step 2, different amounts are added to each side. On the left, \(\frac{4}{25}
             <flags>0</flags>
             <timecreated>1667332584</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -893,22 +883,22 @@ In Step 2, different amounts are added to each side. On the left, \(\frac{4}{25}
         <title>9.3.3: Additional Resources</title>
         <contents>&lt;h4&gt;Spotting the Error When Solving Quadratics&lt;/h4&gt;
 &lt;p&gt;To find the error when solving quadratics, it is helpful to first solve the problem on your own.&lt;/p&gt;
-&lt;p&gt;Solve the quadratic equation by &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;completing the square&lt;/span&gt; and finding its zeros. Identify the error in the worked solution below.&lt;/p&gt;
+&lt;p&gt;Solve the quadratic equation by &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;completing the square&lt;/span&gt; and finding its zeros. Identify the error in the worked solution below.&lt;/p&gt;
 &lt;p&gt;\(\begin{array}{ll} x^{2}+10 x-34=0 &amp;amp; \text { Step 1 } \\ x^{2}+10 x=34 &amp;amp; \text { Step 2 } \\ x^{2}+10 x+25=34-25 &amp;amp; \text { Step 3 } \\ (x+5)^{2}=9 &amp;amp; \text { Step 4 } \\ x+5=\pm \; 3 &amp;amp; \text { Step 5 } \\ x=-8, x=-2 &amp;amp; \text { Step 6 } \end{array} \)&lt;/p&gt;
 &lt;p&gt;Now, find the error by working through the problem and comparing steps:&lt;/p&gt;
 &lt;p&gt;\(\begin{array}{ll} x^{2}+10 x-34=0 &amp;amp; \text { Step 1 } \\ x^{2}+10 x=34 &amp;amp; \text { Step 2 } \\ x^{2}+10 x+25=34+25 &amp;amp; \text { Step 3 } \end{array} \)&lt;/p&gt;
 &lt;p&gt;In Step 3, 25 was added to the left side of the equation, but 25 was SUBTRACTED from the right side of the equation. Equations must remain balanced, and 25 should be added to each side of the equation.&lt;/p&gt;
 &lt;h4&gt;Try It: Spotting the Error When Solving Quadratics&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
 &lt;p&gt;Examine the steps below and identify the error in solving the quadratic equation by completing the square:&lt;/p&gt;
 &lt;p&gt;\(\begin{array}{lcc}x^2+8x+7=0&amp;amp;\text{&amp;nbsp;Step 1&amp;nbsp;}&amp;amp; \\ x^2+8x=-7&amp;amp;\text{&amp;nbsp;Step 2&amp;nbsp;}&amp;amp; \\ x^2+8x+16=-7+16&amp;amp;\text{&amp;nbsp;Step 3&amp;nbsp;}&amp;amp; \\ (x+4)^2=9&amp;amp;\text{&amp;nbsp;Step 4&amp;nbsp;}&amp;amp; \\ x+4=3&amp;amp;\text{&amp;nbsp;Step 5&amp;nbsp;}&amp;amp; \\ x=-1&amp;amp;\text{&amp;nbsp;Step 6&amp;nbsp;}&amp;amp;\end{array} \)&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
 &lt;p&gt;Here is how to find the error when completing the square:&lt;/p&gt;
 &lt;p&gt;Work through the steps on your own and compare:&lt;/p&gt;
 &lt;p&gt;\(\begin{array}{lc}x^2+8x+7=0&amp;amp;\text{&amp;nbsp;Step 1&amp;nbsp;} \\ x^2+8x=-7&amp;amp;\text{&amp;nbsp;Step 2&amp;nbsp;} \\ x^2+8x+16=-7+16&amp;amp;\text{&amp;nbsp;Step 3&amp;nbsp;} \\ (x+4)^2=9&amp;amp;\text{&amp;nbsp;Step 4&amp;nbsp;} \\ x+4=\pm3&amp;amp;\text{&amp;nbsp;Step 5&amp;nbsp;} \\ x=-1,x=-7&amp;amp;\text{&amp;nbsp;Step 6&amp;nbsp;}\end{array}\)&lt;/p&gt;
@@ -960,16 +950,16 @@ In Step 2, different amounts are added to each side. On the left, \(\frac{4}{25}
         <title>9.3.4: Completing the Square with Fractions</title>
         <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;The solutions to this equation are \(x = \frac{3}{4}\) and \(x=\frac{1}{4}\). Show how to find those solutions by &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;completing the square&lt;/span&gt;. \(x^2−x+\frac{3}{16}=0\)&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;The solutions to this equation are \(x = \frac{3}{4}\) and \(x=\frac{1}{4}\). Show how to find those solutions by &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;completing the square&lt;/span&gt;. \(x^2&amp;minus;x+\frac{3}{16}=0\)&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;\(\begin{array}{rcl}x^2-x+\frac3{16}&amp;amp;=&amp;amp;0\\x^2-x+\frac14&amp;amp;=&amp;amp;-\frac3{16}+\frac14=-\frac3{16}+\frac4{16}=\frac1{16}\\x^2-x+\frac14&amp;amp;=&amp;amp;\frac1{16}\\\sqrt{\left(x-\frac12\right)^2}&amp;amp;=&amp;amp;\sqrt{\frac1{16}}\\x-\frac12&amp;amp;=&amp;amp;\pm\frac14\\x-\frac12&amp;amp;=&amp;amp;\frac14\\x-\frac12&amp;amp;=&amp;amp;-\frac14\end{array}\)&lt;br&gt; \( \;\;\;\;\;\;\;\;\;\;x=\frac{1}{4} \text { and } x=\frac{3}{4}\) &lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}x^2-x+\frac3{16}&amp;amp;=&amp;amp;0\\x^2-x+\frac14&amp;amp;=&amp;amp;-\frac3{16}+\frac14=-\frac3{16}+\frac4{16}=\frac1{16}\\x^2-x+\frac14&amp;amp;=&amp;amp;\frac1{16}\\\sqrt{\left(x-\frac12\right)^2}&amp;amp;=&amp;amp;\sqrt{\frac1{16}}\\x-\frac12&amp;amp;=&amp;amp;\pm\frac14\\x-\frac12&amp;amp;=&amp;amp;\frac14\\x-\frac12&amp;amp;=&amp;amp;-\frac14\end{array}\)&lt;br&gt; \( \;\;\;\;\;\;\;\;\;\;x=\frac{1}{4} \text { and } x=\frac{3}{4}\) &lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1017,355 +1007,346 @@ In Step 2, different amounts are added to each side. On the left, \(\frac{4}{25}
         <title>9.3.5: Practice </title>
         <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
 &lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
-
-    &lt;!--1a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac94\)" data-solution-options="[&amp;quot;\\(\\frac23\\)&amp;quot;, &amp;quot;\\(\\frac49\\)&amp;quot;, &amp;quot;\\(\\frac94\\)&amp;quot;, &amp;quot;\\(-\\frac23\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;For the expressions in questions 1–4, choose which number would make the expression a perfect square. Then, choose an equivalent expression in factored form.&lt;/p&gt;
-            &lt;ol class="os-raise-noindent"&gt;
-                &lt;li&gt;\(x^2+3x\)&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;What number can be added to make \(x^2+3x\) a perfect square?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(\frac94\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(\frac94\). You seem to be stuck. Who can you ask for help?
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="2" data-schema-version="1.0"&gt;
+&lt;!--1a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac94\)" data-solution-options='["\\(\\frac23\\)", "\\(\\frac49\\)", "\\(\\frac94\\)", "\\(-\\frac23\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;For the expressions in questions 1&amp;ndash;4, choose which number would make the expression a perfect square. Then, choose an equivalent expression in factored form.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;\(x^2+3x\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;What number can be added to make \(x^2+3x\) a perfect square?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(\frac94\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(\frac94\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--1b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x(x + 3)\)" data-solution-options="[&amp;quot;\\(x(x + 3)\\)&amp;quot;, &amp;quot;\\(x(3x)\\)&amp;quot;, &amp;quot;\\((x + 3)(x + 3)\\)&amp;quot;, &amp;quot;\\(3(x + 1)\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;Which expression is equivalent to \(x^2+3x\)?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x(x + 3)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(x(x + 3)\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--1b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x(x + 3)\)" data-solution-options='["\\(x(x + 3)\\)", "\\(x(3x)\\)", "\\((x + 3)(x + 3)\\)", "\\(3(x + 1)\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;Which expression is equivalent to \(x^2+3x\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x(x + 3)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(x(x + 3)\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--2a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="0.09" data-solution-options="[&amp;quot;0.09&amp;quot;, &amp;quot;0.81&amp;quot;, &amp;quot;0.36&amp;quot;, &amp;quot;0.03&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="2"&gt;
-                &lt;li&gt;\(x^2+0.6x\)&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt; What number can be added to make \(x^2+0.6x\) a perfect square?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! 0.09&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: 0.09. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--2b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x(x+0.06)\)" data-solution-options="[&amp;quot;\\(x(x+0.6x)\\)&amp;quot;, &amp;quot;\\(x(x+0.06)\\)&amp;quot;, &amp;quot;\\(x(0.6x)\\)&amp;quot;, &amp;quot;\\(0.6(x+1)\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;Which expression is equivalent to \(x^2+0.6x\)?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x(x+0.06)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(x(x+0.06)\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="0.09" data-solution-options='["0.09", "0.81", "0.36", "0.03"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;\(x^2+0.6x\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt; What number can be added to make \(x^2+0.6x\) a perfect square?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! 0.09&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: 0.09. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x(x+0.06)\)" data-solution-options='["\\(x(x+0.6x)\\)", "\\(x(x+0.06)\\)", "\\(x(0.6x)\\)", "\\(0.6(x+1)\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;Which expression is equivalent to \(x^2+0.6x\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x(x+0.06)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(x(x+0.06)\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--3a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac{121}{4}\)" data-solution-options="[&amp;quot;\\(\\frac{11}{2}\\)&amp;quot;, &amp;quot;\\(\\frac{25}{2}\\)&amp;quot;, &amp;quot;\\(\\frac52\\)&amp;quot;, &amp;quot;\\(\\frac{121}{4}\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="3"&gt;
-                &lt;li&gt;\(x^2-11x\)&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;What number can be added to make \(x^2-11x\) a perfect square?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(\frac{121}{4}\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(\frac{121}{4}\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--3b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x(x-11)\)" data-solution-options="[&amp;quot;\\(x(x-11x)\\)&amp;quot;, &amp;quot;\\(x(x-11)\\)&amp;quot;, &amp;quot;\\(11(x-1)\\)&amp;quot;, &amp;quot;\\(11x(x-1)\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;Which expression is equivalent to \(x^2-11x\)?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x(x-11)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(x(x-11)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--4a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac{25}{16}\)" data-solution-options="[&amp;quot;\\(\\frac{25}{4}\\)&amp;quot;, &amp;quot;\\(\\frac{25}{16}\\)&amp;quot;, &amp;quot;\\(\\frac58\\)&amp;quot;, &amp;quot;\\(\\frac68\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="4"&gt;
-                &lt;li&gt;\(x^2-\frac{5}{2}x\)&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt; What number can be added to make  \(x^2-\frac{5}{2}x\) a perfect square?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(\frac{25}{16}\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(\frac{25}{16}\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--3a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac{121}{4}\)" data-solution-options='["\\(\\frac{11}{2}\\)", "\\(\\frac{25}{2}\\)", "\\(\\frac52\\)", "\\(\\frac{121}{4}\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;\(x^2-11x\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;What number can be added to make \(x^2-11x\) a perfect square?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(\frac{121}{4}\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(\frac{121}{4}\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--3b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x(x-11)\)" data-solution-options='["\\(x(x-11x)\\)", "\\(x(x-11)\\)", "\\(11(x-1)\\)", "\\(11x(x-1)\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;Which expression is equivalent to \(x^2-11x\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x(x-11)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(x(x-11)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--4a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac{25}{16}\)" data-solution-options='["\\(\\frac{25}{4}\\)", "\\(\\frac{25}{16}\\)", "\\(\\frac58\\)", "\\(\\frac68\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;\(x^2-\frac{5}{2}x\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt; What number can be added to make  \(x^2-\frac{5}{2}x\) a perfect square?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(\frac{25}{16}\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2 and 9.3.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(\frac{25}{16}\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--4b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x(x-\frac52)\)" data-solution-options="[&amp;quot;\\(x(x-\\frac52)\\)&amp;quot;, &amp;quot;\\(x(x-\\frac{5}{2}x)\\)&amp;quot;, &amp;quot;\\(\\frac{5}{2}x(x-1)\\)&amp;quot;, &amp;quot;\\(\\frac{5}{2}(x-1)\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;Which expression is equivalent to \(x^2-\frac{5}{2}x\)?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x(x-\frac52)\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.2.2 and 9.2.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(x(x-\frac52)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--5--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac14\)" data-solution-options="[&amp;quot;\\(\\frac14\\)&amp;quot;, &amp;quot;\\(\\frac12\\)&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;0&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="5"&gt;
-                &lt;li&gt;What number can be added to make  \(x^2+x\) a perfect square?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(\frac14\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.2.2 and 9.2.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(\frac14\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--4b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x(x-\frac52)\)" data-solution-options='["\\(x(x-\\frac52)\\)", "\\(x(x-\\frac{5}{2}x)\\)", "\\(\\frac{5}{2}x(x-1)\\)", "\\(\\frac{5}{2}(x-1)\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;Which expression is equivalent to \(x^2-\frac{5}{2}x\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x(x-\frac52)\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.2.2 and 9.2.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(x(x-\frac52)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--5--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac14\)" data-solution-options='["\\(\\frac14\\)", "\\(\\frac12\\)", "1", "0"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+&lt;li&gt;What number can be added to make  \(x^2+x\) a perfect square?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(\frac14\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.2.2 and 9.2.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(\frac14\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--6--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac{9}{16}\)" data-solution-options="[&amp;quot;\\(\\frac23\\)&amp;quot;, &amp;quot;\\(\\frac49\\)&amp;quot;, &amp;quot;\\(\\frac{9}{16}\\)&amp;quot;, &amp;quot;\\(-\\frac23\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="6"&gt;
-                &lt;li&gt;What number can be added to make \(x^2-\frac{3}{2}x\) a perfect square?&amp;nbsp;&amp;nbsp;&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(\frac{9}{16}\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.2.2 and 9.2.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: \(\frac{9}{16}\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--7a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="7"&gt;
-                &lt;li&gt;Noah is solving the equation \(x^2+8x+15=3\). He begins by rewriting the expression on the left in factored form and writes \((x+3)(x+5)=3\). He does not know what to do next.&amp;nbsp;&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;Do you think using the factored form is the best way for Noah to solve this equation?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! No. Noah should use completing the square.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.3.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is No. Noah should use completing the square. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--7b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(x = -2\\)&amp;quot;, &amp;quot;\\(x = -6\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(x = -4\\)&amp;quot;, &amp;quot;\\(x = 12\\)&amp;quot;, &amp;quot;\\(x = -2\\)&amp;quot;, &amp;quot;\\(x = -6\\)&amp;quot;, &amp;quot;\\(x = 4\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;Solve the original equation, then choose the&lt;strong&gt; two&lt;/strong&gt; roots.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x=-2\) and \(x=-6\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.2.2 and 9.2.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answers are: \(x=-2\) and \(x=-6\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--6--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(\frac{9}{16}\)" data-solution-options='["\\(\\frac23\\)", "\\(\\frac49\\)", "\\(\\frac{9}{16}\\)", "\\(-\\frac23\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="6"&gt;
+&lt;li&gt;What number can be added to make \(x^2-\frac{3}{2}x\) a perfect square?&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(\frac{9}{16}\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.2.2 and 9.2.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: \(\frac{9}{16}\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--7a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="No" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="7"&gt;
+&lt;li&gt;Noah is solving the equation \(x^2+8x+15=3\). He begins by rewriting the expression on the left in factored form and writes \((x+3)(x+5)=3\). He does not know what to do next.&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;Do you think using the factored form is the best way for Noah to solve this equation?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! No. Noah should use completing the square.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.3.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is No. Noah should use completing the square. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--7b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["\\(x = -2\\)", "\\(x = -6\\)"]' data-solution-options='["\\(x = -4\\)", "\\(x = 12\\)", "\\(x = -2\\)", "\\(x = -6\\)", "\\(x = 4\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;Solve the original equation, then choose the&lt;strong&gt; two&lt;/strong&gt; roots.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x=-2\) and \(x=-6\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.2.2 and 9.2.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answers are: \(x=-2\) and \(x=-6\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-    &lt;!--8a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Disagree" data-solution-options="[&amp;quot;Agree&amp;quot;, &amp;quot;Disagree&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="8"&gt;
-                &lt;li&gt;An equation and its solutions are given. Solve the equation by completing the square, then choose whether you agree or disagree with the given solutions.&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;\(x^2+20x+50=14\). The solutions are \(x=-18\) and \(x=2\).&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Disagree. The correct solutions are \(x=-18\) and \(x=-2\).&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.3 and 9.3.4. Are you using it the right way&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Disagree. The correct solutions are \(x=-18\) and \(x=-2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--8b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Agree" data-solution-options="[&amp;quot;Agree&amp;quot;, &amp;quot;Disagree&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;\(x^2+1.6x=0.36\). The solutions are \(x=-1.8\) and \(x=0.2\).&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Agree. \(x=-1.8\) and \(x=0.2\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.3 and 9.3.4. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Agree. \(x=-1.8\) and \(x=0.2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--8c--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Disagree" data-solution-options="[&amp;quot;Agree&amp;quot;, &amp;quot;Disagree&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-                &lt;li&gt;\(x^2-5x=\frac{11}{4}\). The solutions are \(x=\frac{11}{4}\) and \(x=-12\).&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Disagree. The correct solutions are \(x=\frac{11}{2}\) and \(x=-\frac12\).&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.3 and 9.3.4. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is Disagree. The correct solutions are \(x=\frac{11}{2}\) and \(x=-\frac12\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--9a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(x = -0.5\\)&amp;quot;, &amp;quot;\\(x = 1\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(x = -0.5\\)&amp;quot;, &amp;quot;\\(x = 1\\)&amp;quot;, &amp;quot;\\( x = 0\\)&amp;quot;, &amp;quot;\\(x = 2\\)&amp;quot;, &amp;quot;\\(x = -1\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="9"&gt;
-                &lt;li&gt; Solve each equation, then choose the &lt;strong&gt;two&lt;/strong&gt; roots.&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;\(x^2-0.5x=0.5\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x=-0.5\) and \(x=1\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2–9.3.4. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answers are: \(x=-0.5\) and \(x=1\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--9b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(x = -0.9\\)&amp;quot;, &amp;quot;\\(x = 0.1\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(x = -0.9\\)&amp;quot;, &amp;quot;\\(x = 0.8\\)&amp;quot;, &amp;quot;\\(x = 0.4\\)&amp;quot;, &amp;quot;\\(x = 0.1\\)&amp;quot;, &amp;quot;\\(x = 0.81\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;\(x^2+0.8x=0.09\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x=-0.9\) and \(x=0.1\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2–9.3.4. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answers are: \(x=-0.9\) and \(x=0.1\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--8a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Disagree" data-solution-options='["Agree", "Disagree"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="8"&gt;
+&lt;li&gt;An equation and its solutions are given. Solve the equation by completing the square, then choose whether you agree or disagree with the given solutions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(x^2+20x+50=14\). The solutions are \(x=-18\) and \(x=2\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Disagree. The correct solutions are \(x=-18\) and \(x=-2\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.3 and 9.3.4. Are you using it the right way&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Disagree. The correct solutions are \(x=-18\) and \(x=-2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--8b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Agree" data-solution-options='["Agree", "Disagree"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(x^2+1.6x=0.36\). The solutions are \(x=-1.8\) and \(x=0.2\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Agree. \(x=-1.8\) and \(x=0.2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.3 and 9.3.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Agree. \(x=-1.8\) and \(x=0.2\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--8c--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Disagree" data-solution-options='["Agree", "Disagree"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;\(x^2-5x=\frac{11}{4}\). The solutions are \(x=\frac{11}{4}\) and \(x=-12\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Disagree. The correct solutions are \(x=\frac{11}{2}\) and \(x=-\frac12\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.3 and 9.3.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is Disagree. The correct solutions are \(x=\frac{11}{2}\) and \(x=-\frac12\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--9a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["\\(x = -0.5\\)", "\\(x = 1\\)"]' data-solution-options='["\\(x = -0.5\\)", "\\(x = 1\\)", "\\( x = 0\\)", "\\(x = 2\\)", "\\(x = -1\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="9"&gt;
+&lt;li&gt; Solve each equation, then choose the &lt;strong&gt;two&lt;/strong&gt; roots.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;\(x^2-0.5x=0.5\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x=-0.5\) and \(x=1\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2&amp;ndash;9.3.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answers are: \(x=-0.5\) and \(x=1\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--9b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["\\(x = -0.9\\)", "\\(x = 0.1\\)"]' data-solution-options='["\\(x = -0.9\\)", "\\(x = 0.8\\)", "\\(x = 0.4\\)", "\\(x = 0.1\\)", "\\(x = 0.81\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;\(x^2+0.8x=0.09\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x=-0.9\) and \(x=0.1\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2&amp;ndash;9.3.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answers are: \(x=-0.9\) and \(x=0.1\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--9c--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(x=-\\frac{14}{3}\\)&amp;quot;, &amp;quot;\\(x = \\frac13\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(x = \\frac{28}{3}\\)&amp;quot;, &amp;quot;\\(x =\\frac{1}{9}\\)&amp;quot;, &amp;quot;\\(x=\\frac{112}{36}\\)&amp;quot;, &amp;quot;\\(x=-\\frac{14}{3}\\)&amp;quot;, &amp;quot;\\(x = \\frac13\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-                &lt;li&gt;\(x^2+\frac{13}{3}x=\frac{56}{36}\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! \(x=-\frac{14}{3}\) and \(x = \frac{1}{3}\)&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2–9.3.4. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answers are: \(x=-\frac{14}{3}\) and \(x = \frac{1}{3}\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--9c--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["\\(x=-\\frac{14}{3}\\)", "\\(x = \\frac13\\)"]' data-solution-options='["\\(x = \\frac{28}{3}\\)", "\\(x =\\frac{1}{9}\\)", "\\(x=\\frac{112}{36}\\)", "\\(x=-\\frac{14}{3}\\)", "\\(x = \\frac13\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;\(x^2+\frac{13}{3}x=\frac{56}{36}\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! \(x=-\frac{14}{3}\) and \(x = \frac{1}{3}\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.3.2&amp;ndash;9.3.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answers are: \(x=-\frac{14}{3}\) and \(x = \frac{1}{3}\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--Do not edit below this line--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Do not edit below this line--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1413,58 +1394,56 @@ In Step 2, different amounts are added to each side. On the left, \(\frac{4}{25}
         <title>9.3.6: Lesson Summary</title>
         <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; Solve by completing the square when given a quadratic equation in which the coefficient of the squared term is 1. &lt;/li&gt;
+&lt;li&gt; Solve by completing the square when given a quadratic equation in which the coefficient of the squared term is 1. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are the&lt;strong&gt; activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 9.3.1: Solving Equations with Fractions &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you mentally solved equations with fractions and exponents. &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.3.2: Using Completing the Square to Solve Equations &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you solved quadratic equations involving rational numbers including decimals and fractions. &lt;/li&gt;
-    &lt;li&gt; 9.3.2: Self Check &lt;/li&gt;
-    &lt;li&gt; 9.3.2: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.3.3: Solve by Completing the Square &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you examined the steps to solving quadratic equations by completing the square and identified the step where an error occurred. &lt;/li&gt;
-    &lt;li&gt; 9.3.3: Self Check &lt;/li&gt;
-    &lt;li&gt; 9.3.3: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.3.4: Completing the Square with Fractions &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you showed how to get the given zeros of the quadratic by completing the square. &lt;/li&gt;
-  &lt;/ul&gt;
+&lt;li&gt; 9.3.1: Solving Equations with Fractions &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you mentally solved equations with fractions and exponents. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.3.2: Using Completing the Square to Solve Equations &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you solved quadratic equations involving rational numbers including decimals and fractions. &lt;/li&gt;
+&lt;li&gt; 9.3.2: Self Check &lt;/li&gt;
+&lt;li&gt; 9.3.2: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.3.3: Solve by Completing the Square &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you examined the steps to solving quadratic equations by completing the square and identified the step where an error occurred. &lt;/li&gt;
+&lt;li&gt; 9.3.3: Self Check &lt;/li&gt;
+&lt;li&gt; 9.3.3: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.3.4: Completing the Square with Fractions &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you showed how to get the given zeros of the quadratic by completing the square. &lt;/li&gt;
+&lt;/ul&gt;
 &lt;/ul&gt;
 &lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 9.3.5: Practice &lt;/li&gt;
+&lt;li&gt; 9.3.5: Practice &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Checking In&lt;/h4&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
-  
-  &lt;!--pulldown--&gt;
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct!&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-  &lt;!--Do not edit below line.--&gt;
-  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Submit" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--pulldown--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution data-solution-options='["1 - I&amp;rsquo;m totally lost!", "2 - I could use some more help.", "3 - I mostly understand.", "4 - I can do it.","5 - I&amp;rsquo;ve got this!"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;If you&amp;rsquo;ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>

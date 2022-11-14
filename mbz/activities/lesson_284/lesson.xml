@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="214" moduleid="284" modulename="lesson" contextid="295">
   <lesson id="214">
     <course>2</course>
     <name>Lesson 8.5: How Many Solutions?</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>286</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -56,28 +56,28 @@
         <contents>&lt;p&gt;In this lesson, you will build on the idea that both graphing and rewriting quadratic equations in the form of &lt;em&gt;expression&lt;/em&gt; = 0 are useful strategies for solving equations. You will also review the ties between the zeros of a function and the horizontal intercepts of its graph, which you began exploring in an earlier unit.&lt;/p&gt;
 &lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; Explain why dividing by a variable to solve a quadratic equation is not a good strategy. &lt;/li&gt;
-  &lt;li&gt; Explain why quadratic equations can have no solutions and explain why there are none. &lt;/li&gt;
+&lt;li&gt; Explain why dividing by a variable to solve a quadratic equation is not a good strategy. &lt;/li&gt;
+&lt;li&gt; Explain why quadratic equations can have no solutions and explain why there are none. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are the&lt;strong&gt; activities &lt;/strong&gt;that will help you reach those goals:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 8.5.1: Reviewing Zero Product Property &lt;/li&gt;
-  &lt;li&gt; 8.5.2: Interpreting Graphs to Solve Quadratic Equations &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; 8.5.2: Self Check &lt;/li&gt;
-    &lt;li&gt; 8.5.2: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 8.5.3: Choosing an Effective Strategy to Solve Quadratic Equations &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; 8.5.3: Self Check &lt;/li&gt;
-    &lt;li&gt; 8.5.3: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 8.5.4: Analyzing Errors When Solving Quadratic Equations &lt;/li&gt;
+&lt;li&gt; 8.5.1: Reviewing Zero Product Property &lt;/li&gt;
+&lt;li&gt; 8.5.2: Interpreting Graphs to Solve Quadratic Equations &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; 8.5.2: Self Check &lt;/li&gt;
+&lt;li&gt; 8.5.2: Additional Resources &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;After that, you’ll&lt;strong&gt; practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;li&gt; 8.5.3: Choosing an Effective Strategy to Solve Quadratic Equations &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; 8.5.3: Self Check &lt;/li&gt;
+&lt;li&gt; 8.5.3: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 8.5.4: Analyzing Errors When Solving Quadratic Equations &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you&amp;rsquo;ll&lt;strong&gt; practice and review&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 8.5.5: Practice &lt;/li&gt;
-  &lt;li&gt; 8.5.6: Lesson Summary &lt;/li&gt;
+&lt;li&gt; 8.5.5: Practice &lt;/li&gt;
+&lt;li&gt; 8.5.6: Lesson Summary &lt;/li&gt;
 &lt;/ul&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -111,83 +111,74 @@
         <title>8.5.1: Reviewing Zero Product Property</title>
         <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
 &lt;p&gt;Decide whether each statement is true or false.&lt;/p&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt; 
-  &lt;!--Q1--&gt;
-  
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="False" data-solution-options="[&amp;quot;True&amp;quot;, &amp;quot;False&amp;quot;]"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;ol class="os-raise-noindent"&gt;
-        &lt;li&gt;3 is the only solution to \(x^2−9=0\).&lt;/li&gt;
-      &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct! False. There are two solutions because there are two numbers that can be squared to get 9. Both 3 and –3 are possible solutions.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;False. There are two solutions because there are two numbers that can be squared to get 9. Both 3 and –3 are possible solutions.&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-  &lt;!--END QUESTION.--&gt; 
-  &lt;!--Q2--&gt;
-  
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="False" data-solution-options="[&amp;quot;True&amp;quot;, &amp;quot;False&amp;quot;]"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;ol class="os-raise-noindent" start="2"&gt;
-        &lt;li&gt;A solution to \(x^2+25=0\) is –5.&amp;nbsp;&lt;/li&gt;
-      &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct! False. There is no solution to \(x^2+25=0\) because no real number can be squared to get –25.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;False. There is no solution to \(x^2+25=0\) because no real number can be squared to get –25.&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-  &lt;!--END QUESTION.--&gt; 
-  &lt;!--Q3--&gt;
-  
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="True" data-solution-options="[&amp;quot;True&amp;quot;, &amp;quot;False&amp;quot;]"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;ol class="os-raise-noindent" start="3"&gt;
-        &lt;li&gt;\(x(x−7)=0\) has two solutions.&lt;/li&gt;
-      &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct! True. There are two factors, 0 and 7, that could make the product of the expression 0.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;True. There are two factors, 0 and 7, that could make the product of the expression 0.&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-  &lt;!--END QUESTION.--&gt; 
-  &lt;!--Q4--&gt;
-  
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="False" data-solution-options="[&amp;quot;True&amp;quot;, &amp;quot;False&amp;quot;]"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;ol class="os-raise-noindent" start="4"&gt;
-        &lt;li&gt;5 and –7 are the solutions to \((x−5)(x+7)=12\).&lt;/li&gt;
-      &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct! False. The product of the two factors is not 0, so we cannot solve it using the zero product property (which gives 5 and –7 as solutions). If we evaluate the expression \((x−5)(x+7)\) at those two values, the result will be 0, not 12.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;False. The product of the two factors is not 0, so we cannot solve it using the zero product property (which gives 5 and –7 as solutions). If we evaluate the expression \((x−5)(x+7)\) at those two values, the result will be 0, not 12.&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-  &lt;!--END QUESTION.--&gt; 
-  
-  &lt;!--Do not edit below line.--&gt;
-  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--Q1--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="False" data-solution-options='["True", "False"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;3 is the only solution to \(x^2&amp;minus;9=0\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! False. There are two solutions because there are two numbers that can be squared to get 9. Both 3 and &amp;ndash;3 are possible solutions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;False. There are two solutions because there are two numbers that can be squared to get 9. Both 3 and &amp;ndash;3 are possible solutions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q2--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="False" data-solution-options='["True", "False"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;A solution to \(x^2+25=0\) is &amp;ndash;5.&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! False. There is no solution to \(x^2+25=0\) because no real number can be squared to get &amp;ndash;25.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;False. There is no solution to \(x^2+25=0\) because no real number can be squared to get &amp;ndash;25.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q3--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="True" data-solution-options='["True", "False"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;\(x(x&amp;minus;7)=0\) has two solutions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! True. There are two factors, 0 and 7, that could make the product of the expression 0.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;True. There are two factors, 0 and 7, that could make the product of the expression 0.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Q4--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="False" data-solution-options='["True", "False"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;5 and &amp;ndash;7 are the solutions to \((x&amp;minus;5)(x+7)=12\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! False. The product of the two factors is not 0, so we cannot solve it using the zero product property (which gives 5 and &amp;ndash;7 as solutions). If we evaluate the expression \((x&amp;minus;5)(x+7)\) at those two values, the result will be 0, not 12.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;False. The product of the two factors is not 0, so we cannot solve it using the zero product property (which gives 5 and &amp;ndash;7 as solutions). If we evaluate the expression \((x&amp;minus;5)(x+7)\) at those two values, the result will be 0, not 12.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--END QUESTION.--&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -235,49 +226,49 @@
         <title>8.5.2: Interpreting Graphs to Solve Quadratic Equations</title>
         <contents>&lt;h4&gt;Activity &lt;/h4&gt;
 &lt;p&gt;Julio is solving three equations by graphing.&lt;/p&gt;
-&lt;p&gt;\((x−5)(x−3)=0\)&lt;/p&gt;
-&lt;p&gt;\((x−5)(x−3)=-1\)&lt;/p&gt;
-&lt;p&gt;\((x−5)(x−3)=-4\)&lt;/p&gt;
-&lt;p&gt;To solve the first equation, \((x−5)(x−3)=0\), he graphed \(y=(x−5)(x−3)\) and then looked for the \(x\)-intercepts of the graph.&lt;/p&gt;
+&lt;p&gt;\((x&amp;minus;5)(x&amp;minus;3)=0\)&lt;/p&gt;
+&lt;p&gt;\((x&amp;minus;5)(x&amp;minus;3)=-1\)&lt;/p&gt;
+&lt;p&gt;\((x&amp;minus;5)(x&amp;minus;3)=-4\)&lt;/p&gt;
+&lt;p&gt;To solve the first equation, \((x&amp;minus;5)(x&amp;minus;3)=0\), he graphed \(y=(x&amp;minus;5)(x&amp;minus;3)\) and then looked for the \(x\)-intercepts of the graph.&lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent"&gt;
-            &lt;li&gt;Explain why the \(x\)-intercepts can be used to solve \((x−5)(x−3)=0\).&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your explanation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;The solutions to \((x−5)(x−3)=0\) are \(x\)-values that make the expression have a value of 0. At the \(x\)-intercepts, the \(y\)-value of the expression \((x−5)(x−3)\) is 0, so the \(x\)-intercepts give the solutions.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;Explain why the \(x\)-intercepts can be used to solve \((x&amp;minus;5)(x&amp;minus;3)=0\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;The solutions to \((x&amp;minus;5)(x&amp;minus;3)=0\) are \(x\)-values that make the expression have a value of 0. At the \(x\)-intercepts, the \(y\)-value of the expression \((x&amp;minus;5)(x&amp;minus;3)\) is 0, so the \(x\)-intercepts give the solutions.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;ol class="os-raise-noindent" start="2"&gt;
-    &lt;li&gt;Graph \(y=(x−5)(x−3)\). What are the solutions?&lt;/li&gt;
+&lt;li&gt;Graph \(y=(x&amp;minus;5)(x&amp;minus;3)\). What are the solutions?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Use the Desmos graphing tool or technology outside the course.&lt;/p&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/96200b7342d318aa4c33316b2b71f758009864f6" alt="ALT TEXT: THE PARABOLA OPENS UP AND HAS A VERTEX AT THE POINT (4, NEGATIVE 1). THE X-INTERCEPTS ARE (3, 0) AND (5, 0)." width="562" height="246"&gt;&lt;/p&gt;
-    &lt;p&gt;The solutions are \(x=5\) and \(x=3\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ALT TEXT: THE PARABOLA OPENS UP AND HAS A VERTEX AT THE POINT (4, NEGATIVE 1). THE X-INTERCEPTS ARE (3, 0) AND (5, 0)." height="246" src="https://k12.openstax.org/contents/raise/resources/96200b7342d318aa4c33316b2b71f758009864f6" width="562"&gt;&lt;/p&gt;
+&lt;p&gt;The solutions are \(x=5\) and \(x=3\).&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-&lt;p&gt;To solve the second equation, Julio rewrote it as \((x−5)(x−3)+1=0\). He then graphed \(y=(x−5)(x−3)+1\).&lt;/p&gt;
+&lt;p&gt;To solve the second equation, Julio rewrote it as \((x&amp;minus;5)(x&amp;minus;3)+1=0\). He then graphed \(y=(x&amp;minus;5)(x&amp;minus;3)+1\).&lt;/p&gt;
 &lt;ol class="os-raise-noindent" start="3"&gt;
-    &lt;li&gt;Graph \(y=(x−5)(x−3)+1\). Then, use the graph to solve the equation. Be prepared to explain how you used the graph for solving.
+&lt;li&gt;Graph \(y=(x&amp;minus;5)(x&amp;minus;3)+1\). Then, use the graph to solve the equation. Be prepared to explain how you used the graph for solving.
     &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Use the Desmos graphing tool or technology outside the course.&lt;/p&gt;
@@ -285,208 +276,198 @@
 &lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f3488bc6c2946bfe994975f99fd623c84876a3d3" alt="THE PARABOLA OPENS UP AND HAS A VERTEX AT THE POINT (4, 0). THE X-INTERCEPT IS (4, 0)." width="624" height="285"&gt;&lt;/p&gt;
-    &lt;p&gt;The solution is 4 for \((x−5)(x−3)+1=0\). The solution is the \(x\)-coordinate of the \(x\)-intercept.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="THE PARABOLA OPENS UP AND HAS A VERTEX AT THE POINT (4, 0). THE X-INTERCEPT IS (4, 0)." height="285" src="https://k12.openstax.org/contents/raise/resources/f3488bc6c2946bfe994975f99fd623c84876a3d3" width="624"&gt;&lt;/p&gt;
+&lt;p&gt;The solution is 4 for \((x&amp;minus;5)(x&amp;minus;3)+1=0\). The solution is the \(x\)-coordinate of the \(x\)-intercept.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;p&gt;Solve the third equation using Julio's strategy of graphing the equations.&lt;/p&gt;
 &lt;ol class="os-raise-noindent" start="4"&gt;
-    &lt;li&gt;What are the solutions to \(y=(x-5)(x-3)+4\)?&lt;/li&gt;
+&lt;li&gt;What are the solutions to \(y=(x-5)(x-3)+4\)?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Use the Desmos graphing tool or technology outside the course.&lt;/p&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/14e9433560eb5fcf0427971787cf1245ab48c391" alt="THE PARABOLA OPENS UP AND HAS A VERTEX AT THE POINT (4, 3). THE X-INTERCEPT IS (4, 3)." width="624" height="284"&gt;&lt;/p&gt;
-    &lt;p&gt;There are no solutions for \((x−5)(x−3)+4=0\). The graph has no \(x\)-intercept.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal3"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="THE PARABOLA OPENS UP AND HAS A VERTEX AT THE POINT (4, 3). THE X-INTERCEPT IS (4, 3)." height="284" src="https://k12.openstax.org/contents/raise/resources/14e9433560eb5fcf0427971787cf1245ab48c391" width="624"&gt;&lt;/p&gt;
+&lt;p&gt;There are no solutions for \((x&amp;minus;5)(x&amp;minus;3)+4=0\). The graph has no \(x\)-intercept.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal4" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;Think about the graphing strategy used to solve the equations and the solutions you found. View the Desmos graphs of all three equations &lt;a href="https://k12.openstax.org/contents/raise/resources/242363d7056c9b9f08da49ce31c4dd77cb1400ee" target="_blank" title="here"&gt;here&lt;/a&gt;.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;Think about the graphing strategy used to solve the equations and the solutions you found. View the Desmos graphs of all three equations &lt;a href="https://k12.openstax.org/contents/raise/resources/242363d7056c9b9f08da49ce31c4dd77cb1400ee" target="_blank" title="here"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal4" data-schema-version="1.0"&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal4"&gt;
+&lt;/div&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent" start="5"&gt;
-            &lt;li&gt;Why might it be helpful to rearrange each equation to equal 0 on one side and then graph the expression on the non-zero side?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your explanation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;When a quadratic expression is equal to 0 and we want to find the unknown values, we can think of it as finding the zeros of a quadratic function, or finding the \(x\)-intercepts of the graph of that function.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+&lt;li&gt;Why might it be helpful to rearrange each equation to equal 0 on one side and then graph the expression on the non-zero side?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;When a quadratic expression is equal to 0 and we want to find the unknown values, we can think of it as finding the zeros of a quadratic function, or finding the \(x\)-intercepts of the graph of that function.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent" start="6"&gt;
-            &lt;li&gt;How many solutions does each of the three equations have?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the number of solutions for each equation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;There are two solutions for the first equation, one solution for the second equation, and no solution for the last equation.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="6"&gt;
+&lt;li&gt;How many solutions does each of the three equations have?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the number of solutions for each equation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;There are two solutions for the first equation, one solution for the second equation, and no solution for the last equation.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
-        &lt;ol class="os-raise-noindent"&gt;
-            &lt;li&gt;Graph \(y=(x−3)(x−5)\) and \(y=-1\) on the same coordinate plane.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;Use the &lt;a href="https://www.desmos.com/calculator" target="_blank"&gt;Desmos&lt;/a&gt; graphing tool or technology outside the course.&lt;/p&gt;
-        &lt;p&gt;How do the equations \(y=(x−3)(x−5)\) and \(y=-1\) help solve the equation \((x−3)(x−5)=-1\)?&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your explanation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;The solution to \((x−3)(x−5)=-1\) is the \(x\)-value of the intersection point of the two graphs of \(y=(x−3)(x−5)\) and \(y=-1\). This solution is 4.&lt;/p&gt;
-        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c9353744ffccea750a2f5c39059a17ddd6843fe1" alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT (4, NEGATIVE 1) AND X-INTERCEPTS OF 3 AND 5. A HORIZONTAL DOTTED LINE IS GRAPHED ATY EQUALS NEGATIVE 1." width="305" height="298"&gt;&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;Graph \(y=(x&amp;minus;3)(x&amp;minus;5)\) and \(y=-1\) on the same coordinate plane.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the &lt;a href="https://www.desmos.com/calculator" target="_blank"&gt;Desmos&lt;/a&gt; graphing tool or technology outside the course.&lt;/p&gt;
+&lt;p&gt;How do the equations \(y=(x&amp;minus;3)(x&amp;minus;5)\) and \(y=-1\) help solve the equation \((x&amp;minus;3)(x&amp;minus;5)=-1\)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;The solution to \((x&amp;minus;3)(x&amp;minus;5)=-1\) is the \(x\)-value of the intersection point of the two graphs of \(y=(x&amp;minus;3)(x&amp;minus;5)\) and \(y=-1\). This solution is 4.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT (4, NEGATIVE 1) AND X-INTERCEPTS OF 3 AND 5. A HORIZONTAL DOTTED LINE IS GRAPHED ATY EQUALS NEGATIVE 1." height="298" src="https://k12.openstax.org/contents/raise/resources/c9353744ffccea750a2f5c39059a17ddd6843fe1" width="305"&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
 &lt;br&gt;
 &lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent" start="2"&gt;
-            &lt;li&gt;Graph \(y=(x−3)(x−5)\) and \(y=0\) on the same coordinate plane.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;Use the &lt;a href="https://www.desmos.com/calculator" target="_blank"&gt;Desmos&lt;/a&gt; graphing tool or technology outside the course.&lt;/p&gt;
-        &lt;p&gt;How do the equations \(y=(x−3)(x−5)\) and \(y=0\) help solve the equation \((x−3)(x−5)=0\)?&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your explanation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;The solutions to \((x−3)(x−5)=0\) are the \(x\)-values of the intersection points of the two graphs of \(y=(x−3)(x−5)\) and \(y=0\). These solutions are 3 and 5.&lt;/p&gt;
-        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6bd98ec004ad28f418a6fb7a40e97ab780883f74" alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT (4, NEGATIVE 1) AND X-INTERCEPTS OF 3 AND 5. A HORIZONTAL DOTTED LINE IS GRAPHED AT Y EQUALS 0." width="337" height="331"&gt;&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;Graph \(y=(x&amp;minus;3)(x&amp;minus;5)\) and \(y=0\) on the same coordinate plane.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the &lt;a href="https://www.desmos.com/calculator" target="_blank"&gt;Desmos&lt;/a&gt; graphing tool or technology outside the course.&lt;/p&gt;
+&lt;p&gt;How do the equations \(y=(x&amp;minus;3)(x&amp;minus;5)\) and \(y=0\) help solve the equation \((x&amp;minus;3)(x&amp;minus;5)=0\)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;The solutions to \((x&amp;minus;3)(x&amp;minus;5)=0\) are the \(x\)-values of the intersection points of the two graphs of \(y=(x&amp;minus;3)(x&amp;minus;5)\) and \(y=0\). These solutions are 3 and 5.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT (4, NEGATIVE 1) AND X-INTERCEPTS OF 3 AND 5. A HORIZONTAL DOTTED LINE IS GRAPHED AT Y EQUALS 0." height="331" src="https://k12.openstax.org/contents/raise/resources/6bd98ec004ad28f418a6fb7a40e97ab780883f74" width="337"&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
 &lt;br&gt;
 &lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent" start="3"&gt;
-            &lt;li&gt;Graph \(y = (x−3)(x−5)\) and \(y=3\) on the same coordinate plane.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;Use the &lt;a href="https://www.desmos.com/calculator" target="_blank"&gt;Desmos&lt;/a&gt; graphing tool or technology outside the course.&lt;/p&gt;
-        &lt;p&gt;How do the equations \(y = (x−3)(x−5)\) and \(y=3\) help solve the equation \((x−3)(x−5)=3\)?&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your explanation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;The solutions to \((x−3)(x−5)=3\) are the \(x\)-values of the intersection points of the two graphs of \(y=(x−3)(x−5)\) and \(y=3\). These solutions are 2 and 6.&lt;/p&gt;
-        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/7f2f82d8b8f1b91c55dcd84b20ad2ae04fa4e80f" alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT (4, NEGATIVE 1) AND X-INTERCEPTS OF 3 AND 5. A HORIZONTAL DOTTED LINE IS GRAPHED ATY EQUALS 3." width="351" height="344"&gt;&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;Graph \(y = (x&amp;minus;3)(x&amp;minus;5)\) and \(y=3\) on the same coordinate plane.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the &lt;a href="https://www.desmos.com/calculator" target="_blank"&gt;Desmos&lt;/a&gt; graphing tool or technology outside the course.&lt;/p&gt;
+&lt;p&gt;How do the equations \(y = (x&amp;minus;3)(x&amp;minus;5)\) and \(y=3\) help solve the equation \((x&amp;minus;3)(x&amp;minus;5)=3\)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;The solutions to \((x&amp;minus;3)(x&amp;minus;5)=3\) are the \(x\)-values of the intersection points of the two graphs of \(y=(x&amp;minus;3)(x&amp;minus;5)\) and \(y=3\). These solutions are 2 and 6.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT (4, NEGATIVE 1) AND X-INTERCEPTS OF 3 AND 5. A HORIZONTAL DOTTED LINE IS GRAPHED ATY EQUALS 3." height="344" src="https://k12.openstax.org/contents/raise/resources/7f2f82d8b8f1b91c55dcd84b20ad2ae04fa4e80f" width="351"&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
 &lt;br&gt;
 &lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent" start="4"&gt;
-            &lt;li&gt;Use the graphs you created in questions 1–3 to help you find a few other equations of the form \((x−3)(x−5)=z\) that have whole-number solutions.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your explanation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;There are many different answers. For example:&lt;/p&gt;
-        &lt;p&gt;\((x−3)(x−5)=8\), \((x−3)(x−5)=15\), \((x−3)(x−5)=24\)&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;Use the graphs you created in questions 1&amp;ndash;3 to help you find a few other equations of the form \((x&amp;minus;3)(x&amp;minus;5)=z\) that have whole-number solutions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;There are many different answers. For example:&lt;/p&gt;
+&lt;p&gt;\((x&amp;minus;3)(x&amp;minus;5)=8\), \((x&amp;minus;3)(x&amp;minus;5)=15\), \((x&amp;minus;3)(x&amp;minus;5)=24\)&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
 &lt;br&gt;
 &lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent" start="5"&gt;
-            &lt;li&gt;Some of the values of \(z\) that you might have found are –1, 0, 3, 8, 15, 24, etc. Find a pattern in the values of \(z\) that give whole-number solutions.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your explanation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;Starting at \(x=-1\), add 1, then 3, then 5, and so on, to find the next \(x\)-value that yields whole-number solutions.&lt;/p&gt;
-        &lt;p&gt;Because the expressions \(x−3\) and \(x−5\) represent numbers whose difference is 2, the values of \(z\) have the form \(-1 \cdot 1\), \(0 \cdot 2\), \(1 \cdot 3\), \(2 \cdot 4\), and so on.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+&lt;li&gt;Some of the values of \(z\) that you might have found are &amp;ndash;1, 0, 3, 8, 15, 24, etc. Find a pattern in the values of \(z\) that give whole-number solutions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Starting at \(x=-1\), add 1, then 3, then 5, and so on, to find the next \(x\)-value that yields whole-number solutions.&lt;/p&gt;
+&lt;p&gt;Because the expressions \(x&amp;minus;3\) and \(x&amp;minus;5\) represent numbers whose difference is 2, the values of \(z\) have the form \(-1 \cdot 1\), \(0 \cdot 2\), \(1 \cdot 3\), \(2 \cdot 4\), and so on.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
 &lt;br&gt;
 &lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol class="os-raise-noindent" start="6"&gt;
-            &lt;li&gt;Without solving, determine if \((x−5)(x−3)=120\) and \((x−5)(x−3)=399\) have whole-number solutions. Explain your reasoning.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your explanation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;Both have whole-number solutions. The values of \(x\) that produce whole-number solutions are all 1 less than a square number.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="6"&gt;
+&lt;li&gt;Without solving, determine if \((x&amp;minus;5)(x&amp;minus;3)=120\) and \((x&amp;minus;5)(x&amp;minus;3)=399\) have whole-number solutions. Explain your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Both have whole-number solutions. The values of \(x\) that produce whole-number solutions are all 1 less than a square number.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;</contents>
         <contentsformat>1</contentsformat>
@@ -533,7 +514,7 @@
         <timecreated>1666309613</timecreated>
         <timemodified>1666607345</timemodified>
         <title>8.5.2: Self Check</title>
-        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Use graphing technology to determine the number of solutions for the equation \((x+3)(x−6)=−22\). Then find any solutions.&lt;br&gt;&lt;/p&gt;</contents>
+        <contents>&lt;p dir="ltr"&gt;Use graphing technology to determine the number of solutions for the equation \((x+3)(x&amp;minus;6)=&amp;minus;22\). Then find any solutions.&lt;br&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="4397">
@@ -544,7 +525,7 @@
             <timecreated>1666309613</timecreated>
             <timemodified>0</timemodified>
             <answer_text>&lt;p&gt;There is one solution. \(x=5.5\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Look again at the graph of \(y=(x+3)(x−6)+22\). There are no \(x\)-intercepts. The answer is that there are no solutions.&lt;br&gt;&lt;/p&gt;</response>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Look again at the graph of \(y=(x+3)(x&amp;minus;6)+22\). There are no \(x\)-intercepts. The answer is that there are no solutions.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -557,8 +538,8 @@
             <flags>0</flags>
             <timecreated>1666309613</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;There are two solutions. \(x=-6\) or \(x=3\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Look again at the graph of \(y=(x+3)(x−6)+22\). There are no \(x\)-intercepts. The answer is that there are no solutions.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;There are two solutions. \(x=-6\) or \(x=3\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Look again at the graph of \(y=(x+3)(x&amp;minus;6)+22\). There are no \(x\)-intercepts. The answer is that there are no solutions.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -571,8 +552,8 @@
             <flags>0</flags>
             <timecreated>1666309613</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;There are two solutions. \(x=-3\) or \(x=6\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Look again at the graph of \(y=(x+3)(x−6)+22\). There are no \(x\)-intercepts. The answer is that there are no solutions.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;There are two solutions. \(x=-3\) or \(x=6\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Look again at the graph of \(y=(x+3)(x&amp;minus;6)+22\). There are no \(x\)-intercepts. The answer is that there are no solutions.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -585,8 +566,8 @@
             <flags>0</flags>
             <timecreated>1666309613</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The equation has no solutions.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Look again at the graph of \(y=(x+3)(x−6)+22\). There are no \(x\)-intercepts. This means there are no solutions.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;The equation has no solutions.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Look again at the graph of \(y=(x+3)(x&amp;minus;6)+22\). There are no \(x\)-intercepts. This means there are no solutions.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -599,8 +580,8 @@
             <flags>0</flags>
             <timecreated>1666309613</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -623,56 +604,56 @@
         <contents>&lt;h4&gt;Interpreting Graphs to Solve Quadratic Equations&lt;/h4&gt;
 &lt;p&gt;Let's analyze and interpret the graphs of different quadratic equations.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;First, let's look at the equation \((x−4)(x−7)=0\).&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;We will graph the equation \(y=(x−4)(x−7)\).&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/0f5ed86da7a118a883c063923369990eb0533368" alt="GRAPH OF A PARABOLA THAT OPENS UP AND PASSES THROUGH THE POINTS (4, 0) AND (7, 0)." width="491" height="491"&gt;&lt;/p&gt;
+&lt;p&gt;First, let's look at the equation \((x&amp;minus;4)(x&amp;minus;7)=0\).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;We will graph the equation \(y=(x&amp;minus;4)(x&amp;minus;7)\).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH OF A PARABOLA THAT OPENS UP AND PASSES THROUGH THE POINTS (4, 0) AND (7, 0)." height="491" src="https://k12.openstax.org/contents/raise/resources/0f5ed86da7a118a883c063923369990eb0533368" width="491"&gt;&lt;/p&gt;
 &lt;p&gt;This graph has two \(x\)-intercepts.&lt;/p&gt;
-&lt;p&gt;The solutions to \((x−4)(x−7)=0\) are \(x\)-values that make the expression have a value of 0.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;At the \(x\)-intercepts, the \(y\)-value of the expression \((x−4)(x−7)\) is 0, so the \(x\)-intercepts give the solutions.&lt;/p&gt;
+&lt;p&gt;The solutions to \((x&amp;minus;4)(x&amp;minus;7)=0\) are \(x\)-values that make the expression have a value of 0.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;At the \(x\)-intercepts, the \(y\)-value of the expression \((x&amp;minus;4)(x&amp;minus;7)\) is 0, so the \(x\)-intercepts give the solutions.&lt;/p&gt;
 &lt;p&gt;The \(x\)-intercepts and solutions to the equation are 4 and 7.&lt;/p&gt;
-&lt;p&gt;Note that the values of 4 and 7 could be referred to as &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;solutions&lt;/span&gt; of the equation, &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;\(x\)-intercepts&lt;/span&gt; of the graph, &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;roots&lt;/span&gt; of the equation, or &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;zeros&lt;/span&gt; of the equation.&lt;/p&gt;
+&lt;p&gt;Note that the values of 4 and 7 could be referred to as &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;solutions&lt;/span&gt; of the equation, &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;\(x\)-intercepts&lt;/span&gt; of the graph, &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;roots&lt;/span&gt; of the equation, or &lt;span class="os-raise-ib-tooltip" data-schema-version="1.0" data-store="glossary-tooltip"&gt;zeros&lt;/span&gt; of the equation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Let's look at a different example.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;\((x−4)(x−7)=−2.25\) &lt;/p&gt;
+&lt;p&gt;\((x&amp;minus;4)(x&amp;minus;7)=&amp;minus;2.25\) &lt;/p&gt;
 &lt;p&gt;First, we rewrite the equation to set it equal to 0.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;\((x−4)(x−7)+2.25=0\)&lt;/p&gt;
-&lt;p&gt;We will graph the equation \(y=(x−4)(x−7)+2.25\).&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/1ef50a1728e0a8b372ea2439ea5d09509bbc8ad0" alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT (5.5, 0)." width="461" height="461"&gt;&lt;/p&gt;
-&lt;p&gt;This graph has one \(x\)-intercept. It is an example of a double root at 5.5. A &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;double root&lt;/span&gt; is a root that appears twice in the solution of an algebraic equation.&lt;/p&gt;
+&lt;p&gt;\((x&amp;minus;4)(x&amp;minus;7)+2.25=0\)&lt;/p&gt;
+&lt;p&gt;We will graph the equation \(y=(x&amp;minus;4)(x&amp;minus;7)+2.25\).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT (5.5, 0)." height="461" src="https://k12.openstax.org/contents/raise/resources/1ef50a1728e0a8b372ea2439ea5d09509bbc8ad0" width="461"&gt;&lt;/p&gt;
+&lt;p&gt;This graph has one \(x\)-intercept. It is an example of a double root at 5.5. A &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;double root&lt;/span&gt; is a root that appears twice in the solution of an algebraic equation.&lt;/p&gt;
 &lt;p&gt;The solution is the \(x\)-coordinate of the \(x\)-intercept.&lt;/p&gt;
-&lt;p&gt;So, the solution to \((x−4)(x−7)=−2.25\) is 5.5.&lt;/p&gt;
+&lt;p&gt;So, the solution to \((x&amp;minus;4)(x&amp;minus;7)=&amp;minus;2.25\) is 5.5.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example 3&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Let's look at one last example.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;\((x−4)(x−7)=-5\)&lt;/p&gt;
+&lt;p&gt;\((x&amp;minus;4)(x&amp;minus;7)=-5\)&lt;/p&gt;
 &lt;p&gt;First, we rewrite the equation to set it equal to 0.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;\((x−4)(x−7)+5=0\)&lt;/p&gt;
-&lt;p&gt;We will graph the equation \(y=(x−4)(x−7)+5\).&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e1476e86da83ad0dfeb849b8243cc69255d2cb33" alt="GRAPH OF A PARABOLA THAT OPENS UP. THE GRAPH DOES NOT TOUCH OR CROSS THE X-AXIS. THE GRAPH PASSES THROUGH THE POINTS (4, 5) AND (7, 5)." width="492" height="492"&gt;&lt;/p&gt;
+&lt;p&gt;\((x&amp;minus;4)(x&amp;minus;7)+5=0\)&lt;/p&gt;
+&lt;p&gt;We will graph the equation \(y=(x&amp;minus;4)(x&amp;minus;7)+5\).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH OF A PARABOLA THAT OPENS UP. THE GRAPH DOES NOT TOUCH OR CROSS THE X-AXIS. THE GRAPH PASSES THROUGH THE POINTS (4, 5) AND (7, 5)." height="492" src="https://k12.openstax.org/contents/raise/resources/e1476e86da83ad0dfeb849b8243cc69255d2cb33" width="492"&gt;&lt;/p&gt;
 &lt;p&gt;The graph has no \(x\)-intercepts.&lt;/p&gt;
-&lt;p&gt;So, there are no real solutions for \((x−4)(x−7)+5=0\).&lt;/p&gt;
-&lt;p&gt;Remember, when a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;quadratic expression&lt;/span&gt; is equal to 0 and we want to find the unknown values, we can think of it as finding the zeros of a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;quadratic function&lt;/span&gt;, or finding the \(x\)-intercepts of the graph of that &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;function&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;So, there are no real solutions for \((x&amp;minus;4)(x&amp;minus;7)+5=0\).&lt;/p&gt;
+&lt;p&gt;Remember, when a &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;quadratic expression&lt;/span&gt; is equal to 0 and we want to find the unknown values, we can think of it as finding the zeros of a &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;quadratic function&lt;/span&gt;, or finding the \(x\)-intercepts of the graph of that &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;function&lt;/span&gt;.&lt;/p&gt;
 &lt;h4&gt;Try It: Interpreting Graphs to Solve Quadratic Equations&lt;/h4&gt;
-&lt;p&gt;Determine the number of solutions for the equation \((x−4)(x−9)=−6.25\). Then find any solutions.&lt;/p&gt;
+&lt;p&gt;Determine the number of solutions for the equation \((x&amp;minus;4)(x&amp;minus;9)=&amp;minus;6.25\). Then find any solutions.&lt;/p&gt;
 &lt;p&gt;Use the Desmos graphing tool or technology outside the course.&amp;nbsp;&lt;/p&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Here is how to analyze the graph of the equation to find any solutions:&lt;/p&gt;
-    &lt;p&gt;Step 1&lt;br&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Here is how to analyze the graph of the equation to find any solutions:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
         Rewrite the equation to set it equal to 0. &lt;br&gt;
-        \((x−4)(x−9)+6.25=0\) &lt;/p&gt;
-    &lt;p&gt;Step 2&lt;br&gt;
-        Graph the equation \(y=(x−4)(x−9)+6.25\). &lt;/p&gt;
-    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/880a2a381249f44feb8864f1a3d0e1de69bdf077" alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT THE POINT (6.5, 0)." width="483" height="483"&gt;&lt;/p&gt;
-    &lt;p&gt;Step 3&lt;br&gt;
+        \((x&amp;minus;4)(x&amp;minus;9)+6.25=0\) &lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+        Graph the equation \(y=(x&amp;minus;4)(x&amp;minus;9)+6.25\). &lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT THE POINT (6.5, 0)." height="483" src="https://k12.openstax.org/contents/raise/resources/880a2a381249f44feb8864f1a3d0e1de69bdf077" width="483"&gt;&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
         Identify the \(x\)-intercepts from the graph. &lt;br&gt;
         There is one \(x\)-intercept at \((6.5, 0)\). &lt;br&gt;
         This means there is one solution. &amp;nbsp;&lt;br&gt;
@@ -726,112 +707,112 @@
 &lt;p&gt; Solve each equation. Be prepared to explain or show your reasoning.&lt;/p&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;ol class="os-raise-noindent"&gt;
-      &lt;li&gt;\(x^2=121\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt; \(x=11\) and \(x=-11\)&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;\(x^2=121\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;!--Interaction End --&gt; 
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; \(x=11\) and \(x=-11\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;ol class="os-raise-noindent" start="2"&gt;
-      &lt;li&gt;\(x^2−31=5\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt; \(x=6\) and \(x=-6\)&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;\(x^2&amp;minus;31=5\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;!--Interaction End --&gt; 
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; \(x=6\) and \(x=-6\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;ol class="os-raise-noindent" start="3"&gt;
-      &lt;li&gt;\((x−4)(x−4)=0\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;\(x=4\)&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;\((x&amp;minus;4)(x&amp;minus;4)=0\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;!--Interaction End --&gt; 
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(x=4\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;ol class="os-raise-noindent" start="4"&gt;
-      &lt;li&gt;\((x+3)(x−1)=5\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt; \(x=-4\) and \(x=2\)&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;\((x+3)(x&amp;minus;1)=5\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;!--Interaction End --&gt; 
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; \(x=-4\) and \(x=2\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;ol class="os-raise-noindent" start="5"&gt;
-      &lt;li&gt;\((x+1)^2=-4\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;No solution&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+&lt;li&gt;\((x+1)^2=-4\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;!--Interaction End --&gt; 
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;No solution&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;ol class="os-raise-noindent" start="6"&gt;
-      &lt;li&gt;\((x−4)(x−1)=990\)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;\(x=34\) and \(x=-29\)&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="6"&gt;
+&lt;li&gt;\((x&amp;minus;4)(x&amp;minus;1)=990\)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;!--Interaction End --&gt; 
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the solution(s) to the equation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(x=34\) and \(x=-29\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;h4&gt;Video: Choosing an Effective Strategy to Solve Quadratic Equations&lt;/h4&gt;
 &lt;p&gt;Watch the following video to learn more about choosing an effective strategy to solve quadratic equations.&lt;/p&gt;
 &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
-  &lt;source src="https://k12.openstax.org/contents/raise/resources/84d199f48e88269b0d50c3dc76afa178bc452da3"&gt;
-  &lt;track src="https://k12.openstax.org/contents/raise/resources/9c2b14c2f3273e712be01bf622cc740041c5e475" kind="captions" srclang="en_us" label="On" default="true"&gt;
+&lt;source src="https://k12.openstax.org/contents/raise/resources/84d199f48e88269b0d50c3dc76afa178bc452da3"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/9c2b14c2f3273e712be01bf622cc740041c5e475" srclang="en_us"&gt;
   https://k12.openstax.org/contents/raise/resources/84d199f48e88269b0d50c3dc76afa178bc452da3 &lt;/video&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -878,7 +859,7 @@
         <timemodified>1666311900</timemodified>
         <title>8.5.3: Self Check</title>
         <contents>&lt;p&gt;Solve the equation using any method covered in the lesson.&lt;/p&gt;
-&lt;p&gt;\((x−6)(x+5)=-30.25\)&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;\((x&amp;minus;6)(x+5)=-30.25\)&lt;/p&gt;&lt;br&gt;
 &lt;p&gt;&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -889,8 +870,8 @@
             <flags>0</flags>
             <timecreated>1666310942</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;No solutions&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This equation is best solved by graphing. Graph the equation \(y=(x−6)(x+5)+30.25\). There is one \(x\)-intercept at \((0.5,0)\). The answer is \(x=0.5\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;No solutions&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: This equation is best solved by graphing. Graph the equation \(y=(x&amp;minus;6)(x+5)+30.25\). There is one \(x\)-intercept at \((0.5,0)\). The answer is \(x=0.5\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -903,8 +884,8 @@
             <flags>0</flags>
             <timecreated>1666310942</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=0.5\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: This equation is best solved by graphing. Substitute 0.5 in for \(x\) and check to see if the equation is true. \((0.5−6)(0.5+5)=-30.25\). Since the equation is true, 0.5 is correct&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=0.5\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: This equation is best solved by graphing. Substitute 0.5 in for \(x\) and check to see if the equation is true. \((0.5&amp;minus;6)(0.5+5)=-30.25\). Since the equation is true, 0.5 is correct&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -917,8 +898,8 @@
             <flags>0</flags>
             <timecreated>1666310942</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=0.5\) and \(x=1.5\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This equation is best solved by graphing. Graph the equation \(y=(x−6)(x+5)+30.25\). There is one \(x\)-intercept at \((0.5,0)\). The answer is \(x=0.5\).&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=0.5\) and \(x=1.5\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: This equation is best solved by graphing. Graph the equation \(y=(x&amp;minus;6)(x+5)+30.25\). There is one \(x\)-intercept at \((0.5,0)\). The answer is \(x=0.5\).&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -931,8 +912,8 @@
             <flags>0</flags>
             <timecreated>1666310942</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=1.5\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p&gt;Incorrect. Let’s try again a different way: This equation is best solved by graphing. Graph the equation \(y=(x−6)(x+5)+30.25\). There is one \(x\)-intercept at \((0.5,0)\). The answer is \(x=0.5\).&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=1.5\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: This equation is best solved by graphing. Graph the equation \(y=(x&amp;minus;6)(x+5)+30.25\). There is one \(x\)-intercept at \((0.5,0)\). The answer is \(x=0.5\).&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -945,8 +926,8 @@
             <flags>0</flags>
             <timecreated>1666310942</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -970,7 +951,7 @@
 &lt;p&gt;You have learned various strategies to solve quadratic equations in different forms. If possible, try to use reasoning before graphing an equation.&lt;/p&gt;
 &lt;p&gt;Let's look at some examples.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Using Reasoning and the Square Root Property&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Equations such as these can be solved by reasoning and using the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;square root property&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Equations such as these can be solved by reasoning and using the &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;square root property&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Example 1&lt;br&gt;
     \(x^2=81\) &lt;br&gt;
     \(x=9\) and \(x=-9\) &lt;/p&gt;
@@ -983,54 +964,54 @@
     \(x=2\) and \(x=-4\)&lt;/p&gt;
 &lt;p&gt;Each equation above is different in some way, but they all can be solved using the same process.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Using Reasoning and the Zero Product Property&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Equations such as these can be solved by reasoning and using the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;zero product property&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Equations such as these can be solved by reasoning and using the &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;zero product property&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Example 1&lt;br&gt;
-    \((x−4)(x+5)=0\)&lt;br&gt;
+    \((x&amp;minus;4)(x+5)=0\)&lt;br&gt;
     \(x=4\) and \(x=-5\)&lt;/p&gt;
 &lt;p&gt;Example 2&lt;br&gt;
     \((x+3)(2x+7)=0\)&lt;br&gt;
     \(x=-3\) and \(x=-72\)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Using Graphing to Solve&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Some equations might require graphing to be solved. One method is to rearrange the equation such that it is in the form of &lt;em&gt;expression&lt;/em&gt; \(= 0\). Then graph \(y\) = &lt;em&gt;expression&lt;/em&gt;, and find the \(x\)-intercepts to identify the solutions.&lt;/p&gt;
-&lt;p&gt;Given: \((x+2)(x−1)=4\)&lt;/p&gt;
+&lt;p&gt;Given: \((x+2)(x&amp;minus;1)=4\)&lt;/p&gt;
 &lt;p&gt;Step 1&lt;br&gt;
     Rewrite the equation to set it equal to 0.&lt;br&gt;
-    \((x+2)(x−1)−4=0\)&lt;/p&gt;
+    \((x+2)(x&amp;minus;1)&amp;minus;4=0\)&lt;/p&gt;
 &lt;p&gt;Step 2&lt;br&gt;
     Graph the equation with \(y\) = the expression that equals zero.&lt;br&gt;
-    Graph \(y=(x+2)(x−1)−4\).&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/90d204f34d4adb7110ea356ebca909d5638c2b25" alt="GRAPH OF A PARABOLA THAT OPENS UP AND PASSES THROUGH THE POINTS (NEGATIVE 3, 0) AND (2, 0)." width="481" height="481"&gt;&lt;/p&gt;
+    Graph \(y=(x+2)(x&amp;minus;1)&amp;minus;4\).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GRAPH OF A PARABOLA THAT OPENS UP AND PASSES THROUGH THE POINTS (NEGATIVE 3, 0) AND (2, 0)." height="481" src="https://k12.openstax.org/contents/raise/resources/90d204f34d4adb7110ea356ebca909d5638c2b25" width="481"&gt;&lt;/p&gt;
 &lt;p&gt;Step 3&lt;br&gt;
     Identify the \(x\)-intercepts from the graph.&lt;br&gt;
     This graph has two \(x\)-intercepts at \((-3,0)\) and \((2,0)\).&lt;/p&gt;
-&lt;p&gt;The original equation \((x+2)(x−1)=4\) has two solutions at \(x=-3\) and \(x=2\).&lt;/p&gt;
+&lt;p&gt;The original equation \((x+2)(x&amp;minus;1)=4\) has two solutions at \(x=-3\) and \(x=2\).&lt;/p&gt;
 &lt;h4&gt;Try It: Choosing an Effective Strategy to Solve Quadratic Equations&lt;/h4&gt;
 &lt;p&gt;Solve each equation using any method.&lt;/p&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent"&gt;
-            &lt;li&gt; \((x+1)^2+6=22\) &lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;ol start="2"&gt;
-            &lt;li&gt; \((x+3)(x−8)=0\) &lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt; \((x+1)^2+6=22\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt; \((x+3)(x&amp;minus;8)=0\) &lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Here is how to choose an effective strategy and use it to solve quadratic equations:&lt;/p&gt;
-    &lt;p&gt;Both of these can be solved using reasoning and your knowledge of properties.&lt;/p&gt;
-    &lt;ol class="os-raise-noindent"&gt;
-        &lt;li&gt;\((x+1)^2+6=22\) &lt;br&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Here is how to choose an effective strategy and use it to solve quadratic equations:&lt;/p&gt;
+&lt;p&gt;Both of these can be solved using reasoning and your knowledge of properties.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;\((x+1)^2+6=22\) &lt;br&gt;
             \((x+1)^2=16\)&lt;br&gt;
             \(x=-5\) and \(x=3\)&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;ol start="2"&gt;
-        &lt;li&gt;\((x+3)(x−8)=0\) &lt;br&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;\((x+3)(x&amp;minus;8)=0\) &lt;br&gt;
             \(x=-3\) and \(x=8\)&lt;/li&gt;
-    &lt;/ol&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
 &lt;br&gt;</contents>
         <contentsformat>1</contentsformat>
@@ -1080,76 +1061,75 @@
         <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;ol class="os-raise-noindent"&gt;
-      &lt;li&gt; Consider \((x−5)(x +1)=7\). Priya reasons that if this is true, then either \(x−5=7\) or \(x+1=7\). So, the solutions to the original equation are 12 and 6.&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;Do you agree? If not, where was the mistake in Priya’s reasoning?&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter whether you agree or disagree and your explanation.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Disagree. Priya solved the equation using the reasoning we would use with the zero product property, but the zero product property only works if the product of two factors is 0. We can tell that 12 isn’t a solution because \((12−5)(12+1)\) is 91, not 7.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt; Consider \((x&amp;minus;5)(x +1)=7\). Priya reasons that if this is true, then either \(x&amp;minus;5=7\) or \(x+1=7\). So, the solutions to the original equation are 12 and 6.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Do you agree? If not, where was the mistake in Priya&amp;rsquo;s reasoning?&lt;/p&gt;
 &lt;/div&gt;
-&lt;!--Interaction End --&gt; 
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter whether you agree or disagree and your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Disagree. Priya solved the equation using the reasoning we would use with the zero product property, but the zero product property only works if the product of two factors is 0. We can tell that 12 isn&amp;rsquo;t a solution because \((12&amp;minus;5)(12+1)\) is 91, not 7.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;ol class="os-raise-noindent" start="2"&gt;
-      &lt;li&gt;Consider \(x^2−10x=0\). Diego says that to solve we can just divide each side by \(x\) to get \(x−10=0\), so the solution is 10. Mai says, “I wrote the expression on the left in factored form, which gives \(x(x−10)=0\), and ended up with two solutions: 0 and 10.”&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;Do you agree with either strategy? Explain your reasoning.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter whether you agree or disagree and your explanation.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Agree with Mai’s strategy. By substituting 0 for \(x\) and then 10 for \(x\), you can see that they are both solutions to the original equation. Diego’s strategy of dividing by a variable eliminates one of the solutions, leaving only one solution.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;Consider \(x^2&amp;minus;10x=0\). Diego says that to solve we can just divide each side by \(x\) to get \(x&amp;minus;10=0\), so the solution is 10. Mai says, &amp;ldquo;I wrote the expression on the left in factored form, which gives \(x(x&amp;minus;10)=0\), and ended up with two solutions: 0 and 10.&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Do you agree with either strategy? Explain your reasoning.&lt;/p&gt;
 &lt;/div&gt;
-&lt;!--Interaction End --&gt; 
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter whether you agree or disagree and your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Agree with Mai&amp;rsquo;s strategy. By substituting 0 for \(x\) and then 10 for \(x\), you can see that they are both solutions to the original equation. Diego&amp;rsquo;s strategy of dividing by a variable eliminates one of the solutions, leaving only one solution.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;ol class="os-raise-noindent" start="3"&gt;
-      &lt;li&gt;Consider the equation \(x^2=-16\). Mona says that there are two solutions, \(x=4\) or \(x=-4\).&amp;nbsp;&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;Do you agree? If not, where was the mistake in Mona’s reasoning?&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter whether you agree or disagree and your explanation.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Disagree. There are no numbers we can square to get a negative product. The equation has no solutions.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;Consider the equation \(x^2=-16\). Mona says that there are two solutions, \(x=4\) or \(x=-4\).&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Do you agree? If not, where was the mistake in Mona&amp;rsquo;s reasoning?&lt;/p&gt;
 &lt;/div&gt;
-&lt;!--Interaction End --&gt; 
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter whether you agree or disagree and your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Disagree. There are no numbers we can square to get a negative product. The equation has no solutions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
 &lt;br&gt;
 &lt;!--Text Entry Interaction Start --&gt;
 &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-input-content"&gt;
-    &lt;ol class="os-raise-noindent" start="4"&gt;
-      &lt;li&gt;Consider the equation \((x−3)(x−3)=0\). Dominic says that there are two solutions, \(x=3\) or \(x=-3\).&amp;nbsp;&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;p&gt;Do you agree? If not, where was the mistake in Dominic’s reasoning?&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-prompt"&gt;
-    &lt;p&gt;Enter whether you agree or disagree and your explanation.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-input-ack"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;Disagree. Only 3 makes the equation true. The solution is \(x=3\).&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;Consider the equation \((x&amp;minus;3)(x&amp;minus;3)=0\). Dominic says that there are two solutions, \(x=3\) or \(x=-3\).&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Do you agree? If not, where was the mistake in Dominic&amp;rsquo;s reasoning?&lt;/p&gt;
 &lt;/div&gt;
-
-&lt;!--Interaction End --&gt; 
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter whether you agree or disagree and your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;Disagree. Only 3 makes the equation true. The solution is \(x=3\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
 &lt;br&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1198,190 +1178,188 @@
         <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
 &lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
 &lt;p&gt;For questions 1 and 2, decide whether each statement is true or false.&lt;/p&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
-
-    &lt;!--1--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="False" data-solution-options="[&amp;quot;True&amp;quot;, &amp;quot;False&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent"&gt;
-                &lt;li&gt;\(x(x−5)=0\) has only one solution.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.5.1. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is false. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--2--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="True" data-solution-options="[&amp;quot;True&amp;quot;, &amp;quot;False&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="2"&gt;
-                &lt;li&gt;A solution to \(x^2−49=0\) is \(x=-7\).&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 8.5.1 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is true. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--3--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Two solutions; \(x=-1\) and \(x=0\)" data-solution-options="[&amp;quot;No solution&amp;quot;, &amp;quot;One solution; \\(x=1\\)&amp;quot;, &amp;quot;Two solutions; \\(x=1\\) and \\(x=0\\)&amp;quot;, &amp;quot;Two solutions; \\(x=-1\\) and \\(x=0\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="3"&gt;
-                &lt;li&gt;Use graphing technology to determine the number of solutions for the equation \((x-4)(x+5)=−20\). Then find any solutions.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.5.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is two solutions; \(x=-1\) and \(x=0\). You seem to be stuck. Who can you ask for help?
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="2" data-schema-version="1.0"&gt;
+&lt;!--1--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="False" data-solution-options='["True", "False"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;\(x(x&amp;minus;5)=0\) has only one solution.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.5.1. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is false. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="True" data-solution-options='["True", "False"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;A solution to \(x^2&amp;minus;49=0\) is \(x=-7\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 8.5.1 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is true. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--3--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Two solutions; \(x=-1\) and \(x=0\)" data-solution-options='["No solution", "One solution; \\(x=1\\)", "Two solutions; \\(x=1\\) and \\(x=0\\)", "Two solutions; \\(x=-1\\) and \\(x=0\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;Use graphing technology to determine the number of solutions for the equation \((x-4)(x+5)=&amp;minus;20\). Then find any solutions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.5.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is two solutions; \(x=-1\) and \(x=0\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--4--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Two solutions; \(x=-3\) and \(x=-4\)" data-solution-options="[&amp;quot;No solution&amp;quot;, &amp;quot;Two solutions; \\(x=-3\\) and \\(x=4\\)&amp;quot;, &amp;quot;Two solutions; \\(x=-3\\) and \\(x=-4\\)&amp;quot;, &amp;quot;Two solutions; \\(x=3\\) and \\(x=4\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="4"&gt;
-                &lt;li&gt;Use graphing technology to determine the number of solutions for the equation \((x+2)(x+5)=−2\). Then find any solutions.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 8.5.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is two solutions; \(x=-3\) and \(x=-4\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--4--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Two solutions; \(x=-3\) and \(x=-4\)" data-solution-options='["No solution", "Two solutions; \\(x=-3\\) and \\(x=4\\)", "Two solutions; \\(x=-3\\) and \\(x=-4\\)", "Two solutions; \\(x=3\\) and \\(x=4\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;Use graphing technology to determine the number of solutions for the equation \((x+2)(x+5)=&amp;minus;2\). Then find any solutions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 8.5.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is two solutions; \(x=-3\) and \(x=-4\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--5--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=0\) and \(x=6\)" data-solution-options="[&amp;quot;\\(x=0\\) and \\(x=-6\\)&amp;quot;, &amp;quot;\\(x=6\\)&amp;quot;, &amp;quot;\\(x=0\\) and \\(x=6\\)&amp;quot;, &amp;quot;\\(x=6\\) and \\(x=-6\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;For questions 5–8, choose the best method to solve the equation and then use the method to find the solution.&lt;/p&gt;
-            &lt;ol class="os-raise-noindent" start="5"&gt;
-                &lt;li&gt;\(x(x−6)=0\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.5.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is \(x=0\) and \(x=6\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--5--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=0\) and \(x=6\)" data-solution-options='["\\(x=0\\) and \\(x=-6\\)", "\\(x=6\\)", "\\(x=0\\) and \\(x=6\\)", "\\(x=6\\) and \\(x=-6\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;For questions 5&amp;ndash;8, choose the best method to solve the equation and then use the method to find the solution.&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+&lt;li&gt;\(x(x&amp;minus;6)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.5.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is \(x=0\) and \(x=6\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--6--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=12\) and \(x=-4\)" data-solution-options="[&amp;quot;\\(x=-4\\) and \\(x=4\\)&amp;quot;, &amp;quot;\\(x=-12\\) and \\(x=4\\)&amp;quot;, &amp;quot;\\(x=-8\\) and \\(x=8\\)&amp;quot;, &amp;quot;\\(x=12\\) and \\(x=-4\\)&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="6"&gt;
-                &lt;li&gt;\(\frac {1}{2}(x−4)^2=32\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 8.5.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is \(x=12\) and \(x=-4\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--6--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=12\) and \(x=-4\)" data-solution-options='["\\(x=-4\\) and \\(x=4\\)", "\\(x=-12\\) and \\(x=4\\)", "\\(x=-8\\) and \\(x=8\\)", "\\(x=12\\) and \\(x=-4\\)"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="6"&gt;
+&lt;li&gt;\(\frac {1}{2}(x&amp;minus;4)^2=32\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 8.5.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is \(x=12\) and \(x=-4\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--7--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=-6\) and \(x=1\)" data-solution-options="[&amp;quot;\\(x=-7\\) and \\(x=2\\)&amp;quot;, &amp;quot;\\(x=-8\\) and \\(x=-1\\)&amp;quot;, &amp;quot;\\(x=-6\\) and \\(x=1\\)&amp;quot;, &amp;quot;No solutions&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="7"&gt;
-                &lt;li&gt;\((x+7)(x−2)=−8\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.5.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is \(x=-6\) and \(x=1\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--7--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=-6\) and \(x=1\)" data-solution-options='["\\(x=-7\\) and \\(x=2\\)", "\\(x=-8\\) and \\(x=-1\\)", "\\(x=-6\\) and \\(x=1\\)", "No solutions"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="7"&gt;
+&lt;li&gt;\((x+7)(x&amp;minus;2)=&amp;minus;8\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.5.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is \(x=-6\) and \(x=1\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--8--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=-2.5\)" data-solution-options="[&amp;quot;\\(x=-2.5\\)&amp;quot;, &amp;quot;\\(x=-3\\) and \\(x=-2\\)&amp;quot;, &amp;quot;\\(x=-5\\) and \\(x=-1\\)&amp;quot;, &amp;quot;No solutions&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="8"&gt;
-                &lt;li&gt;\((x−4)(x+9)=−42.25\)&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 8.5.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is \(x=-2.5\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--8--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=-2.5\)" data-solution-options='["\\(x=-2.5\\)", "\\(x=-3\\) and \\(x=-2\\)", "\\(x=-5\\) and \\(x=-1\\)", "No solutions"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="8"&gt;
+&lt;li&gt;\((x&amp;minus;4)(x+9)=&amp;minus;42.25\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 8.5.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is \(x=-2.5\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--9--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The equation has no solutions." data-solution-options="[&amp;quot;The solutions are \\(x=0\\) and \\(x=6\\).&amp;quot;, &amp;quot;The solution is \\(x=6\\).&amp;quot;, &amp;quot;The solutions are \\(x=6\\) and \\(x=-6\\).&amp;quot;, &amp;quot;The equation has no solutions.&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="9"&gt;
-                &lt;li&gt;Which statement is true of the equation \(x^2+36=0\)?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.5.4. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is the equation has no solutions. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--10---&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The solutions are \(x=0\) and \(x=-9\)." data-solution-options="[&amp;quot;The solution is \\(x=-9\\).&amp;quot;, &amp;quot;The solutions are \\(x=0\\) and \\(x=-9\\).&amp;quot;, &amp;quot;The solutions are \\(x=9\\) and \\(x=-9\\).&amp;quot;, &amp;quot;The equation has no solutions.&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="10"&gt;
-                &lt;li&gt;Which statement is true of the equation \(x^2+9x=0\)?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Why don’t you go back to activity 8.5.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is the solutions are \(x=0\) and \(x=-9\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--9--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The equation has no solutions." data-solution-options='["The solutions are \\(x=0\\) and \\(x=6\\).", "The solution is \\(x=6\\).", "The solutions are \\(x=6\\) and \\(x=-6\\).", "The equation has no solutions."]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="9"&gt;
+&lt;li&gt;Which statement is true of the equation \(x^2+36=0\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.5.4. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is the equation has no solutions. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--10---&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The solutions are \(x=0\) and \(x=-9\)." data-solution-options='["The solution is \\(x=-9\\).", "The solutions are \\(x=0\\) and \\(x=-9\\).", "The solutions are \\(x=9\\) and \\(x=-9\\).", "The equation has no solutions."]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="10"&gt;
+&lt;li&gt;Which statement is true of the equation \(x^2+9x=0\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Why don&amp;rsquo;t you go back to activity 8.5.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is the solutions are \(x=0\) and \(x=-9\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--Do not edit below this line--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Do not edit below this line--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1429,59 +1407,57 @@
         <title>8.5.6: Lesson Summary</title>
         <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; Explain why dividing by a variable to solve a quadratic equation is not a good strategy. &lt;/li&gt;
-  &lt;li&gt; Explain why quadratic equations can have no solutions and explain why there are none. &lt;/li&gt;
+&lt;li&gt; Explain why dividing by a variable to solve a quadratic equation is not a good strategy. &lt;/li&gt;
+&lt;li&gt; Explain why quadratic equations can have no solutions and explain why there are none. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 8.5.1: Reviewing Zero Product Property &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you reviewed how the zero product property allows you to find solutions to quadratic equations in which an expression of factors is set equal to 0. &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 8.5.2: Interpreting Graphs to Solve Quadratic Equations &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you learned how to use technology to graph quadratic equations and interpret those graphs to find solutions. &lt;/li&gt;
-    &lt;li&gt; 8.5.2: Self Check &lt;/li&gt;
-    &lt;li&gt; 8.5.2: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 8.5.3: Choosing an Effective Strategy to Solve Quadratic Equations &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you practiced solving quadratic equations without any outside context about the best strategy to use. &lt;/li&gt;
-    &lt;li&gt; 8.5.3: Self Check &lt;/li&gt;
-    &lt;li&gt; 8.5.3: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 8.5.4: Analyzing Errors When Solving Quadratic Equations &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; In this activity, you learned to watch out for common errors made when solving quadratic equations. This includes not taking the square root of a negative number and accurately determining how many solutions an equation might have. &lt;/li&gt;
-  &lt;/ul&gt;
+&lt;li&gt; 8.5.1: Reviewing Zero Product Property &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you reviewed how the zero product property allows you to find solutions to quadratic equations in which an expression of factors is set equal to 0. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 8.5.2: Interpreting Graphs to Solve Quadratic Equations &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you learned how to use technology to graph quadratic equations and interpret those graphs to find solutions. &lt;/li&gt;
+&lt;li&gt; 8.5.2: Self Check &lt;/li&gt;
+&lt;li&gt; 8.5.2: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 8.5.3: Choosing an Effective Strategy to Solve Quadratic Equations &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you practiced solving quadratic equations without any outside context about the best strategy to use. &lt;/li&gt;
+&lt;li&gt; 8.5.3: Self Check &lt;/li&gt;
+&lt;li&gt; 8.5.3: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 8.5.4: Analyzing Errors When Solving Quadratic Equations &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; In this activity, you learned to watch out for common errors made when solving quadratic equations. This includes not taking the square root of a negative number and accurately determining how many solutions an equation might have. &lt;/li&gt;
+&lt;/ul&gt;
 &lt;/ul&gt;
 &lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-  &lt;li&gt; 8.5.5: Practice &lt;/li&gt;
+&lt;li&gt; 8.5.5: Practice &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Checking In&lt;/h4&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
-  
-  &lt;!--pulldown--&gt;
-  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
-    &lt;div class="os-raise-ib-pset-problem-content"&gt;
-      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-      &lt;p&gt;Correct!&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  
-  &lt;!--Do not edit below line.--&gt;
-  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
-    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Submit" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--pulldown--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution data-solution-options='["1 - I&amp;rsquo;m totally lost!", "2 - I could use some more help.", "3 - I mostly understand.", "4 - I can do it.","5 - I&amp;rsquo;ve got this!"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;If you&amp;rsquo;ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>

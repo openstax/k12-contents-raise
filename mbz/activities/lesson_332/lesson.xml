@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="251" moduleid="332" modulename="lesson" contextid="343">
   <lesson id="251">
     <course>2</course>
     <name>Lesson 9.10: Deriving the Quadratic Formula</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>0</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -56,27 +56,27 @@
         <contents>&lt;p&gt;In this lesson, you will again be working with the quadratic formula. You will begin to analyze how it produces solutions to any quadratic equation and how it relates to completing the square.&lt;/p&gt;
 &lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt; Explain the steps and complete some missing steps for deriving the quadratic formula. &lt;/li&gt;
-  &lt;li&gt; Explain how the quadratic formula is related to the process of completing the square for a quadratic equation \(ax^2+bx+c=0\). &lt;/li&gt;
+&lt;li&gt; Explain the steps and complete some missing steps for deriving the quadratic formula. &lt;/li&gt;
+&lt;li&gt; Explain how the quadratic formula is related to the process of completing the square for a quadratic equation \(ax^2+bx+c=0\). &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt; 9.10.1: Deriving the Quadratic Formula, Part 1 &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; 9.10.1: Self Check &lt;/li&gt;
-    &lt;li&gt; 9.10.1: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.10.2: Deriving the Quadratic Formula, Part 2 &lt;/li&gt;
-  &lt;ul&gt;
-    &lt;li&gt; 9.10.2: Self Check &lt;/li&gt;
-    &lt;li&gt; 9.10.2: Additional Resources &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;li&gt; 9.10.3: Understanding That the Quadratic Formula Is the Combined Steps of Completing the Square &lt;/li&gt;
+&lt;li&gt; 9.10.1: Deriving the Quadratic Formula, Part 1 &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; 9.10.1: Self Check &lt;/li&gt;
+&lt;li&gt; 9.10.1: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.10.2: Deriving the Quadratic Formula, Part 2 &lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt; 9.10.2: Self Check &lt;/li&gt;
+&lt;li&gt; 9.10.2: Additional Resources &lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt; 9.10.3: Understanding That the Quadratic Formula Is the Combined Steps of Completing the Square &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;After that, you'll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt; 9.10.4: Practice &lt;/li&gt;
-  &lt;li&gt; 9.10.5: Lesson Summary &lt;/li&gt;
+&lt;li&gt; 9.10.4: Practice &lt;/li&gt;
+&lt;li&gt; 9.10.5: Lesson Summary &lt;/li&gt;
 &lt;/ul&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -110,89 +110,89 @@
         <title>9.10.1: Deriving the Quadratic Formula, Part 1</title>
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol class="os-raise-noindent"&gt;
-            &lt;li&gt;One way to solve the quadratic equation \(x^2+5x+3=0\) is by &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;completing the square&lt;/span&gt;. A partially solved equation is shown here. Study Steps 1–4.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;Then, knowing that \(P\) is a placeholder for \(2x\), continue to solve for \( x\) but without evaluating any part of the expression. Be prepared to explain Steps 5–11.&lt;/p&gt;
-        &lt;p&gt;Original equation&lt;br&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;One way to solve the quadratic equation \(x^2+5x+3=0\) is by &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;completing the square&lt;/span&gt;. A partially solved equation is shown here. Study Steps 1&amp;ndash;4.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Then, knowing that \(P\) is a placeholder for \(2x\), continue to solve for \( x\) but without evaluating any part of the expression. Be prepared to explain Steps 5&amp;ndash;11.&lt;/p&gt;
+&lt;p&gt;Original equation&lt;br&gt;
             \(x^2+5x+3=0\)&lt;/p&gt;
-        &lt;p&gt;Step 1&lt;br&gt;
+&lt;p&gt;Step 1&lt;br&gt;
             Multiply each side by 4. This helps us avoid some tricky fractions. (In general, multiply each side of the equation by 4 times the coefficient of the \(x^2\) term. In this case, that is just 4 times 1, which is 4.)&lt;br&gt;
             \(4x^2+20x+12=0\)&lt;/p&gt;
-        &lt;p&gt;Step 2&lt;br&gt;
+&lt;p&gt;Step 2&lt;br&gt;
             Subtract 12 from each side.&lt;br&gt;
             \(4x^2+20x=-12\)&lt;/p&gt;
-        &lt;p&gt;Step 3&lt;br&gt;
+&lt;p&gt;Step 3&lt;br&gt;
             Rewrite \(4x^2\) as \((2x)^2\) and \(20x\) as \(10(2x)\).&lt;br&gt;
             \((2x)^2+10(2x)=-12\)&lt;/p&gt;
-        &lt;p&gt;Step 4&lt;br&gt;
+&lt;p&gt;Step 4&lt;br&gt;
             Use \(P\) as a placeholder for \(2x\).&lt;br&gt;
             \(P^2+10P=-12\)&lt;/p&gt;
-        &lt;p&gt;Step 5&lt;br&gt;
+&lt;p&gt;Step 5&lt;br&gt;
             \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
             \(P^2+10P+\_\_\_\_^2=-12+\_\_\_\_^2\)&lt;/p&gt;
-        &lt;p&gt;Step 6&lt;br&gt;
+&lt;p&gt;Step 6&lt;br&gt;
             \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
             \((P+\_\_\_\_)^2=-12+\_\_\_\_^2\)&lt;/p&gt;
-        &lt;p&gt;Step 7&lt;br&gt;
+&lt;p&gt;Step 7&lt;br&gt;
             \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
             \(P+\_\_\_\_= \pm \sqrt{-12+\_\_\_\_^2}\)&lt;/p&gt;
-        &lt;p&gt;Step 8&lt;br&gt;
+&lt;p&gt;Step 8&lt;br&gt;
             \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
             \(P=\_\_\_\_ \pm \sqrt{-12+\_\_\_\_^2}\)&lt;/p&gt;
-        &lt;p&gt;Step 9&lt;br&gt;
+&lt;p&gt;Step 9&lt;br&gt;
             \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
             \(P=\_\_\_\_ \pm \sqrt{\_\_\_\_^2-12}\)&lt;/p&gt;
-        &lt;p&gt;Step 10&lt;br&gt;
+&lt;p&gt;Step 10&lt;br&gt;
             \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
             \(2x=\_\_\_\_ \pm \sqrt {\_\_\_\_^2-12}\)&lt;/p&gt;
-        &lt;p&gt;Step 11&lt;br&gt;
+&lt;p&gt;Step 11&lt;br&gt;
             \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
             \(x=\)&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt; Step 5&lt;br&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; Step 5&lt;br&gt;
         Add to complete the square.&lt;br&gt;
         \(P^2+10P+5^2=-12+5^2\)&lt;/p&gt;
-    &lt;p&gt;Step 6&lt;br&gt;
+&lt;p&gt;Step 6&lt;br&gt;
         Write the left side as a squared factor.&lt;br&gt;
         \((P+5)^2=-12+5^2\)&lt;/p&gt;
-    &lt;p&gt;Step 7&lt;br&gt;
+&lt;p&gt;Step 7&lt;br&gt;
         Find the square root of the expression on the right.&lt;br&gt;
         \(P+5= \pm \sqrt {-12+5^2}\)&lt;/p&gt;
-    &lt;p&gt;Step 8&lt;br&gt;
+&lt;p&gt;Step 8&lt;br&gt;
         Subtract 5 from both sides to isolate.&lt;br&gt;
         \(P=-5 \pm \sqrt {-12+5^2}\)&lt;/p&gt;
-    &lt;p&gt;Step 9&lt;br&gt;
+&lt;p&gt;Step 9&lt;br&gt;
         Rearrange the expression under the square root sign.&lt;br&gt;
         \(P=-5 \pm \sqrt {5^2-12}\)&lt;/p&gt;
-    &lt;p&gt;Step 10&lt;br&gt;
+&lt;p&gt;Step 10&lt;br&gt;
         Re-substitute \(2x\) for \(P\).&lt;br&gt;
         \(2x=-5 \pm \sqrt {5^2-12}\)&lt;/p&gt;
-    &lt;p&gt;Step 11&lt;br&gt;
+&lt;p&gt;Step 11&lt;br&gt;
         Divide each side by 2 to isolate \(x\).&lt;br&gt;
         \(x=\frac{-5 \pm \sqrt{5^2-12}}{2}\) &lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;ol start="2" class="os-raise-noindent"&gt;
-            &lt;li&gt;Explain how the solution is related to the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;quadratic formula&lt;/span&gt;.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;Explain how the solution is related to the &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;quadratic formula&lt;/span&gt;.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt;The numbers in the solution are the values of \(a\), \(b\), and \(c\) in the original equation, \(x^2+5x+3=0\), which is in the form of \(ax^2+bx+c=0\). The -5 is \(-b\). The \(5^2\) is \(b^2\). The 12, which is \(4(3)(1)\), is the value of \(4ac\). The \(a\) in the original equation is 1, and \(2(1)\) is 2, which is the number in the denominator in the solution.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;The numbers in the solution are the values of \(a\), \(b\), and \(c\) in the original equation, \(x^2+5x+3=0\), which is in the form of \(ax^2+bx+c=0\). The -5 is \(-b\). The \(5^2\) is \(b^2\). The 12, which is \(4(3)(1)\), is the value of \(4ac\). The \(a\) in the original equation is 1, and \(2(1)\) is 2, which is the number in the denominator in the solution.&lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -239,9 +239,9 @@
         <timemodified>1667471120</timemodified>
         <title>9.10.1: Self Check</title>
         <contents>&lt;p&gt;After completing the square, Odem used the following steps when deriving the quadratic formula.&lt;/p&gt;
-        &lt;p&gt;\(x^2+8x+16= -11+16\)&lt;br&gt;
+&lt;p&gt;\(x^2+8x+16= -11+16\)&lt;br&gt;
           \(x^2+8x+16=5\)&lt;/p&gt;
-        &lt;p&gt;What should he do next?&lt;/p&gt;</contents>
+&lt;p&gt;What should he do next?&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="5133">
@@ -251,8 +251,8 @@
             <flags>0</flags>
             <timecreated>1667469051</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Subtract 16 from both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: The 16 was just added in to create the perfect square. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;Subtract 16 from both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The 16 was just added in to create the perfect square. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -265,8 +265,8 @@
             <flags>0</flags>
             <timecreated>1667469051</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Take the square root of both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: The trinomial must be factored before taking the square root. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;Take the square root of both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The trinomial must be factored before taking the square root. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -279,8 +279,8 @@
             <flags>0</flags>
             <timecreated>1667469051</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That's correct! Check yourself: After completing the square and adding the new value to both sides, factor the trinomial.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;Factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: After completing the square and adding the new value to both sides, factor the trinomial.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -293,8 +293,8 @@
             <flags>0</flags>
             <timecreated>1667469051</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Complete the square again.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: The square only needs to be completed once to create a perfect square trinomial. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;Complete the square again.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The square only needs to be completed once to create a perfect square trinomial. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -307,8 +307,8 @@
             <flags>0</flags>
             <timecreated>1667469051</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -329,7 +329,7 @@
         <timemodified>1667961452</timemodified>
         <title>9.10.1: Additional Resources </title>
         <contents>&lt;h4&gt;Deriving the Quadratic Formula Using an Example&lt;/h4&gt;
-&lt;p&gt;Here is another example that goes through the process of deriving the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;quadratic formula&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;Here is another example that goes through the process of deriving the &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;quadratic formula&lt;/span&gt;:&lt;/p&gt;
 &lt;p&gt;Original equation&lt;br&gt;
     \(x^2+7x+4=0\)&lt;/p&gt;
 &lt;p&gt;Step 1&lt;br&gt;
@@ -369,19 +369,19 @@
 &lt;p&gt;Notice the original equation, \(y=x^2+7x+4\), has \(a=1\), \(b=7\), \(c=4\), and the last step is of the form \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\), which is the quadratic formula.&lt;/p&gt;
 &lt;h4&gt;Try It: Deriving the Quadratic Formula Using an Example&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;Jaiden was deriving the quadratic formula from the quadratic \(x^2+11x+5=0\). What is the step after the step shown below?&lt;/p&gt;
-        &lt;p&gt;\((x+\frac{11}{2})^2=\frac{11^2-4(1)(5)}{4(1)}\)&lt;/p&gt;
-        &lt;p&gt;\((x+\frac{11}{2})^2=\frac{121-20}{4}\)&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;Jaiden was deriving the quadratic formula from the quadratic \(x^2+11x+5=0\). What is the step after the step shown below?&lt;/p&gt;
+&lt;p&gt;\((x+\frac{11}{2})^2=\frac{11^2-4(1)(5)}{4(1)}\)&lt;/p&gt;
+&lt;p&gt;\((x+\frac{11}{2})^2=\frac{121-20}{4}\)&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Here is how to find the next step:&lt;/p&gt;
-    &lt;p&gt;To isolate \(x\), take the square root of both sides:&lt;/p&gt;
-    &lt;p&gt;\(\sqrt{(x+\frac{11}{2})^2}=\sqrt{\frac{121-20}{4}}\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Here is how to find the next step:&lt;/p&gt;
+&lt;p&gt;To isolate \(x\), take the square root of both sides:&lt;/p&gt;
+&lt;p&gt;\(\sqrt{(x+\frac{11}{2})^2}=\sqrt{\frac{121-20}{4}}\)&lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -429,288 +429,275 @@
         <title>9.10.2: Deriving the Quadratic Formula, Part 2</title>
         <contents>&lt;h4&gt;Activity&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;Here is one way to make sense of how the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;quadratic formula&lt;/span&gt; came about. Study the derivation until you can explain what happened in each step. Write down your explanation for each step.&lt;/p&gt;
-        &lt;p&gt;Original equation&lt;br&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;Here is one way to make sense of how the &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;quadratic formula&lt;/span&gt; came about. Study the derivation until you can explain what happened in each step. Write down your explanation for each step.&lt;/p&gt;
+&lt;p&gt;Original equation&lt;br&gt;
             \(ax^2+bx+c=0\)&lt;/p&gt;
-        &lt;p&gt;Step 1&lt;br&gt;
+&lt;p&gt;Step 1&lt;br&gt;
             \(4a^2x^2+4abx+4ac=0\)&lt;/p&gt;
-        &lt;p&gt;Step 2&lt;br&gt;
+&lt;p&gt;Step 2&lt;br&gt;
             \(4a^2x^2+4abx=-4ac\)&lt;/p&gt;
-        &lt;p&gt;Step 3&lt;br&gt;
+&lt;p&gt;Step 3&lt;br&gt;
             \((2ax)^2+2b(2ax)=-4ac\)&lt;/p&gt;
-        &lt;p&gt;Step 4&lt;br&gt;
+&lt;p&gt;Step 4&lt;br&gt;
             \(M^2+2bM=-4ac\)&lt;/p&gt;
-        &lt;p&gt;Step 5&lt;br&gt;
+&lt;p&gt;Step 5&lt;br&gt;
             \(M^2+2bM+b^2=-4ac+b^2\)&lt;/p&gt;
-        &lt;p&gt;Step 6&lt;br&gt;
+&lt;p&gt;Step 6&lt;br&gt;
             \((M+b)^2=b^2-4ac\)&lt;/p&gt;
-        &lt;p&gt;Step 7&lt;br&gt;
+&lt;p&gt;Step 7&lt;br&gt;
             \(M+b= \pm \sqrt{b^2-4ac}\)&lt;/p&gt;
-        &lt;p&gt;Step 8&lt;br&gt;
+&lt;p&gt;Step 8&lt;br&gt;
             \(M=-b \pm \sqrt{b^2-4ac}\)&lt;/p&gt;
-        &lt;p&gt;Step 9&lt;br&gt;
+&lt;p&gt;Step 9&lt;br&gt;
             \(2ax=-b \pm \sqrt{b^2-4ac}\)&lt;/p&gt;
-        &lt;p&gt;Step 10&lt;br&gt;
+&lt;p&gt;Step 10&lt;br&gt;
             \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\)&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Compare your answer:&lt;/p&gt;
-    &lt;p&gt; Original equation&lt;br&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; Original equation&lt;br&gt;
         \(ax^2+bx+c=0\)&lt;/p&gt;
-    &lt;p&gt;Step 1&lt;br&gt;
-        Multiply by \(4a\) so the coefficient of \(x^2\) is a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;perfect square&lt;/span&gt;.&lt;br&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+        Multiply by \(4a\) so the coefficient of \(x^2\) is a &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;perfect square&lt;/span&gt;.&lt;br&gt;
         \(4a^2x^2+4abx+4ac=0\)&lt;/p&gt;
-    &lt;p&gt;Step 2&lt;br&gt;
+&lt;p&gt;Step 2&lt;br&gt;
         Isolate the constant term to the right.&lt;br&gt;
         \(4a^2x^2+4abx=-4ac\)&lt;/p&gt;
-    &lt;p&gt;Step 3&lt;br&gt;
+&lt;p&gt;Step 3&lt;br&gt;
         Write the squared term as (something)\(^2\).&lt;br&gt;
         Write the linear term as \(2b \;\cdot\) (something).&lt;br&gt;
         \((2ax)^2+2b(2ax)=-4ac\)&lt;/p&gt;
-    &lt;p&gt;Step 4&lt;br&gt;
+&lt;p&gt;Step 4&lt;br&gt;
         Use \(M\) as the placeholder for \(2ax\).&lt;br&gt;
         \(M^2+2bM=-4ac\)&lt;/p&gt;
-    &lt;p&gt;Step 5&lt;br&gt;
+&lt;p&gt;Step 5&lt;br&gt;
         Add \(b^2\) to complete the square.&lt;br&gt;
         \(M^2+2bM+b^2=-4ac+b^2\)&lt;/p&gt;
-    &lt;p&gt;Step 6&lt;br&gt;
+&lt;p&gt;Step 6&lt;br&gt;
         Write the left side as a squared factor and commute the terms on the right.&lt;br&gt;
         \((M+b)^2=b^2-4ac\)&lt;/p&gt;
-    &lt;p&gt;Step 7&lt;br&gt;
+&lt;p&gt;Step 7&lt;br&gt;
         Find the square roots of the expression on the right.&lt;br&gt;
         \(M+b= \pm \sqrt{b^2-4ac}\)&lt;/p&gt;
-    &lt;p&gt;Step 8&lt;br&gt;
+&lt;p&gt;Step 8&lt;br&gt;
         Subtract \(b\) to isolate \(M\).&lt;br&gt;
         \(M=-b \pm \sqrt{b^2-4ac}\)&lt;/p&gt;
-    &lt;p&gt;Step 9&lt;br&gt;
+&lt;p&gt;Step 9&lt;br&gt;
         Replace \(M\) with \(2ax\).&lt;br&gt;
         \(2ax=-b \pm \sqrt{b^2-4ac}\)&lt;/p&gt;
-    &lt;p&gt;Step 10&lt;br&gt;
+&lt;p&gt;Step 10&lt;br&gt;
         Divide both sides by \(2a\) to isolate \(x\).&lt;br&gt;
         \(x= \frac{-b \pm \sqrt{b^2-4ac}}{2a}\)&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
-
 &lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
 &lt;/div&gt;
-
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
-        &lt;p&gt;Here is another way to derive the quadratic formula by &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;completing the square&lt;/span&gt;.&lt;/p&gt;
-        &lt;ul class="os-raise-indent"&gt;
-            &lt;li&gt; First, divide each side of the equation \(ax^2+bx+c=0\) by \(a\) to get \(x^2+\frac{b}{a}x+\frac{c}{a}=0\). &lt;/li&gt;
-            &lt;li&gt; Then, complete the square for \(x^2+\frac{b}{a}x+\frac{c}{a}=0\). &lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;In problems 1–10, briefly explain what happens in each step by answering the question.&lt;/p&gt;
-        &lt;p&gt;Original equation&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+&lt;p&gt;Here is another way to derive the quadratic formula by &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;completing the square&lt;/span&gt;.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+&lt;li&gt; First, divide each side of the equation \(ax^2+bx+c=0\) by \(a\) to get \(x^2+\frac{b}{a}x+\frac{c}{a}=0\). &lt;/li&gt;
+&lt;li&gt; Then, complete the square for \(x^2+\frac{b}{a}x+\frac{c}{a}=0\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In problems 1&amp;ndash;10, briefly explain what happens in each step by answering the question.&lt;/p&gt;
+&lt;p&gt;Original equation&lt;br&gt;
             \(x^2+\frac{b}{a}x+\frac{c}{a}=0\)&lt;/p&gt;
-        &lt;ol class="os-raise-noindent"&gt;
-            &lt;li&gt;Step 1&lt;br&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;Step 1&lt;br&gt;
                 What constant should be subtracted from both sides?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the constant.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt;\(-\frac{c}{a}\)&lt;/p&gt;
-        &lt;p&gt;Now the equation looks like&lt;/p&gt;
-        &lt;p&gt;\(x^2+\frac{b}{a}x= -\frac{c}{a}\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the constant.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(-\frac{c}{a}\)&lt;/p&gt;
+&lt;p&gt;Now the equation looks like&lt;/p&gt;
+&lt;p&gt;\(x^2+\frac{b}{a}x= -\frac{c}{a}\).&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol start="2" class="os-raise-noindent"&gt;
-            &lt;li&gt;Step 2&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;Step 2&lt;br&gt;
                 What constant do we need to add to both sides to complete the square?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the constant.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt; \((\frac{b}{2a})^2\)&lt;/p&gt;
-        &lt;p&gt;To complete the square, we add it to both sides. Now the equation looks like&lt;/p&gt;
-        &lt;p&gt;\(x^2+2(\frac{b}{2a})x+(\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the constant.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; \((\frac{b}{2a})^2\)&lt;/p&gt;
+&lt;p&gt;To complete the square, we add it to both sides. Now the equation looks like&lt;/p&gt;
+&lt;p&gt;\(x^2+2(\frac{b}{2a})x+(\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol start="3" class="os-raise-noindent"&gt;
-            &lt;li&gt;Step 3&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;Step 3&lt;br&gt;
                 Now we can complete the square. What is the binomial that is squared on the left side?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the binomial.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt; \(x+\frac{b}{2a}\)&lt;/p&gt;
-        &lt;p&gt;Now the equation looks like&lt;br&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the binomial.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; \(x+\frac{b}{2a}\)&lt;/p&gt;
+&lt;p&gt;Now the equation looks like&lt;br&gt;
             \((x+\frac{b}{2a})^2= -\frac{c}{a}+\frac{b^2}{4a^2}\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol start="4" class="os-raise-noindent"&gt;
-            &lt;li&gt;Step 4&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+&lt;li&gt;Step 4&lt;br&gt;
                 Next, we add the fractions on the right side of the equation. What will the common denominator be?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the common denominator.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt; The common denominator will be \(4a^2\).&lt;/p&gt;
-        &lt;p&gt;Now the equation looks like &lt;br&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the common denominator.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; The common denominator will be \(4a^2\).&lt;/p&gt;
+&lt;p&gt;Now the equation looks like &lt;br&gt;
             \((x+\frac{b}{2a})^2= -\frac{4ac}{4a^2}+\frac{b^2}{4a^2}\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol start="5" class="os-raise-noindent"&gt;
-            &lt;li&gt;Step 5&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+&lt;li&gt;Step 5&lt;br&gt;
                 Once the fractions on the right side of the equation are added together, what will the numerator of that new fraction be?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the numerator.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt; \(b^2-4ac\)&lt;/p&gt;
-        &lt;p&gt;Now the equation looks like&lt;br&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the numerator.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; \(b^2-4ac\)&lt;/p&gt;
+&lt;p&gt;Now the equation looks like&lt;br&gt;
             \((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol start="6" class="os-raise-noindent"&gt;
-            &lt;li&gt;Step 6&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="6"&gt;
+&lt;li&gt;Step 6&lt;br&gt;
                 What is the next step necessary to isolate \(x\) on the left side?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the next step.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt; Take the square root of both sides.&lt;/p&gt;
-        &lt;p&gt;Remember to put the \(\pm\) in front of the radical! Now the equation looks like&lt;br&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the next step.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; Take the square root of both sides.&lt;/p&gt;
+&lt;p&gt;Remember to put the \(\pm\) in front of the radical! Now the equation looks like&lt;br&gt;
             \(x+\frac{b}{2a}= \pm \sqrt{\frac{b^2-4ac}{4a^2}}\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol start="7" class="os-raise-noindent"&gt;
-            &lt;li&gt;Step 7&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="7"&gt;
+&lt;li&gt;Step 7&lt;br&gt;
                 How can the square root be simplified?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your explanation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt; The square root of a fraction is the square root of the numerator divided by the square root of the denominator.&lt;/p&gt;
-        &lt;p&gt;\(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{\sqrt{4a^2}}\)&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your explanation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; The square root of a fraction is the square root of the numerator divided by the square root of the denominator.&lt;/p&gt;
+&lt;p&gt;\(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{\sqrt{4a^2}}\)&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol start="8" class="os-raise-noindent"&gt;
-            &lt;li&gt;Step 8&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="8"&gt;
+&lt;li&gt;Step 8&lt;br&gt;
                 What is the denominator of the fraction on the right side after simplification?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the denominator.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt; \(2a\)&lt;/p&gt;
-        &lt;p&gt;Now the equation looks like&lt;br&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the denominator.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; \(2a\)&lt;/p&gt;
+&lt;p&gt;Now the equation looks like&lt;br&gt;
             \(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{2a}\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol start="9" class="os-raise-noindent"&gt;
-            &lt;li&gt;Step 9&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="9"&gt;
+&lt;li&gt;Step 9&lt;br&gt;
                 What is the next step I need to take to isolate \(x\) on the left side of the equation?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter the next step.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt; Subtract \(\frac{b}{2a}\) from both sides.&lt;/p&gt;
-        &lt;p&gt;Now the equation looks like&lt;br&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter the next step.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; Subtract \(\frac{b}{2a}\) from both sides.&lt;/p&gt;
+&lt;p&gt;Now the equation looks like&lt;br&gt;
             \(x=-\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{2a}\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
-
-&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-input-content"&gt;
-        &lt;ol start="10" class="os-raise-noindent"&gt;
-            &lt;li&gt;Step 10&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-schema-version="1.0" data-wait-for-event="RFM1"&gt;
+&lt;div class="os-raise-ib-input-content"&gt;
+&lt;ol class="os-raise-noindent" start="10"&gt;
+&lt;li&gt;Step 10&lt;br&gt;
                 What do you notice about the denominator of both fractions on the right side?&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-prompt"&gt;
-        &lt;p&gt;Enter your observation.&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-input-ack"&gt;
-        &lt;p&gt;Compare your answer:&lt;/p&gt;
-        &lt;p&gt; They are the same.&lt;/p&gt;
-        &lt;p&gt;Add the fractions, and we come to the result: the quadratic equation,&lt;br&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-prompt"&gt;
+&lt;p&gt;Enter your observation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input-ack"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt; They are the same.&lt;/p&gt;
+&lt;p&gt;Add the fractions, and we come to the result: the quadratic equation,&lt;br&gt;
             \(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\).&lt;/p&gt;
-    &lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End interaction--&gt;
-
 &lt;h4&gt;Video: Deriving the Quadratic Formula&lt;/h4&gt;
 &lt;p&gt;Watch the following video to learn more about deriving the quadratic formula.&lt;/p&gt;
 &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
-    &lt;source src="https://k12.openstax.org/contents/raise/resources/cdad89b7a5ee8c0eacfcbd8a970217904f3ade81"&gt;
-    &lt;track src="https://k12.openstax.org/contents/raise/resources/6ec76f5afd8dbde06ee28e7830f449ee7b34de24" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/cdad89b7a5ee8c0eacfcbd8a970217904f3ade81
+&lt;source src="https://k12.openstax.org/contents/raise/resources/cdad89b7a5ee8c0eacfcbd8a970217904f3ade81"&gt;
+&lt;track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/6ec76f5afd8dbde06ee28e7830f449ee7b34de24" srclang="en_us"&gt;https://k12.openstax.org/contents/raise/resources/cdad89b7a5ee8c0eacfcbd8a970217904f3ade81
 &lt;/video&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -757,7 +744,7 @@
         <timemodified>1667471177</timemodified>
         <title>9.10.2: Self Check</title>
         <contents>&lt;p&gt;Looking at the steps of deriving the quadratic formula, which step should follow the one below?&lt;/p&gt;
-        &lt;p&gt;\((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\)&lt;/p&gt;</contents>
+&lt;p&gt;\((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\)&lt;/p&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="5142">
@@ -767,8 +754,8 @@
             <flags>0</flags>
             <timecreated>1667470103</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Complete the square.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: This was already done for the perfect square trinomial to be factored. The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;Complete the square.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This was already done for the perfect square trinomial to be factored. The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -781,8 +768,8 @@
             <flags>0</flags>
             <timecreated>1667470103</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Take the square root of both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That's correct! Check yourself: To get rid of the power of 2, take the square root of both sides and remember the plus and minus sign on the right side.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;Take the square root of both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: To get rid of the power of 2, take the square root of both sides and remember the plus and minus sign on the right side.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -795,8 +782,8 @@
             <flags>0</flags>
             <timecreated>1667470103</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Multiply both sides by \(4a^2\).&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: In a previous step, both sides were already divided by \(4a^2\). The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;Multiply both sides by \(4a^2\).&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: In a previous step, both sides were already divided by \(4a^2\). The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -809,8 +796,8 @@
             <flags>0</flags>
             <timecreated>1667470103</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;Subtract \(\frac{b}{2a}\) from both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: This cannot be done until after the square root is taken. The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
+            <answer_text>&lt;p dir="ltr"&gt;Subtract \(\frac{b}{2a}\) from both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This cannot be done until after the square root is taken. The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -823,8 +810,8 @@
             <flags>0</flags>
             <timecreated>1667470103</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -845,8 +832,8 @@
         <timemodified>1667961992</timemodified>
         <title>9.10.2: Additional Resources</title>
         <contents>&lt;h4&gt;A General Way to Derive the Quadratic Formula&lt;/h4&gt;
-&lt;p&gt;Here is another way to look at how to derive the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;quadratic formula&lt;/span&gt;:&lt;/p&gt;
-&lt;p&gt;We can derive the quadratic formula by &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;completing the square&lt;/span&gt;. We will assume that the leading coefficient is positive; if it is negative, we can multiply the equation by −1 and obtain a positive \(a\). Given \(ax^2+bx+c=0\), \(a \neq 0\), we will complete the square as follows:&lt;/p&gt;
+&lt;p&gt;Here is another way to look at how to derive the &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;quadratic formula&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;We can derive the quadratic formula by &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;completing the square&lt;/span&gt;. We will assume that the leading coefficient is positive; if it is negative, we can multiply the equation by &amp;minus;1 and obtain a positive \(a\). Given \(ax^2+bx+c=0\), \(a \neq 0\), we will complete the square as follows:&lt;/p&gt;
 &lt;p&gt;Step 1&lt;br&gt;
     First, move the constant term to the right side of the equal sign:&lt;br&gt;
     \(ax^2+bx= -c\)&lt;/p&gt;
@@ -855,31 +842,31 @@
     \(x^2+\frac{b}{a}x= -\frac{c}{a}\)&lt;/p&gt;
 &lt;p&gt;Step 3&lt;br&gt;
     Then, find \(\frac{1}{2}\) of the middle term, and add \((\frac{1}{2} \cdot \frac{b}{a})^2=\frac{b^2}{4a^2}\) to both sides of the equal sign:&lt;br&gt;
-    \(x^2+\frac{b}{a}x+\frac{b^2}{4a^2}=\frac{b^2}{4a^2}−\frac{c}{a}\)&lt;/p&gt;
+    \(x^2+\frac{b}{a}x+\frac{b^2}{4a^2}=\frac{b^2}{4a^2}&amp;minus;\frac{c}{a}\)&lt;/p&gt;
 &lt;p&gt;Step 4&lt;br&gt;
-    Next, write the left side as a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;perfect square&lt;/span&gt;. Find the common denominator of the right side and write it as a single fraction:&lt;br&gt;
-    \((x+\frac{b}{2a})^2=\frac{b^2−4ac}{4a^2}\)&lt;/p&gt;
+    Next, write the left side as a &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;perfect square&lt;/span&gt;. Find the common denominator of the right side and write it as a single fraction:&lt;br&gt;
+    \((x+\frac{b}{2a})^2=\frac{b^2&amp;minus;4ac}{4a^2}\)&lt;/p&gt;
 &lt;p&gt;Step 5&lt;br&gt;
     Now, use the square root property, which gives:&lt;/p&gt;
 &lt;p&gt;\(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\)&lt;/p&gt;
 &lt;p&gt;\(x+\frac b{2a}=\frac{\pm\sqrt{b^2-4ac}}{2a}\)&lt;/p&gt;
 &lt;p&gt;Step 6&lt;br&gt;
     Finally, add \(-\frac{b}{2a}\) to both sides of the equation and combine the terms on the right side. Thus:&lt;/p&gt;
-   &lt;p&gt; \(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\)&lt;/p&gt;
+&lt;p&gt; \(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\)&lt;/p&gt;
 &lt;h4&gt;Try It: A General Way to Derive the Quadratic Formula&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;div class="os-raise-ib-cta-content"&gt;
-        &lt;p&gt;Using the general way to derive the quadratic formula, find the step after&lt;/p&gt;
-        &lt;p&gt;\(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\).&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-cta-prompt"&gt;
-        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;Using the general way to derive the quadratic formula, find the step after&lt;/p&gt;
+&lt;p&gt;\(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\).&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-    &lt;p&gt;Here is how to find the next step:&lt;/p&gt;
-    &lt;p&gt;When deriving the quadratic formula, the object is to get the \(x\) alone.&lt;/p&gt;
-    &lt;p&gt;After \(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\), the \(\frac{b}{2a}\) must be subtracted from each side. Then \(x=-\frac b{2a}\pm\sqrt{\frac{b^2-4ac}{4a^2}}\) can be simplified.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Here is how to find the next step:&lt;/p&gt;
+&lt;p&gt;When deriving the quadratic formula, the object is to get the \(x\) alone.&lt;/p&gt;
+&lt;p&gt;After \(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\), the \(\frac{b}{2a}\) must be subtracted from each side. Then \(x=-\frac b{2a}\pm\sqrt{\frac{b^2-4ac}{4a^2}}\) can be simplified.&lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -927,71 +914,71 @@
         <title>9.10.3: Understanding That the Quadratic Formula Is the Combined Steps of Completing the Square</title>
         <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;p&gt;Here is one solution for solving \(x^2+3x+8=0\) by &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;completing the square&lt;/span&gt;, where each step is shown, but numerical expressions are not evaluated.&lt;/p&gt;
-    &lt;p&gt;Original equation&lt;br&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;Here is one solution for solving \(x^2+3x+8=0\) by &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;completing the square&lt;/span&gt;, where each step is shown, but numerical expressions are not evaluated.&lt;/p&gt;
+&lt;p&gt;Original equation&lt;br&gt;
       \(x^2+3x+8=0\)&lt;/p&gt;
-    &lt;p&gt;Step 1&lt;br&gt;
+&lt;p&gt;Step 1&lt;br&gt;
       \(x^2+3x=-8\)&lt;/p&gt;
-    &lt;p&gt;Step 2&lt;br&gt;
+&lt;p&gt;Step 2&lt;br&gt;
       \(4x^2+4(3x)=4(-8)\)&lt;/p&gt;
-    &lt;p&gt;Step 3&lt;br&gt;
+&lt;p&gt;Step 3&lt;br&gt;
       \((2x)^2+6(2x)=-32\)&lt;/p&gt;
-    &lt;p&gt;Step 4&lt;br&gt;
+&lt;p&gt;Step 4&lt;br&gt;
       \(P^2+6P=-32\)&lt;/p&gt;
-    &lt;p&gt;Step 5&lt;br&gt;
+&lt;p&gt;Step 5&lt;br&gt;
       \(P^2+6P+3^2=-32+3^2\)&lt;/p&gt;
-    &lt;p&gt;Step 6&lt;br&gt;
+&lt;p&gt;Step 6&lt;br&gt;
       \((P+3)^2=3^2-32\)&lt;/p&gt;
-    &lt;p&gt;Step 7&lt;br&gt;
+&lt;p&gt;Step 7&lt;br&gt;
       \(P+3= \pm \sqrt{3^2-32}\)&lt;/p&gt;
-    &lt;p&gt;Step 8&lt;br&gt;
+&lt;p&gt;Step 8&lt;br&gt;
       \(P=-3 \pm \sqrt{3^2-32}\)&lt;/p&gt;
-    &lt;p&gt;Step 9&lt;br&gt;
+&lt;p&gt;Step 9&lt;br&gt;
       \(2x=-3 \pm \sqrt{3^2-32}\)&lt;/p&gt;
-    &lt;p&gt;Step 10&lt;br&gt;
+&lt;p&gt;Step 10&lt;br&gt;
       \(x= \frac{-3 \pm \sqrt{3^2-32}}{2}\)&lt;/p&gt;
-    &lt;ol class="os-raise-noindent"&gt;
-      &lt;li&gt;In Step 2, the equation is multiplied by 4. Why might that be?&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;In Step 2, the equation is multiplied by 4. Why might that be?&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;To make the coefficient of \(x^2\) a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;perfect square&lt;/span&gt; and the coefficient of \(x\) an even number&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;To make the coefficient of \(x^2\) a &lt;span class="os-raise-ib-tooltip" data-schema-version="&amp;ldquo;1.0&amp;rdquo;" data-store="glossary-tooltip"&gt;perfect square&lt;/span&gt; and the coefficient of \(x\) an even number&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol start="2" class="os-raise-noindent"&gt;
-      &lt;li&gt;In Step 5, \(3^2\) is added to each side. Why might that be?&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;In Step 5, \(3^2\) is added to each side. Why might that be?&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;\(3^2\) completes the square for the expression on the left side. To keep the two sides equal, it needs to be added to the other side as well.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal2"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;\(3^2\) completes the square for the expression on the left side. To keep the two sides equal, it needs to be added to the other side as well.&lt;/p&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
-  &lt;div class="os-raise-ib-cta-content"&gt;
-    &lt;ol start="3" class="os-raise-noindent"&gt;
-      &lt;li&gt;What happened between Step 5 and Step 6?&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/div&gt;
-  &lt;div class="os-raise-ib-cta-prompt"&gt;
-    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
-  &lt;/div&gt;
+&lt;div class="os-raise-ib-cta-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;What happened between Step 5 and Step 6?&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
-&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
-  &lt;p&gt;Compare your answer:&lt;/p&gt;
-  &lt;p&gt;The perfect square is rewritten in factored form, and \(-32+3^2\) is rewritten as \(3^2-32\).&lt;/p&gt;
+&lt;div class="os-raise-ib-cta-prompt"&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal3"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+&lt;p&gt;The perfect square is rewritten in factored form, and \(-32+3^2\) is rewritten as \(3^2-32\).&lt;/p&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1039,297 +1026,290 @@
         <title>9.10.4: Practice</title>
         <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
 &lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
-
-    &lt;!--1a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent"&gt;
-                &lt;li&gt;The quadratic equation \(x^2+7x+10=0\) is in the form of \(ax^2+bx+c=0\).&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;What is the value of \(a\)?&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;p&gt;Enter the value of \(a\).&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! The value of \(a\) is 1.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 1. The value of \(a\) is 1. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--1b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="7" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;What is the value of \(b\)?&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! The value of \(b\) is 7.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 7. The value of \(b\) is 7. You seem to be stuck. Who can you ask for help?
+&lt;div class="os-raise-ib-pset" data-button-text="Check" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="2" data-schema-version="1.0"&gt;
+&lt;!--1a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="1"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;The quadratic equation \(x^2+7x+10=0\) is in the form of \(ax^2+bx+c=0\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;What is the value of \(a\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enter the value of \(a\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! The value of \(a\) is 1.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 1. The value of \(a\) is 1. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--1b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="7"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;What is the value of \(b\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! The value of \(b\) is 7.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 7. The value of \(b\) is 7. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--1c--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="10" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-                &lt;li&gt;What is the value of \(c\)?&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! The value of \(c\) is 10.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 10. The value of \(c\) is 10. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--1c--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="10"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;What is the value of \(c\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! The value of \(c\) is 10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 10. The value of \(c\) is 10. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--1d--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Multiplying by 4 makes the coefficient of the squared term a perfect square, which makes it easier to complete the square." data-solution-options="[&amp;quot;You must always multiply both sides by 4 when completing the square.&amp;quot;, &amp;quot;If the value of \\(c\\) is positive and you multiply by 4, it will be easier to divide the \\(b\\) term by 3 before you square it.&amp;quot;, &amp;quot;Multiplying by 4 makes the coefficient of the \\(b\\) term a perfect square, which makes it easier to complete the square.&amp;quot;, &amp;quot;Multiplying by 4 makes the coefficient of the squared term a perfect square, which makes it easier to complete the square.&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;Examine the solution method that has been started below and use it to answer parts d and e.&lt;/p&gt;
-            &lt;p&gt;Original equation&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--1d--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Multiplying by 4 makes the coefficient of the squared term a perfect square, which makes it easier to complete the square." data-solution-options='["You must always multiply both sides by 4 when completing the square.", "If the value of \\(c\\) is positive and you multiply by 4, it will be easier to divide the \\(b\\) term by 3 before you square it.", "Multiplying by 4 makes the coefficient of the \\(b\\) term a perfect square, which makes it easier to complete the square.", "Multiplying by 4 makes the coefficient of the squared term a perfect square, which makes it easier to complete the square."]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;Examine the solution method that has been started below and use it to answer parts d and e.&lt;/p&gt;
+&lt;p&gt;Original equation&lt;br&gt;
                 \(x^2+7x+10=0\)&lt;/p&gt;
-            &lt;p&gt;Step 1&lt;br&gt;
+&lt;p&gt;Step 1&lt;br&gt;
                 Subtract 10 from each side.&lt;br&gt;
                 \(x^2+7x=-10\)&lt;/p&gt;
-            &lt;p&gt;Step 2&lt;br&gt;
+&lt;p&gt;Step 2&lt;br&gt;
                 Multiply each side by 4.&lt;br&gt;
                 \(4x^2+4(7x)=-4(10)\)&lt;/p&gt;
-            &lt;p&gt;Step 3&lt;br&gt;
+&lt;p&gt;Step 3&lt;br&gt;
                 Rewrite \(4x^2\) as \((2x)^2\) and \(4(7x)\) as \(2(7)2x\).&lt;br&gt;
                 \((2x)^2+2(7)(2x) +\_\_\_\_^2=\_\_\_\_^2-4(10)\)&lt;/p&gt;
-            &lt;p&gt;Step 4&lt;br&gt;
+&lt;p&gt;Step 4&lt;br&gt;
                 \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
                 \((2x+\_\_\_\_)^2=\_\_\_\_^2-4(10)\)&lt;/p&gt;
-            &lt;p&gt;Step 5&lt;br&gt;
+&lt;p&gt;Step 5&lt;br&gt;
                 \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
                 \(2x+\_\_\_\_= \pm \sqrt{\_\_\_\_^2-4(10)}\)&lt;/p&gt;
-            &lt;p&gt;Step 6&lt;br&gt;
+&lt;p&gt;Step 6&lt;br&gt;
                 \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
                 \(2x=\_\_\_\_\pm \sqrt{\_\_\_\_^2-4(10)}\)&lt;/p&gt;
-            &lt;p&gt;Step 7&lt;br&gt;
+&lt;p&gt;Step 7&lt;br&gt;
                 \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)&lt;br&gt;
                 \(x= \_\_\_\_\)&lt;/p&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="4"&gt;
-                &lt;li&gt;In Step 2, what might be a good reason for multiplying each side of the equation by 4?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Multiplying by 4 makes the coefficient of the squared term a perfect square, which makes it easier to complete the square.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1 and 9.10.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: Multiplying by 4 makes the coefficient of the squared term a perfect square, which makes it easier to complete the square. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--1e--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;-5&amp;quot;, &amp;quot;-2&amp;quot;]" data-solution-options="[&amp;quot;-10&amp;quot;, &amp;quot;-5&amp;quot;, &amp;quot;-2&amp;quot;, &amp;quot;-4&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="5"&gt;
-                &lt;li&gt;Complete the unfinished steps, then &lt;strong&gt;select two&lt;/strong&gt; solutions.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! The solutions are -5 and -2.&lt;/p&gt;
-            &lt;p&gt;Here are the unfinished steps:&lt;/p&gt;
-            &lt;p&gt;Step 3&lt;br&gt;
+&lt;ol class="os-raise-noindent" start="4" type="a"&gt;
+&lt;li&gt;In Step 2, what might be a good reason for multiplying each side of the equation by 4?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Multiplying by 4 makes the coefficient of the squared term a perfect square, which makes it easier to complete the square.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1 and 9.10.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: Multiplying by 4 makes the coefficient of the squared term a perfect square, which makes it easier to complete the square. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--1e--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution='["-5", "-2"]' data-solution-options='["-10", "-5", "-2", "-4"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="5" type="a"&gt;
+&lt;li&gt;Complete the unfinished steps, then &lt;strong&gt;select two&lt;/strong&gt; solutions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! The solutions are -5 and -2.&lt;/p&gt;
+&lt;p&gt;Here are the unfinished steps:&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
                 Rewrite \(4x^2\) as \((2x)^2\) and \(4(7x)\) as \(2(7)2x\).&lt;br&gt;
                 \((2x)^2+2(7)(2x) +(7)^2=(7)^2-4(10)\)&lt;/p&gt;
-            &lt;p&gt;Step 4&lt;br&gt;
+&lt;p&gt;Step 4&lt;br&gt;
                 Factor the trinomial.&lt;br&gt;
                 \((2x+7)^2=(7)^2-4(10)\)&lt;/p&gt;
-            &lt;p&gt;Step 5&lt;br&gt;
+&lt;p&gt;Step 5&lt;br&gt;
                 Take the square root of each side.&lt;br&gt;
                 \(2x+7= \pm \sqrt{7^2-4(10)}\)&lt;/p&gt;
-            &lt;p&gt;Step 6&lt;br&gt;
+&lt;p&gt;Step 6&lt;br&gt;
                 Subtract 7 from both sides.&lt;br&gt;
                 \(2x=-7 \pm \sqrt{7^2-4(10)}\)&lt;/p&gt;
-            &lt;p&gt;Step 7&lt;br&gt;
+&lt;p&gt;Step 7&lt;br&gt;
                 Solve.&lt;br&gt;
                 \(x=-5\), -2&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1 and 9.10.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answers are: -5 and -2.&lt;/p&gt;
-            &lt;p&gt;Here are the unfinished steps:&lt;/p&gt;
-            &lt;p&gt;Step 3&lt;br&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1 and 9.10.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answers are: -5 and -2.&lt;/p&gt;
+&lt;p&gt;Here are the unfinished steps:&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
                 Rewrite \(4x^2\) as \((2x)^2\) and \(4(7x)\) as \(2(7)2x\).&lt;br&gt;
                 \((2x)^2+2(7)(2x) +(7)^2=(7)^2-4(10)\)&lt;/p&gt;
-            &lt;p&gt;Step 4&lt;br&gt;
+&lt;p&gt;Step 4&lt;br&gt;
                 Factor the trinomial.&lt;br&gt;
                 \((2x+7)^2=(7)^2-4(10)\)&lt;/p&gt;
-            &lt;p&gt;Step 5&lt;br&gt;
+&lt;p&gt;Step 5&lt;br&gt;
                 Take the square root of each side.&lt;br&gt;
                 \(2x+7= \pm \sqrt{7^2-4(10)}\)&lt;/p&gt;
-            &lt;p&gt;Step 6&lt;br&gt;
+&lt;p&gt;Step 6&lt;br&gt;
                 Subtract 7 from both sides.&lt;br&gt;
                 \(2x=-7 \pm \sqrt{7^2-4(10)}\)&lt;/p&gt;
-            &lt;p&gt;Step 7&lt;br&gt;
+&lt;p&gt;Step 7&lt;br&gt;
                 Solve.&lt;br&gt;
                 \(x=-5\), -2&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--1f--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Rather than evaluating at each step, the calculation is done all at once, at the end." data-solution-options="[&amp;quot;In both forms of solving the equation, you need to list the values of \\(a\\), \\(b\\), and \\(c\\) to determine the solutions.&amp;quot;, &amp;quot;Rather than evaluating at each step, the calculation is done all at once, at the end.&amp;quot;, &amp;quot;They are related because neither one can have a negative \\(c\\) value.&amp;quot;, &amp;quot;For this equation, the quadratic formula and completing the square are not the same and therefore not related.&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="6"&gt;
-                &lt;li&gt;Substitute the values of \(a\), \(b\), and \(c\) into the quadratic formula, \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\), but do not evaluate any of the expressions. Explain how this expression is related to solving \(x^2+7x+10=0\) by completing the square.&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Rather than evaluating at each step, the calculation is done all at once, at the end.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1 and 9.10.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: Rather than evaluating at each step, the calculation is done all at once, at the end. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--2a--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="2"&gt;
-                &lt;li&gt;Consider the standard form of the equation \(x^2−39=0\).&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;ol class="os-raise-noindent" type="a"&gt;
-                &lt;li&gt;What is the value of \(a\)?&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;p&gt;Enter the value of \(a\).&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! The value of \(a\) is 1.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 1. The value of \(a\) is 1. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--2b--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="0" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
-                &lt;li&gt;What is the value of \(b\)?&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! The value of \(b\) is 0.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is 0. The value of \(b\) is 0. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--1f--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Rather than evaluating at each step, the calculation is done all at once, at the end." data-solution-options='["In both forms of solving the equation, you need to list the values of \\(a\\), \\(b\\), and \\(c\\) to determine the solutions.", "Rather than evaluating at each step, the calculation is done all at once, at the end.", "They are related because neither one can have a negative \\(c\\) value.", "For this equation, the quadratic formula and completing the square are not the same and therefore not related."]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="6" type="a"&gt;
+&lt;li&gt;Substitute the values of \(a\), \(b\), and \(c\) into the quadratic formula, \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\), but do not evaluate any of the expressions. Explain how this expression is related to solving \(x^2+7x+10=0\) by completing the square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Rather than evaluating at each step, the calculation is done all at once, at the end.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1 and 9.10.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: Rather than evaluating at each step, the calculation is done all at once, at the end. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2a--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="1"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+&lt;li&gt;Consider the standard form of the equation \(x^2&amp;minus;39=0\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+&lt;li&gt;What is the value of \(a\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enter the value of \(a\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! The value of \(a\) is 1.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 1. The value of \(a\) is 1. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2b--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="0"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="2" type="a"&gt;
+&lt;li&gt;What is the value of \(b\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! The value of \(b\) is 0.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is 0. The value of \(b\) is 0. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--2c--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-39" data-problem-comparator="integer"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
-                &lt;li&gt;What is the value of \(c\)?&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
-
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! The value of \(c\) is -39.&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is -39. The value of \(c\) is -39. You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2c--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-comparator="integer" data-problem-type="input" data-solution="-39"&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3" type="a"&gt;
+&lt;li&gt;What is the value of \(c\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! The value of \(c\) is -39.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.10.1. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is -39. The value of \(c\) is -39. You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--2d--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="4"&gt;
-                &lt;li&gt;Can you use the quadratic formula to solve this equation?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! The quadratic formula works for all quadratic equations. Substituting the values of \(a\), \(b\), and \(c\) into the quadratic formula and evaluating the expression gives the solutions.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2d--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options='["Yes", "No"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="4" type="a"&gt;
+&lt;li&gt;Can you use the quadratic formula to solve this equation?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! The quadratic formula works for all quadratic equations. Substituting the values of \(a\), \(b\), and \(c\) into the quadratic formula and evaluating the expression gives the solutions.
             &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1–9.10.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is yes. The quadratic formula works for all quadratic equations. Substituting the values of \(a\), \(b\), and \(c\) into the quadratic formula and evaluating the expression gives the solutions. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--2e--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Yes, the solutions are \(\pm \sqrt{39}\)." data-solution-options="[&amp;quot;Yes, the solutions are \\(\\pm 39\\).&amp;quot;, &amp;quot;No, there is no solution.&amp;quot;, &amp;quot;Yes, the solutions are \\(\\pm \\sqrt{39}\\).&amp;quot;, &amp;quot;No, this equation can only be solved by the quadratic formula.&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" type="a" start="5"&gt;
-                &lt;li&gt;Can you solve this equation using square roots?&lt;/li&gt;
-            &lt;/ol&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! Yes, adding 39 to both sides of the equation gives \(x^2=39\). The solutions are \(\pm \sqrt{39}\). &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1 and 9.10.2. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: Yes, adding 39 to both sides of the equation gives \(x^2=39\). The solutions are \(\pm \sqrt{39}\). &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--3--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Find the square roots of each side. Subtract \(b \) from each side. Then divide each side by \(2a\)." data-solution-options="[&amp;quot;Subtract \\(b^2\\) from each side. Find the square roots of each side. Then divide each side by 2.&amp;quot;, &amp;quot;Find the square roots of each side. Subtract \\(b \\) from each side. Then divide each side by \\(2a\\).&amp;quot;, &amp;quot;Divide each side by 2. Subtract \\(b \\) from each side. Then find the square roots of each side.&amp;quot;, &amp;quot;Find the square roots of each side. Divide each side by 2. Subtract \\(b \\) from each side.&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;ol class="os-raise-noindent" start="3"&gt;
-                &lt;li&gt;Clare is deriving the quadratic formula by solving \(ax^2+bx+c=0\) by completing the square.&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;p&gt;She arrived at this equation: \((2ax+b)^2=b^2−4ac\).&lt;/p&gt;
-            &lt;p&gt;Choose the best description of what she needs to do to finish solving for \(x\).&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct! She needs to find the square roots of each side. Subtract \(b \) from each side. Then divide each side by \(2a\). &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt; Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1–9.10.3. Are you using it the right way?&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
-            &lt;p&gt;The correct answer is: She needs to find the square roots of each side. Subtract \(b \) from each side. Then divide each side by \(2a\). You seem to be stuck. Who can you ask for help?
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1&amp;ndash;9.10.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is yes. The quadratic formula works for all quadratic equations. Substituting the values of \(a\), \(b\), and \(c\) into the quadratic formula and evaluating the expression gives the solutions. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--2e--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Yes, the solutions are \(\pm \sqrt{39}\)." data-solution-options='["Yes, the solutions are \\(\\pm 39\\).", "No, there is no solution.", "Yes, the solutions are \\(\\pm \\sqrt{39}\\).", "No, this equation can only be solved by the quadratic formula."]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="5" type="a"&gt;
+&lt;li&gt;Can you solve this equation using square roots?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! Yes, adding 39 to both sides of the equation gives \(x^2=39\). The solutions are \(\pm \sqrt{39}\). &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1 and 9.10.2. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: Yes, adding 39 to both sides of the equation gives \(x^2=39\). The solutions are \(\pm \sqrt{39}\). &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--3--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Find the square roots of each side. Subtract \(b \) from each side. Then divide each side by \(2a\)." data-solution-options='["Subtract \\(b^2\\) from each side. Find the square roots of each side. Then divide each side by 2.", "Find the square roots of each side. Subtract \\(b \\) from each side. Then divide each side by \\(2a\\).", "Divide each side by 2. Subtract \\(b \\) from each side. Then find the square roots of each side.", "Find the square roots of each side. Divide each side by 2. Subtract \\(b \\) from each side."]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+&lt;li&gt;Clare is deriving the quadratic formula by solving \(ax^2+bx+c=0\) by completing the square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;She arrived at this equation: \((2ax+b)^2=b^2&amp;minus;4ac\).&lt;/p&gt;
+&lt;p&gt;Choose the best description of what she needs to do to finish solving for \(x\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct! She needs to find the square roots of each side. Subtract \(b \) from each side. Then divide each side by \(2a\). &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt; Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.10.1&amp;ndash;9.10.3. Are you using it the right way?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+&lt;p&gt;The correct answer is: She needs to find the square roots of each side. Subtract \(b \) from each side. Then divide each side by \(2a\). You seem to be stuck. Who can you ask for help?
             &lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!--Do not edit below this line--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Do not edit below this line--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -1377,60 +1357,56 @@
         <title>9.10.5: Lesson Summary</title>
         <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-    &lt;li&gt; Explain the steps and complete some missing steps for deriving the quadratic formula. &lt;/li&gt;
-    &lt;li&gt; Explain how the quadratic formula is related to the process of completing the square for a quadratic equation \(ax^2+bx+c=0\). &lt;/li&gt;
+&lt;li&gt; Explain the steps and complete some missing steps for deriving the quadratic formula. &lt;/li&gt;
+&lt;li&gt; Explain how the quadratic formula is related to the process of completing the square for a quadratic equation \(ax^2+bx+c=0\). &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-    &lt;li&gt; 9.10.1: Deriving the Quadratic Formula, Part 1
+&lt;li&gt; 9.10.1: Deriving the Quadratic Formula, Part 1
         &lt;ul&gt;
-            &lt;li&gt;In this activity, you learned how to derive the quadratic formula by completing the square for a quadratic equation without evaluating some of the numerical expressions along the way.&lt;/li&gt;
-            &lt;li&gt;9.10.1: Self Check&lt;/li&gt;
-            &lt;li&gt;9.10.1: Additional Resources&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-
-    &lt;li&gt; 9.10.2: Deriving the Quadratic Formula, Part 2
+&lt;li&gt;In this activity, you learned how to derive the quadratic formula by completing the square for a quadratic equation without evaluating some of the numerical expressions along the way.&lt;/li&gt;
+&lt;li&gt;9.10.1: Self Check&lt;/li&gt;
+&lt;li&gt;9.10.1: Additional Resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt; 9.10.2: Deriving the Quadratic Formula, Part 2
         &lt;ul&gt;
-            &lt;li&gt;In this activity, you studied a series of steps to solve \(ax^2+bx+c=0\) by completing the square and making sense of how it leads to the quadratic formula.&lt;/li&gt;
-            &lt;li&gt;9.10.2: Self Check&lt;/li&gt;
-            &lt;li&gt;9.10.2: Additional Resources&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-
-    &lt;li&gt; 9.10.3: Understanding That the Quadratic Formula Is the Combined Steps of Completing the Square
+&lt;li&gt;In this activity, you studied a series of steps to solve \(ax^2+bx+c=0\) by completing the square and making sense of how it leads to the quadratic formula.&lt;/li&gt;
+&lt;li&gt;9.10.2: Self Check&lt;/li&gt;
+&lt;li&gt;9.10.2: Additional Resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt; 9.10.3: Understanding That the Quadratic Formula Is the Combined Steps of Completing the Square
         &lt;ul&gt;
-            &lt;li&gt;In this activity, you had to explain parts of a solution for solving an equation by completing the square, where each step was shown, but numerical expressions were not evaluated.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
+&lt;li&gt;In this activity, you had to explain parts of a solution for solving an equation by completing the square, where each step was shown, but numerical expressions were not evaluated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul class="os-raise-indent"&gt;
-    &lt;li&gt; 9.10.4: Practice &lt;/li&gt;
+&lt;li&gt; 9.10.4: Practice &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Checking In&lt;/h4&gt;
-&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
-
-    &lt;!--pulldown--&gt;
-    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
-        &lt;div class="os-raise-ib-pset-problem-content"&gt;
-            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-correct-response"&gt;
-            &lt;p&gt;Correct!&lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;!--Do not edit below line.--&gt;
-    &lt;div class="os-raise-ib-pset-correct-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
-    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
-        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
-    &lt;/div&gt;
+&lt;div class="os-raise-ib-pset" data-button-text="Submit" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="1" data-schema-version="1.0"&gt;
+&lt;!--pulldown--&gt;
+&lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution data-solution-options='["1 - I&amp;rsquo;m totally lost!", "2 - I could use some more help.", "3 - I mostly understand.", "4 - I can do it.","5 - I&amp;rsquo;ve got this!"]'&gt;
+&lt;div class="os-raise-ib-pset-problem-content"&gt;
+&lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;p&gt;Correct!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;p&gt;If you&amp;rsquo;ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Do not edit below line.--&gt;
+&lt;div class="os-raise-ib-pset-correct-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-pset-encourage-response"&gt;
+&lt;!-- INSERT ANY VALID HTML HERE --&gt;
+&lt;/div&gt;
 &lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
