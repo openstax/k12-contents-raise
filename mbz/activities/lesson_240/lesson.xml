@@ -1,0 +1,2254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="181" moduleid="240" modulename="lesson" contextid="251">
+  <lesson id="181">
+    <course>2</course>
+    <name>Lesson 7.7: Building Quadratic Functions to Describe Situations, Part 3</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1665507632</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1663">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1664</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664933057</timecreated>
+        <timemodified>1664940316</timemodified>
+        <title>7.7.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will encounter a quadratic relationship in an economic context. You will use a table of values to study the relationship between price and revenue, write an equation to define the function, and consider what the graph of the function tells us about the situation being modeled.&lt;/p&gt;
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Choose a domain that makes sense in a revenue situation. &lt;/li&gt;
+  &lt;li&gt; Model revenue with quadratic functions and graphs. &lt;/li&gt;
+  &lt;li&gt; Relate the vertex of a graph and the zeros of a function to a revenue situation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the activities that will help you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 7.7.1: Comparing Graphs of Functions &lt;/li&gt;
+  &lt;li&gt; 7.7.2: Modeling Real-World Data with Quadratic Functions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 7.7.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 7.7.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.7.3: The Domain, Vertex, and Zero of Quadratic Functions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 7.7.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 7.7.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.7.4: Relate the Domain of a Function to Its Graph &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you’ll practice and review.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 7.7.5: Practice &lt;/li&gt;
+  &lt;li&gt; 7.7.6: Lesson Summary &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3735">
+            <jumpto>1664</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664933057</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1664">
+        <prevpageid>1663</prevpageid>
+        <nextpageid>1665</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664933217</timecreated>
+        <timemodified>1664940326</timemodified>
+        <title>7.7.1: Comparing Graphs of Functions</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+   &lt;p&gt;Which one doesn’t belong?&lt;/p&gt;
+&lt;p&gt;A&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/owveUAGcYM9RjKxseoRjEXqd" width="268" height="267" alt="Graph of a line, origin O, with grid. Horizontal axis from negative 2 to 2 by 1’s. Vertical axis from negative 2 to 6 by ones. Line passes through negative 2 comma 2, 0 comma 2, and 2 comma 2.&amp;quot; height=&amp;quot;200"&gt;&lt;/p&gt;
+&lt;p&gt;B&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/UiFndiWN9ADgTNiqSC7gpseK" width="268" height="267" alt="Graph of a line, origin O, with grid. Horizontal axis from negative 2 to 2 by 1’s. Vertical axis from negative 2 to 6 by ones. Line passes through negative 1 comma negative 2, 0 comma 2, and 1 comma 6.&amp;quot; height=&amp;quot;200"&gt;&lt;/p&gt;
+&lt;p&gt;C&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/g7S8scRx1zrYFRHDSYcJtpNr" width="268" height="267" alt="Graph of 13 data points."&gt;&lt;/p&gt;
+&lt;p&gt;D&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/ktdvKmu7NVD9ZwFtm4Ho1vuR" width="268" height="267" alt="Graph of curved line, origin O, with grid. Horizontal axis from negative 2 to 2 by 1’s. Vertical axis from negative 2 to 6 by 1’s. Line passes through negative 1 comma point 5, 0 comma 3 point 5, 1 comma 7.&amp;quot; height=&amp;quot;200"&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+	  &lt;p&gt;A is the only graph where the \(y\)-values don’t change.&lt;/p&gt;
+&lt;p&gt;B is the only graph where the \(y\)-value increases by a constant rate.&lt;/p&gt;
+&lt;p&gt;C is the only graph that is not continuous.&lt;/p&gt;
+&lt;p&gt;D is the only graph that does not intersect the \(y\)-axis at \(2\).&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3736">
+            <jumpto>1663</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664933217</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3737">
+            <jumpto>1665</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664933217</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1665">
+        <prevpageid>1664</prevpageid>
+        <nextpageid>1666</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664936188</timecreated>
+        <timemodified>1665724692</timemodified>
+        <title>7.7.2: Modeling Real-World Data with Quadratic Functions</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;A company that sells movies online is deciding how much to charge customers to download a new movie. Based on data from previous sales, the company predicts that if they charge \(x\) dollars for each download, then the number of downloads, in thousands, is \(18-x\).&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Answer questions a–f to complete the table to show the predicted number of downloads at each listed price. The first row has been completed for you.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Price (dollars per download)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Number of downloads (thousands)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Revenue (thousands of dollars)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(3\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(15\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(45\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(10\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(12\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(15\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="4"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(18\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="5"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="6"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Q1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="13" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; When the price is \($5\) per download, what is the number of downloads in thousands? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! There are \(13\) thousand downloads when the price is \($5\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(13\). There are \(13\) thousand downloads when the price is \($5\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="8" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt; When the price is \($10\) per download, what is the number of downloads in thousands? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! There are \(8,000\) downloads when the price is \($10\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(8\). There are \(8,000\) downloads when the price is \($10\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q1c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="6" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt; When the price is \($12\) per download, what is the number of downloads in thousands? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! There are \(6,000\) downloads when the price is \($12\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(6\). There are \(6,000\) downloads when the price is \($12\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Q1d--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="3" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="4"&gt;
+                    &lt;li&gt; When the price is \($15\) per download, what is the number of downloads in thousands? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! There are \(3,000\) downloads when the price is \($15\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(3\). There are \(3,000\) downloads when the price is \($15\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Q1e--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="0" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="5"&gt;
+                    &lt;li&gt; When the price is \($18\) per download, what is the number of downloads in thousands? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! There are \(0\) downloads when the price is \($18\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(0\). There are (0\) downloads when the price is \($18\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a" start="6"&gt;
+                &lt;li&gt; When the price is \($x\) per download, what is the number of downloads in thousands? &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        \(18-x\)
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;ol start="2"&gt;
+    &lt;li&gt; Now, find the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;revenue&lt;/span&gt; at each price. Answer questions a–f. The first row has been completed for you.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Price (dollars per download)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Number of downloads (thousands)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Revenue (thousands of dollars)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(3\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(15\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(45\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(10\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(12\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(15\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="4"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(18\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="5"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="6"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Q1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="65" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; When the price is \($5\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is \($65,000\) when the price is \($5\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(65\). The revenue is \($65,000\) when the price is \($5\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="80" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt; When the price is \($10\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is \($80,000\) when the price is \($10\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(80\). The revenue is \($80,000\) when the price is \($10\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q1c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="72" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt; When the price is \($12\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is \($72,000\) when the price is \($12\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(72\). The revenue is \($72,000\) when the price is \($12\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Q1d--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="45" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="4"&gt;
+                    &lt;li&gt; When the price is \($15\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is \($45,000\) when the price is \($15\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(45\). The revenue is \($45,000\) when the price is \($15.00\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Q1e--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="0" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="5"&gt;
+                    &lt;li&gt; When the price is \($18\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is \(0\) when the price is \($18\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(0\). The revenue is \(0\) when the price is \($18\) per download.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a" start="6"&gt;
+                &lt;li&gt; When the price is \($x\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(x(18-x)\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt;Is the relationship between the price of the movie and the revenue (in thousands of dollars) linear, quadratic, or exponential? Explain how you know.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;It is quadratic. The output \(x(18-x)\) can be written as \(18x-x^2\), which is a quadratic expression.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="4"&gt;
+            &lt;li&gt;Use the graphing tool or technology outside the course.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;Plot the points that represent the revenue, \(r\), as a function of the price of one download in dollars, \(x\). Construct your graph. Be sure to label the axes.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/E1BWjHRUAhSVmAy3ypuuxF8X" alt="Grid with plotted points. X-axis labeled with price in dollars and y-axis labeled with revenue in thousands of dollars." width="319" height="247"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="5"&gt;
+            &lt;li&gt;What price would you recommend the company charge for a new movie? Explain your reasoning.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; Based on the graph, the largest revenue comes when the price is between \($5\) and \($10\). It is hard to tell exactly, but perhaps \($9\), halfway between \($0\) and \($18\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking &lt;/h4&gt;
+        &lt;p&gt;The function that uses the price (in dollars per download) \(x\) to determine the number of downloads (in thousands) \(18-x\) is an example of a demand function, and its graph is known. Economists are interested in factors that can affect the demand function and therefore the price suppliers wish to set.&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;What are some things that could increase the number of downloads predicted for the same given prices?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The quality of the movies could improve. The number of people who like watching movies could increase. The price of watching a movie in a theater could go up.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;If the demand shifted so that we predicted \(20-x\) thousand downloads at a price of \(x\) dollars per download, what do you think would happen to the price that gives the maximum revenue? Check what actually happens.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The price that gives the maximum revenue would increase from \($9\) to \($10\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3738">
+            <jumpto>1664</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664936188</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3739">
+            <jumpto>1666</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664936188</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1666">
+        <prevpageid>1665</prevpageid>
+        <nextpageid>1667</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1664937217</timecreated>
+        <timemodified>1664940380</timemodified>
+        <title>7.7.2: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;A company that sells music downloads is deciding how much to charge customers to download an album. Based on previous sales, the company predicts that if they charge \(x\) dollars for each download, then the number of downloads, in thousands, is \(13-x\).&lt;/p&gt;&lt;p&gt;Which of the following represents the revenue for downloads?&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3740">
+            <jumpto>1667</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664937217</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(13-x\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This is the number of downloads. Make sure to multiply the number of downloads by \(x\), the cost per download. The answer is \(13x-x^2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3741">
+            <jumpto>1667</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664937217</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(\frac {13-x}{x}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The number of downloads should be multiplied by \(x\), the cost per download. The answer is \(13x-x^2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3742">
+            <jumpto>1668</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1664937217</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(13x-x^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Multiply \(x(13-x)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3743">
+            <jumpto>1667</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664937217</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(13-x^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Be sure to distribute the \(x\) to both terms. The answer is \(13x-x^2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3744">
+            <jumpto>1667</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664937217</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1667">
+        <prevpageid>1666</prevpageid>
+        <nextpageid>1668</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664937648</timecreated>
+        <timemodified>1665724744</timemodified>
+        <title>7.7.2: Additional Resources </title>
+        <contents>&lt;h4&gt;Revenue Represented with Quadratics&lt;/h4&gt;
+&lt;p&gt;Quadratic functions often come up when studying revenue. (Revenue means the money collected when someone sells something.)&lt;/p&gt;
+&lt;p&gt;Suppose we are selling raffle tickets and deciding how much to charge for each ticket. When the price of the tickets is higher, typically fewer tickets will be sold.&lt;/p&gt;
+&lt;p&gt;Each ticket has a price of \(d\) dollars, and it is possible to sell \(600-75d\) tickets. We can find the revenue by multiplying the price by the number of tickets expected to be sold. A function that models the revenue, \(r\), collected is \(r(d) = d(600-75d)\). Here is a graph that represents the function.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/JzxDoayAcbZuuB3RpyyHiMpU" alt="&lt;p&gt;&lt;strong&gt;Graph of non linear function, origin O. Horizontal axis, price, dollars, from 0 to 9 by 1’s. Vertical axis, revenue, thousands of dollars, 0 to 1400 by 200’s. Line starts at 0 comma 0, increases until 4 comma 1200 then decreases until 8 comma 0. Passes through 2 comma 900 and 6 comma 900.&lt;/strong&gt;&lt;/p&gt;" width="328" height="239"&gt;&lt;/p&gt;
+&lt;p&gt;It makes sense that the revenue goes down after a certain point, since if the price is too high nobody will buy a ticket. From the graph, we can tell that the greatest revenue, \($1,200\), comes from selling the tickets for \($4\) each.&lt;/p&gt;
+&lt;p&gt;We can also see that the domain of the function \(r\) is between \(0\) and \(8\). This makes sense because the cost of the tickets can’t be negative, and if the price were more than \($8\), the model would not work, as the revenue collected cannot be negative. (A negative revenue would mean the number of tickets sold is negative, which is not possible.)&lt;/p&gt;
+&lt;h4&gt;Try It: Revenue Represented with Quadratics&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;p&gt;Based on past concerts, a venue expects to sell \((500 - 10p)\) tickets when each ticket is \(p\) dollars.&lt;/p&gt;
+    &lt;p&gt;Write the function, \(r(p)\), to represent the revenue for the concert.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Here is how to write the function for the concert revenue:&lt;/p&gt;
+  &lt;p&gt;Step 1&lt;br&gt;
+    Multiply the tickets sold by the price of each ticket, \(p\).&lt;/p&gt;
+  &lt;p&gt;\(p(500 - 10p)\)&lt;/p&gt;
+  &lt;p&gt;Step 2&lt;br&gt;
+    Distribute the \(p\).&lt;/p&gt;
+  &lt;p&gt;\(500p-10p^2\)&lt;/p&gt;
+  &lt;p&gt;Step 3&lt;br&gt;
+    Write as a function, \(r(p)\).&lt;/p&gt;
+  &lt;p&gt;\(r(p)=500p-10p^2\)&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3745">
+            <jumpto>1666</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664937648</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3746">
+            <jumpto>1668</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664937648</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1668">
+        <prevpageid>1667</prevpageid>
+        <nextpageid>1669</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664938298</timecreated>
+        <timemodified>1665603589</timemodified>
+        <title>7.7.3: The Domain, Vertex, and Zero of Quadratic Functions </title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;Here are three sets of descriptions and equations that represent some familiar quadratic functions. The graphs show what a graphing technology may produce when the equations are graphed. For each function:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Describe a domain that is appropriate for the situation. Think about any upper or lower limits for the input, as well as whether all numbers make sense as the input. Then, describe how the graph should be modified to show the domain that makes sense. &lt;/li&gt;
+    &lt;li&gt; Identify or estimate the vertex on the graph. Describe what it means in the situation. &lt;/li&gt;
+    &lt;li&gt; Identify or estimate the zeros of the function. Describe what they mean in the situation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt; 
+    &lt;li&gt; The area of a rectangle with a perimeter of \(25\) meters and a side length \(x\): \(A(x)=x \cdot \frac {(25-2x)}{2}\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/k6Vx3haMevZqyBwUxg6VmMBX" alt="Graph of the quadratic function &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35294&amp;quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35&amp;quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 10 to 15 by 5s, labeled “length (meters)”. Vertical axis scale 0 to 60 by 10’s, labeled “area (square meters)”. Some of the points of this function are &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35&amp;quot;&gt;&lt;/span&gt;(0 comma 0), (1 comma 11 point 5) and (5 comma 37 point 5) to a maximum at (6 point 2 5 comma 39 point 0 6 3) then decreasing through (10 comma 25), (12 comma 6) and (12 point 5 comma 0)." width="279" height="303"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt; Domain: &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(0&amp;lt;x&amp;lt;12.5\). All positive rational numbers make sense as an input. The part of the graph that is below the horizontal line is not meaningful here (negative lengths or lengths greater than \(12.5\) produce a negative area, which doesn’t make sense). Having a length or area equal to \(0\) doesn’t make sense either.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a" start="2"&gt;
+                &lt;li&gt; Vertex: &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; The vertex is the point on the graph when the input is at \(6.25\). It’s around \((6.25,39.063)\). It’s when the rectangle has the greatest area.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a" start="3"&gt;
+                &lt;li&gt; Zeros: &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The zeros are \(0\) and \(12.5\). They tell us that when the side length of the rectangle is \(0\) or \(12.5\) meters, the rectangle has no area (no rectangle exists).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;The number of squares as a function of step number \(n\): \(f(n)=n^2+4\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/dnC5sVvVLSvhq3EjPy7PwsJ3" alt="Graph of the quadratic function&amp;amp;nbsp;f of n = n squared + 4.&amp;amp;nbsp;Horizontal axis scale negative 12 to 12 by 6’s, labeled “step number”. Vertical axis scale 0 to 200 by 40’s, labeled “number of squares”.&amp;amp;nbsp;&amp;quot; height=&amp;quot;222" width="262" height="296"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt; Domain: &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(n \geq 0\) where \(n\) is a whole number. Step numbers that are negative or decimal don’t make sense here. The graph should show points at non-negative integer values (instead of a continuous curve). Everything to the left of the vertical axis does not have meaning here.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a" start="2"&gt;
+                &lt;li&gt; Vertex: &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The vertex is \((0,4)\). It tells us the number of squares at Step \(0\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a" start="3"&gt;
+                &lt;li&gt; Zeros: &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;There are no zeros for this function. There is not a time when there are no squares in the pattern.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;The distance in feet that an object has fallen \(t\) seconds after being dropped: \(g(t)=16t^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/qhsqzWR55xKkorQERFjogDqU" alt=" &lt;p&gt;Graph of the quadratic function &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35295&amp;quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35&amp;quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 600 by 200’s, labeled “distance fallen (feet)”. Some of the points of this function are (negative 8 comma 1024), (negative 5 comma 400) and (negative 1 comma 16) to a minimum at &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35&amp;quot;&gt;&lt;/span&gt;(0 comma 0) then increasing through (1 comma 16), (5 comma 400) and (8 comma 1024).&lt;/p&gt;" width="262" height="287"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt; Domain: &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(t \geq 0\) or only positive numbers and \(0\). Negative values of time don’t make sense here, so the part of the graph to the left side of the vertical axis has no meaning.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a" start="2"&gt;
+                &lt;li&gt; Vertex: &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The vertex is \((0,0)\). It tells us the distance fallen at \(0\) seconds, which is \(0\) feet.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol&gt;
+            &lt;ol type="a" start="3"&gt;
+                &lt;li&gt; Zeros: &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The vertex also tells us the zero of the function. It’s the only time when the distance fallen is \(0\) feet.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;h4&gt;Video: Identifying Domain, Vertex, and Zero of Quadratic Functions&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about the domain, vertex, and zero of quadratic functions.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/ce57cc6be915599b86183af5e016926306d73f79"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/54ddb28fcbc569717c38850db6b937c7c3bdb75e" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/ce57cc6be915599b86183af5e016926306d73f79
+&lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3747">
+            <jumpto>1665</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664938298</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3748">
+            <jumpto>1669</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664938298</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1669">
+        <prevpageid>1668</prevpageid>
+        <nextpageid>1670</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1664938746</timecreated>
+        <timemodified>1665548650</timemodified>
+        <title>7.7.3: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;Find the approximate domain of the graph below:&lt;/p&gt;&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/KaMw3hqcauLrZMY6cEpX6ez1" width="311" height="231" alt="Graph of the quadratic function. h(t)=5+60t−16t^2 on a coordinate plane, origin O. Horizontal axis scale 0 to 4 by 1’s, labeled “time (seconds)”. Vertical axis scale 0 to 80 by 20’s, labeled “distance above ground (feet)”. Some of the points of this function are (0 comma 5), (1 comma 49), to a maximum near (1 point 9 comma 61 point 2 5) then decreasing through (2 comma 61), (3 comma 41) and (3.8 comma 0).
+                    "&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3749">
+            <jumpto>1670</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664938746</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(0 \leq x \leq 1.8\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: \(1.8\) is approximately where the maximum occurs, not the full domain. The answer is \(0 \leq x \leq 3.8\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3750">
+            <jumpto>1670</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664938746</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(0 \leq x \leq 60\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This describes the range. The answer is \(0 \leq x \leq 3.8\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3751">
+            <jumpto>1671</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1664938746</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(0 \leq x \leq 3.8\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The time in seconds can be between \(0\) and almost \(4\) seconds.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3752">
+            <jumpto>1670</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664938746</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x \geq 0\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Not all values above \(0\) are in the domain. The answer is \(0 \leq x \leq 3.8\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3753">
+            <jumpto>1670</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664938746</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1670">
+        <prevpageid>1669</prevpageid>
+        <nextpageid>1671</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664938855</timecreated>
+        <timemodified>1665725134</timemodified>
+        <title>7.7.3: Additional Resources</title>
+        <contents>&lt;h4&gt;The Meaning of Quadratic Characteristics&lt;/h4&gt;
+&lt;p&gt;The height in feet of an object \(t\) seconds after being dropped is graphed below: \(h(t)=576-16t^2\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/FrVf51CfdrPuZr8aLobjzQCh" width="262" height="287" alt="&lt;p&gt;Graph of the quadratic function h(t)=576 - 16t^2 on a coordinate plane, origin O. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 800 by 200’s, labeled “height (feet)”. Some of the points of this function are (negative 6 comma 0), (negative 4 comma 320) and (negative 2 comma 512) to a maximum at (0 comma 576) then decreasing through (2 comma 512), (4 comma 320) and (6 comma 0).&lt;/p&gt;"&gt;&lt;/p&gt;
+&lt;p&gt;Find the domain of the function.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; The domain is the \(t\) values, \(0 \leq t \leq 6\) or only numbers from \(0\) up through \(6\). Negative values of time don’t make sense here, so the part of the graph to the left side of the vertical axis has no meaning. The object hits the ground \(6\) seconds after being dropped, so values greater than \(6\) are not meaningful. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find the vertex and describe its meaning.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; The vertex is the peak of the parabola, or the maximum, at the point \((0,576)\). It tells us the time when the height is the greatest. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find the zeros and describe their meaning.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; The zero of the function is \(6\). It tells us that the height of the object is \(0\) feet at \(6\) seconds after being dropped, or the time when the object hits the ground. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Try It: The Meaning of Quadratic Characteristics&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Describe the zero and its meaning for the graph below:&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/fc0355928478dd058a1d518ea62a6f20d2dcb493" width="340" height="290"&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to determine the zero and its meaning:&lt;/p&gt;
+    &lt;p&gt;Find where the function crosses the \(x\)-axis:&lt;/p&gt;
+    &lt;p&gt;\(x=0\), \(x=16\)&lt;/p&gt;
+    &lt;p&gt;Looking at the label on the \(x\)-axis, this value means that at \(0\) seconds and \(16\) seconds, the height is \(0\) feet.&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3754">
+            <jumpto>1669</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664938855</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3755">
+            <jumpto>1671</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664938855</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1671">
+        <prevpageid>1670</prevpageid>
+        <nextpageid>1672</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664939434</timecreated>
+        <timemodified>1665725531</timemodified>
+        <title>7.7.4: Relate the Domain of a Function to Its Graph</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;This graph represents the revenue in dollars that a company expects if they sell their product for \(p\) dollars.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/J7DmTKP22hMXeACmMgVyrasz" alt="Graph of non linear function.&amp;quot; height=&amp;quot;196" width="324" height="262"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt; 
+  
+  &lt;!--Q#--&gt;
+  
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="$5" data-solution-options="[&amp;quot;$5&amp;quot;, &amp;quot;$17&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Based on this model, which price would generate more revenue for the company, \($5\) or \($17\)?&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! \($5\), as it would generate about \($3,700\) in revenue. Charging \($17\) would bring in about \($2,500\). &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Incorrect. The correct answer is \($5\), as it would generate about \($3,700\) in revenue. Charging \($17\) would bring in about \($2,500\).&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--END QUESTION.--&gt; 
+  
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt; 
+  &lt;!--Q1a--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="10" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="2"&gt;
+        &lt;li&gt;At what price (in dollars) should the company sell their product if they wish to make as much revenue as possible?&lt;/li&gt;
+      &lt;/ol&gt;
+      &lt;p&gt;Enter your answer here.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! Based on the graph, a price of \($10\) would bring in the most revenue.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;The correct answer is \(10\). Based on the graph, a price of \($10\) would bring in the most revenue.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--END QUESTION.--&gt; 
+  &lt;!--Q1b--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="5000" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="3"&gt;
+        &lt;li&gt;How much revenue (in dollars) would they make?&lt;/li&gt;
+      &lt;/ol&gt;
+      &lt;p&gt;Enter your answer here.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! Based on the graph, a price of \($10\) would bring in about \($5,000\).&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;The correct answer is \($5,000\). Based on the graph, a price of \($10\) would bring in about \($5,000\).&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--END QUESTION.--&gt; 
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol start="4"&gt;
+      &lt;li&gt;What is an appropriate domain for the function? Explain how you know.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answer:&lt;/p&gt;
+  &lt;p&gt;\(0 \leq p \leq 20\), because the price has to be non-negative, and the company would earn negative revenue if the price were more than \($20\).&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3756">
+            <jumpto>1668</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664939434</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3757">
+            <jumpto>1672</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664939434</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1672">
+        <prevpageid>1671</prevpageid>
+        <nextpageid>1673</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664939938</timecreated>
+        <timemodified>1665725921</timemodified>
+        <title>7.7.5: Practice</title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    &lt;!--1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="320" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;Use the following to answer questions 1–5.&lt;/p&gt;
+            &lt;p&gt;Based on past musical productions, a theater predicts selling \(400-8p\) tickets when each ticket is sold at \(p\) dollars.&lt;/p&gt;
+            &lt;ol&gt;
+                &lt;li&gt;Answer questions a–g to complete the middle column in the table to find out how many tickets the theater expects to sell and what revenues it expects to receive at the given ticket prices.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;table cellpadding="5" border="1"&gt;
+                &lt;colgroup&gt;
+                    &lt;col&gt;
+                    &lt;col&gt;
+                    &lt;col&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;&lt;strong&gt;Ticket price (dollars)&lt;/strong&gt;&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;&lt;strong&gt;Number of tickets sold&lt;/strong&gt;&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;&lt;strong&gt;Revenue (dollars)&lt;/strong&gt;&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(5\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(360\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(1800\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(10\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;a. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(15\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;b. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(20\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;c. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(30\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;d. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(45\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;e. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(50\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;f. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(p\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;g. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;br&gt;
+            &lt;ol&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt;When the price is \($10\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&amp;nbsp;There are 320 tickets sold when the price is $10 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 320. There are 320 tickets sold when the price is $10 per ticket.&amp;nbsp;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="280" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt;When the price is \($15\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! There are 280 tickets sold when the price is $15 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 280. There are 280 tickets sold when the price is $15 per ticket. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="240" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt;When the price is \($20\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! There are 240 tickets sold when the price is $20 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 240. There are 240 tickets sold when the price is $20 per ticket. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1d--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="160" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="4"&gt;
+                    &lt;li&gt;When the price is \($30\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! There are 160 tickets sold when the price is $30 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 160. There are 160 tickets sold when the price is $30 per ticket. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1e--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="40" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="5"&gt;
+                    &lt;li&gt;When the price is \($45\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! There are 40 tickets sold when the price is $45 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 40. There are 40 tickets sold when the price is $45 per ticket. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1f--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="0" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="6"&gt;
+                    &lt;li&gt;When the price is \($50\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! There are 0 tickets sold when the price is $50 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 0. There are 0 tickets sold when the price is $50 per ticket. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1g--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(400-8p\)" data-solution-options="[&amp;quot;\\(392p\\)&amp;quot;, &amp;quot;\\(400-8p\\)&amp;quot;, &amp;quot;\\(p(400-8p)\\)&amp;quot;, &amp;quot;\\(p(8p-400)\\)&amp;quot; ]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="7"&gt;
+                    &lt;li&gt; When the price is \(p\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt; Correct! \(400-8p\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: \(400-8p\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="3200" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="2"&gt;
+                &lt;li&gt;Answer questions a-g to complete the right column in the table to find out what revenues the theater expects to receive at the given ticket prices.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;table cellpadding="5" border="1"&gt;
+                &lt;colgroup&gt;
+                    &lt;col&gt;
+                    &lt;col&gt;
+                    &lt;col&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;&lt;strong&gt;Ticket price (dollars)&lt;/strong&gt;&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;&lt;strong&gt;Number of tickets sold&lt;/strong&gt;&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;&lt;strong&gt;Revenue (dollars)&lt;/strong&gt;&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(5\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(360\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(1800\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(10\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;a. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(15\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;b. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(20\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;c. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(30\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;d. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(45\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;e. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(50\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;f. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;\(p\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;
+                            &lt;p&gt;g. _____&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;br&gt;
+            &lt;ol&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt;When the price is \($10\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is $3,200 when the price is $10 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 3,200. The revenue is $3,200 when the price is $10 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4200" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt;When the price is \($15\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is $4,200 when the price is $15 per ticket. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 4,200. The revenue is $4,200 when the price is $15 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4800" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt;When the price is \($20\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is $4,800 when the price is $20 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 4,800. The revenue is $4,800 when the price is $20 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2d--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4800" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="4"&gt;
+                    &lt;li&gt;When the price is \($30\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is $4,800 when the price is $30 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 4,800. The revenue is $4,800 when the price is $30 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2e--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1800" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="5"&gt;
+                    &lt;li&gt;When the price is \($45\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is $1,800 when the price is $45 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 1,800. The revenue is $1,800 when the price is $45 per ticket. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2f--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="0" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="6"&gt;
+                    &lt;li&gt;When the price is \($50\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is zero when the price is $50 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 0. The revenue is zero when the price is $50 per ticket. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2g--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(p(400-8p)\)" data-solution-options="[ &amp;quot;\\(p(8p-400)\\)&amp;quot;, &amp;quot;\\(400-8p\\)&amp;quot;, &amp;quot;\\(p(400-8p)\\)&amp;quot;, &amp;quot;\\(392p\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="7"&gt;
+                    &lt;li&gt; When the price is \(p\) per ticket, what is the revenue in dollars?&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt; Correct! \(p(400-8p)\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: \(p(400-8p)\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="50" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="3"&gt;
+                &lt;li&gt;For which ticket price, listed in the table, will the theater earn no revenue? &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The revenue is zero when the ticket price is $50. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 50. The revenue is zero when the ticket price is $50. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="10" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="4"&gt;
+                &lt;li&gt;Calculate the lowest price of a ticket that the theater should sell the tickets for if it must earn at least \($3,200\) in revenue to break even (to not lose money) on the musical production. (The calculated value may not be listed in the table.) &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The lowest price the theater should charge to at least make $3,200 and break even is $10 per ticket.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt; Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 10. The lowest price the theater should charge to at least make $3,200 and break even is $10 per ticket. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q5--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="40" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="5"&gt;
+                &lt;li&gt;Calculate the highest price of a ticket that the theater should sell the tickets for if it must earn at least \($3,200\) in revenue to break even (to not lose money) on the musical production. (The calculated value may not be listed in the table.)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The highest price the theater should charge to make at least $3,200 and break even is $40 per ticket. Although not shown in the table, we can calculate that when \(p\) is $40, the expected revenue is \(40(400-8(40))\) or \(40 \cdot 80\), which is $3,200.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 40. The highest price the theater should charge to at least make $3,200 and break even is $40 per ticket. Although not shown in the table, we can calculate that when \(p\) is $40, the expected revenue is \(40(400-8(40)\) or \(40 \cdot 80\), which is $3,200. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((50,000-400p) \cdot p\)" data-solution-options="[&amp;quot;\\((50,000-400p) \\cdot p\\)&amp;quot;, &amp;quot;\\((50,000p-400) \\cdot p\\)&amp;quot;, &amp;quot;\\((50,000p-400p)\\)&amp;quot;, &amp;quot;\\((49,600p) \\cdot p\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="6"&gt;
+                &lt;li&gt;A company sells running shoes. If the price of a pair of shoes in dollars is \(p\), the company estimates that it will sell \(50,000-400p\) pairs of shoes.&lt;br&gt;
+                    &lt;br&gt;
+                    Which expression represents the revenue in dollars from selling running shoes if a pair of shoes is priced at \(p\) dollars?&lt;br&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \((50,000-400p) \cdot p\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 7.7.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: \((50,000-400p) \cdot p\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q7--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;The school expects to sell 160 mugs if the price is $5 each.&amp;quot;, &amp;quot;The school will earn about $1,000 if it sells the mugs for $10 each.&amp;quot;, &amp;quot;The revenue will be more than $700 if the price is between $5 and $14.&amp;quot;]" data-solution-options="[&amp;quot;At $2 per coffee mug, the revenue will be $196.&amp;quot;, &amp;quot;The school expects to sell 160 mugs if the price is $5 each.&amp;quot;, &amp;quot;The school will lose money if it sells the mugs for more than $10 each.&amp;quot;, &amp;quot;The school will earn about $1,000 if it sells the mugs for $10 each.&amp;quot;, &amp;quot;The revenue will be more than $700 if the price is between $5 and $14.&amp;quot;, &amp;quot;The expected revenue will increase if the price per mug is greater than $10.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;Use the following to answer questions 7–9.&lt;/p&gt;
+            &lt;p&gt;The function \(f\) represents the revenue in dollars the school can expect to receive if it sells \(220-12x\) coffee mugs for \(x\) dollars each.&lt;/p&gt;
+            &lt;p&gt;Here is the graph of \(f\).&lt;/p&gt;
+            &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/H4mnHeopSzeh5dnB4A4oz9ru" alt="Parabola on grid. Horizontal axis, price in dollars, from 0 to 20. Vertical axis, revenue in dollars, from 0 to 1000. Parabola opens down. Vertex near 9 comma 1000. \(X-intercepts near 0 and 18 point 2." width="324" height="209"&gt;&lt;/p&gt;
+            &lt;ol start="7"&gt;
+                &lt;li&gt;&lt;strong&gt;Select three&lt;/strong&gt; statements that describe this situation.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The school expects to sell 160 mugs if the price is $5 each. The school will earn about $1,000 if it sells the mugs for $10 each. The revenue will be more than $700 if the price is between $4 and $14.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answers are: The school expects to sell 160 mugs if the price is $5 each. The school will earn about $1,000 if it sells the mugs for $10 each. The revenue will be more than $700 if the price is between $4 and $14. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q8--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1000" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="8"&gt;
+                &lt;li&gt;To the nearest hundred dollars, what is the maximum revenue for the mugs? &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 1000&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 7.7.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 1,000. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q9--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(0 \leq x \leq 18\)" data-solution-options="[ &amp;quot;\\(0 \\leq x \\leq 9\\)&amp;quot;,&amp;quot;\\(0 \\leq x \\leq 18\\)&amp;quot;, &amp;quot;\\(0 \\leq x \\leq 1000\\)&amp;quot;, &amp;quot;\\(x \\geq 0\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="9"&gt;
+                &lt;li&gt;Which is the approximate domain?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(0 \leq x \leq 18\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.7.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(0 \leq x \leq 18\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--Do not edit below this line--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3758">
+            <jumpto>1671</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664939938</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3759">
+            <jumpto>1673</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664939938</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1673">
+        <prevpageid>1672</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664940223</timecreated>
+        <timemodified>1664940531</timemodified>
+        <title>7.7.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Choose a domain that makes sense in a revenue situation. &lt;/li&gt;
+  &lt;li&gt; Model revenue with quadratic functions and graphs. &lt;/li&gt;
+  &lt;li&gt; Relate the vertex of a graph and the zeros of a function to a revenue situation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 7.7.1: Comparing Graphs of Functions
+    &lt;ul&gt;
+      &lt;li&gt; In this activity, you analyzed and compared the features of the graphs of four different functions. &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt; 7.7.2: Modeling Real-World Data with Quadratic Functions
+    &lt;ul&gt;
+      &lt;li&gt; In this activity, you analyzed the relationship between the price of downloading a movie and the number of downloads. You modeled and graphed the relationship as a quadratic function that showed the revenue as a function of the price of the download. You used this function, referred to as the demand function, to predict profit price points. &lt;/li&gt;
+      &lt;li&gt; 7.7.2: Self Check &lt;/li&gt;
+      &lt;li&gt; 7.7.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt; 7.7.3: The Domain, Vertex, and Zero of Quadratic Functions
+    &lt;ul&gt;
+      &lt;li&gt;In this activity, you looked at appropriate domains for quadratic functions given the situations they represented. You identified and estimated the vertex of the graph and the zeros of the functions. You used modeling and graphing to interpret upper or lower limits for the input, as well as whether all numbers made sense.&lt;/li&gt;
+      &lt;li&gt; 7.7.3: Self Check &lt;/li&gt;
+      &lt;li&gt; 7.7.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt; 7.7.4: Relate the Domain of a Function to Its Graph
+    &lt;ul&gt;
+      &lt;li&gt; In this activity, you analyzed a graph that represented the revenue that a company would expect to see if they sell their product at a certain price. You used this information to determine an appropriate domain for the function of the graph. &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 7.7.5: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
+  
+  &lt;!--pulldown--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3760">
+            <jumpto>1672</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664940223</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3761">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664940223</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

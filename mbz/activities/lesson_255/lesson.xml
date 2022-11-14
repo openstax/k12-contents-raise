@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="192" moduleid="255" modulename="lesson" contextid="266">
+  <lesson id="192">
+    <course>2</course>
+    <name>Lesson 7.13 Teacher Guide: Graphing the Standard Form, Part 2</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>256</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1665702489</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1768">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1769</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665206990</timecreated>
+        <timemodified>1665684435</timemodified>
+        <title>7.13.0: Lesson Overview</title>
+        <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
+&lt;p&gt;This lesson is optional because it goes beyond the depth of understanding required to address the standards. In this lesson, students continue to examine the ties between quadratic expressions in standard form and the graphs that represent them. The focus this time is on the coefficient of the linear term, the \(b\) in \(ax^2+bx+c\), and how changes to it affect the graph. Students are not expected to know how to modify given expressions to transform the graphs in certain ways, but they will notice that adding a linear term to the squared term translates the graph in both horizontal and vertical directions. This understanding will help students to conclude that writing an expression such as \(x2^+bx\) in factored form can help us reason about the graph.&lt;/p&gt;
+&lt;p&gt;Students also practice writing expressions that produce particular graphs. To do so, students make use of the structure in quadratic expressions and what they learned about the connections between expressions and graphs.&lt;/p&gt;
+&lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Describe (orally and in writing) how the \(b\) in \(ax^2+bx+c\) affects the graph. &lt;/li&gt;
+    &lt;li&gt; Write quadratic expressions in standard and factored forms that match given graphs. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt; Explain how the \(b\) in \(ax^2+bx+c\) affects the graph of the equation. &lt;/li&gt;
+    &lt;li&gt; Match equations given in standard and factored form with their graph. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A6(B) write equations of quadratic functions given the vertex and another point on the graph, write the equation in vertex form \((f(x) = a(x - h)^2 + k)\), and rewrite the equation from vertex form to standard form \((f(x) = ax^2 + bx + c)\);&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Foundational: Lesson provides foundational content necessary for students to be able to perform this TEKS in later lessons.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A7(A) graph quadratic functions on the coordinate plane and &lt;u&gt;use the graph to identify key attributes, if possible, including \(x\)-intercept, \(y\)-intercept, zeros&lt;/u&gt;, maximum value, minimum values, &lt;u&gt;vertex&lt;/u&gt;, and the equation of the axis of symmetry;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A7(B) describe the relationship between the linear factors of quadratic expressions and the zeros of their associated quadratic functions;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Full coverage: Lesson provides content that covers all parts of this TEKS.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A7(C) determine the effects on the graph of the parent function \(f(x) = x^2\) when \(f(x)\) is replaced by \(af(x)\), \(f(x)+ d\), \(f(x - c)\), \(f(bx)\) for specific values of \(a\), \(b\), \(c\), and \(d\).&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Foundational: Lesson provides foundational content necessary for students to be able to perform this TEKS in later lessons.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Lesson Activities&lt;/h4&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; 7.13.1: Equivalent Expressions &lt;/li&gt;
+    &lt;li&gt; 7.13.2: The Linear Term in a Quadratic Expression &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; 7.13.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 7.13.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 7.13.3: Writing Equations that Represent a Graph &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; 7.13.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 7.13.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 7.13.4: Graphing Quadratic Equations &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will also complete a series of problems in 7.13.5: Practice.&lt;/p&gt;
+&lt;h4&gt;Required Materials&lt;/h4&gt;
+&lt;p&gt;Graphing technology&lt;/p&gt;
+&lt;h4&gt;Required Preparation&lt;/h4&gt;
+&lt;p&gt;Acquire devices that can run Desmos (recommended) or other graphing technology. It is ideal if each student has their own device.&lt;/p&gt;
+&lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
+    &lt;li&gt; Encourage students to use key vocabulary words in “math talk” and their written and oral explanations. &lt;/li&gt;
+    &lt;li&gt; Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson:&lt;/p&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt; none &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt; none &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Support for Building Character&lt;/h4&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;proactivity&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/the-adaptability-advantage/" target="_blank"&gt;The Adaptability Advantage&lt;/a&gt; &lt;/li&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/unrecognized-strengths/" target="_blank"&gt;Unrecognized Strengths&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find other tips located here in the &lt;a href="https://characterlab.org/playbooks/proactivity/" target="_blank"&gt;Playbook on Proactivity&lt;/a&gt; from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3973">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665206990</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1769">
+        <prevpageid>1768</prevpageid>
+        <nextpageid>1770</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665208194</timecreated>
+        <timemodified>1665782291</timemodified>
+        <title>7.13.1: Equivalent Expressions</title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
+&lt;p&gt;In this warm up, students practice applying the distributive property to write equivalent quadratic expressions in standard and factored forms. They also notice that when a quadratic expression has no constant term (that is, is in the form of \(x^2+bx\)), its factors are a variable and a sum (or a difference). Their awareness of this structure prepares them to think about how the linear term in a quadratic expression affects the behavior of the graph later in the lesson.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Arrange students in groups of two. Give them a moment of quiet think time, and then time to briefly share their responses with their partner.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt;Complete each row with an equivalent expression in standard form or factored form.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="137"&gt;
+        &lt;col width="137"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Standard Form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Factored Form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;a. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;d. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x(x+9)\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x^2-18x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;b. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;e. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x(6-x)\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(-x^2+10x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;c. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;f. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(-x(x+2.75)\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; What is the factored form of \(x^2\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x\cdot x\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol start="2" type="a"&gt;
+        &lt;li&gt; What is the factored form of \(x^2-18x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x(x-18)\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol start="3" type="a"&gt;
+        &lt;li&gt; What is the factored form of \(-x^2+10x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(-x(x-10)\) or \(x(-x+10)\) or \(x(10-x)\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol start="4" type="a"&gt;
+        &lt;li&gt; What is the standard form of \(x(x+9)\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x^2+9x\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol start="5" type="a"&gt;
+        &lt;li&gt; What is the standard form of \(x(6-x)\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(-x^2+6x\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol start="6" type="a"&gt;
+        &lt;li&gt; What is the standard form of \(-x(x+2.75)\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(-x^2-2.75x\)&lt;/p&gt;
+&lt;/ol&gt;
+
+&lt;ol start="2"&gt;
+    &lt;li&gt;What do the quadratic expressions in each column have in common (besides the fact that everything in the left column is in standard form and everything in the other column is in factored form)? Be prepared to share your observations.
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; In the left column, all the expressions in standard form have a squared term and a linear term but no constant term, and the squared term has a coefficient of either 1 or -1. In the right column, one of the factors is just a variable whose coefficient is 1 or -1, and the other factor is either a sum or a difference.&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Consider displaying the completed table for all to see. If needed, discuss only the last few expressions that can be written in a few different but equivalent ways.&lt;/p&gt;
+&lt;p&gt;Then, focus the discussion on the second question. Ask students:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; "Look at all the quadratic expressions in standard form. What do they have in common?" (They have a squared term and a linear term. They do not have a constant term.) &lt;/li&gt;
+    &lt;li&gt; "From these expressions, what can we predict, if anything, about the features of the graphs that represent them?" (Their \(y\)-intercept is \((0,0)\).) "Can you tell where the \(x\)-intercepts or the vertex will be?" (Not easily.) &lt;/li&gt;
+    &lt;li&gt; "Look at all the expressions in factored form. What do they have in common?" (They are all in the form of \(x\) or -\(x\) times a sum or a difference.) &lt;/li&gt;
+    &lt;li&gt; "From these expressions, what can we predict, if anything, about the features of the graphs?" (We can "see" their \(x\)-intercepts and the vertex.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Remind students that they have looked at how the constant term and the coefficient of the squared term affect the features of a graph representing a quadratic function. Tell them that they will now explore how the linear term influences the graph, and that along the way, it can be helpful to think flexibly about the expressions that represent a function.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3974">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665208194</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3975">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665208194</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1770">
+        <prevpageid>1769</prevpageid>
+        <nextpageid>1771</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665211723</timecreated>
+        <timemodified>1665704199</timemodified>
+        <title>7.13.2: The Linear Term in a Quadratic Expression</title>
+        <contents>&lt;h3&gt;Activity (20 minutes)&lt;/h3&gt;
+&lt;p&gt;In this activity, students use graphing technology to experiment with the linear term in quadratic expressions of the form \(ax^2+bx\), where \(a\) is either positive and negative. They notice that adding a linear term to \(x^2\) or \(-x^2\) shifts the graph both horizontally and vertically.&lt;/p&gt;
+&lt;p&gt;One way to quantify the shift of a graph is in terms of the \(x\)-intercepts and the vertex. For example, the graph of \(y=x^2\) has an \(x\)-intercept at \((0,0)\). Adding \(20x\) to \(x^2\) shifts the graph to the left and down such that the \(x\)-intercepts are now at \((-20,0)\) and \((0,0)\). The shift also moves the vertex of the graph from \((0,0)\) to \((-10,-100)\). Students make sense of the values of these \(x\)-intercepts by recognizing that \(x^2+20x\) is equivalent to \(x(x+20)\), and that \(x\) values of 0 and -20 give the expression a value of 0.&lt;/p&gt;
+&lt;p&gt;Students then use their observations to predict the \(x\)-intercepts and vertices of the graphs of several equations without graphing. They also notice that when a quadratic expression has no linear term but has a constant term, rewriting it in factored form gets tricky, and that the graph may or may not have \(x\)-intercepts. (For now they are just making this observation. In a later unit, they will explore why this is the case.)&lt;/p&gt;
+&lt;p&gt;As they change the parameters of an expression on the graph, study the effects on the graph, and articulate their observations, students practice looking for and describing regularity through repeated reasoning.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Provide access to devices that can run Desmos or other graphing technology. Consider arranging students in groups of two. For the first question, ask one partner to operate the graphing technology and the other to record the group's observations, and then to switch roles halfway. If using Desmos, instruct students that creating a slider to experiment with linear terms might be a useful tool in this activity.&lt;/p&gt;
+&lt;h4&gt;Student Activity &lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt;Use the graphing tool or technology outside the course. Graph \(y=x^2\), and then experiment with adding different linear terms (for example, \(x^2+4x\), \(x^2+20x\), \(x^2-50x\)). Record your observations.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The graph still looks like a quadratic function when adding a linear term but it "shifts" both horizontally and vertically. Adding a positive multiple of \(x\) to \(x^2\) shifts it down and to the left while adding a negative multiple of \(x\) shifts it down and to the right.&lt;/p&gt;
+&lt;p&gt;Use your observations from question 1 to answer questions 2–5 and complete the table.&lt;/p&gt;
+
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="131"&gt;
+        &lt;col width="129"&gt;
+        &lt;col width="169"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;equation&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;\(x\)-intercepts&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;\(x\)-coordinate of vertex&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=x^2+6x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;2a. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;2b. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=x^2-10x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;3a. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;3b. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=-x^2+50x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;4a. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;4b. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=-x^2-36x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;5a. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;5b. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2+6x\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; What are the \(x\)-intercepts for the equation \(y=x^2+6x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((0,0)\),\((-6,0)\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; What is the \(x\)-coordinate of the vertex for the equation \(y=x^2+6x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; -3&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2-10x\).&lt;/li&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; What are the \(x\)-intercepts for the equation \(y=x^2-10x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((0,0)\),\((10,0)\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; What is the \(x\)-coordinate of the vertex for the equation \(y=x^2-10x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 5&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol start="4"&gt;
+    &lt;li&gt;Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=-x^2+50x\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; What are the \(x\)-intercepts for the equation \(y=-x^2+50x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((0,0)\),\((50,0)\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; What is the \(x\)-coordinate of the vertex for the equation \(y=-x^2+50x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 25&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol start="5"&gt;
+    &lt;li&gt;Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=-x^2-36x\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; Find the \(x\)-intercepts for the equation \(y=-x^2-36x\). &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((0,0)\),\((-36,0)\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; What is the \(x\)-coordinate of the vertex for the equation \(y=-x^2-36x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; -18&lt;/p&gt;
+&lt;/ol&gt;
+&lt;p&gt;Some quadratic expressions have no linear terms. For questions 6–7, find the \(x\)-intercepts and the \(x\)-coordinate of the vertex of the graph representing each equation:&lt;/p&gt;
+&lt;p&gt;\(y=x^2-25\)&lt;/p&gt;
+&lt;p&gt;\(y=x^2+16\)&lt;/p&gt;
+&lt;p&gt;(Note it is possible for the graph to not intersect the \(x\)-axis.) If you get stuck, try graphing the equations.&lt;/p&gt;
+&lt;ol start="6"&gt;
+    &lt;li&gt;Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2-25\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; What are the \(x\)-intercepts for the equation \(y=x^2-25\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((5,0)\),\((-5,0)\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; What is the \(x\)-coordinate of the vertex for the equation \(y=x^2-25\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 0&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol start="7"&gt;
+    &lt;li&gt;Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2+16\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; What are the \(x\)-intercepts for the equation \(y=x^2+16\)? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; There are no \(x\)-intercepts.&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; What is the \(x\)-coordinate of the vertex for the equation (y=x^2+16\) ? &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 0&lt;/p&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Invite students to share their observations and predictions.&lt;/p&gt;
+&lt;p&gt;To help students make sense of the shifts in \(x\)-intercepts, relate the expressions in standard form to equivalent expressions in factored form. Remind students that the factored form allows us to see the zeros of a quadratic function and the \(x\)-intercepts of the graph representing the function. Writing the expression \(x^2-20x\) as \(x(x-20)\) lets us see that the zeros are 0 and 20 (because \(0(0-20)\) and \(20(20-20)\) both give an output of 0) and the \(x\)-intercepts are \((0,0)\) and \((20,0)\). Likewise, \(x^2+50x\) can be written as \(x(x+50)\), so the \(x\)-intercepts of \((-50,0)\) and \((0,0)\) make sense.&lt;/p&gt;
+&lt;p&gt;Discuss with students:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; "What if the squared term has a negative coefficient, as in \(y=x^2-36x\)? How can we use the equivalent expression in factored form to make sense of the \(x\)-intercepts?" (Factoring out \(-x\) in \(-x^2-36x\) gives \(-x(x+36)\), so the \(x\)-intercepts are at \(x=0\) and \(x=-36\), because \(0(0+36)\) and \(-36(-36+36)\) both give an output of 0.) &lt;/li&gt;
+    &lt;li&gt; "Can we still predict the \(x\)-coordinate of the vertex of a graph if the coefficient of the squared term is negative? Why or why not?" (Yes. When there are two \(x\)-intercepts, the vertex is still halfway between the two \(x\)-intercepts.) &lt;/li&gt;
+    &lt;li&gt; "What if there isn't a linear term but there is a constant term? How did you find the \(x\)-intercepts without graphing? Were you able to write the expression in factored form?" (It was not as easy to tell what the \(x\)-intercepts were or to write the expressions in factored form. For \(y=x^2+16\), there were no \(x\)-intercepts, but for \(y=x^2-25\), there were two.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tell students they will continue to make sense of quadratic equations and their graphs in the rest of this unit and an upcoming unit.&lt;/p&gt;
+&lt;p&gt;Time permitting, consider asking students to predict how the graph of \(y=x^2\) would change if we add both a linear term and a constant term, for example, adding \(-9x\) and then 8. "How would the graph of \(y=x^2-9x+8\) differ from that of \(y=x^2\) ?" Students are likely to say that the graph would have a \(y\)-intercept of \((0,8)\), but the \(x\)-intercepts are now harder to determine. Tell students that they will learn how to find the zeros and the \(x\)-intercepts of the graph representing such functions in a later unit.&lt;/p&gt;
+&lt;h3&gt;7.13.2: Self Check&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="302"&gt;
+        &lt;col width="322"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Find the \(x\)-coordinates of all of the \(x\)-intercepts of the function \(f(x)=x^2-5x\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x = 5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: This is one of the \(x\)-intercepts, but there are two. Factor the expression, set each factor equal to zero, and solve. The answer is \(x = 0\), \(x = 5\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x = 0\), \(x = 5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That’s correct! Check yourself: In factored form, \(f(x)=x^2-5x=x(x-5)\). The factors equal 0 at these values.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x = 0\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: This is one of the \(x\)-intercepts, but there are two. Factor the expression, set each factor equal to zero, and solve. The answer is \(x = 0\), \(x = 5\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x = 0\), \(x = -5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: While \(x = 0\) is an \(x\)-intercept, \(x = -5\) is not. Factor \(f(x)=x^2-5x\). Watch the signs when setting each factor equal to zero and solving. The answer is \(x = 0\), \(x = 5\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;7.13.2: Additional Resources&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;h4&gt;Quadratics Without Linear Terms&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Find the \(x\)-intercepts and the vertex for \(f(x)=x^2-4\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Write the function in factored form. Use difference of squares:&lt;/p&gt;
+&lt;p&gt;\(f(x)=x^2-4=(x-2)(x+2)\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Set each factor equal to 0.&lt;/p&gt;
+&lt;p&gt;\(x - 2 = 0\)&lt;br&gt;
+    \(x = 2\)&lt;/p&gt;
+&lt;p&gt;\(x + 2 = 0\)&lt;br&gt;
+    \(x = -2\)&lt;/p&gt;
+&lt;p&gt;The \(x\)-intercepts are \((2, 0)\) and \((-2, 0)\).&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Find the \(x\)-value in the middle of the two \(x\)-intercepts.
+    This occurs at \(x = 0\). This is the \(x\)-coordinate of the vertex.&lt;/p&gt;
+&lt;p&gt; To find the point at the vertex, substitute into the function:&lt;br&gt;
+    \(f(0)=0^2-4=-4\)&lt;/p&gt;
+&lt;p&gt;Vertex: \((0, -4)\)&lt;/p&gt;
+&lt;h4&gt;Try It: Quadratics Without Linear Terms&lt;/h4&gt;
+&lt;p&gt;Find the \(x\)-intercepts and the vertex for \(f(x)=x2-64\).&lt;/p&gt;
+&lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to find the \(x\)-intercepts and vertex of \(f(x)=x^2-64\):&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Write the function in factored form:&lt;br&gt;
+    \(f(x)=x^2-64=(x-8)(x+8)\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Set each factor equal to 0.&lt;br&gt;
+    \(x - 8 = 0\)&lt;br&gt;
+    \(x = 8\)&lt;/p&gt;
+&lt;p&gt;\(x + 8 = 0\)&lt;br&gt;
+    \(x = -8\)&lt;/p&gt;
+&lt;p&gt;The \(x\)-intercepts are at \((8, 0)\) and \((-8, 0)\).&lt;/p&gt;
+&lt;p&gt;The vertex is located halfway between the \(x\)-intercepts, at \(x = 0\).&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    To find the point, substitute into \(f(x)=x^2-64\).&lt;/p&gt;
+&lt;p&gt;\(f(0)=0^2-64=-64\)&lt;/p&gt;
+&lt;p&gt;The vertex is at \((0, -64)\).&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3976">
+            <jumpto>0</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665211723</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3977">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665211723</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1771">
+        <prevpageid>1770</prevpageid>
+        <nextpageid>1772</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665214413</timecreated>
+        <timemodified>1665782545</timemodified>
+        <title>7.13.3: Writing Equations that Represent a Graph</title>
+        <contents>&lt;h3&gt;Activity (10 minutes)&lt;/h3&gt;
+&lt;p&gt;Earlier, students were given quadratic equations and asked to reason about the graphs that represent them. Here, they reason the other way around: they write equations that can be represented by given graphs. To do so, students need to apply their insights about the structure of quadratic expressions in different forms and their connections to the graphs.&lt;/p&gt;
+&lt;p&gt;To help students write and check their equations, at least three points on each graph are labeled with their coordinates. In some cases, it is easier to write an equation in factored form. In other cases, an equation in standard form can be more easily derived. Identify students who are attentive to the information given in the graph and use it strategically. Invite them to share during discussion.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Provide access to graphing technology.&lt;/p&gt;
+&lt;p&gt;The activity allows for instant feedback to students (if an equation is incorrect, the graph that results will not match the given graph). Because the equations increase in complexity as students move from Graph A to Graph J, students may find that their equations are off but not know what the issue is or how to correct them. Consider arranging students in groups of two so that they can discuss how to write the more-challenging equations.&lt;/p&gt;
+&lt;h4&gt;Student Activity &lt;/h4&gt;
+&lt;p&gt;Use the graphing tool or technology outside the course. Identify the function that matches each graph. Make sure your graph goes through all three points shown!&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Identify the function of Graph A.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/McmXKSCkLjnbddU2HWYYu5Mk" alt="Coordinate plane, graph of a quadratic function, point at negative 1 comma 1, minimum at 0 comma 0, point at 1 comma 1.&amp;quot; height=&amp;quot;197&amp;quot;" width="262" height="262"&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=x^2\)&lt;/p&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;Identify the function of Graph B.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/D1ENLsNiiCJAg5YLsXF8uqE6" alt="Coordinate plane, graph of a quadratic function, point at negative 3 comma 0, minimum at 0 comma negative 9, point at 3 comma 0.&amp;quot; height=&amp;quot;197&amp;quot;" width="262" height="262"&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=x^2-9\) or \(y=(x-3)(x+3)\)&lt;/p&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;Identify the function of Graph C.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/TRSbUnHnwSjcP5ziLqqoktN7" alt="Coordinate plane, graph of a quadratic function, point at negative 2 comma 0, minimum at 0 point 5 comma negative 6 point 2 5, point at 3 comma 0.&amp;quot; height=&amp;quot;197&amp;quot;" width="262" height="262"&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=(x+2)(x-3)\)&lt;/p&gt;
+&lt;ol start="4"&gt;
+    &lt;li&gt;Identify the function of Graph D.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/1CPqawaqgYRjosomh3UahgmS" alt="Coordinate plane, graph of a quadratic function, point at negative 6 comma 0, minimum at negative 3 comma negative 9, point at 0 comma 0.&amp;quot; height=&amp;quot;197&amp;quot;" width="262" height="262"&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=x(x+6)\)&lt;/p&gt;
+&lt;ol start="5"&gt;
+    &lt;li&gt;Identify the function of Graph E.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/TWQ3foVH7GLdH2KXWfiymifP" alt="&amp;quot;Coordinate plane, graph of a quadratic function, point at negative 2 comma 0, maximum at negative 0 comma 4, point at 2 comma 0.&amp;quot; height=&amp;quot;197&amp;quot;" width="262" height="262"&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=-x^2+4\) or \(y=(-x+2)(x+2)\)&lt;/p&gt;
+&lt;ol start="6"&gt;
+    &lt;li&gt;Identify the function of Graph F.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/pob29ofa8uvpc0a3m8qncea3udfa" alt="&amp;quot;Coordinate plane, graph of a quadratic function, points at 0 comma 4, and 4 comma 4,&amp;amp;nbsp;minimum at 2 comma 0.&amp;quot; height=&amp;quot;197&amp;quot;" width="262" height="262"&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=(x-2)(x-2)\) or \(y=x^2-4x+4\)&lt;/p&gt;
+&lt;ol start="7"&gt;
+    &lt;li&gt;Identify the function of Graph G.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/Vmfnn3e14GCwCmBn623o4L2f" alt="&amp;quot;Coordinate plane, graph of a quadratic function, point at negative 1 comma 0, maximum at 0 comma 3, point at 3 comma 0.&amp;quot; height=&amp;quot;197&amp;quot;" width="262" height="262"&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=(-x-1)(x-3)\)&lt;/p&gt;
+&lt;ol start="8"&gt;
+    &lt;li&gt;Identify the function of Graph H.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/WGL1TK51pu5bWB1wigXS3uuM" alt="&amp;quot;Coordinate plane, graph of a quadratic function, opens up, point at 0 comma 5, point at 1 comma 0, point at 5 comma 0.&amp;quot; height=&amp;quot;197&amp;quot;" width="262" height="262"&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=(x-1)(x-5)\)&lt;/p&gt;
+&lt;ol start="9"&gt;
+    &lt;li&gt;Identify the function of Graph I.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/fWD44QrSxYuoVoqcrto48RKQ" alt="&amp;quot;Coordinate plane, graph of a quadratic function, point at negative 1 comma 2, minimum at 0 comma 0, point at 1 comma 2.&amp;quot; height=&amp;quot;197&amp;quot;" width="262" height="262"&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=2x^2\)&lt;/p&gt;
+&lt;ol start="10"&gt;
+    &lt;li&gt;Identify the function of Graph J.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/iQ3JkFb6G2mqBSDVQS1XMdV2" alt="Parabola. Opens down. Vertex at origin. Points on parabola include: -4 comma -4 and 4 comma -4.&amp;quot; height=&amp;quot;197&amp;quot;" width="262" height="262"&gt;&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=-0.25x^2\)&lt;/p&gt;
+&lt;h4&gt;Video: Writing Equations that Represent a Quadratic Graph&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about writing equations that represent a quadratic graph.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/296f3aec8fb544a526585ba8f6a0ae3cdcf31337"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/d9c5f1c9ec2826f1f07dd571b946edd640fe5491" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/296f3aec8fb544a526585ba8f6a0ae3cdcf31337
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Select students to share their strategies for writing equations. Highlight explanations such as:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; When the graph opens up, the \(x^2\) term in standard form has a positive coefficient. When it opens down, the \(x^2\) term has a negative coefficient. &lt;/li&gt;
+    &lt;li&gt; When two \(x\)-intercepts are known, we can write the equations in factored form. &lt;/li&gt;
+    &lt;li&gt; When the \(y\)-intercept is not at \((0,0)\) and the graph is centered on the \(y\)-axis, the equation in standard form will have the form of \(ax^2+c\) (no linear term) and \((0,c)\) is the \(y\)-intercept. (A linear term would have shifted the graph horizontally as well as vertically so it would not be centered on the \(y\)-axis.) &lt;/li&gt;
+    &lt;li&gt; When \((0,0)\) is the only \(x\)-intercept, the \(y\)-intercept, and the vertex, the equation in standard form has only the squared term \((ax^2)\). If there was a linear term, the graph would not be centered on the \(y\)-axis. If there was a constant term, the graph would move up or down and either cross the \(x\)-axis in two places or not cross it at all (that is, there would be two \(x\)-intercepts or none). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Consider discussing Graph F, as it is unlike most graphs students have seen so far (it has only one \(x\)-intercept at \((2,0)\) and one \(y\)-intercept that is not at the origin). Here a couple of approaches:&lt;/p&gt;
+&lt;p&gt;Help students see that the factored form is still useful here. Students may guess that (\(x-2)\) is one of the factors (because multiplying any number by \(2-2\) would give an output of 0) but may be unsure about the second factor. Point out that the second factor is also \((x-2)\) because there is no other \(x\)-intercept. Expanding \((x-2)(x-2)\) into standard form gives \(x^2-4x+4\), which allows us to see that the \(y\)-intercept is \((0,4)\).&lt;/p&gt;
+&lt;p&gt;If we shift this graph down 4 units, it will intercept the \(x\)-axis at 0 and 4 and its equation would be \(y=x(x-4)\) or \(y=x^2-4x\) (per what we learned earlier). To arrive at the Graph F, we would have to move it back up 4, making the equation \(x^2-4x+4\).&lt;/p&gt;
+&lt;h3&gt;7.13.3: Self Check&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Which equation describes the graph below?&lt;/p&gt;
+                &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8294df97d712ac90b9f784606574463ca3db4d6f" alt="GRAPH OF A PARABOLA THAT OPENS UPWARD WITH A Y-INTERCEPT OF NEGATIVE 12 AND X-INTERCEPTS OF NEGATIVE 4 AND 3." width="300" height="305" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x) = (x + 3)(x - 4)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The signs of the constants in the factors should be opposite signs as the \(x\)-intercepts. The answer is \(f(x) = (x - 3)(x + 4)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x) = (x - 3)(x + 4)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That’s correct! Check yourself: The \(x\)-intercepts are at 3 and -4 so the factors are \((x - 3)\) and \((x + 4)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x) = x + 12\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: Factored form is based on the \(x\)-intercepts, not the vertex. The answer is \(f(x) = (x - 3)(x + 4)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(f(x) = x(x + 3)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The \(x\)-intercepts of this function are 0 and -3. \(x=0\) is not an \(x\)-intercept. Watch the signs when writing the factors from the intercepts. The answer is \(f(x) = (x - 3)(x + 4)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;7.13.3: Additional Resources&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;h4&gt;Writing Quadratic Equations from Graphs&lt;/h4&gt;
+&lt;p&gt;Write an equation for the graph below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c055716b4854e25b101b61523b81193fa53c6497" alt="GRAPH OF A PARABOLA THAT OPENS UPWARD WITH A Y-INTERCEPT OF NEGATIVE 8 AND X-INTERCEPTS OF NEGATIVE 2 AND 4." width="300" height="349"&gt;&lt;/p&gt;
+&lt;p&gt;First, locate the \(x\)-intercepts at \((-2,0)\) and \((4,0)\).&lt;br&gt;
+    Next, write the factor for each \(x\)-intercept.&lt;/p&gt;
+&lt;p&gt;The factors that result in the given zeros are \((x + 2)\) and \((x - 4)\).&lt;br&gt;
+    The equation for this quadratic function is \(f(x)=(x + 2)(x - 4)\).&lt;/p&gt;
+&lt;p&gt;Use graphing technology to check your answer.&lt;/p&gt;
+&lt;h4&gt;Try It: Writing Quadratic Equations from Graphs&lt;/h4&gt;
+&lt;p&gt;Write an equation for the graph below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/21d2c1a12d77163c8bb135021166ab7f3494cee3" alt="GRAPH OF A PARABOLA THAT OPENS UPWARD WITH A Y-INTERCEPT OF NEGATIVE 12 AND X-INTERCEPTS OF NEGATIVE 6 AND 2." width="300" height="287"&gt;&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to write an equation for the function graphed:&lt;/p&gt;
+&lt;p&gt;First, identify the \(x\)-intercepts: \(x = -6\), \(x = 2.\)&lt;br&gt;
+    Next, write a factor for each zero:&lt;br&gt;
+    \((x + 6)\) and \((x - 2)\)&lt;/p&gt;
+&lt;p&gt;The function in factored form is \(f(x)=(x + 6)(x - 2)\).&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3978">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665214413</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3979">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665214413</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1772">
+        <prevpageid>1771</prevpageid>
+        <nextpageid>1773</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665215003</timecreated>
+        <timemodified>1665706356</timemodified>
+        <title>7.13.4: Graphing Quadratic Equations</title>
+        <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Ask students to put away devices for this cool down.&lt;/p&gt;
+&lt;h3&gt;Student Activity&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Consider the quadratic equation \(y=x^2-4x\). Consider the graph of the equation when answering questions a and b.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+  &lt;ol type="a"&gt;
+    &lt;li&gt; Where are the \(x\)-intercepts located? &lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The \(x\)-intercepts are at \(x=0\) and \(x=4\).&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+  &lt;ol start="2" type="a"&gt;
+    &lt;li&gt; What is the \(x\)-coordinate of the vertex? &lt;br&gt;&lt;br&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The correct answer is 2. The vertex is halfway between the intercepts at \(x=2\).&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt;Here is a graph of \(y=x^2\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/j5DHcbV86AEFHk1coeHH54R4" width="424" height="267" alt="&amp;quot;Graph of Parabola y = x squared&amp;amp;nbsp;&amp;quot; height=&amp;quot;200&amp;quot;"&gt;&lt;/p&gt;
+&lt;p&gt;Sketch this graph, then sketch a graph of \(y=x^2+5x\) on the same graph. Briefly explain how you know where to sketch the graph.&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x^2+5x\) is equivalent to \(x(x+5)\), so the \(x\)-intercepts are at \(x=0\) and \(x=-5\). Calculate the vertex by finding the \(x\)-coordinate in between \(x = -5\) and \(x = 0\) which is \(x = -2.5\). Substitute \(x=-2.5\) into the equation to find the \(y\)-coordinate: \(y=(-2.5)2+5(-2.5)=-6.188\). The vertex is at \((-2.5, -6.188)\). The squared term has a positive coefficient so the graph opens upward. Adding a positive linear term to \(x^2\) shifts the graph down and to the left.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/UDYBXCH4noNg31aFSFU1apAu" width="424" height="267" alt="&amp;quot;Graph of 2 parabolas &amp;amp;nbsp;&amp;quot; height=&amp;quot;200&amp;quot;"&gt;&lt;/p&gt;
+&lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
+&lt;h5&gt;More Chances&lt;/h5&gt;
+&lt;p&gt;This lesson goes beyond the depth of understanding required to address the standards, so there is not a need to slow down if students struggle with these ideas.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3980">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665215003</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3981">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665215003</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1773">
+        <prevpageid>1772</prevpageid>
+        <nextpageid>1774</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665215811</timecreated>
+        <timemodified>1665708495</timemodified>
+        <title>7.13.5: Practice</title>
+        <contents>&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;ol&gt;
+    &lt;li&gt;Choose the quadratic equation that represents each graph.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; &lt;img src="https://s3.amazonaws.com/im-ims-export/Dh9G7USMdZtpfP4JXv8bm9Ti" alt="&lt;p&gt;A curve in an x y plane, origin O. Horizontal axis, scale negative 6 to 5, by 1’s. Vertical axis, scale negative 4 to 4, by 1’s. A curve passes through the points negative 2 comma 2, 0 comma 0, and 2 comma 6.&lt;/p&gt;" width="268" height="171"&gt; &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; \(y=x^2+x\) &lt;/li&gt;
+            &lt;li&gt; \(y=-x^2+2\) &lt;/li&gt;
+            &lt;li&gt; \(y=x^2-x\) &lt;/li&gt;
+            &lt;li&gt; \(y=x^2+3x\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(y=x^2+x\)&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; &lt;img src="https://s3.amazonaws.com/im-ims-export/GQQLZ6K6TN8iCu5LDxSsz7yW" alt="&lt;p&gt;A curve in an x y plane, origin O. Horizontal axis, scale negative 6 to 5, by 1’s. Vertical axis, scale negative 4 to 4, by 1’s. A curve passes through the points negative 2 comma negative 2, 0 comma 2, and 2 comma negative 2.&lt;/p&gt;" width="268" height="171"&gt; &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; \(y=x^2+x\) &lt;/li&gt;
+            &lt;li&gt; \(y=-x^2+2\) &lt;/li&gt;
+            &lt;li&gt; \(y=x^2-x\) &lt;/li&gt;
+            &lt;li&gt; \(y=x^2+3x\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(y=-x^2+2\)&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; &lt;img src="https://s3.amazonaws.com/im-ims-export/CS8VBcqkeTbbsDKobkTiSQDQ" alt="&lt;p&gt;A curve in an x y plane, origin O. Horizontal axis, scale negative 6 to 5, by 1’s. Vertical axis, scale negative 4 to 4, by 1’s. A curve passes through the points negative 1 comma 1, 0 comma 0, 2 comma 2.&lt;/p&gt;" width="268" height="171"&gt; &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; \(y=x^2+x\) &lt;/li&gt;
+            &lt;li&gt; \(y=-x^2+2\) &lt;/li&gt;
+            &lt;li&gt; \(y=x^2-x\) &lt;/li&gt;
+            &lt;li&gt; \(y=x^2+3x\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(y=x^2-x\)&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="4"&gt;
+        &lt;li&gt; &lt;img src="https://s3.amazonaws.com/im-ims-export/yjYMNpmX3LsouSapMrxoG56X" alt="&lt;p&gt;A curve in an x y plane, origin O. Horizontal axis, scale negative 6 to 5, by 1’s. Vertical axis, scale negative 4 to 4, by 1’s. A curve passes through the points negative 3 comma 3, negative 1 comma negative 2, and 0 comma 0.&lt;/p&gt;" width="268" height="171"&gt; &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; \(y=x^2+x\) &lt;/li&gt;
+            &lt;li&gt; \(y=-^x2+2\) &lt;/li&gt;
+            &lt;li&gt; \(y=x^2-x\) &lt;/li&gt;
+            &lt;li&gt; \(y=x^2+3x\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(y=x^2+3x\)&lt;/p&gt;
+&lt;p&gt;Without graphing the equations, answer questions 2–5 to complete the table.&lt;/p&gt;
+&lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="131"&gt;
+        &lt;col width="129"&gt;
+        &lt;col width="169"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Equation&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;\(x\)-intercepts&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;\(x\)-coordinate of vertex&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=x^2+12x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;2a. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;2b. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=x^2-3x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;3a. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;3b. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=-x^2+16x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;4a. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;4b. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(y=-x^2-24x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;5a. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;5b. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2+12x\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; What are the \(x\)-intercepts for the equation \(y=x^2+12x\)? &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; \((0,0),(-12,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (3,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (16,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (-24,0)\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((0,0),(-12,0)\)&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; What is the \(x\)-coordinate of the vertex for the equation \(y=x^2+12x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; -6&lt;/p&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2-3x\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; What are the \(x\)-intercepts for the equation \(y=x^2-3x\)? &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; \((0,0),(-12,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (3,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (16,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (-24,0)\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((0,0), (3,0)\)&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="4"&gt;
+        &lt;li&gt; What is the \(x\)-coordinate of the vertex for the equation \(y=x^2-3x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 1.5&lt;/p&gt;
+&lt;ol start="4"&gt;
+    &lt;li&gt;Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=-x^2+16x\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; What are the \(x\)-intercepts for the equation \(y=-x^2+16x\)? &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; \((0,0),(-12,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (3,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (16,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (-24,0)\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\((0,0), (16,0)\)&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; What is the \(x\)-coordinate of the vertex for the equation \(y=-x^2+16x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; 8&lt;/p&gt;
+&lt;ol start="5"&gt;
+    &lt;li&gt;Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=-x^2-24x\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; What are the \(x\)-intercepts for the equation \(y=-x^2-24x\)? &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; \((0,0),(-12,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (3,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (16,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (-24,0)\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((0,0), (-24,0)\)&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; What is the \(x\)-coordinate of the vertex for the equation \(y=-x^2-24x\)? &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; -12&lt;/p&gt;
+&lt;ol start="6"&gt;
+    &lt;li&gt;Here is a graph that represents \(y=x^2\). &lt;br&gt;
+        &lt;img src="https://s3.amazonaws.com/im-ims-export/DXpMmZRfuVvKAB9Qm6YXJxqt" alt=" &lt;p&gt;A curve in an x y plane, origin O. Horizontal axis, scale negative 8 to 8, by 2’s. Vertical axis, scale negative 12 to 12, by 2’s. A curve, labeled y equals x squared, passes through the points negative 2 comma 4, 0 comma 0, and 2 comma 4.&lt;/p&gt;" width="268" height="172"&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; Describe what would happen to the graph if the original equation were changed to \(y=x^2-6x\). &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; The graph would move to the right and down. &lt;/li&gt;
+            &lt;li&gt; The graph would move to the left and down. &lt;/li&gt;
+            &lt;li&gt; The graph would move to the right and up. &lt;/li&gt;
+            &lt;li&gt; The graph would move to the left and up. &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; The graph would move to the right and down.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; Predict the \(x\)-intercepts of the graph if the original equation were changed to \(y=x^2-6x\). &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; \((0,0),(6,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (0,6)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (-6,0)\) &lt;/li&gt;
+            &lt;li&gt; \((0,0), (0,-6)\) &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((0,0),(6,0)\)&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; In which quadrant is the vertex located if the original equation were changed to \(y=x^2-6x\)? &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; First &lt;/li&gt;
+            &lt;li&gt; Second &lt;/li&gt;
+            &lt;li&gt; Third &lt;/li&gt;
+            &lt;li&gt; Fourth &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Fourth&lt;/p&gt;
+&lt;ol start="7"&gt;
+    &lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; equations whose graph opens upward.&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; \(y=-x^2+9x\) &lt;/li&gt;
+        &lt;li&gt; \(y=10x−5x^2\) &lt;/li&gt;
+        &lt;li&gt; \(y=(2x−1)^2\) &lt;/li&gt;
+        &lt;li&gt; \(y=(1−x)(2+x)\) &lt;/li&gt;
+        &lt;li&gt; \(y=x^2−8x−7\) &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWERS:&lt;/strong&gt; \(y=(2x−1)^2\), \(y=x^2−8x−7\)&lt;/p&gt;
+&lt;ol start="8"&gt;
+    &lt;li&gt;Technology required. Use the three graphs to answer questions a–c. Then, use graphing technology to check each equation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Graph A&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/CWhGbaJF84gSymD4xtXsUPbe" alt="&amp;quot;Parabola. Opens up. X intercepts = 0&amp;amp;nbsp;and -7.&amp;amp;nbsp;&amp;quot;" width="267" height="211"&gt;&lt;/p&gt;
+&lt;p&gt;Graph B&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/UkgUNUR3EQCcT6ywHR3dWFuC" alt="&amp;quot;Parabola. Opens up. Vertex = 0&amp;amp;nbsp;comma -16.&amp;amp;nbsp;X intercepts = -4 and 4.&amp;amp;nbsp;&amp;quot;" width="264" height="215"&gt;&lt;/p&gt;
+&lt;p&gt;Graph C&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/wmwBFcGbqMvVVNq2PpgC3D2G" alt="&amp;quot;Parabola. Opens up. X intercepts = -9&amp;amp;nbsp;and 3.&amp;amp;nbsp;&amp;quot;" width="270" height="216"&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; Which graph represents the equation \(f(x)=x(x+7)\) or \(f(x)=x^2+7x\)? Then, use graphing technology to check your answer. &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; Graph A &lt;/li&gt;
+            &lt;li&gt; Graph B &lt;/li&gt;
+            &lt;li&gt; Graph C &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Graph A&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; Which graph represents the equation \(g(x)=(x+4)(x−4)\) or \(g(x)=x^2−16\)? Then, use graphing technology to check your answer. &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; Graph A &lt;/li&gt;
+            &lt;li&gt; Graph B &lt;/li&gt;
+            &lt;li&gt; Graph C &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Graph B&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; Which graph represents the equation \(h(x)=(x−3)(x+9)\) or \(h(x)=x^2+6x−27\)? Then, use graphing technology to check your answer. &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; Graph A &lt;/li&gt;
+            &lt;li&gt; Graph B &lt;/li&gt;
+            &lt;li&gt; Graph C &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Graph C&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3984">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665215811</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3985">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665215811</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1774">
+        <prevpageid>1773</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665215123</timecreated>
+        <timemodified>0</timemodified>
+        <title>7.13.6: Lesson Synthesis</title>
+        <contents>&lt;p dir="ltr"&gt;To prompt students to reflect more broadly on how effectively each form of quadratic expression reveals the features of the graph that represents the expression, consider:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Asking questions such as: "Suppose two students are debating whether an expression in standard form or in factored form is more useful for sketching the graph representing \(y=(x+1)(x-6)\), which is equivalent to \(y=x^2-5x-6\). Tyler claims that the standard form is more useful. Clare thinks the factored form is the way to go. If you were Tyler, how would you support your claim? What if you were Clare?" &lt;/li&gt;
+  &lt;li&gt; Drawing a Venn diagram for all to see and asking students to compare the features of a graph that can be identified from standard and factored forms. &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3982">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665215123</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3983">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665215123</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

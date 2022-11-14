@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="212" moduleid="282" modulename="lesson" contextid="293">
+  <lesson id="212">
+    <course>2</course>
+    <name>Lesson 8.4: Solving Quadratic Equations with the Zero Product Property</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>284</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1667072895</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1939">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1940</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666239618</timecreated>
+        <timemodified>1666743216</timemodified>
+        <title>8.4.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will learn about the zero product property. You will use it to reason about the solutions to quadratic equations that each have a quadratic expression in factored form on one side and 0 on the other side.&lt;/p&gt;
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Explain the meaning of the "zero product property."&lt;/li&gt;
+    &lt;li&gt; Find solutions to quadratic equations when one side is a product of factors and the other side is zero. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.4.1: Introducing the Zero Product Property &lt;/li&gt;
+    &lt;li&gt; 8.4.2: Solving Equations of Increasing Complexity Using Reasoning &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 8.4.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.4.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.4.3: Applying the Zero Product Property to Solve a Real-World Projectile Problem &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 8.4.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.4.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.4.4: Solving Equations Using the Zero Product Property and Reasoning &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.4.5: Practice &lt;/li&gt;
+    &lt;li&gt; 8.4.6: Lesson Summary &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4352">
+            <jumpto>1940</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666239618</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1940">
+        <prevpageid>1939</prevpageid>
+        <nextpageid>1941</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666240113</timecreated>
+        <timemodified>1666743257</timemodified>
+        <title>8.4.1: Introducing the Zero Product Property</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;p&gt;What values of the variables make each equation true?&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;\(6+2a=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the value or values of the variables.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(a=-3\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(7b=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the value or values of the variables.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(b=0\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(7(c−5)=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the value or values of the variables.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(c=5\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="4" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(g \cdot h=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the value or values of the variables.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Either \(g=0\) or \(h=0\), or \(g=h=0\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="5" class="os-raise-noindent"&gt;
+            &lt;li&gt;What did you notice about one of the factors in each of the previous problems?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter what you noticed.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; At least one of the factors in each equation was 0 or equivalent to 0.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;p&gt;We will use the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;zero product property&lt;/span&gt; to help solve &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;quadratic equations&lt;/span&gt; throughout this lesson.&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-graybox"&gt;
+    &lt;p&gt; &lt;strong&gt; ZERO PRODUCT PROPERTY &lt;/strong&gt;&lt;/p&gt;
+    &lt;hr&gt;
+    &lt;p&gt;If the product of two expressions is 0, then one or both of the expressions equal 0.&lt;/p&gt;
+    &lt;p&gt;If \(ab=0\), then \(a=0\) or \(b=0\), or \(a=b=0\).&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4353">
+            <jumpto>1939</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666240113</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4354">
+            <jumpto>1941</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666240113</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1941">
+        <prevpageid>1940</prevpageid>
+        <nextpageid>1942</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666240855</timecreated>
+        <timemodified>1666743324</timemodified>
+        <title>8.4.2: Solving Equations of Increasing Complexity Using Reasoning</title>
+        <contents>&lt;h4&gt;Activity &lt;/h4&gt;
+&lt;p&gt;For each equation, find its solution or solutions. Be prepared to explain your reasoning.&lt;/p&gt;
+&lt;p&gt;For questions 1–3, review the process of solving equations.&lt;/p&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;\(x−3=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution or solutions for the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(x=3\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(x+11=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution or solutions for the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(x=-11\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(2x+11=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution or solutions for the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(x=\frac {-11}{2}\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;p&gt;For questions 4–7, recall the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;zero product property&lt;/span&gt; means that each (or all) of the factors could be equal to zero when their product is zero. Solve each equation by setting each factor equal to zero and solving.&lt;/p&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="4" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(x(2x+11)=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution or solutions for the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(x=0\) and \(x=\frac {-11}{2}\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="5" class="os-raise-noindent"&gt;
+            &lt;li&gt;\((x−3)(x+11)=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution or solutions for the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(x=3\) and \(x=-11\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="6" class="os-raise-noindent"&gt;
+            &lt;li&gt;\((x−3)(2x+11)=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution or solutions for the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(x=3\) and \(x=\frac{-11}{2}\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="7" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(x(x+3)(3x−4)=0\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution or solutions for the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(x=0\), \(x=-3\), and \(x= \frac {4}{3}\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;Use factors of 48 to find as many solutions as you can to the equation \((x−3)(x+5)=48\).&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution or solutions for the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(x=7\) and \(x=−9\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;
+&lt;br&gt;
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt;Once you think you have all the solutions, explain why these must be the only solutions.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your explanation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The numbers expressed by \(x−3\) and \(x+5\) are 8 units apart. The &lt;em&gt;only&lt;/em&gt; factor pairs of 48 that are 8 units apart are 4 and 12, as well as –4 and –12.&lt;/p&gt;
+        &lt;p&gt;Think:&lt;/p&gt;
+        &lt;ul class="os-raise-indent"&gt;
+            &lt;li&gt; What value of \(x\) would make the factors \((x−3)(x+5)\) equivalent to \((4)(12)\)? \(x=7\). &lt;/li&gt;
+            &lt;li&gt; What value of \(x\) would make the factors \((x−3)(x+5)\) equivalent to \((-4)(-12)\)? \(x=-9\). &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Check:&lt;/p&gt;
+        &lt;ul class="os-raise-indent"&gt;
+            &lt;li&gt; If \(x=7\), then \((x−3)(x+5) = 4 \cdot 12\). &lt;/li&gt;
+            &lt;li&gt; If \(x=-9\), then \((x−3)(x+5)=-12 \cdot (-4)\). &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4355">
+            <jumpto>1940</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666240855</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4356">
+            <jumpto>1942</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666240855</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1942">
+        <prevpageid>1941</prevpageid>
+        <nextpageid>1943</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1666241027</timecreated>
+        <timemodified>1666294568</timemodified>
+        <title>8.4.2: Self Check</title>
+        <contents>&lt;p&gt;Solve the equation.&lt;/p&gt;
+        &lt;p&gt;\((x+4)(8x−16)=0\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4357">
+            <jumpto>1943</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241027</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=4\) and \(x=-4\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Find the values that make each of the factors equal to 0. While \(x=-4\) is correct, check your solution when solving the factor \((8x−16)=0\). The answer is \(x=2\) and \(x=-4\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4358">
+            <jumpto>1943</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241027</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=4\) and \(x=-2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The signs on these answers are opposite of the correct responses. Find the values that make each of the factors equal to 0. The answer is \(x=2\) and \(x=-4\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4359">
+            <jumpto>1943</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241027</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=2\) and \(x=-2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Find the values that make each of the factors equal to 0. While \(x=2\) is correct, the other value is not. Check your solution when solving the factor \((x+4)=0\). The answer is \(x=2\) and \(x=-4\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4360">
+            <jumpto>1944</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1666241027</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=2\) and \(x=-4\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Substitute each value into the equation and check if they are true. \((2+4)(8(2)−16)=0\), and \(((-4)+4)(8(-4)−16)=0\). Since they are both true, your answer is correct.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4361">
+            <jumpto>1943</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241027</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&amp;nbsp;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1943">
+        <prevpageid>1942</prevpageid>
+        <nextpageid>1944</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666241157</timecreated>
+        <timemodified>1666677089</timemodified>
+        <title>8.4.2: Additional Resources</title>
+        <contents>&lt;h4&gt;Solving Equations of Increasing Complexity Using Reasoning&lt;/h4&gt;
+&lt;p&gt;Let’s look again at the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;zero product property&lt;/span&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-graybox"&gt;
+    &lt;p&gt; &lt;strong&gt; ZERO PRODUCT PROPERTY &lt;/strong&gt;&lt;/p&gt;
+    &lt;hr&gt;
+    &lt;p&gt;If the product of two expressions is 0, then one or both of the expressions equal 0.&lt;/p&gt;
+    &lt;p&gt;If \(ab=0\), then \(a=0\) or \(b=0\), or \(a=b=0\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;We can use the zero product property to help reason through finding the solutions to complex quadratic equations.&lt;/p&gt;
+&lt;p&gt;We know that if factors are multiplied together and the result is 0, then one of those factors must equal 0.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;\((x−7)(2x+12)=0\)&lt;/p&gt;
+&lt;p&gt;This equation has two different factors that, when multiplied, result in a product of 0.&lt;/p&gt;
+&lt;p&gt;To find possible solutions to this equation, we can set each factor equal to 0 and solve.&lt;/p&gt;
+&lt;p&gt;\((x-7)=0\;\;\;\;\;\;\;(2x+12)=0\)&lt;/p&gt;
+&lt;p&gt;The value \(x=7\) makes the first factor equal to 0. The value \(x=−6\) makes the second factor equal to 0.&lt;/p&gt;
+&lt;p&gt;So, the solutions to the original equation are \(x=7\) and \(x=−6\).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;\(x(x−9)(3x−8)=0\)&lt;/p&gt;
+&lt;p&gt;This equation has three different factors, but the reasoning is the same. We can still set each factor equal to 0 and solve.&lt;/p&gt;
+&lt;p&gt;The first factor is just \(x\). So, \(x=0\) is a solution.&lt;/p&gt;
+&lt;p&gt;The second factor gives a solution of \(x=9\) when we solve \((x−9)=0\).&lt;/p&gt;
+&lt;p&gt;The third factor gives a solution of \(x=\frac {8}{3}\) when we solve \((3x−8)=0\).&lt;/p&gt;
+&lt;p&gt;So, the solutions to \(x(x−9)(3x−8)=0\) are \(x=0\), \(x=\frac {8}{3}\), and \(x=9\).&lt;/p&gt;
+&lt;h4&gt;Try It: Solving Equations of Increasing Complexity Using Reasoning&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Use the zero product property to reason through finding the solutions to the following quadratic equations.&lt;/p&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt; \((x−6)(4x+20)=0\) &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt; \((x+1)(5x+14)=0\) &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Think about which values make each factor equal to 0.&lt;/p&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt; \(x=6\) and \(x=-5\) &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol start="2" class="os-raise-noindent"&gt;
+        &lt;li&gt; \(x=-1\) and \(x=\frac {-14}{5}\) &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4362">
+            <jumpto>1942</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241157</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4363">
+            <jumpto>1944</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241157</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text> I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1944">
+        <prevpageid>1943</prevpageid>
+        <nextpageid>1945</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666241463</timecreated>
+        <timemodified>1666706389</timemodified>
+        <title>8.4.3: Applying the Zero Product Property to Solve a Real-World Projectile Problem</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt; We have seen quadratic functions modeling the height of a projectile as a function of time.&lt;/p&gt;
+&lt;p&gt;Here are two ways to define the same function that approximates the height of a projectile in meters, \(t\) seconds after launch:&lt;/p&gt;
+&lt;p&gt;\(h(t)=-5t^2+27t+18\;\;\;\;\;\;\;\;\;\;h(t)=(-5t−3)(t−6)\)&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;Which way of defining the function allows us to use the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;zero product property&lt;/span&gt; to find out when the height of the object is 0 meters (when the object is on the ground)?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your explanation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; The one with a quadratic expression in factored form.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt;Without graphing, determine at what time(s) the height of the object is 0 meters (when the object is on the ground). Show your reasoning.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the times(s) and your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; The object has a height of 0 meters after 6 seconds. Applying the zero product property to solve \((-5t−3)(t−6 )=0\) gives \(t=- \frac {3}{5}\) and \(t=6\). Because the object was launched at \(t=0\), the negative solution doesn’t make sense in this context.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3" class="os-raise-noindent"&gt;
+            &lt;li&gt;Using the function in quadratic form, determine the height of the object before it started its motion, at \(t=0\) seconds. Explain your reasoning.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the height of the object and your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; The object has a height of 18 meters at 0 seconds. By substituting 0 for \(t\) into the quadratic form, the starting height can be determined. \(h(0)=-5(0)^2+27(0)+18=18\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;h4&gt;Video: Applying the Zero Product Property&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about applying the zero product property to solve a real-world projectile problem.&lt;/p&gt;
+  &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+        &lt;source src="https://k12.openstax.org/contents/raise/resources/1071cd4ef713798d41d863714adf49de99e92e9a"&gt;
+        &lt;track src="https://k12.openstax.org/contents/raise/resources/d4369eeb3adbc4b29847424bc1ee7adf6f96d198" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/1071cd4ef713798d41d863714adf49de99e92e9a
+    &lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4364">
+            <jumpto>1941</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241463</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4365">
+            <jumpto>1945</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241463</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1945">
+        <prevpageid>1944</prevpageid>
+        <nextpageid>1946</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1666241623</timecreated>
+        <timemodified>1666295469</timemodified>
+        <title>8.4.3: Self Check</title>
+        <contents>&lt;p&gt;The equivalent functions below model the height of a projectile in meters, \(t\) seconds after launch.&lt;/p&gt;
+        &lt;p&gt;\(h(t)=-8t^2+27t+20\;\;\;\;\;\;\;\;\;\;\;h(t)=(-8t−5)(t−4)\)&lt;/p&gt;
+        &lt;p&gt;Without graphing, determine at what time the height of the object is 0 meters (when the object is on the ground).&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4366">
+            <jumpto>1946</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241623</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;0 seconds&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The projectile does not start on the ground. Set the function in factored form equal to zero and solve. There are two solutions, \(t=− \frac {5}{8}\) and \(t=4\). In this context of time, the solution must be positive. You would not have a negative amount of time. The answer is 4 seconds.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4367">
+            <jumpto>1946</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241623</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(\frac {5}{8}\) seconds&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Set the function in factored form equal to zero and solve. There are two solutions, \(t=− \frac {5}{8}\) and \(t=4\). In this context of time, the solution must be positive. You would not have a negative amount of time. The answer is 4 seconds.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4368">
+            <jumpto>1947</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1666241623</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;4 seconds&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: There are two solutions to the function when it is set equal to 0. Since \(t=− \frac {5}{8}\) is negative, it does not make sense in this context of time. You would not have a negative amount of time. The answer is 4 seconds.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4369">
+            <jumpto>1946</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241623</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;8 seconds&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Set the function in factored form equal to zero and solve. There are two solutions, \(t=− \frac {5}{8}\) and \(t=4\). In this context of time, the solution must be positive. You would not have a negative amount of time. The answer is 4 seconds.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4370">
+            <jumpto>1946</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241623</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&amp;nbsp;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1946">
+        <prevpageid>1945</prevpageid>
+        <nextpageid>1947</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666241738</timecreated>
+        <timemodified>1666502701</timemodified>
+        <title>8.4.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Applying the Zero Product Property to Solve a Real-World Projectile Problem&lt;/h4&gt;
+&lt;p&gt;We have previously looked at functions representing the motion of projectiles. We analyzed two equivalent expressions that define the same quadratic function, one in quadratic form and the other in factored form.&lt;/p&gt;
+&lt;p&gt;Now we’re going to look at a similar problem, but with the additional knowledge of how the function relates to the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;zero product property&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Let’s look at an example.&lt;/p&gt;
+&lt;p&gt;The equivalent functions below model the height, in feet, of a baseball \(t\) seconds after being hit.&lt;/p&gt;
+&lt;p&gt;\(h(t)=−15t^2+44t+3\;\;\;\;\;\;\;\;\;\;\;h(t)=(−15t−1)(t−3)\)&lt;/p&gt;
+&lt;p&gt;Using the zero product property, the quadratic expression in factored form allows you to more easily find out when the height of the baseball is 0 feet.&lt;/p&gt;
+&lt;p&gt;Without graphing, we can determine at what time the baseball reaches the ground.&lt;/p&gt;
+&lt;p&gt;Let’s apply the zero product property to solve \((−15t−1)(t−3)=0\).&lt;/p&gt;
+&lt;p&gt;Set each factor equal to 0 and solve.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}-15t-1&amp;amp;=&amp;amp;0\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;t-3&amp;amp;=&amp;amp;0\\-15t-1\;
+    {\style{color:red}+}\;
+    {\style{color:red}1}
+    &amp;amp;=&amp;amp;0\;
+    {\style{color:red}+}\;
+    {\style{color:red}1}
+    \;\;\;\;\;\;\;t-3
+    \; {\style{color:red}+}\;
+    {\style{color:red}3}
+    &amp;amp;=&amp;amp;0\;
+    {\style{color:red}+}\;
+    {\style{color:red}3}
+    \\-15t&amp;amp;=&amp;amp;1\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;t&amp;amp;=&amp;amp;3\\\frac{-15t}{-15}&amp;amp;=&amp;amp;\frac1{-15}\\t&amp;amp;=&amp;amp;-\frac1{15}\end{array}\)&lt;/p&gt;
+&lt;p&gt;So, \(t = - \frac {1}{15}\) and \(t = 3\). These values of \(t\) represent the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;roots&lt;/span&gt; of the function. Because the object was launched at \(t = 0\), the negative solution doesn’t make sense in this context of time. So the baseball reaches the ground in 3 seconds.&lt;/p&gt;
+&lt;p&gt;There is one benefit of knowing the function in quadratic form. By substituting 0 in for \(t\), we can easily determine at what height the baseball was hit, when \(t = 0\) seconds.&lt;/p&gt;
+&lt;p&gt;\(h(t)=−15t^2+44t+3\)&lt;/p&gt;
+&lt;p&gt;\(h(0)=−15(0)^2+44(0)+3\)&lt;/p&gt;
+&lt;p&gt;\(h(0)=3\)&lt;/p&gt;
+&lt;p&gt;So, the baseball was hit at a height of 3 feet. Note that this point, \((0, 3)\), is the \(y\)-intercept of the function when graphed.&lt;/p&gt;
+&lt;h4&gt;Try It: Applying the Zero Product Property to Solve a Real-World Projectile Problem&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;The functions below model the height of a projectile in feet, \(t\) seconds after launch.&lt;/p&gt;
+        &lt;p&gt;\(h(t)=-24t^2+94t+63\;\;\;\;\;\;\;\;\;\;h(t)=(-12t−7)(2t−9)\)&lt;/p&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt; Without graphing, determine at what time the height of the object is 0 feet. &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt; Determine the height of the object before it is launched. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to solve this projectile problem using the zero product property:&lt;/p&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt; \((-12t−7)(2t−9)=0\) &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;\(t=-\frac {7}{12}\) or \(t=4.5\)&lt;/p&gt;
+    &lt;p&gt;The object has a height of 0 feet at 4.5 seconds.&lt;/p&gt;
+    &lt;ol start="2" class="os-raise-noindent"&gt;
+        &lt;li&gt; \(h(0)=-24(0)^2+94(0)+63=63\) &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;The object starts at a height of 63 feet.&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4371">
+            <jumpto>1945</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241738</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4372">
+            <jumpto>1947</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241738</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text> I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1947">
+        <prevpageid>1946</prevpageid>
+        <nextpageid>1948</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666242157</timecreated>
+        <timemodified>1666410287</timemodified>
+        <title>8.4.4: Solving Equations Using the Zero Product Property and Reasoning</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;Find all solutions to \((x+5)(2x−3)=0\). Explain or show your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solutions to the equation and your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(x=-5\) and \(x=\frac {3}{2}\)&lt;/p&gt;
+        &lt;p&gt;By the zero product property, either \(x+5=0\) or \(2x−3=0\), so \(x=-5\) and \(x=\frac {3}{2}\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4373">
+            <jumpto>1944</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242157</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4374">
+            <jumpto>1948</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242157</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1948">
+        <prevpageid>1947</prevpageid>
+        <nextpageid>1949</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666242245</timecreated>
+        <timemodified>1666350580</timemodified>
+        <title>8.4.5: Practice</title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt; 
+  &lt;!--q1--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=0\) and \(x=-4\)" data-solution-options="[&amp;quot;\\(x=0\\) and \\(x=-12\\)&amp;quot;, &amp;quot;\\(x=0\\) and \\(x=-3\\)&amp;quot;, &amp;quot;\\(x = 4\\) and \\(x=-4\\)&amp;quot;, &amp;quot;\\(x=0\\) and \\(x=-4\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;For questions 1–4, solve each equation. Identify every correct answer.&lt;/p&gt;
+      &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt;\(x(3x+12)=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.4.2. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x = 0\) and \(x=-4\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q2--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=7\) and \(x=-9\)" data-solution-options="[&amp;quot;\\(x=7\\) and \\(x=-7\\)&amp;quot;, &amp;quot;\\(x=0\\), \\(x=7\\), and \\(x=-9\\)&amp;quot;, &amp;quot;\\(x=7\\) and \\(x=-9\\)&amp;quot;, &amp;quot;\\(x=-7\\) and \\(x=9\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="2"&gt;
+        &lt;li&gt;\((x−7)(x+9)=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 8.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x=7\) and \(x=-9\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q3--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=8\) and \(x=- \frac {15}{4}\)" data-solution-options="[&amp;quot;\\(x=8\\) and \\(x=- \\frac {15}{4}\\)&amp;quot;, &amp;quot;\\(x=8\\) and \\(x=-\\frac {4}{15}\\)&amp;quot;, &amp;quot;\\(x=8\\) and \\(x=\\frac {4}{15}\\)&amp;quot;, &amp;quot;\\(x=8\\) and \\(x=\\frac {15}{4}\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="3"&gt;
+        &lt;li&gt;\((x−8)(4x+15)=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.4.2. Are you using it the right way? &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x=8\) and \(x=- \frac {15}{4}\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q4--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=0\), \(x=4\), and \(x=6\)" data-solution-options="[&amp;quot;\\(x=0\\), \\(x=-4\\), and \\(x=6\\)&amp;quot;, &amp;quot;\\(x=0\\), \\(x=4\\), and \\(x=6\\)&amp;quot;, &amp;quot;\\(x=4\\) and \\(x=6\\)&amp;quot;, &amp;quot;\\(x=0\\) and \\(x=6\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="4"&gt;
+        &lt;li&gt;\(x(x−6)(5x−20)=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 8.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x=0\), \(x=4\), and \(x=6\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q5--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="6 seconds" data-solution-options="[&amp;quot;\\(\\frac {8}{7}\\) seconds&amp;quot;, &amp;quot;6 seconds&amp;quot;, &amp;quot;\\(-\\frac {8}{7}\\) seconds&amp;quot;, &amp;quot;0 seconds&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;For questions 5 and 6, use the following.&lt;/p&gt;
+      &lt;p&gt;The functions below model the height of a projectile in feet, \(t\) seconds after launch.&lt;/p&gt;
+      &lt;p&gt;\(h(t) = -7t^2 + 34t + 48\;\;\;\;\;\;\;\;\;\;h(t) = (-7t − 8)(t − 6)\)&lt;/p&gt;
+      &lt;ol class="os-raise-noindent" start="5"&gt;
+        &lt;li&gt;Without graphing, determine at what time the height of the object is 0 feet.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.4.3. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 6 seconds. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q6--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="48 feet" data-solution-options="[&amp;quot;0 feet&amp;quot;, &amp;quot;\\(\\frac {8}{7}\\) feet&amp;quot;, &amp;quot;6 feet&amp;quot;, &amp;quot;48 feet&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="6"&gt;
+        &lt;li&gt;Determine the height of the object before it is launched.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 8.4.3 to test your understanding? Then come back and try this question again. &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 48 feet. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q7--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=0\) and \(x=3\)" data-solution-options="[&amp;quot;\\(x=0\\) and \\(x=-3\\)&amp;quot;, &amp;quot;\\(x=3\\)&amp;quot;, &amp;quot;\\(x=0\\) and \\(x=3\\)&amp;quot;, &amp;quot;\\(x=-3\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;For questions 7–10, solve each equation. Identify every correct answer.&lt;/p&gt;
+      &lt;ol class="os-raise-noindent" start="7"&gt;
+        &lt;li&gt;\(x(6x−18)=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.4.4. Are you using it the right way? &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x=0\) and \(x=3\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q8--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=-13\) and \(x=9\)" data-solution-options="[&amp;quot;\\(x=-9\\) and \\(x=-13\\)&amp;quot;, &amp;quot;\\(x=-13\\), \\(x=0\\), and \\(x=-9\\)&amp;quot;, &amp;quot;\\(x=-9\\) and \\(x=13\\)&amp;quot;, &amp;quot;\\(x=-13\\) and \\(x=9\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="8"&gt;
+        &lt;li&gt;\((x+13)(x−9)=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 8.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x=-13\) and \(x=9\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q9--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=7\)" data-solution-options="[&amp;quot;\\(x=7\\)&amp;quot;, &amp;quot;\\(x=-7\\) and \\(x=7\\)&amp;quot;, &amp;quot;\\(x=0\\) and \\(x=7\\)&amp;quot;, &amp;quot;\\(x=-7\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="9"&gt;
+        &lt;li&gt;\((x−7)(x−7)=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.4.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x=7\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q10--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x = -5\) and \(x=\frac {5}{6}\)" data-solution-options="[&amp;quot;\\(x=5\\) and \\(x=-\\frac {5}{6}\\)&amp;quot;, &amp;quot;\\(x=5\\) and \\(x=\\frac {5}{6}\\)&amp;quot;, &amp;quot;\\(x = -5\\) and \\(x=\\frac {5}{6}\\)&amp;quot;, &amp;quot;\\(x = -6\\) and \\(x=\\frac {5}{6}\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="10"&gt;
+        &lt;li&gt;\((x− \frac {5}{6})(6x+30)=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 8.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x = -5\) and \(x=56\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Do not edit below this line--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4375">
+            <jumpto>1947</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242245</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4376">
+            <jumpto>1949</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242245</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1949">
+        <prevpageid>1948</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666242452</timecreated>
+        <timemodified>1666743428</timemodified>
+        <title>8.4.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Explain the meaning of the "zero product property."&lt;/li&gt;
+    &lt;li&gt; Find solutions to quadratic equations when one side is a product of factors and the other side is zero. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.4.1: Introducing the Zero Product Property &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; In this activity, you learned how the zero product property affects factors being multiplied together in an equation set equal to 0. &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.4.2: Solving Equations of Increasing Complexity Using Reasoning &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; In this activity, you implemented the zero product property to solve increasingly complex quadratic equations. &lt;/li&gt;
+        &lt;li&gt; 8.4.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.4.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.4.3: Applying the Zero Product Property to Solve a Real-World Projectile Problem &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; In this activity, you applied the zero product property to solve a real-world problem involving projectiles. You increased your knowledge of these types of problems that you have seen in previous lessons. &lt;/li&gt;
+        &lt;li&gt; 8.4.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.4.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.4.4: Solving Equations Using the Zero Product Property and Reasoning &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; In this activity, you demonstrated all of the skills you learned in this lesson to continue solving challenging quadratic equations. &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.4.5: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+
+    &lt;!--pulldown--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4377">
+            <jumpto>1948</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242452</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4378">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242452</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

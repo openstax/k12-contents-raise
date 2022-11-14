@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="184" moduleid="245" modulename="lesson" contextid="256">
+  <lesson id="184">
+    <course>2</course>
+    <name>Lesson 7.9 Teacher Guide: Standard Form and Factored Form</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>246</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1665638405</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1692">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1693</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664942523</timecreated>
+        <timemodified>1665572383</timemodified>
+        <title>7.9.0: Lesson Overview</title>
+        <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
+&lt;p&gt;Previously, students used area diagrams to expand expressions of the form \((x+p)(x+q)\) and generalized that the expanded expressions take the form of \(x^2+(p+q)x+pq\). In this lesson, they see that the same generalization can be applied when the factored expression contains a sum and a difference (when \(p\) or \(q\) is negative) or two differences (when both \(p\) and \(q\) are negative).&lt;/p&gt;
+&lt;p&gt;Although they have encountered an algebraic approach, students still benefit from drawing diagrams to expand unfamiliar factored expressions. Area diagrams are intuitive for visualizing the product of two sums, but they are less intuitive for visualizing the product of two differences (for example, \((x-5)^2\)) or of a sum and a difference (for example, \((x+3)(x-4)\)). Subtraction can be represented by removing parts of a rectangle and finding the area of the remaining region, but this strategy can get complicated when both factors are differences.&lt;/p&gt;
+&lt;p&gt;At this point, students transition from thinking about rectangular diagrams concretely, in terms of area, to thinking about them more abstractly, as a way to organize the terms in each factor. (Students made similar transitions from area diagrams to abstract diagrams in middle school, for example, when they learned to distribute the multiplication of a number or a variable-positive and negative-over addition and subtraction.)&lt;/p&gt;
+&lt;p&gt;Students also learn to use the terms standard form and factored form. When classifying quadratic expressions by their form, students refine their language and thinking about quadratic expressions. In an upcoming lesson, students will graph quadratic expressions of these forms and study how features of the graphs relate to the parts of the expressions.&lt;/p&gt;
+&lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Comprehend the terms “standard form” and “factored form” (in written and spoken language). &lt;/li&gt;
+  &lt;li&gt; Use rectangular diagrams to reason about the product of two differences or of a sum and difference and to write equivalent expressions. &lt;/li&gt;
+  &lt;li&gt; Use the distributive property to write quadratic expressions given in factored form in standard form. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt; Rewrite quadratic expressions given in factored form in standard form using either the distributive property or a diagram. &lt;/li&gt;
+  &lt;li&gt; Know the difference between “factored form” and “standard form.” &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;A6(B) write equations of quadratic functions given the vertex and another point on the graph, write the equation in vertex form \((f(x)=a(x-h)^2+k)\), and rewrite the equation from vertex form to standard form \((f(x)=ax^2+bx+c)\).&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Foundational: Lesson provides foundational content necessary for students to be able to perform this TEKS in later lessons.&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Lesson Activities&lt;/h4&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 7.9.1: Solving Equations Using Opposite Operations &lt;/li&gt;
+  &lt;li&gt; 7.9.2: Finding Products of Differences &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 7.9.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 7.9.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.9.3: Standard and Factored Forms of Quadratic Expressions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 7.9.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 7.9.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.9.4: Expressions in Standard Form &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will also complete a series of problems in the 7.9.5: Practice.&lt;/p&gt;
+&lt;h4&gt;Required Materials&lt;/h4&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;h4&gt;Required Preparation&lt;/h4&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
+  &lt;li&gt; Encourage students to use key vocabulary words in “math talk” and their written and oral explanations. &lt;/li&gt;
+  &lt;li&gt; Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson:&lt;/p&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;ul&gt;
+          &lt;li&gt; coefficient &lt;/li&gt;
+          &lt;li&gt; constant term &lt;/li&gt;
+          &lt;li&gt; distributive property &lt;/li&gt;
+          &lt;li&gt; equation &lt;/li&gt;
+          &lt;li&gt; expressions &lt;/li&gt;
+          &lt;li&gt; factors &lt;/li&gt;
+          &lt;li&gt; function &lt;/li&gt;
+          &lt;li&gt; negative numbers &lt;/li&gt;
+          &lt;li&gt; opposite &lt;/li&gt;
+          &lt;li&gt; quadratic functions &lt;/li&gt;
+          &lt;li&gt; term &lt;/li&gt;
+          &lt;li&gt; variable &lt;/li&gt;
+        &lt;/ul&gt;&lt;/td&gt;
+      &lt;td valign="top"&gt;&lt;ul&gt;
+          &lt;li&gt; factored form &lt;/li&gt;
+          &lt;li&gt; standard form &lt;/li&gt;
+        &lt;/ul&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Support for Building Character&lt;/h4&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;proactivity&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/fear-factor/" target="_blank"&gt;Fear Factor&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/unbroken/" target="_blank"&gt;Unbroken&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find other tips located here in the &lt;a href="https://characterlab.org/playbooks/proactivity/" target="_blank"&gt;Playbook on Proactivity&lt;/a&gt; from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3802">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664942523</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1693">
+        <prevpageid>1692</prevpageid>
+        <nextpageid>1694</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664943184</timecreated>
+        <timemodified>1665684252</timemodified>
+        <title>7.9.1: Solving Equations Using Opposite Operations</title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
+&lt;p&gt;This activity encourages students to think about the fact that subtracting a number is equivalent to adding the opposite of that number—that is, \(100-5=100+-5\)—and to rely on the structure of the expressions on each side of the equal sign to mentally solve problems. The understandings elicited here will be helpful later in the lesson, when students reason that \((x-1)(x-4)\) is equivalent to \((x+-1)(x+-4)\), which in turn helps them expand the expression using diagrams and the distributive property.&lt;/p&gt;
+&lt;p&gt;Some students may reason about the value of \(n\) by reasoning. For example, to find \(n\) in \(40-8=40+n\), they see that the left side of the equation is \(32\) and reason that the number being added to \(40\) must be negative, and that it must be \(– 8\). Others may carry out the steps for solving equations, for example, by subtracting \(40\) from both sides, or by adding \(8\) to both sides and then subtracting \(48\) from both sides.&lt;/p&gt;
+&lt;p&gt;Any of these strategies are fine. The key point is to recognize that the number being added on one side is the opposite of the value being subtracted from the other side. If after a couple of questions students show an understanding of this, and if time is limited, it is not essential for students to complete all questions.&lt;/p&gt;
+&lt;p&gt;As students solve these equations mentally, they practice looking for and making use of structure.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Display one problem at a time. Give students quiet think time for each problem and ask them to give a signal when they have an answer and a strategy. Keep all problems displayed throughout the talk. Follow with a whole-class discussion.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Solve each equation mentally. Then, enter your answer to check it.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;\(40-8=40+n\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(– 8\)&lt;/p&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt;\(25+-100=25-n\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(100\)&lt;/p&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt;\(-3- \frac {1}{2}=3+ \frac {1}{2}n\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(– 13\)&lt;/p&gt;
+&lt;ol start="4"&gt;
+  &lt;li&gt;\(72-n=72+6\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(– 6\)&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Ask students to share their strategies for each problem. Record and display their responses for all to see. To involve more students in the conversation, consider asking:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; “Who can restate ______’s reasoning in a different way?” &lt;/li&gt;
+  &lt;li&gt; “Did anyone have the same strategy but would explain it differently?” &lt;/li&gt;
+  &lt;li&gt; “Did anyone solve the problem in a different way?” &lt;/li&gt;
+  &lt;li&gt; “Does anyone want to add on to ______’s strategy?” &lt;/li&gt;
+  &lt;li&gt; “Do you agree or disagree? Why?” &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If not already made clear in students’ explanations, highlight that subtracting a number gives the same outcome as adding the opposite of that number.&lt;/p&gt;
+&lt;p&gt;Tell students that remembering that subtraction can be thought of in terms of addition can help us rewrite quadratic expressions such as \((x-5)(x+2)\) or \((x-9)(x-3)\), where one or both factors are differences.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3803">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664943184</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3804">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664943184</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1694">
+        <prevpageid>1693</prevpageid>
+        <nextpageid>1695</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664946649</timecreated>
+        <timemodified>1665729675</timemodified>
+        <title>7.9.2: Finding Products of Differences</title>
+        <contents>&lt;h3&gt;Activity (20 minutes)&lt;/h3&gt;
+&lt;p&gt;In this activity, students encounter quadratic expressions in factored form, where at least one of the factors is a difference. Monitor for students who&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; find it useful to reason with a diagram, such as a rectangular diagram&lt;/li&gt;
+    &lt;li&gt; transfer what they learned when multiplying two sums in the preceding lesson—that \((x+p)(x+q)\) is equivalent to \(x^2+(p+q)x+pq\)&lt;strong&gt;—&lt;/strong&gt;and use negative numbers for \(p\) and \(q\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Either approach is welcome, but it is important to transition students from using rectangular diagrams as a way to organize the terms of the factors to directly applying the distributive property to multiply binomials.&lt;/p&gt;
+&lt;p&gt;Students see that \((x-1)(x-1)\) can be expressed as \((x+-1)(x+-1)\), so the sides of the diagram can be labeled accordingly. The negative values in the expressions are not problematic when the expressions do not represent side lengths of a rectangle and the partial products don’t represent areas.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Remind students we have used area diagrams to expand expressions such as \(x(x+5)\) and write equivalent expressions. When dealing with negative numbers, however, thinking in terms of finding area isn’t very helpful. Explain that we can still draw rectangular diagrams, but use them to organize the two factors and the results of applying the distributive property. Note that in Unit 6, students learned how to multiply binomial expressions and square a binomial. They may choose to show that expressions are equivalent algebraically, through strategies like FOIL, rather than by drawing a diagram.&lt;/p&gt;
+&lt;p&gt;For example, this diagram shows that \(x(x+5)=x^2+5x\)&lt;/p&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="39"&gt;
+        &lt;col width="39"&gt;
+        &lt;col width="39"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(5x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Explain that such diagrams can be used even when subtraction is involved. To represent \(x(x-5)\), we can rewrite it as \(x(x+-5)\) then label the diagram as follows:&lt;/p&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="39"&gt;
+        &lt;col width="39"&gt;
+        &lt;col width="39"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(-5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(-5x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;The diagram shows that \(x(x-5)=x(x+-5)=x^2+-5x=x^2-5x\)&lt;/p&gt;
+&lt;p&gt;Arrange students in groups of two. Give students a moment of quiet time to think about the first question, and then ask them to discuss their response with a partner before continuing to the second question.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt;Show that \((x-1)(x-1)\) and \(x^2-2x+1\) are equivalent expressions by drawing a diagram or applying the distributive property. Show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Drawing a Diagram:&lt;/p&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="50"&gt;
+        &lt;col width="50"&gt;
+        &lt;col width="50"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(-1\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(-x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(-1\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(-x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(1\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;The sum of the partial products are \(x^2+-x+-x+1\) or \(x^2-2x+1\).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Applying the Distributive Property:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Applying the distributive property to \((x-1)(x-1)\) gives \(x^2+x \cdot (-1)+(-1) \cdot x+(-1)^2= x^2-x-x+1=x^2-2x+1\).&lt;/p&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;For each expression, write an equivalent expression. Show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; \((x+1)(x-1)\) &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x^2-1\). For example, applying the distributive property to \((x+1)(x-1)\) gives \(x^2+x-x-1\), which equals \(x^2-1\).&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol start="2" type="a"&gt;
+        &lt;li&gt; \((x-2)(x+3)\) &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x^2+x-6\), because \((x+3)(x-2)=x^2-2x+3x-6=x^2+x-6\).&lt;/p&gt;
+    &lt;p&gt;Or using a diagram:&lt;/p&gt;
+    &lt;br&gt;
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col width="50"&gt;
+            &lt;col width="50"&gt;
+            &lt;col width="50"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;\(3\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;\(x^2\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;\(3x\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;\(-2\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;\(-2x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;\(-6\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    &lt;p&gt;Adding the partial products in the four sub-rectangles gives \(x^2+3x+-2x+-6\), which equals \(x^2+x-6\).&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol start="3" type="a"&gt;
+        &lt;li&gt; \((x-2)^2\) &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x^2-4x+4\), because \((x-2)(x-2)=x^2-2x-2x+4=x^2-4x+4\).&lt;/p&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Video: Finding Products of Differences&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about finding products of differences.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/092b0590ce9e8051cd033ee8f6df31d122f4b64b"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/32962258e2a5df2b981f30bd056dd3887094924e" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/092b0590ce9e8051cd033ee8f6df31d122f4b64b
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;Some students will write the expression in the last question as \(x^2-2^2\). Remind them that just as \(x^2\) means \(x \cdot x\), the expression \((x-2)^2\) means \((x-2)(x-2)\).&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt; Select students with contrasting strategies to share their work. Display those that used a diagram first and make connections to those that did not use a diagram. &lt;/li&gt;
+    &lt;li&gt; Emphasize that we can view \(x-1\) as \(x+-1\), and the expression \((x-1)(x-1)\) as two sums: \((x+-1)(x+-1)\). Likewise, the expression \((x+3)(x-2)\) can be viewed as two sums: \((x+3)(x+-2)\). We can then draw diagrams (as shown in the Answers) to organize the terms of the factors. We can also apply the distributive property and distribute the multiplication of each term in one factor to each term in the other factor. Display and explain the following reasoning to students: &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/9z9TvJv1qcU1WMhfcrAZNJYq" width="200" height="200" alt="Equivalent expressions by using the Distributive Property.&amp;quot; class=&amp;quot;h-max-height--15-lines&amp;quot; height=&amp;quot;530"&gt;&lt;/p&gt;
+&lt;p&gt;Time permitting, consider helping students to generalize their work. Remind them that, in an earlier lesson, we saw that a quadratic expression of the form \((x+p)(x+q)\) is equivalent to: \(x^2+px+qx+pq\) or \(x^2+(p+q)x+pq\).&lt;/p&gt;
+&lt;p&gt;Ask students:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; “Is the expanded expression still equivalent to the factored expression when \(p\) or \(q\) is negative? (Yes, because we can rewrite \((x-p)\) or \((x-q)\) as a sum.) Can you use the examples from the activity to show that it still is or is not?” &lt;/li&gt;
+    &lt;li&gt; “What about when both \(p\) and \(q\) are negative? (Yes. Both differences can be rewritten as a sum.) Can you use the examples from the activity to support your answer?” &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;7.9.2: Self Check&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="302"&gt;
+        &lt;col width="322"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Which of the following expressions is equivalent to \((x-2)^2\)?&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x^2-4\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: This is the square of the first and last term. Remember \((x-2)^2=(x-2)(x-2)\). Distribute to multiply the binomials. The answer is \(x^2-4x+4\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x^2+4\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: This is the square of the first and last term. Remember \((x-2)^2=(x-2)(x-2)\). Distribute to multiply the binomials. The answer is \(x^2-4x+4\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x^2-4x+4\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That’s correct! Check yourself: Multiply \((x-2)(x-2)\) and distribute. The answer becomes \(x^2-2x-2x+4\). Combining like terms gives \(x^2-4x+4\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x^2+4x+4\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: Watch the signs when multiplying. \((x-2)(x-2)\) equals \(x^2-2x-2x+4\). The answer is \(x^2-4x+4\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;7.9.2: Additional Resources&lt;/h3&gt;
+
+        &lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Multiplying Binomials with Negative Numbers&lt;/h4&gt;   
+&lt;p&gt;In a previous lesson, you learned how to square a binomial.&lt;/p&gt;
+&lt;p&gt;\((a+b)^2=a^2+2ab+b^2\) and \((a-b)^2=a^2-2ab+b^2\)&lt;/p&gt;
+&lt;p&gt;You can use this to solve the following example.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Find the expression equivalent to \((x-3)^2\).&lt;/p&gt;
+&lt;p&gt;This means to multiply \((x-3)\) by \((x-3)\). So, \((x-3)^2=(x-3)(x-3)\).&lt;/p&gt;
+&lt;p&gt;Now, distribute. Remember, you can use FOIL.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/fe81cb9ca5c422b7f593af3c6569e81a494b6dc9" width="150" height="82" alt="DIAGRAM SHOWING X MINUS 3 MULTIPLIED BY X MINUS 3. ON THE TOP, IN RED, AN ARROW IS GOING FROM X TO X. ANOTHER ARROW IS GOING FROM X TO NEGATIVE 3. ON THE BOTTOM, IN BLUE, AN ARROW IS GOING FROM NEGATIVE 3 TO X. ANOTHER ARROW IS GOING FROM NEGATIVE 3 TO NEGATIVE 3."&gt;&lt;/p&gt;
+&lt;p&gt;Distribute the \(x\) to the second binomial, then distribute the \(– 3\) to the second binomial.&lt;/p&gt;
+&lt;p&gt;Then, combine like terms.&lt;/p&gt;
+&lt;p&gt;The expression becomes \(x^2-3x-3x+9=x^2-6x+9\).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Find the expression equivalent to \((x-4)(x+2)\). &lt;/p&gt;
+&lt;p&gt;First, distribute. Remember, you can use FOIL.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/02675aa79ce8960db9695bd5309df7a3e95c1b00" width="150" height="82" alt="DIAGRAM SHOWING X MINUS 4 MULTIPLIED BY X PLUS 2. ON THE TOP, IN RED, AN ARROW IS GOING FROM X TO X. ANOTHER ARROW IS GOING FROM X TO 2. ON THE BOTTOM, IN BLUE, AN ARROW IS GOING FROM NEGATIVE 4 TO X. ANOTHER ARROW IS GOING FROM NEGATIVE 4 TO 2."&gt;&lt;/p&gt;
+&lt;p&gt;Multiply the \(x\) by \((x+2)\), then multiply the \(– 4\) by \((x+2)\) and combine like terms:&lt;/p&gt;
+&lt;p&gt;\(x^2+2x-4x-8=x^2-2x+8\).&lt;/p&gt;
+&lt;h4&gt;Try It: Multiplying Binomials with Negative Numbers&lt;/h4&gt;
+&lt;p&gt;Find the expression equivalent to \((x+5)(x-3)\).&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to find an equivalent expression:&lt;/p&gt;
+&lt;p&gt;Distribute the \(x\) to \((x-3)\), and then distribute the \(5\) to \((x-3)\). Remember, you can use FOIL.&lt;/p&gt;
+&lt;p&gt;\(x^2-3x+5x-15\)&lt;/p&gt;
+&lt;p&gt;Next, combine like terms.&lt;/p&gt;
+&lt;p&gt;\(x^2+2x-15\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3805">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664946649</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3806">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664946649</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1695">
+        <prevpageid>1694</prevpageid>
+        <nextpageid>1696</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664948440</timecreated>
+        <timemodified>1665730191</timemodified>
+        <title>7.9.3: Standard and Factored Forms of Quadratic Expressions</title>
+        <contents>&lt;h3&gt;Activity (10 minutes)&lt;/h3&gt;
+&lt;p&gt;Students have seen quadratic expressions in both standard form and factored form since the beginning of the unit. In this activity, they learn to distinguish the expressions by their forms and to refer to each form by its formal name. Refining their language about the different forms prepares students to be more precise in their thinking about the graphs of quadratic functions in later lessons.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Arrange students in groups of two. Give students quiet work time and then time to share their work with a partner.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;The quadratic expression \(x^2+4x+3\) is written in standard form.&lt;/p&gt;
+&lt;p&gt;Here are some other quadratic expressions. The expressions on the left are written in standard form and the expressions on the right are not.&lt;/p&gt;
+
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Written in standard form:&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Not written in standard form:&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x^2-1\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((2x+3)x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x^2+9x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((x+1)(x-1)\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(\frac {1}{2}x^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(3(x-2)^2+1\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(4x^2-2x+5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(-4(x^2+x)+7\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(3x^2-x+6\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((x+8)(-x+5)\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol&gt;
+    &lt;li&gt;What are some characteristics of expressions in standard form?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; The standard form always starts with an \(x^2\) term and is in decreasing order of degree. &lt;/li&gt;
+    &lt;li&gt; It does not need to have an \(x\) term or a numerical term. &lt;/li&gt;
+    &lt;li&gt; Standard form is \(ax^2+bx+c\) where \(a\) is not zero. &lt;/li&gt;
+    &lt;li&gt; It also is not important in which order the terms are listed. &lt;/li&gt;
+    &lt;li&gt; The standard form shows a sum or difference of terms. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;\((x+1)(x-1)\) and \((2x+3)x\) in the right column are quadratic expressions written in factored form. Why do you think that form is called factored form?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; It is a product of two factors. Each factor could be a variable, a number, or an expression with a variable (with no exponent) and a number.&lt;/p&gt;
+&lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
+&lt;h5&gt;Are you ready for more?&lt;/h5&gt;
+&lt;p&gt;Which quadratic expression can be described as being both standard form and factored form? Explain how you know.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer: &lt;/strong&gt; \(x^2\) could be viewed as both standard and factored. It has an \(x^2\) term even though there is not a constant or linear term. It can also be written as the product of two linear expressions because \(x^2\) is equal to \(x \cdot x\).&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Display the two columns of expressions for all to see. Solicit students’ ideas on the features of each form. Record their responses for all to see. Invite other students to express agreement or disagreement, or to clarify their fellow students’ responses.&lt;/p&gt;
+&lt;p&gt;Define a quadratic expression in standard form explicitly as \(ax^2+bx+c\). Explain that we refer to \(a\) as the coefficient of the squared term \(x^2\), \(b\) as the coefficient of the linear term \(x\), and \(c\) as the constant term.&lt;/p&gt;
+&lt;p&gt;Ask students:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; “How would you write \((2x+3)x\) in standard form?” \((2x^2+3x)\) &lt;/li&gt;
+    &lt;li&gt; “The expression \(2x^2+3x\) only has two terms. Is it still in standard form?” (Yes, there is no constant term, which means \(c\) is \(0\).) &lt;/li&gt;
+    &lt;li&gt; “How would you write \(-4(x^2+14x)+7\) in standard form?” \((-4x^2-x+7)\) &lt;/li&gt;
+    &lt;li&gt; “What are the values of the coefficients \(a\) and \(b\) in the expression \(-4x^2-x+7\)?” (\(– 4\) and \(– 1\)) &lt;/li&gt;
+    &lt;li&gt; “What about the constant term?” (\(7\)) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then, clarify that a quadratic expression in factored form is a product of two factors that are each a linear expression. For example, \((x+1)(x-1)\),\((2x+3)x\), and \(x(4x)\) all have two linear expressions for their factors. An expression with two factors that are linear expressions and a third factor that is a constant, for example: \(2(x+2)(x-1)\), is also in factored form.&lt;/p&gt;
+&lt;p&gt;Tell students that each form gives us interesting or useful information about the function that the expression represents, and they will learn more about this in future lessons.&lt;/p&gt;
+&lt;h3&gt;7.9.3: Self Check&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Which of the following expressions is a quadratic expression written in standard form?&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x-4\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: This expression does not have an \(x^2\) term. The answer is \(x^2-9x+20\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x^2-9x+20\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That’s correct! Check yourself: This expression leads with an \(x^2\) term and is in standard form.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x(x-5)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: This is in factored form. The answer is \(x^2-9x+20\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(7(x-6)^2+1\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: This is not in the form \(ax^2+bx+c\). The answer is \(x^2-9x+20\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;7.9.3: Additional Resources&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;h4&gt;Standard Form of Quadratics&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Examples of Standard Form Quadratics&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;\(x^2\)&lt;/p&gt;
+&lt;p&gt;\(x^2-9\)&lt;/p&gt;
+&lt;p&gt;\(x^2-3x\)&lt;/p&gt;
+&lt;p&gt;\(x^2+4x-45\)&lt;/p&gt;
+&lt;p&gt;These examples have an \(x^2\) and lead with it. Some have an \(x\) term or a constant term but it is not needed to be in standard form. Standard form of a quadratic expression is of the form \(ax^2+bx+c\), where \(a \neq 0\).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Non-Examples of Standard Form Quadratics&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;\(7-x\)&lt;/p&gt;
+&lt;p&gt;\(9(x-2)\)&lt;/p&gt;
+&lt;p&gt;\(x(x+10)\)&lt;/p&gt;
+&lt;p&gt;These examples do not have an \(x^2\) term.&lt;/p&gt;
+&lt;h4&gt;Try It: Standard Form of Quadratics&lt;/h4&gt;
+&lt;p&gt;Determine if \(4x(x-2)\) is a quadratic in standard form.&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to determine if the expression is in standard form:&lt;/p&gt;
+&lt;p&gt;This expression is in factored form. If the \(4x\) is distributed, the expression becomes \(4x^2-8x\), which is in standard form.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3807">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664948440</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3808">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664948440</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1696">
+        <prevpageid>1695</prevpageid>
+        <nextpageid>1697</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664948943</timecreated>
+        <timemodified>1665730312</timemodified>
+        <title>7.9.4: Expressions in Standard Form</title>
+        <contents>&lt;h3&gt;Cool Down 5 min&lt;/h3&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;For each expression, write an equivalent expression in standard form. Show your reasoning.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;\((2x+5)(x+1)\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(2x^2+7x+5\). The diagram shows that\((2x+5)(x+1)=2x \cdot x+2x \cdot 1+5 \cdot x+5 \cdot 1\). Adding this together gives \(2x^2+7x+5\) in standard form.&lt;/p&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="50"&gt;
+        &lt;col width="50"&gt;
+        &lt;col width="50"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(2x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(2x^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(5x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(1\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(2x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;\((x-2)(x+2)\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x^2-4\). \((x+2)(x-2)=x^2+(-2x)+2x+(-4)=x^2-4\). The diagram also shows that \((x+2)(x-2)=x^2-4\).&lt;/p&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="50"&gt;
+        &lt;col width="50"&gt;
+        &lt;col width="50"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(2\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(2x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(-2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(-2x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(-4\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3809">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664948943</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3810">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664948943</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1697">
+        <prevpageid>1696</prevpageid>
+        <nextpageid>1698</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664950374</timecreated>
+        <timemodified>1664950544</timemodified>
+        <title>7.9.5: Practice</title>
+        <contents>&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;ol&gt;
+    &lt;li&gt;Choose the standard form of the quadratic expression.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; \((x+4)(x-1)\)&lt;/li&gt;
+    &lt;/ol&gt;&lt;br&gt;
+    &lt;ul&gt;
+        &lt;ul&gt;
+            &lt;ul&gt;
+                &lt;li&gt; \(x^2+3x-4\) &lt;/li&gt;
+                &lt;li&gt; \(x^2-3x+4\) &lt;/li&gt;
+                &lt;li&gt; \(-x^2+3x-4\) &lt;/li&gt;
+                &lt;li&gt; \(-x^2-3x+4\) &lt;/li&gt;
+            &lt;/ul&gt;
+
+
+
+        &lt;/ul&gt;
+    &lt;/ul&gt;&lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(x^2+3x-4\) &lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; \((2x-1)(3x-1)\) &lt;/li&gt;
+    &lt;/ol&gt;&lt;br&gt;
+    &lt;ul&gt;
+        &lt;ul&gt;
+            &lt;ul&gt;
+                &lt;li&gt; \(6x^2-5x+1\) &lt;/li&gt;
+                &lt;li&gt; \(6x^2+5x-1\) &lt;/li&gt;
+                &lt;li&gt; \(-6x^2-5x+1\) &lt;/li&gt;
+                &lt;li&gt; \(-6x^2+5x-1\) &lt;/li&gt;
+            &lt;/ul&gt;
+
+
+
+        &lt;/ul&gt;
+    &lt;/ul&gt;&lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(6x^2-5x+1\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;Consider the expression \(8-6x+x^2\). &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;Is the expression in standard form? &lt;/li&gt;
+    &lt;/ol&gt;&lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; No &lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; Is the expression equivalent to \((x-4)(x-2)\)? &lt;/li&gt;
+    &lt;/ol&gt;&lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; Yes&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;Find the the standard form of the quadratic expression \((x-2)(x+8)\). Use the standard form to answer questions a, b, and c. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; What is the value of \(a\) in this expression \(ax^2+bx+c\)? &lt;/li&gt;
+    &lt;/ol&gt;&lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(1\) &lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; What is the value of \(b\) in this expression \(ax^2+bx+c\)? &lt;/li&gt;
+    &lt;/ol&gt;&lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(6\) &lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; What is the value of \(c\) in this expression \(ax^2+bx+c\)? &lt;/li&gt;
+    &lt;/ol&gt;&lt;br&gt;
+    &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(– 16\)&lt;/p&gt;
+&lt;/ol&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3811">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664950374</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3812">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664950374</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1698">
+        <prevpageid>1697</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664950677</timecreated>
+        <timemodified>1665594447</timemodified>
+        <title>7.9.6: Lesson Synthesis</title>
+        <contents>&lt;p&gt;To help students consolidate the ideas in this lesson, ask questions such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; “What does it mean to expand a factored expression?” (To multiply out all the terms in each factor.) &lt;/li&gt;
+  &lt;li&gt; “Show how a diagram can help us expand \((x+4)(x-10)\) and write an equivalent expression.” &lt;/li&gt;
+  &lt;li&gt; “How can we expand \((x+4)(x-10)\) using the Distributive Property and without drawing a diagram?” &lt;/li&gt;
+  &lt;li&gt; “How would you explain to a friend who is absent today how to write an equivalent expression for&amp;nbsp; \((x-10)(x-15)\)? What strategy (or strategies) would you suggest?” &lt;/li&gt;
+  &lt;li&gt; “Give a few different examples of quadratic expressions in standard form and a few in factored form. Ask a partner if they agree that your examples are, indeed, in those forms.” &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3813">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664950677</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3814">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664950677</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="180" moduleid="239" modulename="lesson" contextid="250">
+  <lesson id="180">
+    <course>2</course>
+    <name>Lesson  7.7 Teacher Guide: Building Quadratic Functions to Describe Situations, Part 3</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>240</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1665638312</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1656">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1657</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664921018</timecreated>
+        <timemodified>1665547727</timemodified>
+        <title>7.7.0: Lesson Overview</title>
+        <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
+&lt;p&gt;In the previous two lessons, students analyzed quadratic functions that modeled projectile motion. In this lesson, they encounter a quadratic relationship in an economic context. They use a table of values to study the relationship between price and revenue, write an equation to define the function, and consider what the graph of the function tells us about the situation being modeled. In building a quadratic function to solve a pricing problem, students engage in aspects of modeling.&lt;/p&gt;
+&lt;p&gt;Students also deepen their understanding of the zeros and the domain of a quadratic function, and of the vertex of its graph. They interpret these features in various contexts, reasoning concretely and abstractly.&lt;/p&gt;
+&lt;p&gt;Technology isn’t required for this lesson, but there are opportunities for students to choose to use appropriate technology to solve problems. Consider making technology available, in case requested.&lt;/p&gt;
+&lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Choose an appropriate domain for a quadratic function representing a context and explain (orally) the reasoning why it was selected. &lt;/li&gt;
+    &lt;li&gt; Interpret (orally and in writing) the vertex of a graph and the zeros of a quadratic function in context. &lt;/li&gt;
+    &lt;li&gt; Write and graph equations to model economic situations characterized by quadratic functions. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt; Choose a domain that makes sense in a revenue situation. &lt;/li&gt;
+    &lt;li&gt; Model revenue with quadratic functions and graphs. &lt;/li&gt;
+    &lt;li&gt; Relate the vertex of a graph and the zeros of a function to a revenue situation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
+&lt;br&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A6(A) &lt;u&gt;determine the domain&lt;/u&gt; and range &lt;u&gt;of quadratic functions and represent the domain&lt;/u&gt; and range &lt;u&gt;using inequalities&lt;/u&gt;.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A7(A) graph quadratic functions on the coordinate plane and &lt;u&gt;use the graph to identify key attributes, if possible, including \(x\)-intercept&lt;/u&gt;, \(y\)-intercept, &lt;u&gt;zeros, maximum value&lt;/u&gt;, minimum values, &lt;u&gt;vertex&lt;/u&gt;, and the equation of the axis of symmetry.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Lesson Activities&lt;/h4&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; 7.7.1: Comparing Graphs of Functions &lt;/li&gt;
+    &lt;li&gt; 7.7.2: Modeling Real-World Data with Quadratic Functions &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; 7.7.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 7.7.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 7.7.3: The Domain, Vertex, and Zero of Quadratic Functions &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; 7.7.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 7.7.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 7.7.4: Relate the Domain of a Function to Its Graph &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will also complete a series of problems in the 7.7.5: Practice.&lt;/p&gt;
+&lt;h4&gt;Required Materials&lt;/h4&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;h4&gt;Required Preparation&lt;/h4&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Familiarize students with the vocabulary words they will see throughout the lesson. Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
+    &lt;li&gt; Encourage students to use key vocabulary words in “math talk” and their written and oral explanations. &lt;/li&gt;
+    &lt;li&gt; Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson:&lt;/p&gt;
+
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;ul&gt;
+                    &lt;li&gt; equations &lt;/li&gt;
+                    &lt;li&gt; functions &lt;/li&gt;
+                    &lt;li&gt; quadratic functions &lt;/li&gt;
+                    &lt;li&gt; vertex &lt;/li&gt;
+                    &lt;li&gt; zero &lt;/li&gt;
+                    &lt;li&gt;\(x\)-intercept &lt;/li&gt;
+                    &lt;li&gt; domain &lt;/li&gt;
+                    &lt;li&gt; range &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;ul&gt;
+                    &lt;li&gt; revenue &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Support for Building Character&lt;/h4&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their proactivity.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/the-adaptability-advantage/" target="_blank"&gt;The Adaptability Advantage&lt;/a&gt; &lt;/li&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/unrecognized-strengths/" target="_blank"&gt;Unrecognized Strengths&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find other tips located here in the &lt;a href="https://characterlab.org/playbooks/proactivity/" target="_blank"&gt;Playbook on Proactivity&lt;/a&gt; from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3722">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664921018</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1657">
+        <prevpageid>1656</prevpageid>
+        <nextpageid>1658</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664921606</timecreated>
+        <timemodified>1665669963</timemodified>
+        <title>7.7.1: Comparing Graphs of Functions</title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
+&lt;p&gt;This warm up prompts students to analyze and compare the features of the graphs of four functions. In making comparisons, students have a reason to use language precisely. The activity also enables the teacher to hear what terminologies students know and how they talk about characteristics of linear, exponential, and quadratic functions and their graphs.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Arrange students in groups of two to four. Display the graphs for all to see. Give students \(1\) minute of quiet think time and then time to share their thinking with their small group. In their small groups, ask each student to share their reasoning why a particular item does not belong, and together find at least one reason each item doesn’t belong.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Which one doesn’t belong?&lt;/p&gt;
+&lt;p&gt;A&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/owveUAGcYM9RjKxseoRjEXqd" alt="Graph of a line, origin O, with grid. Horizontal axis from negative 2 to 2 by 1’s. Vertical axis from negative 2 to 6 by ones. Line passes through negative 2 comma 2, 0 comma 2, and 2 comma 2.&amp;quot; height=&amp;quot;200" width="268" height="267"&gt;&lt;/p&gt;
+&lt;p&gt;B&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/UiFndiWN9ADgTNiqSC7gpseK" alt="Graph of a line, origin O, with grid. Horizontal axis from negative 2 to 2 by 1’s. Vertical axis from negative 2 to 6 by ones. Line passes through negative 1 comma negative 2, 0 comma 2, and 1 comma 6.&amp;quot; height=&amp;quot;200" width="268" height="267"&gt;&lt;/p&gt;
+&lt;p&gt;C&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/g7S8scRx1zrYFRHDSYcJtpNr" alt="Graph of 13 data points." width="268" height="267"&gt;&lt;/p&gt;
+&lt;p&gt;D&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/ktdvKmu7NVD9ZwFtm4Ho1vuR" alt="Graph of curved line, origin O, with grid. Horizontal axis from negative 2 to 2 by 1’s. Vertical axis from negative 2 to 6 by 1’s. Line passes through negative 1 comma point 5, 0 comma 3 point 5, 1 comma 7.&amp;quot; height=&amp;quot;200" width="268" height="267"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A is the only graph where the \(y\)-values don’t change.&lt;/p&gt;
+&lt;p&gt;B is the only graph where the \(y\)-value increases by a constant rate.&lt;/p&gt;
+&lt;p&gt;C is the only graph that is not continuous.&lt;/p&gt;
+&lt;p&gt;D is the only graph that does not intersect the \(y\)-axis at \(2\).&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Ask each group to share one reason why a particular item does not belong. Record and display the responses for all to see. After each response, ask the class if they agree or disagree. Since there is no single correct answer to the question of which one does not belong, attend to students’ explanations and ensure the reasons given are correct.&lt;/p&gt;
+&lt;p&gt;During the discussion, ask students to explain the meaning of any terminology they use, such as "discrete," "increasing," "\(x\)-intercept," and "\(y\)-intercept." Also, press students on unsubstantiated claims.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3723">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664921606</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3724">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664921606</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1658">
+        <prevpageid>1657</prevpageid>
+        <nextpageid>1659</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664925754</timecreated>
+        <timemodified>1665724495</timemodified>
+        <title>7.7.2: Modeling Real-World Data with Quadratic Functions</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;In this activity, students encounter a quadratic function in a business context. They study the relationship between the price of downloading a movie and the number of downloads, and see that the relationship can be described with a quadratic function.&lt;/p&gt;
+&lt;p&gt;Students engage in aspects of modeling as they use a table of values to build a model, create a graph to further understand the relationship, and use their model to make a business recommendation. They practice looking for and expressing regularity in repeated reasoning as they calculate the number of downloads and the expected revenue at various prices. If students opt to use a spreadsheet or graphing technology, they practice choosing appropriate tools strategically.&lt;/p&gt;
+&lt;p&gt;As students work, monitor how they decide (without graphing) whether the relationships being examined are quadratic. Because the input values in the table do not increase by equal amounts, just looking at the output values from row to row would not help.&lt;/p&gt;
+&lt;p&gt;Identify students who reason that the relationship between price and revenue is quadratic because:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; The relationship between the two quantities can be defined by \(x(18-x)\), which looks like some quadratic expressions that represented the visual patterns in earlier lessons. &lt;/li&gt;
+    &lt;li&gt; \(x(18-x)\) can be written as \(18x-x^2\), which has a squared term. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Ask students to read the opening paragraph of the activity statement. Then, ask students to make some predictions:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; “Suppose the price per download increases. What do you think would happen to the number of downloads as the price goes up?” (Students are likely to predict that as the price increases, the number of downloads decreases, as fewer people are willing to pay the higher price.) &lt;/li&gt;
+    &lt;li&gt; “What happens to the number of downloads as the price decreases?” (As the price decreases, the number of downloads increases. Lower prices tend to encourage more people to purchase a product.) &lt;/li&gt;
+    &lt;li&gt; “Would a business make more money when it sells a product at a higher price or when it sells at a lower price?” (Allow students to make some hypotheses, but it’s not necessary to confirm one way or another.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Explain that price and the number of sales affect the revenue of a business, and that the term &lt;em&gt;revenue&lt;/em&gt; means the money collected when someone sells something. For example, if the price of a movie download is \($3\) and there are 10 downloads, the revenue is \($30\).&lt;/p&gt;
+&lt;p&gt;Consider arranging students in groups of two so that they can discuss their thinking (especially the question about whether price and revenue have a quadratic relationship).&lt;/p&gt;
+&lt;p&gt;Some students may choose to use a spreadsheet tool to complete the table, and subsequently to use graphing technology to plot the data. Make these tools accessible, in case requested.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;A company that sells movies online is deciding how much to charge customers to download a new movie. Based on data from previous sales, the company predicts that if they charge \(x\)dollars for each download, then the number of downloads, in thousands, is \(18-x\).&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Answer questions a–f to complete the table to show the predicted number of downloads at each listed price. The first row has been completed for you.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Price (dollars per download)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Number of downloads (thousands)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Revenue (thousands of dollars)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(3\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(15\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(45\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(10\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(12\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(15\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="4"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(18\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="5"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="6"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; When the price is \($5\) per download, what is the number of downloads in thousands? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(13\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; When the price is \($10\) per download, what is the number of downloads in thousands? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(8\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; When the price is \($12\) per download, what is the number of downloads in thousands? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(6\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="4"&gt;
+        &lt;li&gt; When the price is \($15\) per download, what is the number of downloads in thousands? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(3\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="5"&gt;
+        &lt;li&gt; When the price is \($18\) per download, what is the number of downloads in thousands? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(0\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="6"&gt;
+        &lt;li&gt; When the price is \($x\) per download, what is the number of downloads in thousands? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(18-x\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt; Now, find the revenue at each price. Answer questions a–f. The first row has been completed for you.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Price (dollars per download)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Number of downloads (thousands)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;&lt;strong&gt;Revenue (thousands of dollars)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(3\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(15\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(45\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(10\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(12\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(15\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="4"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(18\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="5"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+           &lt;td align="center"&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;ol type="a" start="6"&gt;
+                    &lt;li&gt; _____ &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; When the price is \($5\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(65\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; When the price is \($10\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(80\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; When the price is \($12\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(72\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="4"&gt;
+        &lt;li&gt; When the price is \($15\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(45\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="5"&gt;
+        &lt;li&gt; When the price is \($18\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(0\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="6"&gt;
+        &lt;li&gt; When the price is \($x\) per download, what is the revenue in thousands of dollars? &lt;/li&gt;&lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x(18-x)\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;Is the relationship between the price of the movie and the revenue (in thousands of dollars) linear, quadratic, or exponential? Explain how you know.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; It is quadratic. The output \(x(18-x)\) can be written as \(18x-x^2\), which is a quadratic expression.&lt;/p&gt;
+&lt;ol start="4"&gt;
+    &lt;li&gt;Use the graphing tool or technology outside the course.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Plot the points that represent the revenue, \(r\), as a function of the price of one download in dollars, \(x\). Construct your graph. Be sure to label the axes.&lt;/p&gt;
+&lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/E1BWjHRUAhSVmAy3ypuuxF8X" alt="Grid with plotted points. X-axis labeled with price in dollars and y-axis labeled with revenue in thousands of dollars." width="319" height="247"&gt;&lt;/p&gt;
+&lt;ol start="5"&gt;
+    &lt;li&gt;What price would you recommend the company charge for a new movie? Explain your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Based on the graph, the largest revenue comes when the price is between \($5\) and \($10\). It is hard to tell exactly, but perhaps \($9\), halfway between \($0\) and \($18\).&lt;/p&gt;
+&lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
+&lt;h5&gt;Are you ready for more?&lt;/h5&gt;
+&lt;p&gt;The function that uses the price (in dollars per download) \(x\) to determine the number of downloads (in thousands) \(18-x\) is an example of a demand function, and its graph is known. Economists are interested in factors that can affect the demand function and therefore the price suppliers wish to set.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;What are some things that could increase the number of downloads predicted for the same given prices?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The quality of the movies could improve. The number of people who like watching movies could increase. The price of watching a movie in a theater could go up.&lt;/p&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;If the demand shifted so that we predicted \(20-x\) thousand downloads at a price of \(x\) dollars per download, what do you think would happen to the price that gives the maximum revenue? Check what actually happens.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The price that gives the maximum revenue would increase from \($9\) to \($10\).&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Display the completed table for all to see. Select previously identified students to share how they decided whether the relationships between the quantities in the situation are quadratic. (If students suggest that the U-shaped graph shows the relationship, clarify that we can’t rely on the general shape of a few plotted points to tell us if the relationship is quadratic.)&lt;/p&gt;
+&lt;p&gt;Then, discuss questions such as:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; “Is it possible for the company to make no money? How do you know?” (Yes, it is possible to make no money. We can tell by looking at the graph: when the price is \($0\) or the movie is free, the business won’t collect anything for the downloads, and when the price is \($18\), no one will download the movie.) &lt;/li&gt;
+    &lt;li&gt; “How do we know at what price they’d make the most money?” (We can calculate the predicted revenue at some other prices between \($0\) and \($18\) and see which price gives the greatest revenue. The graph also gives a hint, but we may need to plot a few more points to estimate the maximum point from the graph.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If time permits, ask students: “Is it possible for the company to lose money?” (It depends. If it costs the company money to buy the rights to the movie from the producer, then not collecting any revenue could be seen as losing money. Or if it decides to pay customers when downloading a movie, or if it set a negative dollar value for the price, then it would lose money, but this isn’t likely.)&lt;/p&gt;
+&lt;h3&gt;7.7.2: Self Check&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="302"&gt;
+        &lt;col width="322"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;h4&gt;&lt;/h4&gt;
+                &lt;p&gt;A company that sells music downloads is deciding how much to charge customers to download an album. Based on previous sales, the company predicts that if they charge \(x\) dollars for each download, then the number of downloads, in thousands, is \(13-x\).&lt;/p&gt;
+                &lt;p&gt;Which of the following represents the revenue for downloads?&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(13-x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: This is the number of downloads. Make sure to multiply the number of downloads by \(x\), the cost per download. The answer is \(13x-x^2\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(\frac {13-x}{x}\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: The number of downloads should be multiplied by \(x\), the cost per download. The answer is \(13x-x^2\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt; \(13x-x^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That’s correct! Check yourself: Multiply \(x(13-x)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt; \(13-x^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: Be sure to distribute the \(x\) to both terms. The answer is \(13x-x^2\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;7.7.2: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Revenue Represented with Quadratics&lt;/h4&gt;
+&lt;p&gt;Quadratic functions often come up when studying revenue. (Revenue means the money collected when someone sells something.)&lt;/p&gt;
+&lt;p&gt;Suppose we are selling raffle tickets and deciding how much to charge for each ticket. When the price of the tickets is higher, typically fewer tickets will be sold.&lt;/p&gt;
+&lt;p&gt;Each ticket has a price of \(d\) dollars, and it is possible to sell \(600-75d\) tickets. We can find the revenue by multiplying the price by the number of tickets expected to be sold. A function that models the revenue, \(r\), collected is \(r(d) = d(600-75d)\). Here is a graph that represents the function.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/JzxDoayAcbZuuB3RpyyHiMpU" alt="&lt;p&gt;&lt;strong&gt;Graph of non linear function, origin O. Horizontal axis, price, dollars, from 0 to 9 by 1’s. Vertical axis, revenue, thousands of dollars, 0 to 1400 by 200’s. Line starts at 0 comma 0, increases until 4 comma 1200 then decreases until 8 comma 0. Passes through 2 comma 900 and 6 comma 900.&lt;/strong&gt;&lt;/p&gt;" width="328" height="239"&gt;&lt;/p&gt;
+&lt;p&gt;It makes sense that the revenue goes down after a certain point, since if the price is too high nobody will buy a ticket. From the graph, we can tell that the greatest revenue, \($1,200\), comes from selling the tickets for \($4\) each.&lt;/p&gt;
+&lt;p&gt;We can also see that the domain of the function \(r\) is between \(0\) and \(8\). This makes sense because the cost of the tickets can’t be negative, and if the price were more than \($8\), the model would not work, as the revenue collected cannot be negative. (A negative revenue would mean the number of tickets sold is negative, which is not possible.)&lt;/p&gt;
+&lt;h4&gt;Try It: Revenue Represented with Quadratics&lt;/h4&gt;
+&lt;p&gt;Based on past concerts, a venue expects to sell \((500 - 10p)\) tickets when each ticket is \(p\) dollars.&lt;/p&gt;
+&lt;p&gt;Write the function, \(r(p)\), to represent the revenue for the concert.&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to write the function for the concert revenue:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Multiply the tickets sold by the price of each ticket, \(p\).&lt;/p&gt;
+&lt;p&gt;\(p(500 - 10p)\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Distribute the \(p\).&lt;/p&gt;
+&lt;p&gt;\(500p-10p^2\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Write as a function, \(r(p)\).&lt;/p&gt;
+&lt;p&gt;\(r(p)=500p-10p^2\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3725">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664925754</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3726">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664925754</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1659">
+        <prevpageid>1658</prevpageid>
+        <nextpageid>1660</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664929418</timecreated>
+        <timemodified>1665725109</timemodified>
+        <title>7.7.3: The Domain, Vertex, and Zero of Quadratic Functions </title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;This activity serves two main goals. It prompts students to look closely at appropriate domains for quadratic functions given the situations they represent. It also gives them an opportunity to identify or estimate the vertex of the graph and the zeros of the functions, and then to interpret them in context.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;In the previous activity, we saw a function representing the revenue, in thousands of dollars, from selling new movies at \(x\) dollars. If we graph the equation \(r=x(18-x)\) using graphing technology, it would produce a graph like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/AjvZTujxzwtbUkWx7sxzZ7jy" alt="Graph with x-axis labeled with price in dollars and y-axis labeled with revenue in thousands of dollars.&amp;quot; height=&amp;quot;201" width="434" height="268"&gt;&lt;/p&gt;
+&lt;p&gt;Then, discuss questions such as:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; “What domain is appropriate for the price of a new movie?” (The price can’t be negative and it can’t be more than \($18\), or else the revenue will be negative, which is not possible, assuming they are selling a non-negative number of downloads for a non-negative price. So an appropriate domain would be \(18 \leq x \leq 18\). The part of the graph to the left of the vertical axis has no meaning because we can’t have a negative price. The part representing a price above \($18\) would mean the company is losing money, so it has meaning, but it is unlikely to be considered if the company is trying to maximize revenue.) &lt;/li&gt;
+    &lt;li&gt; “What are the zeros of the function? What do they tell us in this situation?” (\(0\) and \(18\). They tell us the prices at which the company would earn no revenue.) &lt;/li&gt;
+    &lt;li&gt; “What is the vertex of the graph representing the function? What does it tell us in this situation?” (It appears to be at \((9,81)\). It tells us the price that would produce the greatest revenue.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tell students they will now think about the domain, vertex, and zeros of a few quadratic functions we have seen so far.&lt;/p&gt;
+&lt;p&gt;Arrange students in groups of two to four. Consider asking each group to work on only 1–2 functions and then to share their findings with the class, or choosing only a couple of functions for the class to investigate. If the activity is divided among groups and if time permits, consider asking each group to prepare a presentation or to display their work for a gallery walk.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Here are three sets of descriptions and equations that represent some familiar quadratic functions. The graphs show what a graphing technology may produce when the equations are graphed. For each function:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; Describe a domain that is appropriate for the situation. Think about any upper or lower limits for the input, as well as whether all numbers make sense as the input. Then, describe how the graph should be modified to show the domain that makes sense. &lt;/li&gt;
+    &lt;li&gt; Identify or estimate the vertex on the graph. Describe what it means in the situation. &lt;/li&gt;
+    &lt;li&gt; Identify or estimate the zeros of the function. Describe what they mean in the situation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+    &lt;li&gt; The area of a rectangle with a perimeter of \(25\) meters and a side length \(x\): \(A(x)=x \cdot \frac {(25-2x)}{2}\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/k6Vx3haMevZqyBwUxg6VmMBX" alt="Graph of the quadratic function &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35294&amp;quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35&amp;quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 10 to 15 by 5s, labeled “length (meters)”. Vertical axis scale 0 to 60 by 10’s, labeled “area (square meters)”. Some of the points of this function are &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35&amp;quot;&gt;&lt;/span&gt;(0 comma 0), (1 comma 11 point 5) and (5 comma 37 point 5) to a maximum at (6 point 2 5 comma 39 point 0 6 3) then decreasing through (10 comma 25), (12 comma 6) and (12 point 5 comma 0)." width="279" height="303"&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; Domain: &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(0&amp;lt;x&amp;lt;12.5\). All positive rational numbers make sense as an input. The part of the graph that is below the horizontal line is not meaningful here (negative lengths or lengths greater than \(12.5\) produce a negative area, which doesn’t make sense). Having a length or area equal to \(0\) doesn’t make sense either.&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; Vertex: &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The vertex is the point on the graph when the input is at \(6.25\). It’s around \((6.25,39.063)\). It’s when the rectangle has the greatest area.&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; Zeros: &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The zeros are \(0\) and \(12.5\). They tell us that when the side length of the rectangle is \(0\) or \(12.5\) meters, the rectangle has no area (no rectangle exists).&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;The number of squares as a function of step number \(n\): \(f(n)=n^2+4\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/dnC5sVvVLSvhq3EjPy7PwsJ3" alt="Graph of the quadratic function&amp;amp;nbsp;f of n = n squared + 4.&amp;amp;nbsp;Horizontal axis scale negative 12 to 12 by 6’s, labeled “step number”. Vertical axis scale 0 to 200 by 40’s, labeled “number of squares”.&amp;amp;nbsp;&amp;quot; height=&amp;quot;222" width="262" height="296"&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; Domain: &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(n \geq 0\) where \(n\) is a whole number. Step numbers that are negative or decimal don’t make sense here. The graph should show points at non-negative integer values (instead of a continuous curve). Everything to the left of the vertical axis does not have meaning here.&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; Vertex: &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The vertex is \((0,4)\). It tells us the number of squares at Step \(0\).&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; Zeros: &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; There are no zeros for this function. There is not a time when there are no squares in the pattern.&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;The distance in feet that an object has fallen \(t\) seconds after being dropped: \(g(t)=16t^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/qhsqzWR55xKkorQERFjogDqU" alt=" &lt;p&gt;Graph of the quadratic function &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35295&amp;quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35&amp;quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 600 by 200’s, labeled “distance fallen (feet)”. Some of the points of this function are (negative 8 comma 1024), (negative 5 comma 400) and (negative 1 comma 16) to a minimum at &lt;span class=&amp;quot;math&amp;quot; data-png-file-id=&amp;quot;35&amp;quot;&gt;&lt;/span&gt;(0 comma 0) then increasing through (1 comma 16), (5 comma 400) and (8 comma 1024).&lt;/p&gt;" width="262" height="287"&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; Domain: &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(t \geq 0\) or only positive numbers and \(0\). Negative values of time don’t make sense here, so the part of the graph to the left side of the vertical axis has no meaning.&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; Vertex: &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The vertex is \((0,0)\). It tells us the distance fallen at \(0\) seconds, which is \(0\) feet.&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; Zeros: &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The vertex also tells us the zero of the function. It’s the only time when the distance fallen is \(0\) feet.&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Video: Identifying Domain, Vertex, and Zero of Quadratic Functions&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about the domain, vertex, and zero of quadratic functions.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/ce57cc6be915599b86183af5e016926306d73f79"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/54ddb28fcbc569717c38850db6b937c7c3bdb75e" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/ce57cc6be915599b86183af5e016926306d73f79
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;Some students may confuse zeros and horizontal intercepts (\(x\)-intercepts). Watch for students who write the zeros as ordered pairs such as \((25,0)\) rather than \(25\). Emphasize that while these two terms are related, there is a difference. A zero is an input value that makes the function’s output \(0\), and the horizontal intercept is the point where the graph of the function meets the horizontal axis. A zero of a function is the \(x\)-coordinate of an \(x\)-intercept of its graph.&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Invite groups to share their responses and explanations. If not already discussed or displayed by students, show examples of graphs that are each adjusted for a domain appropriate for the function represented.&lt;/p&gt;
+&lt;p&gt;Explain that the graph of a quadratic function may or may not show the vertex, depending on the situation it represents.&lt;/p&gt;
+&lt;p&gt;Here are graphs representing the functions defined by \(f(n)=n^2+4\) and \(h(t)=576-16t^2\) (in the second and fourth questions), each adjusted for the domain appropriate in the situation. In each graph, the \(y\)-intercept is the vertex, but because a negative domain is not applicable, we don’t see a “turn” in the graph (where the output changes from increasing to decreasing, or vice versa).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/EVvhGPPnEEWQP6jDHTLckaZ5" alt="Points on coordinate plane. X-axis labeled with step number and y-axis labeled with number of squares.&amp;quot; height=&amp;quot;222" width="262" height="296"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/JiqiXLGh73wEBRXDAYLHRo1M" alt="Graph of line. X-axis labeled with time in seconds and y-axis labeled with height in feet." width="262" height="287"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; The function \(f\) represents the number of squares at step \(n\) of a geometric pattern. Because partial step numbers are not possible, it makes sense for the graph to show discrete points at whole-number input values, rather than a continuous curve that includes all rational numbers for the input. &lt;/li&gt;
+    &lt;li&gt; The function \(h\) models the height of an object \(t\) seconds after being dropped. Because a negative number of seconds is not meaningful here, assuming the object stops once it hits the ground (at 6 seconds), an appropriate domain for the function would be \(0 \leq t \leq 6\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;7.7.3: Self Check&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table cellpadding="5" border="1"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION&lt;/strong&gt;:&lt;/p&gt;
+                &lt;p&gt;Find the approximate domain of the graph below:&lt;/p&gt;
+                &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/KaMw3hqcauLrZMY6cEpX6ez1" alt="Graph of the quadratic function. h(t)=5+60t−16t^2 on a coordinate plane, origin O. Horizontal axis scale 0 to 4 by 1’s, labeled “time (seconds)”. Vertical axis scale 0 to 80 by 20’s, labeled “distance above ground (feet)”. Some of the points of this function are (0 comma 5), (1 comma 49), to a maximum near (1 point 9 comma 61 point 2 5) then decreasing through (2 comma 61), (3 comma 41) and (3.8 comma 0).
+                    " width="311" height="231"&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(0 \leq x \leq 1.8\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: \(1.8\) is approximately where the maximum occurs, not the full domain. The answer is \(0 \leq x \leq 3.8\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(0 \leq x \leq 60\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: This describes the range. The answer is \(0 \leq x \leq 3.8\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(0 \leq x \leq 3.8\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That’s correct! Check yourself: The time in seconds can be between \(0\) and almost \(4\) seconds.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x \geq 0\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let’s try again a different way: Not all values above \(0\) are in the domain. The answer is \(0 \leq x \leq 3.8\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;7.7.3: Additional Resources&lt;/h3&gt;
+&lt;p&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/p&gt;
+&lt;h4&gt;The Meaning of Quadratic Characteristics&lt;/h4&gt;
+&lt;p&gt;The height in feet of an object \(t\) seconds after being dropped is graphed below: \(h(t)=576-16t^2\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/FrVf51CfdrPuZr8aLobjzQCh" alt="&lt;p&gt;Graph of the quadratic function h(t)=576 - 16t^2 on a coordinate plane, origin O. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 800 by 200’s, labeled “height (feet)”. Some of the points of this function are (negative 6 comma 0), (negative 4 comma 320) and (negative 2 comma 512) to a maximum at (0 comma 576) then decreasing through (2 comma 512), (4 comma 320) and (6 comma 0).&lt;/p&gt;" width="262" height="287"&gt;&lt;/p&gt;
+&lt;p&gt;Find the domain of the function.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; The domain is the \(t\) values, \(0 \leq t \leq 6\) or only numbers from \(0\) up through \(6\). Negative values of time don’t make sense here, so the part of the graph to the left side of the vertical axis has no meaning. The object hits the ground \(6\) seconds after being dropped, so values greater than \(6\) are not meaningful. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find the vertex and describe its meaning.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; The vertex is the peak of the parabola, or the maximum, at the point \((0,576)\). It tells us the time when the height is the greatest. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find the zeros and describe their meaning.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; The zero of the function is \(6\). It tells us that the height of the object is \(0\) feet at \(6\) seconds after being dropped, or the time when the object hits the ground. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Try It: The Meaning of Quadratic Characteristics&lt;/h4&gt;
+&lt;p&gt;Describe the zero and its meaning for the graph below:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/fc0355928478dd058a1d518ea62a6f20d2dcb493" width="340" height="290"&gt;&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to determine the zero and its meaning:&lt;/p&gt;
+&lt;p&gt;Find where the function crosses the \(x\)-axis:&lt;/p&gt;
+&lt;p&gt;\(x=0\), \(x=16\)&lt;/p&gt;
+&lt;p&gt;Looking at the label on the \(x\)-axis, this value means that at \(0\) seconds and \(16\) seconds, the height is \(0\) feet.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3727">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664929418</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3728">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664929418</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1660">
+        <prevpageid>1659</prevpageid>
+        <nextpageid>1661</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664930036</timecreated>
+        <timemodified>1665725374</timemodified>
+        <title>7.7.4: Relate the Domain of a Function to Its Graph</title>
+        <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;This graph represents the revenue in dollars that a company expects if they sell their product for \(p\) dollars.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/J7DmTKP22hMXeACmMgVyrasz" alt="Graph of non linear function.&amp;quot; height=&amp;quot;196" width="324" height="262"&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Based on this model, which price would generate more revenue for the company, \($5\) or \($17\)?&lt;/li&gt;
+  &lt;br&gt;
+  &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \($5\), as it would generate about \($3,700\) in revenue. Charging \($17\) would bring in about \($2,500\).&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+  &lt;li&gt;At what price (in dollars) should the company sell their product if they wish to make as much revenue as possible?&lt;/li&gt;
+  &lt;br&gt;
+  &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;\(10\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+  &lt;li&gt;How much revenue (in dollars) would they make?&lt;/li&gt;
+  &lt;br&gt;
+  &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;\(5,000\)&lt;/p&gt;
+&lt;/ol&gt;
+&lt;ol start="4"&gt;
+  &lt;li&gt;What is an appropriate domain for the function? Explain how you know.&lt;/li&gt;
+  &lt;br&gt;
+  &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(0 \leq p \leq 20\), because the price has to be non-negative, and the company would earn negative revenue if the price were more than \($20\).&lt;/p&gt;
+&lt;/ol&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3729">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664930036</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3730">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664930036</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1661">
+        <prevpageid>1660</prevpageid>
+        <nextpageid>1662</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664932252</timecreated>
+        <timemodified>1665725842</timemodified>
+        <title>7.7.5: Practice</title>
+        <contents>&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;Use the following to answer questions 1–5.&lt;/p&gt;
+&lt;p&gt;Based on past musical productions, a theater predicts selling \(400-8p\) tickets when each ticket is sold at \(p\) dollars.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Answer questions a–g to complete the middle column in the table to find out how many tickets the theater expects to sell and what revenues it expects to receive at the given ticket prices.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Ticket price (dollars)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Number of tickets sold&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Revenue (dollars)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(360\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(1800\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(10\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;a. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(15\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;b. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(20\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;c. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(30\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;d. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(45\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;e. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(50\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;f. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(p\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;g. _____&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; When the price is \($10\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(320\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; When the price is \($15\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(280\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; When the price is \($20\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(240\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="4"&gt;
+        &lt;li&gt; When the price is \($30\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(160\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="5"&gt;
+        &lt;li&gt; When the price is \($45\) per ticket, what is the number of tickets sold?
+            &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(40\)&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="6"&gt;
+        &lt;li&gt; When the price is \($50\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(0\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="7"&gt;
+        &lt;li&gt; When the price is \(p\) per ticket, what is the number of tickets sold? &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt; \(400-8p\) &lt;/li&gt;
+            &lt;li&gt; \(p(400-8p)\) &lt;/li&gt;
+            &lt;li&gt; \(p(8p-400)\) &lt;/li&gt;
+            &lt;li&gt; \(392p\) &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(400-8p\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;Answer questions a-g to complete the right column in the table to find out what revenues the theater expects to receive at the given ticket prices.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Ticket price (dollars)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Number of tickets sold&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Revenue (dollars)&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(5\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(360\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(1800\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(10\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;a. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(15\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;b. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(20\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;c. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(30\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;d. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(45\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;e. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(50\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;f. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(p\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;g. _____&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; When the price is \($10\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(3,200\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="2"&gt;
+        &lt;li&gt; When the price is \($15\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(4,200\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="3"&gt;
+        &lt;li&gt; When the price is \($20\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(4,800\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="4"&gt;
+        &lt;li&gt; When the price is \($30\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\(4,800\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="5"&gt;
+        &lt;li&gt; When the price is \($45\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(1,800\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="6"&gt;
+        &lt;li&gt; When the price is \($50\) per ticket, what is the revenue in dollars? &lt;/li&gt;
+        &lt;br&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(0\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;ol type="a" start="7"&gt;
+        &lt;li&gt; When the price is \(p\) per ticket, what is the revenue in dollars?&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;ul&gt;
+                &lt;li&gt; \(p(400-8p)\) &lt;/li&gt;
+                &lt;li&gt; \(p(8p-400)\) &lt;/li&gt;
+                &lt;li&gt; \(400-8p\) &lt;/li&gt;
+                &lt;li&gt; \(392p\) &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\(p(400-8p)\)&lt;/p&gt;
+    &lt;/ol&gt;
+&lt;/ol&gt;
+&lt;ol start="3"&gt;
+    &lt;li&gt;For which ticket price, listed in the table, will the theater earn no revenue?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(50\)&lt;/p&gt;
+&lt;ol start="4"&gt;
+    &lt;li&gt;Calculate the lowest price of a ticket that the theater should sell the tickets for if it must earn at least \($3,200\) in revenue to break even (to not lose money) on the musical production. (The calculated value may not be listed in the table.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(10\)&lt;/p&gt;
+&lt;ol start="5"&gt;
+    &lt;li&gt;Calculate the highest price of a ticket that the theater should sell the tickets for if it must earn at least \($3,200\) in revenue to break even (to not lose money) on the musical production. (The calculated value may not be listed in the table.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \(40\). Although not shown in the table, we can calculate that when \(p\) is \($40\), the expected revenue is \(40(400-8(40))\) or \(40 \cdot 80\), which is \($3,200\).&lt;/p&gt;
+&lt;ol start="6"&gt;
+    &lt;li&gt;A company sells running shoes. If the price of a pair of shoes in dollars is \(p\), the company estimates that it will sell \(50,000-400p\) pairs of shoes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Which expression represents the revenue in dollars from selling running shoes if a pair of shoes is priced at \(p\) dollars?&lt;/p&gt;
+&lt;ul&gt;
+    &lt;ul&gt;
+        &lt;li&gt; \((50,000-400p) \cdot p\) &lt;/li&gt;
+        &lt;li&gt; \((50,000p-400) \cdot p\) &lt;/li&gt;
+        &lt;li&gt; \((50,000p-400p)\) &lt;/li&gt;
+        &lt;li&gt; \((49,600p) \cdot p\)&lt;/li&gt;
+    &lt;/ul&gt;
+
+
+
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; \((50,000-400p) \cdot p\)&lt;/p&gt;
+&lt;p&gt;Use the following to answer questions 7–9.&lt;/p&gt;
+&lt;p&gt;The function \(f\) represents the revenue in dollars the school can expect to receive if it sells \(220-12x\) coffee mugs for \(x\) dollars each.&lt;/p&gt;
+&lt;p&gt;Here is the graph of \(f\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/H4mnHeopSzeh5dnB4A4oz9ru" width="324" height="209" alt="Parabola on grid. Horizontal axis, price in dollars, from 0 to 20. Vertical axis, revenue in dollars, from 0 to 1000. Parabola opens down. Vertex near 9 comma 1000. \(X-intercepts near 0 and 18 point 2."&gt;&lt;/p&gt;
+&lt;ol start="7"&gt;
+    &lt;li&gt;&lt;strong&gt;Select three&lt;/strong&gt; statements that describe this situation.&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; At \($2\) per coffee mug, the revenue will be \($196\). &lt;/li&gt;
+        &lt;li&gt; The school expects to sell \(160\) mugs if the price is \($5\) each. &lt;/li&gt;
+        &lt;li&gt; The school will lose money if it sells the mugs for more than \($10\) each. &lt;/li&gt;
+        &lt;li&gt; The school will earn about \($1,000\) if it sells the mugs for \($10\) each. &lt;/li&gt;
+        &lt;li&gt; The revenue will be more than \($700\) if the price is between \($5\) and \($14\). &lt;/li&gt;
+        &lt;li&gt; The expected revenue will increase if the price per mug is greater than \($10\). &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER:&lt;/strong&gt; The school expects to sell \(160\) mugs if the price is \($5\) each. The school will earn about \($1,000\) if it sells the mugs for \($10\) each. The revenue will be more than \($700\) if the price is between \($5\) and \($14\).&lt;/p&gt;
+&lt;ol start="8"&gt;
+    &lt;li&gt;To the nearest hundred dollars, what is the maximum revenue for the mugs?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\(1,000\)&lt;/p&gt;
+&lt;ol start="9"&gt;
+    &lt;li&gt;Which is the approximate domain?&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; \(0 \leq x \leq 18\) &lt;/li&gt;
+        &lt;li&gt; \(0 \leq x \leq 9\) &lt;/li&gt;
+        &lt;li&gt; \(0 \leq x \leq 1000\) &lt;/li&gt;
+        &lt;li&gt; \(x \geq 0\) &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ANSWER: &lt;/strong&gt;\(0&amp;nbsp;\leq&amp;nbsp;x&amp;nbsp;\leq&amp;nbsp;18\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3731">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664932252</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3732">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664932252</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1662">
+        <prevpageid>1661</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664932851</timecreated>
+        <timemodified>1665550270</timemodified>
+        <title>7.7.6: Lesson Synthesis</title>
+        <contents>&lt;p&gt;Students have looked at the zeros and domains of functions in different situations. They have also thought about what the vertices of the graphs of functions mean in the given contexts. To help students consolidate the key ideas in this lesson, consider asking them to complete one or more of the following sentence stems:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    In general, the zeros of a function tell us . . . For example: . . .
+  &lt;/li&gt;
+  &lt;li&gt;
+    In general, the vertex of a graph that represents a function tells us . . . For example: . . .
+  &lt;/li&gt;
+  &lt;li&gt;
+    To determine an appropriate domain for a function, we need to consider . . .
+  &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3733">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664932851</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3734">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664932851</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="223" moduleid="293" modulename="lesson" contextid="304">
+  <lesson id="223">
+    <course>2</course>
+    <name>Lesson 8.10 Teacher Guide: Rewriting Quadratic Expressions in Factored Form, Part 4</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>294</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1667073112</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="2040">
+        <prevpageid>0</prevpageid>
+        <nextpageid>2041</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666559149</timecreated>
+        <timemodified>1666833543</timemodified>
+        <title>8.10.0: Lesson Overview</title>
+        <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
+&lt;p&gt;Up to this point, most quadratic expressions that students have transformed from standard form to factored form had a leading coefficient of 1; that is, they were in the form of \(x^2+ bx + c\) because the squared term had a coefficient of 1. There were a few instances in which students rewrote expressions in standard form with a leading coefficient other than 1. Those expressions were differences of two squares, where there were no linear terms (for instance, \(9x^2− 64\) or \(25x^2− 9\)). Students learned to rewrite these as \((3x + 8)(3x − 8)\) or \((5x + 3)(5x − 3)\), respectively.&lt;/p&gt;
+&lt;p&gt;In this lesson, students consider how to rewrite expressions in standard form where the leading coefficient is not 1 and the expression is not a difference of two squares. They notice that the same structure used to rewrite \(x^2+ 5x + 4\) as \((x + 4)(x + 1)\) can be used to rewrite expressions such as \(3x^2+ 8x + 4\), but the process is now a little more involved because the coefficient of \(x^2\) has to be taken into account when finding the right pair of factors.&lt;/p&gt;
+&lt;p&gt;This lesson aims to give students a flavor of rewriting more complicated expressions in factored form, and to suggest that it is not always practical or possible. This experience motivates the need for other strategies for solving equations and prepares students to complete the square in a series of upcoming lessons.&lt;/p&gt;
+&lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Write an equivalent expression in factored form given a quadratic expression of the form \(ax^2+ bx + c\), where \(a\) is not 1. &lt;/li&gt;
+    &lt;li&gt; Write a quadratic equation that represents a context, consider different methods for solving it, and describe (orally) the limitations of each method. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Use the factored form of a quadratic expression or a graph of a quadratic function to answer questions about a situation. &lt;/li&gt;
+    &lt;li&gt; Write equivalent expressions in factored form when given quadratic expressions of the form \(ax^2+ bx + c\) and \(a\) is not 1. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
+&lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A8(A) solve quadratic equations having real solutions by factoring, taking square roots, completing the square, and applying the quadratic formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Foundational: Lesson provides foundational content necessary for students to be able to perform this TEKS in later lessons.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Lesson Activities&lt;/h4&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.10.1: Analyzing Various Quadratic Expressions &lt;/li&gt;
+    &lt;li&gt; 8.10.2: Working with Quadratic Factored Form with Leading Coefficient Other Than One &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 8.10.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.10.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.10.3: Using Technology to Find Rational Factors &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 8.10.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.10.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.10.4: Finding the Factors of Quadratic Expressions in Standard Form &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 8.10.4: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.10.4: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.10.5: Solving Quadratic Equations by Any Method &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will also complete a series of problems in the 8.10.6: Practice.&lt;/p&gt;
+&lt;h4&gt;Required Materials&lt;/h4&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Paper and pencil &lt;/li&gt;
+    &lt;li&gt; Graphing technology &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Required Preparation&lt;/h4&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Acquire devices that can run Desmos (recommended) or other graphing technology. It is ideal if each student has their own device. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Familiarize students with the vocabulary words they will see throughout the lesson. &lt;/li&gt;
+    &lt;li&gt; Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
+    &lt;li&gt; Encourage students to use key vocabulary words in "math talk" and their written and oral explanations. &lt;/li&gt;
+    &lt;li&gt; Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson:&lt;/p&gt;
+&lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;ul&gt;
+                    &lt;li&gt; quadratic expression &lt;/li&gt;
+                    &lt;li&gt; quadratic equation &lt;/li&gt;
+                    &lt;li&gt; quadratic function &lt;/li&gt;
+                    &lt;li&gt; factored form (of a quadratic expression) &lt;/li&gt;
+                    &lt;li&gt; standard form (of a quadratic expression) &lt;/li&gt;
+                    &lt;li&gt; variable &lt;/li&gt;
+                    &lt;li&gt; coefficient &lt;/li&gt;
+                    &lt;li&gt; linear term &lt;/li&gt;
+                    &lt;li&gt; root &lt;/li&gt;
+                    &lt;li&gt; zero product property &lt;/li&gt;
+                    &lt;li&gt; zero of the function &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;ul&gt;
+                    &lt;li&gt; none &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Support for Building Character&lt;/h4&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their curiosity.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/letting-kids-drive/" target="_blank"&gt;Letting Kids Drive&lt;/a&gt; &lt;/li&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/active-learning/" target="_blank"&gt;A Lesson in Active Learning&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find other tips located here in the &lt;a href="https://characterlab.org/playbooks/curiosity/" target="_blank"&gt;Playbook on Curiosity&lt;/a&gt; from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4579">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666559149</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2041">
+        <prevpageid>2040</prevpageid>
+        <nextpageid>2042</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666559558</timecreated>
+        <timemodified>1666833650</timemodified>
+        <title>8.10.1: Analyzing Various Quadratic Expressions</title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
+&lt;p&gt;This warm up prompts students to carefully analyze and compare quadratic expressions. The activity also enables the teacher to hear the terminology students know and how they talk about characteristics of the different forms of expressions.&lt;/p&gt;
+&lt;p&gt;As students discuss in groups, listen for rationales that are based on the structure of the expressions. Select those students or groups to share their thinking during class discussion.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Arrange students in groups of two to four. Display the expressions for all to see. Give students quiet think time and then time to share their thinking with their small group. In their small groups, ask each student to share their reasoning about why a particular item does not belong, and together find at least one reason each item doesn't belong.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Examine the four expressions below. Which one doesn't belong?&lt;/p&gt;
+&lt;ol type="A" class="os-raise-noindent"&gt;
+    &lt;li&gt;\((x + 4)(x − 3)\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol type="A" start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(3x^2 − 8x + 5\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol type="A" start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(x^2 − 25\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol type="A" start="4" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(x^2 + 2x + 3\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are many possible answers for which equation does not belong in a group with the others. Determine which equation you think should be eliminated and explain your reasoning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;Equation A: The only expression that is not in standard form. Or, when written in standard form, it is the only one that has an even number for the constant term.&lt;/p&gt;
+&lt;p&gt;Equation B: The only expression in standard form that has a leading coefficient other than 1.&lt;/p&gt;
+&lt;p&gt;Equation C: The only expression in standard form that doesn't have three terms. It is the only one without a linear term.&lt;/p&gt;
+&lt;p&gt;Equation D: The only expression in standard form that can't be written in factored form. It is prime.&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Ask each group to share one reason why a particular expression doesn't belong. Record and display the responses for all to see. After each response, ask the class if they agree or disagree. Since there is no single correct answer to the question of which one does not belong, attend to students' explanations and ensure the reasons given are correct.&lt;/p&gt;
+&lt;p&gt;During the discussion, ask students to explain the meaning of any terminology they use, such as standard form, factored form, linear term, or coefficient. Also, press students on unsubstantiated claims. For example, if they claim that B is the only one that cannot be written in factored form, ask them to show how they know.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4580">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666559558</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4581">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666559558</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2042">
+        <prevpageid>2041</prevpageid>
+        <nextpageid>2043</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666621701</timecreated>
+        <timemodified>1666884089</timemodified>
+        <title>8.10.2: Working with Quadratic Factored Form with Leading Coefficient Other Than One</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;Most of the factored expressions students saw were of the form \((x + m)(x + n)\) or \(x(x + m)\). In this activity, students work with expressions of the form \((px + m)(qx + n)\). They expand expressions such as \((2x + 1)(x + 10)\) into standard form and look for structure that would allow them to go in reverse, that is, to transform expressions of the form \(ax^2+ bx + c\)
+&lt;/p&gt;
+&lt;p&gt;Going from factored form to standard form is fairly straightforward given students' experience with the distributive property. Going in reverse, however, is a bit more challenging when the coefficient of \(x^2\) is not 1. With some guessing and checking, students should be able to find the factored form of the expressions in the fourth and fifth questions, but they should also notice that this process is not straightforward.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Remind students that they have seen quadratic expressions such as \(16t^2+ 800t + 400\) and \(5x^2+ 21x − 20\), where the coefficient of the squared term is not 1. Solicit some ideas from students on how to write the factored form for expressions such as these.&lt;/p&gt;
+&lt;p&gt;Arrange students in groups of two to three and ask them to split up the work for completing the first three questions, with each group member rewriting one expression into standard form.&lt;/p&gt;
+&lt;p&gt;Invite students to share the expanded expressions in standard form. Record the expressions in the right column, and ask students to make observations about them.&lt;/p&gt;
+&lt;p&gt;If not mentioned by students, point out that each pair of factors start with \(3x\) and \(x\), which multiply to make \(3x^2\). Each pair of factors also has constant terms that multiply to make 4. The resulting expressions in standard form are all different, however, because using different pairs of factors of 4 and arranging them in different orders produce different expanded expressions.&lt;/p&gt;
+&lt;p&gt;Ask students to keep these observations in mind as they complete questions 4 and 5.&lt;/p&gt;
+&lt;p&gt;The student extension and the self check quiz contain examples in standard form where the trinomials have negative \(c\)-values. Ask students how having a negative \(c\)-value would affect the way they approach factoring. (The constants in the binomials must have opposite signs.)&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Each row in the given tables contains a pair of equivalent expressions. Complete the tables by converting the given expression into standard form. If you get stuck, try drawing a diagram.&lt;/p&gt;
+&lt;p&gt;[Remember to use the ^ key to enter exponents. You can find this symbol by pushing shift and the number 6 on your keyboard at the same time.]&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="132"&gt;
+        &lt;col width="138"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((3x + 1)(x + 4)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(3x^2+13x +4\)&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="132"&gt;
+        &lt;col width="138"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((3x + 2)(x + 2)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(3x^2 + 8x + 4\)&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="132"&gt;
+        &lt;col width="138"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((3x + 4)(x + 1)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(3x^2 + 7x + 4\)&lt;/p&gt;
+&lt;ol start="4" class="os-raise-noindent"&gt;
+    &lt;li&gt;To find the factored form of a quadratic expression with a leading coefficient other than 1, answer parts a–d.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="132"&gt;
+        &lt;col width="138"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt; &lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(5x^2+21x +4\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol type="a"&gt;
+    &lt;li&gt;This quadratic expression has a leading coefficient of 5. Identify the factors of 5 to determine the leading term of each binomial in factored form.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;\(({\style{color:red}\_}{\style{color:red}\_}{\style{color:red}\_}\;x+\_\_\_)({\style{color:red}\_}{\style{color:red}\_}{\style{color:red}\_}\;x+\_\_\_)\)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 5 and 1; the factored form will have the structure \((5x +\_\_\_)(x + \_\_\_)\).&lt;/p&gt;
+&lt;ol type="a" start="2"&gt;
+    &lt;li&gt;The constant term in this quadratic expression is +4. Identify all the factors of +4.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 1 and 4; 2 and 2&lt;/p&gt;
+&lt;ol type="a" start="3"&gt;
+    &lt;li&gt;The linear term in the expression is \(21x\). Place each of the factors of +4 you found in part b into the remaining blanks of the factored form structure from part a. Which of these results in a linear term of \(21x\) when you use FOIL? (Keep in mind that the order you place these factors into your factored form structure might affect the outcome, so try both orders if needed.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 1 and 4; 1 must be placed in the binomial with \(5x\). 4 must be placed in the binomial with \(x\).&lt;/p&gt;
+&lt;ol type="a" start="4"&gt;
+    &lt;li&gt;What is the factored form of \(5x^2+ 21x + 4\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((5x + 1)(x + 4)\)&lt;/p&gt;
+&lt;ol start="5" class="os-raise-noindent"&gt;
+    &lt;li&gt;Use the strategy you developed in question 4 to find the factored form of the quadratic expression shown here in standard form.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="132"&gt;
+        &lt;col width="138"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(3x^2 + 7x + 4\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((3x + 4)(x + 1)\)&lt;/p&gt;
+&lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
+&lt;h5&gt;Are you ready for more?&lt;/h5&gt;
+&lt;p&gt;Find the factored form of the quadratic expression shown.&lt;/p&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="132"&gt;
+        &lt;col width="138"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(6x^2+ 11x − 10\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;This quadratic expression is different from those in the activity, since its leading coefficient has more than one set of possible factors.&lt;/p&gt;
+&lt;p&gt;Use the strategy you learned in the activity to factor the expression. If the pair of factors you selected using the leading coefficient, 6, do not give you the correct solution, begin again with another set of factors.&lt;/p&gt;
+&lt;p&gt;The expression is also different since the constant term is negative, -10. This means when you consider the factors of the constant term, one must be positive and one must be negative.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((3x − 2)(2x + 5)\) &lt;/p&gt;
+&lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;Some students may not think to check their answers to the second question and stop as soon as they think of a pair of factors that give the correct squared term and constant term. Encourage them to check their answers with a partner by giving time to do so. Consider providing a non-permanent writing surface or extra paper so students could try out their guesses and check their work without worrying about having to erase if they make a mistake the first time or two.&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Select students to complete the missing expressions in standard form and to briefly explain their strategy. To rewrite \(ax^2+ bx + c\), students are likely to have tried putting different factors of \(a\) and of \(c\) in the factored expression such that when the factors are expanded, they yield a linear term with the coefficient \(b\).&lt;/p&gt;
+&lt;p&gt;Then, help students to reason about the factors more generally. Discuss questions such as:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; "To rewrite expressions such as \(x^2+ bx + c\), we looked for two numbers that multiply to make \(c\) and add up to \(b\). The expressions here are of the form \(ax^2 + bx + c\). Are we still looking for two numbers that multiply to make \(c\)? Why or why not?" (Yes. The constant terms in the factored expression must multiply to make \(c\).) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+    &lt;li&gt; "Do we need to look for factors of \(a\)? Why or why not?" (Yes. Those factors will be the coefficient of \(x\) in the factored expressions. They must multiply to make \(a\).) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+    &lt;li&gt; "Are we still looking for two factors of \(c\) that add up to \(b\)? Why or why not?" (No. The value of \(b\) is no longer just the sum of the two factors of \(c\) because the two factors of \(a\) are now involved.) "How does this affect the rewriting process?" (It makes it more complicated, because now there are four numbers to contend with, and there are many more possibilities to consider.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tell students that we'll investigate a bit further quadratic equations in the form of \(ax^2+ bx + c\) where \(a\) is not 1, and see if there are manageable ways to rewrite such equations in factored form so that they can be solved.&lt;/p&gt;
+&lt;h3&gt;8.10.2: Self Check&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="183"&gt;
+        &lt;col width="439"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Find the factored form of the quadratic expression \(3x^2+ 5x − 2\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((3x − 2)(x − 1)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: This results in a middle term of \(−5x\) and a constant term of 2. These are not correct. The answer is \((3x − 1)(x + 2)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((3x + 2)(x + 1)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: This results in a constant term of 2. The constant term should be −2. The answer is \((3x − 1)(x + 2)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((3x − 2)(x + 1)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: This results in a middle term of \(3x − 2x\), or \(x\). The middle term should be \(5x\). The answer is \((3x − 1)(x + 2)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((3x − 1)(x + 2)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That's correct! Check yourself: Multiply the factored form to check to see if it is equivalent to the original expression. \((3x −1)(x + 2) = 3x^2 +6x −x −2 = 3x^2+5x −2\). So the answer is correct.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;8.10.2: Additional Resources&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;h4&gt;Working with Expressions of the Form \((px + m)(qx + n)\)&lt;/h4&gt;
+&lt;p&gt;You have factored and solved many different types of quadratic equations, but the leading coefficient of the \(x^2\) term was often 1.&lt;/p&gt;
+&lt;p&gt;Let's look at the factored form of a more complex expression to better understand the process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Write \((4x + 1)(x + 3)\) in standard form.&lt;/p&gt;
+&lt;p&gt;To find the quadratic expression in standard form, use the distributive property of multiplication over addition, or FOIL.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}\left(4x+1\right)\left(x+3\right)&amp;amp;=&amp;amp; 4x^2+12x+x+3\\&amp;amp;=&amp;amp; 4x^2+13x+3\end{array}\)&lt;/p&gt;
+&lt;p&gt;Now, let's try to go the other direction from standard form to factored form.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Write \(2x^2+ 13x + 15\) in factored form.&lt;/p&gt;
+&lt;p&gt;Since the leading coefficient is 2, we know the factored form must have the structure:&lt;/p&gt;
+&lt;p&gt;\((2x +\_\_\_)(x + \_\_\_)\)&lt;/p&gt;
+&lt;p&gt;Since the constant term is +15, the two missing numbers in the factored form must have a product of 15.&lt;/p&gt;
+&lt;p&gt;The possibilities include:&lt;/p&gt;
+&lt;p&gt; +1 and +15&lt;br&gt;
+    +3 and +5&lt;br&gt;
+    -1 and -15&lt;br&gt;
+    -3 and -5&lt;/p&gt;
+&lt;p&gt;Since the middle term, \(13x\), is positive, we know that only the positive factors need to be considered.&lt;/p&gt;
+&lt;p&gt;Since the two factors are already different inside the parentheses, the order in which we place the numbers is important. We will try both, if necessary.&lt;/p&gt;
+&lt;p&gt;Let's try \({\style{color:red}1}\) and \({\style{color:red}1}{\style{color:red}5}\).&lt;/p&gt;
+&lt;p&gt;\(\left(2x+{\style{color:red}1}{\style{color:red}5}\right)\left(x+{\style{color:red}1}\right)\)&lt;br&gt;
+    \(\begin{array}{rcl}&amp;amp;=&amp;amp;2x^2+15x+2x+15\\&amp;amp;=&amp;amp;2x^2+17x+15\end{array}\) &lt;br&gt; not equivalent to the original expression&lt;/p&gt;
+&lt;p&gt;Try reordering the same numbers.&lt;/p&gt;
+&lt;p&gt;\(\left(2x+{\style{color:red}1}\right)\left(x+{\style{color:red}1}{\style{color:red}5}\right)\)&lt;br&gt;\(\begin{array}{rcl}&amp;amp;=&amp;amp;2x^2+30x+x+15\\&amp;amp;=&amp;amp;2x^2+31x+15\end{array}\)&lt;br&gt; not equivalent to the original expression&lt;/p&gt;
+&lt;p&gt;Let's try \({\style{color:blue}3}\) and \({\style{color:blue}5}\).&lt;/p&gt;
+&lt;p&gt;\(\left(2x+{\style{color:blue}5}\right)\left(x+{\style{color:blue}3}\right)\)&lt;br&gt;
+    \(\begin{array}{rcl}&amp;amp;=&amp;amp;2x^2+5x+6x+15\\&amp;amp;=&amp;amp;2x^2+11x+15\end{array}\)&lt;br&gt;
+    not equivalent to the original expression&lt;/p&gt;
+&lt;p&gt;Try reordering the same numbers.&lt;/p&gt;
+&lt;p&gt;\(\left(2x + {\style{color:blue}3}\right)\left(x + {\style{color:blue}5}\right)\)&lt;br&gt;
+    \(\begin{array}{rcl}&amp;amp;=&amp;amp;2x^2+ 3x + 10x + 15 \\
+    &amp;amp;=&amp;amp;2x^2+ 13x + 15\end{array}\)&lt;br&gt;
+    \({\style{color:red}\checkmark}\) equivalent to the original expression&lt;/p&gt;
+&lt;p&gt;So, the factored form of \(2x^2 + 13x + 15\) is \((2x + 3)(x + 5)\).&lt;/p&gt;
+&lt;h4&gt;Try It: Working with Expressions of the Form \((px + m)(qx + n)\)&lt;/h4&gt;
+&lt;p&gt;Find the factored form of \(3x^2− 11x − 4\).&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;Here is how to find the factored form:&lt;/p&gt;
+&lt;p&gt;The factored form will have the structure: \((3x +\_\_\_)(x +\_\_\_)\).&lt;/p&gt;
+&lt;p&gt;The factors of -4 are:&lt;/p&gt;
+&lt;p&gt;-4 and 1&lt;br&gt;
+    4 and -1&lt;br&gt;
+    -2 and 2&lt;/p&gt;
+&lt;p&gt;Try -4 and 1.&lt;/p&gt;
+&lt;p&gt;\(\left(3x-4\right)\left(x+1\right)\)&lt;br&gt;\(\begin{array}{rcl}&amp;amp;=&amp;amp; 3x^2-4x+3x-4\\&amp;amp;=&amp;amp; 3x^2-x-4\end{array}\)&lt;br&gt;not equivalent to the original expression&lt;/p&gt;
+&lt;p&gt;Try reordering.&lt;/p&gt;
+&lt;p&gt;\(\left(3x+1\right)\left(x-4\right)\)&lt;br&gt;\(\begin{array}{rcl}&amp;amp;=&amp;amp; 3x^2-12x+x-4\\&amp;amp;=&amp;amp; 3x^2-11x-4\end{array}\)&lt;br&gt;\({\style{color:red}\checkmark}\)equivalent to the original expression&lt;/p&gt;
+&lt;p&gt;The factored form of \(3x^2− 11x − 4\) is \((3x + 1)(x − 4)\).&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4582">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666621701</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4583">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666621701</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2043">
+        <prevpageid>2042</prevpageid>
+        <nextpageid>2044</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666649992</timecreated>
+        <timemodified>1666833923</timemodified>
+        <title>8.10.3: Using Technology to Find Rational Factors</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;Earlier, students were given quadratic expressions of the form \(ax^2+ bx + c\) where the \(a\) is not 1. They found that the rewriting process was a bit more involved but was not impossible, at least for the problems at hand.&lt;/p&gt;
+&lt;p&gt;In this activity, they encounter a real-world example in which they struggle to find a combination of rational factors of \(a\) and \(c\) that would produce the value of \(b\). (Realistic quadratic functions don't always have rational numbers for their zeros, so the quadratic expressions that define them cannot always be written in factored form. At this point, students are not yet considering rational and irrational solutions and are not expected to know why some expressions cannot be easily written in factored form.)&lt;/p&gt;
+&lt;p&gt;By graphing the function, students discover that the horizontal intercepts are decimals (rounded to different decimal places, depending on the graphing technology used). The graph allows them to estimate the solution, but that is as far as they could go. The challenges in this activity set the stage for introducing a more productive technique for solving quadratic equations.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Keep students in groups of two. Let students become briefly frustrated by their unsuccessful attempts to find factors of the expression in standard form, but move them on to the last question after a few minutes. Provide access to devices that can run Desmos or other graphing technology.&lt;/p&gt;
+&lt;h4&gt;Student Activity &lt;/h4&gt;
+&lt;p&gt;An engineer is designing a fountain that shoots out drops of water. The nozzle from which the water is launched is 3 meters above the ground. It shoots out a drop of water at a vertical velocity of 9 meters per second.&lt;/p&gt;
+&lt;p&gt;Function \(h\) models the height in meters, \(h\), of a drop of water \(t\) seconds after it is shot out from the nozzle. The function is defined by the equation \(h(t) = -5t^2+ 9t + 3\).&lt;/p&gt;
+&lt;p&gt;How many seconds until the drop of water hits the ground?&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Write an equation that we could solve to answer the question.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(-5t^2+ 9t + 3 = 0\)&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;Try to solve the equation by writing the expression in factored form and using the zero product property. If it cannot be factored, explain how you came to this conclusion.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; There is no combination of integer factors of the first coefficient, -5, and the third coefficient, 3, that would result in a middle term of 9. Because it is prime, the expression cannot be written in factored form.&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;Solve the equation by graphing the function.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Use the Desmos graphing tool or technology outside the course.&lt;/p&gt;
+&lt;p&gt;Explain how you found the solution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; About 2. The graph shows two horizontal intercepts, one with a positive \(x\)-coordinate and one negative \(x\)-coordinate. The negative one does not apply here because time in seconds cannot be a negative value. The other horizontal intercept is around \((2.087,0)\). This means it takes about 2 seconds for the drop to hit the ground.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/7cd52056b779788ec9c2b1b4f86cf4a673f8f602" width="400" height="400"&gt;&lt;/p&gt;
+&lt;h4&gt;Using Technology to Find the Rational Factors&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about using technology to find the rational factors of a quadratic equation.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/c4a36219b2c62fa8ffe57f47a507437fcb41b12f"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/f6efd506061a68e0b17047645681033370565600" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/c4a36219b2c62fa8ffe57f47a507437fcb41b12f
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Ask students to share some challenges they came across when trying to rewrite the expressions in factored form. Solicit some ideas about why this equation presented those challenges. Then, discuss how they found or estimated the solution by graphing.&lt;/p&gt;
+&lt;p&gt;The approximate solution to the equation, given by the zero of the function and the \(x\)-intercept of the graph, is 2.087 seconds. Some graphing tools would give an approximation with a longer decimal expansion, giving a clue that it might be trickier to rewrite the equation in factored form. After all, when finding factors, we usually look for integers. (Some quadratic expressions containing non-integer rational numbers can still be written in factored form. For example, \(x^2 + \frac {3}{4} + \frac {1}{8}\) can be written as \((x + \frac {1}{2})(x + \frac {1}{4})\).)&lt;/p&gt;
+&lt;p&gt;Highlight that some equations are difficult or impossible to rewrite in factored form. In fact, when quadratic models appear in real life, this is usually the case. Graphing is a way to solve these equations, but there are other techniques, which students will learn over the next several lessons.&lt;/p&gt;
+&lt;h3&gt;8.10.3: Self Check&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="302"&gt;
+        &lt;col width="322"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;A tennis ball is hit by a racket.&lt;/p&gt;
+                &lt;p&gt;The function \(h(t) = -3t^2+ 7t + 3\) models the height in meters, \(h\), of the tennis ball \(t\) seconds after the impact with the racket.&lt;/p&gt;
+                &lt;p&gt;Use graphing technology to determine the amount of time that has passed from the tennis ball being hit to when it reaches the ground.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;1.167 seconds&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: This answer is the time it takes for the tennis ball to reach its maximum height. The answer is 2.703 seconds when the height is back to 0.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;2.703 seconds&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That's correct! Check yourself: Substitute 2.703 for \(t\) and check that the function is approximately 0. \(-3(2.703)2 + 7(2.703) + 3 ≈ 0\). The answer is correct.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;0.37 seconds&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: The value -0.37 is a zero for the function, but a negative time value is not relevant in this example. The answer is 2.703 seconds when the height is back to 0 at a positive \(t\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;3.124 seconds&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: Check to see if you entered the function correctly into the graph. The answer is 2.703 seconds when the height is back to 0 at a positive \(t\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;8.10.3: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Using Technology to Find Rational Factors&lt;/h4&gt;
+&lt;p&gt;Let's use graphing technology to solve a situation involving a quadratic function that cannot be solved using factoring.&lt;/p&gt;
+&lt;p&gt;A thick steel support cable at a construction site forms an arch-like shape. It starts attached to the top of a column, goes up through a loop at a high point, and then back down to the ground.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/653cb5cbeb27d9ebd6051259d7127fa2ad63c627" width="400" height="391"&gt;&lt;/p&gt;
+&lt;p&gt;The height of the cable in meters is represented by the function \(h(x) = -4x^2+ 16x + 5\) where \(x\) is the horizontal distance from the column, in meters.&lt;/p&gt;
+&lt;p&gt;How far away from the column does the cable attach to the ground?&lt;/p&gt;
+&lt;p&gt;The first step in solving would be to set the function equal to 0 and try to factor. Since this equation cannot be factored, we will use graphing technology.&lt;/p&gt;
+&lt;p&gt;Let's graph the function using the equation \(y = -4x^2+ 16x + 5\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/56a403c649b8b302851a397b794f3d103c41113c" width="400" height="413" alt="GRAPH OF A DOWNWARD PARABOLA WITH A POSITIVE X-INTERCEPT AT 4.291."&gt;&lt;/p&gt;
+&lt;p&gt;We can see the function has a zero at \(x=4.291\). The \(x\)-intercept is \((4.291, 0)\).&lt;/p&gt;
+&lt;p&gt;This means the cable attaches to the ground 4.291 meters away from the column.&lt;/p&gt;
+&lt;p&gt;What else about the steel cable system do we know from this graph?&lt;/p&gt;
+&lt;p&gt;We can also tell that the cable attaches to the column 5 meters off the ground at the \(y\)-intercept and the loop is approximately 21 meters high at the vertex of the parabola.&lt;/p&gt;
+&lt;h4&gt;Try It: Using Technology to Find Rational Factors&lt;/h4&gt;
+&lt;p&gt;The height, in meters, of a model rocket being launched is modeled by the function \(h(t) = -2t^2 + 14t + 2\) where \(t\) is the number of seconds after launch.&lt;/p&gt;
+&lt;p&gt;How many seconds pass before the rocket reaches the ground?&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to solve this problem using graphing technology:&lt;/p&gt;
+&lt;p&gt;Since the expression cannot be factored, it should be graphed.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/98fe8e4e5f929935e52a0612e27e3aed2aecf0ac" width="400" height="405" alt="GRAPH OF A DOWNWARD PARABOLA WITH A POSITIVE X-INTERCEPT AT 7.14."&gt;&lt;/p&gt;
+&lt;p&gt;The function has a zero at \(x=7.14\). The \(x\)-intercept is \((7.14, 0)\).&lt;/p&gt;
+&lt;p&gt;This means the rocket travels for 7.14 seconds before reaching the ground.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4584">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666649992</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4585">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666649992</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2044">
+        <prevpageid>2043</prevpageid>
+        <nextpageid>2045</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666670214</timecreated>
+        <timemodified>1666833954</timemodified>
+        <title>8.10.4: Finding the Factors of Quadratic Expressions in Standard Form</title>
+        <contents>&lt;h3&gt;Optional Activity (25 minutes)&lt;/h3&gt;
+&lt;p&gt;This optional activity allows students to investigate another way (beside guessing and checking) for finding the factors of quadratic expressions in standard form where the leading coefficient is not 1. The method involves temporarily substituting the squared term with another variable so that the leading coefficient is 1 (which makes it easier to spot the factors of the expression), and then substituting the original variable back once the expression is in factored form.&lt;/p&gt;
+&lt;p&gt;Students may find the reasoning and substitution processes challenging. Transitioning from, for example, \(9x^2 + 21x + 10\) to \((3x)^2+ 7(3x) + 10\), and then to \(N^2+ 7N + 10\) requires abstract reasoning. When the leading coefficient is not a square number (as in the second half of the activity), an additional step of multiplying is needed to make the leading coefficient a square number. To keep the value of an expression unchanged, students need to remember that they can only multiply the expression by 1, but the 1 can be obtained by, say, multiplying by 5 and then by \(\frac {1}{5}\).&lt;/p&gt;
+&lt;p&gt;Before offering support, allow students to make sense of these processes and to discuss with their partner. The work encourages students to persevere in sense-making and problem-solving and to make use of structure. It also prompts students to attend to precision. As they make symbolic substitutions, students need to be clear about what the variables stand for and how the substitutions transform the expressions.&lt;/p&gt;
+&lt;p&gt;Later in the unit, students will encounter the use of a placeholder, such as done here, as a way to derive the quadratic formula. If desired, this activity can be done at that point to warm students up to the idea of using a placeholder.&lt;/p&gt;
+&lt;p&gt;If time is limited and if desired, the activity could be split into two halves and done separately (over two class periods).&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Display these expressions for all to see and ask students which expressions would be easier to write in factored form and why.&lt;/p&gt;
+&lt;p&gt;\(4x^2− 12x + 8\)&lt;/p&gt;
+&lt;p&gt;\(t^2− 6t + 8\)&lt;/p&gt;
+&lt;p&gt;\(d^2+ d − 20\)&lt;/p&gt;
+&lt;p&gt;\(9x^2+ 3x − 20\)&lt;/p&gt;
+&lt;p&gt;Students are likely to say that the second and the third expressions are easier because the coefficient of the squared term in each of those is 1 (or there isn't another number that needs to be factored aside from the constant term). Tell students that they will study another strategy that can simplify the process of rewriting quadratic expressions into factored form.&lt;/p&gt;
+&lt;p&gt;Consider arranging students in groups of two and asking them to think quietly about at least the first couple of problems before discussing with their partner. After students have had a chance to make sense of the first worked example, pause for a class discussion. Make sure that students can follow what is happening in the shown steps before trying to apply it with new expressions.&lt;/p&gt;
+&lt;p&gt;Pause for another class discussion after students have analyzed the first worked example. Before students proceed, clarify what is happening in each step of the rewriting process when the leading coefficient is not a square number.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt; Here is a clever way to think about quadratic expressions that can make it easier to find their factored form.&lt;/p&gt;
+&lt;p&gt;Factor \(9x^2+21x +10\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Notice the square root of the first term, \(3x\), is a factor of the second term.&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Rewrite in terms of \(3x\). The third term is unchanged.&lt;br&gt;
+    \(= (3x)^2+7(3x) +10\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Substitute \(N\) for the \(3x\).&lt;br&gt;
+    \(= N^2+ 7N +10\) &lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    Factor the new trinomial.&lt;br&gt;
+    \(= (N + 2)(N + 5)\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    Replace \(N\) with \(3x\) to find the final factored form.&lt;br&gt;
+    \(= (3x + 2)(3x + 5)\)&lt;/p&gt;
+&lt;p&gt;Using this substitution method creates a simpler trinomial that we may factor more easily.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Use the distributive property, or FOIL, to expand and simplify \((3x + 2)(3x + 5)\). Write the resulting expression in standard form. Be prepared to explain if it is equivalent to \(9x^2+21x + 10\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((3x + 2)(3x + 5) = 9x^2 + 15x + 6x + 10 = 9x^2 + 21x + 10\). Yes, the expressions are equivalent.&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;Study the substitution method and make sense of what was done in each step. Why might the simplified trinomial using \(N\) be simpler to factor?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The trinomial using \(N\) has a squared term with a coefficient of 1. Its factors can be found more easily.&lt;/p&gt;
+&lt;p&gt;In questions 3 and 4, try this \(N\)-substitution method to write each of these expressions in factored form.&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(4x^2 + 28x + 45\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The square root of the first term, \(2x\), is a factor of the second term, \(28x\).&lt;br&gt;
+    The expression can be rewritten as \((2x)^2+14(2x) +45\).&lt;br&gt;
+    Substitute \(N\) for the \(2x\): \(N^2 + 14N + 45\).&lt;br&gt;
+    This new trinomial can be factored into \((N + 5)(N + 9)\).&lt;br&gt;
+    Replace \(N\) with \(2x\) to find the final factored form: \((2x + 5)(2x + 9)\).&lt;br&gt;
+    So, \(4x^2+ 28x + 45 = (2x + 5)(2x + 9)\).&lt;/p&gt;
+&lt;ol start="4" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(25x^2 − 35x + 6\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The square root of the first term, \(5x\), is a factor of the second term, \(35x\).&lt;br&gt;
+    The expression can be rewritten as \((5x)^2− 7(5x) + 6\).&lt;br&gt;
+    Substitute \(N\) for the \(5x\): \(N^2− 7N + 6\).&lt;br&gt;
+    This new trinomial can be factored into \((N − 6)(N − 1)\).&lt;br&gt;
+    Replace \(N\) with \(5x\) to find the final factored form: \((5x − 6)(5x − 1)\).&lt;br&gt;
+    So, \(25x^2− 35x + 6 = (5x − 6)(5x − 1)\).&lt;/p&gt;
+&lt;p&gt;You have probably noticed that the coefficient of the squared term in all of the previous examples is a perfect square. What if that coefficient is not a perfect square?&lt;/p&gt;
+&lt;p&gt;Here is an example of an expression whose squared term has a coefficient that is not a squared term.&lt;/p&gt;
+&lt;p&gt;\(5x^2+ 17x + 6\)&lt;/p&gt;
+&lt;p&gt;We see that multiplying the leading coefficient by 5 would make the first term into a perfect square, \(25x^2\). But, we cannot introduce a new factor that will impact the value of the expression.&lt;/p&gt;
+&lt;p&gt;We need to find a way to balance the impact of multiplying everything by 5.&lt;/p&gt;
+&lt;p&gt;Knowing this, we multiply the entire trinomial by \(\frac {1}{5}\) , since \(\frac {1}{5} \cdot 5\) is the same as multiplying by 1.&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Multiply by \(\frac {1}{5}\cdot 5\).&lt;br&gt;
+    \(= \frac {1}{5} \cdot 5 (5x^2+17x +6)\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Distribute the 5 into the trinomial.&lt;br&gt;
+    \(= \frac {1}{5}(25x^2+85x +30)\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Rewrite in terms of the square root of the first term, \(5x\).&lt;br&gt;
+    \(= \frac {1}{5}((5x)^2+17(5x) +30)\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    Substitute \(N\) for \(5x\).&lt;br&gt;
+    \(= \frac {1}{5}(N^2+17N +30)\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    Factor the trinomial.&lt;br&gt;
+    \(= \frac {1}{5}(N + 15)(N + 2)\)&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+    Replace \(N\) with \(5x\) to find the final factored form.&lt;br&gt;
+    \(= \frac {1}{5}(5x + 15)(5x + 2)\)&lt;/p&gt;
+&lt;p&gt;Step 7&lt;br&gt;
+    Factor 5 out of one of the factors.&lt;br&gt;
+    \(= \frac {1}{5} \cdot 5(x + 3)(5x + 2)\)&lt;/p&gt;
+&lt;p&gt;Step 8&lt;br&gt;
+    \(\frac {1}{5}\cdot 5 = 1\)&lt;br&gt;
+    \(= (x + 3)(5x + 2)\)&lt;/p&gt;
+&lt;ol start="5" class="os-raise-noindent"&gt;
+    &lt;li&gt;Use the distributive property, or FOIL, to expand and simplify \((x + 3)(5x + 2)\). Write the resulting expression in standard form. Be prepared to explain if it is equivalent to \(5x^2+17x +6\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((x + 3)(5x + 2) = 5x^2 + 2x + 15x + 6 = 5x^2+ 17x + 6\). Yes, the expressions are equivalent.&lt;/p&gt;
+&lt;ol start="6" class="os-raise-noindent"&gt;
+    &lt;li&gt;Applying the same strategy from the example to a trinomial with a leading term of \(6x^2\), what is the multiplication expression equivalent to 1 you would use to rewrite the trinomial? Explain your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(\frac {1}{6} \cdot 6\); multiplying the leading term of the trinomial by 6 would result in a leading term of \(36x^2\), which is a perfect square.&lt;/p&gt;
+&lt;p&gt;For questions 7 and 8, try the \(N\)-method to write each of these expressions in factored form.&lt;/p&gt;
+&lt;ol start="7" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(3x^2+ 16x + 5\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Multiply the expression by \(\frac {1}{3} \cdot 3\).&lt;/p&gt;
+&lt;p&gt;Distributing the 3 into the trinomial gives \(\frac {1}{3}(9x^2+48x +15)\).&lt;/p&gt;
+&lt;p&gt;Rewriting the expression in terms of the square root of the first term, \(3x\), gives \( \frac {1}{3}((3x)^2 +16(3x) + 15)\).&lt;/p&gt;
+&lt;p&gt;Substituting \(N\) for \(3x\) makes the expression \(\frac {1}{3}(N^2+16N +15)\), which can be factored into \(\frac {1}{3}(N + 15)(N + 1)\).&lt;/p&gt;
+&lt;p&gt;\(N\) can now be replaced with \(3x\) and the expression becomes \(\frac {1}{3}(3x + 15)(3x + 1)\).&lt;/p&gt;
+&lt;p&gt;Factor 3 out of the first factor, because \(\frac {1}{3} \cdot 3 = 1\).&lt;br&gt;
+    \(\frac {1}{3}(3x + 15)(3x + 1) = (x + 5)(3x + 1)\)&lt;br&gt;
+    So, \(3x^2+ 16x + 5 = (x + 5)(3x + 1)\).&lt;/p&gt;
+&lt;ol start="8" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(10x^2− 41x + 4\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Multiply the expression by \(\frac {1}{10} \cdot 10\).&lt;/p&gt;
+&lt;p&gt;Distributing the 10 into the trinomial gives \(\frac {1}{10}(100x^2− 410x + 40)\).&lt;br&gt;
+    Rewriting the expression in terms of the square root of the first term, \(10x\), gives \(\frac {1}{10}((10x)^2− 41(10x) + 40)\).&lt;br&gt;
+    Substituting \(N\) for \(10x\) makes the expression \(\frac {1}{10}(N^2− 41N + 40)\), which can be factored into \(\frac {1}{10}(N − 40)(N − 1)\).&lt;br&gt;
+    \(N\) can now be replaced with \(10x\) and the expression becomes \(\frac {1}{10}(10x − 40)(10x − 1)\).&lt;br&gt;
+    Factor 10 out of the first factor, because \(\frac {1}{10} \cdot 10 = 1\).&lt;br&gt;
+    \(\frac {1}{10}(10x − 40)(10x − 1) = (x − 4)(10x − 1)\)&lt;br&gt;
+    So, \(10x^2− 41x + 4 = (x − 4)(10x − 1)\).&lt;/p&gt;
+&lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;In the final steps of the last question, students multiply a number by a pair of factors, for example, \(\frac {1}{3}(3x + 15)(3x + 1)\). Some students may mistakenly apply the distributive property and multiply \(\frac {1}{3}\) to both \((3x + 15)\) and \((3x + 1)\). Remind students that the distributive property governs multiplication over addition and subtraction, and that \((3x + 15)\) and \((3x + 1)\) are being multiplied together, not added or subtracted.&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Invite students to share their attempts to rewrite the expressions using the method they just learned. Discuss questions such as:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; "Do you think this method is simpler or harder than guessing and checking? Is it quicker or slower?" &lt;/li&gt;
+    &lt;li&gt; "In what ways is this method simpler? In what ways is it harder?" &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;8.10.4: Self Check (Optional)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Find the factored form of the quadratic expression \(9x^2− 6x − 35\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((9x + 7)(x − 5)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: Rewrite the expression as \((3x)^2− 2(3x) − 35\). Substitute \(N\) for \(3x\) and factor the expression \(N^2− 2N − 35\). Once factored, replace \(N\) with \(3x\) and simplify. The answer is \((3x − 7)(3x + 5)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((3x − 7)(3x + 5)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That's correct! Check yourself: Multiply the binomials to check if they are equivalent to the original expression. \((3x −7)(3x +5)= (3x −7)(3x +5)=9x^2−21x +15x−35 = 9x^2−6x − 35\). The answer is correct.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((x + 7)(x − 5)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: Rewrite the expression as \((3x)^2−2(3x) − 35\). Substitute \(N\) for \(3x\) and factor the expression \(N^2−2N−35\). Once factored, replace \(N\) with \(3x\) and simplify. The answer is \((3x − 7)(3x + 5)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((3x + 7)(3x − 5)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: Rewrite the expression as \((3x)^2−2(3x) −35\). Substitute \(N\) for \(3x\) and factor the expression \(N^2−2N −35\). Once factored, replace \(N\) with \(3x\) and simplify. The answer is \((3x − 7)(3x + 5)\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;8.10.4: Additional Resources (Optional)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Finding the Factors of Quadratic Expressions in Standard Form&lt;/h4&gt;
+&lt;p&gt;Let's look at a shortcut that can help to factor a complicated quadratic expression. This method will be useful only when the coefficient of the first term is a perfect square, such as 4 or 9.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;br&gt;
+    \(4x^2+ 4x − 3\)&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Rewrite the first two terms with \(2x\) as the common factor.&lt;br&gt;
+    \(= (2x)^2+2(2x) −3\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Substitute \(N\) for \(2x\).&lt;br&gt;
+    \(= N^2+2N −3\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Factor the simplified expression.&lt;br&gt;
+    \(= (N + 3)(N − 1)\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    Replace \(N\) with \(2x\).&lt;br&gt;
+    \(= (2x + 3)(2x − 1)\)&lt;/p&gt;
+&lt;p&gt;Here is an example of an expression whose squared term has a coefficient that is not a squared term. A different method can still be applied.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;br&gt;
+    \(5x^2+ 27x − 18\)&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Multiply by \(\frac {1}{5} \cdot 5\) to make a coefficient with a squared term without impacting the overall value of the expression.&lt;br&gt;
+    \(= \frac {1}{5} \cdot 5 (5x^2+27x −18)\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Distribute the 5.&lt;br&gt;
+    \(= \frac {1}{5}(25x^2+135x −90)\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Rewrite the first two terms with \(5x\) as the common factor.&lt;br&gt;
+    \(= \frac {1}{5}((5x)^2+27(5x) −90)\) &lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    Substitute \(N\) for \(5x\).&lt;br&gt;
+    \(= \frac {1}{5}(N^2+27N −90)\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    Factor the simplified expression.&lt;br&gt;
+    \(= \frac {1}{5}(N + 30)(N − 3)\) &lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+    Replace \(N\) with \(5x\).&lt;br&gt;
+    \(= \frac {1}{5}(5x + 30)(5x − 3)\) &lt;/p&gt;
+&lt;p&gt;Step 7&lt;br&gt;
+    Factor 5 out of one of the expressions.&lt;br&gt;
+    \(= \frac {1}{5} \cdot 5(x + 6)(5x − 3)\) &lt;/p&gt;
+&lt;p&gt;Step 8&lt;br&gt;
+    \(\frac {1}{5} \cdot 5 = 1\)&lt;br&gt;
+    \(= (x + 6)(5x − 3)\) &lt;/p&gt;
+&lt;p&gt;Step 9&lt;br&gt;
+    Use the distributive property, or FOIL, to expand \((x + 6)(5x − 3)\). Is it equivalent to \(5x^2+ 27x − 18\)?&lt;/p&gt;
+&lt;p&gt; \((x + 6)(5x − 3)\)&lt;/p&gt;
+&lt;p&gt; \(= 5x^2+ 30x − 3x − 18\)&lt;/p&gt;
+&lt;p&gt;\(= 5x^2+ 27x − 18\)&lt;/p&gt;
+&lt;p&gt; They are equivalent. \({\style{color:red}\checkmark}\)&lt;/p&gt;
+&lt;h4&gt;Try It: Finding the Factors of Quadratic Expressions in Standard Form&lt;/h4&gt;
+&lt;p&gt;Find the factored form of \(3x^2 + 25x + 42\).&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to use the shortcuts you just learned to find the factored form of a quadratic equation:&lt;/p&gt;
+&lt;p&gt;\(3x^2+25x +42\) &lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Multiply by \(\frac {1}{3} \cdot 3\) to make a coefficient with a squared term without impacting the overall value of the expression.&lt;br&gt;
+    \(= \frac {1}{3} \cdot 3 (3x^2 + 25x + 42)\) &lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Distribute the 3.&lt;br&gt;
+    \(= \frac {1}{3}(9x^2 +75x +126)\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Rewrite the first two terms with \(3x\) as the common factor.&lt;br&gt;
+    \(= \frac {1}{3}((3x)^2+ 25(3x) + 126)\) &lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    Substitute \(N\) for \(3x\).&lt;br&gt;
+    \(= \frac {1}{3}(N^2+25N +126)\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    Factor the simplified expression.&lt;br&gt;
+    \(= \frac {1}{3}(N + 18)(N + 7)\) &lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+    Replace \(N\) with \(3x\).&lt;br&gt;
+    \(= \frac {1}{3}(3x + 18)(3x + 7)\)&lt;/p&gt;
+&lt;p&gt;Step 7&lt;br&gt;
+    Factor 3 out of one of the expressions.&lt;br&gt;
+    \(= \frac {1}{3}(3x + 18)(3x + 7)\)&lt;/p&gt;
+&lt;p&gt;Step 8&lt;br&gt;
+    \(\frac {1}{3} \cdot 3 = 1\)&lt;br&gt;
+    \(= (x + 6)(3x +7)\) &lt;/p&gt;
+&lt;p&gt;The factored form is \((x + 6)(3x + 7)\).&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4586">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666670214</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4587">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666670214</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2045">
+        <prevpageid>2044</prevpageid>
+        <nextpageid>2046</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666670670</timecreated>
+        <timemodified>1666833976</timemodified>
+        <title>8.10.5: Solving Quadratic Equations by Any Method</title>
+        <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Provide access to graphing technology if requested.&lt;/p&gt;
+&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;Now, combine your new understanding of factoring with using the zero product property to solve equations.&lt;/p&gt;
+&lt;p&gt;Solve the equation \(2x^2− 7x + 5 = 0\) by any method. Be prepared to explain your reasoning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=\frac {5}{2}\) (or 2.5) and \(x=1\). Rewriting the expression in factored form gives \((2x − 5)(x − 1) = 0\). Using the zero product property: \(2x − 5 = 0\) or \(x − 1 = 0\), so \(x=\frac {5}{2}\) and \(x = 1\).&lt;/p&gt;
+&lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
+&lt;h5&gt;Points to Emphasize&lt;/h5&gt;
+&lt;p&gt;If students struggle with factoring and don't solve the equation using another method (such as graphing), this is an excellent opportunity to highlight that factoring is not always the most efficient path to a solution (and is not always a possible path to a solution). Highlight different approaches to solving this problem in a subsequent lesson. If your state standards emphasize solving quadratic equations with leading coefficients greater than 1, revisit this problem in a subsequent lesson and assign additional practice problems for review of this topic.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4588">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666670670</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4589">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666670670</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2046">
+        <prevpageid>2045</prevpageid>
+        <nextpageid>2047</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666671375</timecreated>
+        <timemodified>1666827838</timemodified>
+        <title>8.10.6: Practice</title>
+        <contents>&lt;em&gt;&lt;strong&gt;
+&lt;p&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/p&gt;
+&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;For questions 1–4, find the factored form of the quadratic expression.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+  &lt;li&gt;\(3x^2+ 16x + 5\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \((3x − 5)(x − 1)\) &lt;/li&gt;
+  &lt;li&gt; \((3x + 1)(x - 5)\) &lt;/li&gt;
+  &lt;li&gt; \((3x − 1)(x − 5)\) &lt;/li&gt;
+  &lt;li&gt; \((3x + 1)(x + 5)\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((3x + 1)(x + 5)\)&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+  &lt;li&gt;\(2x^2+ 11x − 6\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \((2x + 6)(x − 1)\) &lt;/li&gt;
+  &lt;li&gt; \((2x − 6)(x + 1)\) &lt;/li&gt;
+  &lt;li&gt; \((2x − 1)(x + 6)\) &lt;/li&gt;
+  &lt;li&gt; \((2x + 1)(x − 6)\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((2x − 1)(x + 6)\)&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+  &lt;li&gt;\(4x^2− 13x + 3\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \((4x − 1)(x − 3)\) &lt;/li&gt;
+  &lt;li&gt; \((4x + 3)(x + 1)\) &lt;/li&gt;
+  &lt;li&gt; \((4x − 3)(x − 1)\) &lt;/li&gt;
+  &lt;li&gt; \((4x + 1)(x + 3)\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((4x − 1)(x − 3)\)&lt;/p&gt;
+&lt;ol start="4" class="os-raise-noindent"&gt;
+  &lt;li&gt;\(2x^2−3x −2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \((2x + 1)(x − 2)\) &lt;/li&gt;
+  &lt;li&gt; \((2x + 2)(x − 1)\) &lt;/li&gt;
+  &lt;li&gt; \((2x − 2)(x + 1)\) &lt;/li&gt;
+  &lt;li&gt; \((2x − 1)(x + 2)\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((2x + 1)(x − 2)\)&lt;/p&gt;
+&lt;ol start="5" class="os-raise-noindent"&gt;
+  &lt;li&gt;The height, in meters, of a baseball being hit is modeled by the function \(h(x) = -2x^2+ 12x + 3\) where \(x\) is the number of seconds since being hit.&lt;br&gt;
+    &lt;br&gt;
+    Approximately how many seconds pass before the baseball lands on the ground? Use graphing technology if needed.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 4.38 seconds &lt;/li&gt;
+  &lt;li&gt; 6.24 seconds &lt;/li&gt;
+  &lt;li&gt; 7.26 seconds &lt;/li&gt;
+  &lt;li&gt; 7.56 seconds &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 6.24 seconds&lt;/p&gt;
+&lt;ol start="6" class="os-raise-noindent"&gt;
+  &lt;li&gt;The height, in meters, of a roller coaster is modeled by the function \(h(x) = -2x^2 + 20x + 5\) where \(x\) is the number of seconds after starting.&lt;br&gt;
+    &lt;br&gt;
+    Approximately how many seconds pass before the roller coaster reaches the ground? Use graphing technology if needed.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 5.221 seconds &lt;/li&gt;
+  &lt;li&gt; 7.963 seconds &lt;/li&gt;
+  &lt;li&gt; 8.365 seconds &lt;/li&gt;
+  &lt;li&gt; 10.244 seconds &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 10.244 seconds&lt;/p&gt;
+&lt;p&gt;For questions 7–10, find the factored form of the quadratic expression.&lt;/p&gt;
+&lt;ol start="7" class="os-raise-noindent"&gt;
+  &lt;li&gt;\(3x^2 + 2x − 5\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \((3x + 5)(x + 1)\) &lt;/li&gt;
+  &lt;li&gt; \((x + 5)(3x − 1)\) &lt;/li&gt;
+  &lt;li&gt; \((3x + 5)(x − 1)\) &lt;/li&gt;
+  &lt;li&gt; \((3x − 5)(x + 1)\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((3x + 5)(x − 1)\)&lt;/p&gt;
+&lt;ol start="8" class="os-raise-noindent"&gt;
+  &lt;li&gt;\(4x^2+ 4x − 15\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \((4x − 3)(x + 5)\) &lt;/li&gt;
+  &lt;li&gt; \((2x − 3)(2x + 5)\) &lt;/li&gt;
+  &lt;li&gt; \((4x + 3)(x − 5)\) &lt;/li&gt;
+  &lt;li&gt; \((2x + 3)(2x − 5)\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((2x − 3)(2x + 5)\)&lt;/p&gt;
+&lt;ol start="9" class="os-raise-noindent"&gt;
+  &lt;li&gt;\(5x^2− 39x − 8\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \((5x − 1)(x + 8)\) &lt;/li&gt;
+  &lt;li&gt; \((5x + 8)(x − 1)\) &lt;/li&gt;
+  &lt;li&gt; \((5x − 8)(x + 1)\) &lt;/li&gt;
+  &lt;li&gt; \((5x + 1)(x − 8)\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((5x + 1)(x − 8)\)&lt;/p&gt;
+&lt;ol start="10" class="os-raise-noindent"&gt;
+  &lt;li&gt;\(6x^2+ 53x − 9\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \((6x − 1)(x + 9)\) &lt;/li&gt;
+  &lt;li&gt; \((3x − 1)(2x + 9)\) &lt;/li&gt;
+  &lt;li&gt; \((2x − 1)(3x + 9)\) &lt;/li&gt;
+  &lt;li&gt; \((6x + 1)(x − 9)\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((6x − 1)(x + 9)\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4590">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666671375</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4591">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666671375</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2047">
+        <prevpageid>2046</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666671563</timecreated>
+        <timemodified>1666827926</timemodified>
+        <title>8.10.7: Lesson Synthesis</title>
+        <contents>&lt;p&gt;Emphasize the point that rewriting quadratic expressions in factored form is not always an efficient or effective way to find solutions to quadratic equations. If time permits, consider generalizing the relationship between \(ax^2+ bx + c\) and its factored form to help students see why it can be a rather tricky process:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; We need to find two factors of \(a\). Let's call them \(p\) and \(q\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; We need to find two factors of \(c\). Let's call them \(m\) and \(n\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; The factored form can be written as \((px + m)(qx + n)\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; To see what \(p\), \(q\), \(m\), and \(n\) should be, we essentially have to apply the distributive property to the factors to get: \((px)(qx) + (np)x + (mq)x + mn\) or \((pq)x^2+ (np + mq)x + mn\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; We see that \(pq\) must multiply to make \(a\) and \(mn\) must multiply to make \(c\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; The challenge now is to find the right combination of \(p\) and \(q\) (factors of \(a\)) and \(m\) and \(n\) (factors of \(c\)) such that \(np + mq\) is equal to \(b\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Highlight that for some quadratic expressions, the right pairs of factors might be easily spotted, but for others, the process of guessing and checking can get pretty cumbersome, especially if \(a\) and \(c\) have many pairs of factors. There is also no guarantee that we will find a combination that works because some expressions do not have rational solutions (so we cannot find factors with rational numbers). This means that if we rely on putting an expression in factored form to solve an equation, we may get stuck. If we rely on graphing, the solutions may not be exact. We need another way!&lt;/p&gt;
+&lt;p&gt;Tell students that in upcoming lessons we will look at other techniques that allow us to solve without rewriting expressions in factored form.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4592">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666671563</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4593">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666671563</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

@@ -1,0 +1,2055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="243" moduleid="322" modulename="lesson" contextid="333">
+  <lesson id="243">
+    <course>2</course>
+    <name>Lesson 9.6: The Quadratic Formula</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>324</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1667591870</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="2214">
+        <prevpageid>0</prevpageid>
+        <nextpageid>2215</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667168781</timecreated>
+        <timemodified>1667257433</timemodified>
+        <title>9.6.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will encounter the quadratic formula and learn that it can be used to solve any quadratic equation. You can use the formula and verify that it produces the same solutions as those found using other methods, but it can be much more practical for certain equations.&lt;/p&gt;
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; Use the quadratic formula to solve quadratic equations. &lt;/li&gt;
+  &lt;li&gt; Explain when some methods for solving quadratic equations can be more convenient than others. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 9.6.1: Evaluating Expressions &lt;/li&gt;
+  &lt;li&gt; 9.6.2: Choosing the Best Method to Solve an Equation &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 9.6.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 9.6.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;li&gt; 9.6.3: The Quadratic Formula &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 9.6.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 9.6.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;li&gt; 9.6.4: Solving Equations Using the Quadratic Formula &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you'll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 9.6.5: Practice &lt;/li&gt;
+  &lt;li&gt; 9.6.6: Lesson Summary &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4964">
+            <jumpto>2215</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667168781</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2215">
+        <prevpageid>2214</prevpageid>
+        <nextpageid>2216</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667168991</timecreated>
+        <timemodified>1667665447</timemodified>
+        <title>9.6.1: Evaluating Expressions</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;p&gt;Each expression represents two numbers. Evaluate the expressions and find the &lt;strong&gt;two&lt;/strong&gt; numbers.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(8\\)&amp;quot;, &amp;quot;\\(-6\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(8\\)&amp;quot;, &amp;quot;\\(50\\)&amp;quot;, &amp;quot;\\(-48\\)&amp;quot;,&amp;quot;\\(-6\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent"&gt;
+                &lt;li&gt;\(1 \pm\sqrt{49}\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 8, -6&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answers are: 8, -6.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(2\\)&amp;quot;, &amp;quot;\\(\\frac{6}{5}\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(\\frac45\\)&amp;quot;, &amp;quot;\\(2\\)&amp;quot;, &amp;quot;\\(\\frac{16}{5}\\)&amp;quot;,&amp;quot;\\(\\frac{6}{5}\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="2"&gt;
+                &lt;li&gt;\(\frac{8 \pm2}{5}\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt; Correct! 2, \(\frac65\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answers are:2, \(\frac65\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--&lt;!--Q3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(3\\)&amp;quot;, &amp;quot;\\(-3\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(\\sqrt{-6}\\)&amp;quot;, &amp;quot;\\(3\\)&amp;quot;, &amp;quot;\\(-3\\)&amp;quot;,&amp;quot;\\(-\\sqrt{-6}\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="3"&gt;
+                &lt;li&gt;\(\pm \; \sqrt{(-5)^2-4 \cdot 4 \cdot 1}\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 3, -3&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answers are: 3, -3. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(-2\\)&amp;quot;, &amp;quot;\\(-4\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(-2\\)&amp;quot;, &amp;quot;\\(-17\\)&amp;quot;, &amp;quot;\\(-19\\)&amp;quot;,&amp;quot;\\(-4\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="4"&gt;
+                &lt;li&gt;\(\frac{-18 \pm \sqrt{36}}{2 \cdot3}\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! -2, -4&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answers are: -2, -4. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4965">
+            <jumpto>2214</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667168991</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4966">
+            <jumpto>2216</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667168991</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2216">
+        <prevpageid>2215</prevpageid>
+        <nextpageid>2217</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667253322</timecreated>
+        <timemodified>1667863842</timemodified>
+        <title>9.6.2: Choosing the Best Method to Solve an Equation</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;Write down your answer for how to solve each equation. Find the two solutions by rewriting it in factored form or by &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;completing the square&lt;/span&gt;. Be prepared to explain your choice of method.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;2.5&amp;quot;, &amp;quot;-0.5&amp;quot;]" data-solution-options="[&amp;quot;2.5&amp;quot;, &amp;quot;3&amp;quot;, &amp;quot;-1&amp;quot;,&amp;quot;-0.5&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent"&gt;
+                &lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; solutions for \(x^2−2x−1.25=0\).&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 2.5, -0.5 &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answers are: 2.5, -0.5.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1a" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1a" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Completing the square method:&lt;/p&gt;
+    &lt;p&gt;\(\begin{array}{rcl} x^{2}-2 x-1.25 &amp;amp;=&amp;amp;0 \\
+        x^{2}-2 x &amp;amp;=&amp;amp;1.25 \\
+        x^{2}-2 x+\left(\frac{-2}{2}\right)^{2} &amp;amp;=&amp;amp;1.25+\left(\frac{-2}{2}\right)^{2} \\
+        x^{2}-2 x+1 &amp;amp;=&amp;amp;1.25+1 \\
+        x^{2}-2 x+1 &amp;amp;=&amp;amp;2.25 \\
+        (x-1)^{2} &amp;amp;=&amp;amp;2.25 \\
+        \sqrt{(x-1)^{2}} &amp;amp;=&amp;amp;\sqrt{2.25} \\
+        x-1 &amp;amp;=&amp;amp;\pm \sqrt{2.25} \\
+        x &amp;amp;=&amp;amp;1 \pm \sqrt{2.25} \\
+        x &amp;amp;=&amp;amp;1 \pm 1.5 \\
+        x &amp;amp;=&amp;amp;1+1.5 \\
+        x &amp;amp;=&amp;amp;1-1.5 \\
+        x &amp;amp;=&amp;amp;2.5 \\
+        x &amp;amp;=&amp;amp;-0.5 \\ x&amp;amp;=&amp;amp;2.5 \text { and } x=-0.5
+        \end{array}\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Q2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;2.2&amp;quot;, &amp;quot;-4&amp;quot;]" data-solution-options="[&amp;quot;2.2&amp;quot;, &amp;quot;-20&amp;quot;, &amp;quot;-4&amp;quot;,&amp;quot;11&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="2"&gt;
+                &lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; solutions for \(5x^2+9x−44=0\).&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 2.2, -4 &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answers are: 2.2, -4.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2a" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2a" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Completing the square method:&lt;/p&gt;
+    &lt;p&gt;\(\begin{array}{rcl} 5 x^{2}+9 x-44 &amp;amp;=&amp;amp;0 \\
+        5 x^{2}+9 x &amp;amp;=&amp;amp;44 \\
+        \frac{5 x^{2}+9 x}{5} &amp;amp;=&amp;amp;\frac{44}{5} \\
+        x^{2}+\frac{9}{5} x+\left(\frac{1}{2} \cdot \frac{9}{5}\right)^{2} &amp;amp;=&amp;amp;\frac{44}{5}+\left(\frac{1}{2} \cdot \frac{9}{5}\right)^{2} \\
+        x^{2}+\frac{9}{5} x+\frac{81}{100} &amp;amp;=&amp;amp;\frac{44}{5}+\frac{81}{100} \\
+        x^{2}+\frac{9}{5} x+\frac{81}{100} &amp;amp;=&amp;amp;\frac{961}{100} \\
+        \left(x+\frac{9}{10}\right)^{2} &amp;amp;=&amp;amp;\frac{961}{100} \\
+        \sqrt{\left(x+\frac{9}{10}\right)^{2}} &amp;amp;=&amp;amp;\sqrt{\frac{961}{100}} \\
+        x+\frac{9}{10} &amp;amp;=&amp;amp;\pm \frac{31}{10} \\
+        x &amp;amp;=&amp;amp;-\frac{9}{10} \pm \frac{31}{10} \\
+        x &amp;amp;=&amp;amp;-\frac{9}{10}+\frac{31}{10} \\
+        x &amp;amp;=&amp;amp;-\frac{9}{10}-\frac{31}{10} \\
+        x &amp;amp;=&amp;amp;\frac{22}{10}=2.2\\
+        x&amp;amp;=&amp;amp;-\frac{40}{10}=-4 \\
+        x&amp;amp;=&amp;amp;2.2 \text { and } x=-4
+        \end{array}\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Q3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;0.25&amp;quot;, &amp;quot;-1.5&amp;quot;]" data-solution-options="[&amp;quot;0.75&amp;quot;, &amp;quot;0.25&amp;quot;, &amp;quot;-1.5&amp;quot;,&amp;quot;2.5&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="3"&gt;
+                &lt;li&gt;&lt;strong&gt;Select two &lt;/strong&gt;solutions for \(x^2+1.25x=0.375\).&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 0.25, -1.5 &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answers are: 0.25, -1.5.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3a" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3a" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Completing the square method:&lt;/p&gt;
+    &lt;p&gt;\(\begin{aligned} x^{2}+1.25 x &amp;amp;=0.375 \\ x^{2}+1.25 x+((0.5)(1.25))^{2} &amp;amp;=0.375+((0.5)(1.25)){ }^{2} \\ x^{2}+1.25 x+0.390625 &amp;amp;=0.375+0.390625 \\ (x+0.625)^{2} &amp;amp;=0.765625 \\ \sqrt{(x+0.625)^{2}} &amp;amp;=\sqrt{0.765625} \\ x+0.625 &amp;amp;=\pm 0.875 \\ x &amp;amp;=-0.625 \pm 0.875 \\ x &amp;amp;=-0.625+0.875 \\ x &amp;amp;=-0.625-0.875 \\ x &amp;amp;=0.25 \\ x &amp;amp;=-1.5 \\ x=0.25 &amp;amp; \text { and } x=-1.5 \end{aligned}\) &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    ----------------------------------------
+
+
+
+    &lt;!--Q#--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(\\frac{7}{2}+\\sqrt{5}\\)&amp;quot;, &amp;quot;\\(\\frac{7}{2}-\\sqrt{5}\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(-7+\\sqrt{2}\\)&amp;quot;, &amp;quot;\\(7-\\sqrt{2}\\)&amp;quot;, &amp;quot;\\(\\frac{7}{2}+\\sqrt{5}\\)&amp;quot;,&amp;quot;\\(\\frac{7}{2}-\\sqrt{5}\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="4"&gt;
+                &lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; solutions for \(4x^2−28x+29=0\).&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(\frac{7}{2}+ \sqrt {5}\), \(\frac{7}{2}- \sqrt {5}\) &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answers are: \(\frac{7}{2}+ \sqrt {5}\), \(\frac{7}{2}- \sqrt {5}\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+
+
+
+    ------------------------------------
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Completing the square method:&lt;/p&gt;
+    &lt;p&gt;\(\begin{array}{rcl} 4 x^{2}-28 x+29 &amp;amp;=&amp;amp;0 \\
+        \frac{4 x^{2}-28 x+29}{4} &amp;amp;=&amp;amp;0 \\
+        x^{2}-7 x+\frac{29}{4} &amp;amp;=&amp;amp;0 \\
+        x^{2}-7 x &amp;amp;=&amp;amp;-\frac{29}{4} \\
+        x^{2}-7 x+\left(\frac{7}{2}\right)^{2} &amp;amp;=&amp;amp;-\frac{29}{4}+\left(\frac{7}{2}\right)^{2} \\
+        x^{2}-7 x+\frac{49}{4} &amp;amp;=&amp;amp;\frac{20}{4} \\
+        x^{2}-7 x+\frac{49}{4} &amp;amp;=&amp;amp;5 \\
+        \left(x-\frac{7}{2}\right)^{2} &amp;amp;=&amp;amp;5 \\ \sqrt{\left(x-\frac{7}{2}\right)^{2}} &amp;amp;=&amp;amp;\sqrt{5} \\
+        x-\frac{7}{2} &amp;amp;=&amp;amp;\pm \sqrt{5}&amp;nbsp;\\ x&amp;amp;=&amp;amp;\frac{7}{2}\pm\sqrt{5} \\ x&amp;amp;=&amp;amp;\frac{7}{2}+\sqrt{5}&amp;nbsp;\\ x&amp;amp;=&amp;amp;\frac{7}{2}-\sqrt{5} \\
+        x&amp;amp;=&amp;amp;\frac{7}{2}+\sqrt{5} \text { and } x=\frac{7}{2}-\sqrt{5}
+        \end{array}
+        \) &lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4981">
+            <jumpto>2215</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667253322</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4982">
+            <jumpto>2217</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667253322</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2217">
+        <prevpageid>2216</prevpageid>
+        <nextpageid>2220</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1667171291</timecreated>
+        <timemodified>1667257475</timemodified>
+        <title>9.6.2: Self Check </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Use completing the square to solve \(2x^2+10x+8=0\).&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4971">
+            <jumpto>2220</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171291</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x= \frac{25}{4}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: This is the value that completed the square. The equation then needs to be solved. The answer is \(x=-4, x=-1\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4972">
+            <jumpto>2220</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171291</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x= 1, x =4\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: Make sure to subtract the \(c\) from both sides before completing the square, not add the positive value. The answer is \(x=-4, x=-1\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4973">
+            <jumpto>2218</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1667171291</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=-4, x=-1\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That's correct! Check yourself: After taking the square root of both sides, the equation becomes \(x=-\frac{5}{2} \pm \frac{3}{2}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4974">
+            <jumpto>2220</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171291</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=-5 \pm \sqrt{17}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: Divide all terms by the coefficient, 2, before completing the square, not just the first term. The answer is \(x=-4, x=-1\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4975">
+            <jumpto>2220</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171291</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2220">
+        <prevpageid>2217</prevpageid>
+        <nextpageid>2218</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667256345</timecreated>
+        <timemodified>1667667032</timemodified>
+        <title>9.6.2: Additional Resources</title>
+        <contents>&lt;h4&gt;Solve by Using Perfect Squares and Completing the Square&amp;nbsp;&lt;/h4&gt;
+&lt;p&gt;Solve \(2x^2+5x+2=0\) by  &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;completing the square&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+Divide all terms by the leading coefficient.  &lt;br&gt;
+\(\frac{2x^2+5x+2}{2}=\frac{0}{2}\)  &lt;br&gt;
+\(x^2+\frac{5}{2}x+1=0\)  &lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+Move the constant to the right side of the equation.  &lt;br&gt;
+  \(x^2+\frac{5}{2}x=-1\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+Complete the square and add to each side: \((\frac{5}{2} \times \frac{1}{2})^2=\frac{25}{16}\).  &lt;br&gt;
+\(x^2+\frac{5}{2}x+\frac{25}{16}=-1+\frac{25}{16}\)  &lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+Simplify.  &amp;nbsp;&lt;br&gt;
+(Hint: create a common denominator before adding.)  &lt;br&gt;
+  \(x^2+\frac{5}{2}x+\frac{25}{16}=-\frac{16}{16}+\frac{25}{16}\)&lt;br&gt;
+  \((x+\frac{5}{4})^2=\frac{9}{16}\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+Take the square root of each side.  &lt;br&gt;
+\(\sqrt{(x+\frac{5}{4})^2}= \sqrt{\frac{9}{16}}\)  &lt;br&gt;
+\(x+\frac{5}{4}= \pm \frac{3}{4}\)  &lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+Write two equations and solve.  &lt;br&gt;
+\(x+\frac{5}{4}=\frac{3}{4}\)  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(x+\frac{5}{4}=-\frac{3}{4}\)&lt;br&gt;
+\(x=-\frac{2}{4}=-\frac{1}{2}\)   &amp;nbsp; \(x=-\frac{8}{4}=-2\)&lt;/p&gt;
+&lt;h4&gt;Try It: Solve by Using Perfect Squares and Completing the Square&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+ &lt;p&gt;Solve \(4x^2+36x+37=0\).&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+&lt;p&gt;Here is how to solve using completing the square:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+Divide all terms by the leading coefficient.  &lt;br&gt;
+\(\frac{4x^2+36x+37}{4}=\frac{0}{4}\)  &lt;br&gt;
+\(x^2+9x+\frac{37}{4}=0\)  &lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+Move the constant to the right side of the equation.  &lt;br&gt;
+\(x^2+9x=-\frac{37}{4}\)  &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+Complete the square and add to each side: \((9 \times \frac{1}{2})^2=\frac{81}{4}\).  &lt;br&gt;
+\(x^2+9x+\frac{81}{4}=-\frac{37}{4}+\frac{81}{4}\)  &lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+Simplify.  &amp;nbsp;&lt;br&gt;
+\((x+\frac{9}{2})^2=11\)  &lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+Take the square root of each side.  &lt;br&gt;
+\(\sqrt{(x+\frac{9}{2})^2}=\sqrt{11}\)  &lt;br&gt;
+\((x+\frac{9}{2})= \pm \sqrt{11}\)  &lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+Write two equations and solve.  &lt;br&gt;
+\(x+\frac{9}{2}=\sqrt{11}\)   &amp;nbsp; &amp;nbsp; &amp;nbsp; \(x+\frac{9}{2}=-\sqrt{11}\)&lt;br&gt;
+\(x=-\frac{9}{2}+\sqrt{11}\)   &amp;nbsp; &amp;nbsp; &amp;nbsp; \(x=-\frac{9}{2}-\sqrt{11}\)&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4983">
+            <jumpto>2217</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667256345</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text> I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4984">
+            <jumpto>2218</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667256345</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2221">
+        <prevpageid>2218</prevpageid>
+        <nextpageid>2222</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1667171397</timecreated>
+        <timemodified>1667667230</timemodified>
+        <title>9.6.3: Self Check </title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Solve \(2x^2-6x+3=0\) using the quadratic formula.&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4976">
+            <jumpto>2222</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=\frac{-6 \pm \sqrt{12}}{4}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: Remember the formula begins with \(-b\). The correct answer is \(x=\frac{6 \pm \sqrt{12}}{4}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4977">
+            <jumpto>2219</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1667171397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=\frac{6 \pm \sqrt{12}}{4}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That's correct! Check yourself: Substitute \(a = 2\), \(b = -6\), and \(c = 3\) into the quadratic formula, then simplify.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4978">
+            <jumpto>2222</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=\frac{6 \pm \sqrt{60}}{4}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: Be sure to subtract \(4ac\) from \(b^2\), not add. The correct answer is \(x=\frac{6 \pm \sqrt{12}}{4}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4979">
+            <jumpto>2222</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=\frac{6 \pm \sqrt{-12}}{4}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let's try again a different way: Remember, when you square a negative number, like in \((-6)^2\), it equals a positive. The correct answer is \(x=\frac{6 \pm \sqrt{12}}{4}\).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4980">
+            <jumpto>2222</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2223">
+        <prevpageid>2219</prevpageid>
+        <nextpageid>2224</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667171022</timecreated>
+        <timemodified>1667713611</timemodified>
+        <title>9.6.5: Practice </title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    &lt;!--1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="3" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;For each equation in questions 1–5, identify the values of \(a\), \(b\), and \(c\) that you would substitute into the quadratic formula to solve the equation.&lt;/p&gt;
+            &lt;ol class="os-raise-noindent"&gt;
+                &lt;li&gt;\(3x^2+8x+4=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt;What is the value of \(a\)?&lt;p&gt;Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=3\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a=3\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="8" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt;What is the value of \(b\)?&lt;p&gt;Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(b=8\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=8\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt;What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=4\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=4\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="2" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="2"&gt;
+                &lt;li&gt;\(2x^2−5x+2=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt;What is the value of \(a\)?
+                    &lt;p&gt; Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=2\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a=2\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-5" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt;What is the value of \(b\)?
+                    &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+
+
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(b=-5\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=-5\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="2" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt;What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\) .&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=2\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=2\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--3a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-9" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="3"&gt;
+                &lt;li&gt;\(-9x^2+13x−1=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt;What is the value of \(a\)?
+                    &lt;p&gt; Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=-9\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a=-9\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--3b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="13" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt; What is the value of \(b\)?
+                    &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(b=13\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=13\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--3c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-1" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt; What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=-1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=-1\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--text input--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="4"&gt;
+                &lt;li&gt;\(x^2+x−11=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt;What is the value of \(a\)?
+                    &lt;p&gt; Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a=1\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--4b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt;What is the value of \(b\)?
+                    &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt; Correct! \(b=1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=1\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--4c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-11" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt;What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=-11\)
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=-11\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--5a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-1" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="5"&gt;
+                &lt;li&gt;\(-x^2+16x+64=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt;What is the value of \(a\)?
+                    &lt;p&gt; Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=-1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a=-1\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--5b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="16" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt; What is the value of \(b\)?
+                    &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(b=16\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=16\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--5c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="64" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt; What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=64\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=64\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--6a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;-4&amp;quot;, &amp;quot;-5&amp;quot;]" data-solution-options="[&amp;quot;4&amp;quot;, &amp;quot;-4&amp;quot;, &amp;quot;-5&amp;quot;, &amp;quot;5&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;9&amp;quot;, &amp;quot;20&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="6"&gt;
+                &lt;li&gt;For each equation, use the quadratic formula to solve the equation, then choose the correct &lt;strong&gt;two &lt;/strong&gt;solutions for \(x\).&amp;nbsp;&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt;\(x^2+9x+20=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(x=-4, x=-5\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.6.3 and 9.6.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answers are: \(x=-4, x=-5\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--6b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;3&amp;quot;, &amp;quot;7&amp;quot;]" data-solution-options="[&amp;quot;3&amp;quot;, &amp;quot;-7&amp;quot;, &amp;quot;21&amp;quot;, &amp;quot;-10&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;-4&amp;quot;, &amp;quot;7&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt;\(x^2−10x+21=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(x=3, x=7\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.6.3 and 9.6.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answers are: \(x=3, x=7\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--6c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiselect" data-solution="[&amp;quot;\\(\\frac{5}{6}+\\frac{\\sqrt{13}}{6}\\)&amp;quot;, &amp;quot;\\(\\frac{5}{6}-\\frac{\\sqrt{13}}{6}\\)&amp;quot;]" data-solution-options="[&amp;quot;\\(\\frac{13}{6}+\\frac{\\sqrt{5}}{6}\\)&amp;quot;, &amp;quot;-1&amp;quot;, &amp;quot;\\(\\frac{5}{6}-\\frac{\\sqrt{13}}{6}\\)&amp;quot;, &amp;quot;\\(\\frac{13}{6}-\\frac{\\sqrt{5}}{6}\\)&amp;quot;, &amp;quot;\\(-\\frac{18}{6}-3\\)&amp;quot;, &amp;quot;\\(\\frac{5}{6}+\\frac{\\sqrt{13}}{6}\\)&amp;quot;, &amp;quot;\\(\\frac{18}{6}-3\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt;\(3x^2−5x+1=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(x=\frac{5}{6}+\frac{\sqrt{13}}{6}\), \(x=\frac{5}{6}-\frac{\sqrt{13}}{6}\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 9.6.3 and 9.6.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answers are: \(x=\frac{5}{6}+\frac{\sqrt{13}}{6}\), \(x=\frac{5}{6}-\frac{\sqrt{13}}{6}\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+
+    &lt;!--7a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+          &lt;p&gt;For each equation for questions 7–12, identify the values of \(a\), \(b\), and \(c\) that you would substitute into the quadratic formula to solve the equation.&lt;/p&gt;
+            &lt;ol class="os-raise-noindent" start="7"&gt;
+                &lt;li&gt;\(x^2+9x+18=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt; What is the value of \(a\)?
+                    &lt;p&gt; Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a=1\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--7b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="9" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt; What is the value of \(b\)?
+                    &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(b=9\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=9\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--7c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="18" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt; What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=18\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=18\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--8a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;ol class="os-raise-noindent" start="8"&gt;
+                &lt;li&gt;\(4x^2−3x+11=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt;What is the value of \(a\)?
+                    &lt;p&gt; Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=4\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a=4\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--8b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-3" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt; What is the value of \(b\)?
+                    &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(b=-3\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=-3\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--8c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="11" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt; What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=11\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=11\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--9a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="5" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="9"&gt;
+                &lt;li&gt;\(81−x+5x^2=0\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt; What is the value of \(a\)?
+                    &lt;p&gt; Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=5\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a=5\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--9b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-1" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt; What is the value of \(b\)?
+                    &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(b=-1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=-1\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--9c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="81" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt; What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=81\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=81\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--10a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="45" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="10"&gt;
+                &lt;li&gt;\(45x^2+3x=\frac{1}{3}\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt;What is the value of \(a\)?
+                    &lt;p&gt; Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=45\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=45\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--10b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="3" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt; What is the value of \(b\)?
+                    &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(b=3\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=3\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--10c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(-\frac13\)" data-solution-options="[&amp;quot;\\(-\\frac13\\)&amp;quot;, &amp;quot;\\(\\frac13\\)&amp;quot;, &amp;quot;1&amp;quot;, &amp;quot;0&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt; What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=-\frac13\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=-\frac13\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--11a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="11"&gt;
+                &lt;li&gt;\(121=x^2\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt;What is the value of \(a\)?
+                    &lt;p&gt; Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a=1-\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--11b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="0" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt; What is the value of \(b\)?
+                    &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(b=0\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=0\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--11c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-121" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt; What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=-121\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=-121\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--12a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="14" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="12"&gt;
+                &lt;li&gt;\(7x+14x^2=42\)&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;ol class="os-raise-noindent" type="a"&gt;
+                &lt;li&gt; What is the value of \(a\)?
+                    &lt;p&gt; Enter the value of \(a\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(a=14\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(a=14\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--12b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="7" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+                &lt;li&gt; What is the value of \(b\)?
+                    &lt;p&gt; Enter the value of \(b\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(b=7\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(b=7\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--12c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-42" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+                &lt;li&gt; What is the value of \(c\)?
+                    &lt;p&gt; Enter the value of \(c\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(c=-42\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 9.6.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(c=-42\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--Do not edit below this line--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4967">
+            <jumpto>2219</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171022</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4968">
+            <jumpto>2224</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171022</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2218">
+        <prevpageid>2220</prevpageid>
+        <nextpageid>2221</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667257027</timecreated>
+        <timemodified>1668022493</timemodified>
+        <title>9.6.3: The Quadratic Formula</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;Here is a formula called the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;quadratic formula&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)&lt;/p&gt;
+&lt;p&gt;The formula can be used to find the solutions to any quadratic equation in the form of \(ax^2+bx+c=0\), where \(a\), \(b\), and \(c\) are numbers and \(a\) is not 0.&lt;/p&gt;
+&lt;p&gt;This example shows how it is used to solve \(x^2−8x+15=0\), in which \(a=\)1, \(b=-8\), and \(c=15\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  State the original equation.&lt;br&gt;
+  \(x^2−8x+15=0\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Identify the values of \(a\), \(b\), and \(c\).&lt;br&gt;
+  \(a=1\), \(b=-8\), and \(c=15\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  Substitute the values of \(a\), \(b\), and \(c\) into the formula.&lt;br&gt;
+  \(x=\frac{-(-8) \pm \sqrt{(-8)^2-(4)(1)(15)}}{2(1)}\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Evaluate each part of the expression.&lt;br&gt;
+  \(x=\frac{8 \pm \sqrt{64-60}}{2}\)&lt;br&gt;
+  \(x=\frac{8 \pm \sqrt{4}}{2}\)&lt;br&gt;
+  \(x=\frac{8 \pm 2}{2}\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+  Write each equation separately and solve.&lt;br&gt;
+  \(x=\frac{8+2}{2}\) and \(x=\frac{8-2}{2}\)&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+  Simplify.&lt;br&gt;
+  \(x=\frac{10}{2}\) and \(x=\frac{6}{2}\)&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Step 7&lt;br&gt;
+  Find the solutions.&lt;br&gt;
+  \(x=5\) and \(x=3\)&lt;/p&gt;
+&lt;p&gt;Here are some quadratic equations and their solutions. Use the quadratic formula to show that the solutions are correct.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+      &lt;li&gt;\(x^2+4x−5=0\). The solutions are \(x=-5\) and \(x=1\).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answer:&lt;/p&gt;
+  &lt;p&gt;\(\begin{array}{l} x^{2}+4 x-5=0 \\ a=1, b=4, c=-5 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(4) \pm \sqrt{(4)^{2}-(4)(1)(-5)}}{2(1)} \\ x=\frac{-4 \pm \sqrt{16+20}}{2} \\ x=\frac{-4 \pm \sqrt{36}}{2} \\ x=\frac{-4 \pm 6}{2} \\ x=\frac{2}{2} \text { and } x=\frac{-10}{2} \\ x=1 \text { and } x=-5 \end{array}\) &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol class="os-raise-noindent" start="2"&gt;
+      &lt;li&gt;\(x^2+7x+12=0\). The solutions are \(x=-3\) and \(x=-4\).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answer:&lt;/p&gt;
+  &lt;p&gt;\(\begin{array}{l} x^{2}+7 x+12=0 \\ a=1, b=7, c=12 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(7) \pm \sqrt{(7)^{2}-(4)(1)(12)}}{2(1)} \\ x=\frac{-7 \pm \sqrt{49-48}}{2} \\ x=\frac{-7 \pm \sqrt{1}}{2} \\ x=\frac{-7 \pm 1}{2} \\ x=\frac{-6}{2} \text { and } x=\frac{-8}{2} \\ x=-3 \text { and } x=-4 \end{array}\) &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol class="os-raise-noindent" start="3"&gt;
+      &lt;li&gt;\(x^2+10x+18=0\). The solution is \(x=-5 \pm \frac{\sqrt{28}}{2}\).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answer:&lt;/p&gt;
+  &lt;p&gt;\(\begin{array}{l} x^{2}+10 x+18=0 \\ a=1, b=10, c=18 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(10) \pm \sqrt{(10)^{2}-(4)(1)(18)}}{2(1)} \\ x=\frac{-10 \pm \sqrt{100-72}}{2} \\ x=\frac{-10 \pm \sqrt{28}}{2} \\ x=-5 \pm \frac{\sqrt{28}}{2} \end{array}\) &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal4" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol class="os-raise-noindent" start="4"&gt;
+      &lt;li&gt;\(x^2−8x+11=0\). The solution is \(x=4 \pm \frac{\sqrt{20}}{2}\).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal4" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answer:&lt;/p&gt;
+  &lt;p&gt;\(\begin{array}{l} x^{2}-8 x+11=0 \\ a=1, b=-8, c=11 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(-8) \pm \sqrt{(-8)^{2}-(4)(1)(11)}}{2(1)} \\ x=\frac{8 \pm \sqrt{64-44}}{2} \\ x=\frac{8 \pm \sqrt{20}}{2} \\ x=4 \pm \frac{\sqrt{20}}{2} \end{array} \) &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal5" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol class="os-raise-noindent" start="5"&gt;
+      &lt;li&gt;\(9x^2−6x+1=0\). The solution is \(x=\frac{1}{3}\).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal5" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answer:&lt;/p&gt;
+  &lt;p&gt;\(\begin{array}{l} 9 x^{2}-6 x+1=0 \\ a=9, b=-6, c=1 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(-6) \pm \sqrt{(-6)^{2}-(4)(9)(1)}}{2(9)} \\ x=\frac{6 \pm \sqrt{36-36}}{18} \\ x=\frac{6}{18} \\ x=\frac{1}{3} \end{array} \) &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal6" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol class="os-raise-noindent" start="6"&gt;
+      &lt;li&gt;\(6x^2+9x−15=0\). The solutions are \(x=-\frac{5}{2}\) and \(x=1\).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal6" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answer:&lt;/p&gt;
+  &lt;p&gt;\(\begin{array}{l} 6 x^{2}+9 x-15=0 \\ a=6, b=9, c=-15 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(9) \pm \sqrt{(9)^{2}-(4)(6)(-15)}}{2(6)} \\ x=\frac{-9 \pm \sqrt{81-(-360)}}{12} \\ x=\frac{-9 \pm \sqrt{441}}{12} \\ x=\frac{-9 \pm 21}{12} \\ x=\frac{-9+21}{12} \\ x=\frac{-9-21}{12} \\ x=\frac{12}{12}=1 \\ x=\frac{-30}{12}=\frac{-5}{2} \end{array}\) &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;:&lt;/p&gt;
+&lt;h4&gt;Video: Solving Quadratics With the Quadratic Formula&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about solving quadratics with the quadratic formula.&lt;/p&gt;
+  &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+        &lt;source src="https://k12.openstax.org/contents/raise/resources/44f83ee622ab7d49053fb9d6a565e28717f75e74"&gt;
+        &lt;track src="https://k12.openstax.org/contents/raise/resources/04c6e722ba62f73df51179a9f7f9cd788690e08f" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/44f83ee622ab7d49053fb9d6a565e28717f75e74
+    &lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4985">
+            <jumpto>2216</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667257027</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4986">
+            <jumpto>2221</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667257027</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2222">
+        <prevpageid>2221</prevpageid>
+        <nextpageid>2219</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667257148</timecreated>
+        <timemodified>1668196371</timemodified>
+        <title>9.6.3: Additional Resources </title>
+        <contents>&lt;h4&gt;Solving With the Quadratic Formula&lt;/h4&gt;
+&lt;br&gt;
+&lt;div class="os-raise-graybox"&gt;
+
+    &lt;p&gt;
+        &lt;strong&gt; Quadratic Formula
+        &lt;/strong&gt;
+    &lt;/p&gt;
+    &lt;hr&gt;
+    &lt;p&gt;The solutions to a quadratic equation of the form \(ax^2+bx+c\), where \(a \neq 0\), are given by the formula:&lt;/p&gt;
+    &lt;p&gt;\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;To use the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;quadratic formula&lt;/span&gt;, we substitute the values of \(a\), \(b\), and \(c\) from the standard form into the expression on the right side of the formula. Then we simplify the expression. The result is the pair of solutions to the quadratic equation.&lt;/p&gt;
+&lt;p&gt;Notice the formula is an equation. Make sure you use both sides of the equation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to Solve a Quadratic Equation Using the Quadratic Formula&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Solve by using the quadratic formula: \(2x^2+9x-5=0\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Write the quadratic equation in standard form. &amp;nbsp;&lt;br&gt;
+    This equation is in standard form. &lt;br&gt;
+    \({\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}\;{\style{color:red}+}\;{\style{color:red}b}{\style{color:red}x}\;{\style{color:red}+}\;{\style{color:red}c}\;{\style{color:red}=}\;{\style{color:red}0}\) &lt;br&gt;
+    \(2x^2+9x-5=0\) &lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Identify the \(a\), \(b\), and \(c\) values. &lt;br&gt;
+    \( a=2\), \(b=9\), \(c=-5\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Write the quadratic formula. &amp;nbsp;&lt;br&gt;
+    \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    Then substitute in the values of \(a\), \(b\), and \(c\). &lt;br&gt;
+    \({\style{color:blue}a}\;{\style{color:blue}=}\;{\style{color:blue}2}\), \({\style{color:red}b}\;{\style{color:red}=}\;{\style{color:red}9}\), \({\style{color:green}c}\;{\style{color:green}=}\;{\style{color:green}-}{\style{color:green}5}\)
+&lt;/p&gt;
+&lt;p&gt; \(x=\frac{-{\style{color:red}9} \pm \sqrt{{\style{color:red}9}^2- 4 \cdot 
+  {\style{color:blue}2} \cdot ({\style{color:green}-}{\style{color:green}5})}}{2 \cdot {\style{color:blue}2}}\) &lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    Simplify the fraction and solve for \(x\). &lt;br&gt;
+    \(x=\frac{-9 \pm \sqrt{81-(-40)}}{4}\) &lt;/p&gt;
+&lt;p&gt; \(x=\frac{-9 \pm \sqrt{121}}{4}\) &lt;/p&gt;
+&lt;p&gt; \(x=\frac{-9 +11}{4}\) &amp;nbsp; \(x=\frac{-9-11}{4}\)&lt;/p&gt;
+&lt;p&gt; \(x=\frac{2}{4}\) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(x=\frac{-20}{4}\)&lt;/p&gt;
+&lt;p&gt; \(x=\frac{1}{2}\) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(x=-5\)&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+    Check the solutions. &lt;br&gt;
+    Put each answer in the original equation to check. &lt;br&gt;
+    Substitute \(x=\frac{\style{color:red}1}{\style{color:red}2}\). &lt;/p&gt;
+&lt;p&gt;\(\begin{array}{l} 2\left(\frac{{\style{color:red}1}}{{\style{color:red}2}}\right)^{2}+9 \cdot \frac{{\style{color:red}1}}{{\style{color:red}2}}-5 \stackrel{?}{=} 0 \\ 2\left(\frac{1}{4}\right)+9 \cdot \frac{1}{2}-5 \stackrel{?}{=} 0 \\ \frac{2}{4}+\frac{9}{2}-5 \stackrel{?}{=} 0 \\ \frac{1}{2}+\frac{9}{2}-5 \stackrel{?}{=} 0 \\ \frac{10}{2}-5 \stackrel{?}{=} 0 \\ 5-5 \stackrel{?}{=} 0 \\ 0=0 \text{ ✔} \end{array}\)&lt;/p&gt;
+&lt;p&gt;Substitute \(x={\style{color:red}-}{\style{color:red}5}\).&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{l} 2({\style{color:red}-}{\style{color:red}5})^{2}+9({\style{color:red}-}{\style{color:red}5})-5 \stackrel{?}{=} 0 \\ 2(25)-45-5 \stackrel{?}{=} 0 \\ 50-45-5 \stackrel{?}{=} 0 \\ 0=0 \text{ ✔} \end{array}\)&lt;/p&gt;
+&lt;h4&gt;Try It: Solving With the Quadratic Formula&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Solve \(2x^2+10x+11=0\) using the quadratic formula.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to solve this quadratic equation using the quadratic formula:&lt;/p&gt;
+    &lt;p&gt;Solve by using the quadratic formula: \(2x^2+10x+11=0\).&lt;/p&gt;
+    &lt;p&gt;Step 1&lt;br&gt;
+        This equation is in standard form. &lt;br&gt;
+        \({\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}\;{\style{color:red}+}\;{\style{color:red}b}{\style{color:red}x}\;{\style{color:red}+}\;{\style{color:red}c}\;{\style{color:red}=}\;{\style{color:red}0}\) &lt;br&gt;
+        \(2x^2+10x+11=0\)&lt;/p&gt;
+    &lt;p&gt;Step 2&lt;br&gt;
+        Identify the values of \(a\), \(b\), and \(c\). &lt;br&gt;
+        \(a=2\), \(b=10\), \(c=11\)&lt;/p&gt;
+    &lt;p&gt;Step 3&lt;br&gt;
+        Write the quadratic formula. &lt;br&gt;
+        \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\) &lt;/p&gt;
+    &lt;p&gt;Step 4&lt;br&gt;
+        Then substitute in the values of \(a\), \(b\), and \(c\). &lt;br&gt;
+        Substitute in: &lt;br&gt;
+        \({\style{color:blue}a}\;{\style{color:blue}=}\;{\style{color:blue}2}\), \({\style{color:red}b}\;{\style{color:red}=}\;{\style{color:red}1}{\style{color:red}0}\), \({\style{color:green}c}\;{\style{color:green}=}\;{\style{color:green}1}{\style{color:green}1}\)&lt;/p&gt;
+    &lt;p&gt;\(x=\frac{-{\style{color:red}1}{\style{color:red}0} \pm \sqrt{{\style{color:red}1}{\style{color:red}0}^2- 4 \cdot {\style{color:blue}2} \cdot ({\style{color:green}1}{\style{color:green}1})}}{2 \cdot {\style{color:blue}2}}\)&lt;/p&gt;
+    &lt;p&gt;Step 5&lt;br&gt;
+        Simplify. &lt;br&gt;
+        \(x=\frac{-10 \pm \sqrt{100-88}}{4}\) &lt;br&gt;
+        \(x=\frac{-10 \pm \sqrt{12}}{4}\) &lt;/p&gt;
+    &lt;p&gt;Simplify the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;radical expression&lt;/span&gt;. &lt;br&gt;
+        \(x=\frac{-10 \pm 2 \sqrt{3}}{4}\) &lt;/p&gt;
+    &lt;p&gt;Factor out the common factor in the numerator.&lt;br&gt;
+        \(x=\frac{2(-5 \pm \sqrt{3})}{4}\) &lt;/p&gt;
+    &lt;p&gt;Remove the common factors.&lt;br&gt;
+        \(x=\frac{-5 \pm \sqrt{3}}{2}\) &lt;/p&gt;
+    &lt;p&gt;Rewrite to show two solutions.&lt;br&gt;
+        \(x=\frac{-5 + \sqrt{3}}{2}\), \(x=\frac{-5 - \sqrt{3}}{2}\) &lt;/p&gt;
+    &lt;p&gt;Step 6&lt;br&gt;
+        Check the solutions. &lt;br&gt;
+        Put each answer in the original equation to check. &lt;br&gt;
+        Substitute \(x=\frac{-5+\sqrt3}2\). &lt;/p&gt;
+    &lt;p&gt;\(\begin{array}{l} 2\left(\frac{-5+\sqrt3}2\right)^2+10\cdot\frac{-5+\sqrt3}2+11 \stackrel{?}{=} 0 \\
+        2\left[\left(\frac{-5}{2}+\frac{\sqrt{3}}{2}\right)\left(\frac{-5}{2}+\frac{\sqrt{3}}{2}\right)\right]+10\left(\frac{-5+\sqrt{3}}{2}\right)+11 \stackrel{?}{=} 0\\
+        2\left[\frac{25}{4}-\frac{5 \sqrt{3}}{4}-\frac{5 \sqrt{3}}{4}+\frac{3}{4}\right]+5(-5+\sqrt{3})+11 \stackrel{?}{=} 0\\
+        2\left[\frac{25}{4}-\frac{10 \sqrt{3}}{4}+\frac{3}{4}\right]+\left(-25+5 \sqrt{3}\right)+11 \stackrel{?}{=} 0\\
+        \frac{25}{2}-\frac{10 \sqrt{3}}{2}+\frac{3}{2}-14+5 \sqrt{3}\stackrel{?}{=} 0\\
+        \frac{28}{2}-5 \sqrt{3}-14-5 \sqrt{3} \stackrel{?}{=} 0\\
+        14-5 \sqrt{3}-14+5 \sqrt{3}\stackrel{?}{=} 0\\
+        0=0 \text{ ✔}
+        \end{array}
+        \)&lt;/p&gt;
+    &lt;p&gt;Substitute \(x=\frac{-5-\sqrt{3}}{2}\).&lt;/p&gt;
+    &lt;p&gt;\(\begin{array}{l} 2\left(\frac{-5-\sqrt{3}}{2}\right)^{2}+10 \cdot \frac{-5-\sqrt{3}}{2}+11 \stackrel{?}{=} 0\\ 2\left[\left(\frac{-5}{2}-\frac{\sqrt{3}}{2}\right)\left(\frac{-5}{2}-\frac{\sqrt{3}}{2}\right)\right]+10\left(\frac{-5-\sqrt{3}}{2}\right)+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}+\frac{5 \sqrt{3}}{4}+\frac{5 \sqrt{3}}{4}+\frac{3}{4}\right]+5(-5-\sqrt{3})+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}+\frac{10 \sqrt{3}}{4}+\frac{3}{4}\right]+\left(-25-5 \sqrt{3}\right)+11 \stackrel{?}{=} 0\\ \frac{25}{2}+\frac{10 \sqrt{3}}{2}+\frac{3}{2}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ \frac{28}{2}+5 \sqrt{3}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ 14+5 \sqrt{3}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ 0=0 \text{ ✔} \end{array}\)&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4987">
+            <jumpto>2221</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667257148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4988">
+            <jumpto>2219</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667257148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2219">
+        <prevpageid>2222</prevpageid>
+        <nextpageid>2223</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667257293</timecreated>
+        <timemodified>1667417000</timemodified>
+        <title>9.6.4: Solving Equations Using the Quadratic Formula </title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;Here is the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;quadratic formula&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;\(x=\frac{-b  \pm \sqrt{b^2- 4ac}}{2a}\)&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+&lt;p&gt;Use the formula to solve the equation \(x^2+9x+8=0\).&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+&lt;p&gt;Compare your answer:&lt;/p&gt;
+ &lt;p&gt;The solutions are -8 and -1.&lt;/p&gt;
+&lt;p&gt;Apply the quadratic formula for \(a=1\), \(b=9\), \(c=8\):&lt;/p&gt;
+&lt;p&gt;\(x=\frac{-9 \pm \sqrt{(9)^2- 4(1)(8)}}{2(1)}=\frac{-9 \pm \sqrt{49}}{2}\), which means&lt;/p&gt;
+&lt;p&gt;\(x=\frac{-9-7}{2}=-8\) and \(x=\frac{-9+7}{2}=-1\).&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4989">
+            <jumpto>2218</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667257293</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4990">
+            <jumpto>2223</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667257293</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2224">
+        <prevpageid>2223</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667171057</timecreated>
+        <timemodified>1667171189</timemodified>
+        <title>9.6.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; Use the quadratic formula to solve quadratic equations. &lt;/li&gt;
+  &lt;li&gt; Explain when some methods for solving quadratic equations can be more convenient than others. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the&lt;strong&gt; activities &lt;/strong&gt;that helped you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 9.6.1: Evaluating Expressions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you evaluated expressions using order of operations, square roots, the plus or minus sign, and more. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 9.6.2: Choosing the Best Method to Solve an Equation &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you chose between writing a quadratic equation in factored form or completing the square to solve an equation. &lt;/li&gt;
+    &lt;li&gt; 9.6.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 9.6.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 9.6.3: The Quadratic Formula &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you used the quadratic formula to show that the solutions of the given quadratic equations were correct. &lt;/li&gt;
+    &lt;li&gt; 9.6.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 9.6.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 9.6.4:Solving Equations Using the Quadratic Formula &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you used the quadratic formula to solve the given equation. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 9.6.5: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
+  
+  &lt;!--pulldown--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4969">
+            <jumpto>2223</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171057</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4970">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171057</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

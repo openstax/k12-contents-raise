@@ -1,0 +1,1971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="175" moduleid="234" modulename="lesson" contextid="245">
+  <lesson id="175">
+    <course>2</course>
+    <name>Lesson 7.4: Comparing Quadratic and Exponential Functions</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>236</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1665638180</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1609">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1610</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664675157</timecreated>
+        <timemodified>1665252248</timemodified>
+        <title>7.4.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will investigate how quantities that grow quadratically compare to those that grow exponentially. You will use different mathematical models to show the relationship between the functions to determine which one grows faster.&lt;/p&gt;
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Explain using graphs, tables, or calculations how exponential functions eventually grow faster than quadratic functions. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 7.4.1: Comparing Expressions &lt;/li&gt;
+  &lt;li&gt; 7.4.2: Exploring Linear, Exponential, and Quadratic Growth &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 7.4.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 7.4.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.4.3: Comparing Exponential and Quadratic Functions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 7.4.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 7.4.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.4.4: Comparing Exponential and Quadratic Expressions &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 7.4.5: Practice &lt;/li&gt;
+  &lt;li&gt; 7.4.6: Lesson Summary &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3615">
+            <jumpto>1610</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664675157</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1610">
+        <prevpageid>1609</prevpageid>
+        <nextpageid>1611</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664675449</timecreated>
+        <timemodified>1665705710</timemodified>
+        <title>7.4.1: Comparing Expressions</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;List these quantities in order, from least to greatest, without evaluating each expression. Be prepared to explain your reasoning.&lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt; \(2^{10}\) &lt;/li&gt;
+            &lt;li&gt; \(10^2\) &lt;/li&gt;
+            &lt;li&gt; \(2^9\) &lt;/li&gt;
+            &lt;li&gt; \(9^2\) &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;The correct order is \(9^2\), \(10^2\), \(2^9\), \(2^{10}\). This would be 18, 100, 512, 1024.&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3616">
+            <jumpto>1609</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664675449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3617">
+            <jumpto>1611</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664675449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1611">
+        <prevpageid>1610</prevpageid>
+        <nextpageid>1612</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664680391</timecreated>
+        <timemodified>1666217576</timemodified>
+        <title>7.4.2: Exploring Linear, Exponential, and Quadratic Growth</title>
+        <contents>&lt;p&gt;In this activity, you will compare two different patterns. In each pattern, the number of small squares is a function of the step number, \(n\).&lt;/p&gt;
+
+    &lt;ul&gt;&lt;li&gt; In Pattern A, the length and width of the rectangle grow by 1 small square from each step to the next.&lt;/li&gt;&lt;/ul&gt;
+    &lt;br&gt;
+    &lt;p&gt;Pattern A&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/ZKZCrEWZxq3qtUPRBojtvKoQ" width="468" height="144" alt="Four steps of a growing pattern. Step 0 is blank. Step 1: One square. Step 2: Four squares in a two by two square. Step 3: Nine squares in a three by three square."&gt;&lt;/p&gt;
+    &lt;br&gt;
+    &lt;!--Text Entry Interaction Start --&gt;
+    &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+        &lt;div class="os-raise-ib-input-content"&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt; Write an equation to represent the number of small squares at Step \(n\) in Pattern A. &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-input-prompt"&gt;
+            &lt;p&gt;Enter your answer here:&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-input-ack"&gt;
+            &lt;p&gt;Compare your answer:&lt;/p&gt;
+            \(f(n)=n^2\)
+            &lt;p&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--Interaction End --&gt;
+
+    &lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+
+
+
+
+        &lt;!--Q#--&gt;
+
+        &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="quadratic" data-solution-options="[&amp;quot;linear&amp;quot;, &amp;quot;quadratic&amp;quot;, &amp;quot;exponential&amp;quot;]"&gt;
+            &lt;div class="os-raise-ib-pset-problem-content"&gt;
+                &lt;ol start="2" type="a"&gt;
+                    &lt;li&gt; Is the function in Pattern A linear, quadratic, or exponential? &lt;/li&gt;
+                &lt;/ol&gt;
+
+            &lt;/div&gt;
+            &lt;div class="os-raise-ib-pset-correct-response"&gt;
+                &lt;p&gt;Correct! It is quadratic. &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+                &lt;p&gt;Incorrect. The correct answer is quadratic.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!--END QUESTION.--&gt;
+
+
+        &lt;!--Do not edit below line.--&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+        &lt;div class="os-raise-ib-cta-content"&gt;
+            &lt;ol start="3" type="a"&gt;
+                &lt;li&gt; Complete the table for Pattern A. &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;table border="1" cellpadding="5"&gt;
+                &lt;colgroup&gt;
+                    &lt;col width="138" style="border: solid 1px black"&gt;
+                    &lt;col width="220" style="border: solid 1px black"&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(n\), &lt;strong&gt;step number&lt;/strong&gt;&lt;/td&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(f(n)\), &lt;strong&gt;number of small squares&lt;/strong&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(0\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(1\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(2\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(3\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(4\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(5\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(6\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(7\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(8\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-cta-prompt"&gt;
+            &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;table border="1" cellpadding="5"&gt;
+            &lt;colgroup&gt;
+                &lt;col width="138"&gt;
+                &lt;col width="220"&gt;
+            &lt;/colgroup&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;
+                        &lt;p&gt;\(n\), &lt;strong&gt;step number&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td align="center"&gt;
+                        &lt;p&gt;\(f(n)\), &lt;strong&gt;number of small squares&lt;/strong&gt;&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(2\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(4\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(9\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(4\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(16\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(5\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(25\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(6\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(36\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(7\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(49\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(8\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(64\)&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+
+&lt;ol start="2"&gt;
+    &lt;li&gt; In Pattern B, the number of small squares doubles from each step to the next.&lt;/li&gt;
+&lt;/ol&gt;
+    &lt;p&gt;Pattern B&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/WX3zKTxJiviPmY8qHriGdtqo" width="468" height="144" alt="Four steps of a growing pattern. Step 0: One square. Step 1: Two squares, one atop the other. Step 2: Four squares in a two by two square. Step 3: Eight squares in a two by four rectangle."&gt;&lt;/p&gt;
+    &lt;br&gt;
+    &lt;!--Text Entry Interaction Start --&gt;
+    &lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+        &lt;div class="os-raise-ib-input-content"&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt; Write an equation to represent the number of small squares at Step \(n\) in Pattern B. &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-input-prompt"&gt;
+            &lt;p&gt;Enter your answer here:&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-input-ack"&gt;
+            &lt;p&gt;Compare your answer:&lt;/p&gt;
+            &lt;p&gt; \(g(n)=2^n\)&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--Interaction End --&gt;
+
+    &lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+
+
+
+        &lt;!--Q#--&gt;
+  
+        &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="exponential" data-solution-options="[&amp;quot;linear&amp;quot;, &amp;quot;quadratic&amp;quot;, &amp;quot;exponential&amp;quot;]"&gt;
+            &lt;div class="os-raise-ib-pset-problem-content"&gt;
+                &lt;ol start="2" type="a"&gt;
+                    &lt;li&gt; Is the function in Pattern B linear, quadratic, or exponential? &lt;/li&gt;
+                &lt;/ol&gt;
+
+            &lt;/div&gt;
+            &lt;div class="os-raise-ib-pset-correct-response"&gt;
+                &lt;p&gt;Correct! It is exponential. &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+                &lt;p&gt;Incorrect. The correct answer is exponential.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!--END QUESTION.--&gt;
+
+  
+        &lt;!--Do not edit below line.--&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
+        &lt;div class="os-raise-ib-cta-content"&gt;
+            &lt;ol start="3" type="a"&gt;
+                &lt;li&gt; Complete the table for Pattern B. &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;table border="1" cellpadding="5"&gt;
+                &lt;colgroup&gt;
+                    &lt;col width="138" style="border: solid 1px black"&gt;
+                    &lt;col width="223" style="border: solid 1px black"&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;\(n\), &lt;strong&gt;step number&lt;/strong&gt;&lt;/td&gt;
+                        &lt;td align="center"&gt;\(g(n)\), &lt;strong&gt;number of small squares&lt;/strong&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" style="border: solid 1px black"&gt;\(0\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" style="border: solid 1px black"&gt;\(1\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(2\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(3\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(4\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(5\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(6\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(7\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border: solid 1px black" align="center"&gt;\(8\)&lt;/td&gt;
+                        &lt;td style="border: solid 1px black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-cta-prompt"&gt;
+            &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
+        &lt;p&gt;Compare your answers:&lt;/p&gt;
+        &lt;table border="1" cellpadding="5"&gt;
+            &lt;colgroup&gt;
+                &lt;col width="138"&gt;
+                &lt;col width="223"&gt;
+            &lt;/colgroup&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(n\), &lt;strong&gt;step number&lt;/strong&gt;&lt;/td&gt;
+                    &lt;td align="center"&gt;\(g(n)\), &lt;strong&gt;number of small squares&lt;/strong&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(2\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(2\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(4\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(8\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(4\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(16\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(5\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(32\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(6\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(64\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(7\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(128\)&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;\(8\)&lt;/td&gt;
+                    &lt;td align="center"&gt;\(256\)&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3"&gt;
+            &lt;li&gt;How would the two patterns compare if they continue to grow? Make one to two observations.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; The number of small squares in Pattern B grows much more quickly than the number of squares in Pattern A once \(n\) is greater than \(5\). The patterns have the same number of squares when \(n=2\) and when \(n=4\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3618">
+            <jumpto>1610</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664680391</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3619">
+            <jumpto>1612</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664680391</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1612">
+        <prevpageid>1611</prevpageid>
+        <nextpageid>1613</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1664682056</timecreated>
+        <timemodified>1664684491</timemodified>
+        <title>7.4.2: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Which of the following functions has a constant growth factor?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3620">
+            <jumpto>1613</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664682056</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=4x\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The slope of this linear function is \(4\), creating a common difference of \(4\). The answer is \(f(x)=4^x\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3621">
+            <jumpto>1613</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664682056</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=4x^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Quadratic functions do not have a constant growth factor like exponential functions. The answer is \(f(x)=4^x\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3622">
+            <jumpto>1614</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1664682056</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=4^x\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: This exponential function has a growth factor of \(4\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3623">
+            <jumpto>1613</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664682056</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(f(x)=x+4\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This linear function has a \(y\)-intercept of \(4\) but a slope or common difference of \(1\). The answer is \(f(x)=4^x\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3624">
+            <jumpto>1613</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664682056</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1613">
+        <prevpageid>1612</prevpageid>
+        <nextpageid>1614</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664682389</timecreated>
+        <timemodified>1665706168</timemodified>
+        <title>7.4.2: Additional Resources</title>
+        <contents>&lt;h4&gt;Determining Growth Factors&lt;/h4&gt;
+&lt;p&gt;Is the pattern below represented by a function that is linear, exponential, or quadratic?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/7ca96c977bc1e26345b0e0cc01660a4435234178" alt="DIAGRAM WITH 4 FIGURES, LABELED STEP 0 THROUGH STEP 3. STEP 0 HAS 1 SQUARE. STEP 1 HAS 3 SQUARES. STEP 2 HAS 9 SQUARES. STEP 3 HAS 27 SQUARES." width="500" height="95"&gt;&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Draw a table. In the right column, determine the growth factor.&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td align="center"&gt;\(x\), &lt;strong&gt;step number&lt;/strong&gt;&lt;/td&gt;
+      &lt;td align="center"&gt;\(f(x)\), &lt;strong&gt;number of squares&lt;/strong&gt;&lt;/td&gt;
+      &lt;td align="center"&gt;&lt;strong&gt;Growth factor&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+      &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+      &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+      &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+      &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td align="center"&gt;\(2\)&lt;/td&gt;
+      &lt;td align="center"&gt;\(9\)&lt;/td&gt;
+      &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+      &lt;td align="center"&gt;\(27\)&lt;/td&gt;
+      &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Write the function to represent the pattern.&lt;/p&gt;
+&lt;p&gt;\(f(x)=3^x\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  Determine what type of function this is.&lt;/p&gt;
+&lt;p&gt;The function is exponential.&lt;/p&gt;
+&lt;h4&gt;Try It: Determining Growth Factors&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;p&gt;Is the pattern below represented by a function that is linear, exponential, or quadratic?&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/146c376867707d4761808cda3d33030485699442" alt="3 FIGURES, LABELED 1, 2, AND 3. FIGURE 1 IS A RECTANGLE WITH 3 ROWS AND 1 COLUMN. FIGURE 2 IS A RECTANGLE WITH 6 ROWS AND 2 COLUMNS. FIGURE 3 IS A RECTANGLE WITH 9 ROWS AND 3 COLUMNS." width="500" height="85"&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Here is how to use the growth factor to determine if this pattern is represented by a linear, quadratic, or exponential function:&lt;/p&gt;
+  &lt;p&gt;Step 1&lt;br&gt;
+    Create a table and determine the growth factor.&lt;/p&gt;
+  &lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+    &lt;col&gt;
+    &lt;col&gt;
+    &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td align="center"&gt;\(x\), &lt;strong&gt;step number&lt;/strong&gt;&lt;/td&gt;
+        &lt;td align="center"&gt;\(f(x)\), &lt;strong&gt;number of squares&lt;/strong&gt;&lt;/td&gt;
+        &lt;td align="center"&gt;&lt;strong&gt;Growth factor&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+        &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+        &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+        &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+        &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="center"&gt;\(2\)&lt;/td&gt;
+        &lt;td align="center"&gt;\(12\)&lt;/td&gt;
+        &lt;td align="center"&gt;\(4\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+        &lt;td align="center"&gt;\(27\)&lt;/td&gt;
+        &lt;td align="center"&gt;\(2.25\)&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+  &lt;br&gt;
+  &lt;p&gt;Step 2&lt;br&gt;
+    Determine the function.&lt;/p&gt;
+  &lt;p&gt;\(f(x)=3x^2\)&lt;/p&gt;
+  &lt;p&gt;Step 3&lt;br&gt;
+    Determine what type of function this is.&lt;/p&gt;
+  &lt;p&gt;This is a quadratic function. The growth rate changes between each step.&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3625">
+            <jumpto>1612</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664682389</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3626">
+            <jumpto>1614</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664682389</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1614">
+        <prevpageid>1613</prevpageid>
+        <nextpageid>1615</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664683140</timecreated>
+        <timemodified>1665784303</timemodified>
+        <title>7.4.3: Comparing Exponential and Quadratic Functions</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Here are two functions: \(p(x)=6x^2\) and \(q(x)=3^x\).&lt;/p&gt;
+        &lt;p&gt;Investigate the output of \(p\) and \(q\) for different values of \(x\). For large enough values of \(x\), one function will have a greater value than the other.&lt;/p&gt;
+        &lt;p&gt;Which function will have a greater value as \(x\) increases?&lt;/p&gt;
+        &lt;p&gt;Support your answer with tables, graphs, or other representations.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; \(q\) is larger when \(x=0\) and again when \(x=5\). Once \(x\) is larger than \(5\), \(q\) is growing much more quickly, as shown in the table.&lt;/p&gt;
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col width="50"&gt;
+            &lt;col width="57"&gt;
+            &lt;col width="64"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                &lt;td align="center"&gt;\(p(x)\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(q(x)\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(6\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(2\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(24\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(9\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(54\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(27\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(4\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(96\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(81\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(5\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(150\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(243\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(6\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(216\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(729\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(7\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(294\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(2,187\)&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    &lt;p&gt;Alternatively, here is a graph showing the plotted values from the table and another showing \(y=p(x)\) and \(y=q(x)\).&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/ccB5RDEsEhM3RJ4jqyapyHcY" width="284" height="199" alt="A graph showing the plotted values from the table."&gt;&lt;/p&gt;
+    &lt;br&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/qYLEGFXz2ENgJvHYwjP6kExJ" width="290" height="204" alt="Graphs of q and p on same graph."&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Janna says that some exponential functions grow more slowly than the quadratic function as \(x\) increases. Do you agree with Janna? Explain your reasoning.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; Yes. This is true for the functions \(g(x)=(1 \frac {1}{2})x\) and \(f(x)=x^2\) as \(x\) increases for \(x\)-values less than \(10\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt;Could you have an exponential function \(g(x)=b^x\) so that \(g(x)&amp;lt;f(x)\) for all values of \(x\)?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; No, \(g(0)&amp;gt;f(0)\) for all values of \(b\) (except \(0\)), because \(b^0=1\) and \(0^2=0\). (If \(b=0\), there are problems if \(x\leq 0\), so this is not usually considered an exponential function.)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;
+&lt;br&gt;
+&lt;h4&gt;Video: Comparing Exponential and Quadratic Functions&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about functions.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/a3e459a0bf5aade786458e33de808ab06fbd6993"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/d8afde31782e53bab37925d3dfbe1b00db0b17e2" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/a3e459a0bf5aade786458e33de808ab06fbd6993
+&lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3627">
+            <jumpto>1611</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664683140</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3628">
+            <jumpto>1615</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664683140</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1615">
+        <prevpageid>1614</prevpageid>
+        <nextpageid>1616</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1664683654</timecreated>
+        <timemodified>1665254471</timemodified>
+        <title>7.4.3: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Which of the following has the greatest value as \(x\) increases?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3629">
+            <jumpto>1616</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664683654</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y=4 \cdot x^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This quadratic function will increase as \(x\) increases but will not have the greatest value when compared to an exponential growth function. The answer is \(y=4^x\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3630">
+            <jumpto>1617</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1664683654</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y=4^x\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: This is an exponential function with a growth factor of \(4\), which will have the greatest value as \(x\) increases.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3631">
+            <jumpto>1616</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664683654</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y=4x\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This function is linear and has a constant difference of 4, but that will not increase as much as an exponential function. The answer is \(y=4^x\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3632">
+            <jumpto>1616</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664683654</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y=(\frac {1}{4})^x\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This has a growth factor of \(\frac {1}{4}\), which will decay, not increase. The answer is \(y=4^x\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3633">
+            <jumpto>1616</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664683654</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&amp;nbsp;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1616">
+        <prevpageid>1615</prevpageid>
+        <nextpageid>1617</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664683846</timecreated>
+        <timemodified>1665784326</timemodified>
+        <title>7.4.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Exponential versus Quadratic Functions&lt;/h4&gt;
+&lt;p&gt;For each of the two functions, do the following:&lt;/p&gt;
+&lt;ol type="a"&gt;
+    &lt;li&gt; Complete the table of values. &lt;/li&gt;
+    &lt;li&gt; Sketch a graph. &lt;/li&gt;
+    &lt;li&gt; Decide whether each function is linear, quadratic, or exponential, and be prepared to explain how you know. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+    &lt;li&gt; \(f(x)=3\cdot 2^x\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;\(x\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(-1\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(2\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(5\)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;\(f(x)\)&lt;/td&gt;
+            &lt;td align="center" width="90"&gt;\(\frac{3}{2}\) or equivalent &lt;/td&gt;
+            &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(6\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(12\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(24\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(96\)&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/88922da47465d7b4e2be357a2e6d1c8b87bb093b" width="300" height="298"&gt;&lt;/p&gt;
+&lt;p&gt;This function is exponential. It has a growth factor of \(2\).&lt;/p&gt;
+&lt;ol start="2"&gt;
+    &lt;li&gt;\(g(x)=3\cdot x^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+        &lt;col width="86"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;\(x\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(-1\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(2\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(5\)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;\(g(x)\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(3\) &lt;/td&gt;
+            &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(12\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(27\)&lt;/td&gt;
+            &lt;td align="center"&gt;\(75\)&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c9c483e847a71d346d069f57164ded7e77f81809" width="300" height="304"&gt;&lt;/p&gt;
+&lt;p&gt;This function is not linear because it does not have a constant rate of change, and it is not exponential because it does not have a constant growth factor. The function is quadratic because it can be represented by \(g(x)=3x^2\), which has \(x\) to the second power, and that is the greatest power.&lt;/p&gt;
+&lt;p&gt;Note: Between \(f(x)\) and \(g(x)\), \(f(x)\) will have the greater value as \(x\) increases.&lt;/p&gt;
+&lt;h4&gt;Try It: Exponential versus Quadratic Functions&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Which of the following has the greater value as \(x\) increases, \(f(x)\) or \(g(x)\)?&lt;/p&gt;
+        &lt;p&gt;\(f(x)=3x^2\)&lt;/p&gt;
+        &lt;p&gt;\(g(x)=3^x\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to determine which function has the greater value as \(x\) increases:&lt;/p&gt;
+    &lt;p&gt;Make a table of values for each function, and then graph the function:&lt;/p&gt;
+
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(x\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(-2\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(-1\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(2\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(4\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(f(x)=3x^2\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(12\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(12\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(27\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(48\)&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f4631cb9d02c271990fc27002a5536212ecd6a16" alt="" width="300" height="304" role="presentation"&gt;&lt;/p&gt;
+    &lt;table border="1" cellpadding="5"&gt;
+        &lt;colgroup&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+            &lt;col width="86"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(x\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(-2\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(-1\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(0\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(2\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(4\)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;\(g(x)=3^x\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(\frac {1}{9}\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(\frac {1}{3}\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(1\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(3\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(9\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(27\)&lt;/td&gt;
+                &lt;td align="center"&gt;\(81\)&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/cde43df7f591b590b90b6287388b901aaad112c0" alt="" width="300" height="304" role="presentation" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+    &lt;p&gt;Looking at both the table of values and the graphs, \(g(x)\) will have a greater value than \(f(x)\) as \(x\) increases. This is because \(g(x)\) is exponential and has a constant growth factor.&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3634">
+            <jumpto>1615</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664683846</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3635">
+            <jumpto>1617</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664683846</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1617">
+        <prevpageid>1616</prevpageid>
+        <nextpageid>1618</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664684141</timecreated>
+        <timemodified>1665255302</timemodified>
+        <title>7.4.4: Comparing Exponential and Quadratic Expressions</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;p&gt;Tyler completes the table comparing values of the expressions \(5x^2\) and \(2^x\).&lt;/p&gt;
+    &lt;table border="1" cellpadding="5"&gt;
+      &lt;colgroup&gt;
+      &lt;col width="44" style="border:solid 1px black"&gt;
+      &lt;col width="44"&gt;
+      &lt;col width="44"&gt;
+      &lt;/colgroup&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(x\)&lt;/td&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(5x^2\)&lt;/td&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(2^x\)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(1\)&lt;/td&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(5\)&lt;/td&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(2\)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(2\)&lt;/td&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(20\)&lt;/td&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(4\)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(3\)&lt;/td&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(45\)&lt;/td&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(8\)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(4\)&lt;/td&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(80\)&lt;/td&gt;
+          &lt;td style="border:solid 1px black" align="center"&gt;\(16\)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    &lt;p&gt;Tyler concludes that \(5x^2\) will always result in greater values than \(2^x\) for the same value of \(x\). Do you agree? Explain or show your reasoning.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your answer here:&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Tyler is not correct. For lesser values of \(x\), \(5x^2\) results in greater values than \(2^x\), but \(2^x\) eventually results in greater values because it always doubles when \(x\) increases by \(1\). When \(x=9\), \(5(9)^2=405\) and \(2^9=512\), so \(2^9\) is greater.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3636">
+            <jumpto>1614</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664684141</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3637">
+            <jumpto>1618</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664684141</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1618">
+        <prevpageid>1617</prevpageid>
+        <nextpageid>1619</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664684199</timecreated>
+        <timemodified>1665591384</timemodified>
+        <title>7.4.5: Practice</title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    &lt;!--1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Grows by increasing amounts but by decreasing growth factors." data-solution-options="[&amp;quot;Grows by increasing amounts but by decreasing growth factors.&amp;quot;, &amp;quot;Changes exponentially. It doubles.&amp;quot;, &amp;quot;Grows by decreasing amounts but by increasing growth factors.&amp;quot;, &amp;quot;Changes logarithmically. It has decreased by one-half.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+
+            &lt;p&gt;Use the following to answer questions 1–7.&lt;/p&gt;
+            &lt;p&gt;The table shows values of the expressions \(10x^2\) and \(2^x\).&lt;/p&gt;
+            &lt;table cellpadding="5" border="1"&gt;
+                &lt;colgroup&gt;
+                    &lt;col width="44"&gt;
+                    &lt;col width="44"&gt;
+                    &lt;col width="44"&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;\(x\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;\(10x^2\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;\(2^x\)&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;\(1\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;\(10\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;\(2\)&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;\(2\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;\(40\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;\(4\)&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;\(3\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;\(90\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;\(8\)&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;\(4\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;\(160\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;\(16\)&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;\(8\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;\(10\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border:1px solid black"&gt;\(12\)&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                        &lt;td style="border:1px solid black"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;br&gt;
+            &lt;ol&gt;
+                &lt;li&gt;Complete the statement.&lt;/li&gt;
+                &lt;br&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; When the value of \(x\) increases by \(1\), the expression \(10x^2\):&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! When the value of \(x\) increases by \(1\), the expression \(10x^2\) grows by increasing amounts but by decreasing growth factors.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: When the value of \(x\) increases by \(1\), the expression \(10x^2\) grows by increasing amounts but by decreasing growth factors. You seem to be stuck. Who can you ask for help?
+
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Changes exponentially. It doubles." data-solution-options="[&amp;quot;Grows by increasing amounts but by decreasing growth factors.&amp;quot;, &amp;quot;Changes exponentially. It doubles.&amp;quot;, &amp;quot;Grows by decreasing amounts but by increasing growth factors.&amp;quot;, &amp;quot;Changes logarithmically. It has decreased by one-half.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt; When the value of \(x\) increases by \(1\), the expression \(2^x\):&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! When the value of \(x\) increases by \(1\), the expression \(2^x\) changes exponentially. It doubles.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: When the value of \(x\) increases by \(1\), the expression \(2^x\) changes exponentially. It doubles. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="greater than" data-solution-options="[&amp;quot;greater than&amp;quot;, &amp;quot;less than&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="2"&gt;
+                &lt;li&gt;Will the value of \(10x^2\) be greater than or less than \(2^x\) when \(x\) is \(8\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The value of \(10x^2\) will be greater than \(2^x\) when \(x\) is \(8\).
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 7.4.2 and 7.4.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: The value of \(10x^2\) will be greater than \(2^x\) when \(x\) is \(8\). You seem to be stuck. Who can you ask for help?
+
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="greater than" data-solution-options="[&amp;quot;greater than&amp;quot;, &amp;quot;less than&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="3"&gt;
+                &lt;li&gt;Will the value of \(2^x\) be greater than or less than \(10x^2\) when \(x\) is \(10\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The value of \(2^x\) will be greater than \(10x^2\) when \(x\) is \(10\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 7.4.2 and 7.4.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: The value of \(2^x\) will be greater than \(10x^2\) when \(x\) is \(10\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--q4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="less than" data-solution-options="[&amp;quot;greater than&amp;quot;, &amp;quot;less than&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="4"&gt;
+                &lt;li&gt;Will the value of \(10x^2\) be greater than or less than \(2^x\) when \(x\) is \(12\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The value of \(10x^2\) will be less than \(2^x\) when \(x\) is \(12\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 7.4.2 and 7.4.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: The value of \(10x^2\) will be less than \(2^x\) when \(x\) is \(12\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--5a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="640" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="5"&gt;
+                &lt;li&gt;Determine the following values of \(10x^2\).&lt;/li&gt;
+                &lt;br&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; What is the value of \(10x^2\) when \(x\) is \(8\)?&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt; &lt;p&gt; Enter your answer here.&lt;/p&gt;
+                    
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! When \(x=8\), the value of \(10x^2\) is \(640\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: When \(x=8\), the value of \(10x^2\) is \(640\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--5b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1000" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt; What is the value of \(10x^2\) when \(x\) is \(10\)? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;&lt;p&gt; Enter your answer here.&lt;/p&gt;
+                   
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! When \(x=10\), the value of \(10x^2\) is \(1000\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: When \(x=10\), the value of \(10x^2\) is \(1000\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--5c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1440" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt; What is the value of \(10x^2\) when \(x\) is \(12\)?&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;&lt;p&gt; Enter your answer here.&lt;/p&gt;
+                    
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! When \(x=12\), the value of \(10x^2\) is \(1440\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: When \(x=12\), the value of \(10x^2\) is \(1440\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--6a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="256" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="6"&gt;
+                &lt;li&gt;Determine the following values of \(2^x\).
+                &lt;/li&gt;
+                &lt;br&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; What is the value of \(2^x\) when \(x\) is \(8\)? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;&lt;p&gt; Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! When \(x=8\), the value of \(2^x\) is \(256\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: When \(x=8\), the value of \(2^x\) is \(256\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--6b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="1024" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt; What is the value of \(2^x\) when \(x\) is \(10\)? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;&lt;p&gt; Enter your answer here.&lt;/p&gt;
+                    
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! When \(x=10\), the value of \(2^x\) is \(1024\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: When \(x=10\), the value of \(2^x\) is \(1024\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--6c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4096" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt; What is the value of \(2^x\) when \(x\) is \(12\)?&lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;&lt;p&gt; Enter your answer here.&lt;/p&gt;
+                    
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! When \(x=12\), the value of \(2^x\) is \(4096\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.4.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: When \(x=12\), the value of \(2^x\) is \(4096\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q7--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The value of the exponential expression grows much more quickly as \(x\) increases." data-solution-options="[&amp;quot;The value of the exponential expression grows much more quickly as \\(x\\) increases.&amp;quot;, &amp;quot;The value of the quadratic expression grows much more quickly as \\(x\\) increases.&amp;quot;, &amp;quot;They both grow at the same rate.&amp;quot;, &amp;quot;There is no change in the values of the expressions when \\(x\\) increases.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="7"&gt;
+                &lt;li&gt;Choose the best statement that describes how the values of the exponential expression \(2^x\) and the quadratic expression \(10x^2\) change as \(x\) becomes greater and greater.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The value of the exponential expression grows much more quickly as \(x\) increases.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 7.4.2 and 7.4.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: The value of the exponential expression grows much more quickly as \(x\) increases. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--8a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="exponential" data-solution-options="[&amp;quot;exponential&amp;quot;, &amp;quot;quadratic&amp;quot;, &amp;quot;linear&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="8"&gt;
+                &lt;li&gt;Answer the following questions about functions \(f(x)\) and \(g(x)\).&lt;/li&gt;
+                &lt;br&gt;
+                &lt;ol type="a"&gt;
+                    &lt;li&gt; What type of expression is \(f(x)=1.5^x\)? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(f(x)=1.5^x\) is an exponential expression.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 7.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: \(f(x)=1.5^x\) is an exponential expression. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--8b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="quadratic" data-solution-options="[&amp;quot;exponential&amp;quot;, &amp;quot;quadratic&amp;quot;, &amp;quot;linear&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="2"&gt;
+                    &lt;li&gt; What type of expression is \(g(x)=500x^2+345x\)? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(g(x)=500x^2+345x\) is a quadratic expression.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 7.4.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: \(g(x)=500x^2+345x\) is a quadratic expression. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--8c--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Function \(f(x)\)" data-solution-options="[&amp;quot;Function \\(f(x)\\)&amp;quot;, &amp;quot;Function \\(g(x)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol&gt;
+                &lt;ol type="a" start="3"&gt;
+                    &lt;li&gt; The values of which function will eventually be greater for larger and larger values of \(x\)? &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The exponential function, \(f\), will eventually be greater for larger and larger values of \(x\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activities 7.4.2 and 7.4.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: The exponential function, \(f\), will eventually be greater for larger and larger values of \(x\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--9--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="5" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="9"&gt;
+                &lt;li&gt;What is the value of \(x\) when the exponential expression \(3(2)^x\) eventually overtakes the quadratic expression \(3x^2+2x\)?&lt;/li&gt;
+            &lt;/ol&gt;&lt;p&gt; Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+                
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! When \(x=5\), the value of \(3(2)^x\) is greater than the value of \(3x^2+2x\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 7.4.2–7.4.4. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: When \(x=5\), the value of \(3(2)^x\) is greater than the value of \(3x^2+2x\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--10--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The value of \(100x^2\) grows by different factors and the value of \(4^x\) grows by a factor of 4 every time." data-solution-options="[&amp;quot;The value of \\(100x^2\\) grows by different factors and the value of \\(4^x\\) grows by a factor of 4 every time.&amp;quot;, &amp;quot;The value of \\(100x^2\\) grows by a factor of 4 every time and the value of \\(4^x\\) grows by different factors.&amp;quot;, &amp;quot;The value of \\(100x^2\\) grows by different factors and the value of \\(4^x\\) grows by a factor of \\(x\\) every time.&amp;quot;, &amp;quot;The value of \\(100x^2\\) grows by a factor of \\(x\\) every time and the value of \\(4^x\\) grows by different factors.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="10"&gt;
+                &lt;li&gt;The table shows the values of \(4^x\) and \(100x^2\) for some values of \(x\).
+                    &lt;br&gt;
+                    &lt;table cellpadding="5" border="1"&gt;
+                        &lt;colgroup&gt;
+                            &lt;col width="48"&gt;
+                            &lt;col width="74"&gt;
+                            &lt;col width="84"&gt;
+                        &lt;/colgroup&gt;
+                        &lt;tbody&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;\(x\)&lt;/td&gt;
+                                &lt;td&gt;\(4^x\)&lt;/td&gt;
+                                &lt;td&gt;\(100x^2\)&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;\(1\)&lt;/td&gt;
+                                &lt;td&gt;\(4\)&lt;/td&gt;
+                                &lt;td&gt;\(100\)&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;\(2\)&lt;/td&gt;
+                                &lt;td&gt;\(16\)&lt;/td&gt;
+                                &lt;td&gt;\(400\)&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;\(3\)&lt;/td&gt;
+                                &lt;td&gt;\(64\)&lt;/td&gt;
+                                &lt;td&gt;\(900\)&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;\(4\)&lt;/td&gt;
+                                &lt;td&gt;\(256\)&lt;/td&gt;
+                                &lt;td&gt;\(1,600\)&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td&gt;\(5\)&lt;/td&gt;
+                                &lt;td&gt;\(1,024\)&lt;/td&gt;
+                                &lt;td&gt;\(2,500\)&lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;
+                    &lt;/table&gt;
+                    &lt;br&gt;
+                    &lt;p&gt;Looking at the patterns in the table, choose the best answer to explain why, as the value of \(x\) increases, the values of the exponential expression \(4^x\) will eventually overtake the values of the quadratic expression \(100x^2\).&lt;/p&gt;
+                &lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! The value of \(100x^2\) grows by different factors, and the value of \(4^x\) grows by a factor of 4 every time.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 7.4.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: The value of \(100x^2\) grows by different factors, and the value of \(4^x\) grows by a factor of 4 every time. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--Do not edit below this line--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3638">
+            <jumpto>1617</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664684199</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3639">
+            <jumpto>1619</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664684199</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1619">
+        <prevpageid>1618</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1664684415</timecreated>
+        <timemodified>1665256628</timemodified>
+        <title>7.4.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Explain using graphs, tables, or calculations that exponential functions eventually grow faster than quadratic functions. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 7.4.1: Comparing Expressions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you compared exponential expressions and ordered them from least to greatest by reasoning about the base numbers and exponents. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.4.2: Exploring Linear, Exponential, and Quadratic Growth &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you examined patterns and then determined expressions that represented the patterns. You then determined if each expression was linear, exponential, or quadratic. &lt;/li&gt;
+    &lt;li&gt; 7.4.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 7.4.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.4.3: Comparing Exponential and Quadratic Functions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you compared an exponential function and a quadratic function through their tables of values and graphs. You then determined which function had a larger value as the \(x\)-values increased. &lt;/li&gt;
+    &lt;li&gt; 7.4.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 7.4.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.4.4: Comparing Exponential and Quadratic Expressions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you determined the point at which a particular exponential function is always greater than a particular quadratic function. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 7.4.5: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
+  
+  &lt;!--pulldown--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3640">
+            <jumpto>1618</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664684415</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3641">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1664684415</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

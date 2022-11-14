@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="206" moduleid="274" modulename="lesson" contextid="285">
+  <lesson id="206">
+    <course>2</course>
+    <name>Lesson 8.1: Finding Unknown Inputs</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>276</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1667072787</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1885">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1886</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666140094</timecreated>
+        <timemodified>1666142362</timemodified>
+        <title>8.1.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will encounter a problem that cannot be easily solved by familiar strategies. After exploring different ways to solve the problem, you will write a quadratic equation to model the situation. You will also interpret what the solution to that equation means in the given context.&lt;/p&gt;
+
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;
+    Explain the meaning of a solution to an equation in terms of a situation.
+  &lt;/li&gt;
+  &lt;li&gt;
+    Write a quadratic equation that represents a situation.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;
+    8.1.1: Understanding a Situation with Quadratic Equations
+  &lt;/li&gt;
+  &lt;li&gt;
+    8.1.2: Modeling a Quadratic Problem
+  &lt;/li&gt;
+  &lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt;
+      8.1.2: Self Check
+    &lt;/li&gt;
+    &lt;li&gt;
+      8.1.2: Additional Resources
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+    8.1.3: Formulating a Quadratic Equation to Represent the Model
+  &lt;/li&gt;
+  &lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt;
+      8.1.3: Self Check
+    &lt;/li&gt;
+    &lt;li&gt;
+      8.1.3: Additional Resources
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;
+    8.1.4: Interpreting a Solution
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;
+    8.1.5: Practice
+  &lt;/li&gt;
+  &lt;li&gt;
+    8.1.6: Lesson Summary
+  &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4232">
+            <jumpto>1886</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666140094</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1886">
+        <prevpageid>1885</prevpageid>
+        <nextpageid>1887</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666140414</timecreated>
+        <timemodified>1666263743</timemodified>
+        <title>8.1.1: Understanding a Situation with Quadratic Equations</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;p&gt;A mechanical device is used to launch a potato vertically into the air. The potato is launched from a platform 20 feet above the ground, with an initial vertical velocity of 92 feet per second.&lt;/p&gt;
+&lt;p&gt;The function \(h(t) = -16t^2 + 92t + 20\) models the height of the potato over the ground, in feet, \(t\) seconds after launch.&lt;/p&gt;
+&lt;p&gt;Here is the graph representing the function.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/NB1dRNXXszkTdxerbFoKb627" width="273" height="160"&gt;&lt;/p&gt;
+&lt;p&gt;For each question, explain your reasoning.&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+      &lt;li&gt;What is the height of the potato 1 second after launch? &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the height of the potato 1 second after launch.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;The height of the potato 1 second after launch will be 96 feet.&lt;br&gt;
+      Substituting 1 second into the function \(h(t)\) yields:&lt;/p&gt;
+    &lt;p&gt;\(\begin{array}{rcl}h(1)&amp;amp;=&amp;amp;-16{(1)}^2+20\\&amp;amp;=&amp;amp;-16+92+20\\&amp;amp;=&amp;amp;96\end{array}\)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="2" class="os-raise-noindent"&gt;
+      &lt;li&gt;Will the potato still be in the air 8 seconds after launch? &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your explanation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;No, from the graph, we can see the potato will land before 8 seconds after the launch. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="3" class="os-raise-noindent"&gt;
+      &lt;li&gt;Will the potato reach 120 feet? If so, when will it happen? &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your explanation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Yes, from the graph, we can see the potato’s height will be 120 feet at two times: approximately 1.5 seconds and 4.3 seconds after launch.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="4" class="os-raise-noindent"&gt;
+      &lt;li&gt;When will the potato hit the ground, or have a height of zero feet? &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your explanation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; We can see from the graph the potato will hit the ground, or have a height of zero feet, after approximately 6 seconds.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4233">
+            <jumpto>1885</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666140414</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4234">
+            <jumpto>1887</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666140414</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1887">
+        <prevpageid>1886</prevpageid>
+        <nextpageid>1888</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666140788</timecreated>
+        <timemodified>1666329708</timemodified>
+        <title>8.1.2: Modeling a Quadratic Problem</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Your teacher will give you a picture that is 7 inches by 4 inches, a piece of colored paper that measures 4 inches by 2.5 inches representing framing material, a ruler, and a pair of scissors.&lt;/p&gt;
+        &lt;p&gt;Cut the framing material to create a rectangular frame for the picture. The frame should have the same width all the way around and have no overlaps. All of the framing material should be used with no leftover pieces. The frame should not cover any part of the picture.&lt;/p&gt;
+        &lt;p&gt;Let’s review the information we know.&lt;/p&gt;
+        &lt;ul class="os-raise-indent"&gt;
+            &lt;li&gt; The picture measures 7 inches by 4 inches. &lt;/li&gt;
+            &lt;li&gt; There are 10 square inches of framing material. &lt;/li&gt;
+            &lt;li&gt; The frame must be uniform in width. &lt;/li&gt;
+            &lt;li&gt; All of the framing material must be used. &lt;/li&gt;
+            &lt;li&gt; The frame should not cover any part of the picture. &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Describe the process you used to create the frame.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;s&lt;/strong&gt;&lt;strong&gt;olution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Here is an example of the process shown in images.&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/5qktc87BDWtYhJ8Fy8bVWd5S" width="624" height="351"&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Now that you have completed the activity, can you think of any mathematical method to solve the problem?&lt;/p&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+        &lt;p&gt;Juan says, “The perimeter of the picture is 22 inches. If I cut the framing material into 9 pieces, each one being 2.5 inches by \(\frac {4}{9}\) inch, I’ll have more than enough material to surround the picture because those pieces would yield \(9 \cdot 2.5\), or 22.5 inches for the frame.”&lt;/p&gt;
+        &lt;p&gt;Do you agree with Juan? Explain your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;No, Juan is not correct because 9 pieces would not be enough to go around the frame. While the total length of those pieces is enough to surround the picture, he will need at least two pieces for each short side to cover 4 inches and at least 3 pieces for each long side to cover 7 inches. This adds up to 10 pieces, as shown below.&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5fae4a0aa1dabe1a82fbdbd38464f6c6a71d60b5" width="412" height="416"&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4235">
+            <jumpto>1886</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666140788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4236">
+            <jumpto>1888</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666140788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1888">
+        <prevpageid>1887</prevpageid>
+        <nextpageid>1889</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1666140882</timecreated>
+        <timemodified>1666264567</timemodified>
+        <title>8.1.2: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Suppose you want to frame a picture that measures 8 inches by 3 inches. The frame is created from 12 square inches of framing material. The frame must be uniform in width, and all of the framing material must be used. Which statement is true?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4237">
+            <jumpto>1889</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666140882</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The frame will measure exactly 8 inches by 3 inches.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: The frame cannot have the same dimensions as the picture. Its dimensions will be longer to include the width of the frame.&amp;nbsp;&lt;span style="font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 0.9375rem;"&gt;The true statement is that the total area of the framed picture will be 36 square inches: 24 square inches for the picture and 12 square inches for the frame. \(24 + 12 = 36\) square inches.&lt;/span&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4238">
+            <jumpto>1889</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666140882</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The total area of the framed picture will be 24 square inches.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The area of the picture by itself is \(8 \cdot 3\), or 24 square inches. The area of the framing material is 12 square inches. To find the total area, these values must be added together. The answer is the total area of the framed picture will be \(24 + 12\), or 36 square inches.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4239">
+            <jumpto>1889</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666140882</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The perimeter of the framed picture will be 22 inches.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: The perimeter of the picture by itself is \(8 + 8 + 3 + 3\), or 22 inches. The framed picture will have a larger perimeter than 22 inches.&amp;nbsp;&lt;span style="font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 0.9375rem;"&gt;The true statement is that the total area of the framed picture will be 36 square inches: 24 square inches for the picture and 12 square inches for the frame. \(24 + 12 = 36\) square inches.&lt;/span&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4240">
+            <jumpto>1890</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1666140882</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;The total area of the framed picture will be 36 square inches.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The area of the picture is \(8 \cdot 3\), or 24 square inches. The area of the frame material is 12 square inches. So, the total area of the framed picture will be \(24 + 12\), or 36 square inches.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4241">
+            <jumpto>1889</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666140882</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1889">
+        <prevpageid>1888</prevpageid>
+        <nextpageid>1890</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666141058</timecreated>
+        <timemodified>1666329758</timemodified>
+        <title>8.1.2: Additional Resources </title>
+        <contents>&lt;h4&gt;Modeling a Quadratic Problem&lt;/h4&gt;
+&lt;p&gt;This activity challenges you to complete a very difficult task!&lt;/p&gt;
+&lt;p&gt;Let’s review the information we know from the picture in the Self Check.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; The picture measures 8 inches by 3 inches. &lt;/li&gt;
+    &lt;li&gt; There are 12 square inches of framing material. &lt;/li&gt;
+    &lt;li&gt; The frame must be uniform in width. &lt;/li&gt;
+    &lt;li&gt; All of the framing material must be used. &lt;/li&gt;
+    &lt;li&gt; The frame should not cover any part of the picture. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What other information can you learn from the situation?&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; The perimeter of the picture is \(8 + 8 + 3 + 3\), or 22 inches. The framed picture will have a perimeter greater than this. &lt;/li&gt;
+    &lt;li&gt; If the picture is 8 inches by 3 inches, then the area of the picture is \(8 \cdot 3\), or 24 square inches. &lt;/li&gt;
+    &lt;li&gt; Since there are 12 square inches of framing material and all of it must be used, the framed picture will have an area of \(24 + 12\), or 36 square inches. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The more you know about the situation, the closer you are to being able to solve this problem mathematically instead of guessing and checking to see if you are correct.&lt;/p&gt;
+&lt;p&gt;We will use this information in later activities to set up a quadratic equation that can be used to solve the problem.&lt;/p&gt;
+&lt;h4&gt;Try It: Modeling a Quadratic Problem&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Suppose you want to frame a different picture that measures 10 inches by 6 inches. The frame is created from 36 square inches of framing material. The frame must be uniform in width, and all of the framing material must be used.&lt;/p&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;What is the perimeter of the picture?&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol class="os-raise-noindent" start="2"&gt;
+            &lt;li&gt;What is the area of the picture?&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol class="os-raise-noindent" start="3"&gt;
+            &lt;li&gt;What will be the total area of the framed picture?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answers, then select the &lt;strong&gt;s&lt;/strong&gt;&lt;strong&gt;olution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to find the missing information about the framed picture:
+    &lt;/p&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt;The perimeter of the picture is \(10 + 10 + 6 + 6 = 32\) inches.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol class="os-raise-noindent" start="2"&gt;
+        &lt;li&gt;The area of the picture is \(10 \cdot 6 = 60\) square inches.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol class="os-raise-noindent" start="3"&gt;
+        &lt;li&gt;The total area of the framed picture will be \(60 + 36 = 96\) square inches.&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4242">
+            <jumpto>1888</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141058</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4243">
+            <jumpto>1890</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141058</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1890">
+        <prevpageid>1889</prevpageid>
+        <nextpageid>1891</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666141424</timecreated>
+        <timemodified>1666993233</timemodified>
+        <title>8.1.3: Formulating a Quadratic Equation to Represent the Model</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;Here is a diagram that shows the picture with a frame that is the same width all the way around.&lt;/p&gt;
+&lt;p&gt;The picture is 7 inches by 4 inches. The frame is created from 10 square inches of framing material (in the form of a rectangle measuring 4 inches by 2.5 inches).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/QxPTEfQf4tJUo9Qku42JHuGw" width="417" height="248"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+      &lt;li&gt;Write an expression to represent the length of the framed picture on its shorter side. Use \(x\) to represent the width of the frame.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter an expression to represent the length of the framed picture on its shorter side.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; \(2x + 4\)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="2" class="os-raise-noindent"&gt;
+      &lt;li&gt;Write an expression to represent the length of the framed picture on its longer side. Use \(x\) to represent the width of the frame.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter an expression to represent the length of the framed picture on its longer side.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(2x + 7\)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="3" class="os-raise-noindent"&gt;
+      &lt;li&gt;Use the expressions from the previous exercises to write an equation to represent the relationship between the measurements of the framed picture and its total area. Be prepared to explain what each part of your equation represents.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter an equation to represent the relationship between the measurements of the framed picture and its total area.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; \((2x + 7)(2x + 4) = 38\) or \(4x^2 + 22x + 28 = 38\) (or equivalent)&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/abd013d7bc8d0e66787b880a5c8ea907406fea42" alt="A picture is shown with a frame of uniform width around it. The dimensions of the picture are 7 inches by 4 inches. The width of the frame is x. The total length of the framed picture is 2x + 7. The total width of the framed picture is 2x + 4." width="369" height="246" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="4" class="os-raise-noindent"&gt;
+      &lt;li&gt;What would a solution to this equation mean in this situation?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your reasoning.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; A solution would represent the width of the frame when all of the framing material is used.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;h4&gt;Video: Formulating a Quadratic Equation to Represent the Model&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about formulating a quadratic equation to represent the model.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+  &lt;source src="https://k12.openstax.org/contents/raise/resources/3da5ec1aa9c1847437a0eb534316e26a796642e9"&gt;
+  &lt;track src="https://k12.openstax.org/contents/raise/resources/c7c85fd780762a181ac98e0c385b3f823cccbe39" kind="captions" srclang="en_us" label="On" default="true"&gt;
+  https://k12.openstax.org/contents/raise/resources/3da5ec1aa9c1847437a0eb534316e26a796642e9 &lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4244">
+            <jumpto>1887</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141424</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4245">
+            <jumpto>1891</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141424</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1891">
+        <prevpageid>1890</prevpageid>
+        <nextpageid>1892</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1666141571</timecreated>
+        <timemodified>1666266290</timemodified>
+        <title>8.1.3: Self Check</title>
+        <contents>&lt;p&gt;Suppose a different picture is 5 inches by 5 inches. The frame is created from 11 square inches of framing material. The frame will be uniform in width, and all of the framing material is used. Which equation would you need to solve to determine the value of \(x\), the width of the frame?&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5394a210768633a34f72bc87e1543ce8f6ca230a" width="296" height="231" alt="A square picture has side lengths measuring 5 inches. It is surrounded by a square frame that is uniformly x inches in width."&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4246">
+            <jumpto>1893</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1666141571</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(4x^2 + 20x + 25 = 36\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The length of one side of the frame is \(2x + 5\). The area of the framed picture is \((2x + 5)(2x + 5)\). Set this equal to the total area, \(25 + 11\), or 36 square inches. So, the equation to represent the total area is \((2x + 5)(2x + 5) = 36\), or \(4x^2 + 20x + 25 = 36\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4247">
+            <jumpto>1892</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141571</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x^2 + 10x + 25 = 36\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The length of one side of the frame is \(2x + 5\). So the area of the framed picture is \((2x + 5)(2x + 5)\). Remember to add the products of the inner terms and outer terms when multiplying the binomials. Set this equal to the total area, \(25 + 11\), or 36 square inches. The answer, or the equation to represent the total area, is \((2x + 5)(2x + 5) = 36\), or \(4x^2 + 20x + 25 = 36\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4248">
+            <jumpto>1892</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141571</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x^2 + 25 = 11\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This represents only part of the frame. The length of one side of the frame is \(2x + 5\). So the area of the framed picture is \((2x + 5)(2x + 5)\). Set this equal to the total area, \(25 + 11\), or 36 square inches. The answer, or the equation to represent the total area, is \((2x + 5)(2x + 5) = 36\), or \(4x^2 + 20x + 25 = 36\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4249">
+            <jumpto>1892</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141571</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(4x^2 + 20x = 36\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The length of one side of the frame is \(2x + 5\). So the area of the framed picture is \((2x + 5)(2x + 5)\). Set this equal to the total area, \(25 + 11\), or 36 square inches. Remember to add the products of the last terms of each binomial when multiplying the two binomials. The answer, or the equation to represent the total area, is \((2x + 5)(2x + 5) = 36\), or \(4x^2 + 20x + 25 = 36\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4250">
+            <jumpto>1892</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141571</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1892">
+        <prevpageid>1891</prevpageid>
+        <nextpageid>1893</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666141719</timecreated>
+        <timemodified>1666330077</timemodified>
+        <title>8.1.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Formulating a Quadratic Equation to Represent the Model&lt;/h4&gt;
+&lt;p&gt;Let’s look at a similar situation to the previous activities but using a picture with different measurements.&lt;/p&gt;
+&lt;p&gt;Imagine a picture 8 inches by 6 inches. The frame is created from 32 square inches of framing material. The frame will be uniform in width, and all of the framing material is used.&lt;/p&gt;
+&lt;p&gt;How do we write an equation representing the total area of the framed picture?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/bf047a5f6cfa1e2bcecc83d87d38dfcd8692117f" alt="A FRAMED PICTURE." width="300" height="232"&gt;&lt;/p&gt;
+&lt;p&gt;Let’s break down the measurements that we know.&lt;/p&gt;
+&lt;p&gt;Let \(x\) represent the thickness of the frame in inches.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/dceee0cd555cd3e8fcb6de7750d4a66c50dbda52" alt="A rectangular picture has side lengths measuring 8 inches by 6 inches. It is surrounded by a frame that is uniformly x inches in width." width="350" height="317"&gt;&lt;/p&gt;
+&lt;p&gt;Since the picture is 8 inches by 6 inches, it has an area of 48 square inches.&lt;/p&gt;
+&lt;p&gt;The frame is created from 32 square inches of framing material, and we must use all of it. So, the total area of the framed picture is \(48 + 32\), or 80 square inches.&lt;/p&gt;
+&lt;p&gt;The length of one side of the framed picture is \(x + 6 + x = 2x + 6\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/03fd8be04c40854d0d85e8ca821618315df14678" alt="A DIAGRAM REPRESENTING A RECTANGULAR PICTURE INSIDE A RECTANGULAR PICTURE FRAME IS SHOWN. THE RECTANGULAR PICTURE FRAME HAS A SIDE LENGTH OF 6 INCHES AND X AND X LABELED." width="350" height="232"&gt;&lt;/p&gt;
+&lt;p&gt;The length of the other side of the framed picture is \(x + 8 + x = 2x + 8\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c0de4d3970e836136536fbfcd0fbc25e4fcb56f9" alt="A DIAGRAM REPRESENTING A RECTANGULAR PICTURE INSIDE A RECTANGULAR PICTURE FRAME IS SHOWN. THE RECTANGULAR PICTURE FRAME HAS A SIDE LENGTH OF 8 INCHES AND X AND X LABELED." width="300" height="291"&gt;&lt;/p&gt;
+&lt;p&gt;So, the area of the framed picture is \((2x + 8)(2x + 6)\). We can set this equal to 80 square inches.&lt;/p&gt;
+&lt;p&gt;\((2x + 8)(2x + 6) = 80\)&lt;/p&gt;
+&lt;p&gt;Let’s multiply.&lt;/p&gt;
+&lt;p&gt;\(4x^2 + 12x + 16x + 48 = 80\)&lt;/p&gt;
+&lt;p&gt;\(4x^2 + 28x + 48 = 80\)&lt;/p&gt;
+&lt;p&gt;So, the equation representing the total area of the framed picture is \(4x^2 + 28x + 48 = 80\).&lt;/p&gt;
+&lt;p&gt;This equation is a quadratic equation. A &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;quadratic equation&lt;/span&gt; is defined as one that can be written in the form \(ax^2 + bx + c = 0\), where \(a\) is not 0.&lt;/p&gt;
+&lt;h4&gt;Try It: Formulating a Quadratic Equation to Represent the Model&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;A picture measures 9 inches by 7 inches. Its frame is created from 36 square inches of framing material. The frame will be uniform in width, and all of the framing material is used.&lt;/p&gt;
+        &lt;p&gt;Write an equation representing the total area of the framed picture.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to find the quadratic equation to represent the total area of the framed picture:&lt;/p&gt;
+    &lt;p&gt;The area of the picture is 63 square inches. The total area of the framed picture will be \(63 + 36\), or 99 square inches.&lt;/p&gt;
+    &lt;p&gt;The sides of the framed picture are represented by \((2x + 9)\) and \((2x + 7)\).&lt;/p&gt;
+    &lt;p&gt;So, the total area of the framed picture is represented by \(4x^2 + 32x + 63 = 99\).&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4251">
+            <jumpto>1891</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141719</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4252">
+            <jumpto>1893</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141719</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1893">
+        <prevpageid>1892</prevpageid>
+        <nextpageid>1894</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666141906</timecreated>
+        <timemodified>1666267565</timemodified>
+        <title>8.1.4: Interpreting a Solution </title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;A framed picture has a total area \(y\), in square inches. The thickness of the frame is represented by \(x\), in inches. The equation \(y = (2x + 8)(2x + 10)\) relates these two variables.&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+      &lt;li&gt;What is the width, or shorter side, of the picture without the frame?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the width.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; 8 inches&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="2" class="os-raise-noindent"&gt;
+      &lt;li&gt;What is the length, or longer side, of the picture without the frame?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the length.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; 10 inches&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol start="3" class="os-raise-noindent"&gt;
+      &lt;li&gt;What would a solution to the equation \(100 = (2x + 8)(2x + 10)\) mean in this situation?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your explanation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; The solution would represent the thickness of a frame that results in a total area of 100 square inches.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4253">
+            <jumpto>1890</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141906</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4254">
+            <jumpto>1894</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141906</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1894">
+        <prevpageid>1893</prevpageid>
+        <nextpageid>1895</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666141945</timecreated>
+        <timemodified>1666914811</timemodified>
+        <title>8.1.5: Practice</title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt; 
+  &lt;!--q1--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="28 feet" data-solution-options="[&amp;quot;18 feet&amp;quot;, &amp;quot;22 feet&amp;quot;, &amp;quot;28 feet&amp;quot;, &amp;quot;34 feet&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;Use the following to answer questions 1–3.&lt;/p&gt;
+      &lt;p&gt;A water balloon is launched by a catapult into the air. The water balloon is launched from 4 feet above the ground, with an initial vertical velocity of 40 feet per second.&lt;/p&gt;
+      &lt;p&gt;The function \(h(t)=-16t^2 + 40t + 4\) models the height of the water balloon over the ground, in feet, \(t\) seconds after launch.&lt;/p&gt;
+      &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/796834755c9625082b6b6d76fe2c1c69b585dd60" alt="A DOWNWARD PARABOLA. X-AXIS LABEL IS TIME IN SECONDS AND Y-AXIS LABEL IS HEIGHT IN FEET. THE GRAPH PASSES THROUGH THE POINTS (0, 4), (0.5, 20), (1, 28), (1.5, 28), (2, 20), AND (2.5, 4)." width="260" height="272" class="img-fluid atto_image_button_text-bottom"&gt;&lt;/p&gt;
+      &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt;What is the height of the water balloon 1 second after launch?&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.1.1. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 28 feet. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--q2--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="2" class="os-raise-noindent"&gt;
+        &lt;li&gt;Will the water balloon still be in the air 2 seconds after the launch?&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 8.1.1 to test your understanding? Then come back and try this question again.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is yes. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q3--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="2.6 seconds" data-solution-options="[&amp;quot;1.2 seconds&amp;quot;, &amp;quot;1.8 seconds&amp;quot;, &amp;quot;2.1 seconds&amp;quot;, &amp;quot;2.6 seconds&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="3" class="os-raise-noindent"&gt;
+        &lt;li&gt;Using the graph, estimate when the water balloon hit the ground.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.1.1. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is approximately 2.6 seconds. You seem to be stuck. Who can you ask for help?&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The perimeter of the framed picture is greater than 42 inches." data-solution-options="[&amp;quot;The perimeter of the picture is 40 inches.&amp;quot;, &amp;quot;The perimeter of the framed picture is 42 inches.&amp;quot;, &amp;quot;The area of the framed picture is 148 square inches.&amp;quot;, &amp;quot;The perimeter of the framed picture is greater than 42 inches.&amp;quot;]"&gt;&lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;Use the following to answer questions 4–5.&lt;/p&gt;
+      &lt;p&gt;Suppose you want to frame a different picture that measures 12 inches by 9 inches. The frame is created from 46 square inches of framing material. The frame must be uniform in width, and all of the framing material must be used.&lt;/p&gt;
+      &lt;ol start="4" class="os-raise-noindent"&gt;
+        &lt;li&gt;Which of the following is true about the situation described?&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 8.1.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is the perimeter of the framed picture is greater than 42 inches. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--Q5--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="154 square inches" data-solution-options="[&amp;quot;46 square inches&amp;quot;, &amp;quot;108 square inches&amp;quot;, &amp;quot;154 square inches&amp;quot;, &amp;quot;176 square inches&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="5" class="os-raise-noindent"&gt;
+        &lt;li&gt;What is the total area of the framed picture?&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.1.2. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 154 square inches. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--q6--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="110 square inches" data-solution-options="[&amp;quot;34 square inches&amp;quot;, &amp;quot;72 square inches&amp;quot;, &amp;quot;110 square inches&amp;quot;, &amp;quot;134 square inches&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;Use the following to answer questions 6–8.&lt;/p&gt;
+      &lt;p&gt;Suppose you want to frame a different picture that measures 9 inches by 8 inches. The frame is created from 38 square inches of framing material. The frame must be uniform in width, and all of the framing material must be used. Let \(x\) represent the thickness of the frame.&lt;/p&gt;
+      &lt;ol start="6" class="os-raise-noindent"&gt;
+        &lt;li&gt;What is the total area of the framed picture?&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 8.1.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 110 square inches. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Q7--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(4x^2 + 34x + 72 = 110\)" data-solution-options="[&amp;quot;\\(x^2 + 34x = 38\\)&amp;quot;, &amp;quot;\\(4x^2 + 34x = 72\\)&amp;quot;, &amp;quot;\\(x^2 + 34x + 72 = 110\\)&amp;quot;, &amp;quot;\\(4x^2 + 34x + 72 = 110\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="7" class="os-raise-noindent"&gt;
+        &lt;li&gt;Write an equation to represent the relationship between the measurements of the picture and of the frame and the area of the framed picture.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.1.3. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(4x^2 + 34x + 72 = 110\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--q8--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The solution represents the thickness of the frame when all of the framing material is used." data-solution-options="[&amp;quot;The solution represents the area of the framing material that should be used. &amp;quot;, &amp;quot;The solution represents the thickness of the frame when all of the framing material is used.&amp;quot;, &amp;quot;The solution represents the perimeter of the frame when all of the framing material is used.&amp;quot;, &amp;quot;The solution represents the total area of the framed picture.&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="8" class="os-raise-noindent"&gt;
+        &lt;li&gt;What does the solution to the equation in the previous question represent in this situation?&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 8.1.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is the thickness of the frame when all of the framing material is used. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--q9--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="5 inches and 7 inches" data-solution-options="[&amp;quot;2 inches and 2 inches&amp;quot;, &amp;quot;2 inches and 5 inches&amp;quot;, &amp;quot;2 inches and 7 inches&amp;quot;, &amp;quot;5 inches and 7 inches&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;Use the following to answer questions 9–10.&lt;/p&gt;
+      &lt;p&gt;A framed picture has a total area \(y\), in square inches. The thickness of the frame is represented by \(x\), in inches. The equation \(y = (2x + 5)(2x + 7)\) relates these two variables.&lt;/p&gt;
+      &lt;ol start="9" class="os-raise-noindent"&gt;
+        &lt;li&gt;What are the width and length of the picture without the frame?&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.1.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is 5 inches and 7 inches. You seem to be stuck.  Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--q10--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y − 35\)" data-solution-options="[&amp;quot;\\(y − 35\\)&amp;quot;, &amp;quot;\\(x + y\\)&amp;quot;, &amp;quot;\\(x + 35\\)&amp;quot;, &amp;quot;35&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="10" class="os-raise-noindent"&gt;
+        &lt;li&gt;Which of the following represents the area of the frame?&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt; Try again. Why don’t you go back to activity 8.1.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(y - 35\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--Do not edit below this line--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4255">
+            <jumpto>1893</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141945</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4256">
+            <jumpto>1895</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666141945</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1895">
+        <prevpageid>1894</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666142169</timecreated>
+        <timemodified>1666142678</timemodified>
+        <title>8.1.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Explain the meaning of a solution to an equation in terms of a situation. &lt;/li&gt;
+    &lt;li&gt; Write a quadratic equation that represents a situation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.1.1: Understanding a Situation with Quadratic Equations &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; In this activity, you analyzed a graph representing a situation represented by a quadratic equation. You then used the graph to describe the situation. &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.1.2: Modeling a Quadratic Problem &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; In this activity, you attempted to solve a problem that was represented by a quadratic equation using any method possible, including guess and check. &lt;/li&gt;
+        &lt;li&gt; 8.1.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.1.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.1.3: Formulating a Quadratic Equation to Represent the Model &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; In this activity, you learned how to write a quadratic equation to represent the given situation. You also learned how to interpret the solution to this equation. &lt;/li&gt;
+        &lt;li&gt; 8.1.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.1.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.1.4: Interpreting a Solution &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; In this activity, you used a quadratic equation to draw conclusions about a given situation. &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.1.5: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+
+    &lt;!--pulldown--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4257">
+            <jumpto>1894</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666142169</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4258">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666142169</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

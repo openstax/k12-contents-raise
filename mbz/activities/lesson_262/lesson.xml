@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="199" moduleid="262" modulename="lesson" contextid="273">
+  <lesson id="199">
+    <course>2</course>
+    <name>Lesson 7.16: Graphing from the Vertex Form</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>264</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1665709688</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1831">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1832</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665560788</timecreated>
+        <timemodified>1665562568</timemodified>
+        <title>7.16.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will continue working with the vertex form of quadratic equations. You will discover that you can anticipate what happens on the graph on either side of the vertex by reasoning about the parts of an expression in vertex form.&lt;/p&gt;
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; Graph a quadratic function given in vertex form, showing the maximum or minimum and the \(y\)-intercept. &lt;/li&gt;
+  &lt;li&gt; Find the maximum or the minimum of a quadratic function given in vertex form without first graphing it. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 7.16.1: Three Forms of Quadratic Expressions &lt;/li&gt;
+  &lt;li&gt; 7.16.2: Graph Functions in Vertex Form &lt;/li&gt;
+  &lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 7.16.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 7.16.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.16.3: Quadratic Equations and Graphs &lt;/li&gt;
+  &lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 7.16.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 7.16.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 7.16.4: Sketching a Graph of an Equation &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 7.16.5: Practice &lt;/li&gt;
+  &lt;li&gt; 7.16.6: Lesson Summary &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4110">
+            <jumpto>1832</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665560788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1832">
+        <prevpageid>1831</prevpageid>
+        <nextpageid>1833</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665560833</timecreated>
+        <timemodified>1665562580</timemodified>
+        <title>7.16.1: Three Forms of Quadratic Expressions </title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;p&gt;Expressions in different forms can be used to define the same function. Here are three ways to define a function \(f\).&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Vertex form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(f(x)=x^2-4x+3\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(f(x)=(x-3)(x-1)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(f(x)=(x-2)^2-1\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(f(x)=ax^2+bx+c\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(f(x)=a(x-r_1)(x-r_2)\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(f(x)=a(x-h)^2+k\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;Which form would you use if you want to find the following features of the graph of \(f\)? Be prepared to explain your reasoning.&lt;/p&gt;
+
+
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+	
+​
+	
+	
+	&lt;!--Q#--&gt;
+​
+   &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Factored form" data-solution-options="[&amp;quot;Standard form&amp;quot;, &amp;quot;Factored form&amp;quot;, &amp;quot;Vertex form&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+			&lt;ol&gt;&lt;li&gt;The \(x\)-intercepts&lt;/li&gt;&lt;/ol&gt;
+            
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Factored form. In factored form, we can see that the \(x\)-intercepts, or roots, are located at \((r_1, 0)\) and \((r_2, 0)\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Incorrect. The correct answer is factored form. In factored form, we can see that the \(x\)-intercepts, or roots, are located at \((r_1, 0)\) and \((r_2, 0)\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+	
+	&lt;!--END QUESTION.--&gt;
+	&lt;!--Q#2--&gt;
+​
+   &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Vertex form" data-solution-options="[&amp;quot;Standard form&amp;quot;, &amp;quot;Factored form&amp;quot;, &amp;quot;Vertex form&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+			&lt;ol start="2"&gt;&lt;li&gt;The vertex&lt;/li&gt;&lt;/ol&gt;
+            
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Vertex form. In vertex form, we can see that the graph has a vertex located at the point defined by \((h, k)\). &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Incorrect. The correct answer is vertex form. In vertex form, we can see that the graph has a vertex located at the point defined by \((h, k)\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+	
+	&lt;!--END QUESTION.--&gt;
+​&lt;!--Q#3--&gt;
+​
+   &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Standard form" data-solution-options="[&amp;quot;Standard form&amp;quot;, &amp;quot;Factored form&amp;quot;, &amp;quot;Vertex form&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+			&lt;ol start="3"&gt;&lt;li&gt;The \(y\)-intercept&lt;/li&gt;&lt;/ol&gt;
+            
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!  In standard form, we can see that the graph intersects the \(y\)-axis at 3, but in any form, we can pretty easily find the \(y\)-intercept when the input is 0.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Incorrect. The correct answer is standard form. In standard form, we can see that the graph intersects the \(y\)-axis at 3, but in any form, we can pretty easily find the \(y\)-intercept when the input is 0.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+	
+	&lt;!--END QUESTION.--&gt;
+	 &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4111">
+            <jumpto>1831</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665560833</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4112">
+            <jumpto>1833</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665560833</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1833">
+        <prevpageid>1832</prevpageid>
+        <nextpageid>1834</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665560924</timecreated>
+        <timemodified>1665726229</timemodified>
+        <title>7.16.2: Graph Functions in Vertex Form </title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;Examine these two equations that define quadratic functions.&lt;/p&gt;
+&lt;p&gt;\(p(x)= -(x−4)^2+10\)&lt;/p&gt;
+&lt;p&gt;\(q(x)=\frac {1}{2}(x−4)^2+10\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;The graph of \(p\) passes through \((0,-6)\) and \((4,10)\), as shown on the coordinate plane.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/X9TD75Dj9D7RpjC6vTFUbW1u" width="428" height="404"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt; Find the coordinates of another point on the graph of \(p\). Explain or show your reasoning. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\((8,-6)\). If we find \(p(8)\) and substitute 8 for \(x\) in the expression, we have: \(p(8)=-(8−4)^2+10\), which is equal to \(-16+10\) or -6.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="2" type="a"&gt;
+            &lt;li&gt; Use the graphing tool or technology outside the course. Plot \(p(x)= -(x−4)^2+10\) and the points \((0, -6)\), \((4, 10)\), and \((8, -6)\) to label the graph. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f1115944b5a4693784d28b587b77e28a2b9bf5ad" width="300" height="305" alt="GRAPH OF A DOWNWARD PARABOLA WITH A Y-INTERCEPT OF NEGATIVE 6, A VERTEX AT THE POINT (4, 10), AND PASSING THROUGH THE POINTS (2, 6) AND (6, 6)."&gt;&lt;/p&gt;
+    &lt;p&gt;The graph of a quadratic function is symmetrical across the vertical line containing the vertex. If a point on the graph that is 4 units to the left of the line containing the vertex has a \(y\)-value of -6, there is a point to the right of the line containing the vertex that also has a \(y\)-value of -6.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;A line containing the vertex is called the parabola’s &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;axis of symmetry&lt;/span&gt;.&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;Find the \(x\)- and \(y\)-coordinates of the vertex and sketch the graph.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Q1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="4" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt; What is the \(x\)-coordinate of the vertex of \(q(x)=\frac {1}{2}(x−4)^2+10\)? &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 4. The \(x\)-coordinate of the vertex is found by using the squared term of the vertex form. The \(x\)-coordinate of the vertex of the function \(q\) is 4.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is 4. The \(x\)-coordinate of the vertex is found by using the squared term of the vertex form. The \(x\)-coordinate of the vertex of the function \(q\) is 4.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="10" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="2" type="a"&gt;
+                &lt;li&gt; What is the the \(y\)-coordinate of the vertex of \(q(x)=\frac {1}{2}(x−4)^2+10\)? &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 10. In vertex form, the \(y\)-coordinate is the constant term. The value of the \(y\)-coordinate of the vertex of the function \(q\) is 10.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is 10. In vertex form, the \(y\)-coordinate of the vertex is the constant term.The value of the \(y\)-coordinate of the vertex of the function \(q\) is 10.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="3" type="a"&gt;
+            &lt;li&gt; Use the graphing tool or technology outside the course. On the same coordinate plane containing the points and equation from question 1, plot the coordinates of the vertex of the function \(q\). &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f1115944b5a4693784d28b587b77e28a2b9bf5ad" width="300" height="305" alt="GRAPH OF A DOWNWARD PARABOLA WITH A Y-INTERCEPT OF NEGATIVE 6, A VERTEX AT THE POINT (4, 10), AND PASSING THROUGH THE POINTS (2, 6) AND (6, 6)."&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="4" type="a"&gt;
+            &lt;li&gt; Find two other points that are on the graph of \(q\). Try to identify points that are symmetrical over the axis of symmetry. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li&gt; One possible answer could be \((2,12)\) and \((6,12)\). Substituting 2 for \(x\), we have: \(q(2)=\frac {1}{2}(2−4)^2+10\), which is 12, so \((2,12)\) is one point on the graph. Substituting 6 for \(x\), we have: \(q(6)=\frac {1}{2} 1(6−4)^2+10\), which equals 12, so \((6,12)\) is another point. &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; Another possible answer could be \((0,18)\) and \((8,18)\). Substituting 0 for \(x\), we get \(q(0)=18\), so \((0,18)\) is one point on the graph. This point is 4 units to the left and 8 units up from the vertex. Because the graph has a vertical line of symmetry, or axis of symmetry, through the vertex, it also goes through a point that is 4 units to the right and 8 units up, which is \((8,18)\). &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal4" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="5" type="a"&gt;
+            &lt;li&gt; Use the graphing tool or technology outside the course. Sketch and label the graph of \(q\). Explain or show your reasoning. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal4" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/xLp8ZmqoW5GfTUNfrALFrd38" width="299" height="282"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;Recall that \(p(x)= -(x−4)^2+10\). Pilar says, "Once I know the vertex is \((4,10)\), I can find out, without graphing, whether the vertex is the maximum or the minimum of function \(p\). I would just compare the coordinates of the vertex with the coordinates of a point on either side of it."&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Complete the table by answering questions a and b.&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="48"&gt;
+        &lt;col width="36"&gt;
+        &lt;col width="45"&gt;
+        &lt;col width="34"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(3\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(4\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(5\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(p(x)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(10\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--Q1a--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="9" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol type="a"&gt;
+                &lt;li&gt; Evaluate \(p(3)\). &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 9. \(p(3)=-(3−4)^2+10=-(-1)^2+10=-1+10=9\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is 9. \(p(3)=-(3−4)^2+10=-(-1)^2+10=-1+10=9\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q1b--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="9" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="2" type="a"&gt;
+                &lt;li&gt; Evaluate \(p(5)\). &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 9. \(p(5)=-(5−4)^2+10=-(1)^2+10=-1+10=9\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is 9. \(p(5)=-(5−4)^2+10=-(1)^2+10=-1+10=9\).&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3" type="a"&gt;
+            &lt;li&gt; Explain how Pilar might have reasoned whether the vertex is the minimum or maximum. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The values of \(p(3)\) and \(p(5)\) are both less than 10. The vertex of a quadratic graph represents the minimum or the maximum of the function. Because the two points on either side of the vertex of \(p\) have a lesser \(y\)-value, the vertex must be the maximum.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+
+&lt;br&gt;
+&lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+&lt;h5&gt;Are you ready for more?&lt;/h5&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Choose the equation for a quadratic function whose graph has the vertex at \((2,3)\) and contains the point \((0,-5)\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; \(y=-2(x−2)^2+3\) &lt;/li&gt;
+    &lt;li&gt; \(y=-3(x−2)^2+2\) &lt;/li&gt;
+    &lt;li&gt; \(y=-5(x−2)^2\) &lt;/li&gt;
+    &lt;li&gt; \(y=2(x−2)^2+3\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(y=-2(x−2)^2+3\).&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;Use the graphing tool or technology outside the course. Sketch a graph of your function.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/uYsWxPjKnPcW9DL3ypF6KFMT" width="268" height="190"&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt;Use the graphing tool or technology outside the course. Sketch a graph of your function.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer here:&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/uYsWxPjKnPcW9DL3ypF6KFMT" width="268" height="190"&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4113">
+            <jumpto>1832</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665560924</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4114">
+            <jumpto>1834</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665560924</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1834">
+        <prevpageid>1833</prevpageid>
+        <nextpageid>1835</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1665562284</timecreated>
+        <timemodified>1665727411</timemodified>
+        <title>7.16.2: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;The equation of a quadratic function is \(y=(x-1)^2+5\) and the point \((3,9)\) also lies on the parabola. What is another point that lies on the parabola?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4120">
+            <jumpto>1835</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562284</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((-5, 9)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The vertex is at \((1,5)\). Use this to find a point symmetric to \((3,9)\) on the parabola. The \(x\)-coordinate will be 2 units to the left of 1. The answer is \((-1,9)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4121">
+            <jumpto>1835</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562284</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((3, 1)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The vertex is at \((1,5)\). Use this to find a point symmetric to \((3,9)\) on the parabola. The \(x\)-coordinate will be 2 units to the left of 1. The answer is \((-1,9)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4122">
+            <jumpto>1837</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1665562284</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((-1,9)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Because parabolas are symmetric and \((3, 9)\) is two units to the right of \(x=1\), there must be another point on the parabola two units to the left of \(x=1\) with the same \(y\)-coordinate as \((3, 9)\). That point is \((-1, 9)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4123">
+            <jumpto>1835</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562284</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((-1, 5)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The \(x\) -coordinate is correct. To find the \(y\)-value, substitute -1 into the equation. The point will be symmetric to \((3,9)\) on the parabola. The answer is \((-1,9)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4124">
+            <jumpto>1835</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562284</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1835">
+        <prevpageid>1834</prevpageid>
+        <nextpageid>1837</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665562351</timecreated>
+        <timemodified>1665562669</timemodified>
+        <title>7.16.2: Additional Resources </title>
+        <contents>&lt;h4&gt;Using Key Points to Graph Quadratics&lt;/h4&gt;
+&lt;p&gt;We saw that vertex form is especially helpful for finding the vertex of a graph of a quadratic function. For example, we can tell that the function \(p\) given by \(p(x)=(x-3)^2+1\) has a vertex at \((3,1)\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/CpX43JGkH1q7fj6MkncnaMp8" width="247" height="147"&gt;&lt;/p&gt;
+&lt;p&gt;We also noticed that, when the squared expression \((x-3)^2\) has a positive coefficient, the graph opens upward. This means that the vertex \((3,1)\) represents the minimum function value.&lt;/p&gt;
+&lt;p&gt;But why does the function \(p\) take on its minimum value when \(x\) is 3?&lt;/p&gt;
+&lt;p&gt;Here is one way to explain it: When \(x=3\), the squared term \((x-3)^2\) equals 0, as \((3-3)^2=0^2=0\). When \(x\) is any other value besides 3, the squared term \((x-3)^2\) is a positive number greater than 0. (Squaring any number results in a positive number.) This means that the output when \(x \neq 3\) will always be greater than the output when \(x=3\), so the function \(p\) has a minimum value at \(x=3\).&lt;/p&gt;
+&lt;p&gt;This table shows some values of the function for some values of \(x\). Notice that the output is the least when \(x=3\) and it increases both as \(x\) increases and as it decreases.&lt;/p&gt;
+&lt;table border="1" cellpadding="5"&gt;
+  &lt;colgroup&gt;
+  &lt;col width="107"&gt;
+  &lt;col width="73"&gt;
+  &lt;col width="73"&gt;
+  &lt;col width="73"&gt;
+  &lt;col width="73"&gt;
+  &lt;col width="73"&gt;
+  &lt;col width="73"&gt;
+  &lt;col width="73"&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\(x\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(0\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(1\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(2\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(3\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(4\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(5\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(6\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;\((x-3)^2+1\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(10\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(5\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(2\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(1\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(2\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(5\)&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;\(10\)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;The squared term sometimes has a negative coefficient, for instance: \(h(x)=-2(x+4)^2\). The \(x\) value that makes \((x+4)^2\) equal 0 is -4, because \((-4+4)^2=0^2=0\). Any other \(x\) value makes \((x+4)^2\) greater than 0. But when \((x+4)^2\) is multiplied by a negative number (-2), the resulting expression, \(-2(x+4)^2\), ends up being negative. This means that the output when \(x-4\) will always be less than the output when \(x=-4\), so the function \(h\) has its maximum value when \(x=-4\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/YLugjmkFkGRxDZLesLLFxNew" width="215" height="138"&gt;&lt;/p&gt;
+&lt;p&gt;Remember that we can find the \(y\)-intercept of the graph representing any function we have seen. The \(y\)-coordinate of the \(y\)-intercept is the value of the function when \(x=0\). If \(g\) is defined by \(g(x)=(x+1)^2-5\), then the \(y\)-intercept is \((0,-4)\) because \(g(0)=(0+1)^2-5=-4\). Its vertex is at \((-1,-5)\). Another point on the graph with the same \(y\)-coordinate is located the same horizontal distance from the vertex but on the other side.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/5a9WRV2qciedNJBkhSVVFXfs" width="220" height="139"&gt;&lt;/p&gt;
+&lt;h4&gt;Try It: Using Key Points to Graph Quadratics&lt;/h4&gt;
+
+
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+   &lt;p&gt;A quadratic function is represented by the equation \(y=(x+3)^2-5\). If \((5, 61)\) is another point on the graph, find a third point on the curve.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work.
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+	
+&lt;p&gt;Here is how to find another point on the curve:&lt;/p&gt;
+&lt;p&gt;One way to find another point on the curve is to use symmetry.&lt;/p&gt;
+&lt;p&gt;Since the vertex is \((-3, -5)\) and one point on the curve is \((5, 61)\), there is another point on the other side of the vertex. Keep in mind, the \(y\)-coordinate will remain at 61. To find the \(x\)-coordinate, we need to determine how far apart horizontally the vertex and the other point are located from each other. There are 8 units from -3 to 5, so the new point will also be 8 units from -3 but to the left. Thus, the \(x\)-coordinate will be at -11. So, there is another point at \((-11, 61)\).&lt;/p&gt;
+
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4125">
+            <jumpto>1834</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562351</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4126">
+            <jumpto>1837</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562351</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text> I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1837">
+        <prevpageid>1835</prevpageid>
+        <nextpageid>1838</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665562380</timecreated>
+        <timemodified>1666296123</timemodified>
+        <title>7.16.3: Quadratic Equations and Graphs</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/f38d59f200df6a983128aa7f5619f7153bdd8c78" alt="GRAPHS A THROUGH F. GRAPH A IS A PARABOLA THAT OPENS UP WITH A VERTEX AT (4, 1). GRAPH B IS A PARABOLA THAT OPENS UP WITH A VERTEX AT (NEGATIVE 1, NEGATIVE 4). GRAPH C IS A PARABOLA THAT OPENS DOWN WITH A VERTEX AT (4, 1). GRAPH D IS A PARABOLA THAT OPENS DOWN WITH A VERTEX AT (NEGATIVE 1, NEGATIVE 4). GRAPH E IS A PARABOLA THAT OPENS UP WITH A VERTEX AT (NEGATIVE 4, NEGATIVE 1). GRAPH F IS A PARABOLA THAT OPENS UP WITH A VERTEX AT (1, 4)." width="550" height="277" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/f38d59f200df6a983128aa7f5619f7153bdd8c78" target="_blank"&gt;Moodle 6.16.3 Image of all 6 graphs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Your teacher will give you a set of cards. Each card contains an equation or a graph that represents a quadratic function. Take turns matching each equation to a graph that represents the same function.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; For each pair of cards that you match, explain to your partner how you know they belong together. &lt;/li&gt;
+    &lt;li&gt; For each pair of cards that your partner matches, listen carefully to their explanation. If you disagree, discuss your thinking and work to reach an agreement. &lt;/li&gt;
+    &lt;li&gt; Once all the cards are matched, record the equation, the letter of the equation, and a sketch of the corresponding graph, and write a brief note or explanation about how you knew they were a match. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt; ----------------------------------------
+
+    &lt;!--Q#--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(f(x)=(x−1)^2+4\)" data-solution-options="[&amp;quot;\\(f(x)=(x−1)^2+4\\)&amp;quot;, &amp;quot;\\(g(x)=-(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(h(x)=(x+1)^2−4\\) &amp;quot;, &amp;quot;\\(p(x)=-(x+1)^2−4\\)&amp;quot;, &amp;quot;\\(q(x)=2(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(r(x)=(x+4)^2−1\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/9e3666853195ea17931a06f0d3d0c0ea93498bf8" width="300" height="307"&gt;&lt;/p&gt;
+            &lt;ol class="os-raise-noindent"&gt;
+                &lt;li&gt;Choose the equation that matches this graph.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(f(x)=(x−1)^2+4\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(f(x)=(x−1)^2+4\)&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q#2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(g(x)=-(x−4)^2+1\)" data-solution-options="[&amp;quot;\\(f(x)=(x−1)^2+4\\)&amp;quot;, &amp;quot;\\(g(x)=-(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(h(x)=(x+1)^2−4\\) &amp;quot;, &amp;quot;\\(p(x)=-(x+1)^2−4\\)&amp;quot;, &amp;quot;\\(q(x)=2(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(r(x)=(x+4)^2−1\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/4d466c76748bb2ecb4bcf5c219c37a8d42e389ad" width="300" height="307"&gt;&lt;/p&gt;
+            &lt;ol start="2" class="os-raise-noindent"&gt;
+                &lt;li&gt;Choose the equation that matches this graph.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(g(x)=-(x−4)^2+1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(g(x)=-(x−4)^2+1\)&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q#3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(h(x)=(x+1)^2−4\)" data-solution-options="[&amp;quot;\\(f(x)=(x−1)^2+4\\)&amp;quot;, &amp;quot;\\(g(x)=-(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(h(x)=(x+1)^2−4\\) &amp;quot;, &amp;quot;\\(p(x)=-(x+1)^2−4\\)&amp;quot;, &amp;quot;\\(q(x)=2(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(r(x)=(x+4)^2−1\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/d28232a07fc49824d62edd58f17311938ace6810" width="300" height="309"&gt;&lt;/p&gt;
+            &lt;ol start="3" class="os-raise-noindent"&gt;
+                &lt;li&gt;Choose the equation that matches this graph.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(h(x)=(x+1)^2−4\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(h(x)=(x+1)^2−4\)&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q#4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(p(x)=-(x+1)^2−4\)" data-solution-options="[&amp;quot;\\(f(x)=(x−1)^2+4\\)&amp;quot;, &amp;quot;\\(g(x)=-(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(h(x)=(x+1)^2−4\\) &amp;quot;, &amp;quot;\\(p(x)=-(x+1)^2−4\\)&amp;quot;, &amp;quot;\\(q(x)=2(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(r(x)=(x+4)^2−1\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6aba729ee1a38d4bff05e4f6d2a781e6f85c6d9f" width="419" height="419"&gt;&lt;/p&gt;
+            &lt;ol start="4" class="os-raise-noindent"&gt;
+                &lt;li&gt;Choose the equation that matches this graph.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(p(x)=-(x+1)^2−4\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(p(x)=-(x+1)^2−4\)&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q#5--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(q(x)=2(x−4)^2+1\)" data-solution-options="[&amp;quot;\\(f(x)=(x−1)^2+4\\)&amp;quot;, &amp;quot;\\(g(x)=-(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(h(x)=(x+1)^2−4\\) &amp;quot;, &amp;quot;\\(p(x)=-(x+1)^2−4\\)&amp;quot;, &amp;quot;\\(q(x)=2(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(r(x)=(x+4)^2−1\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e26776c65d185b7d6ef47ffebf88d403f2ecf7e2" width="300" height="298"&gt;&lt;/p&gt;
+            &lt;ol start="5" class="os-raise-noindent"&gt;
+                &lt;li&gt;Choose the equation that matches this graph.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(q(x)=2(x−4)^2+1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(q(x)=2(x−4)^2+1\)&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    &lt;!--Q#6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(r(x)=(x+4)^2−1\)" data-solution-options="[&amp;quot;\\(f(x)=(x−1)^2+4\\)&amp;quot;, &amp;quot;\\(g(x)=-(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(h(x)=(x+1)^2−4\\) &amp;quot;, &amp;quot;\\(p(x)=-(x+1)^2−4\\)&amp;quot;, &amp;quot;\\(q(x)=2(x−4)^2+1\\)&amp;quot;, &amp;quot;\\(r(x)=(x+4)^2−1\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/bccc7cd3f38774bf699d865ccb8eed107cb66e59" width="300" height="298"&gt;&lt;/p&gt;
+            &lt;ol start="6" class="os-raise-noindent"&gt;
+                &lt;li&gt;Choose the equation that matches this graph.&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(r(x)=(x+4)^2−1\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;The correct answer is \(r(x)=(x+4)^2−1\)&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--END QUESTION.--&gt;
+    ------------------------------------
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h4&gt;Video: Learning About Quadratic Equations and Graphs&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about quadratic equations and graphs.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/ed46d4e172a9596e0ebddd22dd41d4482020ea61"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/699de55621cdcd90927da9dbf409c144e43650c8" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/ed46d4e172a9596e0ebddd22dd41d4482020ea61
+&lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4127">
+            <jumpto>1833</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562380</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4128">
+            <jumpto>1838</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562380</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1840">
+        <prevpageid>1836</prevpageid>
+        <nextpageid>1841</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665562509</timecreated>
+        <timemodified>1665675157</timemodified>
+        <title>7.16.5: Practice</title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    &lt;!--1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="2" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent"&gt;
+                &lt;li&gt;What is the \(x\)-coordinate of the vertex of the graph that represents \(y=(x−2)^2−8\)?&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! 2. The \(x\)-coordinate of the vertex is found by using the squared term of the vertex form. The value of the \(x\)-coordinate of the vertex of the graph is 2.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 7.16.2–7.16.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 2. The \(x\)-coordinate of the vertex is found by using the squared term of the vertex form. The value of the \(x\)-coordinate of the vertex of the graph is 2. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-8" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="2"&gt;
+                &lt;li&gt;What is the \(y\)-coordinate of the vertex of the graph that represents \(y=(x−2)^2−8\)? &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! -8. In vertex form, the \(y\)-coordinate of the vertex is the constant. The value of the \(y\)-coordinate of the vertex of the graph is -8.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activities 7.16.2–7.16.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is -8. In vertex form, the \(y\)-coordinate of the vertex is the constant. The value of the \(y\)-coordinate of the vertex of the graph is -8. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="-4" data-problem-comparator="integer"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="3"&gt;
+                &lt;li&gt;Where is the \(y\)-intercept for the equation \(y=(x−2)^2−8\) located?&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Enter your answer here.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! -4. Substitute 0 for \(x\) and you get \(y=(0−2)^2−8=4−8=-4\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 7.16.2–7.16.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is -4. Substitute 0 for \(x\) and you get \(y=(0−2)^2−8=4−8=-4\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--q4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((4,-4)\)" data-solution-options="[&amp;quot;\\((4,-4)\\)&amp;quot;, &amp;quot;\\((-4,4)\\)&amp;quot;, &amp;quot;\\((4,4)\\)&amp;quot;, &amp;quot;\\((-4,-4)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="4"&gt;
+                &lt;li&gt;Which of the following is another point on the graph of the equation \(y=(x−2)^2−8\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \((4,-4)\). The \(y\)-intercept is 2 horizontal units to the left of the vertical line containing the vertex (the axis of symmetry). Using the symmetry of the graph, another point with the same \(y\)-coordinate is located 2 horizontal units to the right of the vertical line containing the vertex.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activity 7.16.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: \((4,-4)\). The \(y\)-intercept is 2 horizontal units to the left of the vertical line containing the vertex (the axis of symmetry). Using the symmetry of the graph, another point with the same \(y\)-coordinate is located 2 horizontal units to the right of the vertical line containing the vertex. You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q5--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&amp;quot;Yes&amp;quot;, &amp;quot;No&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="5"&gt;
+                &lt;li&gt;Is this graph a representation of \(y=(x−2)^2−8\)?&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/BEdXFEbs91GjNEMhdRkSbzmp" width="268" height="219"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! Yes&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 7.16.3 and 7.16.4. Are you using it the right way? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is Yes. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="The vertex shows the minimum value." data-solution-options="[&amp;quot;The vertex shows the minimum value.&amp;quot;, &amp;quot;The vertex shows the maximum value.&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="6"&gt;
+                &lt;li&gt;The function \(v\) is defined by \(v(x)=12(x+5)^2−7\).&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;Without graphing, determine if the vertex of the graph representing \(v\) shows the minimum or maximum value of the function.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt; Correct! The vertex shows the minimum value. The \(a\)-value, or the coefficient of the squared term is positive, so the graph opens upward.This means the \(y\)-coordinate of the vertex is the minimum value of the function. The vertex is at \((-5,-7)\). To verify your response, enter a couple of \(x\) -values on either side of -5 into the function. For example, find \(v(-6)\) and \(v(-4)\). Each time, the output is greater than \(v(-5)\).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activity 7.14.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: The vertex shows the minimum value. The \(a\)-value, or the coefficient of the squared term is positive, so the graph opens upward.This means the \(y\)-coordinate of the vertex is the minimum value of the function. The vertex is at \((-5,-7)\). To verify your response, enter a couple of \(x\) -values on either side of -5 into the function. For example, find \(v(-6)\) and \(v(-4)\). Each time, the output is greater than \(v(-5)\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--q7--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=(x−6)^2−5\)" data-solution-options="[&amp;quot;\\(y=-2(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=6(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=-\\frac {1}{3}(x−6)^2−5\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="7"&gt;
+                &lt;li&gt;Choose the equation that matches the graph of parabola A.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/BEdXFEbs91GjNEMhdRkSbzmp" width="268" height="219"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct! \(y=(x−6)^2−5\)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.16.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: \(y=(x−6)^2−5\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--q8--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=-2(x−6)^2−5\)" data-solution-options="[&amp;quot;\\(y=-2(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=6(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=-\\frac {1}{3}(x−6)^2−5\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="8"&gt;
+                &lt;li&gt;Choose the equation that matches the graph B.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/BEdXFEbs91GjNEMhdRkSbzmp" width="268" height="219"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activity 7.16.3 to test your understanding? Then come back and try this question again.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: \(y=-2(x−6)^2−5\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--9--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=6(x−6)^2−5\)" data-solution-options="[&amp;quot;\\(y=-2(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=6(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=-\\frac {1}{3}(x−6)^2−5\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="9"&gt;
+                &lt;li&gt;Choose the equation that matches the graph C.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/BEdXFEbs91GjNEMhdRkSbzmp" width="268" height="219"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 7.16.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: \(y=6(x−6)^2−5\) You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!--Mq10--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y=-\frac {1}{3}(x−6)^2−5\)" data-solution-options="[&amp;quot;\\(y=-2(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=6(x−6)^2−5\\)&amp;quot;, &amp;quot;\\(y=-\\frac {1}{3}(x−6)^2−5\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="10"&gt;
+                &lt;li&gt;Choose the equation that matches the graph D.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/BEdXFEbs91GjNEMhdRkSbzmp" width="268" height="219"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activity 7.16.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is: \(y=-\frac {1}{3}(x−6)^2−5\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--Do not edit below this line--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4133">
+            <jumpto>1836</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562509</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4134">
+            <jumpto>1841</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562509</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1838">
+        <prevpageid>1837</prevpageid>
+        <nextpageid>1839</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1665562181</timecreated>
+        <timemodified>1665562713</timemodified>
+        <title>7.16.3: Self Check</title>
+        <contents>&lt;p&gt;Which of the following equations matches the graph below?&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/d77bd4775e34e02716bc6ffdbfc8e5dfd9ded166" width="300" height="306"&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4115">
+            <jumpto>1839</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562181</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y=(x-3)^2+2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The parabola opens down. The answer is \(y=-(x-3)^2+2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4116">
+            <jumpto>1836</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1665562181</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y=-(x-3)^2+2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The parabola opens down, so the value of \(a\) should be negative. The vertex is at \((3,2)\) so this is the correct vertex form for the graph.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4117">
+            <jumpto>1839</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562181</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y=-(x+3)^2+2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This quadratic has a vertex at \((-3, 2)\) but the graph has a vertex at \((3, 2)\). The answer is \(y=-(x-3)^2+2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4118">
+            <jumpto>1839</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562181</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y=(x+3)^2+2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This quadratic has a vertex at \((-3, 2)\) but the graph has a vertex at \((3, 2)\) and opens down. The answer is \(y=-(x-3)^2+2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4119">
+            <jumpto>1839</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562181</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1839">
+        <prevpageid>1838</prevpageid>
+        <nextpageid>1836</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665562433</timecreated>
+        <timemodified>1665562966</timemodified>
+        <title>7.16.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Matching Graphs and Equations&lt;/h4&gt;
+&lt;p&gt;When matching graphs of quadratic functions and their equations, look for the matching vertex. Then look if the parabola is opening up or down. Finally, use another point to determine if the graph has been compressed or stretched. Recall this type of transformation will affect the \(a\)-value of the equation.&lt;/p&gt;
+&lt;p&gt;Looking at the graph below, choose the equation that matches the graph.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/e8f20cb5a53f3f5adc16739395465feb2a796acf" width="300" height="296" alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AT (NEGATIVE 2, NEGATIVE 3)."&gt;&lt;/p&gt;
+&lt;ol type="a"&gt;
+    &lt;li&gt; \(y=(x-2)^2-3\) &lt;/li&gt;
+    &lt;li&gt; \(y=(x+2)^2-3\) &lt;/li&gt;
+    &lt;li&gt; \(y=-(x+2)^2-3\) &lt;/li&gt;
+    &lt;li&gt; \(y=-(x-2)^2-3\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Find the vertex.&lt;br&gt;
+    The vertex is at \((-2, -3)\).&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Does the parabola open up or down?&lt;br&gt;
+    The parabola opens up. So the leading coefficient is positive.&lt;/p&gt;
+&lt;p&gt;The correct answer is b. \(y=(x+2)^2-3\).&lt;/p&gt;
+&lt;p&gt;Remember the vertex form is \(y = a(x - h)^2 + k\). If the \(x\)-variable is being added in the parenthesis, the parabola has been shifted left.&lt;br&gt;
+    The \((x + 2)\) moves the parabola left 2.&lt;br&gt;
+    The -3 shifts it down 3 from the origin.&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Use the vertex form of the equation and write the parts you know: the coordinates of the vertex.&lt;br&gt;
+    \(y=a(x+2)^2-3\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    To solve for \(a\), find another point on the graph of the parabola and plug in those values for \(x\) and \(y\) in the equation you wrote.&lt;br&gt;
+    Substitute the point \((-1, -2)\) into the equation to check the value of \(a\). We have hypothesized \(a = 1\), and with the coordinates from the second point, \(x = -1\) and \(y = -2\).&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    Solve for \(a\).&lt;br&gt;
+    \(-2 = a(-1 + 2)^2 - 3\). Now solve for \(a\) to find that \(a = 1\).&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+    Plug the value for \(a\) back into the equation.&lt;br&gt;
+    So, \(y=(x+2)^2-3\).&lt;/p&gt;
+&lt;h4&gt;Try It: Matching Graphs and Equations&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Match the graph with its equation in vertex form.&lt;/p&gt;
+        &lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c73dfd9bb3e24c529a0745e0a8a4eacd6bd86603" width="300" height="296" alt="GRAPH OF A PARABOLA THAT OPENS UP WITH A VERTEX AS (1, 2)."&gt;&lt;/p&gt;
+        &lt;ol type="a" class="os-raise-noindent"&gt;
+            &lt;li&gt; \(y=(x+1)^2+2\) &lt;/li&gt;
+            &lt;li&gt; \(y=-(x+1)^2+2\) &lt;/li&gt;
+            &lt;li&gt; \(y=-(x-1)^2+2\) &lt;/li&gt;
+            &lt;li&gt; \(y=(x-1)^2+2\) &lt;/li&gt;&lt;/ol&gt;
+        
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to match a graph and its equation:&lt;/p&gt;
+    &lt;p&gt;Step 1&lt;br&gt;
+        Find the vertex.&lt;br&gt;
+        \((1, 2)\)&lt;/p&gt;
+    &lt;p&gt;Step 2&lt;br&gt;
+        Does the parabola open up or down?&lt;br&gt;
+        Up — this means the leading coefficient is positive.&lt;/p&gt;
+    &lt;p&gt;Step 3&lt;br&gt;
+        Use the vertex form of the equation and write the parts you know: the coordinates of the vertex.&lt;br&gt;
+        \(y=a(x-1)^2+2\)&lt;/p&gt;
+    &lt;p&gt;Step 4&lt;br&gt;
+        To solve for \(a\), find another point on the graph of the parabola and plug in those values for \(x\) and \(y\) in the equation you wrote.&lt;br&gt;
+        \((0, 3)\) is also on the graph of this parabola. So, \(3=a(0-1)^2+2\).&lt;/p&gt;
+    &lt;p&gt;Step 5&lt;br&gt;
+        Solve for \(a\).&lt;br&gt;
+        \(3=a(0-1)^2+2\)&lt;/p&gt;
+    &lt;p&gt;\(3=a(-1)^2+2\)&lt;/p&gt;
+    &lt;p&gt;\(3=a+2\)&lt;br&gt;
+        \(1=a\)&lt;/p&gt;
+    &lt;p&gt;Step 6&lt;br&gt;
+        Plug the value for \(a\) back into the equation.&lt;br&gt;
+        \(y=1(x-1)^2+2\)&lt;br&gt;
+        \(y=(x-1)^2+2\)&lt;br&gt;
+        The answer is d.&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4129">
+            <jumpto>1838</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562433</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4130">
+            <jumpto>1836</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562433</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1836">
+        <prevpageid>1839</prevpageid>
+        <nextpageid>1840</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665562470</timecreated>
+        <timemodified>1665718121</timemodified>
+        <title>7.16.4: Sketching A Graph of an Equation</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Check" data-schema-version="1.0"&gt; 
+  &lt;!--Q1a--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="3" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt;What is the \(x\)-coordinate of the vertex of the graph defined by \(y=(x−3)^2+2\)?&lt;/li&gt;
+      &lt;/ol&gt;
+      &lt;p&gt;Enter your answer here.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! 3. The \(x\)-coordinate of the vertex is found by using the squared term of the vertex form. The \(x\)-coordinate of the vertex of the graph is 3.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;The correct answer is 3.The \(x\)-coordinate of the vertex is found by using the squared term of the vertex form. The value of the \(x\)-coordinate of the vertex of the graph is 3.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--END QUESTION.--&gt; 
+  &lt;!--Q1b--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="input" data-solution="2" data-problem-comparator="integer"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol start="2" class="os-raise-noindent"&gt;
+        &lt;li&gt;What is the \(y\)-coordinate of the vertex of the graph defined by \(y=(x−3)^2+2\)?&lt;/li&gt;
+      &lt;/ol&gt;
+      &lt;p&gt;Enter your answer here.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct! 2. In vertex form, the \(y\)-coordinate of the vertex is the constant. The value of the \(y\)-coordinate of the vertex of the graph is 2.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;The correct answer is 2. In vertex form, the \(y\)-coordinate of the vertex is the constant. The value of the \(y\)-coordinate of the vertex of the graph is 2&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--END QUESTION.--&gt; 
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol start="3" class="os-raise-noindent"&gt;
+      &lt;li&gt;Find the coordinates of two other points on the graph. The points should be symmetric across the vertex. Show your reasoning.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answer:&lt;/p&gt;
+  &lt;p&gt;\((0,11)\) and \((6,11)\). When \(x\) is 0, the value of \(y\) is \((-3)^2+2\) or 11. The other point is 3 units to the right of the vertex with the same \(y\)-coordinate.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;&lt;div class="os-raise-ib-desmos-gc" data-schema-version="1.0"&gt;&lt;/div&gt;&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol start="4" class="os-raise-noindent"&gt;
+      &lt;li&gt;Use the graphing tool or technology outside the course. Draw a graph that represents the equation \(y=(x−3)^2+2\).&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answer. Then select the &lt;strong&gt;Solution&lt;/strong&gt; button to compare your work. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answer:&lt;/p&gt;
+  &lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/J9Sh3v57QJojTxRpK2inQNbU" width="428" height="404"&gt;&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4131">
+            <jumpto>1837</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562470</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4132">
+            <jumpto>1840</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562470</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1841">
+        <prevpageid>1840</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1665562553</timecreated>
+        <timemodified>1665562761</timemodified>
+        <title>7.16.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; Graph a quadratic function given in vertex form, showing the maximum or minimum and the y-intercept. &lt;/li&gt;
+  &lt;li&gt; Find the maximum or the minimum of a quadratic function given in vertex form without first graphing it. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the activities that helped you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 7.16.1: Three Forms of Quadratic Expressions 
+    &lt;ul class="os-raise-indent"&gt;
+      &lt;li&gt; In this activity, you identified which forms of quadratics would be best to use to find different characteristics of the graphs of the functions. &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt; 7.16.2: Graph Functions in Vertex Form 
+    &lt;ul class="os-raise-indent"&gt;
+      &lt;li&gt; In this activity, you completed the graphs of quadratic functions using knowledge of finding the vertex from vertex form and the symmetry of parabolas. &lt;/li&gt;
+      &lt;li&gt; 7.16.2: Self Check &lt;/li&gt;
+      &lt;li&gt; 7.16.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt; 7.16.3: Quadratic Equations and Graphs 
+    &lt;ul class="os-raise-indent"&gt;
+      &lt;li&gt; In this activity, you matched graphs of quadratic functions with the appropriate equations in vertex form. &lt;/li&gt;
+      &lt;li&gt; 7.16.3: Self Check &lt;/li&gt;
+      &lt;li&gt; 7.16.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt; 7.16.4: Sketching A Graph of an Equation 
+    &lt;ul class="os-raise-indent"&gt;
+      &lt;li&gt; In this activity, you sketched the graph of a quadratic function using the vertex form. You graphed the vertex and two other points to complete the graph. &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following practice:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 7.16.5: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
+  
+  &lt;!--pulldown--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4135">
+            <jumpto>1840</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562553</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4136">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1665562553</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

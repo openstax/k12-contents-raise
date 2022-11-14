@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="238" moduleid="315" modulename="lesson" contextid="326">
+  <lesson id="238">
+    <course>2</course>
+    <name>Lesson 9.4 Teacher Guide: Completing the Square, Part 3</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>316</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1667498169</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="2169">
+        <prevpageid>0</prevpageid>
+        <nextpageid>2170</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666986821</timecreated>
+        <timemodified>1667530258</timemodified>
+        <title>9.4.0: Lesson Overview</title>
+        <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
+&lt;p&gt;Prior to this lesson, students have solved quadratic equations by completing the square, but all the equations were monic quadratic equations, in which the squared term has a coefficient of 1. In this lesson, students complete the square to solve non-monic quadratic equations, in which the squared term has a coefficient other than 1.&lt;/p&gt;
+&lt;p&gt;Students begin by noticing that the structure for expanding expressions such as \((x+m)^2\) can also be used to expand expressions such as \((kx+m)^2\). The expanded expression is always \(k^2x^2+2kmx+m^2\). If the perfect square in standard form is \(ax^2+bx+c\), then \(a\) is \(k^2\), \(b\) is \(2km\), and \(c\) is \(m^2\). Recognizing this structure allows students to complete the square for expressions \(ax^2+bx+c\) when \(a\) is not 1, and then to solve equations with such expressions.&lt;/p&gt;
+&lt;p&gt;Completing the square when \(a\) is not 1 can be rather laborious, even when \(a\) is a perfect square and \(b\) is an even number. It is even more time consuming and complicated when \(a\) is not a perfect square and \(b\) is not an even number. Students are not expected to master the skill of solving non-monic quadratic equations by completing the square. In fact, they should see that this method has its limits and seek a more efficient strategy.&lt;/p&gt;
+&lt;p&gt;This lesson aims only to show that non-monic quadratic equations can be solved by completing the square and exposing students to how it can be done. This exposure provides some background knowledge that will be helpful when students derive the quadratic formula later.&lt;/p&gt;
+&lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; Generalize (orally) a process for completing the square to express any quadratic equation in the form \((kx+m)^2=q\). &lt;/li&gt;
+  &lt;li&gt; Solve quadratic equations in which the squared term has a coefficient other than 1 by completing the square. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; Complete the square for quadratic expressions of the form \(ax^2+bx+c\) when \(a\) is not 1 and explain the process. &lt;/li&gt;
+  &lt;li&gt; Solve quadratic equations in which the squared term coefficient is not 1 by completing the square. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
+&lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+  &lt;colgroup&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;A8(A) &lt;u&gt;solve quadratic equations having real solutions by&lt;/u&gt; factoring, taking square roots, &lt;u&gt;completing the square&lt;/u&gt;, and applying the quadratic formula.&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Lesson Activities&lt;/h4&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 9.4.1: Perfect Squares with Coefficients Other than 1 &lt;/li&gt;
+  &lt;li&gt; 9.4.2: Rewrite Squared Expressions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li aria-level="2"&gt; 9.4.2: Self Check &lt;/li&gt;
+    &lt;li aria-level="2"&gt; 9.4.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 9.4.3: Standard Form and Squared Factors &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li aria-level="2"&gt; 9.4.3 Self Check &lt;/li&gt;
+    &lt;li aria-level="2"&gt; 9.4.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 9.4.4: Three Different Methods for Solving an Equation &lt;/li&gt;
+  &lt;li&gt; 9.4.5: Perfect Square and Squared Factors &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will also complete a series of problems in the 9.4.6: Practice.&lt;/p&gt;
+&lt;h4&gt;Required Materials&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Required Preparation&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; Familiarize students with the vocabulary words they will see throughout the lesson. &lt;/li&gt;
+  &lt;li&gt; Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
+  &lt;li&gt; Encourage students to use key vocabulary words in "math talk" and their written and oral explanations. &lt;/li&gt;
+  &lt;li&gt; Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson:&lt;/p&gt;
+&lt;table class="os-raise-standardtable"&gt;
+  &lt;colgroup&gt;
+  &lt;col&gt;
+  &lt;col&gt;
+  &lt;/colgroup&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="top"&gt;&lt;ul&gt;
+          &lt;li&gt; completing the square &lt;/li&gt;
+          &lt;li&gt; distributive property &lt;/li&gt;
+          &lt;li&gt; factors &lt;/li&gt;
+          &lt;li&gt; perfect square trinomial &lt;/li&gt;
+        &lt;/ul&gt;&lt;/td&gt;
+      &lt;td valign="top"&gt;&lt;ul&gt;
+          &lt;li&gt; none &lt;/li&gt;
+        &lt;/ul&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Support for Building Character&lt;/h4&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;intellectual humility&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/the-why-of-education/" target="_blank"&gt;The Why of Education&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/tough-teachers/" target="_blank"&gt;Tough Teachers&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find other tips located here in the&lt;a href="https://characterlab.org/playbooks/intellectual-humility/" target="_blank"&gt; Playbook on Intellectual Humility&lt;/a&gt; from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4867">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666986821</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2170">
+        <prevpageid>2169</prevpageid>
+        <nextpageid>2171</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666987896</timecreated>
+        <timemodified>1667415748</timemodified>
+        <title>9.4.1: Perfect Squares with Coefficients Other than 1 </title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
+&lt;p&gt;In this warm up, students consider perfect squares in standard form in which the leading coefficient is not 1. They use what they know about expanding \((x+m)^2\) to analyze the expansion of an expression of the form \((kx+m)^2\) and to identify an error. In explaining and correcting the error, students practice constructing logical arguments.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Display the entire task for all to see. Give students two minutes of quiet think time. Select students to share their responses and how they reasoned about the error in Elena's statement.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Elena says, "\((x+3)^2\) can be expanded into \(x^2+6x+9\). Likewise, \((2x+3)^2\) can be expanded into \(4x^2+6x+9\)."&lt;/p&gt;
+&lt;p&gt;Find an error in Elena's statement and correct the error. Show your reasoning.&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((2x+3)^2\) is not equivalent to \(4x^2+6x+9\).&lt;/p&gt;
+&lt;p&gt;Applying the distributive property to \((2x+3)(2x+3)\) gives \(4x^2+6x+6x+9\), which is \(4x^2+12x+9\).&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Select one to two students to share their responses. Make sure students see that expanding the expression \((kx+m)^2\) involves the same structure as expanding \((x+m)^2\). Highlight the structure using a diagram and the distributive property.&lt;/p&gt;
+&lt;p&gt;When we expand \((x+3)^2\), the squared term is \(x^2\), the linear term is 2 times \((3)(x)\), which is \(6x\), and the constant term is \(3^2\). When we expand \((2x+3)^2\), the squared term is \((2x)^2\), the linear term is 2 times \((2x)(3)\), which is \(12x\), and the constant term is \(3^2\). Make sure that students rewrite \((x+3)^2\)as \((x + 3)(x + 3)\) and then perform the distributive property, rather than simply squaring each term in the binomial.&lt;/p&gt;
+&lt;p&gt;Students will have opportunities to transform more of such expressions later and, with practice, will better see the effects of squaring a linear expression like \(2x+3\), in which the coefficient of the variable is not 1.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4868">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666987896</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4869">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666987896</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2171">
+        <prevpageid>2170</prevpageid>
+        <nextpageid>2172</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666988359</timecreated>
+        <timemodified>1668196032</timemodified>
+        <title>9.4.2: Rewrite Squared Expressions</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;In this activity, students use the structure they saw earlier to rewrite squared expressions of the form \((kx+m)^2\), where \(k\) is not 1, into standard form. Through repeated reasoning, students see how the coefficient \(k\) is related to the values of \(a\) and \(b\) when the expression is expanded into \(ax^2+bx+c\), and how the \(m\) is related to \(c\).&lt;/p&gt;
+&lt;p&gt;As students work, monitor for the following strategies for rewriting the expressions in the first question (from factored form to standard form):&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Drawing rectangular diagrams. &lt;/li&gt;
+    &lt;li&gt; Applying the distributive property, writing out all the expanded terms, and combining like terms. &lt;/li&gt;
+    &lt;li&gt; Generalizing that when expanding an expression such as \((4x+1)^2\): &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; The coefficient 4 in \(4x+1\) gets squared, so \(a\) in \(ax^2+bx+c\) is \(4^2\). &lt;/li&gt;
+        &lt;li&gt; The coefficient 4 in \(4x+1\) gets multiplied by the constant term 1 twice, so \(b\) is \(2(4)(1)\). &lt;/li&gt;
+        &lt;li&gt; The constant term 1 in \(4x+1\) is squared, so \(c\) is \(1^2\). &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;Identify students using each strategy and invite them to share during the class discussion.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Explain to students that they will now practice squaring expressions such as \(4x+1\) and \(\frac{1}{2}x+7\), where the coefficient of the linear term is not 1, and writing them in standard form.&lt;/p&gt;
+&lt;p&gt;Consider arranging students in groups of two and asking them to think quietly about each question before conferring with their partner.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Write each expression in standard form:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+    &lt;li&gt;\((4x+1)^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(16x^2+8x+1\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+    &lt;li&gt;\((5x−2)^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(25x^2−20x+4\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+    &lt;li&gt;\((\frac{1}{2}x+7)^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(\frac{1}{4}x^2+7x+49\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="4"&gt;
+    &lt;li&gt;\((3x+n)^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(9x^2+2(3)(n)x+n^2\) or \(9x^2+6nx+n^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="5"&gt;
+    &lt;li&gt;\((kx+m)^2\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(k^2x^2+2kmx+m^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+    &lt;li&gt;Decide if each expression is a perfect square. If so, write an equivalent expression of the form \((kx+m)^2\). If not, suggest one change to turn it into a perfect square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+    &lt;li&gt;\(4x^2+12x+9\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Yes, a perfect square. \((2x+3)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+    &lt;li&gt;\(4x^2+8x+25\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; No, not a perfect square. Suggested changes include:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Changing the coefficient of the linear term to 20 gives \(4x^2+20x+25\), which is equivalent to \((2x+5)^2\). &lt;/li&gt;
+    &lt;li&gt; Changing the coefficient of the linear term to -20 gives \(4x^2−20x+25\), which is equivalent to \((2x−5)^2\). &lt;/li&gt;
+    &lt;li&gt; Changing the constant term to 4 gives \(4x^2+8x+4\), which is equivalent to \((2x+2)^2\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Video: Rewrite Squared Expressions&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about rewriting squared expressions.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/72e5797ce35541d183e0ff3955751a0ef621703e"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/8015b5ed95d318a3d575e2dcb0ce6c29fe6d9d56" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/72e5797ce35541d183e0ff3955751a0ef621703e
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Select previously identified students to share their responses and strategies for the first question, starting with students who used diagrams and ending with students who generalized the pattern in the rewriting process. As students explain, display or record their reasoning for all to see.&lt;/p&gt;
+&lt;p&gt;If not mentioned in students' explanations, highlight the generalization noted in the activity narrative.&lt;/p&gt;
+&lt;p&gt;Then, discuss how students used their insights from the first question to help them identify perfect squares, or to turn expressions into perfect squares, in the second question. Make sure students see the structure behind the values of \(a\), \(b\), and \(c\) when the expression \(ax^2+bx+c\) is a perfect square. This structure will help them complete the square in the next activity.&lt;/p&gt;
+&lt;h3&gt;9.4.2: Self Check&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="302"&gt;
+        &lt;col width="322"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Find the equivalent factored expression for \(4x^2+12x+9\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(4(x^2+3x+9)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: While 4 is the greatest common factor (GCF) of the first two terms, it is not a factor of 9. The answer is \((2x+3)^2\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((2x-3)^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: This is equivalent to \(4x^2-12x+9\). The answer is \((2x+3)^2\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((2x+3)^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That's correct! Check yourself: When multiplied using distribution, \((2x + 3)(2x + 3)\) equals the given expression.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\((2x+3)(2x-3)\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: This is equivalent to \(4x^2-9\). The answer is \((2x+3)^2\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;9.4.2: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Factoring Perfect Square Trinomials&lt;/h4&gt;
+&lt;p&gt;To factor perfect square trinomials, follow the formulas:&lt;/p&gt;
+&lt;p&gt;\(a^2+2ab+b^2=(a+b)^2\)&lt;/p&gt;
+&lt;p&gt;\(a^2-2ab+b^2=(a-b)^2\)&lt;/p&gt;
+&lt;p&gt;Let's look at an example of how to factor perfect square trinomials.&lt;/p&gt;
+&lt;p&gt;Example&lt;/p&gt;
+&lt;p&gt;Factor \(9x^2+12x+4\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Does the trinomial fit the perfect square trinomial pattern, \(a^2+2ab+b\)? &lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Is the first term a perfect square? Write it as a square, \(a^2\). &lt;br&gt;
+        Is \(9x^2a\) perfect square? &lt;br&gt;
+        Yes — write it as \((3x)^2\). &lt;br&gt;
+        \(\begin{array}{l}9x^2\;+\;12x\;+\;4 \\ (3x)^2\;\end{array}\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Is the last term a perfect square? Write it as a square, \(b^2\). &lt;br&gt;
+        Is 4 a perfect square? &lt;br&gt;
+        Yes — write it as \((2)^2\). &lt;br&gt;
+        \(\begin{array}{l}9x^2\;+\;12x\;+\;4 \\ (3x)^2\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;(2)^2\end{array}\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Check the middle term. Is it \(2ab\)?&lt;br&gt;
+        Is \(12x\) twice the product of \(3x\) and 2? &lt;br&gt;
+        Does it match? &lt;br&gt;
+        Yes, so we have a perfect trinomial. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(\begin{array}{c}9x^2\;\;\;\;\;\;+\;\;\;\;\;\;12x\;\;\;\;\;\;+\;\;\;\;\;\;4\; \\ (3x)^2\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;(2)^2 \\ (3x)^2\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;(2)^2 \\ {\style{color:green}\searrow}\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;{\style{color:green}\swarrow} \\ 2(3x)(2) \\ 12x\;\end{array}\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Write the square of the binomial. &lt;br&gt;
+    \(9x^2+12x+4\) &lt;br&gt;
+    \(\begin{array}{l}a^2\;\;\;\;\;\;+2\cdot a\cdot b+b^2 \\ \;({\style{color:red}3}{\style{color:red}x})^2\;+2 \cdot {\style{color:red}3}{\style{color:red}x} \cdot {\style{color:purple}2}+{\style{color:purple}2}^2\; \\ \;\;\;\;\;\;\;(a+b)^2\; \\ \;\;\;\;\;({\style{color:red}3}{\style{color:red}x}+{\style{color:green}2})^{\style{color:green}2}\end{array}\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Check. &lt;br&gt;
+    \((3x+2)^2\) &lt;br&gt;
+    \((3x)^2+2 \cdot 3x \cdot 2+2^2\) &lt;br&gt;
+    \(9x^2+12x+4 ✔\) &lt;/p&gt;
+&lt;h4&gt;Try It: Factoring Perfect Square Trinomials&lt;/h4&gt;
+&lt;p&gt;Factor \(9x^2-30x+25\).&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to factor a perfect square trinomial:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Write the first term as \(a^2\) and the last constant as \(b^2=25\). &lt;br&gt;
+    \(a^2=(3x)^2\), \(b^2=5^2\) &lt;/p&gt;
+&lt;p&gt;Make sure the middle term is \(2ab\).&lt;br&gt;
+    \(2ab=2(3x)(5)=30x\) &lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Factor the binomial into: \(a^2-2ab+b^2=(a-b)^2\). &lt;br&gt;
+    \((3x-5)^2\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Check. &lt;/p&gt;
+&lt;p&gt;\((3x-5)(3x-5)\)&lt;br&gt;
+    \(=9x^2-15x-15x+25\) &lt;br&gt;
+    \(=9x^2-30x+25\) &lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4870">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666988359</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4871">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666988359</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2172">
+        <prevpageid>2171</prevpageid>
+        <nextpageid>2173</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666994407</timecreated>
+        <timemodified>1667640388</timemodified>
+        <title>9.4.3: Standard Form and Squared Factors</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;Earlier, students noticed that when an expression \(kx+m\) is squared and written in standard form \(ax^2+bx+c\), the value of \(b\) is \(2km\) and the value of \(c\) is \(m^2\). In this activity, they use these observations to complete expressions to make them perfect squares and then write them as squared factors. Then, they apply this skill to solve quadratic equations&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;To reiterate the connections between \((kx+m)^2\) and its equivalent expression of the form \(ax^2+bx+c\), display these two expressions for all to see and ask students:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; "If the two expressions are perfect squares and are equivalent, how is \(a\) related to \(k\)?" (\(a\) is \(k^2\).) &lt;/li&gt;
+    &lt;li&gt; "How is \(c\) related to \(m\)?" (\(c\) is \(m^2\).) &lt;/li&gt;
+    &lt;li&gt; "How is \(b\) related to \(k\) and \(m\)?" (\(b\) is \(2km\).) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tell students they will use these insights to complete some squares. Consider keeping students in groups of two.&lt;/p&gt;
+&lt;h4&gt; Student Activity&lt;/h4&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;For each expression, find the value of \(c\) to make a perfect square in standard form \((ax^2+bx+c)\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+    &lt;li&gt;\(100x^2+80x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 16&lt;br&gt;
+    Standard form: \(100x^2+80x+16\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+    &lt;li&gt;\(36x^2−60x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 25&lt;br&gt;
+    Standard form: \(36x^2−60x+25\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+    &lt;li&gt;\(25x^2+40x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 16&lt;br&gt;
+    Standard form: \(25x^2+40x+16\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="4"&gt;
+    &lt;li&gt;\(0.25x^2−14x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 196&lt;br&gt;
+    Standard form: \(0.25x^2−14x+196\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+    &lt;li&gt;For each expression, refer to your responses in question 1 to help write an equivalent expression in the form of squared factors \((kx+m)^2\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+    &lt;li&gt;\(100x^2+80x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((10x+4)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+    &lt;li&gt;\(36x^2−60x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((6x-5)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+    &lt;li&gt;\(25x^2+40x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((5x+4)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="4"&gt;
+    &lt;li&gt;\(0.25x^2−14x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \((0.5x-14)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+    &lt;li&gt;Write your own pair of equivalent expressions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+    &lt;li&gt;Create an expression in standard form \((ax^2+bx+c)\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Answers will vary. One expression in standard form is: \(49x^2+14x+1\).&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+    &lt;li&gt;Now write the same equivalent expression in the form of squared factors \((kx+m)^2\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Answers will vary. Using the expression above, for example, the squared factor of \(49x^2+14x+1\) would be \((7x+1)^2\).&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+    &lt;li&gt;Solve each equation by completing the square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+    &lt;li&gt;\(25x^2+40x=-12\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(\begin{aligned} 25 x^{2}+40 x &amp;amp;=-12 \\ 25 x^{2}+40 x+12 &amp;amp;=0 \\ 25 x^{2}+40 x+12+4 &amp;amp;=4 \\ 25 x^{2}+40 x+16 &amp;amp;=4 \\ (5 x+4)^{2} &amp;amp;=4 \\ \sqrt{(5 x+4)^{2}} &amp;amp;=\sqrt{4} \\ 5 x+4 &amp;amp;=2 \\ 5 x+4 &amp;amp;=-2 \\ 5 x &amp;amp;=-2 \\ 5 x &amp;amp;=-6 \\ \\ x=-\frac{2}{5} &amp;amp; \text { and } x=-\frac{6}{5} \end{aligned} \)&lt;/p&gt;
+&lt;br&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+    &lt;li&gt;\(36x^2−60x+10=-6\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(\begin{aligned} 36 x^{2}-60 x+10 &amp;amp;=-6 \\ 36 x^{2}-60 x+10+15 &amp;amp;=-6+15 \\ 36 x^{2}-60 x+25 &amp;amp;=9 \\ (6 x-5)^{2} &amp;amp;=9 \\ \sqrt{(6 x-5)^{2}} &amp;amp;=\sqrt{9} \\ 6 x-5 &amp;amp;=3 \\ 6 x-5 &amp;amp;=-3 \\ 6 x &amp;amp;=8 \\ 6 x &amp;amp;=2 \\ \\ x=\frac{8}{6}=\frac{4}{3} &amp;amp; \text { and } x=\frac{2}{6}=\frac{1}{3} \end{aligned}\)&lt;/p&gt;
+&lt;br&gt;
+&lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;If students struggle to follow the generalized relationships between \((kx+m)^2\) and its equivalent expression of the form \(ax^2+bx+c\) (as discussed in the launch), consider revisiting a concrete example from an earlier activity—for example, \((5x−2)^2\). Ask students to relate each term in the squared factor to the terms of its expression in standard form, \(25x^2−20x+4\).&lt;/p&gt;
+&lt;p&gt;If further scaffolding is helpful, consider using an example with an additional variable (for instance, \((3x+n)^2\) and its counterpart in standard form, \(9x^2+2(3)(n)x+n^2)\) before generalizing the equivalence of the two forms in entirely abstract terms.&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Ask students to write the standard-form expression they invented on a piece of scrap paper, except without the constant term (from the blank row of the table). Invite them to switch papers with a partner and complete the square and write each other's expressions in factored form. If they get stuck, encourage them to talk with their partner to work together and fix any mistakes.&lt;/p&gt;
+&lt;p&gt;If time permits, invite students to share their responses and strategies. Discuss questions such as:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; "How did you know what value to use for \(c\) in, say, \(100x^2+80x+c\)?" (\(k^2=100\), so \(k\) is either 10 or -10. If \(k\) is 10, then \(2(10)m=80\) and \(m=4\). We know that \(c=m^2\), so \(c\) is 42 or 16. If \(k\) is -10, then \(2(-10)m=80\) and \(m=-4\). Squaring -4 still gives 16.) &lt;/li&gt;
+    &lt;li&gt; "How did you know whether \(c\) would be positive or negative?" (\(c\) is some number squared, so it will always be positive.) &lt;/li&gt;
+    &lt;li&gt; "In the equation \(36x^2−60x+10=-6\), the expression on the left already has 10 as a constant term but it is not a perfect square. How do we make it a perfect square?" (25 would make it a perfect square, so we can either add 15 to each side of the equation, or first subtract 10 from each side and then add 25.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As students explain their solution methods on the second question, record and display their reasoning for all to see, or display a worked solution such as:&lt;/p&gt;
+&lt;p&gt;\(\begin{aligned} 36 x^{2}-60 x+10 &amp;amp;=-6 \\ 36 x^{2}-60 x+10+15 &amp;amp;=-6+15 \\ 36 x^{2}-60 x+25 &amp;amp;=9 \\ (6 x-5)^{2} &amp;amp;=9 \end{aligned}\)&lt;/p&gt;
+
+&lt;p&gt;
+    \(\;\;6x-5=3\;\;\;\mathrm{or}\;\;\;6x-5=-3 \\ \;\;\;\;\;\;\;\;6x=8\;\;\;\mathrm{or}\;\;\;6x=2 \\ \;\;x=\frac86=\frac43\;\;\;\mathrm{or}\;\;\;x=\frac26=\frac13\)&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;9.4.3: Self Check&amp;nbsp;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="302"&gt;
+        &lt;col width="322"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Solve by completing the square: \(25x^2+30x=7\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x=9\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: This is the number that is added to each side, but not the solution. The correct answer is \(x=\frac{1}{5}\), \(x= -\frac{7}{5}\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x=\frac15\), \(x= -\frac75\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That's correct! Check yourself: 9 should be added to each side, then the new equation becomes \((5x+3)^2=16\). When solved, these are the two solutions.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x=\frac{13}{5}\), \(x=-\frac{19}{5}\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: Make sure to take the square root of both sides of the equation. The correct answer is \(x=\frac15\), \(x= -\frac75\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x=-\frac{3}{5}\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: The solution is not where the factor equals 0. The correct answer is \(x=\frac15\), \(x= -\frac75\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;9.4.3: Additional Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Find the Value to Make a Perfect Square and Solve&lt;/h4&gt;
+&lt;p&gt;In earlier lessons, we worked with perfect squares such as \((x+1)^2\) and \((x-5)(x-5)\). We learned that their equivalent expressions in standard form follow a predictable pattern:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; In general, \((x+m)^2\) can be written as \(x^2+2mx +m^2\). &lt;/li&gt;
+    &lt;li&gt; If a quadratic expression of the form \(ax^2+bx +c\) is a perfect square, and the value of \(a\) is 1, then the value of \(b\) is \(2m\), and the value of \(c\) is \(m^2\) for some value of \(m\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this lesson, the variable in the factors being squared had a coefficient other than 1, for example \((3x+1)^2\) and \((2x-5)(2x-5)\). Their equivalent expression in standard form also followed the same pattern we saw earlier.&lt;/p&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th align="center" scope="col"&gt;
+                &lt;p&gt;Squared factors&lt;/p&gt;
+            &lt;/th&gt;
+            &lt;th align="center" scope="col"&gt;
+                &lt;p&gt;Standard form&lt;/p&gt;
+            &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center" valign="top"&gt;
+                &lt;p&gt;\((3x+1)^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center" valign="top"&gt;
+                &lt;p&gt;\((3x)^2+2(3x)(1)+1^2\) or \(9x^2+6x +1\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align="center" valign="top"&gt;
+                &lt;p&gt;\((2x-5)^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center" valign="top"&gt;
+                &lt;p&gt;\((2x)^2+2(2x)(-5) +(-5)^2\)&amp;nbsp; or \(4x^2-20x +25\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;In general, \((kx+m)^2\) can be written as:&lt;/p&gt;
+&lt;p&gt;\((kx)^2+2 (kx)(m) +m^2\) or \(k^2x^2+2kmx +m^2\)&lt;/p&gt;
+&lt;p&gt;If a quadratic expression is of the form \(ax^2+bx+c\), then:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; the value of \(a\) is \(k^2\) &lt;/li&gt;
+    &lt;li&gt; the value of \(b\) is \(2km\) &lt;/li&gt;
+    &lt;li&gt; the value of \(c\) is \(m^2\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We can use this pattern to help us complete the square and solve equations when the squared term \(x^2\) has a coefficient other than 1—for example: \(16x^2+40x =11\).&lt;/p&gt;
+&lt;p&gt;What constant term \(c\) can we add to make the expression on the left of the equal sign a perfect square? And how do we write this expression as squared factors?&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 16 is \(4^2\), so the squared factors could be \((4x + m)^2\). &lt;/li&gt;
+    &lt;li&gt; 40 is equal to \(2(4m)\), so \(2(4m) = 40\) or \(8m=40\). This means that \(m = 5\). &lt;/li&gt;
+    &lt;li&gt; If \(c\) is \(m^2\), then \(c =52\) or \(c=25\). &lt;/li&gt;
+    &lt;li&gt; So the expression \(16x^2+40x +25\) is a perfect square and is equivalent to \((4x+5)^2\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let's solve the equation \(16x^2+40x =11\) by completing the square!&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}\;16^2+40x\;&amp;amp;=&amp;amp;\;11 \\ 16^2+40x+25\;&amp;amp;=&amp;amp;\;11+25 \\ (4x+5)^2&amp;amp;=&amp;amp;36\;\end{array}\)&lt;/p&gt;
+&lt;p&gt;\(4x+5=6\;\;\;\;\mathrm{or}\;\;\;\;4x+5=-6\\\;\;\;\;\;\;\;4x=1\;\;\;\mathrm{or}\;\;\;\;4x=-11\\\;\;\;\;\;\;\;\;\;x=\frac14\;\;\mathrm{or}\;\;\;\;x=\frac{-11}4\)&lt;/p&gt;
+&lt;h4&gt;Try It: Find the Value to Make a Perfect Square and Solve&lt;/h4&gt;
+&lt;p&gt;Solve \(4x^2+28x=-13\).&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to solve this equation by completing the square:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    To be a perfect square, \((2x+m)^2\) is needed. &lt;br&gt;
+    \(4x^2+28x=-13\) &lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Find the value of \(m\) to make a perfect square. &lt;br&gt;
+    \(2(2m) = 28\), so \(m = 7\).&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Find \(c= m^2\). &lt;br&gt;
+    \(c=m^2=7^2=49\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    Add \(c\) to both sides. &lt;br&gt;
+    \(4x^2+28x+49=-13+49\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    Factor and simplify. &lt;br&gt;
+    \((2x+7)^2=36\)&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+    Take the square root of both sides. Remember the plus or minus. &lt;br&gt;
+    \(\sqrt{(2x+7)^2}=\sqrt{36}\)&lt;br&gt;
+    \( 2x+7= \pm 6\)&lt;/p&gt;
+&lt;p&gt;Step 7&lt;br&gt;
+    Write two equations and solve. &lt;br&gt;
+    \(2x+7=6\)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(2x+7=-6\)&lt;br&gt;
+    \(x= -\frac12\)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \(x=-\frac{13}{2}\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4872">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666994407</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4873">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666994407</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2173">
+        <prevpageid>2172</prevpageid>
+        <nextpageid>2174</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666998537</timecreated>
+        <timemodified>1667649371</timemodified>
+        <title>9.4.4: Three Different Methods for Solving an Equation </title>
+        <contents>&lt;h3&gt;Optional Activity (30 minutes)&lt;/h3&gt;
+&lt;p&gt;This activity is optional. It shows three different methods for solving an equation: by rewriting it in factored form, by transforming it into an expression in which the squared term has a coefficient 1 and then rewriting in factored form, and by completing the square. The second method involves temporarily substituting a part of the expression with another variable so that the squared term has a coefficient of 1, which makes it easier to rewrite in factored form. Students encountered this strategy in an optional activity ("Finding the Factors of Quadratic Expressions in Standard Form (Optional)") in an earlier lesson in Unit 8. If students did not do that optional activity, consider doing it first before using this activity.&lt;/p&gt;
+&lt;p&gt;The numbers in the equations here do not lend themselves to be easily rewritten in factored form (without guessing and checking or substitution), or to be easily rewritten into perfect squares (because the leading coefficient and the constant terms are not perfect squares), but students see that these equations can be solved with these strategies. The activity further illustrates that any of these methods can be rather tedious, providing further motivation to solve using the quadratic formula, which students will learn in a future lesson.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Display the perfect squares students saw in the preceding activity. Ask them what they notice about the coefficient of the square term in each expression.&lt;/p&gt;
+&lt;p&gt;\(100x^2+80x+16\)&lt;/p&gt;
+&lt;p&gt;\(36x^2−60x+25\)&lt;/p&gt;
+&lt;p&gt;\(25x^2+40x+16\)&lt;/p&gt;
+&lt;p&gt;\(0.25x^2−14x+196\)&lt;/p&gt;
+&lt;p&gt;Students are likely to notice that the coefficient of every \(x^2\) is a perfect square, which makes it easier to rewrite the completed square as squared factors. Solicit some ideas about whether we could still complete the square if a quadratic expression does not have a perfect square for the coefficient of \(x^2\). Then, tell students that they will explore a few methods for solving such equations.&lt;/p&gt;
+&lt;p&gt;Arrange students in groups of two. Ask one partner to study the first two methods and the other partner to study the third method, and then take turns explaining their understanding to each other. Discuss the methods, especially the third one, before students begin using them to solve equations.&lt;/p&gt;
+&lt;p&gt;Make sure students see that, in both the second and third methods, the first step involves multiplying both sides of the equation by 3 to make the coefficient of \(x^2\) a perfect square. Each term on the left side of the equation changes by a factor of 3, but the right side of the equation remains 0 because multiplying 0 by any number results in 0.&lt;/p&gt;
+&lt;p&gt;If time is limited, consider asking students to solve only three equations, using each method once.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Here are three methods for solving \(3x^2+8x+5=0\).&lt;/p&gt;
+&lt;p&gt;Carefully examine each method.&lt;/p&gt;
+&lt;p&gt;Method 1:&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl} 3 x^{2}+8 x+5 &amp;amp;=&amp;amp;0 \\ (3 x+5)(x+1) &amp;amp;=&amp;amp;0 \\ x+1 &amp;amp;=&amp;amp;0 \\ 3 x+5 &amp;amp;=&amp;amp;0 \\ x &amp;amp;=&amp;amp;-1 \\ 3 x &amp;amp;=&amp;amp;-5 \\ x &amp;amp;=&amp;amp;-\frac{5}{3} \end{array}\) &lt;/p&gt;
+&lt;p class="os-raise-indent"&gt;\(x=-\frac{5}{3} \text { and } x=-1\)&lt;/p&gt;
+&lt;p&gt;Method 2:&lt;/p&gt;
+&lt;p&gt;\(\begin{aligned} 3 x^{2}+8 x+5 &amp;amp;=0 \\ 9 x^{2}+24 x+15 &amp;amp;=0 \\ (3 x)^{2}+8(3 x)+15 &amp;amp;=0 \\ U^{2}+8 U+15 &amp;amp;=0 \\ (U+5)(U+3) &amp;amp;=0 \\ U+5 &amp;amp;=0 \\ U+3 &amp;amp;=0 \\ U &amp;amp;=-5 \\ U &amp;amp;=-3 \\ 3 x &amp;amp;=-5 \\ 3 x &amp;amp;=-3 \end{aligned} \) &lt;/p&gt;
+&lt;p class="os-raise-indent"&gt;\(x=-\frac{5}{3} \text { and } x=-1\)&lt;/p&gt;
+&lt;p&gt;Method 3:&lt;/p&gt;
+&lt;p&gt;\(\begin{aligned} 3 x^{2}+8 x+5 &amp;amp;=0 \\ 9 x^{2}+24 x+15 &amp;amp;=0 \\ 9 x^{2}+24 x+16 &amp;amp;=1 \\ (3 x+4)^{2} &amp;amp;=1 \\ 3 x+4 &amp;amp;=1 \\ 3 x+4 &amp;amp;=-1\end{aligned}\) &lt;/p&gt;
+&lt;p class="os-raise-indent"&gt;\(x=-\frac{5}{3} \text { and } x=-1\)&lt;/p&gt;
+&lt;p&gt;Once you understand the methods, use each method at least one time to solve these equations.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;\(5x^2+17x+6=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Method 1 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl} 5 x^2+17 x+6 &amp;amp;=&amp;amp; 0 \\ (5x+2)(x+3) &amp;amp;=&amp;amp; 0 \\ 5x+2 &amp;amp;=&amp;amp; 0 \\ 5x &amp;amp;=&amp;amp; -2 \\ x&amp;amp;=&amp;amp; - \frac{2}{5} \\ x+3 &amp;amp;=&amp;amp; 0 \\ x &amp;amp;=&amp;amp; -3 \end{array} \)&lt;/p&gt;
+&lt;p class="os-raise-indent"&gt;\(x=-\frac{2}{5} \text { and } x =-3\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+    &lt;li&gt;\(6x^2+19x=-10\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Method 2 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}6x^2+19x&amp;amp;=&amp;amp;-10\\6x^2+19x+10&amp;amp;=&amp;amp;0 \\ 36x^2+114x+60&amp;amp;=&amp;amp;0 \\ (6x)^2+19(6x)+60&amp;amp;=&amp;amp;0 \\ U^2+19U+60&amp;amp;=&amp;amp;0 \\ (U+15)(U+4)&amp;amp;=&amp;amp;0 \\ U+15&amp;amp;=&amp;amp;0 \\ U&amp;amp;=&amp;amp;-15\\6x&amp;amp;=&amp;amp;-15 \\ x&amp;amp;=&amp;amp;-\frac{15}6=-\frac52 \\ (U+4)&amp;amp;=&amp;amp;0 \\ U&amp;amp;=&amp;amp;-4 \\ 6x&amp;amp;=&amp;amp;-4 \\ x&amp;amp;=&amp;amp;-\frac46=-\frac23\end{array}\)&lt;/p&gt;
+&lt;p class="os-raise-indent"&gt;\(x=-\frac{5}{2} \text { and } x=-\frac{2}{3}\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+    &lt;li&gt;\(8x^2−33x+4=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Method 1 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl} 8 x^{2}-33 x+4 &amp;amp;=&amp;amp;0 \\ (8 x-1)(x-4) &amp;amp;=&amp;amp;0 \\ 8 x-1 &amp;amp;=&amp;amp;0 \\ 8 x &amp;amp;=&amp;amp;1 \\ x &amp;amp;=&amp;amp;\frac{1}{8} \\ x-4 &amp;amp;=0 \\ x &amp;amp;=&amp;amp;4 \end{array} \) &lt;/p&gt;
+&lt;p class="os-raise-indent"&gt;\(x=\frac{1}{8} \text { and } x=4\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+    &lt;li&gt;\(8x^2−26x=-21\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Method 1 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl} 8 x^{2}-26 x &amp;amp;=&amp;amp;-21 \\ 8 x^{2}-26 x+21 &amp;amp;=&amp;amp;0 \\ (4 x-7)(2 x-3) &amp;amp;=&amp;amp;0 \\ 4 x-7 &amp;amp;=&amp;amp;0 \\ 4 x &amp;amp;=&amp;amp;7 \\ x &amp;amp;=&amp;amp;\frac{7}{4} \\ 2 x-3 &amp;amp;=&amp;amp;0 \\ 2 x &amp;amp;=&amp;amp;3 \\ x &amp;amp;=&amp;amp;\frac{3}{2} \\ x=\frac{7}{4} \text { and } x=\frac{3}{2} \end{array} \) &lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+    &lt;li&gt;\(10x^2+37x=36\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Method 3 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl} 10x^{2}+37x &amp;amp;=&amp;amp;36 \\ \frac{(10x^{2}+37x)}{10} &amp;amp;=&amp;amp;\frac{36}{10} \\ x^{2}+\frac{37}{10}x &amp;amp;=&amp;amp;\frac{36}{10} \\ x^2+\frac{37}{10}x+((\frac{1}{2})(\frac{37}{10}))^{2} &amp;amp;=&amp;amp;\frac{36}{10}+((\frac{1}{2})(\frac{37}{10}))^{2} \\ x^2+\frac{37}{10}x+\frac{1369}{400} &amp;amp;=&amp;amp;\frac{36}{10}+\frac{1369}{400} \\ x^2+\frac{37}{10}x+\frac{1369}{400} &amp;amp;=&amp;amp;\frac{2809}{400} \\ (x+\frac{37}{20})^{2} &amp;amp;=&amp;amp;\frac{2809}{400} \\ \sqrt{(x+\frac{37}{20})^{2}} &amp;amp;=&amp;amp;\sqrt{\frac{2809}{400}}\\ x+\frac{37}{20} &amp;amp;=&amp;amp;\frac{53}{20} \\ x &amp;amp;=&amp;amp;\frac{16}{20} \\ x &amp;amp;=&amp;amp;\frac{4}{5} \\ x+\frac{37}{20} &amp;amp;=&amp;amp;-\frac{53}{20} \\ x &amp;amp;=&amp;amp;-\frac{90}{20} \\ x &amp;amp;=&amp;amp;-\frac{9}{2} \end{array} \)&lt;/p&gt;
+
+&lt;p class="os-raise-indent"&gt;\(x=\frac{4}{5} \text { and } x=-\frac{9}{2}\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="6"&gt;
+    &lt;li&gt;\(12x^2+20x−77=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Method 3 is used here, but any of the three methods would work.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}12x^2+20x-77&amp;amp;=&amp;amp;0\\12x^2+20x&amp;amp;=&amp;amp;77\\\frac{\left(12x^2+20x\right)}{12}&amp;amp;=&amp;amp;\frac{77}{12}\\x^2+\frac{20}{12}x&amp;amp;=&amp;amp;\frac{77}{12}\\x^2+\frac{20}{12}x+\left(\left(\frac12\right)\left(\frac{20}{12}\right)\right)^2&amp;amp;=&amp;amp;\frac{77}{12}+\left(\left(\frac12\right)\left(\frac{20}{12}\right)\right)^2\\x^2+\frac{20}{12}x+\frac{100}{144}&amp;amp;=&amp;amp;\frac{77}{12}+\frac{100}{144}=\frac{924}{144}+\frac{100}{144}\\x^2+\frac{20}{12}x+\frac{100}{144}&amp;amp;=&amp;amp;\frac{1024}{144}\\\left(x+\frac{10}{12}\right)^2&amp;amp;=&amp;amp;\frac{1024}{144}\\\sqrt{\left(x+\frac{10}{12}\right)^2}&amp;amp;=&amp;amp;\sqrt{\frac{1024}{144}}\\x+\frac{10}{12}&amp;amp;=&amp;amp;\frac{32}{12}\\x+\frac{10}{12}&amp;amp;=&amp;amp;-\frac{32}{12}\\x&amp;amp;=&amp;amp;\frac{22}{12}\\x&amp;amp;=&amp;amp;-\frac{42}{12}\\x&amp;amp;=&amp;amp;\frac{11}6\\x&amp;amp;=&amp;amp;-\frac{21}6=-\frac72\end{array}\) &lt;/p&gt;
+&lt;p class="os-raise-indent"&gt;\(x=\frac{11}6\text{&amp;nbsp;and&amp;nbsp;}x=-\frac72\)&lt;/p&gt;
+&lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
+&lt;h5&gt;Are you ready for more?&lt;/h5&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Solve the equation \(2x^2-3x+1=0\), then choose the &lt;strong&gt;two &lt;/strong&gt;roots.&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; \(x= -\frac32\) &lt;/li&gt;
+    &lt;li&gt; \(x= -\frac52\) &lt;/li&gt;
+    &lt;li&gt; \(x = 1\)&lt;/li&gt;
+    &lt;li&gt; \(x=\frac52\) &lt;/li&gt;
+    &lt;li&gt; \(x=\frac12\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x = 1\), \(x = \frac12\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+    &lt;li&gt;Explain your reasoning for your solution.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Using the techniques of this lesson, the first step is to divide both sides of the equation by 2 to obtain \(x^2-\frac{3}{2}x+\frac{1}{2}=0\), and then complete the square.&amp;nbsp;&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Consider asking students who solve the same equation using different methods to compare and contrast their solution strategies. Then, invite them to reflect on the solving process:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; "Did the numbers in certain equations make it easier to solve by one method versus the others?" &lt;/li&gt;
+    &lt;li&gt; "What are the advantages of each method? What about its drawbacks?" &lt;/li&gt;
+    &lt;li&gt; "Is there a strategy you prefer or find reliable? Which one and why?" &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tell students that in upcoming lessons, they will look at a more efficient method for solving quadratic equations.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4874">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666998537</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4875">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666998537</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2174">
+        <prevpageid>2173</prevpageid>
+        <nextpageid>2175</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667002287</timecreated>
+        <timemodified>1667535417</timemodified>
+        <title>9.4.5: Perfect Square and Squared Factors</title>
+        <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;
+&lt;h4&gt;Student Activity&amp;nbsp;&lt;/h4&gt;
+&lt;ol class="os-raise-noindent"&gt;
+  &lt;li&gt;Answer the following questions for expression \(4x^2−28x+c\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+  &lt;li&gt;Find the value of \(c\) to make the expression a perfect square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 49&lt;br&gt;
+Standard form: \(4x^2−28x+49\).&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+  &lt;li&gt;Write an equivalent expression in the form of squared factors.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Squared factors: \((2x−7)^2\).&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+  &lt;li&gt;Solve the equation \(4x^2−28x=-33\) by completing the square. Show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;\(\begin{aligned} 4 x^{2}-28 x &amp;amp;=-33 \\ 4 x^{2}-28 x+49 &amp;amp;=-33+49 \\ (2 x-7)^{2} &amp;amp;=16 \\ \sqrt{(2 x-7)^{2}} &amp;amp;=\sqrt{16} \\ 2 x-7 &amp;amp;=4 \\ 2 x-7 &amp;amp;=-4 \\ 2 x &amp;amp;=11 \\ 2 x &amp;amp;=3 \end{aligned}\)&lt;/p&gt;
+&lt;p class="os-raise-indent"&gt; \(x=\frac{11}{2} \text { and } x=\frac{3}{2}\) &lt;/p&gt;
+&lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
+&lt;h5&gt;Points to Emphasize&lt;/h5&gt;
+&lt;p&gt;If students struggle with completing the square, use the activity Lesson 9.5.3 to highlight key ideas on the completing the square process based on student work in the cool down.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4876">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667002287</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4877">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667002287</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2175">
+        <prevpageid>2174</prevpageid>
+        <nextpageid>2176</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667003695</timecreated>
+        <timemodified>1667535876</timemodified>
+        <title>9.4.6: Practice </title>
+        <contents>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+  &lt;li&gt;&lt;strong&gt;Select three &lt;/strong&gt;expressions that are perfect squares.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\(9x^2+24x+16\)&lt;/li&gt;
+  &lt;li&gt;\(2x^2+20x+100\)&lt;/li&gt;
+  &lt;li&gt;\((7-3x)^2\)&lt;/li&gt;
+  &lt;li&gt;\((5x+4)(5x-4)\)&lt;/li&gt;
+  &lt;li&gt;\((1-2x)(-2x+1)\)&lt;/li&gt;
+  &lt;li&gt;\(4x^2+6x+94\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \(9x^2+24x+16\), \((7-3x)^2\), \((1-2x)(-2x+1)\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+  &lt;li&gt;Find the missing number that makes the expression a perfect square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+  &lt;li&gt;\(49x^2-\_\_\_\_\_\_x+16\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 56&lt;br&gt;
+\(49x^2-56x+16\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+  &lt;li&gt;\(36x^2+\_\_\_\_\_\_x+4\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 24&lt;br&gt;
+\(36x^2+24x+4\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+  &lt;li&gt;\(4x^2-\_\_\_\_\_\_x+25\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 20&lt;br&gt;
+\(4x^2-20x+25\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="4"&gt;
+  &lt;li&gt;\(9x^2+\_\_\_\_\_\_x+9\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 18&lt;br&gt;
+\(9x^2+18x+9\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="5"&gt;
+  &lt;li&gt;\(121x^2+\_\_\_\_\_\_x+9\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 66&lt;br&gt;
+\(121x^2+66x+9\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+  &lt;li&gt;Choose the factored form of the expression.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+  &lt;li&gt;\(49x^2-56x+16\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\((7x+4)^2\)&lt;/li&gt;
+  &lt;li&gt;\((49x-16)^2\)&lt;/li&gt;
+  &lt;li&gt;\((7x-4)^2\)&lt;/li&gt;
+  &lt;li&gt;\((28x-11)^2\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \((7x-4)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+  &lt;li&gt;\(36x^2+24x+4\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\((6x-2)^2\)&lt;/li&gt;
+  &lt;li&gt;\((36x+4)^2\)&lt;/li&gt;
+  &lt;li&gt;\((6x-2)^2\)&lt;/li&gt;
+  &lt;li&gt;\(4(3x+1)^2\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \(4(3x+1)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+  &lt;li&gt;\(4x^2-20x+25\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;(\(10x+7)^2\)&lt;/li&gt;
+  &lt;li&gt;\((2x-5)^2\)&lt;/li&gt;
+  &lt;li&gt;\((4x-25)^2\)&lt;/li&gt;
+  &lt;li&gt;\((2x+5)^2\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \((2x-5)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="4"&gt;
+  &lt;li&gt;\(121x^2+66x+9\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\((11x+3)^2\)&lt;/li&gt;
+  &lt;li&gt;\((121x-9)^2\)&lt;/li&gt;
+  &lt;li&gt;\((3x-3)^2\)&lt;/li&gt;
+  &lt;li&gt;\((11x-3)^2\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \((11x+3)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+  &lt;li&gt;Find the missing number that makes the expression a perfect square.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+  &lt;li&gt;\(9x^2+42x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 49&lt;br&gt;
+\(9x^2+42x+49\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+  &lt;li&gt;\(49x^2-28x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 4&lt;br&gt;
+\(49x^2-28x+4\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+  &lt;li&gt;\(25x^2+110x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 121&lt;br&gt;
+\(25x^2+110x+121\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="4"&gt;
+  &lt;li&gt;\(64x^2-144x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 81&lt;br&gt;
+\(64x^2-144x+81\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="5"&gt;
+  &lt;li&gt;\(4x^2+24x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 36&lt;br&gt;
+\(4x^2+24x+36\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+  &lt;li&gt;Based on your responses in question 4 above, choose the factored form of the expression.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+  &lt;li&gt;\(9x^2+42x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\((3x+7)^2\)&lt;/li&gt;
+  &lt;li&gt;\((9x-21)^2\)&lt;/li&gt;
+  &lt;li&gt;\((3x-7)^2\)&lt;/li&gt;
+  &lt;li&gt;\((9x+3)^2\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \((3x+7)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+  &lt;li&gt;\(49x^2-28x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\((4x+7)^2\)&lt;/li&gt;
+  &lt;li&gt;\((7x+2)^2\)&lt;/li&gt;
+  &lt;li&gt;\((7x-2)^2\)&lt;/li&gt;
+  &lt;li&gt;\((7x+7)^2\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \((7x-2)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="3"&gt;
+  &lt;li&gt;\(25x^2+110x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\((5x-11)^2\)&lt;/li&gt;
+  &lt;li&gt;\((11x+5)^2\)&lt;/li&gt;
+  &lt;li&gt;\((11x-5)^2\)&lt;/li&gt;
+  &lt;li&gt;\((5x+11)^2\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \((5x+11)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="4"&gt;
+  &lt;li&gt;\(64x^2-144x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\((72x-17)^2\)&lt;/li&gt;
+  &lt;li&gt;\((8x-9)^2\)&lt;/li&gt;
+  &lt;li&gt;\((64x-9)^2\)&lt;/li&gt;
+  &lt;li&gt;\((8x+9)^2\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \((8x-9)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="5"&gt;
+  &lt;li&gt;\(4x^2+24x+\_\_\_\_\_\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\((2x-6)^2\)&lt;/li&gt;
+  &lt;li&gt;\((4x-26)^2\)&lt;/li&gt;
+  &lt;li&gt;\((2x+6)^2\)&lt;/li&gt;
+  &lt;li&gt;\((x+6)^2\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \((2x+6)^2\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="6"&gt;
+  &lt;li&gt;For each expression, find the value of \(c\) to make a perfect square in standard form \((ax^2+bx+c)\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+  &lt;li&gt;\(4x^2+4x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 1&lt;br&gt;
+\(4x^2+4x+1\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+  &lt;li&gt;\(25x^2-30x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: 9&lt;br&gt;
+\(25x^2-30x+9\) &lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="7"&gt;
+  &lt;li&gt;For each equation, solve by completing the square, then choose a solution.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+  &lt;li&gt;\(4x^2+4x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\(\frac12\)&lt;/li&gt;
+  &lt;li&gt;\(-\frac12\)&lt;/li&gt;
+  &lt;li&gt;\(\frac32\)&lt;/li&gt;
+  &lt;li&gt;\(-\frac32\)&lt;/li&gt;
+  &lt;li&gt;2&lt;/li&gt;
+  &lt;li&gt;\(\frac16\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \(x=-12\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent" type="a" start="2"&gt;
+  &lt;li&gt;\(25x^2-30x+c\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt;\(x=\frac12\)&lt;/li&gt;
+  &lt;li&gt;\(x=-\frac45\)&lt;/li&gt;
+  &lt;li&gt;\(x=\frac25\)&lt;/li&gt;
+  &lt;li&gt;\(x = 4\)&lt;/li&gt;
+  &lt;li&gt;\(x = 5\)&lt;/li&gt;
+  &lt;li&gt;\(x=\frac35\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: \(x=35\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4878">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667003695</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4879">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667003695</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2176">
+        <prevpageid>2175</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667007351</timecreated>
+        <timemodified>1667007525</timemodified>
+        <title>9.4.7: Lesson Synthesis</title>
+        <contents>&lt;p&gt;Invite students to reflect on the process of completing the square for various kinds of equations. Display equations such as the following and ask students which ones would be fairly easy to solve by completing the square, which ones would not be, and why.&lt;/p&gt;
+&lt;p&gt;\(x^2+8x=-12\)&lt;/p&gt;
+&lt;p&gt;\(16x^2+8x=-12\)&lt;/p&gt;
+&lt;p&gt;\(4x^2+32x=-7\)&lt;/p&gt;
+&lt;p&gt;\(5x^2+32x=-7\)&lt;/p&gt;
+&lt;p&gt;\(9x^2+3x−6=0\)&lt;/p&gt;
+&lt;p&gt;Discuss questions such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; "What number would you add to \(4x^2+32x\) (the third equation on the list) to make it a perfect square? How do you know?" (64. The coefficient 32 is equal to \(2(2)m\), so \(m\) is 8. The number to be added is 82, which is 64.) &lt;/li&gt;
+  &lt;li&gt; "What about \(9x^2+6x\)? How do you know?" (1. The coefficient 6 is equal to \(2(3)m\), so \(m\) is 1. The number to be added is 12, which is 1.) &lt;/li&gt;
+  &lt;li&gt; "Do certain features or numbers in an equation make it easier or harder to solve it by completing the square? If so, which features or what kinds of numbers?" (It's easier when the coefficient of the squared term is 1 or another perfect square. It's harder when some of the coefficients are fractions or the quadratic term's coefficient is not a perfect square.) &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4880">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667007351</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4881">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667007351</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

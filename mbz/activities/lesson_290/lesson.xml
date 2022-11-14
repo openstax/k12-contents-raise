@@ -1,0 +1,1715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="220" moduleid="290" modulename="lesson" contextid="301">
+  <lesson id="220">
+    <course>2</course>
+    <name>Lesson 8.8: Rewriting Quadratic Expressions in Factored Form, Part 3</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>292</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>1</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1667073049</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="2011">
+        <prevpageid>0</prevpageid>
+        <nextpageid>2012</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666469780</timecreated>
+        <timemodified>1666832044</timemodified>
+        <title>8.8.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will encounter quadratic expressions without a linear term and consider how to write them in factored form. We will begin by studying numerical examples and noticing that certain expressions are equivalent.&lt;/p&gt;
+&lt;p&gt;Remember that when you want to enter a number with an exponent, use the ^ symbol. It will look like "\(x^2\)" when you want to enter \(x^2\). To make the ^ symbol, push shift and the numeral 6 at the same time.&lt;/p&gt;
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Explain why multiplying binomials that are a sum and a difference, \((x + m)(x − m)\), results in a quadratic expression with no linear term. &lt;/li&gt;
+    &lt;li&gt; Rewrite a quadratic expression of the form \(x^2−c\) into its factored form. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.8.1: Evaluating Expressions Using Mental Math &lt;/li&gt;
+    &lt;li&gt; 8.8.2: Recognizing the Expanded Product of the Difference of Two Squares &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 8.8.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.8.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.8.3: Factoring Quadratic Equations Without a Linear Term &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 8.8.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.8.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.8.4: Determining if an Expression Can Be Rewritten in Factored Form &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you'll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.8.5: Practice &lt;/li&gt;
+    &lt;li&gt; 8.8.6: Lesson Summary &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4512">
+            <jumpto>2012</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666469780</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2012">
+        <prevpageid>2011</prevpageid>
+        <nextpageid>2013</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666470165</timecreated>
+        <timemodified>1666832089</timemodified>
+        <title>8.8.1: Evaluating Expressions Using Mental Math</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;p&gt;Finding a product mentally can be done by changing the way you look at a multiplication problem.&lt;/p&gt;
+&lt;p&gt;For example, \(9 \cdot 39\) can be thought of as \(9 \cdot (40 − 1)\). For some people, this might be easier to calculate mentally since you can imagine the solution as \(360 − 9\), or 351. This method leverages the distributive property of multiplication over addition.&lt;/p&gt;
+&lt;p&gt;For the following questions, find each product mentally. Then, explain how you changed the way you looked at each multiplication problem to use the distributive property.&lt;/p&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;\(9 \cdot 11\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the product and your explanation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;99&lt;/p&gt;
+        &lt;p&gt;For example, \(9 \cdot 11\) can be thought of as \(9 \cdot (10 + 1)\). This simplifies to \(90 + 9\), or 99.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(19 \cdot 21\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the product and your explanation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;399&lt;/p&gt;
+        &lt;p&gt;For example, \(19 \cdot 21\) can be thought of as \(19 \cdot (20 + 1)\). This simplifies to \(380 + 19\), or 399.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(99 \cdot 101\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the product and your explanation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;9999&lt;/p&gt;
+        &lt;p&gt;For example, \(99 \cdot 101\) can be thought of as \(99 \cdot (100 + 1)\). This simplifies to \(9900 + 99\), or 9999.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="4" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(109 \cdot 101\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the product and your explanation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;11,009&lt;/p&gt;
+        &lt;p&gt;For example, \(109 \cdot 101\) can be thought of as \(109 \cdot (100 + 1)\). This simplifies to \(10,900 + 109\), or 11,009.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4513">
+            <jumpto>2011</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666470165</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4514">
+            <jumpto>2013</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666470165</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2013">
+        <prevpageid>2012</prevpageid>
+        <nextpageid>2014</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666470746</timecreated>
+        <timemodified>1666832247</timemodified>
+        <title>8.8.2: Recognizing the Expanded Product of the Difference of Two Squares </title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;Clare claims that \((10 + 3)(10 - 3)\) is equivalent to \(10^2-3^2\) and \((20 + 1)(20 - 1)\) is equivalent to \(20^2-1^2\). Do you agree? Show your reasoning.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer and your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Agree.&lt;/p&gt;
+        &lt;p&gt;\((10+3)(10-3)\)&lt;br&gt;
+            \(\begin{array}{rcl}&amp;amp;&amp;amp;{=\left(10+3\right)\left(10+(-3)\right)\\=10^2+10\left(-3\right)+3\left(10\right)+3\left(-3\right)\\=10^2-30+30-3^2\\=10^2-3^2}\\&amp;amp;&amp;amp;\end{array}\)&lt;/p&gt;
+        &lt;p&gt;\((20 + 1)(20 - 1)\)&lt;br&gt;
+            \(\begin{array}{rcl}&amp;amp;&amp;amp;{=\left(20 + (-1)\right)\left(20 -1\right)\\= 20^2+ 20\left(-1\right) + 20\left(1\right) + 1\left(-1\right) \\= 20^2- 12}\\&amp;amp;&amp;amp;\end{array}\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;You can use your observations from the first question to mentally solve an expression such as \(105 \cdot 95\).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt; First, think about the problem differently. Evaluate \((100 + 5)(100 - 5)\) using the distributive property, or FOIL. Show your reasoning. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer and your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\((100 + 5)(100 - 5) = 100^2- 5^2= 10,000 - 25 = 9975\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol type="a" start="2"&gt;
+            &lt;li&gt; Check your answer by computing \(105 \cdot 95\). &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(105 \cdot 95 = 9975\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="3" class="os-raise-noindent"&gt;
+            &lt;li&gt;Is \((x + 4)(x - 4)\) equivalent to \(x^2-4^2\)?&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol type="a"&gt;
+            &lt;li&gt; First, support your thinking using a diagram. &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;table class="os-raise-standardtable"&gt;
+            &lt;colgroup&gt;
+                &lt;col width="42"&gt;
+                &lt;col width="51"&gt;
+                &lt;col width="52"&gt;
+            &lt;/colgroup&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p&gt;\(x\)&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;p&gt;4&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        &lt;p&gt;\(x\)&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        &lt;p&gt;x4&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+        &lt;br&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Yes.&lt;/p&gt;
+    &lt;table class="os-raise-standardtable"&gt;
+        &lt;colgroup&gt;
+            &lt;col width="42"&gt;
+            &lt;col width="51"&gt;
+            &lt;col width="52"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;4&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(x^2\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(4x\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;x4&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(-4x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(-4(4)\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="2" type="a"&gt;
+            &lt;li&gt; Now, support your thinking using the distributive property, or FOIL. &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\((x + 4)(x - 4)= x^2+ 4x - 4x - 4(4) = x^2- 4^2\) &lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal3" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol start="4" class="os-raise-noindent"&gt;
+            &lt;li&gt;Is \((x + 4)^2\) equivalent to \(x^2+4^2\)? Support your answer, either with or without a diagram.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; No.&lt;br&gt;
+        With a diagram:&lt;/p&gt;
+    &lt;table class="os-raise-standardtable"&gt;
+        &lt;colgroup&gt;
+            &lt;col width="42"&gt;
+            &lt;col width="51"&gt;
+            &lt;col width="52"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;4&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(x^2\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(4x\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;4&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(4x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(4(4)\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    &lt;p&gt;With FOIL:&lt;br&gt;
+        \((x + 4)^2= (x + 4)(x + 4) = x^2+4x +4x +4(4) = x^2+8x +16\)&lt;br&gt;
+        \(x^2+ 4^2 = x^2+ 16\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;Explain how your work in the previous questions can help you mentally evaluate \(22 \cdot 18\).&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your explanation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(22 \cdot 18\) can be written as \((20 + 2)(20 - 2)\), which is equivalent to \(202 - 22\), which is \(400 - 4\), or 396.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt;Explain how your work in the previous questions can help you mentally evaluate \(45 \cdot 35\).&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your explanation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(45 \cdot 35\) can be written as \((40 + 5)(40 - 5)\), which is equivalent to \(40^2-5^2\), which is \(1600 - 25\), or 1575.&lt;/p&gt;
+        &lt;br&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;p&gt;Here is a shortcut that can be used to mentally square any two-digit number. Let's take \(83^2\), for example.&lt;/p&gt;
+        &lt;ul class="os-raise-indent"&gt;
+            &lt;li&gt; 83 is \(80 + 3\). &lt;/li&gt;
+            &lt;li&gt; Compute \(80^2\) and \(3^2\), which gives 6400 and 9. Add these values to get 6409. &lt;/li&gt;
+            &lt;li&gt; Compute \(80 \cdot 3\), which is 240. Double it to get 480. &lt;/li&gt;
+            &lt;li&gt; Add 6409 and 480 to get 6889. &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Try using this method to find the squares of some other two-digit numbers. (With some practice, it is possible to get really fast at this!)&lt;/p&gt;
+        &lt;ol start="3" class="os-raise-noindent"&gt;
+            &lt;li&gt;Explain why this method works.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your explanation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Any two-digit number can be written as \(a + b\), where \(a\) is 10 times the first digit and \(b\) is the second digit. We are interested in squaring \(a + b\):&lt;/p&gt;
+        &lt;p&gt;\((a + b)^2=(a + b)(a + b)\)&lt;/p&gt;
+        &lt;p class="os-raise-indent"&gt;\(= a^2+ab +ab +b^2\) by the distributive property&lt;/p&gt;
+        &lt;p class="os-raise-indent"&gt;\(= a^2+ 2ab +b^2\) by combining like terms&lt;/p&gt;
+        &lt;p class="os-raise-indent"&gt;\(= a^2+b^2+2ab\) because addition is commutative&lt;/p&gt;
+        &lt;br&gt;
+        &lt;p&gt;We get the \(a^2 + b^2\) from squaring \(a\) and \(b\) and adding them, and the \(2ab\) from multiplying the two values and doubling them.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4515">
+            <jumpto>2012</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666470746</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4516">
+            <jumpto>2014</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666470746</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2014">
+        <prevpageid>2013</prevpageid>
+        <nextpageid>2015</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1666472359</timecreated>
+        <timemodified>1666631364</timemodified>
+        <title>8.8.2: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Which of the following is equivalent to \(9^2 − 6^2\)?&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4517">
+            <jumpto>2015</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666472359</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((9 − 6)^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This expression is \((9 − 6)^2= 3^2= 9\). The original expression is \(9^2− 6^2= 81 − 36 = 45\). The answer is \((9 + 6)(9 − 6)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4518">
+            <jumpto>2015</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666472359</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((9 − 6)(9 − 6)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This expression is \((9 − 6)(9 − 6) = (3)(3) = 9\). The original expression is \(9^2 − 6^2= 81 − 36 = 45\). The answer is \((9 + 6)(9 − 6)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4519">
+            <jumpto>2015</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666472359</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((9 + 6)(9 + 6)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This expression is \((9 + 6)(9 + 6) = (15)(15) = 225\). The original expression is \(9^2− 6^2= 81 − 36 = 45\). The answer is \((9 + 6)(9 − 6)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4520">
+            <jumpto>2016</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1666472359</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((9 + 6)(9 − 6)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Multiply the expression to check. \((9 + 6)(9 − 6) = (15)(3) = 45\). The original expression is equivalent, \(9^2− 6^2= 81 − 36 = 45\). The answer is correct.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4521">
+            <jumpto>2015</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666472359</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2015">
+        <prevpageid>2014</prevpageid>
+        <nextpageid>2016</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666472875</timecreated>
+        <timemodified>1666832291</timemodified>
+        <title>8.8.2: Additional Resources </title>
+        <contents>&lt;h4&gt;Recognizing the Expanded Product of the Difference of Two Squares&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let's look at the expression \((12 + 5)(12 − 5)\). We want to determine if it is equivalent to \(12^2−5^2\).&lt;/p&gt;
+&lt;p&gt;We can use the distributive property of multiplication over addition, or FOIL process, to multiply.&lt;/p&gt;
+&lt;p&gt;\((12 + 5)(12 − 5)\) &lt;br&gt;
+    &lt;br&gt;
+    \(\begin{array}{rcl} &amp;amp;=&amp;amp;12^2-12\left(5\right)+5\left(12\right)-5^2\\&amp;amp;&amp;amp;\\&amp;amp;=&amp;amp;12^2-60+60-5^2\\&amp;amp;&amp;amp;\\&amp;amp;=&amp;amp;12^2-5^2\\&amp;amp;&amp;amp;\end{array}\)&lt;br&gt;
+    So, \((12 + 5)(12 − 5)\) is equivalent to \(12^2-5^2\).
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let's look at a different example using a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;variable&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;\((x + 7)(x − 7)\)&lt;/p&gt;
+&lt;p&gt;Is this equivalent to \(x^2−7^2\)?&lt;/p&gt;
+&lt;p&gt;\((x + 7)(x − 7)\)&lt;br&gt;
+    &lt;br&gt;
+    \(\begin{array}{rcl} &amp;amp;=&amp;amp;x^2-7x+7x-7^2\\&amp;amp;&amp;amp;\\&amp;amp;=&amp;amp;x^2-7^2=x^2-49\\&amp;amp;&amp;amp;\end{array}\)&lt;br&gt;
+    This can also be shown using a diagram.
+&lt;/p&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="42"&gt;
+        &lt;col width="51"&gt;
+        &lt;col width="52"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;–7&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x^2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(-7x\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;7&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(7x\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(-7(7)\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;You have studied this process earlier when you learned the difference of squares.&lt;/p&gt;
+&lt;p&gt;In this lesson, we will reverse this process to rewrite the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;standard form&lt;/span&gt; of a &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;quadratic expression&lt;/span&gt; into its &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;factored form&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;It is important to remember the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;linear term&lt;/span&gt;, or middle term of a quadratic trinomial, equals zero only holds true for the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;difference of squares&lt;/span&gt;. It does not work for an expression such as \(x^2+25\). (In fact, there is no way to multiply two binomials that would result in this expression.)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Is \((x + 5)^2\) equivalent to \(x^2+25\)?&lt;/p&gt;
+&lt;p&gt;Let's find the equivalent expression for \((x + 5)^2\) or \((x + 5)(x + 5)\).&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}\left(x+5\right)^2&amp;amp;=&amp;amp;\left(x+5\right)\left(x+5\right)\\&amp;amp;&amp;amp;\\&amp;amp;=&amp;amp;x^2+5x+5x+25\\&amp;amp;&amp;amp;\\&amp;amp;=&amp;amp;x^2+10x+25\\&amp;amp;&amp;amp;\end{array}\)&lt;br&gt;
+    Since \(x^2+ 10x + 25\) is not equivalent to \(x^2+25\), these expressions are not the same.&lt;/p&gt;
+&lt;h4&gt;Try It: Recognizing the Expanded Product of the Difference of Two Squares&lt;/h4&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;Is the expression \((8 − 7)(8 + 7)\) equivalent to the expression \(8^2−7^2\)? Show your reasoning using the distributive property, or FOIL.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt;Is \((x + 4)(x + 4)\) equivalent to \(x^2+ 4^2\)? Support your answer with a diagram.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to recognize the expanded product of the difference of two squares:&lt;/p&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt;Yes. Here is how to use the difference of squares to show equivalency between the expressions:&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;\((8 − 7)(8 + 7) = 8^2+ 56 − 56 − 7^2= 8^2 − 7^2\)&lt;/p&gt;
+    &lt;ol start="2" class="os-raise-noindent"&gt;
+        &lt;li&gt;No. The expressions are not equivalent.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;table class="os-raise-standardtable"&gt;
+        &lt;colgroup&gt;
+            &lt;col width="42"&gt;
+            &lt;col width="51"&gt;
+            &lt;col width="52"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;4&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(x^2\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(4x\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;4&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(4x\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;\(4(4)\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+    &lt;p&gt;\((x + 4)(x + 4) = x^2 + 8x + 4^2 = x^2 + 8x + 16\)&lt;/p&gt;
+    &lt;p&gt;It is not equivalent to \(x^2 + 4^2 = x^2 + 16\).&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4522">
+            <jumpto>2014</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666472875</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4523">
+            <jumpto>2016</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666472875</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2016">
+        <prevpageid>2015</prevpageid>
+        <nextpageid>2017</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666473307</timecreated>
+        <timemodified>1666832318</timemodified>
+        <title>8.8.3: Factoring Quadratic Equations Without a Linear Term</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;In questions 1 and 2, each row of the table contains a pair of equivalent expressions.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+      &lt;li&gt;Convert the factored form expression to the standard form.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;If you get stuck, consider drawing a diagram.&lt;/p&gt;
+    &lt;table class="os-raise-standardtable"&gt;
+      &lt;colgroup&gt;
+      &lt;col width="173"&gt;
+      &lt;col width="170"&gt;
+      &lt;/colgroup&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;p&gt;&lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p&gt;\((x − 10)(x + 10)\)&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p&gt;\((2x + 1)(2x − 1)\)&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p&gt;\((4 − x)(4 + x)\)&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p&gt;\((c + \frac{2}{5})(c − \frac{2}{5})\)&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p&gt;\((x + 5)(x + 5)\)&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answers:&lt;/p&gt;
+  &lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+    &lt;col width="173"&gt;
+    &lt;col width="170"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;&lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((x − 10)(x + 10)\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(x^2 − 100\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((2x + 1)(2x − 1)\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(4x^2− 1\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((4 − x)(4 + x)\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(16 − x^2\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((c + \frac {2}{5})(c − \frac {2}{5})\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(c^2 − \frac {4}{25}\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((x + 5)(x + 5)\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(x^2+ 10x + 25\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal2" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol start="2" class="os-raise-noindent"&gt;
+      &lt;li&gt;Convert the standard form expression to the factored form.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;If you get stuck, consider drawing a diagram. (HINT: One of the expressions does not convert.)&lt;/p&gt;
+    &lt;table class="os-raise-standardtable"&gt;
+      &lt;colgroup&gt;
+      &lt;col width="173"&gt;
+      &lt;col width="170"&gt;
+      &lt;/colgroup&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;p&gt;&lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;td&gt;&lt;p&gt;\(x^2 − 81\)&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;td&gt;&lt;p&gt;\(49 − y^2\)&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;td&gt;&lt;p&gt;\(9z^2 − 16\)&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;td&gt;&lt;p&gt;\(25t^2− 81\)&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;td&gt;&lt;p&gt;\(\frac {49}{16} − d^2\)&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;td&gt;&lt;p&gt;\(x^2− 6\)&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;td&gt;&lt;p&gt;\(x^2 + 100\)&lt;/p&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal2" data-schema-version="1.0"&gt;
+  &lt;p&gt;Compare your answers:&lt;/p&gt;
+  &lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+    &lt;col width="173"&gt;
+    &lt;col width="170"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;&lt;strong&gt;Factored form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;&lt;strong&gt;Standard form&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((x − 9)(x + 9)\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(x^2 − 81\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((7 − y)(7 + y)\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(49 − y^2\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((3z + 4)(3z − 4)\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(9z^2 − 16\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((5t + 9)(5t − 9)\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(25t^2− 81\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((\frac {7}{4} − d)(\frac {7}{4} + d)\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(\frac {49}{16} − d^2\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;\((x − \sqrt{6})(x + \sqrt{6})\)&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(x^2− 6\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;p&gt;prime&lt;/p&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;\(x^2 + 100\)&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+  &lt;br&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h4&gt;Video: Factoring Quadratic Equations Without a Linear Term&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about factoring a quadratic equation that is written in standard form and has no linear term.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+  &lt;source src="https://k12.openstax.org/contents/raise/resources/843f647a9f05e9b8c05b506538b3f684950c1f1f"&gt;
+  &lt;track src="https://k12.openstax.org/contents/raise/resources/3789a37684d805e8d7de72685229acd88ad23cb6" kind="captions" srclang="en_us" label="On" default="true"&gt;
+  https://k12.openstax.org/contents/raise/resources/843f647a9f05e9b8c05b506538b3f684950c1f1f &lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4524">
+            <jumpto>2013</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473307</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4525">
+            <jumpto>2017</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473307</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2017">
+        <prevpageid>2016</prevpageid>
+        <nextpageid>2018</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1666473449</timecreated>
+        <timemodified>1666633079</timemodified>
+        <title>8.8.3: Self Check</title>
+        <contents>&lt;p dir="ltr" style="text-align: left;"&gt;Find the factored form of the expression \(16p^2 − 49\).&lt;br&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4526">
+            <jumpto>2019</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1666473449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((4p + 7)(4p − 7)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Multiply the factored form to check. \((4p + 7)(4p − 7) = 16p^2−28p +28p −49 = 16p^2− 49\). The answer is correct.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4527">
+            <jumpto>2018</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((4p + 7)(4p + 7)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This expression multiplies to be \((4p + 7)(4p + 7) = 16p^2+56p +49\). Look for the binomials that lead to the middle terms canceling each other out because they are opposites. The answer is \((4p + 7)(4p − 7)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4528">
+            <jumpto>2018</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\((4p − 7)(4p − 7)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This expression multiplies to be \((4p − 7)(4p − 7) = 16p^2−56p +49\). Look for the binomials that lead to the middle terms canceling each other out because they are opposites. The answer is \((4p + 7)(4p − 7)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4529">
+            <jumpto>2018</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(p(16p − 49)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This expression multiplies to be \(p(16p − 49) = 16p^2− 49p\). The answer is \((4p + 7)(4p − 7)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4530">
+            <jumpto>2018</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2018">
+        <prevpageid>2017</prevpageid>
+        <nextpageid>2019</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666473612</timecreated>
+        <timemodified>1666832366</timemodified>
+        <title>8.8.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Factoring Quadratic Equations Without a Linear Term&lt;/h4&gt;
+&lt;p&gt;We can use what we have learned in the previous lesson to write quadratic equations of a special form into factored form.&lt;/p&gt;
+&lt;p&gt;Particularly, we can rewrite:&lt;/p&gt;
+&lt;p&gt;\(x^2− c^2\) into \((x + c)(x − c)\).&lt;/p&gt;
+&lt;p&gt;Let's look at an example.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Write \(v^2−36\) in factored form.&lt;/p&gt;
+&lt;p&gt;We know that the form we are looking for is \((v\; −\) __ \()(v \;+\) __ \()\).&lt;/p&gt;
+&lt;p&gt;Since we know the square &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="“1.0”"&gt;root&lt;/span&gt; of \(v^2\) is \(v\) and the square root of 36 is 6, the factored form is \((v − 6)(v + 6)\).&lt;/p&gt;
+&lt;p&gt;We can multiply to check our work.&lt;/p&gt;
+&lt;p&gt;\((v − 6)(v + 6)\)&lt;br&gt;
+    \(\begin{array}{rcl}&amp;amp;&amp;amp;{=v^2+6v-6v-36\\=v^2-36\; {\style{color:red}\checkmark}}\\&amp;amp;&amp;amp;\end{array}\)&lt;/p&gt;
+&lt;p&gt;The process is similar when there is a coefficient on the squared term.&lt;/p&gt;
+&lt;p&gt;\(a^2x^2−c^2\;\;\;\;\) factors into \(\;\;\;\;(ax + c)(ax − c)\)&lt;/p&gt;
+&lt;p&gt;Let's look at another example to understand the process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Write \(16m^2− 81\) in factored form.&lt;/p&gt;
+&lt;p&gt;The form we are looking for now is ( __ − __ )( __ + __ ).&lt;/p&gt;
+&lt;p&gt;Taking the square root of the first term gives us \(4m\).&lt;/p&gt;
+&lt;p&gt;So, we have \((4m\; −\) __ \()(4m\; +\) __ \()\).&lt;/p&gt;
+&lt;p&gt;Now, we are in the same place as in the previous example. The square root of 81 is 9.&lt;/p&gt;
+&lt;p&gt;So, the factored form is \((4m − 9 )(4m + 9)\).&lt;/p&gt;
+&lt;p&gt;Again, we can multiply to check.&lt;/p&gt;
+&lt;p&gt;\((4m − 9)(4m + 9)\)&lt;br&gt;
+    \(\begin{array}{rcl}&amp;amp;&amp;amp;{= 4m^2 + 36m − 36m − 81\\= 4m^2 − 81\; {\style{color:red}\checkmark}}\\&amp;amp;&amp;amp;\end{array}\)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As we see in the activity, where the variable is located is not important as long as the quadratic binomial is still the difference of two squares.&lt;/p&gt;
+&lt;p&gt;Write \(64 − 9b^2\) in factored form.&lt;/p&gt;
+&lt;p&gt;We use the same concept to find the factored form.&lt;/p&gt;
+&lt;p&gt;\(64 − 9b^2= (8 − 3b)(8 + 3b)\)&lt;/p&gt;
+&lt;p&gt;We can multiply to check.&lt;/p&gt;
+&lt;p&gt;\((8 − 3b)(8 + 3b)\)&lt;br&gt;
+    \(\begin{array}{rcl}&amp;amp;&amp;amp;{= 64 + 24b − 24b − 9b^2\\= 64 − 9b^2\; {\style{color:red}\checkmark}}\\&amp;amp;&amp;amp;\end{array}\)&lt;/p&gt;
+&lt;p&gt;Remember that any expression of the form \(x^2 + c\) or \(ax^2+ c\) does not have a factored form!&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt; For \(x^2+ c\), the \(c\) is not squared, and the terms are not being subtracted. &lt;/li&gt;
+    &lt;li&gt; For \(ax^2+ c\), neither the \(a\) nor the \(c\) is a perfect square, and the terms are not being subtracted. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Try It: Factoring Quadratic Equations Without a Linear Term&lt;/h4&gt;
+&lt;br&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;Write \(x^2− 4\) in factored form.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt;Write \(100x^2− 121\) in factored form.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to write the expressions in factored form.&lt;/p&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt;\((x − 2)(x + 2)\)&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol start="2" class="os-raise-noindent"&gt;
+        &lt;li&gt;\((10x − 11)(10x + 11)\)&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4531">
+            <jumpto>2017</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473612</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4532">
+            <jumpto>2019</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473612</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2019">
+        <prevpageid>2018</prevpageid>
+        <nextpageid>2020</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666473902</timecreated>
+        <timemodified>1666832417</timemodified>
+        <title>8.8.4: Determining if an Expression Can Be Rewritten in Factored Form</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;Write each expression in factored form. If it is not possible, write "not possible."&lt;/p&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;\(a^2− 36\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the factored form of the expression, if possible.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\((a + 6)(a − 6)\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="2" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(49 − 25b^2\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the factored form of the expression, if possible.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \((7 + 5b)(7 − 5b)\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="3" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(c^2+ 9\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the factored form of the expression, if possible.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; Not possible because this is the sum of two squares.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol start="4" class="os-raise-noindent"&gt;
+            &lt;li&gt;\(\frac {100}{81}-16d^2\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the factored form of the expression, if possible.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \((\frac {10}{9} + 4d)(\frac {10}{9} − 4d)\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4533">
+            <jumpto>2016</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473902</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4534">
+            <jumpto>2020</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473902</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2020">
+        <prevpageid>2019</prevpageid>
+        <nextpageid>2021</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666473965</timecreated>
+        <timemodified>1666832465</timemodified>
+        <title>8.8.5: Practice</title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
+
+    &lt;!--1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((10 + 12)(10 − 12)\)" data-solution-options="[&amp;quot;\\((10 + 12)(10 + 12)\\)&amp;quot;, &amp;quot;\\((10 − 12)(10 − 12)\\)&amp;quot;, &amp;quot;\\((10 −12)^2\\)&amp;quot;, &amp;quot;\\((10 + 12)(10 − 12)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent"&gt;
+                &lt;li&gt;Which of the following is equivalent to \(10^2−12^2\)?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.8.2. Are you using it the right way?
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \((10 + 12)(10 − 12)\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((c − 5)(c + 5)\)" data-solution-options="[&amp;quot;\\(c(c − 25)\\)&amp;quot;, &amp;quot;\\((c − 5)(c − 5)\\)&amp;quot;, &amp;quot;\\((c − 5)(c + 5)\\)&amp;quot;, &amp;quot;\\((c + 5)(c + 5)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;For questions 2–10, select the expression in factored form.&lt;/p&gt;
+            &lt;ol start="2" class="os-raise-noindent"&gt;
+                &lt;li&gt;\(c^2 − 25\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activities 8.8.3 and 8.8.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \((c − 5)(c + 5)\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((3w − 11)(3w + 11)\)" data-solution-options="[&amp;quot;\\((3w − 11)(3w + 11)\\)&amp;quot;, &amp;quot;\\((3w + 11)(3w + 11)\\)&amp;quot;, &amp;quot;\\(w(9w − 121)\\)&amp;quot;, &amp;quot;\\((3w − 11)(3w − 11)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="3" class="os-raise-noindent"&gt;
+                &lt;li&gt;\(9w^2 − 121\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 8.8.3 and 8.8.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \((3w − 11)(3w + 11)\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((h − 11)(h + 11)\)" data-solution-options="[&amp;quot;\\((h − 11)^2\\)&amp;quot;, &amp;quot;\\((h − 11)(h + 11)\\)&amp;quot;, &amp;quot;\\((h − 11)(h − 11)\\)&amp;quot;, &amp;quot;\\((h + 11)(h + 11)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="4" class="os-raise-noindent"&gt;
+                &lt;li&gt;\(h^2− 121\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activities 8.8.3 and 8.8.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \((h − 11)(h + 11)\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--5--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((8 − d)(8 + d)\)" data-solution-options="[&amp;quot;\\((8 − d)(8 − d)\\)&amp;quot;, &amp;quot;\\((8 − d)(8 + d)\\)&amp;quot;, &amp;quot;\\((8 + d)(8 + d)\\)&amp;quot;, &amp;quot;Not possible&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="5" class="os-raise-noindent"&gt;
+                &lt;li&gt;\(64 − d^2\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 8.8.3 and 8.8.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \((8 − d)(8 + d)\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((2b − 5)(2b + 5)\)" data-solution-options="[&amp;quot;\\((2b − 5)(2b + 5)\\)&amp;quot;, &amp;quot;\\((2b − 5)(2b − 5)\\)&amp;quot;, &amp;quot;\\(b(4b − 25)\\)&amp;quot;, &amp;quot;\\((2b + 5)(2b + 5)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="6" class="os-raise-noindent"&gt;
+                &lt;li&gt;\(4b^2 − 25\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activities 8.8.3 and 8.8.4 to test your understanding? Then come back and try this question again.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \((2b − 5)(2b + 5)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--7--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((7 − 9z)(7 + 9z)\)" data-solution-options="[&amp;quot;\\((7 + 9z)(7 + 9z)\\)&amp;quot;, &amp;quot;\\((7 − 9z)(7 − 9z)\\)&amp;quot;, &amp;quot;\\(z(49 − 81z)\\)&amp;quot;, &amp;quot;\\((7 − 9z)(7 + 9z)\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="7" class="os-raise-noindent"&gt;
+                &lt;li&gt;\(49 − 81z^2\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 8.8.3 and 8.8.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \((7 − 9z)(7 + 9z)\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--8--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((10y − 2)(10y + 2)\)" data-solution-options="[&amp;quot;\\((10y + 2)(10y + 2)\\)&amp;quot;, &amp;quot;\\((10y − 2)(10y + 2)\\)&amp;quot;, &amp;quot;\\((10y − 2)(10y − 2)\\)&amp;quot;, &amp;quot;Not possible&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="8" class="os-raise-noindent"&gt;
+                &lt;li&gt;\(100y^2−4\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activities 8.8.3 and 8.8.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \((10y − 2)(10y + 2)\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--9--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="Not possible " data-solution-options="[&amp;quot;\\((x − 3)(x − 3)\\)&amp;quot;, &amp;quot;\\((x − 3)(x + 3)\\)&amp;quot;, &amp;quot;\\((x + 3)(x + 3)\\)&amp;quot;, &amp;quot;Not possible &amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="9" class="os-raise-noindent"&gt;
+                &lt;li&gt;\(x^2+9\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 8.8.3 and 8.8.4. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is not possible. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--10--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\((12 − 4g)(12 + 4g)\)" data-solution-options="[&amp;quot;\\((12 − 4g)(12 + 4g)\\)&amp;quot;, &amp;quot;\\((12 + 4g)(12 + 4g)\\)&amp;quot;, &amp;quot;\\((12 − 4g)(12 − 4g)\\)&amp;quot;, &amp;quot;Not possible&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol start="10" class="os-raise-noindent"&gt;
+                &lt;li&gt;\(144 − 16g^2\)&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activities 8.8.3 and 8.8.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \((12 − 4g)(12 + 4g)\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--Do not edit below this line--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4535">
+            <jumpto>2019</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473965</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4536">
+            <jumpto>2021</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666473965</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2021">
+        <prevpageid>2020</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666474208</timecreated>
+        <timemodified>1666724744</timemodified>
+        <title>8.8.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; Explain why multiplying binomials that are a sum and a difference, \((x + m)(x − m)\), results in a quadratic expression with no linear term. &lt;/li&gt;
+  &lt;li&gt; Rewrite a quadratic expression of the form \(x^2− c\) into its factored form. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 8.8.1: Evaluating Expressions Using Mental Math &lt;/li&gt;
+  &lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; In this activity, you learned shortcuts to performing mental math that provided insight into strategies for factoring quadratic expressions. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 8.8.2: Recognizing the Expanded Product of the Difference of Two Squares &lt;/li&gt;
+  &lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; In this activity, you learned to reverse the process using the difference of squares to find the factored form of particular quadratic expressions. &lt;/li&gt;
+    &lt;li&gt; 8.8.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 8.8.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 8.8.3: Factoring Quadratic Equations Without a Linear Term &lt;/li&gt;
+  &lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; In this activity, you continued to practice finding the factored form of quadratic expressions using the difference of squares. You also learned that some binomials of the form \(x^2+c\) do not have a factored form. &lt;/li&gt;
+    &lt;li&gt; 8.8.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 8.8.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 8.8.4: Determining if an Expression Can Be Rewritten in Factored Form &lt;/li&gt;
+  &lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; In this activity, you determined whether a quadratic expression was factorable before finding its factored form using the skills learned in this lesson. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 8.8.5: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
+  
+  &lt;!--pulldown--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4537">
+            <jumpto>2020</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666474208</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4538">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666474208</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

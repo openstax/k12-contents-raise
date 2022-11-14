@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="210" moduleid="280" modulename="lesson" contextid="291">
+  <lesson id="210">
+    <course>2</course>
+    <name>Lesson 8.3: Solving Quadratic Equations by Reasoning</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>282</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1667072856</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1921">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1922</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666240094</timecreated>
+        <timemodified>1666284819</timemodified>
+        <title>8.3.0: Lesson Overview</title>
+        <contents>&lt;p&gt;In this lesson, you will begin to solve quadratic equations by reasoning about what values would make the equations true and by using structure in the equations. You will explore in depth the idea that some quadratic equations have two solutions.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;When you finish this lesson, you will be able to:&amp;nbsp;&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; Find solutions to quadratic equations by reasoning about the values that make the equation true. &lt;/li&gt;
+  &lt;li&gt; Explain that quadratic equations may have one or two solutions. &lt;/li&gt;
+  &lt;li&gt; Implement the square root property. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 8.3.1: Determining the Number of Solutions &lt;/li&gt;
+  &lt;li&gt; 8.3.2: Recognizing Pairs of Solutions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 8.3.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 8.3.2: Additional Resources&amp;nbsp; &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 8.3.3: Solving More Complex Quadratic Equations &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; 8.3.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 8.3.3: Additional Resources&amp;nbsp; &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 8.3.4: Finding the Solutions &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you’ll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 8.3.5: Practice &lt;/li&gt;
+  &lt;li&gt; 8.3.6: Lesson Summary &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4312">
+            <jumpto>1922</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666240094</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1922">
+        <prevpageid>1921</prevpageid>
+        <nextpageid>1923</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666240262</timecreated>
+        <timemodified>1666822969</timemodified>
+        <title>8.3.1: Determining the Number of Solutions</title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;p&gt;How many solutions does each equation have? Explain your reasoning.&lt;/p&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+      &lt;li&gt;\(x^2 = 9\)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the number of solutions for this equation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Two solutions&lt;/p&gt;
+    &lt;p&gt;Both \(3^2\) and \((−3)^2\) equal 9.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="2"&gt;
+      &lt;li&gt;\(x^2 = 0\)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the number of solutions for this equation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;One solution&lt;/p&gt;
+    &lt;p&gt;Only \(0^2\) is 0.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="3"&gt;
+      &lt;li&gt;\(x^2 − 1 = 3\)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the number of solutions for this equation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Two solutions&lt;/p&gt;
+    &lt;p&gt;Add 1 to both sides of the equation. Then, both \(2^2\) and \((−2)^2\) equal 4.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="4"&gt;
+      &lt;li&gt;\(2x^2= 50\)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the number of solutions for this equation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Two solutions&lt;/p&gt;
+    &lt;p&gt;Divide both sides of the equation by 2. Then, both \(5^2\) and \((−5)^2\) equal 25.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="5"&gt;
+      &lt;li&gt;\((x + 1)(x + 1) = 0\)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the number of solutions for this equation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;One solution&lt;/p&gt;
+    &lt;p&gt;Setting each factor equal to zero results in −1 being the only solution.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="6"&gt;
+      &lt;li&gt;\(x(x − 6) = 0\)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the number of solutions for this equation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Two solutions&lt;/p&gt;
+    &lt;p&gt;Setting each factor equal to zero results in 0 and 6 being solutions.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="7"&gt;
+      &lt;li&gt;\((x − 1)(x − 1) = 4\)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the number of solutions for this equation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; Two solutions&lt;/p&gt;
+    &lt;p&gt;By trial and error, both 3 and −1 make the equation true.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="8"&gt;
+      &lt;li&gt;How are the solutions to questions 2 and 5 different from the other solutions?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter your explanation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Questions 2 and 5 only have one solution each, while the others have two solutions.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;p&gt;A &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;double root&lt;/span&gt; is a root that appears twice in the solution of an algebraic equation.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4313">
+            <jumpto>1921</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666240262</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4314">
+            <jumpto>1923</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666240262</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1923">
+        <prevpageid>1922</prevpageid>
+        <nextpageid>1924</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666240833</timecreated>
+        <timemodified>1666287281</timemodified>
+        <title>8.3.2: Recognizing Pairs of Solutions</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;The &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;root&lt;/span&gt; of a number \(x\) is another number, which when multiplied by itself a given number of times, equals \(x\).&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-graybox"&gt;
+  &lt;p&gt;&lt;strong&gt;SQUARE ROOT PROPERTY&lt;/strong&gt;&lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p&gt;If \(x^2 = k\), then&lt;/p&gt;
+  &lt;p class="os-raise-indent"&gt;\(x=\sqrt{k} \quad \text { and } \quad x=-\sqrt{k} \rightarrow x=\pm \sqrt{k}\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Each of these equations has two solutions. Use your knowledge of square roots and the square root property. What are the solutions? Explain or show your reasoning.&lt;/p&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+      &lt;li&gt;\(n^2 + 4=404\)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the solutions and your reasoning.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; \(n=20\) and \(n=-20\)&lt;/p&gt;
+    &lt;p&gt;If \(n^2 + 4 = 404\), then \(n^2 = 400\).&lt;br&gt;
+      Using the square root property, \(n= \pm \sqrt{400}\).&lt;br&gt;
+      Therefore, \(n=20\) and \(n=-20\).&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="2"&gt;
+      &lt;li&gt;\(432=3n^2\)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the solutions and your reasoning.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(n=12\) and \(n=-12\)&lt;/p&gt;
+    &lt;p&gt;Divide each side of the equation by 3.&lt;br&gt;
+      \(n^2=144\)&lt;br&gt;
+      Using the square root property, \(n= \pm \sqrt{144}\).&lt;br&gt;
+      Therefore, \(n=12\) and \(n=-12\).&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="2"&gt;
+      &lt;ol class="os-raise-noindent" start="3"&gt;
+        &lt;li&gt;\(\frac{n^2}{5}−20=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the solutions and your reasoning.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt; \(n=10\) and \(n=-10\)&lt;/p&gt;
+    &lt;p&gt;Add 20 to each side of the equation.&lt;br&gt;
+      Then multiply each side of the equation by 5.&lt;br&gt;
+      \(n^2 = 100\)&lt;br&gt;
+      Using the square root property, \(n= \pm \sqrt{100}\).&lt;br&gt;
+      Therefore, \(n=10\) and \(n=-10\).&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="4"&gt;
+      &lt;li&gt;\(2n^2−7=65\)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the solutions and your reasoning.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;\(n=6\) and \(n=-6\)&lt;/p&gt;
+    &lt;p&gt;Add 7 to each side of the equation.&lt;br&gt;
+      Divide each side of the equation by 2.&lt;br&gt;
+      \(n^2=36\)&lt;br&gt;
+      Using the square root property, \(n= \pm \sqrt{36}\).&lt;br&gt;
+      Therefore, \(n=6\) and \(n=-6\).&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt; 
+
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+      &lt;li&gt;How many solutions does the equation \((x −3)(x+1)(x+5)=0\) have? What are the solutions?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter  the number of solutions and the solutions.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;Three solutions: \(x=3\), \(x=-1\), and \(x=-5\).&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt; 
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="2"&gt;
+      &lt;li&gt;How many solutions does the equation \((x −2)(x−7)(x−2)=0\) have? What are the solutions?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter the number of solutions and the solutions.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;Compare your answer:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Two solutions: \(x=2\) and \(x=7\).&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt; 
+&lt;br&gt;
+
+&lt;!--End interaction--&gt; 
+&lt;br&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-input-content"&gt;
+    &lt;ol class="os-raise-noindent" start="3"&gt;
+      &lt;li&gt;Write a new equation that has 10 solutions.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-prompt"&gt;
+    &lt;p&gt;Enter an equation.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-input-ack"&gt;
+    &lt;p&gt;Compare your answer:&lt;/p&gt;
+    &lt;p&gt;There are many different possible answers. For example:&lt;/p&gt;
+    &lt;p&gt;\((x −1)(x −2)(x −3)(x −4)(x −5)(x −6)(x −7)(x −8)(x −9)(x −10)=0\).&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4315">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666240833</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4316">
+            <jumpto>1924</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666240833</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1924">
+        <prevpageid>1923</prevpageid>
+        <nextpageid>1925</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1666241513</timecreated>
+        <timemodified>1666286489</timemodified>
+        <title>8.3.2: Self Check </title>
+        <contents>&lt;p&gt;Solve for \(p\). Find all solutions.&lt;/p&gt;
+&lt;p&gt;\(3p^2+8 =251\)&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4317">
+            <jumpto>1925</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241513</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(p=9\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Subtract 8 from both sides. Divide both sides by 3. This leaves \(p^2=81\). When you take the square root of 81, there is more than one solution. The answer is \(p=9\) and \(p=-9\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4318">
+            <jumpto>1925</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241513</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(p=11\) and \(p=-11\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: First, subtract 8 from both sides of the equation. Then divide both sides by 3. Take the square root of 81. The answer is \(p=9\) and \(p=-9\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4319">
+            <jumpto>1925</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241513</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(p=11\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: First, subtract 8 from both sides of the equation. Then divide both sides by 3. Take the square root of 81. The answer is \(p=9\) and \(p=-9\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4320">
+            <jumpto>1926</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1666241513</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(p=9\) and \(p=-9\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Insert each value into the original equation. \(3(9)^2+8=251\) is true, and \(3(-9)^2+8=251\) is true.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4321">
+            <jumpto>1925</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241513</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&amp;nbsp;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1925">
+        <prevpageid>1924</prevpageid>
+        <nextpageid>1926</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666241546</timecreated>
+        <timemodified>1666290049</timemodified>
+        <title>8.3.2: Additional Resources</title>
+        <contents>&lt;h4&gt;Using the Square Root Property to Solve Quadratic Equations &lt;/h4&gt;
+&lt;p&gt;Let’s look again at the square root property.&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-graybox"&gt;
+  &lt;p&gt;&lt;strong&gt;SQUARE ROOT PROPERTY&lt;/strong&gt;&lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p&gt;If \(x^2=k\), then&lt;/p&gt;
+  &lt;p class="os-raise-indent"&gt;\(x=\sqrt{k} \quad \text { and } \quad x=-\sqrt{k} \rightarrow x=\pm \sqrt{k}\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Notice that the square root property gives two solutions to an equation of the form \(x^2=k\), the principal square root of \(k\) and its opposite. We could also write the solution as \(x= \pm \sqrt{k}\). We read this as \(x\) equals positive and negative the square root of \(k\).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let’s solve \(x^2= 9\) using the square root property.&lt;/p&gt;
+&lt;p&gt;\(x^2=9\)&lt;/p&gt;
+&lt;p&gt;\(x= \pm \sqrt{9}\)&lt;/p&gt;
+&lt;p&gt;\(x= \pm 3\)&lt;/p&gt;
+&lt;p&gt;So, \(x=3\) and \(x=-3\).&lt;/p&gt;
+&lt;p&gt;If the number in the radical is not a perfect square, leave that part inside the radical. Let’s solve another example.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Solve \(x^2−50=0\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Isolate the quadratic term and make its coefficient 1. To do this, add 50 to both sides of the equation to get \(x^2\) by itself.&lt;/p&gt;
+&lt;p&gt;\(x^2−50=0\) &lt;/p&gt;
+&lt;p&gt;\(x^2=50\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Use the square root property. Remember to write the  symbol.&lt;/p&gt;
+&lt;p&gt;\(x = \pm \sqrt{50}\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  Simplify the radical by pulling out the factors that are perfect squares.&lt;/p&gt;
+&lt;p&gt;\(x = \pm \sqrt{25} \cdot \sqrt{2}\)&lt;/p&gt;
+&lt;p&gt;\(x = \pm 5 \sqrt{2}\)&lt;/p&gt;
+&lt;p&gt;\(x =5 \sqrt{2}\), \(x =−5 \sqrt{2}\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Check the solutions.&lt;/p&gt;
+&lt;p&gt;\(\begin{aligned}
+  x^{2}-50=0 \\
+  ({\style{color:red}5}
+  \sqrt{{\style{color:red}2}})^{2}-50\stackrel{?}{=}0 \\
+  25 \cdot 2-50\stackrel{?}{=}0 \\
+  0=0 {\style{color:red}\checkmark} \\
+  x^{2}-50=0 \\
+  ({\style{color:red}-}{\style{color:red}5} \sqrt{{\style{color:red}2}})^{2}-50\stackrel{?}{=}0 \\
+  25 \cdot 2-50\stackrel{?}{=}0 \\
+  0=0 {\style{color:red}\checkmark} \\
+  \end{aligned}\)&lt;/p&gt;
+&lt;p&gt;The steps for solving a quadratic equation using the square root property are listed here.&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-graybox"&gt;
+  &lt;p&gt;&lt;strong&gt;HOW TO…&lt;/strong&gt;&lt;/p&gt;
+  &lt;hr&gt;
+  &lt;p&gt;Solve a quadratic equation using the square root property.&lt;/p&gt;
+  &lt;p&gt;Step 1&lt;br&gt;
+    Isolate the quadratic term and make its coefficient 1.&lt;/p&gt;
+  &lt;p&gt;Step 2&lt;br&gt;
+    Use the square root property.&lt;/p&gt;
+  &lt;p&gt;Step 3&lt;br&gt;
+    Simplify the radical.&lt;/p&gt;
+  &lt;p&gt;Step 4 &lt;br&gt;
+    Check the solutions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Before using the square root property in Step 2, the coefficient of the variable term must equal 1. In the next example, we must divide both sides of the equation by the coefficient 3 before using the square root property.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Solve \(3z^2=108\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+  Isolate the quadratic term and make its coefficient 1. The quadratic term is isolated. Divide by 3 to make its coefficient 1. Simplify.&lt;/p&gt;
+&lt;p&gt;\(3z^2=108\)&lt;/p&gt;
+&lt;p&gt;\(\frac{3z^2}{3}=\frac{108}{3}\) &lt;/p&gt;
+&lt;p&gt; \(z^2=36\) &lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+  Use the square root property.&lt;br&gt;
+  \(z = \pm \sqrt{36}\) &lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+  Simplify the radical. Rewrite to show two solutions.&lt;br&gt;
+  \(z= \pm 6\) &lt;/p&gt;
+&lt;p&gt;\(z=6\), \(z=-6\) &lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+  Check the solutions.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rr} 3 z^{2}=108 &amp;amp; 3 z^{2}=108 \\ 3({\style{color:red}6})^{2} \stackrel{?}{=} 108 &amp;amp; 3({\style{color:red}-}{\style{color:red}6})^{2} \stackrel{?}{=} 108 \\ 3(36) \stackrel{?}{=} 108 &amp;amp; 3(36) \stackrel{?}{=} 108 \\ 108=108 {\style{color:red}\checkmark} &amp;amp; 108=108 {\style{color:red}\checkmark} \end{array} \)&lt;/p&gt;
+&lt;h4&gt;Try It: Using the Square Root Property to Solve Quadratic Equations&lt;/h4&gt;
+&lt;p&gt;Solve the following quadratic equations using the square root property.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;div class="os-raise-ib-cta-content"&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+      &lt;li&gt;\(2n^2=98\) &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol start="2"&gt;
+      &lt;li&gt; \(\frac{n^2}{2}−30=68\) &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-cta-prompt"&gt;
+    &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+  &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Here is how to solve these quadratic equations using the square root property:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+  &lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt; \(\begin{aligned} 2 n^{2} &amp;amp;=98 \\ \frac{2 n^{2}}{2} &amp;amp;=\frac{98}{2} \\ n^{2} &amp;amp;=49 \\ n &amp;amp;=\pm \sqrt{49} \\ n &amp;amp;=7 \text { and } n=-7 \end{aligned} \) &lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;ol start="2"&gt;
+    &lt;li&gt; \(\begin{aligned} \frac{n^{2}}{2}-30 &amp;amp;=68 \\ \frac{n^{2}}{2} &amp;amp;=98 \\ n^{2} &amp;amp;=196 \\ n &amp;amp;=\pm \sqrt{196} \\ n=14 \text { and } n &amp;amp;=-14 \end{aligned} \)&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4322">
+            <jumpto>1924</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241546</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4323">
+            <jumpto>1926</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241546</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1926">
+        <prevpageid>1925</prevpageid>
+        <nextpageid>1927</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666241694</timecreated>
+        <timemodified>1666706178</timemodified>
+        <title>8.3.3: Solving More Complex Quadratic Equations</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt; Solving an equation of the form \(a(x−h)^2=k\) is a similar process to the equations we have previously solved.&lt;/p&gt;
+&lt;p&gt;Notice that the quadratic term, \(x\), in the original form \(ax^2= k\) is replaced with \((x−h)\).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/8ad8594218d5b68532366828d0631179c3d22273" width="414" height="65"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;;"&gt;Once the binomial is isolated, the square root property can be used. You can reason the solution by taking the square root and then appropriately isolating the variable using the two different square roots.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Solve the following quadratic equations. Explain or show your reasoning.&lt;/p&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;\(144=(n+1)^2\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution to the equation and your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(n=11\) and \(n=-13\)&lt;/p&gt;
+        &lt;p&gt;Because 12 and −12 are the two numbers we can square to make 144 and \(n+1\) is the number being squared, we need \(n\) to be 1 less than 12 or −12. So \(n=11\) and \(n=-13\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="2"&gt;
+            &lt;li&gt;\((u−6)^2= 64\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution to the equation and your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(u=14\) and \(u=-2\)&lt;/p&gt;
+        &lt;p&gt;Since 8 and −8 are the two numbers we can square to make 64 and \(u−6\) is the number being squared, we need \(u\) to be 6 more than 8 or −8. So \(u=14\) and \(u=-2\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="3"&gt;
+            &lt;li&gt;\((n−5)^2−30=70\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution to the equation and your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(n=15\) and \(n=-5\)&lt;/p&gt;
+        &lt;p&gt;To isolate the binomial, add 30 to both sides of the equation. Since 10 and –10 are the two numbers we can square to make 100 and \(n-5\) is the number being squared, we need \(n\) to be 5 more than 10 or –10. So \(n=15\) and \(n=-5\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="4"&gt;
+            &lt;li&gt;\(4(x+6)^2−5=31\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution to the equation and your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; \(x=-3\) and \(x=-9\)&lt;/p&gt;
+        &lt;p&gt;To begin isolating the binomial, add 5 to both sides of the equation. Then divide both sides of the equation by 4. Since 3 and –3 are the two numbers we can square to make 9 and \(x+6\) is the number being squared, we need \(x\) to be 6 less than 3 or –3. So \(x=-3\) and \(x=-9\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.--&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1--&gt;
+
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-wait-for-event="RFM1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;h4&gt;Extending Your Thinking&lt;/h4&gt;
+        &lt;p&gt;Solve the following quadratic equation. Explain your reasoning.&lt;/p&gt;
+        &lt;p&gt;\((4x−3)^2+11=47\)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution to the equation and your reasoning.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Two solutions: \(x=\frac{9}{4}\) and \(x=−\frac{3}{4}\).&lt;/p&gt;
+        &lt;p&gt;To isolate the binomial, subtract 11 from both sides of the equation. This leaves \((4x − 3)^2= 36\). When you take the square root of both sides, you end up with \(4x−3= \pm 6\). This leaves two equations to solve:&lt;/p&gt;
+        &lt;p&gt;\(4x−3=6\;\;\;\;\;\;\;4x−3=−6\)&lt;/p&gt;
+        &lt;p&gt;By solving each of them, you find the solutions \(x=\frac{9}{4}\) and \(x=−\frac34\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--End interaction--&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;Video: Solving More Complex Quadratic Equations&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about how to solve a quadratic equation of the form \(a(x−h)^2=k\).&lt;/p&gt;
+  &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+        &lt;source src="https://k12.openstax.org/contents/raise/resources/ece9009efec5cf2b9b57449f601cd71c89a38156"&gt;
+        &lt;track src="https://k12.openstax.org/contents/raise/resources/f59beebb4b4afb1c1a298705a03b2faef867f790" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/ece9009efec5cf2b9b57449f601cd71c89a38156
+    &lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4324">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241694</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4325">
+            <jumpto>1927</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666241694</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1927">
+        <prevpageid>1926</prevpageid>
+        <nextpageid>1928</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1666242219</timecreated>
+        <timemodified>1666289607</timemodified>
+        <title>8.3.3: Self Check</title>
+        <contents>&lt;p&gt;Solve the following quadratic equation.&lt;/p&gt;
+&lt;p&gt;\((x+3)^2−16=48\)&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4326">
+            <jumpto>1928</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242219</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=11\) and \(x=-5\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The final step is subtracting 3 from –8 and 8, not adding. The answer is \(x=-11\) and \(x=5\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4327">
+            <jumpto>1929</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1666242219</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=-11\) and \(x=5\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: Insert each value into the original equation. \(((-11)+3)^2−16=48\) is true, and \(((5)+3)^2−16=48\) is true.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4328">
+            <jumpto>1928</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242219</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(x=-8\) and \(x=8\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: You forgot the final step of subtracting 3 from –8 and 8. The answer is \(x=-11\) and \(x=5\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4329">
+            <jumpto>1928</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242219</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(x=5\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: When you take the square root of 64, remember that there are two possible answers, –8 and 8. Then subtract 3 from each answer. The answer is \(x=-11\) and \(x=5\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4330">
+            <jumpto>1928</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242219</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1928">
+        <prevpageid>1927</prevpageid>
+        <nextpageid>1929</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666242256</timecreated>
+        <timemodified>1666405060</timemodified>
+        <title>8.3.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Solving Quadratic Equations of the Form \(a(x - h)^2 = k\)&lt;/h4&gt;
+&lt;p&gt;We can use the square root property to solve an equation of the form \(a(x-h)^2=k\) as well.&lt;/p&gt;
+&lt;p&gt;Notice that the quadratic term, \(x\), in the original form \(ax^2=k\) is replaced with \((x−h)\).&lt;/p&gt;
+&lt;p&gt;\(a {\style{color:red}x}^{2}=k \quad a{\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}h}{\style{color:red})}^{2}=k\)&lt;/p&gt;
+&lt;p&gt;Like before, the first step is to isolate the term that has the variable squared. In this case, a binomial is being squared.&lt;/p&gt;
+&lt;p&gt;Once the binomial is isolated, by dividing each side by the coefficient of \(a\), the square root property can be used on \((x−h)^2\).&lt;/p&gt;
+&lt;p&gt;Solve \(4(y−7)^2=48\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Isolate the quadratic term and make its coefficient 1. So, divide both sides of the equation by 4.&lt;/p&gt;
+&lt;p&gt;\(4(y−7)^2=48\)&lt;br&gt;
+    \((y−7)^2=12\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    Use the square root property on the binomial.&lt;br&gt;
+    \(y−7= \pm \sqrt{12}\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Simplify the radical by pulling out the factors that are perfect squares.&lt;br&gt;
+    Solve for \(y\). Rewrite the two solutions.&lt;/p&gt;
+&lt;p&gt;\(y−7= \pm \sqrt{12}\)&lt;br&gt;
+    \(y−7= \pm \sqrt{4 \cdot 3}\)&lt;br&gt;
+    \(y−7= \pm 2 \sqrt{3}\)&lt;br&gt;
+    \(y =7 \pm 2 \sqrt{3}\)&lt;br&gt;
+    \(y =7+2 \sqrt{3}\), \(y=7−2 \sqrt{3}\) &lt;/p&gt;
+&lt;p&gt;Step 4 &lt;br&gt;
+    Check the solutions.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rrr} 4(y-7)^{2}=48 &amp;amp; 4(y-7)^{2}=48 \\ 4({\style{color:red}7}\;{\style{color:red}+}\;{\style{color:red}2} \sqrt{{\style{color:red}3}}-7)^{2} \stackrel{?}{=} 48 &amp;amp; 4({\style{color:red}7}\;{\style{color:red}-}\;{\style{color:red}2} \sqrt{{\style{color:red}3}}-7)^{2} \stackrel{?}{=} 48 \\ 4(2 \sqrt{3})^{2} \stackrel{?}{=} 48 &amp;amp; 4(-2 \sqrt{3})^{2} \stackrel{?}{=} 48 \\ 4(12)^{2} \stackrel{?}{=} 48 &amp;amp; 4(12)^{2} \stackrel{?}{=} 48 \\ 48=48 {\style{color:red}\checkmark} &amp;amp; 48=48 {\style{color:red}\checkmark} \end{array} \)&lt;/p&gt;
+&lt;h4&gt;Try It: Solving Quadratic Equations of the Form \(a(x-h)^2=k\)&lt;/h4&gt;
+&lt;p&gt;Solve the following quadratic equations.&lt;/p&gt;
+
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;\(3(a−3)^2=363\) &lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol start="2"&gt;
+            &lt;li&gt; \(\frac{1}{2} (b+2)^2=200\) &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to solve these quadratic equations of the form \(a(x-h)^2=k\):&lt;/p&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt; \(3(a−3)^2 =363\) &lt;br&gt;
+            \((a−3)^2=121\)&lt;br&gt;
+            \(a−3= \pm 11\)&lt;br&gt;
+            \(a−3=11\)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; \(a−3=-11\)&lt;br&gt;
+            \(a= 14\) and \(a=-8\)&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol start="2"&gt;
+        &lt;li&gt; \(\frac{1}{2}(b+2)^2=200\)&lt;br&gt;
+            \((b+2)^2=400\)&lt;br&gt;
+            \(b+2= \pm 20\)&lt;br&gt;
+            \(b+2=20\)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; \(b+2=-20\)&lt;br&gt;
+            \(b=18\) and \(b=-22\)&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4331">
+            <jumpto>1927</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242256</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4332">
+            <jumpto>1929</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242256</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1929">
+        <prevpageid>1928</prevpageid>
+        <nextpageid>1930</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666242405</timecreated>
+        <timemodified>1666467710</timemodified>
+        <title>8.3.4: Finding the Solutions</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;Use what you have learned in the lesson to solve the following quadratic equations.&lt;/p&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;\(5m^2= 80\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution to the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(m=4\) and \(m=-4\)&lt;/p&gt;
+        &lt;p&gt;\(5m^2=80\)&lt;/p&gt;
+        &lt;p&gt; \(\frac{5m^2}{5}=\frac{80}{5}\)&lt;/p&gt;
+        &lt;p&gt; \(m^2=16\)&lt;/p&gt;
+        &lt;p&gt; \(m=\pm \sqrt{16}\)&lt;/p&gt;
+        &lt;p&gt; \(m=4\) and \(m=-4\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="2"&gt;
+            &lt;li&gt;\((m−6)^2=100\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution to the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(m=16\) and \(m=-4\)&lt;/p&gt;
+        &lt;p&gt;\((m−6)^2=100\)&lt;/p&gt;
+        &lt;p&gt;\((m−6)=\pm \sqrt{100}\)&lt;/p&gt;
+        &lt;p&gt;\(m−6=10\;\;\;\;m−6=-10\)&lt;/p&gt;
+        &lt;p&gt;\(m =16\) and \(m =-4\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="3"&gt;
+            &lt;li&gt;\(\frac{2}{3}y^2−8=−2\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution to the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(y=3\) and \(y=-3\)&lt;/p&gt;
+        &lt;p&gt;\(\begin{array}{rcl}\frac23y^2-8&amp;amp;=&amp;amp;-2\\\frac23y^2&amp;amp;=&amp;amp;6\\\frac32\left(\frac23y^2\right)&amp;amp;=&amp;amp;\frac32\left(6\right)\\y^2&amp;amp;=&amp;amp;9\\y&amp;amp;=&amp;amp;\pm\sqrt9\end{array}\)&lt;br&gt;\(\;\;\;\;\;\;y=3\) and \(y=-3\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="4"&gt;
+            &lt;li&gt;\(\frac{1}{6}(x+3)^2−8=16\)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the solution to the equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(x=9\) and \(x=-15\)&lt;/p&gt;
+    &lt;p&gt;\(\begin{array}{rcl}\frac16\left(x+3\right)^2-8&amp;amp;=&amp;amp;16\\\frac16\left(x+3\right)^2&amp;amp;=&amp;amp;24\\\left(x+3\right)^2&amp;amp;=&amp;amp;144\\\left(x+3\right)&amp;amp;=&amp;amp;\pm\sqrt{144}\end{array}\)&lt;br&gt;
+	  \(\;\;\;\;\;\;\;x+3=12\;\;\;\;\;\;x+3=-12\)&lt;br&gt;
+	  \(\;\;\;\;\;\;\;\;\;\;\;\;\;\;x=9\) and \(x=-15\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4333">
+            <jumpto>1926</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242405</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4334">
+            <jumpto>1930</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242405</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1930">
+        <prevpageid>1929</prevpageid>
+        <nextpageid>1931</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666242599</timecreated>
+        <timemodified>1666408800</timemodified>
+        <title>8.3.5: Practice </title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt; 
+  
+  &lt;!--q1--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="2 solutions; \(x=4\) and \(x=-4\)" data-solution-options="[&amp;quot;0 solutions&amp;quot;, &amp;quot;1 solution; \\(x=4\\)&amp;quot;, &amp;quot;2 solutions; \\(x=4\\) and \\(x=-4\\)&amp;quot;, &amp;quot;2 solutions; \\(x=12\\) and \\(x=-12\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;For questions 1 and 2, determine the number of solutions. Then solve the equation.&lt;/p&gt;
+      &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt;\(3x^2=48\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.3.1. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is two solutions; \(x=4\) and \(x=-4\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q2--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="1 solution; \(x=-2\)" data-solution-options="[&amp;quot;0 solutions&amp;quot;, &amp;quot;1 solution; \\(x=-2\\)&amp;quot;, &amp;quot;1 solution; \\(x=2\\)&amp;quot;, &amp;quot;2 solutions; \\(x=2\\) and \\(x=-2\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="2"&gt;
+        &lt;li&gt;\((x+2)(x+2)=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activity 8.3.1 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is one solution; \(x=-2\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q3--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(m=3\) and \(m=-3\)" data-solution-options="[&amp;quot;\\(m=3\\) and \\(m=-3\\)&amp;quot;, &amp;quot;\\( m=3\\)&amp;quot;, &amp;quot;\\( m=9\\) and \\(m=-9\\)&amp;quot;, &amp;quot;\\(m=2\\) and \\(m=-2\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;For questions 3–10, solve the quadratic equation.&lt;/p&gt;
+      &lt;ol class="os-raise-noindent" start="3"&gt;
+        &lt;li&gt;\(4m^2=36\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 8.3.2 and 8.3.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(m=3\) and \(m=-3\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Q4--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(d=5\) and \(d=-5\)" data-solution-options="[&amp;quot;\\(d=5\\) and \\(d=-5\\)&amp;quot;, &amp;quot;\\(d=5\\)&amp;quot;, &amp;quot;\\(d=-5\\)&amp;quot;, &amp;quot;\\(d=25\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="4"&gt;
+        &lt;li&gt;\(d^2-25=0\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 8.3.2 and 8.3.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(d = 5\) and \(d = -5\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Q5--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(z=9\) and \(z=-9\)" data-solution-options="[&amp;quot;\\(z=6\\) and \\(z=-6\\)&amp;quot;, &amp;quot;\\(z=7\\) and \\(z=-9\\)&amp;quot;, &amp;quot;\\(z=9\\) and \\(z=-9\\)&amp;quot;, &amp;quot;\\(z=7\\) and \\(z=-7\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="5"&gt;
+        &lt;li&gt;\(\frac{2}{3}z^2=54\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 8.3.2 and 8.3.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(z=9\) and \(z=-9\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q6--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(p=8\) and \(p=-8\)" data-solution-options="[&amp;quot;\\(p=18\\) and \\(p=-18\\)&amp;quot;, &amp;quot;\\(p=12\\) and \\(p=-12\\)&amp;quot;, &amp;quot;\\(p =16\\) and \\(p=-16\\)&amp;quot;, &amp;quot;\\(p=8\\) and \\(p=-8\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="6"&gt;
+        &lt;li&gt;\(4p^2+10=266\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 8.3.2 and 8.3.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(p=8\) and \(p=-8\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--q7--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(a=17\) and \(a=-3\)" data-solution-options="[&amp;quot;\\(a=17\\) and \\(a=-3\\)&amp;quot;, &amp;quot;\\(a=-17\\) and \\(a=3\\)&amp;quot;, &amp;quot;\\(a=-10\\) and \\(a=10\\)&amp;quot;, &amp;quot;\\(a=3\\) and \\(a=-3\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="7"&gt;
+        &lt;li&gt;\((a−7)^2+5=105\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 8.3.3 and 8.3.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(a=17\) and \(a=-3\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--q8--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(b=9\) and \(b=-7\)" data-solution-options="[&amp;quot;\\(b=9\\) and \\(b=-9\\)&amp;quot;, &amp;quot;\\(b=8\\) and \\(b=-8\\)&amp;quot;, &amp;quot;\\(b=9\\) and \\(b=-7\\)&amp;quot;, &amp;quot;\\(b=-9\\) and \\(b=7\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="8"&gt;
+        &lt;li&gt;\((b−1)^2−9=55\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 8.3.3 and 8.3.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(b =9\) and \(b=-7\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--q9--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=4\) and \(x=-10\)" data-solution-options="[&amp;quot;\\(x=-4\\) and \\(x=10\\)&amp;quot;, &amp;quot;\\(x=4\\) and \\(x=-10\\)&amp;quot;, &amp;quot;\\(x=-4\\) and \\(x=4\\)&amp;quot;, &amp;quot;\\(x=-2\\) and \\(x=12\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="9"&gt;
+        &lt;li&gt;\(\frac17(x+3)^2−5=2\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activities 8.3.3 and 8.3.4. Are you using it the right way?&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x=4\) and \(x=-10\). You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(x=13\) and \(x=3\)" data-solution-options="[&amp;quot;\\(x=13\\) and \\(x=3\\)&amp;quot;, &amp;quot;\\(x=-3\\) and \\(x=-13\\)&amp;quot;, &amp;quot;\\(x=5\\) and \\(x=-5\\)&amp;quot;, &amp;quot;\\(x=5\\) and \\(x=-11\\)&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;ol class="os-raise-noindent" start="10"&gt;
+        &lt;li&gt;\(5(x−8)^2−7=118\)&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;Try again. Why don’t you go back to activities 8.3.3 and 8.3.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+      &lt;p&gt;The correct answer is \(x=13\) and \(x=3\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!--Do not edit below this line--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4335">
+            <jumpto>1929</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242599</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4336">
+            <jumpto>1931</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242599</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1931">
+        <prevpageid>1930</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666242671</timecreated>
+        <timemodified>1666292310</timemodified>
+        <title>8.3.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; Find solutions to quadratic equations by reasoning about the values that make the equation true. &lt;/li&gt;
+  &lt;li&gt; Explain that quadratic equations may have one or two solutions. &lt;/li&gt;
+  &lt;li&gt; Implement the square root property. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 8.3.1: Determining the Number of Solutions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you analyzed various quadratic equations to determine the number of unique solutions that made the equation true. &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 8.3.2: Recognizing Pairs of Solutions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you learned how to use the square root property to reason about the values that made a quadratic equation true. &lt;/li&gt;
+    &lt;li&gt; 8.3.2: Self Check &lt;/li&gt;
+    &lt;li&gt; 8.3.2: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 8.3.3: Solving More Complex Quadratic Equations &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you continued to explore how to solve quadratic equations as they took on a more complicated form, such as \(a(x − h)^2= k\). &lt;/li&gt;
+    &lt;li&gt; 8.3.3: Self Check &lt;/li&gt;
+    &lt;li&gt; 8.3.3: Additional Resources &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; 8.3.4: Finding the Solutions &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt; In this activity, you solved quadratic equations of any format from this lesson without any additional context for how to begin finding the solution. &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following&lt;strong&gt; practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 8.3.5: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt; 
+  
+  &lt;!--pulldown--&gt;
+  &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+    &lt;div class="os-raise-ib-pset-problem-content"&gt;
+      &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+      &lt;p&gt;Correct!&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+      &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;!--Do not edit below line.--&gt;
+  &lt;div class="os-raise-ib-pset-correct-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+  &lt;div class="os-raise-ib-pset-encourage-response"&gt; 
+    &lt;!-- INSERT ANY VALID HTML HERE --&gt; 
+  &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4337">
+            <jumpto>1930</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242671</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4338">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666242671</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

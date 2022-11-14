@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="211" moduleid="281" modulename="lesson" contextid="292">
+  <lesson id="211">
+    <course>2</course>
+    <name>Lesson 8.4 Teacher Guide: Solving Quadratic Equations with the Zero Product Property</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>282</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1667072877</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="1932">
+        <prevpageid>0</prevpageid>
+        <nextpageid>1933</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666231036</timecreated>
+        <timemodified>1666742762</timemodified>
+        <title>8.4.0: Lesson Overview</title>
+        <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
+&lt;p&gt;In this lesson, students learn about the zero product property. They use it to reason about the solutions to quadratic equations that each have a quadratic expression in factored form on one side and 0 on the other side. They see that when an expression is a product of two or more factors and that product is 0, one of the factors must be 0. This fact enables us to find unknown values in the factored expression.&lt;/p&gt;
+&lt;p&gt;Students also continue to make connections to their earlier work on quadratic functions. They have seen that sometimes we want to find the input values of a function when the output is zero. They also learned that the factored form can help us identify the zeros of a quadratic function and the \(x\)-intercepts of its graph. They have not investigated how or why this form enables us to do so, however. Here, students make use of the structure of a quadratic expression in factored form and the zero product property to understand the connections between the numbers in the form and the \(x\)-intercepts of its graph.&lt;/p&gt;
+&lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Given quadratic equations where one side is a product of factors and the other is zero, find the solution(s) and explain (orally and in writing) why the solutions make the equation true. &lt;/li&gt;
+    &lt;li&gt; Explain (in written and spoken language) that the "zero product property" means that if the product of two numbers is 0, then one of the factors must also be 0. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Explain the meaning of the "zero product property."&lt;/li&gt;
+    &lt;li&gt; Find solutions to quadratic equations when one side is a product of factors and the other side is zero. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
+&lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A8(A) solve quadratic equations having real solutions by factoring, taking square roots, completing the square, and applying the quadratic formula.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Foundational: Lesson provides foundational content necessary for students to be able to perform this TEKS in later lessons.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Lesson Activities&lt;/h4&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.4.1: Introducing the Zero Product Property &lt;/li&gt;
+    &lt;li&gt; 8.4.2: Solving Equations of Increasing Complexity Using Reasoning &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 8.4.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.4.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.4.3: Applying the Zero Product Property to Solve a Real-World Projectile Problem &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 8.4.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.4.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.4.4: Solving Equations Using the Zero Product Property and Reasoning &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will also complete a series of problems in the 8.4.5: Practice.&lt;/p&gt;
+&lt;h4&gt;Required Materials&lt;/h4&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Paper and pencil &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Required Preparation&lt;/h4&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; None &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Familiarize students with the vocabulary words they will see throughout the lesson. &lt;/li&gt;
+    &lt;li&gt; Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
+    &lt;li&gt; Encourage students to use key vocabulary words in "math talk" and their written and oral explanations. &lt;/li&gt;
+    &lt;li&gt; Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson:&lt;/p&gt;
+&lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;ul class="os-raise-indent"&gt;
+                    &lt;li&gt; quadratic equation &lt;/li&gt;
+                    &lt;li&gt; quadratic function &lt;/li&gt;
+                    &lt;li&gt; factored form (of a quadratic expression) &lt;/li&gt;
+                    &lt;li&gt; standard form (of a quadratic expression) &lt;/li&gt;
+                    &lt;li&gt; variable &lt;/li&gt;
+                    &lt;li&gt; zero of the function &lt;/li&gt;
+                    &lt;li&gt; root &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;ul&gt;
+                    &lt;li&gt; zero product property &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Support for Building Character&lt;/h4&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;curiosity&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/compound-interest/" target="_blank"&gt;Compound Interest&lt;/a&gt; &lt;/li&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/finding-flow/" target="_blank"&gt;Finding Flow&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find other tips located here in the &lt;a href="https://characterlab.org/playbooks/curiosity/" target="_blank"&gt;Playbook on Curiosity&lt;/a&gt; from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4339">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666231036</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1933">
+        <prevpageid>1932</prevpageid>
+        <nextpageid>1934</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666232154</timecreated>
+        <timemodified>1666742905</timemodified>
+        <title>8.4.1: Introducing the Zero Product Property</title>
+        <contents>&lt;h3&gt;Warm Up (10 minutes)&lt;/h3&gt;
+&lt;p&gt;This warm up introduces students to the zero product property and prepares them to use it to solve quadratic equations. It reminds students that if two numbers are multiplied and the result is 0, then one of the numbers has to be 0.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Display one problem at a time and ask students to respond without writing anything down. Give students quiet think time for each problem and ask them to give a signal when they have an answer and a strategy. Keep all problems displayed throughout the talk. Follow with a whole-class discussion about the zero product property using the definition and the lesson synthesis.&lt;/p&gt;
+&lt;p&gt;As you discuss the solution to question 5 with students, take note that question 1 also adheres to this pattern. There is only one factor in question 1, \((6 + 2a)\).&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;What values of the variables make each equation true?&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;\(6+2a=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;\(a=-3\)&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(7b=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;\(b=0\)&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(7(c−5)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;\(c=5\)&lt;/p&gt;
+&lt;ol start="4" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(g \cdot h=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&amp;nbsp;Either \(g=0\) or \(h=0\), or \(g=h=0\)&lt;/p&gt;
+&lt;ol start="5" class="os-raise-noindent"&gt;
+    &lt;li&gt;What did you notice about one of the factors in each of the previous problems?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; At least one of the factors in each equation was 0 or equivalent to 0.&lt;/p&gt;
+&lt;p&gt;We will use the zero product property to help solve quadratic equations throughout this lesson.&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-graybox"&gt;
+    &lt;p&gt; &lt;strong&gt; ZERO PRODUCT PROPERTY &lt;/strong&gt;&lt;/p&gt;
+    &lt;hr&gt;
+    &lt;p&gt;If the product of two expressions is 0, then one or both of the expressions equal 0.&lt;/p&gt;
+    &lt;p&gt;If \(ab=0\), then \(a=0\) or \(b=0\), or \(a=b=0\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Ask students to share their strategies for each problem. Record and display their responses for all to see. To involve more students in the conversation, consider asking:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt;"Who can restate _______'s reasoning in a different way?"&lt;/li&gt;
+    &lt;li&gt;"Did anyone have the same strategy but would explain it differently?"&lt;/li&gt;
+    &lt;li&gt;"Did anyone solve the problem in a different way?"&lt;/li&gt;
+    &lt;li&gt;"Does anyone want to add on to _______'s strategy?"&lt;/li&gt;
+    &lt;li&gt;"Do you agree or disagree? Why?"&lt;/li&gt;
+    &lt;li&gt; Highlight explanations that state that any number multiplied by 0 is 0. Then, introduce the zero product property, which states that if the product of two numbers is 0, then at least one of the numbers is 0. &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4340">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666232154</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4341">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666232154</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1934">
+        <prevpageid>1933</prevpageid>
+        <nextpageid>1935</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666234633</timecreated>
+        <timemodified>1666742990</timemodified>
+        <title>8.4.2: Solving Equations of Increasing Complexity Using Reasoning</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;In this activity, students solve equations of increasing complexity and do so by reasoning. They begin with linear equations, move toward a series of quadratic expressions in factored form, and end with a cubic expression in factored form. The progression prompts students to reason about the parts and structure of the expressions, rather than to memorize steps for solving without understanding.&lt;/p&gt;
+&lt;p&gt;As students discuss their reasoning with their partner, listen for those who invoke the zero product property to explain how the last four equations could be solved, and those who notice a pattern in how the equations could be solved. (Though the last question involves a cubic equation, solving it involves the same reasoning as solving quadratic expressions.)&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Arrange students in groups of two. Tell students to work quietly and answer at least half of the questions before discussing their thinking with a partner.&lt;/p&gt;
+&lt;p&gt;If needed, remind students that some equations have more than one solution. Because we want students to use reasoning and the structure of equations to develop their solutions, discourage use of graphing technology in this activity.&lt;/p&gt;
+&lt;h4&gt;Student Activity &lt;/h4&gt;
+&lt;p&gt;For each equation, find its solution or solutions. Be prepared to explain your reasoning.&lt;/p&gt;
+&lt;p&gt;For questions 1–3, review the process of solving equations.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;\(x−3=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=3\)&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(x+11=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=-11\)&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(2x+11=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=\frac {-11}{2}\)&lt;/p&gt;
+&lt;p&gt;For questions 4–7, recall the zero product property means that each (or all) of the factors could be equal to zero when their product is zero. Solve each equation by setting each factor equal to zero and solving.&lt;/p&gt;
+&lt;ol start="4" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(x(2x+11)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=0\) and \(x=\frac {-11}{2}\)&lt;/p&gt;
+&lt;ol start="5" class="os-raise-noindent"&gt;
+    &lt;li&gt;\((x−3)(x+11)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=3\) and \(x=-11\)&lt;/p&gt;
+&lt;ol start="6" class="os-raise-noindent"&gt;
+    &lt;li&gt;\((x−3)(2x+11)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=3\) and \(x=\frac{-11}{2}\)&lt;/p&gt;
+&lt;ol start="7" class="os-raise-noindent"&gt;
+    &lt;li&gt;\(x(x+3)(3x−4)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=0\), \(x=-3\), and \(x= \frac {4}{3}\)&lt;/p&gt;
+&lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
+&lt;h5&gt;Are you ready for more?&lt;/h5&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Use factors of 48 to find as many solutions as you can to the equation \((x−3)(x+5)=48\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=7\) and \(x=−9\)&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;Once you think you have all the solutions, explain why these must be the only solutions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The numbers expressed by \(x−3\) and \(x+5\) are 8 units apart. The &lt;em&gt;only&lt;/em&gt; factor pairs of 48 that are 8 units apart are 4 and 12, as well as –4 and –12.&lt;/p&gt;
+&lt;p&gt;Think:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; What value of \(x\) would make the factors \((x−3)(x+5)\) equivalent to \((4)(12)\)? \(x=7\). &lt;/li&gt;
+    &lt;li&gt; What value of \(x\) would make the factors \((x−3)(x+5)\) equivalent to \((-4)(-12)\)? \(x=-9\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; If \(x=7\), then \((x−3)(x+5) = 4 \cdot 12\). &lt;/li&gt;
+    &lt;li&gt; If \(x=-9\), then \((x−3)(x+5)=-12 \cdot (-4)\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Anticipated Misconceptions&lt;/h4&gt;
+&lt;p&gt;Students may incorrectly think that \(x\) can represent a different value in each factor in an equation. For example, upon finding \(x=-11\) and \(x=3\) as solutions to \((x−3)(x+11)=0\), they think that one solution is for the \(x\) in \((x−3)\) and the other for the \(x\) in \((x−11)\).&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Remind students that solving the equation \((x−3)(x+11)=0\) is like finding the zeros of the function defined by \((x−3)(x −11)\). Although there may be two values of \(x\) that lead to 0 for the value of \((x−3)(x−11)\), only one input can be entered into the function at a time. Ask students to substitute the solutions into the equations and check if the expression is equal to 0 each time. &lt;/li&gt;
+    &lt;li&gt; When \(x = -11\), the value of the expression is \((-11−3)(-11+11)\) or \((-14)(0)\), which is 0. &lt;/li&gt;
+    &lt;li&gt; When \(x=3\), the value of the expression is \((3−3)(3+11)\) or \((0)(14)\), which is 0. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Invite students to share their strategies for solving the nonlinear equations. As they explain, record and organize each step of their reasoning process and display for all to see.&lt;/p&gt;
+&lt;p&gt;For example, the equation \((x−3)(2x+11)=0\) tells us that if the product of \((x−3)\) and \((2x + 11)\) is 0, then either \(x−3\) is equal to 0 or \(2x+11\) is equal to 0. We can then organize the rest of the solving process as:&lt;/p&gt;
+&lt;p&gt;If \(x−3\) is equal to 0, then \(x\) is 3.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}x-3&amp;amp;=&amp;amp;0\\x&amp;amp;=&amp;amp;3\end{array}\)&lt;/p&gt;
+&lt;p&gt;If \(2x+11\) is equal to 0, then \(x=\frac {-11}{2}\).&lt;/p&gt;
+&lt;p&gt; \(\begin{array}{rcl}2x+11&amp;amp;=&amp;amp;0\\2x&amp;amp;=&amp;amp;-11\\x&amp;amp;=&amp;amp;\frac{-11}2\end{array}\)&lt;/p&gt;
+&lt;p&gt;The equation is true when \(x=3\) and when \(x=\frac {-11}{2}\).&lt;/p&gt;
+&lt;p&gt;Emphasize that because at least one of the factors must be 0 for the product to be 0, we can write each expression that is a factor as equal to 0 and solve each of these equations separately.&lt;/p&gt;
+&lt;p&gt;Remind students that we can check our solutions by substituting each one back into the equation and seeing if the equation remains true. Although the two factors, \((x−3)\) and \((2x−11)\), won't be 0 simultaneously when 3 or \(\frac {- 11}{2}\) is substituted for \(x\), the expression on the left side of the equation will have a value of 0 because one of the factors is 0.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; When \(x\) is 3, the expression is \((3−3)(2(3)+11)\) or \((0)(17)\), which is 0. &lt;/li&gt;
+    &lt;li&gt; When \(x\) is \(\frac {- 11}{2}\), the expression is \((\frac {- 11}{2}−3)(2(\frac {- 11}{2})+11)\) or \((\frac {- 17}{2})(0)\), which is 0. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;8.4.2: Self Check&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="302"&gt;
+        &lt;col width="322"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;Solve the equation.&lt;/p&gt;
+                &lt;p&gt;\((x+4)(8x−16)=0\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x=4\) and \(x=-4\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: Find the values that make each of the factors equal to 0. While \(x=-4\) is correct, check your solution when solving the factor \((8x−16)=0\). The answer is \(x=2\) and \(x=-4\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x=4\) and \(x=-2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: The signs on these answers are opposite of the correct responses. Find the values that make each of the factors equal to 0. The answer is \(x=2\) and \(x=-4\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x=2\) and \(x=-2\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: Find the values that make each of the factors equal to 0. While \(x=2\) is correct, the other value is not. Check your solution when solving the factor \((x+4)=0\). The answer is \(x=2\) and \(x=-4\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(x=2\) and \(x=-4\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That's correct! Check yourself: Substitute each value into the equation and check if they are true. \((2+4)(8(2)−16)=0\), and \(((-4)+4)(8(-4)−16)=0\). Since they are both true, your answer is correct.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;8.4.2: Additional Resources&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;h4&gt;Solving Equations of Increasing Complexity Using Reasoning&lt;/h4&gt;
+&lt;p&gt;Let's look again at the zero product property.&lt;/p&gt;
+&lt;br&gt;
+&lt;div class="os-raise-graybox"&gt;
+    &lt;p&gt; &lt;strong&gt; ZERO PRODUCT PROPERTY &lt;/strong&gt;&lt;/p&gt;
+    &lt;hr&gt;
+    &lt;p&gt;If the product of two expressions is 0, then one or both of the expressions equal 0.&lt;/p&gt;
+    &lt;p&gt;If \(ab=0\), then \(a=0\) or \(b=0\), or \(a=b=0\).&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;We can use the zero product property to help reason through finding the solutions to complex quadratic equations.&lt;/p&gt;
+&lt;p&gt;We know that if factors are multiplied together and the result is 0, then one of those factors must equal 0.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;\((x−7)(2x+12)=0\)&lt;/p&gt;
+&lt;p&gt;This equation has two different factors that, when multiplied, result in a product of 0.&lt;/p&gt;
+&lt;p&gt;To find possible solutions to this equation, we can set each factor equal to 0 and solve.&lt;/p&gt;
+&lt;p&gt;\((x-7)=0\;\;\;\;\;\;\;(2x+12)=0\)&lt;/p&gt;
+&lt;p&gt;The value \(x=7\) makes the first factor equal to 0. The value \(x=−6\) makes the second factor equal to 0.&lt;/p&gt;
+&lt;p&gt;So, the solutions to the original equation are \(x=7\) and \(x=−6\).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;\(x(x−9)(3x−8)=0\)&lt;/p&gt;
+&lt;p&gt;This equation has three different factors, but the reasoning is the same. We can still set each factor equal to 0 and solve.&lt;/p&gt;
+&lt;p&gt;The first factor is just \(x\). So, \(x=0\) is a solution.&lt;/p&gt;
+&lt;p&gt;The second factor gives a solution of \(x=9\) when we solve \((x−9)=0\).&lt;/p&gt;
+&lt;p&gt;The third factor gives a solution of \(x=\frac {8}{3}\) when we solve \((3x−8)=0\).&lt;/p&gt;
+&lt;p&gt;So, the solutions to \(x(x−9)(3x−8)=0\) are \(x=0\), \(x=\frac {8}{3}\), and \(x=9\).&lt;/p&gt;
+&lt;h4&gt;Try It: Solving Equations of Increasing Complexity Using Reasoning&lt;/h4&gt;
+&lt;p&gt;Use the zero product property to reason through finding the solutions to the following quadratic equations.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt; \((x−6)(4x+20)=0\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt; \((x+1)(5x+14)=0\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Think about which values make each factor equal to 0.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt; \(x=6\) and \(x=-5\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt; \(x=-1\) and \(x=\frac {-14}{5}\) &lt;/li&gt;
+&lt;/ol&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4342">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666234633</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4343">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666234633</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1935">
+        <prevpageid>1934</prevpageid>
+        <nextpageid>1936</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666235133</timecreated>
+        <timemodified>1666743085</timemodified>
+        <title>8.4.3: Applying the Zero Product Property to Solve a Real-World Projectile Problem</title>
+        <contents>&lt;h3&gt;Activity (10 minutes)&lt;/h3&gt;
+&lt;p&gt;This activity enables students to apply the zero product property to solve a contextual problem and reinforces the idea of solving quadratic equations as a way to reason about quadratic functions.&lt;/p&gt;
+&lt;p&gt;Previously, students have encountered two equivalent quadratic expressions that define the same quadratic function. Here, they work to show that two quadratic expressions—one in standard form and the other in factored form—really do define the same function. There are several ways to do this, but an efficient and definitive way to show equivalence would be to use the distributive property to expand quadratic expressions in factored form.&lt;/p&gt;
+&lt;p&gt;Next, they consider which of the two forms helps them find the zeros of the function and then use it to find the zeros without graphing. The work here reiterates the connections between finding the zeros of a quadratic function and solving a quadratic equation where a quadratic expression that defines a function has a value of 0.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Keep students in groups of two.&lt;/p&gt;
+&lt;p&gt;Display the two equations that define \(h\) for all to see. Tell students that the two equations define the same function. Ask students how they could show that the two equations indeed define the same function.&lt;/p&gt;
+&lt;p&gt;Give students a moment of quiet time to think of a strategy and test it, and then time to discuss with a partner, if possible. Then, discuss their responses. The following are some likely strategies:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Graph both equations on the same coordinate plane and show that they coincide. &lt;/li&gt;
+    &lt;li&gt; Inspect a table of values of both equations and show that the same output results for any input. &lt;/li&gt;
+    &lt;li&gt; Use the distributive property to multiply the expression in factored form to show that \((-5t−3)(t−6)=-5t^2+27t+18\). (Only this reasoning is really a "proof," but the other methods supply a lot of evidence that they are the same function.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once students see some evidence, ask students to proceed to the activity.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt; We have seen quadratic functions modeling the height of a projectile as a function of time.&lt;/p&gt;
+&lt;p&gt;Here are two ways to define the same function that approximates the height of a projectile in meters, \(t\) seconds after launch:&lt;/p&gt;
+&lt;p&gt;\(h(t)=-5t^2+27t+18\;\;\;\;\;\;\;\;\;\;h(t)=(-5t−3)(t−6)\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Which way of defining the function allows us to use the zero product property to find out when the height of the object is 0 meters (when the object is on the ground)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The one with a quadratic expression in factored form.&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;Without graphing, determine at what time(s) the height of the object is 0 meters (when the object is on the ground). Show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The object has a height of 0 meters after 6 seconds. Applying the zero product property to solve \((-5t−3)(t−6 )=0\) gives \(t=- \frac {3}{5}\) and \(t=6\). Because the object was launched at \(t=0\), the negative solution doesn't make sense in this context.&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;Using the function in quadratic form, determine the height of the object before it started its motion, at \(t=0\) seconds. Explain your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The object has a height of 18 meters at 0 seconds. By substituting 0 for \(t\) into the quadratic form, the starting height can be determined. \(h(0)=-5(0)^2+27(0)+18=18\).&lt;/p&gt;
+&lt;h4&gt;Video: Applying the Zero Product Property&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about applying the zero product property to solve a real-world projectile problem.&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/1071cd4ef713798d41d863714adf49de99e92e9a"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/d4369eeb3adbc4b29847424bc1ee7adf6f96d198" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/1071cd4ef713798d41d863714adf49de99e92e9a
+&lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Ask students to share their responses and reasoning. Discuss questions such as:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt;"Why is the factored form more helpful for finding the time when the object has a height of 0 meters?" (To find the input values when the output has a value of 0 is to solve the equation &lt;em&gt;quadratic expression&lt;/em&gt; \(= 0\). When the expression is in factored form, we can use the zero product property to find the unknown inputs.) &lt;/li&gt;
+    &lt;li&gt;"What if we tried to solve the equation in standard form by performing the same operation to each side?" (We would get stuck. For instance, we could add or subtract terms from each side, but then there are no like terms to combine on either side, so we are no closer to isolating the variable.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If no students related solving equations in factored form to using the factored form to find the horizontal intercepts of a graph of a quadratic function, discuss that connection.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt;"In an earlier unit, we saw that the factored form of a quadratic expression such as \((x−5)(x +9)\) allows us to see the \(x\)-intercepts of its graph, but we didn't look into why the graph crosses the \(x\)-axis at those points. Can you explain why it does now?" (The \(x\)-intercepts have a \(y\)-value of 0, which means the quadratic function is 0 at those \(x\)-values: \((x−5)(x+9)=0\). If multiplying two numbers gives 0, one of them must be 0. So either \(x−5=0\) or \(x+9=0\). If \(x−5=0\), then \(x\) is 5. If \(x+9=0\), then \(x\) is –9.) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;8.4.3: Self Check&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;The equivalent functions below model the height of a projectile in meters, \(t\) seconds after launch.&lt;/p&gt;
+                &lt;p&gt;\(h(t)=-8t^2+27t+20\;\;\;\;\;\;\;\;\;\;\;h(t)=(-8t−5)(t−4)\)&lt;/p&gt;
+                &lt;p&gt;Without graphing, determine at what time the height of the object is 0 meters (when the object is on the ground).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;0 seconds&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: The projectile does not start on the ground. Set the function in factored form equal to zero and solve. There are two solutions, \(t=− \frac {5}{8}\) and \(t=4\). In this context of time, the solution must be positive. You would not have a negative amount of time. The answer is 4 seconds.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(\frac {5}{8}\) seconds&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: Set the function in factored form equal to zero and solve. There are two solutions, \(t=− \frac {5}{8}\) and \(t=4\). In this context of time, the solution must be positive. You would not have a negative amount of time. The answer is 4 seconds.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;4 seconds&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That's correct! Check yourself: There are two solutions to the function when it is set equal to 0. Since \(t=− \frac {5}{8}\) is negative, it does not make sense in this context of time. You would not have a negative amount of time. The answer is 4 seconds.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;8 seconds&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: Set the function in factored form equal to zero and solve. There are two solutions, \(t=− \frac {5}{8}\) and \(t=4\). In this context of time, the solution must be positive. You would not have a negative amount of time. The answer is 4 seconds.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;8.4.3: Additional Resources&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;h4&gt;Applying the Zero Product Property to Solve a Real-World Projectile Problem&lt;/h4&gt;
+&lt;p&gt;We have previously looked at functions representing the motion of projectiles. We analyzed two equivalent expressions that define the same quadratic function, one in quadratic form and the other in factored form.&lt;/p&gt;
+&lt;p&gt;Now we're going to look at a similar problem, but with the additional knowledge of how the function relates to the zero product property.&lt;/p&gt;
+&lt;p&gt;Let's look at an example.&lt;/p&gt;
+&lt;p&gt;The equivalent functions below model the height, in feet, of a baseball \(t\) seconds after being hit.&lt;/p&gt;
+&lt;p&gt;\(h(t)=−15t^2+44t+3\;\;\;\;\;\;\;\;\;\;\;h(t)=(−15t−1)(t−3)\)&lt;/p&gt;
+&lt;p&gt;Using the zero product property, the quadratic expression in factored form allows you to more easily find out when the height of the baseball is 0 feet.&lt;/p&gt;
+&lt;p&gt;Without graphing, we can determine at what time the baseball reaches the ground.&lt;/p&gt;
+&lt;p&gt;Let's apply the zero product property to solve \((−15t−1)(t−3)=0\).&lt;/p&gt;
+&lt;p&gt;Set each factor equal to 0 and solve.&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{rcl}-15t-1&amp;amp;=&amp;amp;0\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;t-3&amp;amp;=&amp;amp;0\\-15t-1\; {\style{color:red}+}\; {\style{color:red}1} &amp;amp;=&amp;amp;0\; {\style{color:red}+}\; {\style{color:red}1} \;\;\;\;\;\;\;t-3 \; {\style{color:red}+}\; {\style{color:red}3} &amp;amp;=&amp;amp;0\; {\style{color:red}+}\; {\style{color:red}3} \\-15t&amp;amp;=&amp;amp;1\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;t&amp;amp;=&amp;amp;3\\\frac{-15t}{-15}&amp;amp;=&amp;amp;\frac1{-15}\\t&amp;amp;=&amp;amp;-\frac1{15}\end{array}\)&lt;/p&gt;
+
+&lt;p&gt;So, \(t = - \frac {1}{15}\) and \(t = 3\). These values of \(t\) represent the roots of the function. Because the object was launched at \(t = 0\), the negative solution doesn't make sense in this context of time. So the baseball reaches the ground in 3 seconds.&lt;/p&gt;
+&lt;p&gt;There is one benefit of knowing the function in quadratic form. By substituting 0 in for \(t\), we can easily determine at what height the baseball was hit, when \(t = 0\) seconds.&lt;/p&gt;
+&lt;p&gt;\(h(t)=−15t^2+44t+3\)&lt;/p&gt;
+&lt;p&gt;\(h(0)=−15(0)^2+44(0)+3\)&lt;/p&gt;
+&lt;p&gt;\(h(0)=3\)&lt;/p&gt;
+&lt;p&gt;So, the baseball was hit at a height of 3 feet. Note that this point, \((0, 3)\), is the \(y\)-intercept of the function when graphed.&lt;/p&gt;
+&lt;h4&gt;Try It: Applying the Zero Product Property to Solve a Real-World Projectile Problem&lt;/h4&gt;
+&lt;p&gt;The functions below model the height of a projectile in feet, \(t\) seconds after launch.&lt;/p&gt;
+&lt;p&gt;\(h(t)=-24t^2+94t+63\;\;\;\;\;\;\;\;\;\;h(t)=(-12t−7)(2t−9)\)&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt; Without graphing, determine at what time the height of the object is 0 feet. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt; Determine the height of the object before it is launched. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to solve this projectile problem using the zero product property:&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt; \((-12t−7)(2t−9)=0\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;\(t=-\frac {7}{12}\) or \(t=4.5\)&lt;/p&gt;
+&lt;p&gt;The object has a height of 0 feet at 4.5 seconds.&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt; \(h(0)=-24(0)^2+94(0)+63=63\) &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The object starts at a height of 63 feet.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4344">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666235133</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4345">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666235133</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1936">
+        <prevpageid>1935</prevpageid>
+        <nextpageid>1937</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666237848</timecreated>
+        <timemodified>1666350308</timemodified>
+        <title>8.4.4: Solving Equations Using the Zero Product Property and Reasoning</title>
+        <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;No technology should be used for this cool down.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Find all solutions to \((x+5)(2x−3)=0\). Explain or show your reasoning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=-5\) and \(x=\frac {3}{2}\)&lt;/p&gt;
+&lt;p&gt;By the zero product property, either \(x+5=0\) or \(2x−3=0\), so \(x=-5\) and \(x=\frac {3}{2}\).&lt;/p&gt;
+&lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
+&lt;h5&gt;More Chances&lt;/h5&gt;
+&lt;p&gt;Students will have more opportunities to understand the mathematical ideas in this cool down, so there is no need to slow down or add additional work to the next lessons. Instead, use the results of this cool down to provide guidance for what to look for and emphasize over the next several lessons to support students in advancing their current understanding.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4346">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666237848</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4347">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666237848</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1937">
+        <prevpageid>1936</prevpageid>
+        <nextpageid>1938</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666238998</timecreated>
+        <timemodified>1666350432</timemodified>
+        <title>8.4.5: Practice</title>
+        <contents>&lt;em&gt;&lt;strong&gt;
+&lt;p&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/p&gt;
+&lt;/strong&gt;&lt;/em&gt;
+&lt;p&gt;For questions 1–4, solve each equation. Identify every correct answer.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+  &lt;li&gt;\(x(3x+12)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \(x=0\) and \(x=-12\) &lt;/li&gt;
+  &lt;li&gt; \(x=0\)  and \(x=-3\) &lt;/li&gt;
+  &lt;li&gt; \(x = 4\) and \(x=-4\) &lt;/li&gt;
+  &lt;li&gt; \(x=0\) and \(x=-4\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x = 0\) and \(x=-4\)&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+  &lt;li&gt;\((x−7)(x+9)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \(x=7\) and \(x=-7\) &lt;/li&gt;
+  &lt;li&gt; \(x=0\), \(x=7\), and \(x=-9\) &lt;/li&gt;
+  &lt;li&gt; \(x=7\) and \(x=-9\) &lt;/li&gt;
+  &lt;li&gt; \(x=-7\) and \(x=9\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=7\) and \(x=-9\)&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+  &lt;li&gt;\((x−8)(4x+15)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \(x=8\) and \(x=- \frac {15}{4}\) &lt;/li&gt;
+  &lt;li&gt; \(x=8\) and \(x=-\frac {4}{15}\) &lt;/li&gt;
+  &lt;li&gt; \(x=8\) and \(x=\frac {4}{15}\) &lt;/li&gt;
+  &lt;li&gt; \(x=8\) and \(x=\frac {15}{4}\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=8\) and \(x=-\frac {15}{4}\)&lt;/p&gt;
+&lt;ol start="4" class="os-raise-noindent"&gt;
+  &lt;li&gt;\(x(x−6)(5x−20)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \(x=0\), \(x=-4\), and \(x=6\) &lt;/li&gt;
+  &lt;li&gt; \(x=0\), \(x=4\), and \(x=6\) &lt;/li&gt;
+  &lt;li&gt; \(x=4\) and \(x=6\) &lt;/li&gt;
+  &lt;li&gt; \(x=0\) and \(x=6\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=0\), \(x=4\), and \(x=6\)&lt;/p&gt;
+&lt;p&gt;For questions 5 and 6, use the following.&lt;/p&gt;
+&lt;p&gt;The functions below model the height of a projectile in feet, \(t\) seconds after launch.&lt;/p&gt;
+&lt;p&gt;\(h(t) = -7t^2 + 34t + 48\;\;\;\;\;\;\;\;\;\;h(t) = (-7t − 8)(t − 6)\)&lt;/p&gt;
+&lt;ol start="5" class="os-raise-noindent"&gt;
+  &lt;li&gt;Without graphing, determine at what time the height of the object is 0 feet.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \(\frac {8}{7}\) seconds &lt;/li&gt;
+  &lt;li&gt; 6 seconds &lt;/li&gt;
+  &lt;li&gt; \(-\frac {8}{7}\) seconds &lt;/li&gt;
+  &lt;li&gt; 0 seconds &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 6 seconds&lt;/p&gt;
+&lt;ol start="6" class="os-raise-noindent"&gt;
+  &lt;li&gt;Determine the height of the object before it is launched.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; 0 feet &lt;/li&gt;
+  &lt;li&gt; \(\frac {8}{7}\) feet &lt;/li&gt;
+  &lt;li&gt; 6 feet &lt;/li&gt;
+  &lt;li&gt; 48 feet &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 48 feet&lt;/p&gt;
+&lt;p&gt;For questions 7–10, solve each equation. Identify every correct answer.&lt;/p&gt;
+&lt;ol start="7" class="os-raise-noindent"&gt;
+  &lt;li&gt;\(x(6x−18)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \(x=0\) and \(x=-3\) &lt;/li&gt;
+  &lt;li&gt; \(x=3\) &lt;/li&gt;
+  &lt;li&gt; \(x=0\)  and \(x=3\) &lt;/li&gt;
+  &lt;li&gt; \(x=-3\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=0\) and \(x=3\)&lt;/p&gt;
+&lt;ol start="8" class="os-raise-noindent"&gt;
+  &lt;li&gt;\((x+13)(x−9)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \(x=-9\) and \(x=-13\) &lt;/li&gt;
+  &lt;li&gt; \(x=-13\), \(x=0\), and \(x=-9\) &lt;/li&gt;
+  &lt;li&gt; \(x=-9\) and \(x=13\) &lt;/li&gt;
+  &lt;li&gt; \(x=-13\) and \(x=9\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=-13\) and \(x=9\)&lt;/p&gt;
+&lt;ol start="9" class="os-raise-noindent"&gt;
+  &lt;li&gt;\((x−7)(x−7)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \(x=7\) &lt;/li&gt;
+  &lt;li&gt; \(x=-7\) and \(x=7\) &lt;/li&gt;
+  &lt;li&gt; \(x=0\) and \(x=7\) &lt;/li&gt;
+  &lt;li&gt; \(x=-7\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x=7\)&lt;/p&gt;
+&lt;ol start="10" class="os-raise-noindent"&gt;
+  &lt;li&gt;\((x− \frac {5}{6})(6x+30)=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \(x=5\) and \(x=-\frac {5}{6}\) &lt;/li&gt;
+  &lt;li&gt; \(x=5\)  and \(x=\frac {5}{6}\) &lt;/li&gt;
+  &lt;li&gt; \(x = -5\) and \(x=\frac {5}{6}\) &lt;/li&gt;
+  &lt;li&gt; \(x = -6\) and \(x=\frac {5}{6}\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(x = -5\) and \(x=\frac {5}{6}\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4348">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666238998</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4349">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666238998</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1938">
+        <prevpageid>1937</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666239264</timecreated>
+        <timemodified>1666743169</timemodified>
+        <title>8.4.6: Lesson Synthesis</title>
+        <contents>&lt;p&gt;To help students consolidate the ideas in the lesson, discuss questions such as:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt;"How does the zero product property help us find the solutions to \((x−3)(x+4)=0\)?" (It tells us that either \(x−3=0\) or \(x+4=0\), and each of these equations can be solved easily.) &lt;/li&gt;
+    &lt;li&gt;"Can you explain why the solutions to \((x−3)(x+4)=8\) are not 3 and –4?" (The zero product property only works when the product of the factors is zero. When the product is any other number, we can’t conclude that each factor is that number.) &lt;/li&gt;
+    &lt;li&gt;"The expression \(x^2−x−12\) is equivalent to (x+3)(x−4). Can we apply the zero product property to solve \(x^2−x−12=0\)?" (Only if we rewrite the expression on the left in factored form first. We can’t use the zero product property when the expression is not a product of factors.) &lt;/li&gt;
+    &lt;li&gt;"Can we solve \(x^2−x −12=0\) by performing the same operation to each side of the equation?" (No, doing that doesn’t help us isolate the variable.) &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4350">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666239264</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4351">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666239264</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

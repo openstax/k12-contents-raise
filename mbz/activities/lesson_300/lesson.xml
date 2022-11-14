@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="228" moduleid="300" modulename="lesson" contextid="311">
+  <lesson id="228">
+    <course>2</course>
+    <name>Lesson 8.12: Using Technology to Find the Quadratic Regression</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1666580652</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="2087">
+        <prevpageid>0</prevpageid>
+        <nextpageid>2088</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666580680</timecreated>
+        <timemodified>1666835247</timemodified>
+        <title>8.12.0: Lesson Overview</title>
+        <contents>&lt;p&gt;Scientists and mathematicians frequently collect data from their experiments. These data sets can be analyzed to better understand a situation. In this lesson, you will use graphing technology to analyze data sets so that you can identify a curve of best fit for any given data. You will then use the curve of best fit to make accurate predictions about real-world situations.&lt;/p&gt;
+&lt;p&gt;When you finish this lesson, you will be able to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Graph a quadratic data set using technology. &lt;/li&gt;
+    &lt;li&gt; Find a regression curve, or curve of best fit, using a quadratic data set. &lt;/li&gt;
+    &lt;li&gt; Use a regression curve to create a quadratic model for making predictions. &lt;/li&gt;
+    &lt;li&gt; Make predictions about a real-world situation using a quadratic data set. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that will help you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.12.1: Graphing a Quadratic Data Set Using Technology &lt;/li&gt;
+    &lt;li&gt; 8.12.2: Finding the Curve of Best Fit &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; 8.12.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.12.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.12.3: Making Predictions Using a Quadratic Model &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; 8.12.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.12.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.12.4: Finding the Missing Data in the Set &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that, you'll &lt;strong&gt;practice and review&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.12.5: Practice &lt;/li&gt;
+    &lt;li&gt; 8.12.6: Lesson Summary &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4683">
+            <jumpto>2088</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666580680</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2088">
+        <prevpageid>2087</prevpageid>
+        <nextpageid>2089</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666580853</timecreated>
+        <timemodified>1667253966</timemodified>
+        <title>8.12.1: Graphing a Quadratic Data Set Using Technology </title>
+        <contents>&lt;h4&gt;Warm Up Activity&lt;/h4&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Click on the Desmos link to generate a table for entering a data set.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/106be703f8b47f7b8438854cacb60e6678b7c562" target="_blank"&gt;Desmos: Quadratic Data Set Table&lt;/a&gt;&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="2"&gt;
+    &lt;li&gt;Enter the data set shown in the table below into the corresponding \(x_1\) and \(y_1\) columns.&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(If preferred, the data can be copied and pasted into Desmos from a spreadsheet using keyboard shortcuts. Windows: Ctrl+C for copy and Ctrl+V for paste. Mac: Command+C for copy and Command+V for paste.)&lt;/p&gt;
+&lt;table class="os-rasie-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="94"&gt;
+        &lt;col width="92"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x_1\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(y_1\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;10&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;4&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;17&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;26&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;The window should be appropriately set to display the points in the table, but sometimes it will be necessary to adjust the window of the graph in order to properly view your data set. Use the mouse to drag and change the viewing window. To zoom in or out, use the buttons in the top right or the scrolling wheel on the mouse.&lt;/p&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="3"&gt;
+            &lt;li&gt;Examine the data for a pattern that might fit any quadratic function that you recognize. What equation do you hypothesize would best fit these data points?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter an equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;The data match the quadratic function \(y = x^2+ 1\).&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;p&gt;In this lesson, we will learn to use technology to analyze a data set, find a curve of fit, and make predictions about a situation given the data that we have.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4684">
+            <jumpto>2087</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666580853</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4685">
+            <jumpto>2089</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666580853</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2089">
+        <prevpageid>2088</prevpageid>
+        <nextpageid>2090</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666581039</timecreated>
+        <timemodified>1667254281</timemodified>
+        <title>8.12.2: Finding the Curve of Best Fit</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;In a previous lesson, you learned how to find the line of best fit. A line of best fit is a line on a graph that best approximates the equation of the points in a data set or scatter plot.&lt;/p&gt;
+&lt;p&gt;In this activity, we will learn how to find the &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;curve of best fit&lt;/span&gt;, which is the curve modeled by the equation that best approximates the points in a data set or scatter plot. Since our data set is based on a quadratic function, we must use a curve instead of a line. This process, called &lt;span class="os-raise-ib-tooltip" data-store="glossary-tooltip" data-schema-version="1.0"&gt;quadratic regression&lt;/span&gt;, is the process of determining the equation of a parabola that best fits a data set.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Click on the Desmos link to show the data set.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/9af142d34f5d7574972f99f2bc388b79e5d3d820" target="_blank"&gt;Desmos: The Data Set&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="2"&gt;
+            &lt;li&gt;Examine the data. Do they appear to you to form a line or a curve?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter your answer.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;They appear to be the start of a curve.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;ol class="os-raise-noindent" start="3"&gt;
+    &lt;li&gt;We will use graphing technology to find a curve of best fit. Click the pointer below the table into entry box #2 to enter a new function. The cursor should start blinking. Enter the equation:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p class="os-raise-indent"&gt; \(y_1 \sim ax_1^2+bx_1+ c\)&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Notice that when you type the &lt;q&gt;1&lt;/q&gt; after \(y\) or \(x\), Desmos automatically places it as subscript. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Also notice that we are not using an equal sign. The symbol &lt;q&gt;~&lt;/q&gt; means approximately and tells Desmos to approximate a line or curve of best fit. It should be in the top-left corner of your keyboard, and you might press it using the Shift button. If you are using the Desmos on-screen keyboard, it will be on the ABC keyboard. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; After pressing the subscript 1 after the \(y\) and the first \(x\), use the &lt;q&gt;^&lt;/q&gt; symbol to tell Desmos you would like to enter an exponent. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol class="os-raise-noindent" start="4"&gt;
+    &lt;li&gt;Once you have entered the curve of best fit, you can press Enter. The curve of best fit will appear. Your screen will look like this:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/5ee5d4473c4209f360da1276c0cd001e5fffb491" alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.86, 8.09, AND 16.53, RESPECTIVELY. R-SQUARED IS 0.9972." width="624" height="295"&gt;&lt;/p&gt;
+&lt;p&gt;If something has gone wrong, you can catch up by clicking the link shown here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/72b4eac6ab93351be5701936888e9fca3226e977" target="_blank"&gt;Desmos: The Curve of Best Fit&lt;/a&gt;&lt;/p&gt;
+&lt;ol class="os-raise-noindent" start="5"&gt;
+    &lt;li&gt;Look in the lower-left corner of the screen. We will use the \(a\), \(b\), and \(c\) values to construct the equation for our curve of best fit.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="6"&gt;
+            &lt;li&gt;What is the value of \(a\) rounded to the nearest hundredth?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the value of \(a\).&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;-0.86&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="7"&gt;
+            &lt;li&gt;What is the value of \(b\) rounded to the nearest hundredth?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the value of \(b\).&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;8.09&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="8"&gt;
+            &lt;li&gt;What is the value of \(c\) rounded to the nearest hundredth?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the value of \(c\).&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;16.53&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="9"&gt;
+            &lt;li&gt;Write an equation in the form \(y = ax^2+ bx + c\) for the curve of best fit using the values you found.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter an equation.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(y = -0.86x^2 + 8.09x + 16.53\)&lt;/p&gt;
+        &lt;p&gt;This is the equation for your curve of best fit.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;p&gt;You may notice the \(R^2\) value. The closer this value is to 1, the better your curve of best fit matches the data set. The \(R^2\) value for this data set is 0.9972. Since this value is relatively close to 1, this curve of best fit is a reasonably accurate match to the data set.&amp;nbsp;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4686">
+            <jumpto>2088</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666581039</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4687">
+            <jumpto>2090</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666581039</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2090">
+        <prevpageid>2089</prevpageid>
+        <nextpageid>2091</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1666581825</timecreated>
+        <timemodified>1667254303</timemodified>
+        <title>8.12.2: Self Check</title>
+        <contents>&lt;p&gt;Click on the Desmos link to show a data set. Find the equation of the curve of best fit. Round each coefficient to the nearest hundredth.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/090be3484024b5482d8b9b557b291d15eb9a43e8" target="_blank"&gt;Desmos: Finding the Curve of Best Fit&lt;/a&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4688">
+            <jumpto>2091</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666581825</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y = -0.92x^2+ 4.25x + 8.36\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Did you enter \(y_1 \sim ax_1^2+bx_1+ c\) to find the curve of best fit? The answer is \(y = -0.94x^2+ 4.51x + 16.96\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4689">
+            <jumpto>2091</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666581825</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y = -0.97x^2+ 7.62x + 19.34\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let’s try again a different way: Did you enter \(y_1 \sim ax_1^2+bx_1+ c\) to find the curve of best fit? The answer is \(y = -0.94x^2+ 4.51x + 16.96\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4690">
+            <jumpto>2092</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1666581825</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y = -0.94x^2+ 4.51x + 16.96\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The graph of the curve lines up with the data set as closely as possible.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4691">
+            <jumpto>2091</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666581825</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;\(y = -0.91x^2 + 2.23x + 16.42\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: Did you enter \(y_1 \sim ax_1^2+bx_1+ c\)&amp;nbsp; to find the curve of best fit? The answer is \(y = -0.94x^2+ 4.51x + 16.96\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4692">
+            <jumpto>2091</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666581825</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2091">
+        <prevpageid>2090</prevpageid>
+        <nextpageid>2092</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666581858</timecreated>
+        <timemodified>1667254348</timemodified>
+        <title>8.12.2: Additional Resources</title>
+        <contents>&lt;h4&gt;Finding the Curve of Best Fit &lt;/h4&gt;
+&lt;p&gt;Let's find the curve of best fit for a given data set.&lt;/p&gt;
+&lt;p&gt;Click on the Desmos link to open a graph.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.desmos.com/calculator" target="_blank"&gt;Desmos: New Data Set&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    Click the + symbol in the top left and select a table.&lt;/p&gt;
+&lt;p&gt;Enter the data set as shown. Press Enter.&lt;/p&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="116"&gt;
+        &lt;col width="129"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x_1\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(y_1\)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;99.7&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;2&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;130&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;149&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;4&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;172&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;9&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;175&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;11&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;140&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;p&gt;The data set will populate the graph as shown here.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/9a495e305858f322af933bda428076d4e00b1495" width="624" height="295"&gt;&lt;/p&gt;
+&lt;p&gt;Step 2&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;
+    On the left side, click in box #2 for a new item. Enter the instruction line below to generate a curve of best fit.&lt;/p&gt;
+&lt;p&gt;\(y_1 \sim ax_1^2+bx_1+ c\)&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Remember from the activity that Desmos will automatically place the 1 as subscript after an \(x\) or \(y\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Don't forget to use the symbol &lt;q&gt;~&lt;/q&gt; that means approximately. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Use the &lt;q&gt;^&lt;/q&gt; symbol to enter an exponent. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As soon as you enter the instruction line, Desmos will generate the curve of best fit.&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    Use the coefficients generated to write the equation for the curve of best fit.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/7465a3766f7e69e2ca46d5144c2e8feaeb91c3c7" alt="OUTPUT SUMMARY FOR A QUADRATIC REGRESSION. R-SQUARED IS 0.9958. A, B, AND C ARE NEGATIVE 2.75569, 37.0352, AND 65.6605, RESPECTIVELY." width="483" height="229"&gt;&lt;/p&gt;
+&lt;p&gt;Round each coefficient to the nearest hundredth.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The curve of best fit is \(y = -2.76x^2+ 37.04x + 65.66\).&lt;/p&gt;
+&lt;h4&gt;Try It: Finding the Curve of Best Fit&lt;/h4&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;Click on the Desmos link to show a data set. Find the equation of the curve of best fit. Round each coefficient to the nearest hundredth.&lt;/p&gt;
+        &lt;p&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/ffd3f910797845daf6654d4f76acf49cbc8bb22a" target="_blank"&gt;Desmos: Try It - Data Set&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to find the curve of best fit:&lt;/p&gt;
+    &lt;p&gt;Solve for the curve of best fit by entering \(y_1 \sim ax_1^2+bx_1+ c\).&amp;nbsp;&lt;/p&gt;
+    &lt;p&gt;The curve of best fit is \(y = 6.18x^2+ 4.59x + 25.42\).&lt;/p&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4693">
+            <jumpto>2090</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666581858</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4694">
+            <jumpto>2092</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666581858</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2092">
+        <prevpageid>2091</prevpageid>
+        <nextpageid>2093</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666582151</timecreated>
+        <timemodified>1667251572</timemodified>
+        <title>8.12.3: Making Predictions Using a Quadratic Model</title>
+        <contents>&lt;h4&gt;Activity&lt;/h4&gt;
+&lt;p&gt;A helium balloon is released and floats up before coming back down to the ground.&lt;/p&gt;
+&lt;p&gt;The following data set shows the height in feet, \(y\), of the balloon corresponding to the number of minutes passed, \(x\).&lt;/p&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="131"&gt;
+        &lt;col width="178"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(x_1\) (minutes)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;\(y_1\) (height in feet)&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;1&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;99.7&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;1.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;130&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;3&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;149&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;4.5&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;172&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;7&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;108&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;9&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td align="center"&gt;
+                &lt;p&gt;84&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Use the Desmos link below. Click the + symbol in the top left and select a table. Enter the data set into the table.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href="https://www.desmos.com/calculator" target="_blank"&gt;Desmos: Balloon Flight&lt;/a&gt;&lt;/p&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="2"&gt;
+            &lt;li&gt;Use the instruction line, \(y_1 \sim ax_1^2+bx_1+ c\), to find the curve of best fit.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;What is the equation of the curve of best fit? Round coefficients to the nearest hundredth.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the equation of the curve of best fit.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;\(y = -3.97x^2+35.22x + 78.63\)&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="3"&gt;
+            &lt;li&gt;How high will the balloon be after 4 minutes? (Hint: Graph the line \(x = 4\) to help identify where it intersects with the curve of best fit.)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the height of the balloon after 4 minutes.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Approximately 156.0 feet&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="4"&gt;
+            &lt;li&gt;How high will the balloon be after 10 minutes?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the height of the balloon after 10 minutes.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;Approximately 33.83 feet&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="5"&gt;
+            &lt;li&gt;At what time will the balloon first be at a height of 95 feet? (Graph the line \(y = 95\).)&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the time the balloon will first be at a height of 95 feet.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;At approximately 0.49 minute&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="6"&gt;
+            &lt;li&gt;At what time will the balloon return to a height of 95 feet?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the time the balloon will return to a height of 95 feet.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt; At approximately 8.38 minutes&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;!--Text Entry Interaction Start --&gt;
+&lt;div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-input-content"&gt;
+        &lt;ol class="os-raise-noindent" start="7"&gt;
+            &lt;li&gt;When will the balloon reach the ground, or have a height of 0 feet?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-prompt"&gt;
+        &lt;p&gt;Enter the time the balloon will reach the ground.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-input-ack"&gt;
+        &lt;p&gt;Compare your answer:&lt;/p&gt;
+        &lt;p&gt;At approximately 10.72 minutes&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Interaction End --&gt;
+&lt;br&gt;
+&lt;h4&gt;Video: Using Technology to Find The Quadratic Regression&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about finding quadratic regression.&amp;nbsp;&lt;/p&gt;
+&lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+    &lt;source src="https://k12.openstax.org/contents/raise/resources/eacddb18f25a338ef2ed0035b0bca663e1620905"&gt;
+    &lt;track src="https://k12.openstax.org/contents/raise/resources/79b4194b251b5df0a0be5ab651d9285f3c8729fd" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/eacddb18f25a338ef2ed0035b0bca663e1620905
+&lt;/video&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4695">
+            <jumpto>2089</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666582151</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4696">
+            <jumpto>2093</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666582151</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2093">
+        <prevpageid>2092</prevpageid>
+        <nextpageid>2094</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1666582842</timecreated>
+        <timemodified>1667254431</timemodified>
+        <title>8.12.3: Self Check </title>
+        <contents>&lt;p&gt;A baseball is thrown into the air. The following data set shows the height in feet, \(y\), of the baseball corresponding to the number of seconds passed, \(x\).&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href="https://k12.openstax.org/contents/raise/resources/0107b2bfda94c3432e1996a46a5cbfad3035b0cf" target="_blank" title="Desmos: Baseball Flight"&gt;Desmos: Baseball Flight&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Approximately how long will it be before the baseball hits the ground?&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4697">
+            <jumpto>2094</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666582842</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;2.73 seconds&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: This is the time it takes the baseball to reach its maximum height. The answer is 5.74 seconds.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4698">
+            <jumpto>2095</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1666582842</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;5.74 seconds&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;That’s correct! Check yourself: The curve of best fit is \(y = -3.93x^2+ 21.46x + 6.09\). The curve intersects the \(x\)-axis at 5.74.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4699">
+            <jumpto>2094</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666582842</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;6.75 seconds&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The curve of best fit is \(y = -3.93x^2+ 21.46x + 6.09\). The curve intersects the \(x\)-axis at 5.74. The answer is 5.74 seconds.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4700">
+            <jumpto>2094</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666582842</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;7.18 seconds&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;Incorrect. Let’s try again a different way: The curve of best fit is \(y = -3.93x^2+ 21.46x + 6.09\). The curve intersects the \(x\)-axis at 5.74. The answer is 5.74 seconds.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4701">
+            <jumpto>2094</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666582842</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2094">
+        <prevpageid>2093</prevpageid>
+        <nextpageid>2095</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666582883</timecreated>
+        <timemodified>1667254558</timemodified>
+        <title>8.12.3: Additional Resources</title>
+        <contents>&lt;h4&gt;Making Predictions Using a Quadratic Model&lt;/h4&gt;
+&lt;p&gt;A filtration system is being tested in a new aquarium. A pollutant is continuously added to the aquarium, and the filtration system is turned on until it has removed all of the pollutant from the water.&lt;/p&gt;
+&lt;p&gt;The following data set shows the milliliters (mL) of pollutant present, \(y\), corresponding to the number of minutes that have passed, \(x\), since the experiment started.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/1dea803e6bbfa6ecf97f6b685de81f9e25c9868d" target="_blank"&gt;Desmos: Aquarium Pollutant&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Let’s enter the instruction line, \(y_1 \sim ax_1^2+bx_1+ c\), to find the curve of best fit.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/6cf6f27fe7ef1d0e9642cc69ada91a8d5881fb26" alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY." width="624" height="295"&gt;&lt;/p&gt;
+&lt;p&gt;The curve of best fit is determined to be \(y = -0.29x^2+ 37.74x + 95.95\).&lt;/p&gt;
+&lt;p&gt;We can use this curve of best fit to answer questions and make predictions about the amount of pollutant that will be in the water (mL) and the time it takes to completely clean the tank of pollutant.&lt;/p&gt;
+&lt;p&gt;How many mL of pollutant will be in the water after 12 minutes?&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; To answer this question, we want to know the \(y\)-value on the curve of best fit when the \(x\)-value is 12. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; We can graph the line \(x = 12\) and see where it intersects with the curve of best fit. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/c0cf9e0de60c8680edd67e2edee49e7ef614fe35" alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY. A VERTICAL LINE IS DRAWN THROUGH X EQUALS 12, WITH THE POINT (12, 507.492) LABELED." width="624" height="296"&gt;&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; By moving the cursor over the intersection point, we see that the \(y\)-value is approximately 507.49. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; This means that after 12 minutes, there will be approximately 507.49 mL of pollutant in the water. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At what time(s) will there be 1000 mL of pollutant in the water?&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; To answer this question, we want to know the \(x\)-value on the curve of best fit when the \(y\)-value is 1000. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; We can graph the line \(y = 1000\) and see where it intersects with the curve of best fit. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://k12.openstax.org/contents/raise/resources/9acf6d93d76789a2ee4808e96d3f123c2099fd16" alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY. A HORIZONTAL LINE IS DRAWN THROUGH Y EQUALS ONE THOUSAND, WITH THE POINTS (31.508, 1000) AND (99.913, 1000) LABELED." width="624" height="272"&gt;&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; The line \(y = 1000\) intersects with the curve of best fit at two points. This means there are two times when there is 1000 mL of pollutant. We see that the \(x\)-values are approximately 31.51 and 99.91. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; In other words, there will be 1000 mL of pollutant at approximately 31.51 minutes and again at approximately 99.91 minutes after the experiment starts. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How long after the experiment has started will the filtration system have removed all of the pollutant from the aquarium?&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; To answer this question, we want to know the \(x\)-value of the \(x\)-intercept of the curve of best fit. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; If we graph \(y = 0\), we can click on the intersection point to find its coordinates. The \(x\)-intercept of the curve of best fit is \((133.92, 0)\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; So, approximately 133.92 minutes after the experiment starts, there will be no pollutant left in the water. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt; Try It: Making Predictions Using a Quadratic Model &lt;/h4&gt;
+&lt;p&gt;Use the same data set from the example in the section above.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/1dea803e6bbfa6ecf97f6b685de81f9e25c9868d" target="_blank"&gt;Desmos: Aquarium Pollutant&lt;/a&gt;&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;p&gt;The data set shows the milliliters (mL) of pollutant present, \(y\), corresponding to the number of minutes that have passed, \(x\), since the experiment started.&lt;/p&gt;
+        &lt;ol class="os-raise-noindent"&gt;
+            &lt;li&gt;How many mL of pollutant will be in the water after 47 minutes?&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;ol class="os-raise-noindent" start="2"&gt;
+            &lt;li&gt;At what time(s) will there be 1215 mL of pollutant in the water?&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Here is how to use graphing technology and the curve of best fit to make predictions about a situation:&lt;/p&gt;
+    &lt;ol class="os-raise-noindent"&gt;
+        &lt;li&gt;After 47 minutes, there will be approximately 1235.41 mL of pollutant.&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;ol class="os-raise-noindent" start="2"&gt;
+        &lt;li&gt;There will be 1215 mL of pollutant in the water after approximately 45.19 minutes and 86.23 minutes.&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4702">
+            <jumpto>2093</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666582883</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4703">
+            <jumpto>2095</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666582883</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2095">
+        <prevpageid>2094</prevpageid>
+        <nextpageid>2096</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666583015</timecreated>
+        <timemodified>1667254602</timemodified>
+        <title>8.12.4: Finding the Missing Data in the Set</title>
+        <contents>&lt;h4&gt;Cool Down Activity&lt;/h4&gt;
+&lt;p&gt;Thomasina used a quadratic data set to create a curve of best fit for her data. Then she accidentally spilled paint on her paper and lost some of the entries in the table.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/926a661da4ec541f37e949b16f6e7e0e85667a45" target="_blank"&gt;Desmos: Thomasina’s Curve of Best Fit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;She needs to work backward to fill in the missing entries in her data set. Use the curve of best fit she created to complete the table.&lt;/p&gt;
+&lt;div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;div class="os-raise-ib-cta-content"&gt;
+        &lt;table class="os-raise-standardtable"&gt;
+            &lt;colgroup&gt;
+                &lt;col width="124"&gt;
+                &lt;col width="122"&gt;
+            &lt;/colgroup&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;
+                        &lt;p&gt;\(x_1\)&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td align="center"&gt;
+                        &lt;p&gt;\(y_1\)&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;
+                        &lt;p&gt;6&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td align="center"&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;&lt;/td&gt;
+                    &lt;td align="center"&gt;
+                        &lt;p&gt;452.06&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;&lt;/td&gt;
+                    &lt;td align="center"&gt;
+                        &lt;p&gt;632.24&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;
+                        &lt;p&gt;58.2&lt;/p&gt;
+                    &lt;/td&gt;
+                    &lt;td align="center"&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td align="center"&gt;&lt;/td&gt;
+                    &lt;td align="center"&gt;
+                        &lt;p&gt;176.12&lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+        &lt;br&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-cta-prompt"&gt;
+        &lt;p&gt;Write down your answers, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="os-raise-ib-content" data-wait-for-event="Reveal1" data-schema-version="1.0"&gt;
+    &lt;p&gt;Compare your answers:&lt;/p&gt;
+    &lt;table class="os-raise-standardtable"&gt;
+        &lt;colgroup&gt;
+            &lt;col width="124"&gt;
+            &lt;col width="122"&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;\(x_1\)&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;\(y_1\)&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;6&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;188.07&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;17.9&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;452.06&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;31.1&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;632.24&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;58.2&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;630.83&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;83.6&lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td align="center"&gt;
+                    &lt;p&gt;176.12&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4704">
+            <jumpto>2092</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666583015</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4705">
+            <jumpto>2096</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666583015</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2096">
+        <prevpageid>2095</prevpageid>
+        <nextpageid>2097</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666583151</timecreated>
+        <timemodified>1667254702</timemodified>
+        <title>8.12.5: Practice </title>
+        <contents>&lt;!--Do not edit this div tag.  It must surround the interaction block--&gt;
+&lt;p&gt;Complete the following questions to practice the skills you have learned in this lesson.&lt;/p&gt;
+&lt;p&gt;Use &lt;a href="https://www.desmos.com/calculator" target="_blank"&gt;Desmos&lt;/a&gt; to answer questions 1–4. Find the curve of best fit for each data set. Round coefficients to the nearest hundredth.&lt;/p&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="2" data-button-text="Check" data-schema-version="1.0"&gt;
+    &lt;!--q1--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y = -0.69x^2+ 24.83x + 8.07\)" data-solution-options="[&amp;quot;\\(y = -0.93x^2+ 22.63x + 10.48\\)&amp;quot;, &amp;quot;\\(y = -0.69x^2+ 24.83x + 8.07\\)&amp;quot;, &amp;quot;\\(y = -3.11x^2+ 16.32x + 8.94\\)&amp;quot;, &amp;quot;\\(y = -0.7x^2 + 35.93x + 8.19\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent"&gt;
+                &lt;li&gt; &lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;table class="os-raise-standardtable"&gt;
+                &lt;colgroup&gt;
+                    &lt;col width="107"&gt;
+                    &lt;col width="107"&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;\(x_1\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;\(y_1\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;2&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;56&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;5&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;116&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;8&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;155&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;11&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;205&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;17&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;230&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.12.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(y = -0.69x^2+ 24.83x + 8.07\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--2--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y = -0.74x^2+ 34.32x + 7.44\)" data-solution-options="[&amp;quot;\\(y = -0.56x^2+ 38.74x + 5.31\\)&amp;quot;, &amp;quot;\\(y = -2.31x^2+ 24.711x + 3.25\\)&amp;quot;, &amp;quot;\\(y = -0.62x^2+ 17.45x + 9.64\\)&amp;quot;, &amp;quot;\\(y = -0.74x^2+ 34.32x + 7.44\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="2"&gt;
+                &lt;li&gt;&amp;nbsp;&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;table class="os-raise-standardtable"&gt;
+                &lt;colgroup&gt;
+                    &lt;col width="107"&gt;
+                    &lt;col width="107"&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;\(x_1\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;\(y_1\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;3&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;105&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;9&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;250&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;14&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;349&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;23&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;400&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;37&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;258&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 8.12.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(y = -0.74x^2+ 34.32x + 7.44\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--3--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y = -4.31x^2+ 3.2x + 6.08\)" data-solution-options="[&amp;quot;\\(y = -6.3x^2+ 8x + 10.6\\)&amp;quot;, &amp;quot;\\(y = -3.1x^2+ 2.6x + 7.93\\)&amp;quot;, &amp;quot;\\(y = -4.31x^2+ 3.2x + 6.08\\)&amp;quot;, &amp;quot;\\(y = -5.1x^2 + 9.2x + 7.14\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="3"&gt;
+                &lt;li&gt;&amp;nbsp;&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;div align="left"&gt;
+                &lt;table class="os-raise-standardtable"&gt;
+                    &lt;colgroup&gt;
+                        &lt;col width="107"&gt;
+                        &lt;col width="107"&gt;
+                    &lt;/colgroup&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;\(x_1\)&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;\(y_1\)&lt;/p&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;0.2&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;6.5&lt;/p&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;0.35&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;6.74&lt;/p&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;0.66&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;6.31&lt;/p&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;1&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;4.95&lt;/p&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;1.5&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td align="center"&gt;
+                                &lt;p&gt;1.2&lt;/p&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.12.2. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(y = -4.31x^2+ 3.2x + 6.08\). You seem to be stuck. Who can you ask for help? &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--4--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y = -25.41x^2+ 59.28x + 9.64\)" data-solution-options="[&amp;quot;\\(y = -25.41x^2+ 59.28x + 9.64\\)&amp;quot;, &amp;quot;\\(y = -30.84x^2+ 49.61x + 8.99\\)&amp;quot;, &amp;quot;\\(y = -3.72x^2 + 7.34x + 8.67\\)&amp;quot;, &amp;quot;\\(y = -35.78x^2+ 45.21x + 3.74\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="4"&gt;
+                &lt;li&gt;&amp;nbsp;&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;table class="os-raise-standardtable"&gt;
+                &lt;colgroup&gt;
+                    &lt;col width="107"&gt;
+                    &lt;col width="107"&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;\(x_1\)&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;\(y_1\)&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;0.3&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;25&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;0.6&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;36&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;1.2&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;45&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;1.8&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;33&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;2.3&lt;/p&gt;
+                        &lt;/td&gt;
+                        &lt;td align="center"&gt;
+                            &lt;p&gt;12&lt;/p&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 8.12.2 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(y = -25.41x^2+ 59.28x + 9.64\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--5--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="\(y = -9.2x^2+ 46x + 3.51\)" data-solution-options="[&amp;quot;\\(y = -6.1x^2+ 31x + 1.24\\)&amp;quot;, &amp;quot;\\(y = -11.9x^2+ 30.2x + 3.64\\)&amp;quot;, &amp;quot;\\(y = -4.2x^2 + 34x + 6.34\\)&amp;quot;, &amp;quot;\\(y = -9.2x^2+ 46x + 3.51\\)&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;For questions 5–9, use the following information.&lt;/p&gt;
+            &lt;p&gt;The path of a toy rocket after launch is modeled by the following data set.&lt;/p&gt;
+            &lt;p&gt;&lt;a href="https://k12.openstax.org/contents/raise/resources/6c8d597f67103687566fd7ad337430ced626e7db" target="_blank"&gt;Desmos: Toy Rocket.&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;The height of the rocket, in feet, \(y\), corresponds to the number of seconds passed, \(x\).&lt;/p&gt;
+            &lt;ol class="os-raise-noindent" start="5"&gt;
+                &lt;li&gt;What is the equation for the curve of best fit that models the flight of the toy rocket?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.12.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is \(y = -9.2x^2+ 46x + 3.51\). You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--6--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="58.71 feet" data-solution-options="[&amp;quot;45.91 feet &amp;quot;, &amp;quot;53.60 feet&amp;quot;, &amp;quot;58.71 feet&amp;quot;, &amp;quot;61.00 feet&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="6"&gt;
+                &lt;li&gt;Approximately how high will the rocket be 2 seconds after launch?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don’t you go back to activity 8.12.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 58.71 feet. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--7--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="0.39 seconds after launch and 4.61 seconds after launch" data-solution-options="[&amp;quot;0.26 seconds after launch and 4.74 seconds after launch &amp;quot;, &amp;quot;0.39 seconds after launch and 4.61 seconds after launch&amp;quot;, &amp;quot;0.52 seconds after launch and 4.48 seconds after launch&amp;quot;, &amp;quot;0.82 seconds after launch and 4.18 seconds after launch&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="7"&gt;
+                &lt;li&gt;At what approximate times after launch will the rocket have a height of 20 feet?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.12.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 0.39 seconds after launch and 4.61 seconds after launch. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--8--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="2.50 seconds" data-solution-options="[&amp;quot;1.73 seconds&amp;quot;, &amp;quot;2.50 seconds&amp;quot;, &amp;quot;3.20 seconds&amp;quot;, &amp;quot;5.08 seconds&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="8"&gt;
+                &lt;li&gt;Approximately how long will it take the rocket to reach its maximum height?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activity 8.12.3 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 2.50 seconds. You seem to be stuck. Who can you ask for help?
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--9--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="5.08 seconds" data-solution-options="[&amp;quot;2.50 seconds &amp;quot;, &amp;quot;4.63 seconds&amp;quot;, &amp;quot;5.08 seconds&amp;quot;, &amp;quot;6.12 seconds&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;ol class="os-raise-noindent" start="9"&gt;
+                &lt;li&gt;Approximately how long will it take for the rocket to land on the ground?&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Work smarter, not harder! Take a moment to think about what you learned in activity 8.12.3. Are you using it the right way?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 5.08 seconds. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--10--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="multiplechoice" data-solution="111" data-solution-options="[&amp;quot;10&amp;quot;, &amp;quot;93&amp;quot;, &amp;quot;105&amp;quot;, &amp;quot;111&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;For question 10, Maria has found a curve of best fit using &lt;a href="https://k12.openstax.org/contents/raise/resources/8ad6b57993b6bf2e62ceb1c9d5e20e23f62cd0b8" target="_blank"&gt;Desmos&lt;/a&gt;.&lt;/p&gt;
+            &lt;ol class="os-raise-noindent" start="10"&gt;
+                &lt;li&gt;Maria is asked to predict the \(y\)-value on her curve when \(x = 10\). To do this, she graphs the function \(x = 10\) and analyzes the intersection point of the curve and the line.&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;p&gt;What is the \(y\)-value Maria is asked to predict?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;Try again. Why don't you go back to activity 8.12.4 to test your understanding? Then come back and try this question again.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-attempts-exhausted-response"&gt;
+            &lt;p&gt;The correct answer is 111. You seem to be stuck. Who can you ask for help?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--Do not edit below this line--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt; &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt; &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4706">
+            <jumpto>2095</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666583151</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4707">
+            <jumpto>2097</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666583151</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2097">
+        <prevpageid>2096</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1666583237</timecreated>
+        <timemodified>1666740726</timemodified>
+        <title>8.12.6: Lesson Summary</title>
+        <contents>&lt;p&gt;In this lesson, you learned how to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Graph a quadratic data set using technology. &lt;/li&gt;
+    &lt;li&gt; Find a regression curve, or curve of best fit, using a quadratic data set. &lt;/li&gt;
+    &lt;li&gt; Use a regression curve to create a quadratic model for making predictions. &lt;/li&gt;
+    &lt;li&gt; Make predictions about a real-world situation using a quadratic data set. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the &lt;strong&gt;activities&lt;/strong&gt; that helped you reach those goals:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.12.1: Graphing a Quadratic Data Set Using Technology &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; In this activity, you learned how to represent a data set using Desmos. You looked for a visual pattern in a sample data set. &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.12.2: Finding the Curve of Best Fit &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; In this activity, you used graphing technology to generate a curve of best fit when given a data set. &lt;/li&gt;
+        &lt;li&gt; 8.12.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.12.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.12.3: Making Predictions Using a Quadratic Model &lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; In this activity, you found a curve of best fit from a data set that you used to make predictions about a real-world situation. &lt;/li&gt;
+        &lt;li&gt; 8.12.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 8.12.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 8.12.4: Finding the Missing Data in the Set &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; In this activity, you populated a sample data set from a curve of best fit. &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;After these activities, you completed the following &lt;strong&gt;practice&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 8.12.5: Practice &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Checking In&lt;/h4&gt;
+&lt;div class="os-raise-ib-pset" data-fire-success-event="eventnameX" data-fire-learning-opportunity-event="eventnameY" data-retry-limit="1" data-button-text="Submit" data-schema-version="1.0"&gt;
+
+    &lt;!--pulldown--&gt;
+    &lt;div class="os-raise-ib-pset-problem" data-problem-type="dropdown" data-solution="" data-solution-options="[&amp;quot;1 - I’m totally lost!&amp;quot;, &amp;quot;2 - I could use some more help.&amp;quot;, &amp;quot;3 - I mostly understand.&amp;quot;, &amp;quot;4 - I can do it.&amp;quot;,&amp;quot;5 - I’ve got this!&amp;quot;]"&gt;
+        &lt;div class="os-raise-ib-pset-problem-content"&gt;
+            &lt;p&gt;On a scale of 1 to 5, how confident do you feel about the learning goals of this lesson? &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-correct-response"&gt;
+            &lt;p&gt;Correct!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+            &lt;p&gt;If you’ve answered 3 or less, be sure to reach out to your teacher before starting the next lesson.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!--Do not edit below line.--&gt;
+    &lt;div class="os-raise-ib-pset-correct-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+    &lt;div class="os-raise-ib-pset-encourage-response"&gt;
+        &lt;!-- INSERT ANY VALID HTML HERE --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4708">
+            <jumpto>2096</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666583237</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4709">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1666583237</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="244" moduleid="323" modulename="lesson" contextid="334">
+  <lesson id="244">
+    <course>2</course>
+    <name>Lesson 9.7 Teacher Guide: Applying the Quadratic Formula</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>324</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1667555993</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="2225">
+        <prevpageid>0</prevpageid>
+        <nextpageid>2226</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667338529</timecreated>
+        <timemodified>1667417032</timemodified>
+        <title>9.7.0: Lesson Overview</title>
+        <contents>&lt;h4&gt;Lesson Narrative&lt;/h4&gt;
+&lt;p&gt;In earlier lessons, students saw that the quadratic formula can be used to solve any quadratic equation, but also that it might not be the most practical approach for all equations. Here, students deepen their understanding about the merits and potential drawbacks of using the quadratic formula. They pay close attention to each step in the solving process and analyze errors commonly made when applying the formula. Students also consider how to verify that the solutions they obtained with the quadratic formula are correct.&lt;/p&gt;
+&lt;p&gt;In analyzing the solution process and checking their work and the work of others, students practice attending to precision and critiquing the reasoning of others.&lt;/p&gt;
+&lt;p&gt;Technology isn't required for this lesson, but there are opportunities for students to choose to use appropriate technology to solve problems. Consider making technology available.&lt;/p&gt;
+&lt;h4&gt;Learning Goals (Teacher Facing)&lt;/h4&gt;
+&lt;p&gt;Students will be able to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Analyze and critique (orally and in writing) solutions to quadratic equations that are found using the quadratic formula. &lt;/li&gt;
+    &lt;li&gt; Determine whether a given value is a solution to a quadratic equation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Learning Targets (Student Facing)&lt;/h4&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Identify common errors when using the quadratic formula. &lt;/li&gt;
+    &lt;li&gt; Describe some ways to tell if a number is a solution to a quadratic equation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Texas Essential Knowledge and Skills (TEKS)&lt;/h4&gt;
+&lt;br&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;TEKS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Explanation of Coverage&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A8(A) &lt;u&gt;solve quadratic equations having real solutions by&lt;/u&gt; factoring, taking square roots, completing the square, and &lt;u&gt;applying the quadratic formula&lt;/u&gt;.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Partial coverage: Lesson provides content that covers part of this TEKS. The parts that are covered have been underlined.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;A11(A) simplify numerical radical expressions involving square roots.&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Full coverage: Lesson provides content that covers all parts of this TEKS.&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Lesson Activities&lt;/h4&gt;
+&lt;p&gt;Here are the instructional activities for the lesson:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 9.7.1: Evaluating Variable Expressions &lt;/li&gt;
+    &lt;li&gt; 9.7.2: Common Calculation Errors When Using the Quadratic Formula &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 9.7.2: Self Check &lt;/li&gt;
+        &lt;li&gt; 9.7.2: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 9.7.3: Different Methods of Checking Solutions of Quadratic Equations &lt;/li&gt;
+    &lt;ul class="os-raise-indent"&gt;
+        &lt;li&gt; 9.7.3: Self Check &lt;/li&gt;
+        &lt;li&gt; 9.7.3: Additional Resources &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; 9.7.4: Practice Spotting Calculation Errors &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students will also complete a series of problems in the 9.7.5: Practice.&lt;/p&gt;
+&lt;h4&gt;Required Materials&lt;/h4&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Scientific calculators &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Required Preparation&lt;/h4&gt;
+&lt;p&gt;Be prepared to display a graph for all to see in the activity synthesis of "Different Methods of Checking Solutions of Quadratic Equations" There is an image to display if graphing technology is not available.&lt;/p&gt;
+&lt;h4&gt;Lesson Vocabulary&lt;/h4&gt;
+&lt;p&gt;During this lesson, it is important to:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Familiarize students with the vocabulary words they will see throughout the lesson. &lt;/li&gt;
+    &lt;li&gt; Encourage students to look for these words and notice their use and meanings. &lt;/li&gt;
+    &lt;li&gt; Encourage students to use key vocabulary words in "math talk" and their written and oral explanations. &lt;/li&gt;
+    &lt;li&gt; Utilize a word wall. Sample cards are located here: &lt;a href="https://www.doe.virginia.gov/instruction/mathematics/resources/vocab_cards/" target="_blank"&gt;Mathematics Vocabulary Word Wall Cards&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vocabulary words that are emphasized in this lesson:&lt;/p&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;Previous Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;New Vocabulary&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign="top"&gt;
+                &lt;ul&gt;
+                    &lt;li&gt; maximum &lt;/li&gt;
+                    &lt;li&gt; quadratic equation &lt;/li&gt;
+                    &lt;li&gt; quadratic formula &lt;/li&gt;
+                    &lt;li&gt; zero (of a function) &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td valign="top"&gt;
+                &lt;ul&gt;
+                    &lt;li&gt; none &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h4&gt;Support for Building Character&lt;/h4&gt;
+&lt;p&gt;Throughout this unit, find ways to encourage and support students to work on cultivating their &lt;strong&gt;intellectual humility&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some tips to try during this lesson:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/see-whats-possible/" target="_blank"&gt;See What's Possible&lt;/a&gt; &lt;/li&gt;
+    &lt;li&gt; &lt;a href="https://characterlab.org/tips-of-the-week/career-paths/" target="_blank"&gt;Career Paths&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find other tips located here in the&lt;a href="https://characterlab.org/playbooks/intellectual-humility/" target="_blank"&gt; Playbook on Intellectual Humility&lt;/a&gt; from Character Lab.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4991">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667338529</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2226">
+        <prevpageid>2225</prevpageid>
+        <nextpageid>2227</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667339809</timecreated>
+        <timemodified>0</timemodified>
+        <title>9.7.1: Evaluating Variable Expressions</title>
+        <contents>&lt;h3&gt;Warm Up (5 minutes)&lt;/h3&gt;
+&lt;p&gt;In this warm up, students evaluate variable expressions that resemble those in the quadratic formula. The aim is to preview the calculations that are the source of some common errors in solving equations using the quadratic formula, which students will analyze in the next activity.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Encourage and support opportunities for peer interactions. Invite students to talk about their ideas with a partner before writing them down.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Evaluate each expression for \(a=9\), \(b=-5\), and \(c=-2\).&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+&lt;li&gt;\(-b\)&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 5&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+&lt;li&gt;\(b^2\)&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 25&lt;br&gt;
+	\((-5)^2=25\)&lt;/p&gt;
+	&lt;ol start="3" class="os-raise-noindent"&gt;
+&lt;li&gt;\(b^2−4ac\)&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 97&lt;br&gt;
+	\((-5)^2−4(9)(-2)=25-(36)(-2)=25-(-72)=25+72=97\)&lt;/p&gt;
+&lt;ol start="4" class="os-raise-noindent"&gt;
+&lt;li&gt;Select two answers for \(-b \pm \sqrt{a}\).&lt;/li&gt;&lt;/ol&gt;
+&lt;ul&gt;
+  &lt;li&gt; -14 &lt;/li&gt;
+  &lt;li&gt; 8 &lt;/li&gt;
+  &lt;li&gt; 2 &lt;/li&gt;
+  &lt;li&gt; 4 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 2, 8&lt;br&gt;
+	\(-(-5)+\sqrt{9}=5+3=8\) and \(-(-5)-\sqrt{9}=5-3=2\)&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Invite students to share their responses and discuss any disagreement. For each expression, ask if they can think of an error someone might make when evaluating such an expression. Some possible errors:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; \(-b\): Forgetting that \(-b\) is really \(-1(b)\) and the product of two negative numbers is positive. &lt;/li&gt;
+  &lt;li&gt; \(b^2\): When \(b\) is -5, evaluating \(-(5)^2\), instead of \((-5)^2\). &lt;/li&gt;
+  &lt;li&gt; \(b^2−4ac\): Forgetting that subtracting by \(4ac\) is equivalent to adding \(-4ac\), or neglecting to see that if \(c\) is negative, \(-4ac\) is positive, not negative. &lt;/li&gt;
+  &lt;li&gt; \(-b \pm \sqrt{a}\): Neglecting the negative in front of \(b\), or neglecting to see that the expression takes two different values. Tell students that in the next activity, they will spot some errors in solving quadratic equations. &lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4992">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667339809</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4993">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667339809</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2227">
+        <prevpageid>2226</prevpageid>
+        <nextpageid>2228</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667342548</timecreated>
+        <timemodified>1667641936</timemodified>
+        <title>9.7.2: Common Calculation Errors When Using the Quadratic Formula</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;Solving an equation with the quadratic formula involves multiple calculations, some of which may be prone to error. This activity acquaints students with some of the commonly made mistakes and encourages them to write and evaluate expressions carefully. As students analyze the progression of reasoning in worked solutions, they practice reasoning abstractly and attending to precision in communicating a solution.&lt;/p&gt;
+&lt;p&gt;As students work, identify those who can clearly and correctly explain the errors in the worked solutions. Ask them to share their responses during the class discussion.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Arrange students in groups of two. Give students a few minutes of quiet work time to solve one to two equations using the quadratic formula, and then a moment to discuss their response with their partner. Then, ask them to study the worked solutions (in the activity statement) for the same equations that they had solved and identify the errors.&lt;/p&gt;
+&lt;p&gt;If time permits, ask groups to identify the errors in the remaining equations. If they get stuck, suggest that they try solving the equations first and then look for the errors.&lt;/p&gt;
+&lt;p&gt;Provide access to calculators for numerical computations.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Here are four equations, followed by attempts to solve them using the quadratic formula. Each attempt contains at least one error.&lt;/p&gt;
+&lt;p&gt;Solve the equations by using the quadratic formula. Then, find and describe the error(s) in the worked solutions of the same equations as the ones you solved.&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Equation 1: \(2x^2+3=8x\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here is the worked solution with errors:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    \(2x^2-8x + 3 = 0\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    \(a=2\), \(b=-8\), \(c=3\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    \(x=\frac {-b \pm \sqrt{ b^2- 4ac}}{2a}\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    \(x=\frac{-(-8) \pm \sqrt{(-8)^2- (4)(2)(3)}}{2(2)}\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    \(x=\frac {8 \pm \sqrt{ 64-24}}{4}\)&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+    \(x=\frac {8 \pm \sqrt{40}}{4}\)&lt;/p&gt;
+&lt;p&gt;Step 7&lt;br&gt;
+    \(x=2 \pm \sqrt{10}\)&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; The correct solutions are \(x=2 \pm \frac{\sqrt {40}}{4}\) or \(x=2\pm \frac{1}{2} \sqrt{10}\) or equivalent. &lt;/li&gt;
+    &lt;li&gt; The computation from Step 6 to Step 7 is not evaluated correctly, so the solution is incorrect. \(\frac {\sqrt{40}}{4}\) is not \(\sqrt{10}\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(\begin{array}{l}
+    2 x^{2}-8 x+3=0 \\
+    a=2, b=-8, c=3 \\
+    x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\
+    x=\frac{-(-8) \pm \sqrt{(-8)^{2}-(4)(2)(3)}}{2(2)} \\
+    x=\frac{8 \pm \sqrt{64-24}}{4} \\
+    x=\frac{8 \pm \sqrt{40}}{4} \\
+    x=2 \pm \frac{\sqrt{40}}{4} \\
+    x=2 \pm \frac{\sqrt{4} \cdot \sqrt{10}}{4} \\
+    x=2 \pm \frac{2 \cdot \sqrt{10}}{4} \\
+    x=2 \pm \frac{1}{2} \sqrt{10}
+    \end{array}\)&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;Equation 2: \(x^2+3x=10\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here is the worked solution with errors:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    \(a=1\), \(b=3\), \(c=10\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    \(x=\frac{-b \pm \sqrt {b^2- 4ac}}{2a}\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    \(x=\frac{-(3) \pm \sqrt {3^2- (4)(1)(10)}}{2(1)}\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    \(x=\frac{-3 \pm \sqrt {9-40}}{2}\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    \(x=\frac{-3 \pm \sqrt {-31}}{2}\)&lt;/p&gt;
+&lt;p&gt;No Solutions&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; The correct solutions are \(x=2\) and \(x=-5\). &lt;/li&gt;
+    &lt;li&gt; The equation was not rewritten in standard form, = 0, before Step 1, where the \(a\), \(b\), and \(c\) were identified. The \(c\) should be -10, not 10. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(\begin{array}{l}
+    x^{2}+3 x-10=0 \\
+    a=1, b=3, c=-10 \\
+    x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\
+    x=\frac{-(3) \pm \sqrt{(3)^{2}-(4)(1)(-10)}}{2(1)} \\
+    x=\frac{-3 \pm \sqrt{9-(-40)}}{2} \\
+    x=\frac{-3 \pm \sqrt{9+40}}{2} \\
+    x=\frac{-3 \pm \sqrt{49}}{2} \\
+    x=\frac{-3 \pm 7}{2} \\
+    x=\frac{-3+7}{2}=\frac{4}{2}=2 \\
+    x=\frac{-3-7}{2}=\frac{-10}{2}=-5
+    \end{array}\)&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;Equation 3: \(9x^2−2x−1=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here is the worked solution with errors:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    \(a=9\), \(b= -2\), \(c= -1\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    \(x=\frac{2 \pm \sqrt{(-2)^2- (4)(9)(-1)}}{2}\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    \(x=\frac{2 \pm \sqrt{4+36}}{2}\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    \(x=\frac{2 \pm \sqrt{40}}{2}\)&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; The correct solution is \(x=\frac{1 \pm \sqrt{10}}{9}\) (or equivalent). &lt;/li&gt;
+    &lt;li&gt; In step 3, the value of \(a\) is not multiplied by 2 in the denominator of the formula. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(\begin{array}{l}
+    a=9, b=-2, c=-1 \\
+    x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\
+    x=\frac{-(-2) \pm \sqrt{(-2)^{2}-(4)(9)(-1)}}{2(9)} \\
+    x=\frac{2 \pm \sqrt{4+36}}{18} \\
+    x=\frac{2 \pm \sqrt{40}}{18} \\
+    x=\frac{2 \pm \sqrt{4} \cdot \sqrt{10}}{18} \\
+    x=\frac{2 \pm 2 \cdot \sqrt{10}}{2(9)} \\
+    x=\frac{1 \pm \sqrt{10}}{9}
+    \end{array}\)&lt;/p&gt;
+&lt;ol start="4" class="os-raise-noindent"&gt;
+    &lt;li&gt;Equation 4: \(x^2−10x+23=0\)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here is the worked solution with errors:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    \(a=1\), \(b=-10\), \(c=23\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    \(x=\frac{-10 \pm \sqrt{(-10)^2- (4)(1)(23)}}{2}\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    \(x=\frac{-10 \pm \sqrt{-100-92}}{2}\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    \(x=\frac{-10 \pm \sqrt{-192}}{2}\)&lt;/p&gt;
+&lt;p&gt;No Solutions&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; The correct solution is \(x=5 \pm \sqrt{2}\) (or equivalent). &lt;/li&gt;
+    &lt;li&gt; In Step 3, when \(b\) is -10, the value of \(-b\) should be 10. &lt;/li&gt;
+    &lt;li&gt; In Step 4, the value of \(b^2\) should be positive even when \(b\) is negative. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(\begin{array}{l}
+    a=1, b=-10, c=23 \\
+    x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\
+    x=\frac{-(-10) \pm \sqrt{(-10)^{2}-(4)(1)(23)}}{2} \\
+    x=\frac{10 \pm \sqrt{100-92}}{2} \\
+    x=\frac{10 \pm \sqrt{8}}{2} \\
+    x=5 \pm \frac{\sqrt{8}}{2} \\
+    x=5 \pm \frac{\sqrt{4} \cdot \sqrt{2}}{2} \\
+    x=5 \pm \frac{2 \cdot \sqrt{2}}{2} \\
+    x=5 \pm \sqrt{2}
+    \end{array}\)&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Display the worked solutions in the activity statement for all to see. Select previously identified students to identify and explain the error(s) in each worked solution.&lt;/p&gt;
+&lt;p&gt;After each student presents, ask the class to classify the error(s) by type and to explain their classification. For instance, are the errors careless mistakes or computational mistakes? Do they show gaps in understanding, incomplete communication, or a lack of precision?&lt;/p&gt;
+&lt;p&gt;If not mentioned by students, point out that these errors are easy to make but not always easy to notice. Sometimes, unless the solutions really make no sense, we won't know if the solutions are actually correct or completely off unless we check them. Tell students that they will consider ways to check their solutions in the next activity.&lt;/p&gt;
+&lt;h3&gt;9.7.2: Self Check&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="302"&gt;
+        &lt;col width="322"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;When solving \(x^2−30x+26=0\) using the quadratic formula, Sloane's work showed the formula as this:&lt;/p&gt;
+                &lt;p&gt;\(x=\frac{-30 \pm \sqrt {900-104}}{2}\).&lt;/p&gt;
+                &lt;p&gt;Which of the following describes the error in her work?&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The denominator should be 4, not 2; \(x=\frac {-30 \pm \sqrt{900-104}}{4}\).&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: The formula states the denominator is \(2a = 2(1) =2\). So the denominator is correct. The error is that the first term in the numerator should be 30, not -30; \(x=\frac {30 \pm \sqrt{900-104}}{2}\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The discriminant should be \(900 + 104\), not \(900 - 104\); \(x=\frac {-30 \pm \sqrt{900+104}}{2}\).&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: The formula states \(b^2−4ac=(-30)^2-4(1)26=900 -104\), so the discriminant is correct. The error is that the first term in the numerator should be 30, not -30; \(x=\frac {30 \pm \sqrt{900-104}}{2}\).&lt;/p&gt;
+                &lt;p&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The first term in the numerator should be 30, not -30; \(x=\frac {30 \pm \sqrt{900-104}}{2}\).&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That's correct! Check yourself: The formula states the first term in the numerator is \(-b\), so \(-b = -(-30) = 30\); \(x=\frac {30 \pm \sqrt{900-104}}{2}\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;The discriminant should be \(-900 - 104\), not \(900 - 104\); \(x=\frac {-30 \pm \sqrt{900-104}}{2}\).&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: The formula states&lt;/p&gt;
+                &lt;p&gt;\(b^2−4ac=(-30)^2-4(1)26=900 -104\), so the discriminant is correct. The error is that the first term in the numerator should be 30, not -30; \(x=\frac {30 \pm \sqrt{900-104}}{2}\).&lt;/p&gt;
+                &lt;p&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;9.7.2: Additional Resources&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;h4&gt;Common Errors When Using the Quadratic Formula&lt;/h4&gt;
+&lt;p&gt;The quadratic formula has many parts in it. A small error in any one part can lead to incorrect solutions.&lt;/p&gt;
+&lt;p&gt;Suppose we are solving \(2x^2−6=11x\). To use the formula, let's rewrite it in the form of \(ax^2+bx+c=0\), which gives: \(2x^2−11x−6=0\).&lt;/p&gt;
+&lt;p&gt;Here are some common errors to avoid:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Using the wrong values for \(a\), \(b\), and \(c\) in the formula. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)&lt;/p&gt;
+&lt;p&gt;\(x=\frac{-11 \pm \sqrt{(11)^2- 4(2)(-6)}}{2(2)}\)&lt;/p&gt;
+&lt;p&gt;This is incorrect! \(b\) is -11, so \(-b\) is -(-11), which is 11, not -11.&lt;/p&gt;
+&lt;p&gt;The correct formula is:&lt;br&gt;
+    \(x=\frac{11 \pm \sqrt{(11)^2- 4(2)(-6)}}{2(2)}\)&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Forgetting to multiply 2 by \(a\) for the denominator in the formula. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(x=\frac{11 \pm \sqrt{(11)^2- 4(2)(-6)}}{2}\)&lt;/p&gt;
+&lt;p&gt;This is incorrect! The denominator is \(2a\), which is \(2(2)\) or 4.&lt;/p&gt;
+&lt;p&gt;The correct formula is:&lt;br&gt;
+    \(x=\frac{11 \pm \sqrt{(11)^2- 4(2)(-6)}}{2(2)}\)&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Forgetting that squaring a negative number produces a positive number. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(x=\frac{11 \pm \sqrt{-121- 4(2)(-6)}}{4}\)&lt;/p&gt;
+&lt;p&gt;This is incorrect! \((-11)^2\) is 121, not -121.&lt;/p&gt;
+&lt;p&gt;The correct formula is:&lt;br&gt;
+    \(x=\frac{11 \pm \sqrt{121- 4(2)(-6)}}{4}\)&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Forgetting that a negative number times a positive number is a negative number. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(x=\frac{11 \pm \sqrt{121- 48}}{4}\)&lt;/p&gt;
+&lt;p&gt;This is incorrect! \(4(2)(-6)=-48\) and \(121−(-48)\) is \(121+48\).&lt;/p&gt;
+&lt;p&gt;The correct formula is:&lt;br&gt;
+    \(x=\frac {11 \pm \sqrt{121+48}}{4}\)&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Making calculation errors or not following the properties of algebra. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;\(x=\frac {11 \pm \sqrt{169}}{4}\)&lt;/p&gt;
+&lt;p&gt;\(x=11 \pm \sqrt{42.25}\)&lt;/p&gt;
+&lt;p&gt;This is incorrect! Both parts of the numerator, the 11 and the \(\sqrt{169}\), get divided by 4. Also, \(\frac{\sqrt{169}}{4}\) is not \(\sqrt{42.25}\).&lt;/p&gt;
+&lt;p&gt;The correct formula is:&lt;br&gt;
+    \(x=\frac{11 \pm 13}{4}\)&lt;/p&gt;
+&lt;p&gt;Let's finish by evaluating \(\frac{11 \pm 13}{4}\) correctly:&lt;br&gt;
+    \(x=\frac{11+13}{4}\) or \(x=\frac{11-13}{4}\)&lt;br&gt;
+    \(x=\frac{24}{4}\) or \(x=-\frac{2}{4}\)&lt;br&gt;
+    \(x=6\) or \(x=-\frac{1}{2}\)&lt;/p&gt;
+&lt;p&gt;To make sure our solutions are indeed correct, we can substitute the solutions back into the original equations and see whether each solution keeps the equation true.&lt;/p&gt;
+&lt;p&gt;Checking 6 as a solution:&lt;br&gt;
+    \(2x^2-6=11x\)&lt;br&gt;
+    \(2(6)^2-6=11(6)\)&lt;br&gt;
+    \(2(36)-6=66\)&lt;br&gt;
+    \(72-6=66\)&lt;br&gt;
+    \(66=66 \; \checkmark\)&lt;/p&gt;
+&lt;p&gt;Checking \(-\frac{1}{2}\) as a solution:&lt;br&gt;
+    \(2x^2-6=11x\)&lt;br&gt;
+    \(2(-\frac{1}{2})^2-6=11(-\frac{1}{2})\)&lt;br&gt;
+    \(2(\frac{1}{4})-6=-\frac{11}{2}\)&lt;br&gt;
+    \(\frac{1}{2}-6=-5\frac{1}{2}\)&lt;br&gt;
+    \(-5\frac{1}{2}=-5\frac{1}{2} \; \checkmark\)&lt;/p&gt;
+&lt;p&gt;We can also graph the equation \(y=2x^2−11x−6\) and find its \(x\)-intercepts to see whether our solutions to \(2x^2−11x−6=0\) are accurate (or close to accurate).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/DVEQCBENbxn33haBJ7D7G3ZJ" width="262" height="147"&gt;&lt;/p&gt;
+&lt;h4&gt;Try It: Common Errors When Using the Quadratic Formula&lt;/h4&gt;
+&lt;p&gt;Zariah was solving the equation \(3x^2-8x+4=0\) with the quadratic formula and used the steps below. She then had to stop because she realized there was a problem. Locate and describe her error.&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    \(x=\frac{-(-8) \pm \sqrt{-8^2-4(3)(4)}}{6}\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    \(x=\frac{8 \pm \sqrt{-64-48}}{6}\)&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to find the error:&lt;/p&gt;
+&lt;p&gt;First, Zariah substituted \(a=3\), \(b= -8\), and \(c =4\) into the formula in Step 1.&lt;/p&gt;
+&lt;p&gt;However, under the radical, \(b^2=(-8)^2= + 64\).&lt;/p&gt;
+&lt;p&gt;Step 2 would then become:&lt;/p&gt;
+&lt;p&gt;\(x=\frac{8 \pm \sqrt{64-48}}{6}\)&lt;/p&gt;
+&lt;p&gt; Which leads to the following solution:&lt;/p&gt;
+&lt;p&gt;\(x=\frac{8 \pm \sqrt{16}}{6}\)&lt;/p&gt;
+&lt;p&gt;\(x=\frac{8 \pm 4}{6}\)&lt;/p&gt;
+&lt;p&gt;\(x=\frac{12}{6}=2\), \(x=\frac{4}{6}=\frac{2}{3}\)&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4994">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667342548</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4995">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667342548</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2228">
+        <prevpageid>2227</prevpageid>
+        <nextpageid>2229</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667359370</timecreated>
+        <timemodified>1668022816</timemodified>
+        <title>9.7.3: Different Methods of Checking Solutions of Quadratic Equations</title>
+        <contents>&lt;h3&gt;Activity (15 minutes)&lt;/h3&gt;
+&lt;p&gt;Earlier, students practiced identifying likely mistakes in solving quadratic equations using the quadratic formula. This activity prompts students to check the solutions to quadratic equations and to recognize that there is more than one way to do so. Different approaches include substituting solutions to see if the equation is true, solving using a different algebraic method, or solving by graphing.&lt;/p&gt;
+&lt;p&gt;Monitor for students who verify the solutions to the equation \(2+30t−5t^2=47\) by:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Solving the equation using another algebraic method and seeing if they get the same solutions. For instance, if they used the quadratic formula initially, they might choose to solve again by completing the square or by rewriting the equation in factored form. &lt;/li&gt;
+    &lt;li&gt; Substituting the solutions for \(t\) in the equation and seeing if the equation is true. &lt;/li&gt;
+    &lt;li&gt; Graphing \(y=2+30t−5t^2\) and \(y=47\) and seeing if the horizontal coordinates of the intersections match those of the solutions. &lt;/li&gt;
+    &lt;li&gt; Graphing \(y=-45+30t−5t^2\) and checking the horizontal intercepts of the graph. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Identify students who use contrasting methods and ask them to share during discussion. The algebraic strategies are more precise but could lead to errors if the computations are performed incorrectly. The graphing strategies can be accomplished quickly with the use of technology but may only give approximate solutions.&lt;/p&gt;
+&lt;p&gt;Making calculators and graphing technology available gives students an opportunity to choose appropriate tools strategically.&lt;/p&gt;
+&lt;h4&gt;Launch&lt;/h4&gt;
+&lt;p&gt;Keep students in groups of two. Ask students to think quietly about each question before conferring with their partner. Encourage partners to consider different ways of checking their solutions.&lt;/p&gt;
+&lt;p&gt;If time is limited, consider asking half of the class to answer the first question and the other half to answer the second question.&lt;/p&gt;
+&lt;p&gt;Provide access to calculators for numerical computations and to graphing technology, in case requested for solution checking.&lt;/p&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;The equation \(h(t)=2+30t−5t^2\) represents the height, as a function of time, of a pumpkin that was catapulted up in the air. Height is measured in meters and time is measured in seconds.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="os-raise-noindent" type="a"&gt;
+    &lt;li&gt;The pumpkin reached a maximum height of 47 meters. How many seconds after launch did that happen?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 3&lt;br&gt;
+    The pumpkin reached a maximum height of 47 meters 3 seconds after launch.&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent" type="a"&gt;
+    &lt;li&gt;Show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{l}
+    h(t)=-5 t^{2}+30 t+2 \\
+    -5 t^{2}+30 t+2=47 \\
+    -5 t^{2}+30 t-45=0 \\
+    a=-5, b=30, c=-45 \\
+    t=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\
+    t=\frac{-(30) \pm \sqrt{(30)^{2}-(4)(-5)(-45)}}{2(-5)} \\
+    t=\frac{-30 \pm \sqrt{900-900}}{-10} \\
+    t=\frac{-30}{-10} \\
+    t=3
+    \end{array}\)&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent" type="a"&gt;
+    &lt;li&gt;Suppose someone was unconvinced by your solution. Find another way (besides the steps you already took) to show your solution is correct.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Answers may vary. Sample responses include:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Substitute 3 for \(t\) in the original expression; evaluating it gives \(2+30(3)−5(3)^2\) or \(2+90−45\), which is 47. &lt;/li&gt;
+    &lt;li&gt; Graphing \(y=2+30t−5t^2\) and \(y=47\) shows an intersection is located at \((3,47)\). &lt;/li&gt;
+    &lt;li&gt; Graphing \(y=-45+30t−5t^2\) shows a zero at \((3,0)\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;The equation \(r(p)=80p−p^2\) models the revenue a band expects to collect as a function of the price of one concert ticket. Ticket prices and revenues are in dollars.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A band member says that a ticket price of either $15.50 or $74.50 would generate approximately $1000 in revenue. Do you agree? Show your reasoning.&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Answers may vary. Sample responses include:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Partially agree. A ticket price of $15.50 will generate about $1000 in revenue, but a ticket price of $74.50 will generate much less (about $410). &lt;/li&gt;
+    &lt;li&gt; Using the quadratic formula to solve \(1000=80p−p^2\) gives \(p \approx 15.50\) and \(p \approx 64.50\) as the solutions. &lt;/li&gt;
+    &lt;li&gt; Substituting 15.50 into the expression \(80p−p^2\) gives 999.75, which is close to 1000. \((80(15.50)−(15.50)2=999.75)\). Substituting 74.50 into the expression \(80p−p^2\) gives 409.75. &lt;/li&gt;
+    &lt;li&gt; Graphing the equation \(y=r(p)\) and \(y=1000\) shows two intersections at approximately \((15.50,1000)\) and \((64.50,1000)\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Video: Explaining Your Solutions to Quadratic Situations&lt;/h4&gt;
+&lt;p&gt;Watch the following video to learn more about proving quadratic solutions.&lt;/p&gt;
+  &lt;video controls="true" crossorigin="anonymous" width="550"&gt;
+        &lt;source src="https://k12.openstax.org/contents/raise/resources/53a8917c8b3418a7473a16ad7d50f607dfbe26ea"&gt;
+        &lt;track src="https://k12.openstax.org/contents/raise/resources/86979958a6e38c2c55550540a5d307b3cea626ef" kind="captions" srclang="en_us" label="On" default="true"&gt;https://k12.openstax.org/contents/raise/resources/53a8917c8b3418a7473a16ad7d50f607dfbe26ea
+    &lt;/video&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;Student-Facing Extension&lt;/h4&gt;
+&lt;h5&gt;Are you ready for more?&lt;/h5&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Function \(g\) is defined by the equation \(g(t)=2+30t−5t^2−47\). Its graph opens downward.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol type="a" class="os-raise-noindent"&gt;
+    &lt;li&gt;Find the zeros of function \(g\) without graphing.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 3&lt;br&gt;
+    Function \(g\) has one zero: 3.&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent" type="a"&gt;
+    &lt;li&gt;Show your reasoning.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; \(2+30t−5t^2−47\) is equivalent to \(-5t^2+30t−45\). Solving \(-5t^2+30t−45=0\) using the quadratic formula gives \(t=3\). &lt;/li&gt;
+    &lt;li&gt; \(-5t^2+30t−45\) can be rewritten as \(-5(t^2−6t+9)\) and then as \(-5(t−3)(t−3)\). Applying the zero product property to solve \(-5(t−3)(t−3)=0\) gives \(t=3\). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;Explain or show how the zeros you found can tell us the vertex of the graph of \(g\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Function \(g\) only has one zero, which means its graph has only one horizontal intercept, occurring when \(t=3\). Because the point \((3,0)\) is the only intercept, it must also be the vertex of the graph, otherwise there would have been either two horizontal intercepts, or none.&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;Recall that \(g(t)=2+30t−5t^2−47\) and \(h(t)=2+30t−5t^2\). Examine these functions \(g\) and \(h\) (which defined the height of the pumpkin). Explain how the maximum of function \(h\), once we know it, can tell us the maximum of \(g\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The value of the expression for \(g\) is 47 less than that of \(h\), so if we know the maximum of \(h\), we know that the maximum of \(g\) is 47 less than that. We saw that the maximum of \(h\) is 47, so the maximum of \(g\) is 47 less than 47, which is 0.&lt;/p&gt;
+&lt;h4&gt;Activity Synthesis&lt;/h4&gt;
+&lt;p&gt;Select previously identified students to present the different ways in which they checked their solutions. Sequence their presentations based on the precision of the verification (from more precise to less precise), as shown in the Activity Narrative. Highlight as many different strategies as time permits.&lt;/p&gt;
+&lt;p&gt;If no one mentions solving with a different strategy or graphing as ways to verify solutions, bring these up. Display a graph such as this one to show that the graph can immediately show that 74.50 is not a solution to the equation \(80p−p^2=1000\), but 64.50 is very, very close.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s3.amazonaws.com/im-ims-export/smh5NRrU8yGBf6quoKn2L9B8" width="450" height="261"&gt;&lt;/p&gt;
+&lt;p&gt;Many students may have chosen to substitute the solutions back into the equation as a way to check them. Acknowledge that this is a very useful strategy for checking, but it also has its limits. Sometimes the solutions are not rational numbers-for example, \(x=2 \pm \frac{1}{2} \sqrt{10}\). Substituting such an expression back into the equation and evaluating it would mean complicated computations, which may themselves be subject to errors.&lt;/p&gt;
+&lt;p&gt;We could approximate the values of expressions like \(x=2 \pm \frac{1}{2} \sqrt{10}\) and write them as decimals before checking. This is a workable strategy if a calculator is handy.&lt;/p&gt;
+&lt;h3&gt;9.7.3: Self Check&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;Following the activity, students will answer the following question to check their understanding of the concepts explored in the activity.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;table class="os-raise-standardtable"&gt;
+    &lt;colgroup&gt;
+        &lt;col width="302"&gt;
+        &lt;col width="322"&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;
+                &lt;p&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;The equation \(g(t) = 2 + 23.7t - 4.9t^2\) models the height, in meters, of a pumpkin \(t\) seconds after it has been launched from a catapult. Which of the following substitutions into the quadratic formula is correct to find the value of \(t\) where the pumpkin hit the ground?&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;ANSWERS&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;&lt;strong&gt;FEEDBACK&lt;/strong&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(t=\frac{23.7 \pm \sqrt{600.89}}{-9.8}\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: In the numerator, take the negative of the \(b\) value. The correct answer is \(t=\frac{-23.7 \pm \sqrt{600.89}}{-9.8}\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(t=\frac{-23.7 \pm \sqrt{600.89}}{-9.8}\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;That's correct! Check yourself: The quadratic formula is \(t=\frac {-b \pm \sqrt{b^2-4ac}}{2a}\) where \(a=-4.9\), \(b=23.7\), \(c=2\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(t=\frac{-23.7 \pm \sqrt{600.89}}{-4.9}\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: In the denominator, be sure to multiply the \(a\) value by 2. The correct answer is \(t=\frac{-23.7 \pm \sqrt{600.89}}{-9.8}\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p&gt;\(t=\frac{-23.7 \pm \sqrt{600.89}}{4}\)&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;Incorrect. Let's try again a different way: The \(a\) value is -4.9 and the \(c\) value is 2. Write the quadratic in descending order before identifying the \(a\), \(b\), and \(c\). The correct answer is \(t=\frac{-23.7 \pm \sqrt{600.89}}{-9.8}\).&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;h3&gt;9.7.3: Additional Resources&lt;/h3&gt;
+&lt;em&gt;&lt;strong&gt;
+        &lt;p&gt;The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&lt;/p&gt;
+    &lt;/strong&gt;&lt;/em&gt;
+&lt;h4&gt;Answering Questions About Situations With the Quadratic Formula&lt;/h4&gt;
+&lt;p&gt;Here is an example of someone solving a quadratic equation that has no solutions:&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    \((x+3)^2+9=0\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    \((x+3)^2=-9\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    \(x+3=\pm \sqrt{-9}\)&lt;/p&gt;
+&lt;p&gt;Study the example. At what point did you realize the equation had no solutions?&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; For two numbers to add up to 0, they have to be opposites. Since the number 9 is positive, the other number must be negative, which a square cannot be. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Explain how you know the equation \(49+x^2=0\) has no solutions.&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; A square is always positive, so a square plus a positive number must also be positive and can never equal zero. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Try It: Answering Questions About Situations With the Quadratic Formula&lt;/h4&gt;
+&lt;p&gt;Function \(h\) models the height of an object, in meters, \(t\) seconds after it is launched into the air. It is defined by \(h(t)=-5t^2+25t\). How much time will it take the object to reach 15 meters?&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;h5&gt;Solution&lt;/h5&gt;
+&lt;p&gt;Here is how to solve this word problem using the quadratic formula:&lt;/p&gt;
+&lt;p&gt;To know how much time it would take the object to reach 15 meters, we could solve the equation \(15=-5t^2+25t\).&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Rewriting it in standard form gives \(-5t^2+25t-15=0\). The expression on the left side of the equation cannot be written in factored form, however. &lt;/li&gt;
+    &lt;li&gt; Completing the square isn't convenient because the coefficient of the squared term is not a perfect square and the coefficient for the linear term is an odd number. &lt;/li&gt;
+    &lt;li&gt; Let's use the quadratic formula, using \(a=-5\), \(b=25\), and \(c = -15\)! &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    \(t=\frac {-b \pm \sqrt{b^2- 4ac}}{2a}\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    \(t=\frac{-25 \pm \sqrt{25^2- 4(-5)(-15)}}{2(-5)}\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    \(t=\frac{-25 \pm \sqrt{325}}{-10}\)&lt;/p&gt;
+&lt;p&gt;The expression \(\frac{-25 \pm \sqrt{325}}{-10}\) represents the two exact solutions of the equation.&lt;/p&gt;
+&lt;p&gt;We can get approximate solutions by using a calculator, or by reasoning the \(\sqrt{325} \approx 18\).&lt;/p&gt;
+&lt;p&gt;The solutions tell us that there are two times after the launch when the object is at a height of 15 meters: at about 0.7 seconds (as the object is going up) and 4.3 seconds (as it comes back down).&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4996">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667359370</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4997">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667359370</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2229">
+        <prevpageid>2228</prevpageid>
+        <nextpageid>2230</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667362268</timecreated>
+        <timemodified>1667362341</timemodified>
+        <title>9.7.4: Practice Spotting Calculation Errors</title>
+        <contents>&lt;h3&gt;Cool Down (5 minutes)&lt;/h3&gt;
+&lt;h4&gt;Student Activity&lt;/h4&gt;
+&lt;p&gt;Here is someone's solution to the equation \(3x^2−4x=20\).&lt;/p&gt;
+&lt;p&gt;Step 1&lt;br&gt;
+    \(3x^2−4x=20\)&lt;/p&gt;
+&lt;p&gt;Step 2&lt;br&gt;
+    \(a=3\), \(b=-4\), \(c=20\)&lt;/p&gt;
+&lt;p&gt;Step 3&lt;br&gt;
+    \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)&lt;/p&gt;
+&lt;p&gt;Step 4&lt;br&gt;
+    \(x=\frac{-4 \pm \sqrt{(-4)^2- (4)(3)(20)}}{2(3)}\)&lt;/p&gt;
+&lt;p&gt;Step 5&lt;br&gt;
+    \(x=\frac{-4 \pm \sqrt{-16-240}}{6}\)&lt;/p&gt;
+&lt;p&gt;Step 6&lt;br&gt;
+    \(x=\frac{-4 \pm \sqrt{-256}}{6}\)&lt;/p&gt;
+&lt;p&gt;No Solutions&lt;/p&gt;
+&lt;p&gt;Identify as many errors as you can and briefly explain each error.&lt;/p&gt;
+&lt;p&gt;Write down your answer, then select the &lt;strong&gt;solution&lt;/strong&gt; button to compare your work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; \(b\) is -4, so in Step 4, the value \(-b\) should be -(-4), which is 4. &lt;/li&gt;
+    &lt;li&gt; In Step 1, the equation should be rewritten as \(ax^2+bx+c=0\), so the constant term \(c\) is -20, not 20. So, in Step 4, the last part of the numerator should be \(\sqrt{(-4)^2-4(3)(-20)}\). &lt;/li&gt;
+    &lt;li&gt; In Step 4, \((-4)^2\) should be 16. Squaring a negative number gives a positive number. &lt;/li&gt;
+    &lt;li&gt; If the earlier issues were fixed, then the values under the square root symbol would be \(16+240\) or 256. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Response to Student Thinking&lt;/h4&gt;
+&lt;h5&gt;Points to Emphasize&lt;/h5&gt;
+&lt;p&gt;Use student work from this cool down and the last cool down to highlight common errors that students are making or not identifying as errors.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4998">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667362268</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4999">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667362268</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2230">
+        <prevpageid>2229</prevpageid>
+        <nextpageid>2231</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667363846</timecreated>
+        <timemodified>1667642481</timemodified>
+        <title>9.7.5: Practice</title>
+        <contents>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Students will complete the following questions to practice the skills they have learned in this lesson.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol class="os-raise-noindent"&gt;
+    &lt;li&gt;Mai and Jada are solving the equation \(2x^2−7x=15\) using the quadratic formula but found different solutions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Mai wrote:&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{l}
+    x=\frac{-7 \pm \sqrt{(7)^{2}-4(2)(-15)}}{2(2)} \\
+    x=\frac{-7 \pm \sqrt{49-(-120)}}{4} \\
+    x=\frac{-7 \pm \sqrt{169}}{4} \\
+    x=\frac{-7 \pm 13}{4} \\
+    x=\frac{-7+13}{4}=\frac{6}{4}=\frac{3}{2} \\
+    x=\frac{-7-13}{4}=\frac{-20}{4}=-5
+    \end{array}\)&lt;/p&gt;
+&lt;p&gt;Jada wrote:&lt;/p&gt;
+&lt;p&gt;\(\begin{array}{l}
+    x=\frac{-(-7) \pm \sqrt{(-7)^{2}-4(2)(-15)}}{2(2)} \\
+    x=\frac{7 \pm \sqrt{-49-(-120)}}{4} \\
+    x=\frac{7 \pm \sqrt{71}}{4}
+    \end{array}\)&lt;/p&gt;
+&lt;p&gt;Answer the following questions about the values of \(a\), \(b\), and \(c\) if this equation is written in standard form, \(ax^2+bx+c=0\).&lt;/p&gt;
+&lt;ol type="a" class="os-raise-noindent"&gt;
+    &lt;li&gt;What is the value of \(a\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 2&lt;/p&gt;
+&lt;ol type="a" start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;What is the value of \(b\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; -7&lt;/p&gt;
+&lt;ol type="a" start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;What is the value of \(c\)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; -15&lt;/p&gt;
+&lt;ol type="a" start="4" class="os-raise-noindent"&gt;
+    &lt;li&gt;Who has the correct solution?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Mai&lt;/li&gt;
+    &lt;li&gt; Jada&lt;/li&gt;
+    &lt;li&gt; Both of them &lt;/li&gt;
+    &lt;li&gt; Neither one &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Neither one&lt;br&gt;
+    Mai used 7 for \(b\) instead of -7. For \(b^2\) in the formula, Jada computed \(-7^2\) instead of \((-7)^2\), so she wrote -49 instead of 49.&lt;/p&gt;
+&lt;ol start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;The equation \(h(t)=-16t^2+80t+64\) represents the height, in feet, of a potato \(t\) seconds after it was launched from a mechanical device.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol type="a" class="os-raise-noindent"&gt;
+    &lt;li&gt;Choose the equation that would allow us to find the time the potato hits the ground.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; \(0=16t^2+80t+64\) &lt;/li&gt;
+    &lt;li&gt; \(0=-t^2-5t+4\) &lt;/li&gt;
+    &lt;li&gt; \(0=-16t^2+80t+64\) &lt;/li&gt;
+    &lt;li&gt; \(0= t^2-5t-4\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; \(0=-16t^2+80t+64\)&lt;/p&gt;
+&lt;ol type="a" start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;Solve the equation without graphing and write it down. Enter your solution for the approximate time the potato hits the ground rounded to one decimal place.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 5.7&lt;/p&gt;
+&lt;p&gt;\(t \approx 5.7\). Using the quadratic formula, with \(a=-16\), \(b=80\), and \(c=64\), the potato hits the ground about 5.7 seconds after being launched. (The negative solution has no meaning in this situation.)&lt;/p&gt;
+&lt;ol start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;Priya found \(x=3\) and \(x=-1\) as solutions to \(3x^2−6x−9=0\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol type="a" class="os-raise-noindent"&gt;
+    &lt;li&gt;If you check Priya's answer by substitution, is the answer correct?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Yes &lt;/li&gt;
+    &lt;li&gt; No &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Yes&lt;/p&gt;
+&lt;p&gt;Substituting both 3 and -1 for \(x\) in the original quadratic expression and then evaluating the expression gives a value of 0.&lt;/p&gt;
+&lt;ol type="a" start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;If you check Priya's answer by graphing, is the answer correct?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Yes &lt;/li&gt;
+    &lt;li&gt; No &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Yes&lt;/p&gt;
+&lt;p&gt;Graphing the equation \(y=3x^2−6x−9\) shows \(x\)-intercepts at \((3,0)\) and \((-1,0)\).&lt;/p&gt;
+&lt;ol type="a" start="3" class="os-raise-noindent"&gt;
+    &lt;li&gt;If you check Priya's answer by using the quadratic formula, is the answer correct?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Yes &lt;/li&gt;
+    &lt;li&gt; No &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Yes&lt;/p&gt;
+&lt;p&gt;Substituting 3 for \(a\), -6 for \(b\), and -9 for \(c\) in the quadratic formula gives \(x=3\) and \(x=-1\).&lt;/p&gt;
+&lt;ol start="4" class="os-raise-noindent"&gt;
+    &lt;li&gt;A frog jumps in the air. The height, in inches, of the frog is modeled by the function \(h(t)=60t−75t^2\), where \(t\) is the time after it jumped, measured in seconds.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol type="a" class="os-raise-noindent"&gt;
+    &lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; solutions to the equation \(60t−75t^2=0\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; 0 &lt;/li&gt;
+    &lt;li&gt; \(\frac{4}{5}\) &lt;/li&gt;
+    &lt;li&gt; 5 &lt;/li&gt;
+    &lt;li&gt; 1 &lt;/li&gt;
+    &lt;li&gt; \(-\frac {1}{5}\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 0, \(\frac{4}{5}\)&lt;/p&gt;
+&lt;p&gt;\(t=0\), \(t=\frac{4}{5}\)&lt;/p&gt;
+&lt;ol type="a" start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;What do the solutions tell us about the jumping frog? &lt;strong&gt;Select two&lt;/strong&gt; that apply.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; The frog landed 1 seconds after it jumped and was on the ground again. &lt;/li&gt;
+    &lt;li&gt; The frog landed \(\frac{4}{5}\) seconds after it jumped and was on the ground again. &lt;/li&gt;
+    &lt;li&gt; The height of the frog was 5 inches before it jumped. &lt;/li&gt;
+    &lt;li&gt; The negative solution shows how far down the frog was before it jumped. &lt;/li&gt;
+    &lt;li&gt; The height of the frog was 0 inches before it jumped. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The frog landed \(\frac{4}{5}\) seconds after it jumped and was on the ground again. The height of the frog was 0 inches before it jumped.&lt;/p&gt;
+&lt;ol start="5" class="os-raise-noindent"&gt;
+    &lt;li&gt;A tennis ball is hit straight up in the air, and its height, in feet above the ground, is modeled by the equation \(f(t)=4+12t−16t^2\), where \(t\) is measured in seconds since the ball was thrown.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol type="a" class="os-raise-noindent"&gt;
+    &lt;li&gt;&lt;strong&gt;Select two&lt;/strong&gt; solutions to the equation \(0=4+12t−16t^2\).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; \(\frac{1}{4}\) &lt;/li&gt;
+    &lt;li&gt; 4 &lt;/li&gt;
+    &lt;li&gt; 16 &lt;/li&gt;
+    &lt;li&gt; 1 &lt;/li&gt;
+    &lt;li&gt; \(-\frac{1}{4}\) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 1, \(-\frac{1}{4}\)&lt;/p&gt;
+&lt;p&gt;\(t=1\), \(t=-\frac{1}{4}\)&lt;/p&gt;
+&lt;ol type="a" start="2" class="os-raise-noindent"&gt;
+    &lt;li&gt;What do the solutions tell us about the tennis ball? &lt;strong&gt;Select two&lt;/strong&gt; that apply.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; The ball hits the ground \(\frac{1}{4}\) second after it is hit. &lt;/li&gt;
+    &lt;li&gt; The negative solution doesn't have meaning because a negative value for time doesn't make sense. &lt;/li&gt;
+    &lt;li&gt; The ball hits the ground 1 second after it is hit. &lt;/li&gt;
+    &lt;li&gt; The negative solution is a result of the bounce of the ball. &lt;/li&gt;
+    &lt;li&gt; The ball hits the ground \(-\frac{1}{4}\) second after it is hit. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; The negative solution doesn't have meaning because a negative value for time doesn't make sense. The ball hits the ground 1 second after it is hit.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5000">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667363846</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5001">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667363846</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2231">
+        <prevpageid>2230</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667364561</timecreated>
+        <timemodified>1667642286</timemodified>
+        <title>9.7.6: Lesson Synthesis</title>
+        <contents>&lt;p&gt;Invite students to name some familiar mistakes that are made when using the quadratic formula, not only those seen in the activities, but also mistakes that the students themselves might have made.&lt;/p&gt;
+&lt;p&gt;Then, to encourage students to think about ways of checking solutions, discuss questions such as:&lt;/p&gt;
+&lt;ul class="os-raise-indent"&gt;
+  &lt;li&gt; "What might be some good ways to check if \(x=\frac{1}{3}\) and \(x=\frac{5}{2}\) are solutions to \(6x^2−17x+5=0\)?" (Some possibilities: &lt;/li&gt;
+  &lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Substitute each solution into the equation and see if the equation is true. For example, see if \(6(\frac{1}{3})^2−17(\frac{1}{3})+5\) equals 0. &lt;/li&gt;
+    &lt;li&gt; Rewrite \(6x^2−17x+5=0\) in factored form: \((3x−1)(2x−5)=0\) and apply the zero product property to solve. &lt;/li&gt;
+    &lt;li&gt; Graph \(y=6x^2−17x+5\) and find the \(x\)-intercepts when the graph has a \(y\)-coordinate of 0.) &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; "Can completing the square be used to check the solution?" (Yes, but it is not simple because the leading coefficient is not a perfect square and the linear coefficient is an odd number.) &lt;/li&gt;
+  &lt;li&gt; "Suppose we want to verify if \(x= \pm \sqrt{3}\) are correct solutions to \(x^2+2x−2=0\). Is substituting the expressions in the equation an effective way to check?" (In this case, substituting \(\pm \sqrt{3}\) for \(x\) makes the checking cumbersome. The expression to be evaluated would look like \((1+ \sqrt{3})^2+2(1+ \sqrt{3})−2\), which is not easy to evaluate.) &lt;/li&gt;
+  &lt;li&gt; "What might be some good ways to check?" (We could: &lt;/li&gt;
+  &lt;ul class="os-raise-indent"&gt;
+    &lt;li&gt; Solve by completing the square. The leading coefficient of \(x^2+2x−2\) is 1 and the linear term coefficient is an even number, which makes it fairly simple to complete the square. &lt;/li&gt;
+    &lt;li&gt; Approximate the value of the solutions with a calculator, then graph \(y=x^2+2x−2\) and see if the solutions match the \(x\)-intercepts.) &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5002">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667364561</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5003">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667364561</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>
