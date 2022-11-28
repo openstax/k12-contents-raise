@@ -298,7 +298,7 @@
       </page>
       <page id="2219">
         <prevpageid>2218</prevpageid>
-        <nextpageid>2222</nextpageid>
+        <nextpageid>2220</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -324,7 +324,7 @@
             </attempts>
           </answer>
           <answer id="4986">
-            <jumpto>2222</jumpto>
+            <jumpto>2220</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -341,9 +341,9 @@
         <branches>
         </branches>
       </page>
-      <page id="2222">
+      <page id="2220">
         <prevpageid>2219</prevpageid>
-        <nextpageid>2220</nextpageid>
+        <nextpageid>2221</nextpageid>
         <qtype>3</qtype>
         <qoption>0</qoption>
         <layout>0</layout>
@@ -355,7 +355,7 @@
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="4976">
-            <jumpto>2220</jumpto>
+            <jumpto>2221</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -383,7 +383,7 @@
             </attempts>
           </answer>
           <answer id="4978">
-            <jumpto>2220</jumpto>
+            <jumpto>2221</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -397,7 +397,7 @@
             </attempts>
           </answer>
           <answer id="4979">
-            <jumpto>2220</jumpto>
+            <jumpto>2221</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -411,7 +411,7 @@
             </attempts>
           </answer>
           <answer id="4980">
-            <jumpto>2220</jumpto>
+            <jumpto>2221</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -428,53 +428,8 @@
         <branches>
         </branches>
       </page>
-      <page id="2223">
+      <page id="2221">
         <prevpageid>2220</prevpageid>
-        <nextpageid>2224</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667257293</timecreated>
-        <timemodified>1667417000</timemodified>
-        <title>9.6.4: Solving Equations Using the Quadratic Formula </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="85af0cf7-7025-4e16-9dce-b758af92b6a0"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="4989">
-            <jumpto>2219</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667257293</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="4990">
-            <jumpto>2224</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667257293</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2220">
-        <prevpageid>2222</prevpageid>
         <nextpageid>2223</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
@@ -487,7 +442,7 @@
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="4987">
-            <jumpto>2222</jumpto>
+            <jumpto>2220</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -518,9 +473,99 @@
         <branches>
         </branches>
       </page>
+      <page id="2223">
+        <prevpageid>2221</prevpageid>
+        <nextpageid>2222</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667257293</timecreated>
+        <timemodified>1667417000</timemodified>
+        <title>9.6.4: Solving Equations Using the Quadratic Formula </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="85af0cf7-7025-4e16-9dce-b758af92b6a0"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4989">
+            <jumpto>2219</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667257293</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4990">
+            <jumpto>2222</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667257293</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
       <page id="2224">
+        <prevpageid>2222</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667171057</timecreated>
+        <timemodified>1667171189</timemodified>
+        <title>9.6.6: Lesson Summary</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="4afc6f52-53ae-4d02-9fee-9f1a1c7527bf"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="4969">
+            <jumpto>2222</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171057</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="4970">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667171057</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2222">
         <prevpageid>2223</prevpageid>
-        <nextpageid>2221</nextpageid>
+        <nextpageid>2224</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -546,58 +591,13 @@
             </attempts>
           </answer>
           <answer id="4968">
-            <jumpto>2221</jumpto>
+            <jumpto>2224</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
             <timecreated>1667171022</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2221">
-        <prevpageid>2224</prevpageid>
-        <nextpageid>0</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667171057</timecreated>
-        <timemodified>1667171189</timemodified>
-        <title>9.6.6: Lesson Summary</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="4afc6f52-53ae-4d02-9fee-9f1a1c7527bf"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="4969">
-            <jumpto>2224</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667171057</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="4970">
-            <jumpto>-9</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667171057</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
