@@ -7,7 +7,7 @@ env:
 phases:
   build:
     commands:
-      - aws s3 cp --recursive json/ "s3://$CONTENT_S3_BUCKET/contents/raise/"
+      - aws s3 cp --cache-control max-age=86400 --recursive json/ "s3://$CONTENT_S3_BUCKET/contents/raise/"
   post_build:
     commands:
       - ls json/ > json_files.txt
