@@ -8,11 +8,12 @@ help () {
     echo "
     Commands
 
-    up            Start the authoring environment
-    down          Stop the authoring environment
-    destroy       Stop the authoring environment and destroy all state.
-    set-variant   Configure content variant used for preview
-    reset-variant Reset variant used for preview to default
+    up             Start the authoring environment
+    down           Stop the authoring environment
+    destroy        Stop the authoring environment and destroy all state.
+    set-variant    Configure content variant used for preview
+    reset-variant  Reset variant used for preview to default
+    create-variant Create a variant HTML file for page
     "
 }
 
@@ -72,6 +73,41 @@ if [ $ACTION == "reset-variant" ]; then
     set -e
 
     docker compose up --build -d
+
+    exit 0
+fi
+
+if [ $ACTION == "create-variant" ]; then
+    VARIANT=$2
+    UUID=$3
+
+    if [[ -z $UUID ]] || [[ -z $VARIANT ]]; then
+        echo "Please provide UUID and variant name arguments. For example: create-variant {variant} {UUID}"
+        exit 1
+    fi
+
+    if [[ ! -e "./html/$UUID.html" ]]; then
+        echo "File ./html/$UUID.html does not exist!"
+        exit 1
+    fi
+
+    VARIANT_FILE_PATH="./html/$UUID/$VARIANT.html"
+
+    if [[ -e "$VARIANT_FILE_PATH" ]]; then
+        echo "File $VARIANT_FILE_PATH already exists!"
+        exit 1
+    fi
+
+    set -e
+
+    mkdir -p "./html/$UUID"
+    cp "./html/$UUID.html" "$VARIANT_FILE_PATH"
+    echo "Created variant file $VARIANT_FILE_PATH"
+
+    if $(which "code"); then
+        # Open file if command is available on path
+        code "$VARIANT_FILE_PATH"
+    fi
 
     exit 0
 fi
