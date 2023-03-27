@@ -30,6 +30,7 @@ class ContentData(BaseModel):
     content: List[ContentItem]
 
 
+@app.get("/contents/{version_id}/{content_id}.json", response_model=ContentData)
 @app.get("/contents/{content_id}.json", response_model=ContentData)
 async def create_event(content_id):
     maybe_variant = os.getenv("CONTENT_VARIANT")
