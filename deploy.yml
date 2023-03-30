@@ -15,7 +15,7 @@ phases:
       - aws s3 cp --cache-control max-age=86400 --recursive json/ "s3://$CONTENT_S3_BUCKET/contents/raise/$VERSION/"
     on-failure: ABORT
     finally:
-      - "([[ $CODEBUILD_BUILD_SUCCEEDING != 1 ]] && curl -X POST -H 'Content-type: application/json' --data '{\"text\":\"Error in k12-contents-raise pipeline!\"}' $SLACK_WEBHOOKURL) || true"
+      - "if [[ $CODEBUILD_BUILD_SUCCEEDING != 1 ]]; then curl -X POST -H 'Content-type: application/json' --data '{\"text\":\"Error in k12-contents-raise pipeline!\"}' $SLACK_WEBHOOKURL; fi"
   post_build:
     commands:
       - ls json/ > json_files.txt
