@@ -23,7 +23,7 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-if [ $ACTION == "up" ]; then
+if [ "$ACTION" == "up" ]; then
     echo "Starting authoring environment"
 
     docker compose up --build -d
@@ -35,14 +35,14 @@ if [ $ACTION == "up" ]; then
     exit 0
 fi
 
-if [ $ACTION == "down" ]; then
+if [ "$ACTION" == "down" ]; then
     echo "Stoping authoring environment"
 
     docker compose down
     exit 0
 fi
 
-if [ $ACTION == "destroy" ]; then
+if [ "$ACTION" == "destroy" ]; then
     echo "Destroying authoring environment and state."
 
     read -p "Are you sure? All database state will be lost. Continue (y/n)? " -n 1 -r
@@ -53,7 +53,7 @@ if [ $ACTION == "destroy" ]; then
     exit 0
 fi
 
-if [ $ACTION == "set-variant" ]; then
+if [ "$ACTION" == "set-variant" ]; then
     VARIANT=$2
 
     if [[ -z $VARIANT ]]; then
@@ -63,13 +63,13 @@ if [ $ACTION == "set-variant" ]; then
 
     set -e
 
-    sed 's/CONTENT_VARIANT=.*/CONTENT_VARIANT='$VARIANT'/' ./authoring/docker/.env > ./authoring/docker/.env.variant
+    sed 's/CONTENT_VARIANT=.*/CONTENT_VARIANT='"$VARIANT"'/' ./authoring/docker/.env > ./authoring/docker/.env.variant
     docker compose --env-file ./authoring/docker/.env.variant up --build -d
 
     exit 0
 fi
 
-if [ $ACTION == "reset-variant" ]; then
+if [ "$ACTION" == "reset-variant" ]; then
     set -e
 
     docker compose up --build -d
@@ -77,7 +77,7 @@ if [ $ACTION == "reset-variant" ]; then
     exit 0
 fi
 
-if [ $ACTION == "create-variant" ]; then
+if [ "$ACTION" == "create-variant" ]; then
     VARIANT=$2
     UUID=$3
 
@@ -104,7 +104,7 @@ if [ $ACTION == "create-variant" ]; then
     cp "./html/$UUID.html" "$VARIANT_FILE_PATH"
     echo "Created variant file $VARIANT_FILE_PATH"
 
-    if $(which "code"); then
+    if which "code"; then
         # Open file if command is available on path
         code "$VARIANT_FILE_PATH"
     fi
