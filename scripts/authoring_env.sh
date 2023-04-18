@@ -14,7 +14,19 @@ help () {
     set-variant    Configure content variant used for preview
     reset-variant  Reset variant used for preview to default
     create-variant Create a variant HTML file for page
+    start-editing  Initialize environment for new round of edits
     "
+}
+
+start_env () {
+    docker compose up --build -d
+    docker compose exec moodle ./wait-for-it.sh postgres:5432 -- php admin/cli/install_database.php --agree-license --fullname="Local Dev" --shortname="Local Dev" --summary="Local Dev" --adminpass="admin" --adminemail="admin@acmeinc.com"
+    docker compose exec postgres psql -U moodle -d moodle -c "update mdl_config set value='1' where name='forcelogin'"
+    bash  ./authoring/scripts/inject_additional_html.sh
+}
+
+destroy_env() {
+    docker compose down -v
 }
 
 if [ $# -eq 0 ]; then
@@ -26,11 +38,7 @@ fi
 if [ "$ACTION" == "up" ]; then
     echo "Starting authoring environment"
 
-    docker compose up --build -d
-    docker compose exec moodle ./wait-for-it.sh postgres:5432 -- php admin/cli/install_database.php --agree-license --fullname="Local Dev" --shortname="Local Dev" --summary="Local Dev" --adminpass="admin" --adminemail="admin@acmeinc.com"
-    docker compose exec postgres psql -U moodle -d moodle -c "update mdl_config set value='1' where name='forcelogin'"
-    docker compose exec moodle php admin/cli/purge_caches.php
-    bash  ./authoring/scripts/inject_additional_html.sh
+    start_env
 
     exit 0
 fi
@@ -48,7 +56,7 @@ if [ "$ACTION" == "destroy" ]; then
     read -p "Are you sure? All database state will be lost. Continue (y/n)? " -n 1 -r
     if [[ $REPLY =~ ^[Yy]$ ]]
     then
-        docker compose down -v
+        destroy_env
     fi
     exit 0
 fi
@@ -108,6 +116,41 @@ if [ "$ACTION" == "create-variant" ]; then
         # Open file if command is available on path
         code "$VARIANT_FILE_PATH"
     fi
+
+    exit 0
+fi
+
+if [ "$ACTION" == "start-editing" ]; then
+    NAME=$2
+
+    if [ -n "$(git status --untracked-files=no --porcelain)" ]; then
+        echo "WARNING: It looks like you have uncommitted changes currently. Please commit, stash, or clean and try again so the changes are not unintentionally lost."
+        exit 1
+    fi
+
+    if [[ -z $NAME ]]; then
+        echo "Please provide a branch name to create for tracking edits"
+        exit 1
+    fi
+
+    if git rev-parse --verify --quiet refs/heads/"$NAME"; then
+        echo "The provided branch name already exists! Please provide a unique name or delete the existing branch."
+        exit 1
+    fi
+
+    set -e
+
+    git checkout main
+    git pull
+    git checkout -b "$NAME"
+    destroy_env
+    start_env
+    bash ./scripts/create_mbz_files.sh
+    docker compose cp "raise-$(git rev-parse --short HEAD).mbz" moodle:/tmp/raise.mbz
+    rm "raise-$(git rev-parse --short HEAD).mbz"
+    docker compose exec moodle php admin/cli/restore_backup.php --file=/tmp/raise.mbz --categoryid=1
+
+    echo "Your environment is ready for editing!"
 
     exit 0
 fi
