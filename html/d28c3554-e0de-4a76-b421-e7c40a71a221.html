@@ -188,13 +188,67 @@
 <h4>Student-Facing Extension</h4>
 <h5>Are you ready for more?</h5>
 <p>For integer inputs, we can think of multiplication as repeated addition and exponentiation as repeated multiplication:</p>
-<p>\(3 \cdot 5=3+3+3+3+3\) and \(3^5=3 \cdot 3 \cdot 3 \cdot 3 \cdot 3\).</p>
+<table border="1" cellpadding="5" class="os-raise-standardtable">
+  <colgroup>
+    <col width="81">
+    <col width="71">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <p><strong>Multiplication representing repeated addition</strong></p>
+      </td>
+      <td>
+        <p><strong>Exponentiation representing repeated multiplication</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>\(3 \cdot 5=3+3+3+3+3\)</p>
+      </td>
+      <td>\(3^5=3 \cdot 3 \cdot 3 \cdot 3 \cdot 3\)</td>
+    </tr>
+  </tbody>
+</table>
+<br>
 <p>We could continue this process with a new operation called tetration. It uses the symbol \(\uparrow \uparrow\), and it is defined as repeated exponentiation:</p>
-<p>\(3 \uparrow \uparrow 5=3^{3 \wedge 3 \wedge 3 \wedge 3}\).</p>
-<p>Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\). If \(f(x)=3 \uparrow \uparrow x\), what is the relationship between \(f(x)\) and \(f(x+1)\)?</p>
-<h4> Extension Student Response</h4>
-<p>We have \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\) and \(3 \uparrow \uparrow 2=3^3=27\).</p>
-<p>The numbers output by this function get large absurdly fast, even in comparison to exponential functions. We calculated \(f(2)=27\) above, and now \(f(3)=3^{f(2)}=3^{27}=7,625,597,484,987\).</p>
+<table border="1" cellpadding="5" class="os-raise-standardtable">
+  <colgroup>
+    <col width="81">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <p><strong>Tetration representing repeated exponentiation </strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>\(3 \uparrow \uparrow 5=3^{3 \wedge 3 \wedge 3 \wedge 3}\)</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<ol class="os-raise-noindent" start="1">
+  <li>Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\).</li>
+</ol>
+<p><strong>Answer:</strong>\(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
+</p>
+
+<ol class="os-raise-noindent" start="2">
+  <li>Compute \(f(x)=3 \uparrow \uparrow x\).</li>
+</ol>
+<p><strong>Answer:</strong> \(3 \uparrow \uparrow 2=3^3=27\)
+</p>
+
+<ol class="os-raise-noindent" start="3">
+  <li> What is the relationship between \(f(x)\) and \(f(x+1)\)?</li>
+</ol>
+<p><strong>Answer:</strong> The numbers output by this function get large absurdly fast, even in comparison to exponential functions. We calculated \(f(2)=27\) above, and now \(f(3)=3^{f(2)}=3^{27}=7,625,597,484,987\).</p>
+
+
 <h4>Activity Synthesis</h4>
 <p>Invite students to share what they noticed about values of \(g\) for consecutive whole numbers. If not mentioned by students, point out the pattern that as the \(x\)-value increases by 1, the output changes by a factor of 3. For example: \(g(5)\) is 3 times \(g(4)\), \(g(8)\) is 3 times \(g(7)\), and so on.</p>
 <p>Discuss questions such as:</p>
