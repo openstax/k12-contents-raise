@@ -146,9 +146,9 @@ if [ "$ACTION" == "start-editing" ]; then
     destroy_env
     start_env
     bash ./scripts/create_mbz_files.sh
-    docker compose cp "raise-$(git rev-parse --short HEAD).mbz" moodle:/tmp/raise.mbz
+    docker compose cp "raise-$(git rev-parse --short HEAD).mbz" moodle:/var/www/html/raise.mbz
     rm "raise-$(git rev-parse --short HEAD).mbz"
-    docker compose exec moodle php admin/cli/restore_backup.php --file=/tmp/raise.mbz --categoryid=1
+    docker compose exec moodle php admin/cli/restore_backup.php --file=/var/www/html/raise.mbz --categoryid=1
 
     echo "Your environment is ready for editing!"
 
