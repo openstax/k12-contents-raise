@@ -1,8 +1,11 @@
 <h4> Activity </h4>
 <p>A family has $1,000 to invest and is considering two options: investing in government bonds that offer 2% simple interest, or investing in a savings account at a bank, which charges a $20 fee to open an account and pays 2% compound interest. Both options pay interest annually.</p>
 <p>Here are two tables showing what they would earn in the first couple of years if they do not invest additional amounts or withdraw any money.</p>
-<p>Bonds</p>
+
+<div class="os-raise-d-flex os-raise-justify-content-between">
+<p>
 <table class="os-raise-standardtable" border="1" cellpadding="5">
+  <caption>Bonds</caption>
   <colgroup>
     <col width="163">
     <col width="148">
@@ -42,9 +45,11 @@
     </tr>
   </tbody>
 </table>
+</p>
 <br>
-<p>Savings Account</p>
+<p>
 <table class="os-raise-standardtable" border="1" cellpadding="5">
+  <caption>Savings Account</caption>
   <colgroup>
     <col width="163">
     <col width="148">
@@ -84,6 +89,8 @@
     </tr>
   </tbody>
 </table>
+</p>
+</div>
 <br>
 <br>
 <!--Text Entry Interaction Start -->
@@ -125,10 +132,13 @@
 <br>
 <br>
 <!--Text Entry Interaction Start -->
-<div class="os-raise-ib-input" data-button-text="Solution" data-content-id="d107b52d-023a-410f-94f3-174ce5cdc65b" data-fire-event="eventShow" data-schema-version="1.0">
+<div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0">
   <div class="os-raise-ib-input-content">
     <ol class="os-raise-noindent" start="3">
-      <li> For each option, write an equation to represent the relationship between the amount of money and the number of years of investment. </li>
+      <li> Write an equation to represent the relationship between the amount of money and the number of years of investment for each option. </li>
+    </ol>
+    <ol class="os-raise-noindent" type="a" start="1">
+      <li> Write an equation for the data in the Bonds table. Use the “^” symbol to enter an exponent, if needed. </li>
     </ol>
   </div>
   <div class="os-raise-ib-input-prompt">
@@ -137,7 +147,25 @@
   <div class="os-raise-ib-input-ack">
     <p>Compare your answer:</p>
     <p>\(
-      b=1,000+20x\) and \(s=980 \cdot (1.02)^x\) (\(x\)&nbsp;is the years since the investments were made, \(b\)&nbsp;is the value of the bonds, and \(s\) is the value of the savings account, in dollars).<br>
+      b=1,000+20x\) where \(x\)&nbsp;is the years since the investments were made and \(b\)&nbsp;is the value of the bonds.<br>
+    </p>
+  </div>
+</div>
+<!--Interaction End -->
+<br>
+<br>
+<div class="os-raise-ib-input" data-button-text="Solution" data-fire-event="eventShow" data-schema-version="1.0">
+  <div class="os-raise-ib-input-content">
+    <ol class="os-raise-noindent" type="a" start="2">
+      <li> Write an equation for the data in the Savings Account table. Use the “^” symbol to enter an exponent, if needed. </li>
+    </ol>
+  </div>
+  <div class="os-raise-ib-input-prompt">
+    <p>Enter your answer here:</p>
+  </div>
+  <div class="os-raise-ib-input-ack">
+    <p>Compare your answer:</p>
+    <p>\(s=980 \cdot (1.02)^x\) where \(s\) represents the value of the savings account, in dollars, where and \(x\)&nbsp;is the years since the investments were made<br>
     </p>
   </div>
 </div>
@@ -156,19 +184,22 @@
   </div>
   <div class="os-raise-ib-input-ack">
     <p>Compare your answer:</p>
-    <p>Answers vary. Students may choose bonds or savings account, depending on the assumptions they make about the time frame of the investment. <br>
-    </p>
+    <li>The family should choose bonds if they are investing for less than 12 years. After 12 years, the savings account contains $1,242.88 because this is the value from \(980 \cdot (1.02)^{12} \). And, the bonds are worth $1,240 after 12 years because \(1,000 + 20(12)\) is the value.</li>
+    <li>The family should choose the savings account if they are saving for something long term like college or retirement. This is because over time, the savings account will contain more money than the bonds have earned. For instance, after 20 years, the savings account holds $1,456.23 from \([980 \cdot (1.02)^{20}]\) while the bonds only yield $1,400 from \([ 1,000 + 20(20)]\).</li>
   </div>
 </div>
 <!--Interaction End -->
 <br>
+
+<ol class="os-raise-noindent" start="5">
+  <li>  Use the Desmos graphing tool to graph the two investment options and show how the money grows in each. </li>
+</ol>
+
 <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"></div>
 <br>
 <div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0">
   <div class="os-raise-ib-cta-content">
-    <ol class="os-raise-noindent" start="5">
-      <li> Using the graphing tool above or technology outside the course, graph the two investment options and show how the money grows in each. </li>
-    </ol>
+
   </div>
   <div class="os-raise-ib-cta-prompt">
     <p>Then select the <strong>Solution</strong> button to compare your work. </p>
