@@ -1545,9 +1545,9 @@
     * [Unit 5 Wrap Up](./html/5d0f5c89-4b42-4b16-9025-5c50ff3ec1ae.html)
     * Project 5 Teacher Guide: Introduction to Exponential Functions
         * [Project 5 Overview](./html/3dc9550c-44e3-46a9-bdae-27ef6f9e0b03.html)
-        * [Activity P1: Analyze Data](./html/096a4469-5cd8-4786-9a7c-b59febaa2e73.html)
-        * [Activity P2: Writing Equations to Model Populations](./html/cbad4720-d3ee-4374-94f9-706bb08ec811.html)
-        * [Activity P3: Open-ended Modeling with Data Investigation ](./html/35c7c190-d131-4f32-b67e-0bfac6341ae7.html)
+        * [Activity P5.1: Analyze Data](./html/096a4469-5cd8-4786-9a7c-b59febaa2e73.html)
+        * [Activity P5.2: Writing Equations to Model Populations](./html/cbad4720-d3ee-4374-94f9-706bb08ec811.html)
+        * [Activity P5.3: Open-ended Modeling with Data Investigation ](./html/35c7c190-d131-4f32-b67e-0bfac6341ae7.html)
 * Winter Assessments
 * Unit 6: Working with Polynomials
     * Unit 6 Teacher Guide
@@ -2372,9 +2372,9 @@
     * [Unit 8 Wrap Up](./html/d0ceeb97-0d2d-4cee-9793-24665304a582.html)
     * Project 8 Teacher Guide: Modeling Rocket Flight
         * [Project 8 Overview](./html/480ee58d-c117-411d-be58-9ac70ca4045f.html)
-        * [Activity P.1: Relating the Graphs of Quadratic Equations to Their Factored Form by Their Zeros](./html/ba751958-f991-453d-9762-c4509bb7a3e7.html)
-        * [Activity P.2: Converting Between Factored Form and Standard Form](./html/43e79918-40de-4f86-baa0-7e40ddaa6cb5.html)
-        * [Activity P.3: Modeling Rocket Flight Using a Quadratic Equation](./html/c5def5ac-51fd-4961-bcd7-2d23170f3217.html)
+        * [Activity P8.1: Relating the Graphs of Quadratic Equations to Their Factored Form by Their Zeros](./html/ba751958-f991-453d-9762-c4509bb7a3e7.html)
+        * [Activity P8.2: Converting Between Factored Form and Standard Form](./html/43e79918-40de-4f86-baa0-7e40ddaa6cb5.html)
+        * [Activity P8.3: Modeling Rocket Flight Using a Quadratic Equation](./html/c5def5ac-51fd-4961-bcd7-2d23170f3217.html)
 * Unit 9: More Quadratic Equations
     * Unit 9 Teacher Guide
         * [Unit 9 Overview](./html/2193951b-1729-4217-8a99-d2914652fc0b.html)

@@ -3,7 +3,7 @@
 <p>Students may have little trouble recognizing how the output values change when dealing with numerical input values, but they may find it challenging to generalize their observations. Focus the discussion on this transition and on using properties of exponents to extend their observations toward generalized cases.</p>
 <h4>Student Activity</h4>
 <p>Here is a table that shows some input and output values of an exponential function \(g\). The equation \(g(x)=3^x\) defines the function.</p>
-<table border="1" cellpadding="5">
+<table class="os-raise-standardtable" border="1" cellpadding="5">
   <colgroup>
     <col width="81">
     <col width="71">
@@ -94,7 +94,7 @@
     <strong>Answer:</strong>
   </li>
 </ol>
-<table border="1" cellpadding="5" cellspacing="0">
+<table class="os-raise-standardtable" border="1" cellpadding="5" cellspacing="0">
   <tbody>
     <tr>
       <td valign="top" width="87">
@@ -142,7 +142,7 @@
     <strong>Answer:</strong>
   </li>
 </ol>
-<table border="1" cellpadding="5" cellspacing="0">
+<table class="os-raise-standardtable" border="1" cellpadding="5" cellspacing="0">
   <tbody>
     <tr>
       <td valign="top" width="107">
@@ -188,13 +188,67 @@
 <h4>Student-Facing Extension</h4>
 <h5>Are you ready for more?</h5>
 <p>For integer inputs, we can think of multiplication as repeated addition and exponentiation as repeated multiplication:</p>
-<p>\(3 \cdot 5=3+3+3+3+3\) and \(3^5=3 \cdot 3 \cdot 3 \cdot 3 \cdot 3\).</p>
+<table border="1" cellpadding="5" class="os-raise-standardtable">
+  <colgroup>
+    <col width="81">
+    <col width="71">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <p><strong>Multiplication representing repeated addition</strong></p>
+      </td>
+      <td>
+        <p><strong>Exponentiation representing repeated multiplication</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>\(3 \cdot 5=3+3+3+3+3\)</p>
+      </td>
+      <td>\(3^5=3 \cdot 3 \cdot 3 \cdot 3 \cdot 3\)</td>
+    </tr>
+  </tbody>
+</table>
+<br>
 <p>We could continue this process with a new operation called tetration. It uses the symbol \(\uparrow \uparrow\), and it is defined as repeated exponentiation:</p>
-<p>\(3 \uparrow \uparrow 5=3^{3 \wedge 3 \wedge 3 \wedge 3}\).</p>
-<p>Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\). If \(f(x)=3 \uparrow \uparrow x\), what is the relationship between \(f(x)\) and \(f(x+1)\)?</p>
-<h4> Extension Student Response</h4>
-<p>We have \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\) and \(3 \uparrow \uparrow 2=3^3=27\).</p>
-<p>The numbers output by this function get large absurdly fast, even in comparison to exponential functions. We calculated \(f(2)=27\) above, and now \(f(3)=3^{f(2)}=3^{27}=7,625,597,484,987\).</p>
+<table border="1" cellpadding="5" class="os-raise-standardtable">
+  <colgroup>
+    <col width="81">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>
+        <p><strong>Tetration representing repeated exponentiation </strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>\(3 \uparrow \uparrow 5=3^{3 \wedge 3 \wedge 3 \wedge 3}\)</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<ol class="os-raise-noindent" start="1">
+  <li>Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\).</li>
+</ol>
+<p><strong>Answer:</strong>\(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
+</p>
+
+<ol class="os-raise-noindent" start="2">
+  <li>Compute \(f(x)=3 \uparrow \uparrow x\).</li>
+</ol>
+<p><strong>Answer:</strong> \(3 \uparrow \uparrow 2=3^3=27\)
+</p>
+
+<ol class="os-raise-noindent" start="3">
+  <li> What is the relationship between \(f(x)\) and \(f(x+1)\)?</li>
+</ol>
+<p><strong>Answer:</strong> The numbers output by this function get large absurdly fast, even in comparison to exponential functions. We calculated \(f(2)=27\) above, and now \(f(3)=3^{f(2)}=3^{27}=7,625,597,484,987\).</p>
+
+
 <h4>Activity Synthesis</h4>
 <p>Invite students to share what they noticed about values of \(g\) for consecutive whole numbers. If not mentioned by students, point out the pattern that as the \(x\)-value increases by 1, the output changes by a factor of 3. For example: \(g(5)\) is 3 times \(g(4)\), \(g(8)\) is 3 times \(g(7)\), and so on.</p>
 <p>Discuss questions such as:</p>
@@ -210,7 +264,7 @@
 <p><img alt="Graph.  &nbsp;" src="https://k12.openstax.org/contents/raise/resources/c836dbbfe03a93a8f67162876774273d7d798051"></p>
 <h3> 5.15.3: Self Check&nbsp;</h3>
 <p><strong><em>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</em></strong></p>
-<table border="1" cellpadding="5">
+<table class="os-raise-standardtable" border="1" cellpadding="5">
   <colgroup>
     <col width="302">
     <col width="322">
@@ -269,7 +323,7 @@
 <p><strong><em>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&nbsp;</em></strong></p>
 <h4> Determining the Growth Rate of Exponential Functions</h4>
 <p>For the table below, assume the function \(f\) is defined for all real numbers. Calculate \(\triangle f = (x+1)&minus;f(x)\) in the last column. (The symbol \(\triangle\) in this context means &ldquo;change in.&rdquo;) What do you notice about \(\triangle f\)? Could the function be linear or exponential? Write a linear or an exponential function formula that generates the same input&ndash;output pairs as given in the table.</p>
-<table border="1" cellpadding="5" cellspacing="0">
+<table class="os-raise-standardtable" border="1" cellpadding="5" cellspacing="0">
   <tbody>
     <tr>
       <td valign="top" width="164">
