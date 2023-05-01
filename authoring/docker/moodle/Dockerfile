@@ -1,6 +1,6 @@
 FROM moodlehq/moodle-php-apache:8.0
 
-ARG MOODLE_VERSION=v4.0.4
+ARG MOODLE_VERSION=v4.0.8
 
 # Install Moodle and plugins
 RUN rmdir /var/www/html
