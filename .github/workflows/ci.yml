@@ -42,4 +42,3 @@ jobs:
           CSV_LINES=$(wc -l < errors.csv )
           echo "$(($CSV_LINES-1)) table errors found in html"
           cat errors.csv
-          fi
