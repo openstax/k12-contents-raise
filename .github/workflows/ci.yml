@@ -36,3 +36,9 @@ jobs:
             cat errors.csv
             exit 1
           fi
+      - name: Validate html including tables
+        run: |
+          validate-mbz-html html errors.csv html --tables
+          CSV_LINES=$(wc -l < errors.csv )
+          echo "$(($CSV_LINES-1)) table errors found in html"
+          cat errors.csv
