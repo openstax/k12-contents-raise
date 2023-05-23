@@ -68,7 +68,7 @@
     <!-- INSERT ANY VALID HTML HERE -->
   </div>
   <div class="os-raise-ib-input-ack">
-    <p>Your answer may vary, but here are some examples:</p>
+    <p>Your answer may vary.</p>
   </div>
 </div>
 <ol class="os-raise-noindent" start="5">
@@ -156,7 +156,19 @@
   </div>
 </div>
 <br>
-<div class="os-raise-ib-input" data-button-text="Submit" data-content-id="3adc741b-576d-4db0-a160-528ffe60b48e" data-schema-version="1.0">
+
+<!-- "Start" Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+<div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1" data-schema-version=1>
+  <div class="os-raise-ib-cta-content">
+  <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+  <div class="os-raise-ib-cta-prompt">
+  <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+  </div>
+
+
+<div class="os-raise-ib-input" data-button-text="Submit" data-content-id="3adc741b-576d-4db0-a160-528ffe60b48e" data-schema-version="1.0" data-wait-for-event="RFM1">
   <div class="os-raise-ib-input-content">
     <h4>Extend your Thinking</h4>
     <p>A local pizzeria sells gourmet pizzas for the prices posted below. Remember the sizes are determined by the diameter of each pizza. Compare the cost per square inch of the sizes.
@@ -193,8 +205,8 @@
     <p>First, determine the total area of the pizza using the area formula for a circle, \(r^2\). Then, divide the cost of the pizza by the area measurement. The expression could be \(cr^2\), if c = cost. </p>
   </div>
 </div>
-<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="b0586f0d-82a1-4dbd-839b-d63a33364e0a" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="2" data-schema-version="1.0">
-  <div class="os-raise-ib-pset-problem" data-content-id="3dfaf64d-9091-48f1-abbe-4e64b100fa2e" data-problem-type="dropdown" data-solution="XLarge" data-solution-options='["Small", "Medium", "Large", "XLarge"]'>
+<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="b0586f0d-82a1-4dbd-839b-d63a33364e0a" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="2" data-schema-version="1.0" data-wait-for-event="RFM1">
+  <div class="os-raise-ib-pset-problem" data-content-id="3dfaf64d-9091-48f1-abbe-4e64b100fa2e" data-problem-type="dropdown" data-solution="XLarge" data-solution-options='["Small", "Medium", "Large", "XLarge"]' >
     <div class="os-raise-ib-pset-problem-content">
       <ol class="os-raise-noindent" start="2">
         <li>Which size pizza is the better deal?
@@ -232,3 +244,4 @@
   <div class="os-raise-ib-pset-correct-response"> </div>
   <div class="os-raise-ib-pset-encourage-response"> </div>
 </div>
+
