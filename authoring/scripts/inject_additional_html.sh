@@ -2,7 +2,7 @@
 
 set -e
 
-ADDITONAL_HTML='<script type="module" crossorigin src="https://k12.openstax.org/apps/raise/index.authoring.fe1913aa.js"></script>
+ADDITONAL_HTML='<script type="module" crossorigin src="https://k12.openstax.org/apps/raise/index.authoring.5478e5df.js"></script>
 <link rel="stylesheet" href="https://k12.openstax.org/apps/raise/index.authoring.026146dd.css">'
 
 docker compose exec postgres psql -U moodle -d moodle -c "insert into mdl_config (name, value) values('additionalhtmlhead', '$ADDITONAL_HTML') on conflict(name) do update set value='$ADDITONAL_HTML'"
