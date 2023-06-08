@@ -51,6 +51,24 @@ To stop the authoring environment use the `down` argument.
 $ ./scripts/authoring_env.sh down
 ```
 
+### Creating a variant
+
+The create-variant command is used to create a variant HTML file for a page. To use this command, you need to provide the UUID and variant name arguments. For example, if you want to create a variant HTML file for a page with UUID "123" and variant name "interactive_study", you would run the following command:
+
+```bash
+$ ./scripts/authoring_env.sh create-variant interactive_study 123
+```
+
+### Setting a variant
+
+The set-variant command is used to configure the content variant used for preview. To use this command, you need to provide the name of the variant as an argument. For example, if you want to set the variant to "interactive_study", you would run the following command:
+
+```bash
+$ ./scripts/authoring_env.sh set-variant interactive_study
+
+```
+
+
 ## Developers
 
 ### Generating MBZ files for import into Moodle
