@@ -12,6 +12,19 @@ Before starting the authoring environment you should install the following:
 
 ### Getting started
 
+This authoring script is designed to help users start, stop, and configure an authoring environment. It provides a set of commands that allow users to create, modify, and delete content variants, and to start editing new rounds of content.
+
+### How to Use the Script
+To use the script, you need to run it from the command line and provide a valid command as the first argument. Here are the available commands:
+
+- up: Starts the authoring environment.
+- down: Stops the authoring environment.
+- destroy: Stops the authoring environment and destroys all state.
+- set-variant: Configures the content variant used for preview.
+- reset-variant: Resets the variant used for preview to default.
+- create-variant: Creates a variant HTML file for a page.
+- start-editing: Initializes the environment for a new round of edits.
+
 To launch an environment, you can run the following command passing a unique branch name in place of `REPLACEME` to create locally:
 
 ```bash
