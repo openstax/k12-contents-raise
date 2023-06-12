@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <moodle_backup>
   <information>
-    <name>backup-moodle2-course-2-alg1_staging-20230512-1704-nu.mbz</name>
+    <name>backup-moodle2-course-2-alg1_staging-20230612-2014-nu.mbz</name>
     <moodle_version>2022041908</moodle_version>
     <moodle_release>4.0.8 (Build: 20230424)</moodle_release>
     <backup_version>2022041900</backup_version>
     <backup_release>4.0</backup_release>
-    <backup_date>1683907463</backup_date>
+    <backup_date>1686597285</backup_date>
     <mnet_remoteusers>0</mnet_remoteusers>
     <include_files>1</include_files>
     <include_file_references_to_external_content>0</include_file_references_to_external_content>
     <original_wwwroot>http://localhost:8000</original_wwwroot>
-    <original_site_identifier_hash>a7568c3ac71afb6ec451cb0a8938e64d</original_site_identifier_hash>
+    <original_site_identifier_hash>520b6b2f4c985c6b8dc743c562aa94ba</original_site_identifier_hash>
     <original_course_id>2</original_course_id>
     <original_course_format>topics</original_course_format>
     <original_course_fullname>Algebra 1 - Staging</original_course_fullname>
@@ -21,7 +21,7 @@
     <original_course_contextid>11</original_course_contextid>
     <original_system_contextid>1</original_system_contextid>
     <details>
-      <detail backup_id="d437b56069378e9fd0dac5f852ac83b6">
+      <detail backup_id="a8290c8ae402f989835b4b1e40552168">
         <type>course</type>
         <format>moodle2</format>
         <interactive>1</interactive>
@@ -693,30 +693,30 @@
         <activity>
           <moduleid>95</moduleid>
           <sectionid>5</sectionid>
-          <modulename>lesson</modulename>
-          <title>Lesson 3.4 Teacher Guide: The Correlation Coefficient</title>
-          <directory>activities/lesson_95</directory>
+          <modulename>quiz</modulename>
+          <title>Unit 3, Section A Quiz</title>
+          <directory>activities/quiz_95</directory>
         </activity>
         <activity>
           <moduleid>96</moduleid>
           <sectionid>5</sectionid>
-          <modulename>lesson</modulename>
-          <title>Lesson 3.4: The Correlation Coefficient</title>
-          <directory>activities/lesson_96</directory>
+          <modulename>page</modulename>
+          <title>Unit 3, Section B Overview: Correlation Coefficient</title>
+          <directory>activities/page_96</directory>
         </activity>
         <activity>
           <moduleid>97</moduleid>
           <sectionid>5</sectionid>
-          <modulename>quiz</modulename>
-          <title>Section A Quiz</title>
-          <directory>activities/quiz_97</directory>
+          <modulename>lesson</modulename>
+          <title>Lesson 3.4 Teacher Guide: The Correlation Coefficient</title>
+          <directory>activities/lesson_97</directory>
         </activity>
         <activity>
           <moduleid>98</moduleid>
           <sectionid>5</sectionid>
-          <modulename>page</modulename>
-          <title>Unit 3, Section B Overview: Correlation Coefficient</title>
-          <directory>activities/page_98</directory>
+          <modulename>lesson</modulename>
+          <title>Lesson 3.4: The Correlation Coefficient</title>
+          <directory>activities/lesson_98</directory>
         </activity>
         <activity>
           <moduleid>99</moduleid>
@@ -750,7 +750,7 @@
           <moduleid>103</moduleid>
           <sectionid>5</sectionid>
           <modulename>quiz</modulename>
-          <title>Section B Quiz</title>
+          <title>Unit 3, Section B Quiz</title>
           <directory>activities/quiz_103</directory>
         </activity>
         <activity>
@@ -2332,42 +2332,42 @@
           <moduleid>329</moduleid>
           <sectionid>12</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 9.8 Teacher Guide: Rewriting Quadratic Expressions in Vertex Form</title>
+          <title>Lesson 9.8 Teacher Guide: Deriving the Quadratic Formula</title>
           <directory>activities/lesson_329</directory>
         </activity>
         <activity>
           <moduleid>330</moduleid>
           <sectionid>12</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 9.8: Rewriting Quadratic Expressions in Vertex Form</title>
+          <title>Lesson 9.8: Deriving the Quadratic Formula</title>
           <directory>activities/lesson_330</directory>
         </activity>
         <activity>
           <moduleid>331</moduleid>
           <sectionid>12</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 9.9 Teacher Guide: Using Quadratic Expressions in Vertex Form to Solve Problems</title>
+          <title>Lesson 9.9 Teacher Guide: Rewriting Quadratic Expressions in Vertex Form</title>
           <directory>activities/lesson_331</directory>
         </activity>
         <activity>
           <moduleid>332</moduleid>
           <sectionid>12</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 9.9: Using Quadratic Expressions in Vertex Form to Solve Problems</title>
+          <title>Lesson 9.9: Rewriting Quadratic Expressions in Vertex Form</title>
           <directory>activities/lesson_332</directory>
         </activity>
         <activity>
           <moduleid>333</moduleid>
           <sectionid>12</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 9.10 Teacher Guide: Deriving the Quadratic Formula</title>
+          <title>Lesson 9.10 Teacher Guide: Using Quadratic Expressions in Vertex Form to Solve Problems</title>
           <directory>activities/lesson_333</directory>
         </activity>
         <activity>
           <moduleid>334</moduleid>
           <sectionid>12</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 9.10: Deriving the Quadratic Formula</title>
+          <title>Lesson 9.10: Using Quadratic Expressions in Vertex Form to Solve Problems</title>
           <directory>activities/lesson_334</directory>
         </activity>
         <activity>
@@ -2497,7 +2497,7 @@
       <setting>
         <level>root</level>
         <name>filename</name>
-        <value>backup-moodle2-course-2-alg1_staging-20230512-1704-nu.mbz</value>
+        <value>backup-moodle2-course-2-alg1_staging-20230612-2014-nu.mbz</value>
       </setting>
       <setting>
         <level>root</level>
@@ -3789,50 +3789,50 @@
       </setting>
       <setting>
         <level>activity</level>
-        <activity>lesson_95</activity>
-        <name>lesson_95_included</name>
+        <activity>quiz_95</activity>
+        <name>quiz_95_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>lesson_95</activity>
-        <name>lesson_95_userinfo</name>
+        <activity>quiz_95</activity>
+        <name>quiz_95_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>lesson_96</activity>
-        <name>lesson_96_included</name>
+        <activity>page_96</activity>
+        <name>page_96_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>lesson_96</activity>
-        <name>lesson_96_userinfo</name>
+        <activity>page_96</activity>
+        <name>page_96_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>quiz_97</activity>
-        <name>quiz_97_included</name>
+        <activity>lesson_97</activity>
+        <name>lesson_97_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>quiz_97</activity>
-        <name>quiz_97_userinfo</name>
+        <activity>lesson_97</activity>
+        <name>lesson_97_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>page_98</activity>
-        <name>page_98_included</name>
+        <activity>lesson_98</activity>
+        <name>lesson_98_included</name>
         <value>1</value>
       </setting>
       <setting>
         <level>activity</level>
-        <activity>page_98</activity>
-        <name>page_98_userinfo</name>
+        <activity>lesson_98</activity>
+        <name>lesson_98_userinfo</name>
         <value>0</value>
       </setting>
       <setting>

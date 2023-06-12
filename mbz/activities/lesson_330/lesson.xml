@@ -2,7 +2,7 @@
 <activity id="247" moduleid="330" modulename="lesson" contextid="341">
   <lesson id="247">
     <course>2</course>
-    <name>Lesson 9.8: Rewriting Quadratic Expressions in Vertex Form</name>
+    <name>Lesson 9.8: Deriving the Quadratic Formula</name>
     <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
@@ -24,7 +24,7 @@
     <maxpages>1</maxpages>
     <timelimit>0</timelimit>
     <retake>1</retake>
-    <activitylink>332</activitylink>
+    <activitylink>0</activitylink>
     <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
@@ -38,32 +38,209 @@
     <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1667844903</timemodified>
+    <timemodified>1686158202</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="2252">
+      <page id="2249">
         <prevpageid>0</prevpageid>
+        <nextpageid>2250</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667468709</timecreated>
+        <timemodified>1686163708</timemodified>
+        <title>9.8.0: Lesson Overview</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="9592ed75-6d89-46be-88a1-7a232f5f1fac"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5041">
+            <jumpto>2250</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667468709</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2250">
+        <prevpageid>2249</prevpageid>
+        <nextpageid>2251</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667468917</timecreated>
+        <timemodified>1686163719</timemodified>
+        <title>9.8.1: Deriving the Quadratic Formula, Part 1</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="b069ca70-6ec1-421b-b069-6d98a3e611af"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5042">
+            <jumpto>2249</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667468917</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5043">
+            <jumpto>2251</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667468917</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2251">
+        <prevpageid>2250</prevpageid>
+        <nextpageid>2252</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1667469051</timecreated>
+        <timemodified>1667471120</timemodified>
+        <title>9.10.1: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="6888a298-6fac-41fa-878a-6a8393c88f4b"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5044">
+            <jumpto>2252</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667469051</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Subtract 16 from both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The 16 was just added in to create the perfect square. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5045">
+            <jumpto>2252</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667469051</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Take the square root of both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The trinomial must be factored before taking the square root. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5046">
+            <jumpto>2253</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1667469051</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: After completing the square and adding the new value to both sides, factor the trinomial.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5047">
+            <jumpto>2252</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667469051</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Complete the square again.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The square only needs to be completed once to create a perfect square trinomial. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5048">
+            <jumpto>2252</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667469051</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2252">
+        <prevpageid>2251</prevpageid>
         <nextpageid>2253</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1667449903</timecreated>
-        <timemodified>1667457237</timemodified>
-        <title>9.8.0: Lesson Overview</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="8b0d3810-e987-44b6-a2c6-3aa03fa5423e"&gt;&lt;/div&gt;</contents>
+        <timecreated>1667469187</timecreated>
+        <timemodified>1686163728</timemodified>
+        <title>9.8.1: Additional Resources </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="332db8c6-7248-4cf1-b101-7427237c63b5"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5047">
+          <answer id="5049">
+            <jumpto>2251</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667469187</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5050">
             <jumpto>2253</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667449903</timecreated>
+            <timecreated>1667469187</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
+            <answer_text>I’m ready for the next activity.</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
@@ -81,18 +258,18 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1667450730</timecreated>
-        <timemodified>1668196601</timemodified>
-        <title>9.8.1: The Vertex and Intercepts of a Function</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="b4dfd54c-bab3-4025-bc92-27c226daf6d8"&gt;&lt;/div&gt;</contents>
+        <timecreated>1667469977</timecreated>
+        <timemodified>1686163745</timemodified>
+        <title>9.8.2: Deriving the Quadratic Formula, Part 2</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ca68df7d-17ea-4ff6-941a-eafbdbabdb82"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5048">
-            <jumpto>2252</jumpto>
+          <answer id="5051">
+            <jumpto>2250</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667450730</timecreated>
+            <timecreated>1667469977</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -101,12 +278,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="5049">
+          <answer id="5052">
             <jumpto>2254</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667450730</timecreated>
+            <timecreated>1667469977</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -122,41 +299,83 @@
       <page id="2254">
         <prevpageid>2253</prevpageid>
         <nextpageid>2255</nextpageid>
-        <qtype>20</qtype>
+        <qtype>3</qtype>
         <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667452611</timecreated>
-        <timemodified>1667923011</timemodified>
-        <title>9.8.2: Expanding from Factored Form to Standard Form</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="91e00a8c-57c6-47db-940d-c2354a0a05e6"&gt;&lt;/div&gt;</contents>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1667470103</timecreated>
+        <timemodified>1667471177</timemodified>
+        <title>9.10.2: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="db8392ee-1172-4c2f-8819-4a96a12bfdb1"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5050">
-            <jumpto>2253</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667452611</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5051">
+          <answer id="5053">
             <jumpto>2255</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667452611</timecreated>
+            <timecreated>1667470103</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
+            <answer_text>&lt;p dir="ltr"&gt;Complete the square.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This was already done for the perfect square trinomial to be factored. The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5054">
+            <jumpto>2256</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1667470103</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Take the square root of both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: To get rid of the power of 2, take the square root of both sides and remember the plus and minus sign on the right side.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5055">
+            <jumpto>2255</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667470103</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Multiply both sides by \(4a^2\).&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: In a previous step, both sides were already divided by \(4a^2\). The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5056">
+            <jumpto>2255</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667470103</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Subtract \(\frac{b}{2a}\) from both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This cannot be done until after the square root is taken. The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5057">
+            <jumpto>2255</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667470103</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
             <attempts>
             </attempts>
           </answer>
@@ -171,34 +390,34 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1667454013</timecreated>
-        <timemodified>1667872814</timemodified>
-        <title>9.8.3: Converting from Standard Form to Vertex Form </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="bc555b85-25e0-4ebe-9909-588eaa62c966"&gt;&lt;/div&gt;</contents>
+        <timecreated>1667470246</timecreated>
+        <timemodified>1686163761</timemodified>
+        <title>9.8.2: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="a4d4180a-fabf-4863-9a6b-a341ce6c6df2"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5052">
+          <answer id="5058">
             <jumpto>2254</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667454013</timecreated>
+            <timecreated>1667470246</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
+            <answer_text> I’d like to retry the self check.</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
-          <answer id="5053">
+          <answer id="5059">
             <jumpto>2256</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667454013</timecreated>
+            <timecreated>1667470246</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
+            <answer_text>I’m ready for the next activity.</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
@@ -212,83 +431,41 @@
       <page id="2256">
         <prevpageid>2255</prevpageid>
         <nextpageid>2257</nextpageid>
-        <qtype>3</qtype>
+        <qtype>20</qtype>
         <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1667454139</timecreated>
-        <timemodified>1667872859</timemodified>
-        <title>9.8.3: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="931d7b9a-4424-4a67-a1ba-6d19e518da33"&gt;&lt;/div&gt;</contents>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667470526</timecreated>
+        <timemodified>1686163771</timemodified>
+        <title>9.8.3: Understanding That the Quadratic Formula Is the Combined Steps of Completing the Square</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="f91e56e6-74a3-4eb5-9298-abba227f4a23"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5054">
+          <answer id="5060">
+            <jumpto>2253</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667470526</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5061">
             <jumpto>2257</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667454139</timecreated>
+            <timecreated>1667470526</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\((x+7)^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This is only the factored perfect square trinomial. The answer is \((x+7)^2-52\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5055">
-            <jumpto>2257</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667454139</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\((x+7)^2-3\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: When the 49 is added to complete the square, it must also be subtracted to balance the expression. The answer is \((x+7)^2-52\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5056">
-            <jumpto>2258</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1667454139</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\((x+7)^2-52\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: Complete the square with 49, and then subtract 49 from -3. Factor the trinomial and simplify.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5057">
-            <jumpto>2257</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667454139</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\((x+7)^2+46\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: Since 49 was added to complete the square, it must be subtracted from -3 to balance the expression. The answer is \((x+7)^2-52\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5058">
-            <jumpto>2257</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667454139</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
@@ -303,34 +480,34 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1667454235</timecreated>
-        <timemodified>1667457333</timemodified>
-        <title>9.8.3: Additional Resources </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="e0a18ca4-e65a-4600-968c-6cfa5fa5c26c"&gt;&lt;/div&gt;</contents>
+        <timecreated>1667470821</timecreated>
+        <timemodified>1686163782</timemodified>
+        <title>9.8.4: Practice</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="1d4ce12b-3379-4d86-b3b5-559542a8a29d"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5059">
+          <answer id="5062">
             <jumpto>2256</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667454235</timecreated>
+            <timecreated>1667470821</timecreated>
             <timemodified>0</timemodified>
-            <answer_text> I’d like to retry the self check.</answer_text>
+            <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
-          <answer id="5060">
+          <answer id="5063">
             <jumpto>2258</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667454235</timecreated>
+            <timecreated>1667470821</timecreated>
             <timemodified>0</timemodified>
-            <answer_text> I’m ready for the next activity.</answer_text>
+            <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
@@ -343,335 +520,23 @@
       </page>
       <page id="2258">
         <prevpageid>2257</prevpageid>
-        <nextpageid>2259</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667455449</timecreated>
-        <timemodified>1668196708</timemodified>
-        <title>9.8.4: Rewriting Expressions in Vertex Form</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="8878640a-9401-4baa-83ba-40b86ec02c94"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5061">
-            <jumpto>2255</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667455449</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5062">
-            <jumpto>2259</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667455449</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2259">
-        <prevpageid>2258</prevpageid>
-        <nextpageid>2260</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1667455654</timecreated>
-        <timemodified>1667873675</timemodified>
-        <title>9.8.4: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="2cde9aa7-24b2-4200-b930-a006fc06fb0d"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5063">
-            <jumpto>2260</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667455654</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(2(x+5)^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The constant needs to be included in the process. The correct answer is \(2(x+5)^2-30\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5064">
-            <jumpto>2261</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1667455654</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(2(x+5)^2-30\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: First factor out the 2. Then complete the square and add in 25 while subtracting to balance the expression. This becomes \(2(x^2+10x+25+10-25)\). Then factor and simplify.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5065">
-            <jumpto>2260</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667455654</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(2(x^2+10x+10)\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: This is factored, but not vertex form. The correct answer is \(2(x+5)^2-30\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5066">
-            <jumpto>2260</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667455654</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(2(x+5)^2-15\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The 2 has to be distributed to the -15. The correct answer is \(2(x+5)^2-30\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5067">
-            <jumpto>2260</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667455654</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2260">
-        <prevpageid>2259</prevpageid>
-        <nextpageid>2261</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667455766</timecreated>
-        <timemodified>1667873710</timemodified>
-        <title>9.8.4: Additional Resources</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="d2307bd8-faec-47b6-9c66-9f4a580ebcaf"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5068">
-            <jumpto>2259</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667455766</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’d like to retry the self check.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5069">
-            <jumpto>2261</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667455766</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2261">
-        <prevpageid>2260</prevpageid>
-        <nextpageid>2262</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667456638</timecreated>
-        <timemodified>1667923402</timemodified>
-        <title>9.8.5: Different Forms of Quadratic Expressions </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="1e9a5b30-a7e5-4f48-a983-3d40ed6d6557"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5070">
-            <jumpto>2258</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667456638</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5071">
-            <jumpto>2262</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667456638</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2262">
-        <prevpageid>2261</prevpageid>
-        <nextpageid>2263</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667456845</timecreated>
-        <timemodified>1667875526</timemodified>
-        <title>9.8.6: Vertex Form and Coordinates of the Vertex </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="0dd150a3-a02e-4555-aae4-8759e14b9842"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5072">
-            <jumpto>2261</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667456845</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5073">
-            <jumpto>2263</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667456845</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2263">
-        <prevpageid>2262</prevpageid>
-        <nextpageid>2264</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667456898</timecreated>
-        <timemodified>1668111725</timemodified>
-        <title>9.8.7: Practice</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="2fb9004a-ced9-4179-948b-70c7489af28b"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5074">
-            <jumpto>2262</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667456898</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5075">
-            <jumpto>2264</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667456898</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2264">
-        <prevpageid>2263</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1667456922</timecreated>
-        <timemodified>1667878150</timemodified>
-        <title>9.8.8: Lesson Summary</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="4771a729-1d6b-4f93-8e76-afcdf67bc63a"&gt;&lt;/div&gt;</contents>
+        <timecreated>1667471017</timecreated>
+        <timemodified>1686163792</timemodified>
+        <title>9.8.5: Lesson Summary</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="fc926633-d8f8-4a48-8c1f-24b8e60deff6"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5076">
-            <jumpto>2263</jumpto>
+          <answer id="5064">
+            <jumpto>2257</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667456922</timecreated>
+            <timecreated>1667471017</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -680,12 +545,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="5077">
+          <answer id="5065">
             <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667456922</timecreated>
+            <timecreated>1667471017</timecreated>
             <timemodified>0</timemodified>
             <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>
