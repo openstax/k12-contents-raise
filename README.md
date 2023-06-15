@@ -12,6 +12,19 @@ Before starting the authoring environment you should install the following:
 
 ### Getting started
 
+This authoring script is designed to help users start, stop, and configure an authoring environment. It provides a set of commands that allow users to create, modify, and delete content variants, and to start editing new rounds of content.
+
+### How to Use the Script
+To use the script, you need to run it from the command line and provide a valid command as the first argument. Here are the available commands:
+
+- up: Starts the authoring environment.
+- down: Stops the authoring environment.
+- destroy: Stops the authoring environment and destroys all state.
+- set-variant: Configures the content variant used for preview.
+- reset-variant: Resets the variant used for preview to default.
+- create-variant: Creates a variant HTML file for a page.
+- start-editing: Initializes the environment for a new round of edits.
+
 To launch an environment, you can run the following command passing a unique branch name in place of `REPLACEME` to create locally:
 
 ```bash
@@ -37,6 +50,24 @@ To stop the authoring environment use the `down` argument.
 ```bash
 $ ./scripts/authoring_env.sh down
 ```
+
+### Creating a variant
+
+The create-variant command is used to create a variant HTML file for a page. To use this command, you need to provide the UUID and variant name arguments. For example, if you want to create a variant HTML file for a page with UUID "123" and variant name "interactive_study", you would run the following command:
+
+```bash
+$ ./scripts/authoring_env.sh create-variant interactive_study 123
+```
+
+### Setting a variant
+
+The set-variant command is used to configure the content variant used for preview. To use this command, you need to provide the name of the variant as an argument. For example, if you want to set the variant to "interactive_study", you would run the following command:
+
+```bash
+$ ./scripts/authoring_env.sh set-variant interactive_study
+
+```
+
 
 ## Developers
 
