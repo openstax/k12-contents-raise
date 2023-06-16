@@ -71,12 +71,22 @@
     <li>
       Instead of writing a recursive definition, Clare writes \(C(n)=80 \cdot(\frac12)^n\), where \(C\) is the area, in square inches, of the paper after \(n\) cuts. Explain where the different terms in her expression came from.
     </li>
+    <p><strong>ANSWER: </strong></p>
+
+    <p>
+      For example: Each cut halves the area, and there are \(n\) cuts. The original area is 80, so \(80 \cdot \frac12 \cdot \frac12 \cdot \cdot \cdot \cdot \cdot \frac12\) with \(n\) multiplications of \(\frac12\) is the same as saying \(80 \cdot (\frac{1}{2})^n\).
+    </p>
     <li>
-      Approximately what is the area of the paper after 10 cuts?
+      Approximately what is the area of the paper after 10 cuts?    <p><strong>ANSWER: </strong></p>
+
+    <p>
+      Approximately 0.078 square inches (exactly \(\frac{80}{1024}\) inches)</p><br>
       <br>
       <br>
     </li>
   </ol>
+
+
   <li>
     Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1 inch of the width. Then he does it again, and again . . .
   </li>
@@ -143,37 +153,7 @@
   </tbody>
 </table>
 <br>
-<ol class="os-raise-noindent">
-  <ol class="os-raise-noindent" start="2" type="a">
-    <li>
-      Kiran says the area after 6 cuts, in square inches, is \(80&minus;8 \cdot 6\). Explain where the different terms in his expression came from.
-    </li>
-    <li>
-      Write a definition for \(K(n)\) that is not recursive.<br>
-      <br>
-    </li>
-  </ol>
-  <li>
-    Which is larger, \(K(6)\) or \(C(6)\)?
-    <br>
-    <br>
-  </li>
-  <li>Is \(K\) arithmetic or geometric?<br>
-    <br>
-  </li>
-  <li>Is \(C\) arithmetic or geometric?</li>
-</ol>
-<h4>Student Response</h4>
-<ol class="os-raise-noindent">
-  <li>
-  </li>
-  <ol class="os-raise-noindent" type="a">
-    <li>
-      For example: Each cut halves the area, and there are \(n\) cuts. The original area is 80, so \(80 \cdot \frac12 \cdot \frac12 \cdot \cdot \cdot \cdot \cdot \frac12\) with \(n\) multiplications of \(\frac12\) is the same as saying \(80 \cdot (\frac{1}{2})^n\).
-    </li>
-    <li>
-      Approximately 0.078 square inches (exactly \(\frac{80}{1024}\) inches)</li>
-  </ol>
+<p> <strong>ANSWER: </strong> </p>
 </ol>
 <ol class="os-raise-noindent" start="2">
   <li>
@@ -249,18 +229,30 @@
   </tbody>
 </table>
 <br>
-<ol class="os-raise-noindent" start="3">
+<ol class="os-raise-noindent">
   <ol class="os-raise-noindent" start="2" type="a">
     <li>
-      For example: Each cut removes 8 square inches, so 6 cuts removes 48 square inches. The original area was 80 square inches, so the remaining area, in square inches, is \(80&minus;8 \cdot 6\).
+      Kiran says the area after 6 cuts, in square inches, is \(80&minus;8 \cdot 6\). Explain where the different terms in his expression came from.
     </li>
-    <li>\(
+    <p> <strong>ANSWER: </strong> </p>
+    <p>
+      For example: Each cut removes 8 square inches, so 6 cuts removes 48 square inches. The original area was 80 square inches, so the remaining area, in square inches, is \(80&minus;8 \cdot 6\).
+    </p>
+    <li>
+      Write a definition for \(K(n)\) that is not recursive.<br>
+      <br>
+    </li>
+    <p> <strong>ANSWER: </strong> </p>
+
+    <p>\(
       K(n)=80&minus;8n\) for integers \(0\leq n\leq9\) or equivalent.
       <br>
       <br>
-    </li>
+    </p>
   </ol>
-  <li>
+  </ol>
+  <ol class="os-raise-noindent" start="3">
+   <li>
     Which is larger, \(K(6)\) or \(C(6)\)?
     <br>
     <strong>Answer:</strong> \(K(6)\) is larger.
