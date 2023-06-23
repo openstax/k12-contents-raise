@@ -2278,7 +2278,7 @@
         * [8.8.2: Recognizing the Expanded Product of the Difference of Two Squares ](./html/200e112e-009e-4c6f-9165-88694c07e1a2.html)
         * [8.8.2: Self Check](./html/a3f789e7-1b24-4218-93e3-5f4ffdda3ce1.html)
         * [8.8.2: Additional Resources ](./html/4e2bc647-373b-4c9b-8758-7b69051e204f.html)
-        * [8.8.3: Factoring Quadratic Equations Without a Linear Term](./html/5abbf6ee-a9bb-47d8-876d-fd4ab88a8e8e.html)
+        * [8.8.3: Factoring Quadratic Equations without a Linear Term](./html/5abbf6ee-a9bb-47d8-876d-fd4ab88a8e8e.html)
         * [8.8.3: Self Check](./html/ec46f998-ec4e-4b31-9f35-1652f465d1f7.html)
         * [8.8.3: Additional Resources](./html/f121c203-b86d-4fd2-b68c-bff572666b5c.html)
         * [8.8.4: Determining if an Expression Can Be Rewritten in Factored Form](./html/946d8648-f5d0-45b2-9aa8-29863704e378.html)

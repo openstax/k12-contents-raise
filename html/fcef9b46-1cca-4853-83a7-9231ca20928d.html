@@ -94,46 +94,39 @@
     \(g_1=14\), \(g_n=g_{n-1}2\), \(n\geq2\)</p>
 </ol>
 <h3>4.17.4: Self Check</h3>
-<p><strong><em>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</em></strong></p>
-<table class="os-raise-standardtable" border="1" cellpadding="5">
-  <colgroup>
-    <col width="302">
-    <col width="322">
-  </colgroup>
-  <tbody>
-    <tr>
-      <td colspan="2">
-        <p><strong>QUESTION:</strong></p>
+<p class="os-raise-text-bold"><em>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</em></p>
+ <p class="os-raise-text-bold">QUESTION:</p>
         <p>Write the nth term formula of the geometric sequence represented by \(g_1=-3\) and \(g_n=g_{n-1} \cdot 6\), \(n\geq2\).</p>
+<table class="os-raise-textheavytable">
+  
+  <thead>
+ 
+    <tr>
+      <th scope="col">
+     ANSWERS
+      </th>
+      <th scope="col">
+       FEEDBACK
+      </th>
+	  </tr></thead><tbody>
+    <tr>
+      <td>
+		  \(g_n=6n+-3\)</td>
+      <td>
+        Incorrect. Let&rsquo;s try again a different way: The common ratio should be raised to the power of \(n-1\), and the first term should be multiplied, not added. The answer is \(g_n=-3 \cdot 6^{n-1}\).
       </td>
     </tr>
     <tr>
       <td>
-        <p><strong>ANSWERS</strong></p>
+        \(g_n=-3 \cdot 6^n\)
       </td>
       <td>
-        <p><strong>FEEDBACK</strong></p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>\(g_n=6n+-3\)</p>
-      </td>
-      <td>
-        <p>Incorrect. Let&rsquo;s try again a different way: The common ratio should be raised to the power of \(n-1\), and the first term should be multiplied, not added. The answer is \(g_n=-3 \cdot 6^{n-1}\).</p>
+       Incorrect. Let&rsquo;s try again a different way: The first term using this formula is &ndash;18. Use \(n-1\) for the exponent. The answer is \(g_n=-3 \cdot 6^{n-1}\).
       </td>
     </tr>
     <tr>
       <td>
-        <p>\(g_n=-3 \cdot 6^n\)</p>
-      </td>
-      <td>
-        <p>Incorrect. Let&rsquo;s try again a different way: The first term using this formula is &ndash;18. Use \(n-1\) for the exponent. The answer is \(g_n=-3 \cdot 6^{n-1}\).</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>\(g_n=-3 \cdot 6^{n-1}\)</p>
+        \(g_n=-3 \cdot 6^{n-1}\)
       </td>
       <td>
         <p>That&rsquo;s correct! Check yourself: The first term was &ndash;3 and the common ratio is 6.</p>
@@ -155,44 +148,40 @@
 <h4>Switching Between Definitions of Sequences</h4>
 <p>A recursive formula defines each term of a sequence using the previous terms.</p>
 <p>An explicit or nth term formula defines the terms of the sequence using their position in the sequence, without knowing any other terms in the sequence.</p>
-<table class="os-raise-standardtable" border="1" cellpadding="5">
-  <colgroup>
-    <col width="85">
-    <col width="229">
-    <col width="314">
-  </colgroup>
-  <tbody>
+<table class="os-raise-doubleheadertable">
+  
+  <thead>
     <tr>
-      <td>
-        <p><strong>Sequence</strong></p>
-      </td>
-      <td>
+      <th scope="col">
+       Sequence
+      </th>
+    <th scope="col">
         <p><strong>Recursive Formula</strong></p>
+      </th>
+      <th scope="col">
+      Explicit or nth Term Formula
+      </th>
+	  </tr></thead><tbody>
+    <tr>
+      <th scope="row">
+        Arithmetic
+      </th>
+      <td>
+        \(F_1=a_1\), \(F_n=F_{n-1}+d\), where \(a_1\) is the first term and \(d\) is the common difference.
       </td>
       <td>
-        <p><strong>Explicit or nth Term Formula</strong></p>
+       \(a_n=a_1+(n-1)d\),&nbsp;where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.
       </td>
     </tr>
     <tr>
+      <th scope="col">
+       Geometric
+      </th>
       <td>
-        <p>Arithmetic</p>
+       \(H_1=a_1\), \(H_n=H_{n-1} \cdot r\), where \(a_1\) is the first term and \(r\) is the common ratio.
       </td>
       <td>
-        <p> \(F_1=a_1\), \(F_n=F_{n-1}+d\), where \(a_1\) is the first term and \(d\) is the common difference.</p>
-      </td>
-      <td>
-        <p>\(a_n=a_1+(n-1)d\),&nbsp;<span>where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</span></p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Geometric</p>
-      </td>
-      <td>
-        <p>\(H_1=a_1\), \(H_n=H_{n-1} \cdot r\), where \(a_1\) is the first term and \(r\) is the common ratio.</p>
-      </td>
-      <td>
-        <p>\(a_n=a_1r^{n-1}\),&nbsp;<span>where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.</span></p>
+       \(a_n=a_1r^{n-1}\),&nbsp;where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.
       </td>
     </tr>
   </tbody>
@@ -204,92 +193,84 @@
     \(a_1=5\), \(a_n=a_{n-1}+6\), \(n\geq2\)
   </li>
 </ol>
-<table class="os-raise-standardtable" border="1" cellpadding="5">
-  <colgroup>
-    <col width="323">
-    <col width="301">
-  </colgroup>
+<table class="os-raise-horizontaltable">
+  <thead></thead>
   <tbody>
     <tr>
+      <th scope="row">
+        Write the recursive formula.
+      </th>
       <td>
-        <p>Write the recursive formula.</p>
-      </td>
-      <td>
-        <p>
+       
           \(a_1=5\), \(a_n=a_{n-1}+6\), \(n\geq2\)
-        </p>
+        
       </td>
     </tr>
     <tr>
+       <th scope="row">
+       Identify the first term.
+      </th>
       <td>
-        <p>Identify the first term.</p>
-      </td>
-      <td>
-        <p>\(a_1=5\)</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Identify the common difference.</p>
-      </td>
-      <td>
-        <p>\(d=6\)</p>
+       \(a_1=5\)
       </td>
     </tr>
     <tr>
+       <th scope="row">
+       Identify the common difference.
+      </th>
       <td>
-        <p>Write the explicit formula.</p>
-      </td>
-      <td>
-        <p>\(a_n=a_1+(n-1)d\)</p>
+        \(d=6\)
       </td>
     </tr>
     <tr>
+      <th scope="row">
+        Write the explicit formula.
+      </th>
       <td>
-        <p>Substitute \(a_1\) and \(d\) into the formula.</p>
+       \(a_n=a_1+(n-1)d\)
       </td>
+    </tr>
+    <tr>
+      <th scope="row">
+      Substitute \(a_1\) and \(d\) into the formula.
+      </th>
       <td>
-        <p>\(a_n=5+(n-1)6\)</p>
+        \(a_n=5+(n-1)6\)
       </td>
     </tr>
   </tbody>
 </table>
 <br>
 <p>Check by finding the first 3 terms using each formula:</p>
-<table class="os-raise-standardtable" border="1" cellpadding="5">
-  <colgroup>
-    <col>
-    <col width="84">
-    <col width="170">
-    <col width="214">
-  </colgroup>
+<table class="os-raise-horizontaltable">
+  <thead></thead>
   <tbody>
     <tr>
+      <th scope="row">
+        \(a_1=5\), \(a(n)=a_n=a_{n-1}+6\), \(n\geq2\)
+      </th>
       <td>
-        <p>\(a_1=5\), \(a(n)=a_n=a_{n-1}+6\), \(n\geq2\)</p>
+        \(a_1=5\)
       </td>
       <td>
-        <p>\(a_1=5\)</p>
+      \(a_2=5+6=11\)
       </td>
       <td>
-        <p>\(a_2=5+6=11\)</p>
-      </td>
-      <td>
-        <p>\(a_3=11+6=17\)</p>
+       \(a_3=11+6=17\)
       </td>
     </tr>
     <tr>
+     <th scope="row">
+       \(a_n=5+(n-1)6\)
+      </th>
       <td>
-        <p>\(a_n=5+(n-1)6\)</p>
+       \(a_1=5\)
       </td>
       <td>
-        <p>\(a_1=5\)</p>
+      \(a_2=5+(2-1)6=11\)
       </td>
       <td>
-        <p>\(a_2=5+(2-1)6=11\)</p>
-      </td>
-      <td>
-        <p>\(a_3=5+(3-1)6=17\)</p>
+       \(a_3=5+(3-1)6=17\)
       </td>
     </tr>
   </tbody>
@@ -299,90 +280,82 @@
 <ol class="os-raise-noindent" start="2" type="a">
   <li>\(b_1=4\), \(b_n=b_{n-1} \cdot 5\), \(n\geq2\)</li>
 </ol>
-<table class="os-raise-standardtable" border="1" cellpadding="5">
-  <colgroup>
-    <col width="323">
-    <col width="301">
-  </colgroup>
+<table class="os-raise-horizontaltable">
+  <thead></thead>
   <tbody>
     <tr>
+      <th scope="row">
+        Write the recursive formula.
+      </th>
       <td>
-        <p>Write the recursive formula.</p>
-      </td>
-      <td>
-        <p>\(b_1=4\), \(b_n=b_{n-1} \cdot 5\), \(n\geq2\)</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Identify the first term.</p>
-      </td>
-      <td>
-        <p>\(a_1=4\)</p>
+       \(b_1=4\), \(b_n=b_{n-1} \cdot 5\), \(n\geq2\)
       </td>
     </tr>
     <tr>
+     <th scope="row">
+       Identify the first term.
+      </th>
       <td>
-        <p>Identify the common ratio.</p>
-      </td>
-      <td>
-        <p>\(r=5\)</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Write the explicit formula.</p>
-      </td>
-      <td>
-        <p>\(a_n=a_1r^{n-1}\)</p>
+       \(a_1=4\)
       </td>
     </tr>
     <tr>
+     <th scope="row">
+       Identify the common ratio.
+      </th>
       <td>
-        <p>Substitute \(a_1\) and \(r\) into the formula.</p>
+        \(r=5\)
       </td>
+    </tr>
+    <tr>
+     <th scope="row">
+       Write the explicit formula.
+      </th>
       <td>
-        <p>\(a_n=4(5)^{n-1}\)</p>
+       \(a_n=a_1r^{n-1}\)
+      </td>
+    </tr>
+    <tr>
+    <th scope="row">
+       Substitute \(a_1\) and \(r\) into the formula.
+      </th>
+      <td>
+        \(a_n=4(5)^{n-1}\)
       </td>
     </tr>
   </tbody>
 </table>
 <br>
 <p>Check by finding the first 3 terms using each formula:</p>
-<table class="os-raise-standardtable" border="1" cellpadding="5">
-  <colgroup>
-    <col>
-    <col width="84">
-    <col width="183">
-    <col width="201">
-  </colgroup>
+<table class="os-raise-horizontaltable">
+  <thead></thead>
   <tbody>
     <tr>
+      <th scope="row">
+        \(b_1=4\), \(b_n=b_{n-1} \cdot 5\), \(n\geq2\)
+      </th>
       <td>
-        <p>\(b_1=4\), \(b_n=b_{n-1} \cdot 5\), \(n\geq2\)</p>
+        \(a_1=4\)
       </td>
       <td>
-        <p>\(a_1=4\)</p>
+        \(b_2=b_{2-1} \cdot 5=4 \cdot 5=20\)
       </td>
       <td>
-        <p>\(b_2=b_{2-1} \cdot 5=4 \cdot 5=20\)</p>
-      </td>
-      <td>
-        <p>\(b_3=b_{3-1} \cdot 5=20 \cdot 5=100\)</p>
+       \(b_3=b_{3-1} \cdot 5=20 \cdot 5=100\)
       </td>
     </tr>
     <tr>
-      <td>
-        <p>\(a_n=4(5)^{n-1}\)</p>
-      </td>
+    <th scope="row">
+        \(a_n=4(5)^{n-1}\)
+      </th>
       <td>
         <p>\(a_1=4(5)^{1-1}=4\)</p>
       </td>
       <td>
-        <p>\(a_2=4(5)^{2-1}=20\)</p>
+        \(a_2=4(5)^{2-1}=20\)
       </td>
       <td>
-        <p>\(a_3=4(5)^{3-1}=100\)</p>
+        \(a_3=4(5)^{3-1}=100\)
       </td>
     </tr>
   </tbody>
@@ -394,50 +367,47 @@
   <li>\(a_n=21+(n-1)(-2)\)
   </li>
 </ol>
-<table class="os-raise-standardtable" border="1" cellpadding="5">
-  <colgroup>
-    <col width="323">
-    <col width="301">
-  </colgroup>
+<table class="os-raise-horizontaltable">
+  
   <tbody>
     <tr>
+     <th scope="row">
+        Write the explicit formula.
+      </th>
       <td>
-        <p>Write the explicit formula.</p>
-      </td>
-      <td>
-        <p>\(a_n=21+(n-1)(-2)\)</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Identify the first term.</p>
-      </td>
-      <td>
-        <p>\(a_1=21\)</p>
+        \(a_n=21+(n-1)(-2)\)
       </td>
     </tr>
     <tr>
+     <th scope="row">
+       Identify the first term.
+      </th>
       <td>
-        <p>Identify the common difference.</p>
-      </td>
-      <td>
-        <p>\(d=-2\)</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Write the recursive formula.</p>
-      </td>
-      <td>
-        <p> \(F_1=a_1\), \(F_n=F_{n-1}+d\), \(n\geq2\)</p>
+       \(a_1=21\)
       </td>
     </tr>
     <tr>
+      <th scope="row">
+       Identify the common difference.
+      </th>
       <td>
-        <p>Substitute \(a_1\) and \(d\) into the formula.</p>
+        \(d=-2\)
       </td>
+    </tr>
+    <tr>
+      <th scope="row">
+       Write the recursive formula.
+      </th>
       <td>
-        <p>\(F_1=21\), \(F_n=F_{n-1}-2\), \(n\geq2\)</p>
+        \(F_1=a_1\), \(F_n=F_{n-1}+d\), \(n\geq2\)
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        Substitute \(a_1\) and \(d\) into the formula.
+      </th>
+      <td>
+      \(F_1=21\), \(F_n=F_{n-1}-2\), \(n\geq2\)
       </td>
     </tr>
   </tbody>
@@ -449,50 +419,47 @@
     \(a_n=3 \cdot (\frac14)^{n-1}\)
   </li>
 </ol>
-<table class="os-raise-standardtable" border="1" cellpadding="5">
-  <colgroup>
-    <col width="323">
-    <col width="301">
-  </colgroup>
+<table class="os-raise-horizontaltable">
+  
   <tbody>
     <tr>
+      <th scope="row">
+      Write the explicit formula.
+      </th>
       <td>
-        <p>Write the explicit formula.</p>
-      </td>
-      <td>
-        <p>\(a_n=3 \cdot (\frac14)^{n-1}\)</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Identify the first term.</p>
-      </td>
-      <td>
-        <p>\(a_1=3\)</p>
+       \(a_n=3 \cdot (\frac14)^{n-1}\)
       </td>
     </tr>
     <tr>
+     <th scope="row">
+       Identify the first term.
+      </th>
       <td>
-        <p>Identify the common ratio.</p>
-      </td>
-      <td>
-        <p>\(r= \frac14\)</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Write the recursive formula.</p>
-      </td>
-      <td>
-        <p>\(H_1=a_1\), \(H_n=H_{n-1} \cdot R\), \(n\geq2\)</p>
+        \(a_1=3\)
       </td>
     </tr>
     <tr>
+      <th scope="row">
+       Identify the common ratio.
+      </th>
       <td>
-        <p>Substitute \(a_1\) and \(r\) into the formula.</p>
+        \(r= \frac14\)
       </td>
+    </tr>
+    <tr>
+     <th scope="row">
+       Write the recursive formula.
+      </th>
       <td>
-        <p>\(H_1=3\), \(H_n=H_{n-1} \cdot \frac14\), \(n\geq2\)</p>
+       \(H_1=a_1\), \(H_n=H_{n-1} \cdot R\), \(n\geq2\)
+      </td>
+    </tr>
+    <tr>
+     <th scope="row">
+       Substitute \(a_1\) and \(r\) into the formula.
+      </th>
+      <td>
+       \(H_1=3\), \(H_n=H_{n-1} \cdot \frac14\), \(n\geq2\)
       </td>
     </tr>
   </tbody>
@@ -505,50 +472,47 @@
 <p>W<span>rite down your answer. Then select the </span><strong>Solution </strong><span>button to compare your work.</span></p>
 <h5>Solution</h5>
 <p>Here is how to write the sequence using the recursive definition:</p>
-<table class="os-raise-standardtable" border="1" cellpadding="5">
-  <colgroup>
-    <col width="323">
-    <col width="301">
-  </colgroup>
+<table class="os-raise-horizontaltable">
+ <thead></thead>
   <tbody>
     <tr>
+      <th scope="row">
+      Write the explicit formula.
+      </th>
       <td>
-        <p>Write the explicit formula.</p>
-      </td>
-      <td>
-        <p>\(a_n=14+(n-1)(3)\)</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Identify the first term.</p>
-      </td>
-      <td>
-        <p>\(a_1=14\)</p>
+      \(a_n=14+(n-1)(3)\)
       </td>
     </tr>
     <tr>
+     <th scope="row">
+        Identify the first term.
+      </th>
       <td>
-        <p>Identify the common difference.</p>
-      </td>
-      <td>
-        <p>\(d=3\)</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Write the recursive formula.</p>
-      </td>
-      <td>
-        <p>\(F1=a_1\), \(F_n=F_{n-1}+d\), \(n\geq2\)</p>
+       \(a_1=14\)
       </td>
     </tr>
     <tr>
+    <th scope="row">
+        Identify the common difference.
+      </th>
       <td>
-        <p>Substitute \(a_1\) and \(d\) into the formula.</p>
+       \(d=3\)
       </td>
+    </tr>
+    <tr>
+     <th scope="row">
+        Write the recursive formula.
+      </th>
       <td>
-        <p>\(F_1=14\), \(F_n=F_{n-1}+2\), \(n\geq2\)</p>
+       \(F1=a_1\), \(F_n=F_{n-1}+d\), \(n\geq2\)
+      </td>
+    </tr>
+    <tr>
+     <th scope="row">
+        Substitute \(a_1\) and \(d\) into the formula.
+      </th>
+      <td>
+       \(F_1=14\), \(F_n=F_{n-1}+2\), \(n\geq2\)
       </td>
     </tr>
   </tbody>
