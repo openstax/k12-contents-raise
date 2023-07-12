@@ -78,9 +78,9 @@
   <div class="os-raise-ib-input-ack">
     <p>Compare your answer:</p>
     <p>Your answer may vary, but here is a sample. <br>
-      The equation m=y 5 represents the relationship of the ages in Family B, where \(m\) is the age of the middle child
+      The equation \(m=y 5\) represents the relationship of the ages in Family B, where \(m\) is the age of the middle child
       and \(y\) the age of the youngest. Subtracting \(y\) from both sides of the equation and multiplying both sides by
-      2 results in the equation: 2m−2y=10.
+      2 results in the equation: \(2m−2y=10\).
     </p>
   </div>
 </div>
@@ -146,4 +146,40 @@
   </div>
 </div>
 <!--Interaction End -->
+<br>
+<br>
+<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+<div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1"  data-schema-version="1.0">
+  <div class="os-raise-ib-cta-content">
+    <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+  <div class="os-raise-ib-cta-prompt">
+    <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+</div>
+<!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+<div class="os-raise-ib-input" data-button-text="Solution"  data-wait-for-event="RFM1" data-schema-version="1.0">
+  <div class="os-raise-ib-input-content">
+    <h4>Extending Your Thinking</h4>
+    <p>Here is a puzzle:</p>
+      <ul>
+        <li>\(2p+m \)</li>
+        <li>\(4m+N \)</li>
+        <li>\(3N
+        9m \)</li>
+      </ul>
+    <p><strong>Select two</strong> expressions that are equivalent to \(p + Q\).</p>
+  </div>
+  <div class="os-raise-ib-input-prompt">
+    <p>Enter your answer here:</p>
+  </div>
+  <div class="os-raise-ib-input-ack">
+    <p>Compare your answer:</p>
+    <ul>
+      <li>\(2p+m \)</li>
+      <li>\(9m \)</li>
+    </ul>
+  </div>
+</div>
+<!--End interaction-->
 <br>
