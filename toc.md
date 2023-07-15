@@ -253,7 +253,7 @@
     * Lesson 1.12 Teacher Guide: Writing the Equation of a Line
         * [1.12.0: Lesson Overview](./html/01e2057f-8163-4054-a113-b949180d2cdd.html)
         * [1.12.1: Using the Slope Formula](./html/eb628d16-e550-46c2-9a15-545c8d7d1073.html)
-        * [1.12.2: Writing an Equation Given the Slope and y-Intercept](./html/5cf6119f-ed3f-4b90-96e1-01549b6638a5.html)
+        * [1.12.2: Writing an Equation Given the Slope and \(y\)-Intercept](./html/5cf6119f-ed3f-4b90-96e1-01549b6638a5.html)
         * [1.12.3: Writing an Equation Given the Slope and a Point](./html/8f277699-8c14-437e-aa8a-320ed58d73db.html)
         * [1.12.4: Writing an Equation Given Two Points](./html/51d4138a-85c8-4795-945a-e59b74f672b7.html)
         * [1.12.5: Choosing a Method to Write an Equation](./html/25acef07-cccd-4c04-ba31-c719071d41c9.html)
