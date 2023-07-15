@@ -253,7 +253,7 @@
     * Lesson 1.12 Teacher Guide: Writing the Equation of a Line
         * [1.12.0: Lesson Overview](./html/01e2057f-8163-4054-a113-b949180d2cdd.html)
         * [1.12.1: Using the Slope Formula](./html/eb628d16-e550-46c2-9a15-545c8d7d1073.html)
-        * [1.12.2: Writing an Equation Given the Slope and y-Intercept](./html/5cf6119f-ed3f-4b90-96e1-01549b6638a5.html)
+        * [1.12.2: Writing an Equation Given the Slope and \(y\)-Intercept][def]
         * [1.12.3: Writing an Equation Given the Slope and a Point](./html/8f277699-8c14-437e-aa8a-320ed58d73db.html)
         * [1.12.4: Writing an Equation Given Two Points](./html/51d4138a-85c8-4795-945a-e59b74f672b7.html)
         * [1.12.5: Choosing a Method to Write an Equation](./html/25acef07-cccd-4c04-ba31-c719071d41c9.html)
@@ -262,7 +262,7 @@
     * Lesson 1.12: Writing the Equation of a Line
         * [1.12.0: Lesson Overview](./html/cfdb65a9-9226-47cc-939b-0954f15585a4.html)
         * [1.12.1: Using the Slope Formula](./html/ebdd5eaf-8c3d-4810-822f-8f40775b6fda.html)
-        * [1.12.2: Writing an Equation Given the Slope and y-Intercept](./html/3dbe8f6a-1837-4110-a46c-5b97454a0254.html)
+        * [1.12.2: Writing an Equation Given the Slope and y-Intercept][def2]
         * [1.12.2: Self Check](./html/57482569-6a58-4e1b-a192-f78693d81265.html)
         * [1.12.2: Additional Resources ](./html/53d0da0e-fb5c-447d-9487-c57b832e3bad.html)
         * [1.12.3: Writing an Equation Given the Slope and a Point](./html/3f33067e-7084-4dd2-99cb-b793f8dc89fa.html)
@@ -2606,3 +2606,7 @@
         * [Activity: P9.3: A Linear Function and a Quadratic Function](./html/9cb4fa10-0293-443d-b08d-9b1323bd4364.html)
         * [Activity: P9.4: Profit from a River Cruise](./html/ccc37bd2-6d34-4660-9a48-98de8aff4a20.html)
 * Spring STAAR Review
+
+
+[def]: ./html/5cf6119f-ed3f-4b90-96e1-01549b6638a5.html
+[def2]: ./html/3dbe8f6a-1837-4110-a46c-5b97454a0254.html
