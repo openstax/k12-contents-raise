@@ -262,7 +262,7 @@
     * Lesson 1.12: Writing the Equation of a Line
         * [1.12.0: Lesson Overview](./html/cfdb65a9-9226-47cc-939b-0954f15585a4.html)
         * [1.12.1: Using the Slope Formula](./html/ebdd5eaf-8c3d-4810-822f-8f40775b6fda.html)
-        * [1.12.2: Writing an Equation Given the Slope and y-Intercept](./html/3dbe8f6a-1837-4110-a46c-5b97454a0254.html)
+        * [1.12.2: Writing an Equation Given the Slope and y-Intercept][def2]
         * [1.12.2: Self Check](./html/57482569-6a58-4e1b-a192-f78693d81265.html)
         * [1.12.2: Additional Resources ](./html/53d0da0e-fb5c-447d-9487-c57b832e3bad.html)
         * [1.12.3: Writing an Equation Given the Slope and a Point](./html/3f33067e-7084-4dd2-99cb-b793f8dc89fa.html)
@@ -2609,3 +2609,4 @@
 
 
 [def]: ./html/5cf6119f-ed3f-4b90-96e1-01549b6638a5.html
+[def2]: ./html/3dbe8f6a-1837-4110-a46c-5b97454a0254.html
