@@ -283,7 +283,7 @@
     * Lesson 1.13 Teacher Guide: Lines from Tables and Graphs
         * [1.13.0: Lesson Overview](./html/adb60aed-3a6d-486e-a3e7-483de4a21f1a.html)
         * [1.13.1: Writing Linear Equations](./html/1fee8500-a976-4c69-b352-146d43383086.html)
-        * [1.3.2: Creating Tables From Verbal Descriptions](./html/2ffa9df4-dd45-4847-9c5d-066d333795e9.html)
+        * [1.13.2: Creating Tables From Verbal Descriptions](./html/2ffa9df4-dd45-4847-9c5d-066d333795e9.html)
         * [1.13.3: Matching Tables, Equations, and Graphs](./html/d44dd0b4-d09b-4315-b171-4ab2505a3687.html)
         * [1.13.4: Creating a Table from an Equation](./html/1c0b26a5-cb4a-4e31-8a2b-5ec0a640f958.html)
         * [1.13.5: Practice](./html/ec897c4f-bfc5-48a9-8c48-fcbec4a8aad6.html)
