@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="23" moduleid="185" modulename="quiz" contextid="196">
-  <quiz id="23">
-    <name>Unit 5, Section B Quiz</name>
+<activity id="22" moduleid="185" modulename="quiz" contextid="196">
+  <quiz id="22">
+    <name>Unit 5: Section A Quiz</name>
     <intro></intro>
     <introformat>1</introformat>
     <timeopen>0</timeopen>
@@ -26,10 +26,10 @@
     <questionsperpage>1</questionsperpage>
     <navmethod>free</navmethod>
     <shuffleanswers>1</shuffleanswers>
-    <sumgrades>5.00000</sumgrades>
+    <sumgrades>6.00000</sumgrades>
     <grade>10.00000</grade>
-    <timecreated>1662690950</timecreated>
-    <timemodified>1662690950</timemodified>
+    <timecreated>1662687945</timecreated>
+    <timemodified>1689653741</timemodified>
     <password></password>
     <subnet></subnet>
     <browsersecurity>-</browsersecurity>
@@ -43,69 +43,83 @@
     <subplugin_quizaccess_seb_quiz>
     </subplugin_quizaccess_seb_quiz>
     <question_instances>
-      <question_instance id="150">
-        <quizid>23</quizid>
+      <question_instance id="144">
+        <quizid>22</quizid>
         <slot>1</slot>
         <page>1</page>
         <requireprevious>0</requireprevious>
         <maxmark>1.0000000</maxmark>
-        <question_reference id="150">
+        <question_reference id="144">
           <usingcontextid>196</usingcontextid>
           <component>mod_quiz</component>
           <questionarea>slot</questionarea>
-          <questionbankentryid>141</questionbankentryid>
+          <questionbankentryid>136</questionbankentryid>
           <version>$@NULL@$</version>
         </question_reference>
       </question_instance>
-      <question_instance id="151">
-        <quizid>23</quizid>
+      <question_instance id="145">
+        <quizid>22</quizid>
         <slot>2</slot>
         <page>2</page>
         <requireprevious>0</requireprevious>
         <maxmark>1.0000000</maxmark>
-        <question_reference id="151">
+        <question_reference id="145">
           <usingcontextid>196</usingcontextid>
           <component>mod_quiz</component>
           <questionarea>slot</questionarea>
-          <questionbankentryid>143</questionbankentryid>
+          <questionbankentryid>165</questionbankentryid>
           <version>$@NULL@$</version>
         </question_reference>
       </question_instance>
-      <question_instance id="152">
-        <quizid>23</quizid>
-        <slot>4</slot>
-        <page>4</page>
-        <requireprevious>0</requireprevious>
-        <maxmark>1.0000000</maxmark>
-        <question_reference id="152">
-          <usingcontextid>196</usingcontextid>
-          <component>mod_quiz</component>
-          <questionarea>slot</questionarea>
-          <questionbankentryid>145</questionbankentryid>
-          <version>$@NULL@$</version>
-        </question_reference>
-      </question_instance>
-      <question_instance id="153">
-        <quizid>23</quizid>
+      <question_instance id="146">
+        <quizid>22</quizid>
         <slot>3</slot>
         <page>3</page>
         <requireprevious>0</requireprevious>
         <maxmark>1.0000000</maxmark>
-        <question_reference id="153">
+        <question_reference id="146">
           <usingcontextid>196</usingcontextid>
           <component>mod_quiz</component>
           <questionarea>slot</questionarea>
-          <questionbankentryid>144</questionbankentryid>
+          <questionbankentryid>137</questionbankentryid>
           <version>$@NULL@$</version>
         </question_reference>
       </question_instance>
-      <question_instance id="154">
-        <quizid>23</quizid>
+      <question_instance id="147">
+        <quizid>22</quizid>
+        <slot>4</slot>
+        <page>4</page>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <question_reference id="147">
+          <usingcontextid>196</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>138</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="148">
+        <quizid>22</quizid>
         <slot>5</slot>
         <page>5</page>
         <requireprevious>0</requireprevious>
         <maxmark>1.0000000</maxmark>
-        <question_reference id="154">
+        <question_reference id="148">
+          <usingcontextid>196</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>166</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="149">
+        <quizid>22</quizid>
+        <slot>6</slot>
+        <page>6</page>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <question_reference id="149">
           <usingcontextid>196</usingcontextid>
           <component>mod_quiz</component>
           <questionarea>slot</questionarea>
@@ -115,14 +129,14 @@
       </question_instance>
     </question_instances>
     <sections>
-      <section id="23">
+      <section id="22">
         <firstslot>1</firstslot>
         <heading></heading>
         <shufflequestions>0</shufflequestions>
       </section>
     </sections>
     <feedbacks>
-      <feedback id="23">
+      <feedback id="22">
         <feedbacktext></feedbacktext>
         <feedbacktextformat>1</feedbacktextformat>
         <mingrade>0.00000</mingrade>

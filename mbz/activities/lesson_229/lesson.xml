@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="170" moduleid="229" modulename="lesson" contextid="240">
-  <lesson id="170">
+<activity id="166" moduleid="229" modulename="lesson" contextid="240">
+  <lesson id="166">
     <course>2</course>
-    <name>Lesson 7.2 Teacher Guide: Introduction to Quadratic Relationships</name>
+    <name>Lesson 6.5: Factor Trinomials</name>
     <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
@@ -24,7 +24,7 @@
     <maxpages>1</maxpages>
     <timelimit>0</timelimit>
     <retake>1</retake>
-    <activitylink>230</activitylink>
+    <activitylink>231</activitylink>
     <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
@@ -38,30 +38,651 @@
     <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1665638041</timemodified>
+    <timemodified>1664245931</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="1566">
+      <page id="1555">
         <prevpageid>0</prevpageid>
+        <nextpageid>1556</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663727488</timecreated>
+        <timemodified>1664064229</timemodified>
+        <title>6.5.0: Lesson Overview</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="b5fc320b-9a86-49fc-8ecc-a8684a61568b"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3486">
+            <jumpto>1556</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663727488</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1556">
+        <prevpageid>1555</prevpageid>
+        <nextpageid>1557</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663728014</timecreated>
+        <timemodified>1664118439</timemodified>
+        <title>6.5.1: Undoing FOIL</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ecb73ed5-e12e-41da-b231-6b03f2390f2b"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3487">
+            <jumpto>1555</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663728014</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3488">
+            <jumpto>1557</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663728014</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1557">
+        <prevpageid>1556</prevpageid>
+        <nextpageid>1558</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663728449</timecreated>
+        <timemodified>1664246773</timemodified>
+        <title>6.5.2: Factoring Trinomials with Leading Coefficients of 1</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="0f5cca5d-b7a5-40f5-b351-0c91d76e51c7"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3489">
+            <jumpto>1556</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663728449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3490">
+            <jumpto>1558</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663728449</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1558">
+        <prevpageid>1557</prevpageid>
+        <nextpageid>1559</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1663729153</timecreated>
+        <timemodified>1664467599</timemodified>
+        <title>6.5.2: Self Check </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ad17ca53-5a5f-4cd0-aa6c-86e5a8151df3"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3491">
+            <jumpto>1559</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663729153</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((y &amp;minus; 7)(y + 9)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: These factors do not produce the term \(&amp;minus; 16y\) or the term \(+63\). The answer is \((y &amp;minus; 7)(y &amp;minus; 9)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3492">
+            <jumpto>1559</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663729153</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((y + 7)(y &amp;minus; 9)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: These factors do not produce the term \(&amp;minus; 16y\) or the term \(+63\). The answer is \((y &amp;minus; 7)(y &amp;minus; 9)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3493">
+            <jumpto>1559</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663729153</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((y + 7)(y + 9)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: These factors do not produce the term \(&amp;minus; 16y\). The answer is \((y &amp;minus; 7)(y &amp;minus; 9)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3494">
+            <jumpto>1560</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663729153</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((y &amp;minus; 7)(y &amp;minus; 9)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;That&amp;rsquo;s correct! Check yourself: Use FOIL on the factors to verify that they are equivalent to \(y^2 &amp;minus; 16y + 63\).&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3495">
+            <jumpto>1559</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663729153</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1559">
+        <prevpageid>1558</prevpageid>
+        <nextpageid>1560</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663729187</timecreated>
+        <timemodified>1664327147</timemodified>
+        <title>6.5.2: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ae48a550-0d12-448f-a15d-9d7d543500e1"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3496">
+            <jumpto>1558</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663729187</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3497">
+            <jumpto>1560</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663729187</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1560">
+        <prevpageid>1559</prevpageid>
+        <nextpageid>1561</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663729637</timecreated>
+        <timemodified>1664248492</timemodified>
+        <title>6.5.3: Factoring Trinomials Using Trial and Error</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="52a90664-e031-4076-8f66-52c862b11701"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3498">
+            <jumpto>1557</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663729637</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3499">
+            <jumpto>1561</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663729637</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1561">
+        <prevpageid>1560</prevpageid>
+        <nextpageid>1562</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1663730056</timecreated>
+        <timemodified>1664192391</timemodified>
+        <title>6.5.3: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="418ae48e-f7de-47e5-bc77-f61203376973"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3500">
+            <jumpto>1562</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663730056</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(6y(y + 2)(y &amp;minus; 5)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The middle term is positive, so the greater number in the binomials should be added, not subtracted. The correct answer is \(6y(y &amp;minus; 2)(y + 5)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3501">
+            <jumpto>1562</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663730056</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((6y^2 &amp;minus; 12y)(y + 5)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The answer is not completely factored. The first step is to factor out the GCF of \(6y\). The correct answer is \(6y(y &amp;minus; 2)(y + 5)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3502">
+            <jumpto>1563</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1663730056</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(6y(y &amp;minus; 2)(y + 5)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Multiply the factors together to determine if you have \(6y^3 + 18y^2 &amp;minus; 60y\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3503">
+            <jumpto>1562</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663730056</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(6y(y + 2)(y + 5)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The last term of the trinomials is negative, so the binomials should have opposite signs. After removing the GCF of \(6y\), the trinomial is not correctly factored. The correct answer is \(6y(y &amp;minus; 2)(y + 5)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3504">
+            <jumpto>1562</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663730056</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1562">
+        <prevpageid>1561</prevpageid>
+        <nextpageid>1563</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663730238</timecreated>
+        <timemodified>1664403615</timemodified>
+        <title>6.5.3: Additional Resources </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="2c86af26-ad7d-49a2-a06a-c72708bb396b"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3505">
+            <jumpto>1561</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663730238</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3506">
+            <jumpto>1563</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663730238</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1563">
+        <prevpageid>1562</prevpageid>
+        <nextpageid>1564</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663731107</timecreated>
+        <timemodified>1664196509</timemodified>
+        <title>6.5.4: Factoring Trinomials Using the “ac” Method and Substitution</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="8d7f7571-c3f0-4ca7-a1ba-31c523d636da"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3507">
+            <jumpto>1560</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663731107</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3508">
+            <jumpto>1564</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663731107</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1564">
+        <prevpageid>1563</prevpageid>
+        <nextpageid>1565</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1663731213</timecreated>
+        <timemodified>1664196054</timemodified>
+        <title>6.5.4: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="1af5c23e-8a94-46ed-a376-1461bccc7f91"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3509">
+            <jumpto>1566</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1663731213</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((x + 2)(6x + 1)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Multiply using FOIL to check to make sure the answer is equivalent to the starting polynomial.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3510">
+            <jumpto>1565</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663731213</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((6x + 2)(x + 1)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: These factors do not multiply to the correct \(b\) term. The correct answer is \((x + 2)(6x + 1)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3511">
+            <jumpto>1565</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663731213</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((x &amp;minus; 2)(6x &amp;minus; 1)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: These factors do not multiply to the correct \(b\) term. The correct answer is \((x + 2)(6x + 1)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3512">
+            <jumpto>1565</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663731213</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((x &amp;minus; 2)(6x + 1)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: These factors do not multiply to the correct \(b\) or \(c\) term. The correct answer is \((x + 2)(6x + 1)\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3513">
+            <jumpto>1565</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663731213</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1565">
+        <prevpageid>1564</prevpageid>
+        <nextpageid>1566</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1663731533</timecreated>
+        <timemodified>1664329254</timemodified>
+        <title>6.5.4: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ec0acb89-8d0d-46c4-bc11-041061a14477"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="3514">
+            <jumpto>1564</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663731533</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text> I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3515">
+            <jumpto>1566</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663731533</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1566">
+        <prevpageid>1565</prevpageid>
         <nextpageid>1567</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1664591553</timecreated>
-        <timemodified>1665775020</timemodified>
-        <title>7.2.0: Lesson Overview</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="3db4fed6-3e4d-4e1a-a991-2ef9b32b350c"&gt;&lt;/div&gt;</contents>
+        <timecreated>1663731939</timecreated>
+        <timemodified>1664199546</timemodified>
+        <title>6.5.5: Choosing Your Own Method to Factor Trinomials</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="0f345a58-e315-4d95-a319-0bdeab8b04a3"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="3521">
-            <jumpto>-1</jumpto>
+          <answer id="3516">
+            <jumpto>1563</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1664591553</timecreated>
+            <timecreated>1663731939</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="3517">
+            <jumpto>1567</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1663731939</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -81,18 +702,18 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1664627708</timecreated>
-        <timemodified>1665242434</timemodified>
-        <title>7.2.1: Squares in a Geometric Pattern</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="48b1499f-03d3-4e59-aecc-6f1563fc9fd6"&gt;&lt;/div&gt;</contents>
+        <timecreated>1663732013</timecreated>
+        <timemodified>1664200550</timemodified>
+        <title>6.5.6: Practice</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="2b30c03c-3f0b-405c-8d95-51e16f4aa4e9"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="3522">
-            <jumpto>-40</jumpto>
+          <answer id="3518">
+            <jumpto>1566</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1664627708</timecreated>
+            <timecreated>1663732013</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -101,12 +722,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="3523">
-            <jumpto>-1</jumpto>
+          <answer id="3519">
+            <jumpto>1568</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1664627708</timecreated>
+            <timecreated>1663732013</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -121,203 +742,23 @@
       </page>
       <page id="1568">
         <prevpageid>1567</prevpageid>
-        <nextpageid>1569</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1664628193</timecreated>
-        <timemodified>1665699078</timemodified>
-        <title>7.2.2: Constant and Exponential Change</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="6c01a9a3-f449-4e84-8796-f2b3bc955258"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="3524">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1664628193</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="3525">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1664628193</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1569">
-        <prevpageid>1568</prevpageid>
-        <nextpageid>1570</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1664630883</timecreated>
-        <timemodified>1665699954</timemodified>
-        <title>7.2.3: Quadratic Expressions</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="08d9270b-9e73-448d-a039-fbdf4780eb79"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="3526">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1664630883</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="3527">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1664630883</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1570">
-        <prevpageid>1569</prevpageid>
-        <nextpageid>1571</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1664633442</timecreated>
-        <timemodified>1665700140</timemodified>
-        <title>7.2.4: Quadratic Relationships</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="7e833c18-11f2-47d7-a5b7-29252068a198"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="3528">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1664633442</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="3529">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1664633442</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1571">
-        <prevpageid>1570</prevpageid>
-        <nextpageid>1572</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1664633753</timecreated>
-        <timemodified>1665700489</timemodified>
-        <title>7.2.5: Practice </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="1353acf9-d1da-4ca1-b652-0dc219e6e49a"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="3530">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1664633753</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="3531">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1664633753</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1572">
-        <prevpageid>1571</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1664634739</timecreated>
-        <timemodified>1665246433</timemodified>
-        <title>7.2.6: Lesson Synthesis</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="012f474a-efb2-45b2-bc22-eef6e42eb0d2"&gt;&lt;/div&gt;</contents>
+        <timecreated>1663732041</timecreated>
+        <timemodified>1664200866</timemodified>
+        <title>6.5.7: Lesson Summary</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="81907e9e-7488-4cee-9a52-103da32eadcc"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="3532">
-            <jumpto>-40</jumpto>
+          <answer id="3520">
+            <jumpto>1567</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1664634739</timecreated>
+            <timecreated>1663732041</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -326,12 +767,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="3533">
+          <answer id="3521">
             <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1664634739</timecreated>
+            <timecreated>1663732041</timecreated>
             <timemodified>0</timemodified>
             <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>
