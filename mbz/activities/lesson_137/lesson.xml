@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="103" moduleid="137" modulename="lesson" contextid="148">
-  <lesson id="103">
+<activity id="100" moduleid="137" modulename="lesson" contextid="148">
+  <lesson id="100">
     <course>2</course>
-    <name>Lesson 4.12 Teacher Guide: Domain and Range, Part 2</name>
+    <name>Lesson 4.8: Using Graphs to Find Average Rate of Change</name>
     <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
@@ -24,7 +24,7 @@
     <maxpages>1</maxpages>
     <timelimit>0</timelimit>
     <retake>1</retake>
-    <activitylink>0</activitylink>
+    <activitylink>138</activitylink>
     <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
@@ -35,33 +35,33 @@
     <bgcolor>#FFFFFF</bgcolor>
     <displayleft>1</displayleft>
     <displayleftif>0</displayleftif>
-    <progressbar>1</progressbar>
+    <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1662773335</timemodified>
+    <timemodified>1689704527</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="937">
+      <page id="915">
         <prevpageid>0</prevpageid>
-        <nextpageid>938</nextpageid>
+        <nextpageid>916</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659577910</timecreated>
-        <timemodified>1668190530</timemodified>
-        <title>4.12.0: Lesson Overview</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="a9e5d436-60a9-48bd-a83f-fb0eadd61a4c"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659308353</timecreated>
+        <timemodified>1689633437</timemodified>
+        <title>4.8.0: Lesson Overview</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="d010989b-9a4b-4a8d-8aac-2cc58616b7af"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2099">
-            <jumpto>-1</jumpto>
+          <answer id="2041">
+            <jumpto>916</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659577910</timecreated>
+            <timecreated>1659308353</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -74,25 +74,25 @@
         <branches>
         </branches>
       </page>
-      <page id="938">
-        <prevpageid>937</prevpageid>
-        <nextpageid>939</nextpageid>
+      <page id="916">
+        <prevpageid>915</prevpageid>
+        <nextpageid>917</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659578064</timecreated>
-        <timemodified>1662594493</timemodified>
-        <title>4.12.1: Different Features of a Graph</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="7831b0fe-c22b-4f09-8229-29143db07e0e"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659311364</timecreated>
+        <timemodified>1689633445</timemodified>
+        <title>4.8.1: Comparing Changes in Output Based on Input</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="bbe9b804-93cf-4930-a126-79114fd7a9af"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2100">
-            <jumpto>-40</jumpto>
+          <answer id="2042">
+            <jumpto>915</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659578064</timecreated>
+            <timecreated>1659311364</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -101,12 +101,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="2101">
-            <jumpto>-1</jumpto>
+          <answer id="2043">
+            <jumpto>917</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659578064</timecreated>
+            <timecreated>1659311364</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -119,41 +119,527 @@
         <branches>
         </branches>
       </page>
-      <page id="939">
-        <prevpageid>938</prevpageid>
-        <nextpageid>940</nextpageid>
+      <page id="917">
+        <prevpageid>916</prevpageid>
+        <nextpageid>918</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659578632</timecreated>
-        <timemodified>1662594664</timemodified>
-        <title>4.12.2: Graphs of Functions</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="8228eb3c-e400-4094-a0f0-e60640d8cc27"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659311899</timecreated>
+        <timemodified>1689633466</timemodified>
+        <title>4.8.2: Average Rate of Change and Slope</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="cf81abb1-27c4-460c-aeb0-a773aa3d4732"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2102">
+          <answer id="2044">
+            <jumpto>916</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659311899</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2045">
+            <jumpto>918</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659311899</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="918">
+        <prevpageid>917</prevpageid>
+        <nextpageid>919</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659312397</timecreated>
+        <timemodified>1689633477</timemodified>
+        <title>4.8.2: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="5870abb1-e65a-47ba-bc28-7cd8692680cd"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2046">
+            <jumpto>919</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;&amp;ndash;2 degrees per minute&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: This is the rate of change of the first two values in the table. You need to use the first and last value from the table to find the answer. The answer is &amp;ndash;1.625 degrees per minute. &lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2047">
+            <jumpto>919</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;&amp;ndash;0.615 degrees per minute&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Remember, the \(y\)-values go on top of the formula, and the \(x\)-values go on the bottom. The answer is &amp;ndash;1.625 degrees per minute.  &lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2048">
+            <jumpto>919</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;&amp;ndash;1.333 degrees per minute&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: This is the rate of change between the last two values in the table. You need to use the first and last value from the table to find the answer. The answer is &amp;ndash;1.625 degrees per minute.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2049">
+            <jumpto>920</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659312397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;&amp;ndash;1.625 degrees per minute&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: The average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\). For this situation, it would be \(\frac{120-185}{40-0}\), which is \(-\frac{65}{40}\). The answer is &amp;ndash;1.625 degrees per minute.&amp;nbsp;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2050">
+            <jumpto>919</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312397</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="919">
+        <prevpageid>918</prevpageid>
+        <nextpageid>920</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659312555</timecreated>
+        <timemodified>1689633487</timemodified>
+        <title>4.8.2: Additional Resources </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="0d859f2b-0e69-4bb4-b08f-4c17b228c8ac"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2051">
+            <jumpto>918</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312555</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2052">
+            <jumpto>920</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659312555</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="920">
+        <prevpageid>919</prevpageid>
+        <nextpageid>921</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659313455</timecreated>
+        <timemodified>1689633500</timemodified>
+        <title>4.8.3: Finding and Interpreting Average Rates of Change</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="2297d9cf-8fc9-468c-8ca8-ac82f991c883"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2053">
+            <jumpto>917</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313455</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2054">
+            <jumpto>921</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313455</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="921">
+        <prevpageid>920</prevpageid>
+        <nextpageid>922</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659313994</timecreated>
+        <timemodified>1689633508</timemodified>
+        <title>4.8.3: Self Check </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="f85235f8-402e-4ac7-944b-01a7c2248bef"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2055">
+            <jumpto>922</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313994</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;The average rate of change is 3.6 miles per minute.&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: 3.6 is the change in distance. When finding the average rate of change, you need to find the change in the distance and the change in the time. Then divide those values, \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\). The answer is 0.24 mile per minute.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2056">
+            <jumpto>922</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313994</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;The average rate of change is 15 minutes per mile.&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: 15 minutes is the change in time. When finding the average rate of change, you need to find the change in the distance and the change in the time. Then divide those values, \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\). The answer is \(\frac{3.6}{15}\) pr 0.24 mile per minute.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2057">
+            <jumpto>923</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313994</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;The average rate of change is 0.24 mile per minute.&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That’s correct! Check yourself: Substitute the data values into the formula to find the \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\), or \(\frac{3.6}{15}\). The correct answer is 0.24 mile per minute.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2058">
+            <jumpto>922</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659313994</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;The average rate of change is 4.17 minutes per mile.&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let’s try again a different way: This is the change in time over the change in distance. Substitute the data values into the formula to find the \(\frac{\mathrm{change}\;\mathrm{in}\;\mathrm{distance}}{\mathrm{change}\;\mathrm{in}\;\mathrm{time}}\), or \(\frac{3.6}{15}\). The answer is 0.24 mile per minute.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2059">
+            <jumpto>922</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659313994</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="922">
+        <prevpageid>921</prevpageid>
+        <nextpageid>923</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659314180</timecreated>
+        <timemodified>1689633519</timemodified>
+        <title>4.8.3: Additional Resources </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="8c2a5164-6ef0-4d04-8bb2-aa20ca20990a"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2060">
+            <jumpto>921</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659314180</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2061">
+            <jumpto>923</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659314180</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="923">
+        <prevpageid>922</prevpageid>
+        <nextpageid>924</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659315019</timecreated>
+        <timemodified>1689633527</timemodified>
+        <title>4.8.4: Rate of Change of Linear Functions</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="f56351bb-9ba8-4927-970b-fa80e08a61d2"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2062">
+            <jumpto>920</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315019</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2063">
+            <jumpto>924</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315019</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="924">
+        <prevpageid>923</prevpageid>
+        <nextpageid>925</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659315689</timecreated>
+        <timemodified>1689633536</timemodified>
+        <title>4.8.4: Self Check </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="a3b7a9e1-ee65-4afc-83ba-c36d026b1470"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2064">
+            <jumpto>925</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315689</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(3\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Watch the signs when finding the differences. The rate of change of a linear function is the slope, \(\frac{\mathrm{change}\;\mathrm{in}\;y}{\mathrm{change}\;\mathrm{in}\;x}\). The answer is &amp;ndash;3.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2065">
+            <jumpto>926</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659315689</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(-3\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: The rate of change of a linear function is the slope, \(\frac{\mathrm{change}\;\mathrm{in}\;y}{\mathrm{change}\;\mathrm{in}\;x}\). The answer is &amp;ndash;3.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2066">
+            <jumpto>925</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315689</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(-\frac13\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: This is the reciprocal of the answer. Remember the slope is \(\frac{\mathrm{change}\;\mathrm{in}\;y}{\mathrm{change}\;\mathrm{in}\;x}\). The answer is &amp;ndash;3.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2067">
+            <jumpto>925</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315689</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(\frac13\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Watch the signs when finding the differences. Remember the slope is \(\frac{\mathrm{change}\;\mathrm{in}\;y}{\mathrm{change}\;\mathrm{in}\;x}\). The correct answer is &amp;ndash;3.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2068">
+            <jumpto>925</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659315689</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="925">
+        <prevpageid>924</prevpageid>
+        <nextpageid>926</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659316497</timecreated>
+        <timemodified>1689633544</timemodified>
+        <title>4.8.4: Additional Resources </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="0732e928-c0ff-4a26-bc69-bcac7c17fdde"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2069">
             <jumpto>0</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659578632</timecreated>
+            <timecreated>1659316497</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
+            <answer_text>I’d like to retry the self check.</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
-          <answer id="2103">
-            <jumpto>-1</jumpto>
+          <answer id="2070">
+            <jumpto>926</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659578632</timecreated>
+            <timecreated>1659316497</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
+            <answer_text>I’m ready for the next activity.</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
@@ -164,25 +650,25 @@
         <branches>
         </branches>
       </page>
-      <page id="940">
-        <prevpageid>939</prevpageid>
-        <nextpageid>941</nextpageid>
+      <page id="926">
+        <prevpageid>925</prevpageid>
+        <nextpageid>927</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659642435</timecreated>
-        <timemodified>1662594704</timemodified>
-        <title>4.12.3: Finding Domain and Range Using a Graph</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="2a79904c-bbfa-4635-a51d-9ff7b8d87b1a"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659316949</timecreated>
+        <timemodified>1689633553</timemodified>
+        <title>4.8.5: Interpreting Average Rates of Change with Real-World Examples</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="87f2b917-9b10-40d0-befc-a0423850c7d4"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2104">
-            <jumpto>0</jumpto>
+          <answer id="2071">
+            <jumpto>923</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659642435</timecreated>
+            <timecreated>1659316949</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -191,12 +677,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="2105">
-            <jumpto>-1</jumpto>
+          <answer id="2072">
+            <jumpto>927</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659642435</timecreated>
+            <timecreated>1659316949</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -209,25 +695,25 @@
         <branches>
         </branches>
       </page>
-      <page id="941">
-        <prevpageid>940</prevpageid>
-        <nextpageid>942</nextpageid>
+      <page id="927">
+        <prevpageid>926</prevpageid>
+        <nextpageid>928</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659655238</timecreated>
-        <timemodified>1662594766</timemodified>
-        <title>4.12.4: Real-World Domain and Range</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="a8f95680-409b-4c1e-a7c0-498d28884dc9"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659317096</timecreated>
+        <timemodified>1689633563</timemodified>
+        <title>4.8.6: Practice</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="a7c944f7-7aa6-4a91-9a7b-3cc2e253dde2"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2106">
-            <jumpto>-40</jumpto>
+          <answer id="2073">
+            <jumpto>926</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659655238</timecreated>
+            <timecreated>1659317096</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -236,12 +722,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="2107">
-            <jumpto>-1</jumpto>
+          <answer id="2074">
+            <jumpto>928</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659655238</timecreated>
+            <timecreated>1659317096</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -254,115 +740,25 @@
         <branches>
         </branches>
       </page>
-      <page id="942">
-        <prevpageid>941</prevpageid>
-        <nextpageid>943</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1659655377</timecreated>
-        <timemodified>1662594808</timemodified>
-        <title>4.12.5: Graph of a Function and the Domain and Range Connection</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="ff259145-f5e0-41bd-a376-1b3be4494e98"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2108">
-            <jumpto>0</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659655377</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2109">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659655377</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="943">
-        <prevpageid>942</prevpageid>
-        <nextpageid>944</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1659655400</timecreated>
-        <timemodified>1662754116</timemodified>
-        <title>4.12.6: Practice</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="f9834436-942a-4bda-a476-50f0a1b0034c"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2110">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659655400</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2111">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659655400</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="944">
-        <prevpageid>943</prevpageid>
+      <page id="928">
+        <prevpageid>927</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659657662</timecreated>
-        <timemodified>1662594997</timemodified>
-        <title>4.12.7: Lesson Synthesis</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="92895eb1-bece-4284-a55c-848f4a29003c"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659317323</timecreated>
+        <timemodified>1689633571</timemodified>
+        <title>4.8.7: Lesson Summary</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="4394a086-cdf4-4ff0-94b9-1746b6aec1e8"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2112">
-            <jumpto>-40</jumpto>
+          <answer id="2075">
+            <jumpto>927</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659657662</timecreated>
+            <timecreated>1659317323</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -371,12 +767,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="2113">
+          <answer id="2076">
             <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659657662</timecreated>
+            <timecreated>1659317323</timecreated>
             <timemodified>0</timemodified>
             <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>

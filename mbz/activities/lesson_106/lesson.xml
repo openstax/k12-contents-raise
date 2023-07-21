@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="79" moduleid="106" modulename="lesson" contextid="117">
+  <lesson id="79">
+    <course>2</course>
+    <name>Lesson 3.5: Using the Correlation Coefficient</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <practice>1</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>0</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>0</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>108</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>1</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1664822571</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="722">
+        <prevpageid>0</prevpageid>
+        <nextpageid>723</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657473949</timecreated>
+        <timemodified>1659039618</timemodified>
+        <title>3.5.0: Lesson Overview</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="6f3134ff-505e-4da2-8087-2a22f3b7ea36"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1606">
+            <jumpto>723</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657473949</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="723">
+        <prevpageid>722</prevpageid>
+        <nextpageid>724</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657475302</timecreated>
+        <timemodified>1658627104</timemodified>
+        <title>3.5.1: Using Bivariate Data in Context</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="11645ad3-fa32-4a64-89ec-d53bb0be4a61"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1607">
+            <jumpto>722</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657475302</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1608">
+            <jumpto>724</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657475302</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="724">
+        <prevpageid>723</prevpageid>
+        <nextpageid>725</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657478448</timecreated>
+        <timemodified>1659048124</timemodified>
+        <title>3.5.2: Finding and Using Correlation Coefficient to Interpret the Strength of Linear Relationships</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ed26bb59-758d-4069-bdaa-fae9751e4e51"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1609">
+            <jumpto>723</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657478448</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1610">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657478448</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="725">
+        <prevpageid>724</prevpageid>
+        <nextpageid>726</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658507549</timecreated>
+        <timemodified>1663802607</timemodified>
+        <title>3.5.2: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="7e4edc59-47bf-402f-a97c-af4dcffe777b"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1618">
+            <jumpto>726</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658507549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;\(r = -0.987\); there is a weak negative relationship.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;Incorrect. Let&amp;rsquo;s try
+again a different way: The slope of the points in the table is positive so the
+correlation coefficient should be positive. R-values close to 1 or -1 show
+strong relationships. The answer is \(r=0.987\); there is a strong positive relationship.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1619">
+            <jumpto>726</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658507549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(r=0.987\); there is a weak positive relationship.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;Incorrect.&lt;/span&gt;&lt;span&gt;Let&amp;rsquo;s try
+again a different way: R-values close to 1 indicate a strong relationship.&amp;nbsp; The answer is \(r=0.987\); there is a strong
+positive relationship.&lt;/span&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1620">
+            <jumpto>727</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658507549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;&lt;span lang="EN"&gt;\(r=0.987\); there is a strong positive relationship.&lt;/span&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;That&amp;rsquo;s correct!&amp;nbsp;&lt;/span&gt;&lt;span&gt;Check
+yourself: Using graphing technology, ensure that you enter the data correctly.
+The slope of the points in the table is positive and the points are close to
+the line, so the correlation coefficient should be a positive number close to
+1.&lt;/span&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1621">
+            <jumpto>726</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658507549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;&lt;span lang="EN"&gt;\(r=-0.987\); there is
+        a strong negative relationship.&lt;/span&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span lang="EN"&gt;Incorrect. Let&amp;rsquo;s try
+again a different way: The slope of the points in the table is positive so the
+correlation coefficient should be positive. The answer is \(r=0.987.\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1624">
+            <jumpto>726</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658507549</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I'm not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="726">
+        <prevpageid>725</prevpageid>
+        <nextpageid>727</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658508344</timecreated>
+        <timemodified>1659048912</timemodified>
+        <title>3.5.2: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="81de9999-a222-4bc3-a9f0-46cb27b04a3f"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1622">
+            <jumpto>725</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658508344</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1623">
+            <jumpto>727</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658508344</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="727">
+        <prevpageid>726</prevpageid>
+        <nextpageid>728</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657494969</timecreated>
+        <timemodified>1659051031</timemodified>
+        <title>3.5.3: Using Correlation Coefficient to Describe Relationships between Two Variables</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="243ecee5-944c-4da2-a2d0-bd670e71d65e"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1611">
+            <jumpto>723</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657494969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1612">
+            <jumpto>728</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657494969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="728">
+        <prevpageid>727</prevpageid>
+        <nextpageid>729</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658516098</timecreated>
+        <timemodified>1659050815</timemodified>
+        <title>3.5.3: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="430fd55b-bda7-47e8-82a3-98043a238891"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1627">
+            <jumpto>729</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658516098</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\( r=0.90 \), positive, weak, correlation&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-857f7d09-7fff-ace4-8826-8b5c0723bce6"&gt;Incorrect. Let&amp;rsquo;s try again a different way: &lt;/span&gt;The slope of the line of best fit would be negative, so correlation should be negative. Also, the correlation coefficient is close to 1, so it is a strong relationship. The answer is \( r=-0.90 \), strong, negative correlation.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1628">
+            <jumpto>730</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658516098</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( r=-0.90 \), strong, negative correlation&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-f18bbae6-7fff-60c7-7199-ec4631b0b92a"&gt;That&amp;rsquo;s correct! Check yourself: &lt;/span&gt;The slope of the line of best fit would be negative, so the correlation should be negative. Also, since the points are close together, the \( r \) value is close to -1.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1629">
+            <jumpto>729</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658516098</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( r=-0.24 \), weak, negative correlation&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-c7589a70-7fff-0d2d-6d55-9de0ed715a27"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Since the points are close together, the r value should be close to -1. &lt;/span&gt;The answer is \( r=-0.90 \), strong, negative correlation.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1630">
+            <jumpto>729</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658516098</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(r=0.24\), positive correlation&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-35021b4e-7fff-9bf5-bdaa-ee9cb57e8cc4"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The slope of the line of best fit would be negative, so correlation should be negative. Since the points are close together, the \( r \) value should be close to -1. The answer is &lt;/span&gt;\( r=-0.90 \), strong, negative correlation&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1631">
+            <jumpto>729</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658516098</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I'm not sure.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="729">
+        <prevpageid>728</prevpageid>
+        <nextpageid>730</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658515637</timecreated>
+        <timemodified>1659050584</timemodified>
+        <title>3.5.3: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="f668fb6c-7001-47ef-a153-18401e67b33f"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1625">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658515637</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'd like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1626">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658515637</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'm ready for the next lesson.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="730">
+        <prevpageid>729</prevpageid>
+        <nextpageid>731</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657496969</timecreated>
+        <timemodified>1659049894</timemodified>
+        <title>3.5.4: Interpreting the Correlation Coefficient</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="40cffb52-5326-4900-9d8f-248ff0c3b7d9"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1613">
+            <jumpto>727</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657496969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1614">
+            <jumpto>731</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657496969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="731">
+        <prevpageid>730</prevpageid>
+        <nextpageid>732</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657498377</timecreated>
+        <timemodified>1658888069</timemodified>
+        <title>3.5.5: Practice</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="c5aa1f14-ec89-4e44-a400-cc2acc15aa0b"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1615">
+            <jumpto>730</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498377</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1616">
+            <jumpto>732</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498377</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="732">
+        <prevpageid>731</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657498451</timecreated>
+        <timemodified>1663877518</timemodified>
+        <title>3.5.6: Lesson Summary</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="dc396953-f6d2-4eb7-8b40-3804776fe136"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1617">
+            <jumpto>731</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498451</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1632">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498451</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End of Lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>
