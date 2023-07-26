@@ -11,7 +11,7 @@ phases:
       - mkdir json && html-to-json html json
       - aws s3 cp --cache-control no-cache --recursive json/ "s3://$CONTENT_S3_BUCKET/contents/raise/latest/"
       - export VERSION=${COMMIT_ID:0:8}
-      - if [[ $(aws s3api list-objects-v2 --bucket "$CONTENT_S3_BUCKET" --prefix "contents/raise/$VERSION/" --max-items 0 | wc -l) > 3 ]]; then false; fi
+      - if [[ $(aws s3api list-objects-v2 --bucket "$CONTENT_S3_BUCKET" --prefix "contents/raise/$VERSION/" --max-items 0 --output json | jq 'has("Contents")') = "true" ]]; then false; fi
       - aws s3 cp --cache-control max-age=86400 --recursive json/ "s3://$CONTENT_S3_BUCKET/contents/raise/$VERSION/"
     on-failure: ABORT
     finally:
