@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <activity id="73" moduleid="98" modulename="lesson" contextid="109">
   <lesson id="73">
     <course>2</course>
     <name>Lesson 3.2: Fitting Lines</name>
-    <intro></intro>
+    <intro/>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password></password>
+    <password/>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>100</activitylink>
-    <mediafile></mediafile>
+    <mediafile/>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -43,9 +43,9 @@
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="665">
+      <page id="673">
         <prevpageid>0</prevpageid>
-        <nextpageid>666</nextpageid>
+        <nextpageid>674</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -56,458 +56,14 @@
         <contents>&lt;div class="os-raise-content" data-content-id="c2556494-249b-4422-835f-3be8c1a2f2b1"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1480">
-            <jumpto>666</jumpto>
+          <answer id="1504">
+            <jumpto>674</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
             <timecreated>1658369250</timecreated>
             <timemodified>0</timemodified>
             <answer_text> Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="666">
-        <prevpageid>665</prevpageid>
-        <nextpageid>667</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658369625</timecreated>
-        <timemodified>1659019745</timemodified>
-        <title>3.2.1: Selecting the Best Line</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="cdd1f599-5765-45b1-978a-5f4a086143bf"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1481">
-            <jumpto>665</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658369625</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1482">
-            <jumpto>667</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658369625</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="667">
-        <prevpageid>666</prevpageid>
-        <nextpageid>668</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658369901</timecreated>
-        <timemodified>1659019963</timemodified>
-        <title>3.2.2: Determining the Best Line That Fits the Data</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="3c132a99-9f4b-4dfc-8567-18ea1c3675b0"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1483">
-            <jumpto>666</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658369901</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1484">
-            <jumpto>668</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658369901</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="668">
-        <prevpageid>667</prevpageid>
-        <nextpageid>669</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1658436640</timecreated>
-        <timemodified>1664812464</timemodified>
-        <title>3.2.2: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="6c58253c-875f-4c40-bddb-e2d7c3d1daaa"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1485">
-            <jumpto>669</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658436640</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Line 1 is the best fit because it touches the first point on the left of the scatter plot.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Where the line starts does not determine the line of best fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1486">
-            <jumpto>669</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658436640</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Line 2 is the best fit because it touches the last point on the right of the scatter plot.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Where the line ends does not determine its fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1487">
-            <jumpto>671</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1658436640</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Line 2 goes down the middle of the data and has almost the same number of points above and below the line.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1488">
-            <jumpto>669</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658436640</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Line 1 is the best fit because it has a steeper slope.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The steepness of the slope does not determine the line of best fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1489">
-            <jumpto>669</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658436640</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="669">
-        <prevpageid>668</prevpageid>
-        <nextpageid>670</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658436899</timecreated>
-        <timemodified>1689656958</timemodified>
-        <title>3.2.2: Additional Resources</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="4b905552-e7ca-4c65-bc82-bdba97e71772"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1490">
-            <jumpto>668</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658436899</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’d like to retry the self check.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1491">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658436899</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="670">
-        <prevpageid>669</prevpageid>
-        <nextpageid>671</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1689656944</timecreated>
-        <timemodified>0</timemodified>
-        <title>3.2.3: Writing Linear Models without Technology</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="fbb003d5-bb21-4880-8f8e-0e6bb1e3a97c"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1507">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1689656944</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1508">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1689656944</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="671">
-        <prevpageid>670</prevpageid>
-        <nextpageid>672</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658437093</timecreated>
-        <timemodified>1689656972</timemodified>
-        <title>3.2.4: Assessing the Fit of a Linear Model</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="9469bdb7-c10e-4381-ad09-c3ad374859ff"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1492">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658437093</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1493">
-            <jumpto>672</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658437093</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="672">
-        <prevpageid>671</prevpageid>
-        <nextpageid>676</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1658441317</timecreated>
-        <timemodified>1689656989</timemodified>
-        <title>3.2.4: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="9fe968fb-439a-4c3d-b77f-497862df8da4"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1494">
-            <jumpto>676</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658441317</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(y=1151.19x+1640.48\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The slope of the line is the coefficient of \(x\). The answer is \(y&amp;nbsp; = 640.48x+1151.19\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1495">
-            <jumpto>676</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658441317</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(y = 800x +2500\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: This was found using the first two points in the table. Use technology to enter the data from the table then find the linear regression line. The answer is \(y&amp;nbsp; = 1640.48x+1151.19\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1496">
-            <jumpto>673</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1658441317</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p&gt;\(y&amp;nbsp; = 1640.48x+1151.19\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: The slope of the line is the coefficient of \(x\). The \(y\)-intercept would be below 3,700 with the linear trend.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1497">
-            <jumpto>676</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658441317</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(y=-1151.19x+1640.48\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The trend is increasing in the table, so the slope should be positive. The answer is \(y=1640.48x+1151.19\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1498">
-            <jumpto>676</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658441317</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="676">
-        <prevpageid>672</prevpageid>
-        <nextpageid>673</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658442058</timecreated>
-        <timemodified>1689656995</timemodified>
-        <title>3.2.4: Additional Resources</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="bf508937-e609-4edf-b788-bd9882a25bbf"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1499">
-            <jumpto>672</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658442058</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’d like to retry the self check.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1500">
-            <jumpto>673</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658442058</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
@@ -525,14 +81,493 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
+        <timecreated>1658369625</timecreated>
+        <timemodified>1659019745</timemodified>
+        <title>3.2.1: Selecting the Best Line</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="cdd1f599-5765-45b1-978a-5f4a086143bf"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1505">
+            <jumpto>673</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658369625</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1506">
+            <jumpto>675</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658369625</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="675">
+        <prevpageid>674</prevpageid>
+        <nextpageid>676</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658369901</timecreated>
+        <timemodified>1659019963</timemodified>
+        <title>3.2.2: Determining the Best Line That Fits the Data</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="3c132a99-9f4b-4dfc-8567-18ea1c3675b0"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1507">
+            <jumpto>674</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658369901</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1508">
+            <jumpto>676</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658369901</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="676">
+        <prevpageid>675</prevpageid>
+        <nextpageid>677</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658436640</timecreated>
+        <timemodified>1664812464</timemodified>
+        <title>3.2.2: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="6c58253c-875f-4c40-bddb-e2d7c3d1daaa"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1509">
+            <jumpto>677</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Line 1 is the best fit because it touches the first point on the left of the scatter plot.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Where the line starts does not determine the line of best fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1510">
+            <jumpto>677</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Line 2 is the best fit because it touches the last point on the right of the scatter plot.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Incorrect. Let&amp;rsquo;s try again a different way: Where the line ends does not determine its fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1511">
+            <jumpto>686</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658436640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Line 2 goes down the middle of the data and has almost the same number of points above and below the line.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1512">
+            <jumpto>677</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;Line 1 is the best fit because it has a steeper slope.&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The steepness of the slope does not determine the line of best fit. The answer is line 2 is the best fit because it goes through the middle of the data with about the same number of data points above and below the line.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1513">
+            <jumpto>677</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436640</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="677">
+        <prevpageid>676</prevpageid>
+        <nextpageid>678</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658436899</timecreated>
+        <timemodified>1689656958</timemodified>
+        <title>3.2.2: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="4b905552-e7ca-4c65-bc82-bdba97e71772"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1514">
+            <jumpto>676</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436899</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1515">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658436899</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="678">
+        <prevpageid>677</prevpageid>
+        <nextpageid>679</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1689656944</timecreated>
+        <timemodified>0</timemodified>
+        <title>3.2.3: Writing Linear Models without Technology</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="fbb003d5-bb21-4880-8f8e-0e6bb1e3a97c"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1531">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1689656944</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1532">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1689656944</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="679">
+        <prevpageid>678</prevpageid>
+        <nextpageid>685</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1690413075</timecreated>
+        <timemodified>0</timemodified>
+        <title>3.2.3 Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ac585715-fbb7-45eb-a848-dad55b1e36e6"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1533">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1690413075</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-58a1bb26-7fff-0ab8-e5bf-3070a2d8c361"&gt;\(y=4000(10)\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-095779b3-7fff-39b9-3194-0c058a630bbe"&gt;Incorrect. Let’s try again a different way: The change in \(y\) is \(50\) while the change in \(x\) is \(10\) so the slope is \(5\)&lt;/span&gt;&lt;span id="docs-internal-guid-095779b3-7fff-39b9-3194-0c058a630bbe"&gt;. Working the table back to \(0\) will give a y-intercept of \(10\). The answer is: \(y=5(4000)\).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1534">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1690413075</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-a7e42b5f-7fff-1d4a-305f-7817aca49253"&gt;\(y=80(4000)\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-fade039a-7fff-3f1a-d34e-e51f596411f8"&gt;&lt;span id="docs-internal-guid-095779b3-7fff-39b9-3194-0c058a630bbe"&gt;Incorrect.
+ Let’s try again a different way: The change in \(y\) is \(50\) while 
+the change in \(x\) is \(10\) so the slope is \(5\)&lt;/span&gt;&lt;span id="docs-internal-guid-095779b3-7fff-39b9-3194-0c058a630bbe"&gt;. Working the table back to \(0\) will give a y-intercept of \(10\). The answer is: \(y=5(4000)\).&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1535">
+            <jumpto>686</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1690413075</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-3a1e9596-7fff-5d9b-2a43-bd1ddd64da22"&gt;\(y=5(4000)+10\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-48d552b3-7fff-851c-6223-77f5cd218cb4"&gt;That’s correct! Check yourself: The change in \(y\) is \(50\) while the change in \(x\) is \(10\) so the slope is \(5\). Working the table back to \(0\) will give a y-intercept of \(10\). Multiply this by \(4000\) to determine the revenue.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1536">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1690413075</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-81cd7c82-7fff-e398-359a-f28c8343ad0d"&gt;\(y= \frac{1}{5}(4000)+ 10\)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p dir="ltr" id="docs-internal-guid-8e5539ef-7fff-455d-7980-e0a0e26d2229"&gt;&lt;span id="docs-internal-guid-fade039a-7fff-3f1a-d34e-e51f596411f8"&gt;&lt;span id="docs-internal-guid-095779b3-7fff-39b9-3194-0c058a630bbe"&gt;Incorrect.
+ Let’s try again a different way: The change in \(y\) is \(50\) while 
+the change in \(x\) is \(10\) so the slope is \(5\)&lt;/span&gt;&lt;span id="docs-internal-guid-095779b3-7fff-39b9-3194-0c058a630bbe"&gt;. Working the table back to \(0\) will give a y-intercept of \(10\). The answer is: \(y=5(4000)\).&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="685">
+        <prevpageid>679</prevpageid>
+        <nextpageid>686</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1690413180</timecreated>
+        <timemodified>0</timemodified>
+        <title>3.2.3 Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="5a54b15f-3b56-42ce-93ce-8bc8e5940fe6"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1537">
+            <jumpto>679</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1690413180</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'd like to retry the self check</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1538">
+            <jumpto>686</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1690413180</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'm ready for the next activity</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="681">
+        <prevpageid>680</prevpageid>
+        <nextpageid>682</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658442058</timecreated>
+        <timemodified>1689656995</timemodified>
+        <title>3.2.4: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="bf508937-e609-4edf-b788-bd9882a25bbf"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1523">
+            <jumpto>680</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658442058</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1524">
+            <jumpto>682</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658442058</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="682">
+        <prevpageid>681</prevpageid>
+        <nextpageid>684</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1658442981</timecreated>
+        <timemodified>1689656999</timemodified>
+        <title>3.2.5: Working with Fitted Lines</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="3c70e45d-be83-4224-ac86-61cc4551a825"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1525">
+            <jumpto>686</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658442981</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text> Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1526">
+            <jumpto>684</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658442981</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="684">
+        <prevpageid>682</prevpageid>
+        <nextpageid>683</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
         <timecreated>1658443258</timecreated>
         <timemodified>1689657005</timemodified>
         <title>3.2.6: Practice </title>
         <contents>&lt;div class="os-raise-content" data-content-id="5e69f4ad-cd83-4f36-b4a5-a4c1563c384f"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1503">
-            <jumpto>673</jumpto>
+          <answer id="1527">
+            <jumpto>682</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -545,8 +580,8 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="1504">
-            <jumpto>675</jumpto>
+          <answer id="1528">
+            <jumpto>683</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -563,8 +598,8 @@
         <branches>
         </branches>
       </page>
-      <page id="675">
-        <prevpageid>674</prevpageid>
+      <page id="683">
+        <prevpageid>684</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
@@ -576,8 +611,8 @@
         <contents>&lt;div class="os-raise-content" data-content-id="fda2c74a-5694-41d7-b466-0ebf461493bd"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1505">
-            <jumpto>674</jumpto>
+          <answer id="1529">
+            <jumpto>684</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -590,7 +625,7 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="1506">
+          <answer id="1530">
             <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
@@ -608,44 +643,131 @@
         <branches>
         </branches>
       </page>
-      <page id="673">
-        <prevpageid>676</prevpageid>
-        <nextpageid>674</nextpageid>
+      <page id="686">
+        <prevpageid>685</prevpageid>
+        <nextpageid>680</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1658442981</timecreated>
-        <timemodified>1689656999</timemodified>
-        <title>3.2.5: Working with Fitted Lines</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="3c70e45d-be83-4224-ac86-61cc4551a825"&gt;&lt;/div&gt;</contents>
+        <timecreated>1658437093</timecreated>
+        <timemodified>1689656972</timemodified>
+        <title>3.2.4: Assessing the Fit of a Linear Model</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="9469bdb7-c10e-4381-ad09-c3ad374859ff"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1501">
-            <jumpto>671</jumpto>
+          <answer id="1516">
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658442981</timecreated>
+            <timecreated>1658437093</timecreated>
             <timemodified>0</timemodified>
-            <answer_text> Previous</answer_text>
+            <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
-          <answer id="1502">
-            <jumpto>674</jumpto>
+          <answer id="1517">
+            <jumpto>680</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658442981</timecreated>
+            <timecreated>1658437093</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="680">
+        <prevpageid>686</prevpageid>
+        <nextpageid>681</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1658441317</timecreated>
+        <timemodified>1689656989</timemodified>
+        <title>3.2.4: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="9fe968fb-439a-4c3d-b77f-497862df8da4"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1518">
+            <jumpto>681</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658441317</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(y=1151.19x+1640.48\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The slope of the line is the coefficient of \(x\). The answer is \(y&amp;nbsp; = 640.48x+1151.19\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1519">
+            <jumpto>681</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658441317</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(y = 800x +2500\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: This was found using the first two points in the table. Use technology to enter the data from the table then find the linear regression line. The answer is \(y&amp;nbsp; = 1640.48x+1151.19\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1520">
+            <jumpto>682</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1658441317</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\(y&amp;nbsp; = 1640.48x+1151.19\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: The slope of the line is the coefficient of \(x\). The \(y\)-intercept would be below 3,700 with the linear trend.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1521">
+            <jumpto>681</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658441317</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(y=-1151.19x+1640.48\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The trend is increasing in the table, so the slope should be positive. The answer is \(y=1640.48x+1151.19\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1522">
+            <jumpto>681</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1658441317</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response/>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
             <attempts>
             </attempts>
           </answer>
