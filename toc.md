@@ -123,6 +123,8 @@
         * [1.5.0: Lesson Overview](./html/746ac7e7-8ebc-4160-bf3c-0114a9b76070.html)
         * [1.5.1: Analyzing Graphs of Linear Equations ](./html/cd7d3f77-eef9-4444-ae73-1111ce7329fc.html)
         * [1.5.2 Graphing Linear Functions in Two Variables](./html/d075f2e3-9a15-4d28-b0c7-484adce628d4.html)
+        * [1.5.2 Self Check](./html/0693d40e-09d4-4605-b11b-1ef107d1f9af.html)
+        * [1.5.2 Additional Resources](./html/e6bc25e9-1fee-4aff-bb51-ba4b2f64fdab.html)
         * [1.5.3: Examining an Equation in Two Variables and Its Graph, Part 1](./html/e11744f2-a342-4033-a400-4af15d006d04.html)
         * [1.5.3: Self Check](./html/e80a4df0-0e10-415e-886d-037a9bf73f39.html)
         * [1.5.3: Additional Resources](./html/639dac42-373d-4a0c-b20f-e81f7cfa2300.html)
@@ -274,6 +276,8 @@
         * [1.12.3: Self Check](./html/c391a775-f009-4517-8b3a-1c43824fc92f.html)
         * [1.12.3: Additional Resources](./html/2caee8c7-cef7-4d94-abb9-a7c31906cf03.html)
         * [1.12.4: Writing Equations in Different Forms](./html/712d3a09-1b64-419c-8411-865a9503c2c3.html)
+        * [1.12.4 Self Check](./html/d56738c9-34bb-4146-80a9-187c1d0410d0.html)
+        * [1.12.4 Additional Resources](./html/582115e5-9efc-4cab-b37f-5e51e717ab39.html)
         * [1.12.5: Writing an Equation Given Two Points](./html/a31b47d8-3392-4e26-9071-bcea8f2ec614.html)
         * [1.12.5: Self Check](./html/628b0fa2-3c3f-4849-93d2-49eb740ddd29.html)
         * [1.12.5: Additional Resources](./html/d39af74a-9485-4ecf-9bb0-d72a2da18c00.html)
@@ -314,6 +318,8 @@
         * [1.14.0: Lesson Overview](./html/90fc42e0-e89d-4e4b-a2f1-2e8551603220.html)
         * [1.14.1: Using Point-Slope Form to Write the Equation of a Line](./html/a5194bbf-58cc-470f-83d3-272c6c8fa3a8.html)
         * [1.14.2 Writing Equations for Point-Slope and Slope-Intercept](./html/b139f006-df8b-4e16-8068-6762d95d371e.html)
+        * [1.14.2 Self Check](./html/89fc2d2a-fe0c-407e-af50-1cd6320520a0.html)
+        * [1.14.2 Additional Resources](./html/b246b1e7-78eb-467c-8080-fd55d0c833bc.html)
         * [1.14.3: Writing an Equation of a Line Parallel to a Given Line](./html/b2305263-ec8e-4e7c-b597-b17d8adeec29.html)
         * [1.14.3: Self Check ](./html/38af6ec7-4f13-4d04-a253-329c010b58aa.html)
         * [1.14.3: Additional Resources ](./html/4bc65afe-6516-42f7-a952-38f6f6ff7a60.html)
@@ -346,11 +352,11 @@
         * [1.15.4: Using Direct Variation to Solve Application Problems, Part 2](./html/6d778b36-38c5-490c-9f02-51080cacec7a.html)
         * [1.15.5: Practice](./html/9868762f-4882-4669-8112-2d7099214674.html)
         * [1.15.6: Lesson Summary](./html/b256503a-adce-4567-81d8-5691e1049e9b.html)
-    * Unit 1 Project (Teacher Guide): Slopes and Intercepts
+    * Project 1 Teacher Guide: Slopes and Intercepts
         * [Unit 1 Project Overview](./html/93f34e21-cde7-4be9-8c34-44b7b0be89e1.html)
         * [Activity P.1: Notice and Wonder: Sugar and Flour](./html/5dc8ae3d-972e-4003-9ea1-76f9c2f8658c.html)
         * [Activity P.2: Matching Matching](./html/1e645399-9709-42da-b574-f1a1a4464682.html)
-    * [Unit 1 Project: Slopes and Intercepts](./html/8e1190a2-5e3f-4aac-810b-0c432c00103a.html)
+    * [Project 1: Slopes and Intercepts](./html/8e1190a2-5e3f-4aac-810b-0c432c00103a.html)
     * [Unit 1 Wrap Up](./html/8ae10605-333d-47c1-b1be-8d22e1d6a53f.html)
 * Unit 2: Linear Inequalities and Systems
     * Unit 2 Teacher Guide
@@ -647,6 +653,8 @@
         * [2.13.3: Self Check ](./html/163b1569-894e-48fb-b450-4f85c6a0b750.html)
         * [2.13.3: Additional Resources ](./html/b9452397-dd62-4b87-9175-1921da43c7fd.html)
         * [2.13.4: Solving Inequality Problems Using Tables](./html/ce79f532-acc7-47aa-9918-0ebb97002d31.html)
+        * [2.13.4 Self Check](./html/f0f80211-84cd-4693-8769-4e76b3d03552.html)
+        * [2.13.4 Additional Resources](./html/a188eee7-ce2b-40e7-a9fe-6d1571061656.html)
         * [ 2.13.5: Graphing Solutions to an Inequality](./html/4ae55486-cafa-4e59-96b3-7eb80c8dbe56.html)
         * [2.13.6: Practice ](./html/630661d7-786d-4f13-b1d8-a7d8ce7cf8cd.html)
         * [2.13.7: Lesson Summary](./html/ab9bc9ff-94a0-4a30-b769-a25bd73b5062.html)
@@ -704,7 +712,7 @@
     * [Unit 2 Wrap Up](./html/802bd472-f8d0-4dc3-9acb-fadfddba8515.html)
 * Unit 3: Two-Variable Statistics
     * Unit 3 Teacher Guide
-        * [Unit 3 Overview](./html/8617b423-741d-423a-bdf5-45f419e680e9.html)
+        * [Unit 3 Overview and Readiness](./html/8617b423-741d-423a-bdf5-45f419e680e9.html)
         * [Unit 3 Narrative](./html/6ecfd860-22ab-45a9-ab31-c9c54d27b769.html)
         * [Unit 3 Family Support Materials](./html/2dd5bbad-9cf2-4cf9-8866-158cabf9243f.html)
         * [Building Character: Purpose](./html/f2dad4e6-157c-4ef9-9af0-10752d5e5e70.html)
@@ -760,6 +768,8 @@
         * [3.2.2: Self Check](./html/6c58253c-875f-4c40-bddb-e2d7c3d1daaa.html)
         * [3.2.2: Additional Resources](./html/4b905552-e7ca-4c65-bc82-bdba97e71772.html)
         * [3.2.3: Writing Linear Models without Technology](./html/fbb003d5-bb21-4880-8f8e-0e6bb1e3a97c.html)
+        * [3.2.3 Self Check](./html/ac585715-fbb7-45eb-a848-dad55b1e36e6.html)
+        * [3.2.3 Additional Resources](./html/5a54b15f-3b56-42ce-93ce-8bc8e5940fe6.html)
         * [3.2.4: Assessing the Fit of a Linear Model](./html/9469bdb7-c10e-4381-ad09-c3ad374859ff.html)
         * [3.2.4: Self Check](./html/9fe968fb-439a-4c3d-b77f-497862df8da4.html)
         * [3.2.4: Additional Resources](./html/bf508937-e609-4edf-b788-bd9882a25bbf.html)
@@ -791,7 +801,7 @@
         * [3.4.0: Lesson Overview](./html/936bb733-d26c-4f3a-a210-d1bd57b54d38.html)
         * [3.4.1: Comparing Scatter Plots with Linear and Nonlinear Trends](./html/232bfa27-c5b2-4b6b-803c-7766e59f4380.html)
         * [3.4.2: Scatter Plot Differences and Connections to Correlation Coefficient](./html/b868180b-1ac8-4ca2-8580-15ea0195ce08.html)
-        * [Lesson 3.4.3: Finding the Correlation Coefficient with Technology](./html/ba075aa8-c77a-485a-a4c6-b917e47505b0.html)
+        * [3.4.3: Finding the Correlation Coefficient with Technology](./html/ba075aa8-c77a-485a-a4c6-b917e47505b0.html)
         * [3.4.4: Matching Correlation Coefficients](./html/c0b57151-848d-4623-b902-bb30718f5f5a.html)
         * [3.4.5: Using Correlation Coefficient to Determine Best Fit](./html/8c81a9ff-02fc-4792-b65a-78a8a5367688.html)
         * [3.4.6: Practice ](./html/22095a6f-b6ec-4c8a-821c-14a372c8f1b6.html)
@@ -803,6 +813,8 @@
         * [3.4.2: Self Check](./html/a4eda7d0-bf9c-4332-bd58-691cb7df924f.html)
         * [3.4.2: Additional Resources](./html/3ced76b7-eacd-46b6-9ec2-de16dd9a742c.html)
         * [3.4.3: Finding the Correlation Coefficient with Technology](./html/63c7361e-8889-4878-b491-c16f9a791695.html)
+        * [3.4.3 Self Check](./html/6bb62057-f898-42de-a71e-bfd3f5c5c140.html)
+        * [3.4.3 Additional Resources](./html/ee8c00fd-c3b2-41ba-aade-b7d732ee872e.html)
         * [3.4.4: Matching Correlation Coefficients](./html/38f079b4-3572-4b71-a020-01e4d0aa8e73.html)
         * [3.4.4: Self Check](./html/bd3652ba-e864-44a5-bec3-fc83dd8cac8f.html)
         * [3.4.4: Additional Resources](./html/bb13865a-0735-48d2-89f1-41b1fd96ac36.html)
@@ -857,7 +869,7 @@
     * [Unit 3 Wrap Up](./html/3a94bcd5-6a25-44dd-9f26-b733b1ac1013.html)
 * Unit 4: Functions
     * Unit 4 Teacher Guide
-        * [Unit 4 Overview](./html/344fa2bb-0651-4a6f-a28f-c368b8896060.html)
+        * [Unit 4 Overview and Readiness](./html/344fa2bb-0651-4a6f-a28f-c368b8896060.html)
         * [Unit 4 Narrative](./html/9dcd1625-4996-4ba1-97bd-f1ce255230c2.html)
         * [Unit 4 Family Support Materials](./html/31bd737b-4ff5-404a-81dc-4a11ab0e88b1.html)
         * [Building Character: Creativity](./html/bfa6a630-c370-41b5-8324-d10ed313531b.html)
@@ -1279,7 +1291,7 @@
     * [Unit 4 Wrap Up](./html/0ba34e29-14e0-4252-9bef-db1924725ac6.html)
 * Unit 5: Introduction to Exponential Functions
     * Unit 5 Teacher Guide
-        * [Unit 5 Overview](./html/3bc8d9d3-75ef-45ca-9b0e-a90e9532df35.html)
+        * [Unit 5 Overview and Readiness](./html/3bc8d9d3-75ef-45ca-9b0e-a90e9532df35.html)
         * [Unit 5 Narrative](./html/ddb269fe-2eb6-4853-be64-e4b25e3b9d47.html)
         * [Unit 5 Family Support Materials ](./html/a1f0484e-441b-407e-8e51-b5c2a06a8af4.html)
         * [Building Character: Grit](./html/afa98c9f-d5b1-4703-8c61-a8d4e11456ec.html)
@@ -1635,7 +1647,7 @@
 * Fall STAAR Review
 * Unit 6: Working with Polynomials
     * Unit 6 Teacher Guide
-        * [Unit 6 Overview](./html/e5a137d7-f628-4b71-83bf-679260acf9d6.html)
+        * [Unit 6 Overview and Readiness](./html/e5a137d7-f628-4b71-83bf-679260acf9d6.html)
         * [Unit 6 Narrative](./html/65c48641-6265-410e-9165-50fe27c14bf7.html)
         * [Unit 6 Family Support Materials](./html/5f8cda5e-731c-4c24-bb29-2fa8e68e51f3.html)
         * [Building Character: Judgment](./html/f3373262-5bbd-4a3b-96c4-29b5fac44ded.html)
@@ -1823,7 +1835,7 @@
     * [Unit 6 Wrap Up](./html/88d608f8-b364-4721-9c9c-473688fa7bfd.html)
 * Unit 7: Introduction to Quadratic Functions
     * Unit 7 Teacher Guide
-        * [Unit 7 Overview](./html/7346fb12-a440-4647-a8ce-026b667a5fd4.html)
+        * [Unit 7 Overview and Readiness](./html/7346fb12-a440-4647-a8ce-026b667a5fd4.html)
         * [Unit 7 Narrative](./html/49f43cce-f7f3-4b52-9d5a-c8474c1964e1.html)
         * [Unit 7 Family Support Materials](./html/da048253-cd32-4c15-b179-080ca6789203.html)
         * [Building Character: Proactivity](./html/dc4264d6-8569-47b3-8f7d-11b3250c9056.html)
@@ -2061,7 +2073,7 @@
         * [7.11.3: Self Check ](./html/cceee1c2-5782-4314-8812-d18a4f97baf0.html)
         * [7.11.3: Additional Resources](./html/e689e074-58fd-483b-877d-8a8bbdfc4fcc.html)
         * [7.11.4: Using the Vertex and Axis of Symmetry of Quadratics](./html/9849c510-8652-4500-bd9e-a375a612dfb5.html)
-        * [7.11.4: Self Check](./html/bc3d7615-166c-4c82-b6dd-d46c7c784a32.html)
+        * [7.11.4: Self Check](./html/0e33c368-6c2b-453c-9d2a-38b81fd59864.html)
         * [7.11.4: Additional Resources](./html/0c19f043-1e1c-40f0-9271-2a22409534b3.html)
         * [7.11.5: Graphs of Quadratic Functions](./html/29cb0b8f-3c28-4049-85e4-c9aa35bcca05.html)
         * [7.11.6: Practice ](./html/62a8b5a7-8e8a-420e-8bbc-8939fedbdcc9.html)
@@ -2109,6 +2121,8 @@
         * [7.13.3: Self Check](./html/cc5174a0-65f9-42dc-b446-d512a3e435d2.html)
         * [7.13.3: Additional Resources](./html/a43c23a3-449b-41ac-b7c4-f6f72cdf72e7.html)
         * [7.13.4: Writing Quadratic Equations from Real Solutions](./html/99f14a60-4880-4b7a-a9c5-07288d91e078.html)
+        * [7.13.4 Self Check](./html/372d6055-5259-4bc0-8ce4-0d6fbc7f1f38.html)
+        * [7.13.4 Additional Resources](./html/dbb12311-876c-4f57-9480-744abc381c94.html)
         * [7.13.5: Graphing Quadratic Equations](./html/5a9b2814-c285-4704-be6b-bffb8e5a6742.html)
         * [7.13.6: Practice](./html/10611e02-fafc-48f4-b925-dfb97c646d03.html)
         * [7.13.7: Lesson Summary](./html/426c5fc2-e29b-4bbd-bc22-9ba5fc8ca2fb.html)
@@ -2204,7 +2218,7 @@
     * [Unit 7 Wrap Up](./html/ed02f2eb-98c8-45e7-abc8-970752bd581c.html)
 * Unit 8: Quadratic Equations
     * Unit 8 Teacher Guide
-        * [Unit 8 Overview](./html/c1da77f3-dfa5-4d4d-b5f7-61e4a683e30f.html)
+        * [Unit 8 Overview and Readiness](./html/c1da77f3-dfa5-4d4d-b5f7-61e4a683e30f.html)
         * [Unit 8 Narrative](./html/5ef3887a-61e9-4cc5-95c3-b53753c53950.html)
         * [Unit 8 Family Support Materials ](./html/e8cda69f-0414-473a-bdc5-955d472a9b43.html)
         * [Building Character: Curiosity ](./html/6b611223-910d-4d37-9c3b-a90d3fbe3512.html)
@@ -2475,7 +2489,7 @@
     * [Unit 8 Wrap Up](./html/d0ceeb97-0d2d-4cee-9793-24665304a582.html)
 * Unit 9: More Quadratic Equations
     * Unit 9 Teacher Guide
-        * [Unit 9 Overview](./html/2193951b-1729-4217-8a99-d2914652fc0b.html)
+        * [Unit 9 Overview and Readiness](./html/2193951b-1729-4217-8a99-d2914652fc0b.html)
         * [Unit 9 Narrative ](./html/e08992a6-efdf-4901-b557-c6d3a327da04.html)
         * [Unit 9 Family Support Materials](./html/8210136f-03ee-4de9-b2ed-010a358fcee2.html)
         * [Building Character: Intellectual Humility](./html/89a4c773-919c-43c3-8e99-e5d33172a461.html)
