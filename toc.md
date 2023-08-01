@@ -1,7 +1,7 @@
 # Table of Contents  
 * About This Course
     * [Quick Start to RAISE Teacher Guide](./html/95b56d4f-e11e-4704-a2c7-92851aca4464.html)
-    * [Quick Start to RAISE](./html/26d5d10b-1ce2-4dcc-960f-43c424c93629.html)
+    * [About RAISE](./html/26d5d10b-1ce2-4dcc-960f-43c424c93629.html)
     * Course-level Teacher Resources
         * [Overview](./html/c16c2d65-b03d-4769-bd57-aca27af11fc0.html)
         * [STAAR Exam Resources](./html/30e7fde1-7470-4647-8204-16abae3236d9.html)
@@ -1538,7 +1538,7 @@
         * [5.11.0: Lesson Overview](./html/e0d958d4-ea6c-4fc5-850d-3544b0e2d582.html)
         * [5.11.1: Changing the Graphing Window](./html/3dc2a917-7c8b-46fd-b6c1-0bd0d2695b3b.html)
         * [5.11.2: Choosing an Appropriate Model](./html/31245ba3-79d6-4f65-a249-bd797ad6cb1e.html)
-        * [5.11.3: Modeling with Exponential Functions (Optional)](./html/645713c9-4b8b-47b0-b3bb-0e2e1697dcc6.html)
+        * [5.11.3: Modeling with Exponential Functions](./html/645713c9-4b8b-47b0-b3bb-0e2e1697dcc6.html)
         * [5.11.4: Examine Exponential Decay in Context](./html/a6f3e5e9-0c2a-4f5b-96e2-268b402f81fd.html)
         * [5.11.5: Using Relationship Models to Answer Questions](./html/fc1661f6-7bff-493d-ad4b-b04e3973deba.html)
         * [5.11.6: Practice ](./html/92ccfb8c-2c63-475b-bd46-c27bc5436301.html)
