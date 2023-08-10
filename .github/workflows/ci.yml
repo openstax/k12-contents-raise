@@ -42,3 +42,5 @@ jobs:
           CSV_LINES=$(wc -l < errors.csv )
           echo "$(($CSV_LINES-1)) table errors found in html"
           cat errors.csv
+      - name: Validate tooltip JSON
+        run: python -c 'import json; json.load(open("json/glossary-tooltip.json"))'
