@@ -1,12 +1,13 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List
+from typing import List, Dict, Union
 from pathlib import Path
-import os
+import os, json
 
 
-HTML_DATA_PATH = "/html"
+HTML_DATA_PATH = "/content/html"
+JSON_DATA_PATH = "/content/json"
 
 
 app = FastAPI(
@@ -30,16 +31,28 @@ class ContentData(BaseModel):
     content: List[ContentItem]
 
 
-@app.get("/contents/{version_id}/{content_id}.json", response_model=ContentData)
-@app.get("/contents/{content_id}.json", response_model=ContentData)
+ResponseModel = Union[
+    ContentData,
+    Dict[str, str],
+]
+
+
+@app.get("/contents/{version_id}/{content_id}.json",
+         response_model=ResponseModel)
+@app.get("/contents/{content_id}.json", response_model=ResponseModel)
 async def get_content(content_id):
     maybe_variant = os.getenv("CONTENT_VARIANT")
     maybe_variant_data = None
 
     maybe_html_data = Path(HTML_DATA_PATH) / f"{content_id}.html"
+    if Path(f"{JSON_DATA_PATH}/{content_id}.json").is_file():
+        with open(f"{JSON_DATA_PATH}/{content_id}.json") as f:
+            file_content = json.load(f)
+        return file_content
 
     if maybe_variant:
-        maybe_variant_data = Path(HTML_DATA_PATH) / f"{content_id}/{maybe_variant}.html"
+        maybe_variant_data = Path(HTML_DATA_PATH) / f"{content_id}/"
+        f"{maybe_variant}.html"
 
     if maybe_variant_data and maybe_variant_data.exists():
         content = maybe_variant_data.read_text(encoding="utf-8")
