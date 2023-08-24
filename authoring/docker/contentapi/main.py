@@ -52,8 +52,6 @@ async def get_content(content_id):
 
     if maybe_variant:
         maybe_variant_data = Path(HTML_DATA_PATH) / f"{content_id}/{maybe_variant}.html"
-        maybe_variant_data = Path(HTML_DATA_PATH) / f"{content_id}/"
-        f"{maybe_variant}.html"
 
     if maybe_variant_data and maybe_variant_data.exists():
         content = maybe_variant_data.read_text(encoding="utf-8")
