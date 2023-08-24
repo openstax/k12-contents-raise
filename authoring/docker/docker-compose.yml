@@ -34,7 +34,7 @@ services:
     build:
       context: contentapi
     volumes:
-      - ../../html:/html
+      - ../../:/content
     networks:
       - raisemoodle
     environment:
