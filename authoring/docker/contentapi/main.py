@@ -1,14 +1,11 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List
 from typing import List, Dict, Union
 from pathlib import Path
-import os
 import os, json
 
 
-HTML_DATA_PATH = "/html"
 HTML_DATA_PATH = "/content/html"
 JSON_DATA_PATH = "/content/json"
 
@@ -16,21 +13,24 @@ JSON_DATA_PATH = "/content/json"
 app = FastAPI(
     title="RAISE Content API"
 )
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
     allow_methods=["GET"]
 )
+
+
 class ContentItem(BaseModel):
     variant: str
     html: str
+
+
 class ContentData(BaseModel):
     id: str
     content: List[ContentItem]
 
 
-@app.get("/contents/{version_id}/{content_id}.json", response_model=ContentData)
-@app.get("/contents/{content_id}.json", response_model=ContentData)
 ResponseModel = Union[
     ContentData,
     Dict[str, str],
