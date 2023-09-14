@@ -29,18 +29,12 @@ jobs:
           fi
       - name: Validate html
         run: |
-          validate-mbz-html html errors.csv html
+          validate-mbz-html html errors.csv html --tables
           CSV_LINES=$(wc -l < errors.csv )
           if [[ $CSV_LINES != "1" ]]; then
             echo "Validation errors found in html:"
             cat errors.csv
             exit 1
           fi
-      - name: Validate html including tables
-        run: |
-          validate-mbz-html html errors.csv html --tables
-          CSV_LINES=$(wc -l < errors.csv )
-          echo "$(($CSV_LINES-1)) table errors found in html"
-          cat errors.csv
       - name: Validate tooltip JSON
         run: python -c 'import json; json.load(open("json/glossary-tooltip.json"))'
