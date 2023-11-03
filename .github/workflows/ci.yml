@@ -20,7 +20,7 @@ jobs:
         run: pip install git+https://github.com/openstax/raise-mbtools@main
       - name: Validate mbz
         run: |
-          validate-mbz-html mbz errors.csv mbz --no-style --tables
+          validate-mbz-html mbz errors.csv mbz --no-style
           CSV_LINES=$(wc -l < errors.csv )
           if [[ $CSV_LINES != "1" ]]; then
             echo "Validation errors found in mbz:"
@@ -29,7 +29,7 @@ jobs:
           fi
       - name: Validate html
         run: |
-          validate-mbz-html html errors.csv html --tables
+          validate-mbz-html html errors.csv html
           CSV_LINES=$(wc -l < errors.csv )
           if [[ $CSV_LINES != "1" ]]; then
             echo "Validation errors found in html:"
