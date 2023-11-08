@@ -36,5 +36,11 @@ jobs:
             cat errors.csv
             exit 1
           fi
+        - name: Validate html including missing uuid
+          run: |
+            validate-mbz-html html errors.csv html --uuids-populated
+            CSV_LINES=$(wc -l < errors.csv )
+            echo "Validation errors including missing uuid errors found:"
+            cat errors.csv
       - name: Validate tooltip JSON
         run: python -c 'import json; json.load(open("json/glossary-tooltip.json"))'
