@@ -1,14 +1,35 @@
 # Table of Contents  
-* About This Course
-    * [Quick Start to RAISE Teacher Guide](./html/95b56d4f-e11e-4704-a2c7-92851aca4464.html)
+* Getting Started with RAISE
+    * Teachers Start Here
+        * [Quick Start](./html/127cdb41-226f-4d45-896f-3c696cc71e95.html)
+        * [Pacing Guide](./html/18add95e-5edd-4c66-a847-edbcd48707ab.html)
+        * [Using Desmos](./html/03703cf5-5000-4fdf-a3ad-61a1201f687e.html)
+    * Students Start Here
+        * [Quick Start](./html/d5070ffc-105b-4975-9319-761a2d56071e.html)
+        * [Using Desmos](./html/73ce7888-89ba-41aa-84e4-60a7483c388c.html)
     * [About RAISE](./html/26d5d10b-1ce2-4dcc-960f-43c424c93629.html)
-    * Course-level Teacher Resources
-        * [Overview](./html/c16c2d65-b03d-4769-bd57-aca27af11fc0.html)
-        * [STAAR Exam Resources](./html/30e7fde1-7470-4647-8204-16abae3236d9.html)
-        * [Vocabulary Resources](./html/a00fb71d-6ae9-4aad-8f11-c7bac6f98af2.html)
-        * [Facilitating Group Work and Collaboration](./html/dbc3efb2-b871-4023-abe0-37de3eb47fbb.html)
-        * [Supporting English Language Learners ](./html/6ba756d0-5909-4d66-809e-7d0a2f796207.html)
-* Unit 1: Linear Equations, Inequalities, and Systems
+* Supporting All Learners
+    * English Language Learners (ELL)
+        * [Standards Overview](./html/6acfae4c-ded2-4440-890b-da46cf14b970.html)
+        * [Aligning RAISE to ELPS](./html/a50560e5-a424-43e3-a2b3-c0c575ab5a77.html)
+        * [Navigating Resources](./html/a8446223-fc56-4472-8f25-7b458e7ce29d.html)
+        * [Theory of Action](./html/f901afff-0eb1-4a58-b465-781a01ef4bee.html)
+        * [Mathematical Language Routines](./html/30d3918b-7d99-4a8a-a91e-2436f8280000.html)
+        * [Resources and References for ELL](./html/65cd6456-8a78-45e4-bf44-726015cf531c.html)
+    * Students with Disabilities (SWD)
+        * [Universal Design for Learning ](./html/db9e508b-2c58-439c-bebf-dc4e299ba086.html)
+        * [Inclusion in Texas Learning Abilities](./html/35131a8b-f388-47cc-a2fa-129cd73a56d0.html)
+        * [Navigating Resources](./html/742ff121-4b38-436c-8680-5f89c4d55b33.html)
+        * [Curriculum Features Supporting Access](./html/6a1f61cb-4edb-4b18-bfc6-3c3689de20b1.html)
+        * [Instructional Strategies Supporting Access](./html/c82b36fe-a1c7-4008-a5a1-065adf0175b5.html)
+        * [Access for Students with Disabilities](./html/d8226d5d-c121-4e84-a5da-a080fcc1d70a.html)
+        * [Modifications & Accommodations for Specific Learning Disabilities](./html/80b4b752-effd-401b-b1ac-4736c4ea9483.html)
+        * [Resources and References for Differentiated Math](./html/a9a4457b-e994-44da-a527-de0155e6c870.html)
+    * Gifted Students
+        * [Gifted and Talented Standards Overview](./html/ce64d8fd-ba49-4d41-ac57-2756723b0a1a.html)
+        * [Extending the Learning](./html/40abb41f-c236-4529-921f-077390cba3f0.html)
+        * [Resources and References ](./html/73109a57-bf71-4746-b188-093c015ac002.html)
+* Unit 1: Linear Equations
     * Unit 1 Teacher Guide
         * [Unit 1 Overview and Readiness](./html/020533d8-ba31-49bb-83a1-e96a37c23c7b.html)
         * [Unit 1 Narrative](./html/04cbe2bf-e9f8-47d5-bca8-4fc6577d75d1.html)
@@ -129,7 +150,7 @@
         * [1.5.3: Self Check](./html/e80a4df0-0e10-415e-886d-037a9bf73f39.html)
         * [1.5.3: Additional Resources](./html/639dac42-373d-4a0c-b20f-e81f7cfa2300.html)
         * [1.5.4: Writing, Graphing, and Solving a Linear Equation ](./html/9bd3f379-663b-47bc-8d0e-29d0db603b1f.html)
-        * [1.5.3: Self Check](./html/1c59e3e5-5464-4cea-bb97-44b5c26af392.html)
+        * [1.5.4: Self Check](./html/1c59e3e5-5464-4cea-bb97-44b5c26af392.html)
         * [1.5.4: Additional Resources ](./html/22ec3ab5-42cd-43d2-b773-19d2a3f39e17.html)
         * [ 1.5.5: Examining an Equation in Two Variables and Its Graph, Part 2](./html/a85ce31c-ccbd-46eb-a501-44464c4140fd.html)
         * [1.5.6: Practice](./html/3fc2397e-6ed9-4bb6-913a-ad80245c6c3a.html)
@@ -356,7 +377,10 @@
         * [Unit 1 Project Overview](./html/93f34e21-cde7-4be9-8c34-44b7b0be89e1.html)
         * [Activity P.1: Notice and Wonder: Sugar and Flour](./html/5dc8ae3d-972e-4003-9ea1-76f9c2f8658c.html)
         * [Activity P.2: Matching Matching](./html/1e645399-9709-42da-b574-f1a1a4464682.html)
-    * [Project 1: Slopes and Intercepts](./html/8e1190a2-5e3f-4aac-810b-0c432c00103a.html)
+    * Project 1: Slopes and Intercepts
+        * [Unit 1 Project Overview](./html/8e1190a2-5e3f-4aac-810b-0c432c00103a.html)
+        * [Activity P.1: Notice and Wonder: Sugar and Flour](./html/05a02a4b-73e7-49d9-9375-5f1050612a7b.html)
+        * [Activity P.2: Matching Matching](./html/fb149f8d-7732-479f-ad40-e35454e4899b.html)
     * [Unit 1 Wrap Up](./html/8ae10605-333d-47c1-b1be-8d22e1d6a53f.html)
 * Unit 2: Linear Inequalities and Systems
     * Unit 2 Teacher Guide
@@ -705,10 +729,14 @@
         * [2.15.6: Lesson Summary](./html/09059e77-04b5-4ffe-8f52-bfdbd270c4b2.html)
     * Project 2 Teacher Guide: Modeling with Systems of Inequalities in Two Variables
         * [Project 2 Overview](./html/9e62a9ad-a1ee-468a-a834-c0ac2de70388.html)
-        * [Activity P2.1: Determining a Solution to Inequalities](./html/a24a1223-f8bd-4c9d-af48-0b05d4d42c41.html)
+        * [Activity P2.1: Determine a Solution to Inequalities](./html/a24a1223-f8bd-4c9d-af48-0b05d4d42c41.html)
         * [Activity P2.2: Interpret a Set of Mathematical Models](./html/7533221e-bd2c-48e6-b8fc-c87a7acc7586.html)
         * [Activity P2.3: Perform Mathematical Modeling](./html/0927af67-5caa-4fcd-b571-dd93f9d10d22.html)
-    * [Project 2: Modeling with Systems of Inequalities in Two Variables](./html/0c258631-7b57-4135-a81f-2cd463e07148.html)
+    * Project 2: Modeling with Systems of Inequalities in Two Variables
+        * [Project 2 Overview](./html/0c258631-7b57-4135-a81f-2cd463e07148.html)
+        * [Activity P2.1: Determine a Solution to Inequalities](./html/85b15ef8-da43-4486-b78c-dbf7b8786307.html)
+        * [Activity P2.2: Interpret a Set of Mathematical Models](./html/ba6502ca-26f7-4cd4-800a-c8af8ed811d2.html)
+        * [Activity P2.3: Perform Mathematical Modeling](./html/afbaa505-5cb6-4f02-ac5f-62e297b7824f.html)
     * [Unit 2 Wrap Up](./html/802bd472-f8d0-4dc3-9acb-fadfddba8515.html)
 * Unit 3: Two-Variable Statistics
     * Unit 3 Teacher Guide
@@ -863,9 +891,12 @@
         * [3.6.6: Lesson Summary](./html/368f3630-d586-472a-9407-1200e28046d1.html)
     * Project 3 Teacher Guide: Two-Variable Statistics
         * [Project 3 Overview](./html/e6f602e6-66b3-436d-8b9a-655dfe988523.html)
-        * [Activity P3.1: Estimating Lengths](./html/bb07a9cd-2ef6-4c33-8649-51b80849bb55.html)
+        * [Activity P3.1: Estimate Lengths](./html/bb07a9cd-2ef6-4c33-8649-51b80849bb55.html)
         * [Activity P3.2: Analyze Data ](./html/5b903215-2162-40b6-920b-7827044c8e26.html)
-    * [Project 3: Two-Variable Statistics](./html/2724bfba-1483-4075-aeff-9cc6085ddc17.html)
+    * Project 3: Two-Variable Statistics
+        * [Project 3 Overview](./html/2724bfba-1483-4075-aeff-9cc6085ddc17.html)
+        * [Activity P3.1: Estimate Lengths](./html/0fe2ebb0-0122-49ca-8981-41ee365862d9.html)
+        * [Activity P3.2: Analyze Data ](./html/2d0c2c2d-aa56-49f6-9238-a367299dc2e3.html)
     * [Unit 3 Wrap Up](./html/3a94bcd5-6a25-44dd-9f26-b733b1ac1013.html)
 * Unit 4: Functions
     * Unit 4 Teacher Guide
@@ -976,7 +1007,7 @@
         * [4.5.1: Finding Solutions of Equations](./html/663ad983-58f0-48fe-a79e-04121edef332.html)
         * [4.5.2: Using the Vertical Line Test](./html/06490a62-7792-4fdb-bc19-9ac10dac2819.html)
         * [4.5.3: Comparing Functions](./html/a2cc13ed-7c08-43a0-8fb4-8939a07db185.html)
-        * [4.5.4: Using Function Notation and Graphing Technology (Optional)](./html/dd14a30f-c171-43f8-ab90-c5cc042b6a29.html)
+        * [4.5.4: Using Function Notation and Graphing Technology](./html/dd14a30f-c171-43f8-ab90-c5cc042b6a29.html)
         * [4.5.5: Using Graphical and Algebraic Approaches for Finding Unknowns of Linear Functions.](./html/79c14ddf-02b6-4b86-a934-72d3cababee9.html)
         * [4.5.6: Practice](./html/40b40f57-b925-47e6-b66c-b308f268355e.html)
         * [4.5.7: Lesson Synthesis](./html/7095ef2c-c6ed-4447-b87a-b4b6ab5f89cb.html)
@@ -1114,22 +1145,30 @@
         * [4.11.0: Lesson Overview](./html/545acf90-d1f6-4add-afc8-65e6c257b0ff.html)
         * [4.11.1: Graphing Linear Functions](./html/92bf05b1-aa0b-45b0-9990-4b25df413895.html)
         * [4.11.2: Vertical Shifts](./html/987a9303-dddd-4a68-85b6-16ee5fd4f785.html)
-        * [4.11.3: Vertical Stretches and Compressions](./html/48281e98-d3ac-4225-a6cd-e6f7925b02a0.html)
-        * [4.11.4: Graphing Using Transformations](./html/ee28ba3b-9598-4b80-b6ce-9d7c361f18bb.html)
-        * [4.11.5: Practice](./html/e5e6352d-4073-4c75-b79d-e20e195ce021.html)
-        * [4.11.6: Lesson Synthesis](./html/e86adbc1-0db0-4ae4-bd5c-42235c5479d0.html)
+        * [4.11.3: Horizontal Shifts](./html/6f7005f6-fa20-4302-988d-eda0db3c3c5b.html)
+        * [4.11.4: Vertical Stretches and Compressions](./html/48281e98-d3ac-4225-a6cd-e6f7925b02a0.html)
+        * [4.11.5: Horizontal Stretches and Compressions ](./html/4c4f68f1-ad22-40c5-b3c8-38b299fd898d.html)
+        * [4.11.6: Graphing Using Transformations](./html/ee28ba3b-9598-4b80-b6ce-9d7c361f18bb.html)
+        * [4.11.7: Practice](./html/e5e6352d-4073-4c75-b79d-e20e195ce021.html)
+        * [4.11.8: Lesson Synthesis](./html/e86adbc1-0db0-4ae4-bd5c-42235c5479d0.html)
     * Lesson 4.11: Graphing a Function Using Transformations
         * [4.11.0: Lesson Overview](./html/dce5ec6f-2ec0-4b4c-8742-f26eebfb1889.html)
         * [4.11.1: Graphing Linear Functions](./html/f1668426-c03c-478b-8569-c6cc3687b08f.html)
         * [4.11.2: Vertical Shifts](./html/9602a148-bee4-472d-9373-4ee33b2e2b3a.html)
         * [4.11.2: Self Check](./html/69109613-cb0c-4599-a58e-8a3e3894239d.html)
         * [4.11.2: Additional Resources ](./html/c50476a3-a1a5-4572-a71d-36ef4679cb54.html)
-        * [4.11.3: Vertical Stretches and Compressions](./html/3c9b380b-b530-46d8-b529-b31cdd0ee3a0.html)
-        * [4.11.3: Self Check](./html/a927579e-fe19-4cf6-92f4-59a06479b0b5.html)
-        * [4.11.3: Additional Resources](./html/f4bb9bfd-834e-4046-ba5b-e7b383c069ba.html)
-        * [4.11.4: Graphing Using Transformations](./html/969a5431-73d3-4117-b165-8114bdf3fbdc.html)
-        * [4.11.5: Practice](./html/c7292a8c-40af-4c74-bf59-a00394e86628.html)
-        * [4.11.6: Lesson Summary](./html/c1d773ea-b7c3-458b-9a3d-b2bc1aacb229.html)
+        * [4.11.3: Horizontal Shifts](./html/53ea567e-dd04-4381-828b-e672e1cb8322.html)
+        * [4.11.3: Self Check](./html/d77a3bc0-9a01-41ed-8bde-fe87742a7ac7.html)
+        * [4.11.3: Additional Resources](./html/a07489b5-d092-495d-966e-ea9f8e24d8fa.html)
+        * [4.11.4: Vertical Stretches and Compressions](./html/3c9b380b-b530-46d8-b529-b31cdd0ee3a0.html)
+        * [4.11.4: Self Check](./html/a927579e-fe19-4cf6-92f4-59a06479b0b5.html)
+        * [4.11.4: Additional Resources](./html/f4bb9bfd-834e-4046-ba5b-e7b383c069ba.html)
+        * [4.11.5: Horizontal Stretches and Compressions](./html/0cddef22-5aeb-4225-94ba-97de42a6b4fa.html)
+        * [4.11.5: Self Check](./html/1f7f8c1a-ca28-4642-a793-bc0befe4e995.html)
+        * [4.11.5: Additional Resources](./html/a945b15e-aac4-48dd-a13d-c6c699025cbd.html)
+        * [4.11.6: Graphing Using Transformations](./html/969a5431-73d3-4117-b165-8114bdf3fbdc.html)
+        * [4.11.7: Practice](./html/c7292a8c-40af-4c74-bf59-a00394e86628.html)
+        * [4.11.8: Lesson Synthesis](./html/c1d773ea-b7c3-458b-9a3d-b2bc1aacb229.html)
     * [Unit 4 Section C Overview: A Closer Look at Inputs and Outputs](./html/cd1a386c-2202-4b15-9c6e-96fa13507801.html)
     * Lesson 4.12 Teacher Guide: Domain and Range, Part 1
         * [4.12.0: Lesson Overview](./html/a545fab4-a80a-4155-9b5a-7fb561e32c47.html)
@@ -1287,7 +1326,11 @@
         * [Activity: P4.1: Estimate Time to Charge a Battery](./html/ff94c93c-2f8b-4a5e-bfd5-72037103853a.html)
         * [Activity: P4.2: Analyze Percent Change Over Time](./html/d42f14c9-e7f5-42ab-a6d3-f7e6dacfff66.html)
         * [Activity: P4.3: Write an Equation to Model Data](./html/7cce28be-76bf-4030-a44a-839e68db4f5e.html)
-    * [Project 4: Using Functions to Model Battery Power](./html/5d87b49d-ab8c-4f00-943e-03874bbaa27d.html)
+    * Project 4: Using Functions to Model Battery Power
+        * [Project 4 Overview](./html/5d87b49d-ab8c-4f00-943e-03874bbaa27d.html)
+        * [Activity: P4.1: Estimate Time to Charge a Battery](./html/c78483bb-df6d-4985-9c3e-5bedbcdb0a62.html)
+        * [Activity: P4.2: Analyze Percent Change Over Time](./html/11131447-b0a8-4075-8a7f-fab69098a4f4.html)
+        * [Activity: P4.3: Write an Equation to Model Data](./html/4dbe1dd7-693e-49b0-9379-e14c50b59ec6.html)
     * [Unit 4 Wrap Up](./html/0ba34e29-14e0-4252-9bef-db1924725ac6.html)
 * Unit 5: Introduction to Exponential Functions
     * Unit 5 Teacher Guide
@@ -1640,9 +1683,13 @@
     * Project 5 Teacher Guide: Introduction to Exponential Functions
         * [Project 5 Overview](./html/3dc9550c-44e3-46a9-bdae-27ef6f9e0b03.html)
         * [Activity P5.1: Analyze Data](./html/096a4469-5cd8-4786-9a7c-b59febaa2e73.html)
-        * [Activity P5.2: Writing Equations to Model Populations](./html/cbad4720-d3ee-4374-94f9-706bb08ec811.html)
+        * [Activity P5.2: Write Equations to Model Populations](./html/cbad4720-d3ee-4374-94f9-706bb08ec811.html)
         * [Activity P5.3: Open-ended Modeling with Data Investigation ](./html/35c7c190-d131-4f32-b67e-0bfac6341ae7.html)
-    * [Project 5: Introduction to Exponential Functions](./html/5d0f5c89-4b42-4b16-9025-5c50ff3ec1ae.html)
+    * Project 5: Introduction to Exponential Functions
+        * [Project 5 Overview](./html/5d0f5c89-4b42-4b16-9025-5c50ff3ec1ae.html)
+        * [Activity P5.1: Analyze Data](./html/e3050640-f992-4bb2-897e-f13b8e646f64.html)
+        * [Activity P5.2: Write Equations to Model Populations](./html/1b8d1c95-5f8a-478c-aec2-315d3608d2ac.html)
+        * [Activity P5.3: Open-ended Modeling with Data Investigation ](./html/8aff1570-1b82-45c1-9b87-70d6bbd0c4b2.html)
     * [Unit 5 Wrap Up](./html/408a0c99-4128-42a8-bc69-9a2dab2d20d8.html)
 * Fall STAAR Review
 * Unit 6: Working with Polynomials
@@ -1831,7 +1878,11 @@
         * [Activity: P6.1: Areas of Rectangles](./html/38356d39-7d49-41a8-8c40-616d2ae2034f.html)
         * [Activity: P6.2: Dimensions and Areas of Rectangles](./html/12556aca-8d8f-44ef-9988-11abf8621c38.html)
         * [Activity: P6.3: Create Your Own Rectangles](./html/5f7b5898-364f-4e8d-be69-367de678ca25.html)
-    * [Project 6: Polynomials and Rectangles](./html/c4f92f86-91e4-4338-8723-92352e3b3d1b.html)
+    * Project 6: Polynomials and Rectangles
+        * [Project 6 Overview](./html/c4f92f86-91e4-4338-8723-92352e3b3d1b.html)
+        * [Activity: P6.1: Areas of Rectangles](./html/22942bee-9c0b-4778-8d8b-4ae494e650f6.html)
+        * [Activity: P6.2: Dimensions and Areas of Rectangles](./html/39092b52-accc-49e2-ba3d-2edbdd6fde1b.html)
+        * [Activity: P6.3: Create Your Own Rectangles](./html/55263ddf-1deb-4714-b62c-08c4eb8b5d84.html)
     * [Unit 6 Wrap Up](./html/88d608f8-b364-4721-9c9c-473688fa7bfd.html)
 * Unit 7: Introduction to Quadratic Functions
     * Unit 7 Teacher Guide
@@ -2210,11 +2261,14 @@
         * [7.17.5: Equations of Graph Translations](./html/832a9ed6-0334-47c1-a692-faccc1f98aea.html)
         * [7.17.6: Practice ](./html/fcf37686-b537-43f1-8ac8-ef85b5a059be.html)
         * [7.17.7: Lesson Summary](./html/30d3101c-0f45-49bc-b4af-da2fdb250555.html)
-    * Project 7 Teacher Guide: Designing a Fountain
+    * Project 7 Teacher Guide: Design a Fountain
         * [Project 7 Overview](./html/afaa4095-7825-4283-b8a1-e0e2781298f0.html)
         * [Activity P7.1: Introduction to Fountain Design](./html/e39a5f15-9508-4ff9-9d00-5200ceb11b50.html)
-        * [Activity P7.2: Designing a Fountain](./html/c444dfed-197c-4de6-b23a-2a6d02770ed1.html)
-    * [Project 7: Designing a Fountain](./html/f63ff810-1afe-464e-a75d-c954466aba31.html)
+        * [Activity P7.2: Design a Fountain](./html/c444dfed-197c-4de6-b23a-2a6d02770ed1.html)
+    * Project 7: Design a Fountain
+        * [Project 7 Overview](./html/f63ff810-1afe-464e-a75d-c954466aba31.html)
+        * [Activity P7.1: Introduction to Fountain Design](./html/f802bc8a-ffdf-4fbe-b123-07c272247571.html)
+        * [Activity P7.2: Design a Fountain](./html/4c71d1a7-c980-4e61-a6fa-5f38802635a1.html)
     * [Unit 7 Wrap Up](./html/ed02f2eb-98c8-45e7-abc8-970752bd581c.html)
 * Unit 8: Quadratic Equations
     * Unit 8 Teacher Guide
@@ -2482,10 +2536,14 @@
         * [8.12.6: Lesson Summary](./html/2e1c609b-a3f1-4a93-852a-9429bffb723e.html)
     * Project 8 Teacher Guide: Modeling Rocket Flight
         * [Project 8 Overview](./html/480ee58d-c117-411d-be58-9ac70ca4045f.html)
-        * [Activity P8.1: Relating the Graphs of Quadratic Equations to Their Factored Form by Their Zeros](./html/ba751958-f991-453d-9762-c4509bb7a3e7.html)
-        * [Activity P8.2: Converting between Factored Form and Standard Form](./html/43e79918-40de-4f86-baa0-7e40ddaa6cb5.html)
-        * [Activity P8.3: Modeling Rocket Flight Using a Quadratic Equation](./html/c5def5ac-51fd-4961-bcd7-2d23170f3217.html)
-    * [Project 8: Modeling Rocket Flight](./html/c9aa0e69-e024-4f8a-b9cc-dc29b5c5009f.html)
+        * [Activity P8.1: Relate Zeros to the Factored Form of Quadratic Equations](./html/ba751958-f991-453d-9762-c4509bb7a3e7.html)
+        * [Activity P8.2: Convert between Factored Form and Standard Form](./html/43e79918-40de-4f86-baa0-7e40ddaa6cb5.html)
+        * [Activity P8.3: Model a Rocket Flight Using a Quadratic Equation](./html/c5def5ac-51fd-4961-bcd7-2d23170f3217.html)
+    * Project 8: Modeling Rocket Flight
+        * [Project 8 Overview](./html/c9aa0e69-e024-4f8a-b9cc-dc29b5c5009f.html)
+        * [Activity P8.1: Relate Zeros to the Factored Form of Quadratic Equations](./html/73552909-ce34-4456-b15a-3fdcf8a18447.html)
+        * [Activity P8.2: Convert between Factored Form and Standard Form](./html/aa2c59ff-2503-4011-b3ee-5750820539df.html)
+        * [Activity P8.3: Model a Rocket Flight Using a Quadratic Equation](./html/ab3d96c3-f3f8-4df0-8544-7b849787def6.html)
     * [Unit 8 Wrap Up](./html/d0ceeb97-0d2d-4cee-9793-24665304a582.html)
 * Unit 9: More Quadratic Equations
     * Unit 9 Teacher Guide
@@ -2734,9 +2792,51 @@
     * Project 9 Teacher Guide: Using Quadratic Equations to Model Situations and Solve Problems
         * [Project 9 Overview](./html/07fef9d8-6c68-40d7-8402-043b1ad92fba.html)
         * [Activity: P9.1: Equations of Two Lines and a Curve](./html/870e9ad7-c694-479c-885c-3e0bd62efdd0.html)
-        * [Activity: P9.2: Analyzing a Dive](./html/b713138d-315b-459c-b4e4-aabd9882b10d.html)
+        * [Activity: P9.2: Analyze a Dive](./html/b713138d-315b-459c-b4e4-aabd9882b10d.html)
         * [Activity: P9.3: A Linear Function and a Quadratic Function](./html/9cb4fa10-0293-443d-b08d-9b1323bd4364.html)
         * [Activity: P9.4: Profit from a River Cruise](./html/ccc37bd2-6d34-4660-9a48-98de8aff4a20.html)
-    * [Project 9: Using Quadratic Equations to Model Situations and Solve Problems](./html/c151655d-270c-4686-8570-b6342468049d.html)
+    * Project 9: Using Quadratic Equations to Model Situations and Solve Problems
+        * [Project 9 Overview](./html/c151655d-270c-4686-8570-b6342468049d.html)
+        * [Activity: P9.1: Equations of Two Lines and a Curve](./html/735553fb-3753-4a44-b164-aa454bca72fe.html)
+        * [Activity: P9.2: Analyze a Dive](./html/6455920d-9270-4c96-8bab-7164d9754fab.html)
+        * [Activity: P9.3: A Linear Function and a Quadratic Function](./html/c331c42e-f506-4f35-9e75-cd9d83e34933.html)
+        * [Activity: P9.4: Profit from a River Cruise](./html/325ea039-905d-43b7-b34e-16b026d2c3c9.html)
     * [Unit 9 Wrap Up](./html/3da470b2-4e50-4df0-87b6-e28b01271fc6.html)
 * Spring STAAR Review
+* Research in Practice
+    * Productive Struggle
+        * [Productive Failure](./html/572e3490-f86a-4157-ac29-6f59559ed747.html)
+        * [Inductive Reasoning](./html/2c22358d-dea2-4217-a8ae-7bdc1fecd56d.html)
+        * [Comparisons](./html/563fc8c6-9f6b-49e6-88dd-151db4167972.html)
+    * Cooperative Learning and Productive Discourse
+        * [Classroom Discussion](./html/51171e52-cfe2-4773-8430-7e2d97f525de.html)
+        * [Small Group Learning](./html/1a9aa5c3-b74c-46e7-8f84-1f3b1098cd33.html)
+    * Motivation in the Classroom
+        * [Growth Mindset](./html/954a8061-6d43-4f35-b729-da0a4a3eac48.html)
+        * [Goal Setting ](./html/94a08a25-0bca-4c5b-ad1e-6fb85f41887c.html)
+        * [Mastery Strategy](./html/15c7c6b2-e502-4e7f-8054-d9992d62c8eb.html)
+    * Metacognition
+        * [Metacognition](./html/e5627431-ba12-4a33-b13b-f7122a605499.html)
+        * [Self Explaination](./html/720aafbd-ab2f-46ab-abde-d4c2429818d5.html)
+        * [Reciprocal Teaching](./html/0610e056-0f00-4e78-a3be-316d3cf23638.html)
+        * [Spaced Retrieval Practice](./html/894fbf8f-1387-4d92-81e8-94e2bb368efb.html)
+    * Multimedia Learning Principle
+        * [Multimedia Principle](./html/711dc0f3-7e84-4a0b-b771-e3375183a18f.html)
+        * [Pre-training Principle](./html/2eb233f4-305e-46bf-934a-947753de29d5.html)
+        * [Personalization Principle](./html/5931796b-dd1f-40e4-9e4d-326aa735056e.html)
+        * [Generative Learning Principle](./html/f212a4f6-edf2-4e41-a9e6-1bcc4d64460c.html)
+* Appendix
+    * Course Design
+        * [Unit Sequence and Resources](./html/fc6865f3-3ceb-4f2b-ba3d-507d70b0919d.html)
+        * [Lesson Structure and Resources](./html/9070ecd2-fd3b-46a3-a42b-5068d9f195d7.html)
+    * Implementing RAISE
+        * [Pacing Guides](./html/004bd967-ac71-47c1-a948-c40b314d8660.html)
+        * [Implementation Guides](./html/989d2a62-1018-49ec-b3fb-b98aa0467688.html)
+        * [Coaching Guides](./html/d6ac0867-3e58-4ba7-acf0-a6e82ac696c1.html)
+    * Progress Monitoring
+        * [Reports and Measuring Progress](./html/4907c3c3-b487-4a60-bfef-772e526a83a9.html)
+        * [Analyzing and Responding to Data](./html/ce458624-3fd9-4647-b05c-5046b8be20e1.html)
+    * Standards Snapshots
+        * [TEKS Snapshot](./html/aae420ce-0eaa-4e82-a9c8-f3365329fdee.html)
+        * [ELPS Snapshot](./html/feea5479-dc5f-4ee0-a2ce-d9309eb36968.html)
+        * [CCSS Snapshot](./html/0b202c52-756c-4b1d-95a8-25a95b30e26e.html)
