@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="82" moduleid="110" modulename="lesson" contextid="121">
-  <lesson id="82">
+<activity id="86" moduleid="110" modulename="lesson" contextid="121">
+  <lesson id="86">
     <course>2</course>
-    <name>Project 3 Teacher Guide: Two-Variable Statistics</name>
+    <name>Lesson 3.6 Teacher Guide: Casual Relationships</name>
     <intro></intro>
     <introformat>1</introformat>
     <practice>0</practice>
@@ -11,7 +11,7 @@
     <password></password>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
-    <grade>100</grade>
+    <grade>0</grade>
     <custom>1</custom>
     <ongoing>0</ongoing>
     <usemaxgrade>0</usemaxgrade>
@@ -23,8 +23,8 @@
     <minquestions>0</minquestions>
     <maxpages>1</maxpages>
     <timelimit>0</timelimit>
-    <retake>0</retake>
-    <activitylink>0</activitylink>
+    <retake>1</retake>
+    <activitylink>111</activitylink>
     <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
@@ -38,30 +38,30 @@
     <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1663874266</timemodified>
+    <timemodified>1690400223</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="763">
+      <page id="769">
         <prevpageid>0</prevpageid>
-        <nextpageid>764</nextpageid>
+        <nextpageid>770</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1658545076</timecreated>
-        <timemodified>1659054784</timemodified>
-        <title>Project 3 Overview</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="e6f602e6-66b3-436d-8b9a-655dfe988523"&gt;&lt;/div&gt;</contents>
+        <timecreated>1657473949</timecreated>
+        <timemodified>1659186497</timemodified>
+        <title>3.6.0: Lesson Overview</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="e8239f18-9208-47d6-a8ab-7c9e7d44ba72"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1708">
+          <answer id="1706">
             <jumpto>-1</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658545076</timecreated>
+            <timecreated>1657473949</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -74,17 +74,62 @@
         <branches>
         </branches>
       </page>
-      <page id="764">
-        <prevpageid>763</prevpageid>
-        <nextpageid>765</nextpageid>
+      <page id="770">
+        <prevpageid>769</prevpageid>
+        <nextpageid>771</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1658545483</timecreated>
-        <timemodified>1658545640</timemodified>
-        <title>Activity P3.1: Estimating Lengths</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="bb07a9cd-2ef6-4c33-8649-51b80849bb55"&gt;&lt;/div&gt;</contents>
+        <timecreated>1657475302</timecreated>
+        <timemodified>1659187763</timemodified>
+        <title>3.6.1: Describe the Relationship between Variables</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="60a89eaa-953e-44d6-ad15-66a54b7244bb"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1707">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657475302</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1708">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657475302</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="771">
+        <prevpageid>770</prevpageid>
+        <nextpageid>772</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657478448</timecreated>
+        <timemodified>1659187979</timemodified>
+        <title>3.6.2: Describing How Two Variables Are Related</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="6cba26d6-1e45-4c5b-95f0-e53ffddb7c8c"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1709">
@@ -92,7 +137,7 @@
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658545483</timecreated>
+            <timecreated>1657478448</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -106,7 +151,7 @@
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658545483</timecreated>
+            <timecreated>1657478448</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -119,17 +164,17 @@
         <branches>
         </branches>
       </page>
-      <page id="765">
-        <prevpageid>764</prevpageid>
-        <nextpageid>0</nextpageid>
+      <page id="772">
+        <prevpageid>771</prevpageid>
+        <nextpageid>773</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1658545604</timecreated>
-        <timemodified>1658545650</timemodified>
-        <title>Activity P3.2: Analyze Data </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="5b903215-2162-40b6-920b-7827044c8e26"&gt;&lt;/div&gt;</contents>
+        <timecreated>1657494969</timecreated>
+        <timemodified>1659189069</timemodified>
+        <title>3.6.3: Using the Term Causal Relationship</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="e708c0da-9b99-49d1-a0a6-8c8bdc1f962e"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1711">
@@ -137,7 +182,7 @@
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658545604</timecreated>
+            <timecreated>1657494969</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -147,11 +192,146 @@
             </attempts>
           </answer>
           <answer id="1712">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657494969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="773">
+        <prevpageid>772</prevpageid>
+        <nextpageid>774</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657496969</timecreated>
+        <timemodified>1659189293</timemodified>
+        <title>3.6.4: Determining the Type of Relationship</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ea400c3c-cdf4-408a-a33c-d31d14e04639"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1713">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657496969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1714">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657496969</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="774">
+        <prevpageid>773</prevpageid>
+        <nextpageid>775</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657498377</timecreated>
+        <timemodified>1659189383</timemodified>
+        <title>3.6.5: Practice</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="453ceb49-fdb7-47e5-bcd4-cedd59905969"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1715">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498377</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1716">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498377</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="775">
+        <prevpageid>774</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657498451</timecreated>
+        <timemodified>1663865176</timemodified>
+        <title>3.6.6: Lesson Synthesis</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="838cdf84-21f4-488f-a185-3c0b9ba50942"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1717">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657498451</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1718">
             <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658545604</timecreated>
+            <timecreated>1657498451</timecreated>
             <timemodified>0</timemodified>
             <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="120" moduleid="161" modulename="lesson" contextid="172">
-  <lesson id="120">
+<activity id="124" moduleid="161" modulename="lesson" contextid="172">
+  <lesson id="124">
     <course>2</course>
-    <name>Lesson 4.18: The nth Term of an Arithmetic Sequence</name>
+    <name>Lesson 4.17 Teacher Guide: Sequences are Functions</name>
     <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
@@ -24,7 +24,7 @@
     <maxpages>1</maxpages>
     <timelimit>0</timelimit>
     <retake>1</retake>
-    <activitylink>0</activitylink>
+    <activitylink>162</activitylink>
     <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
@@ -38,566 +38,35 @@
     <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1689630371</timemodified>
+    <timemodified>1690840040</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="1122">
+      <page id="1131">
         <prevpageid>0</prevpageid>
-        <nextpageid>1123</nextpageid>
+        <nextpageid>1132</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659830248</timecreated>
-        <timemodified>1689634367</timemodified>
-        <title>4.18.0: Lesson Overview</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="e93a5fb9-54ef-4216-bb4e-4f05ee053f41"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2513">
-            <jumpto>1123</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659830248</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1123">
-        <prevpageid>1122</prevpageid>
-        <nextpageid>1124</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1659830474</timecreated>
-        <timemodified>1689634376</timemodified>
-        <title>4.18.1: Repeated Addition Is Multiplication</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="8151d66a-f79c-4031-9ba4-1a4dbf041f9a"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2514">
-            <jumpto>1122</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659830474</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2515">
-            <jumpto>1124</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659830474</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1124">
-        <prevpageid>1123</prevpageid>
-        <nextpageid>1125</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1659831624</timecreated>
-        <timemodified>1689634384</timemodified>
-        <title>4.18.2: Define a Sequence by the nth Term</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="c85320f3-e717-4607-99bf-5420380fc4f3"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2516">
-            <jumpto>1123</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659831624</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2517">
-            <jumpto>1125</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659831624</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1125">
-        <prevpageid>1124</prevpageid>
-        <nextpageid>1126</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1659831762</timecreated>
-        <timemodified>1689634393</timemodified>
-        <title>4.18.2: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="ca01dd8c-16a2-4d6b-83c8-0e68c9a2ec95"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2518">
-            <jumpto>1126</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659831762</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(&amp;ndash;2\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Remember to multiply the difference by \(n-1\), not \(n\). Substitute the values into the nth term formula for arithmetic sequences. The answer is 0.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2519">
-            <jumpto>1126</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659831762</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(&amp;ndash;22\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Make sure to add to the first term. The answer is 0.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2520">
-            <jumpto>1127</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1659831762</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(0\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Substitute into the formula, \(a_n=a_1+(n-1)d\), so that \(a_{12}=22+(12-1)(-2)=22+(-22)=0\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2521">
-            <jumpto>1126</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659831762</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(&amp;ndash;45056\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Use the formula for arithmetic sequences, not geometric. The answer is 0.&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2522">
-            <jumpto>1126</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659831762</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1126">
-        <prevpageid>1125</prevpageid>
-        <nextpageid>1127</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1659831930</timecreated>
-        <timemodified>1689634402</timemodified>
-        <title>4.18.2: Additional Resources </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="ca6b2a3e-66aa-43b6-9487-037d1e961984"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659797591</timecreated>
+        <timemodified>1689634761</timemodified>
+        <title>4.17.0: Lesson Overview</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="bcf563f9-784a-4301-a12f-f6f95f945365"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="2523">
-            <jumpto>1125</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659831930</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’d like to retry the self check.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2524">
-            <jumpto>1127</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659831930</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1127">
-        <prevpageid>1126</prevpageid>
-        <nextpageid>1128</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1659832403</timecreated>
-        <timemodified>1689634411</timemodified>
-        <title>4.18.3: Identify a Domain for a Function</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="aec423ce-4269-4ce6-809f-d7c0c9558754"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2525">
-            <jumpto>1124</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832403</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2526">
-            <jumpto>1128</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832403</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1128">
-        <prevpageid>1127</prevpageid>
-        <nextpageid>1129</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1659832511</timecreated>
-        <timemodified>1689634421</timemodified>
-        <title>4.18.3: Self Check </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="11583c30-ea4c-437a-926c-a39b1fa4f5b4"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2527">
-            <jumpto>1129</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832511</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;45&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: \(n=5\) must be substituted into the equation. This is \(\frac{180}{4}\). The answer is \(\frac{180}{81}\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2528">
-            <jumpto>1129</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832511</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;20&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: This is the value when \(n=3\). The answer is \(\frac{180}{81}\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2529">
-            <jumpto>1130</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1659832511</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(\frac{180}{81}\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Substitute \(n=5\) into the function. \((\frac13)^4=\frac{1}{81}\), so \(J(4)=\frac{180}{81}\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2530">
-            <jumpto>1129</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832511</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(\frac{1}{81}\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Make sure to multiply \((\frac13)^4\) by \(180\). The answer is \(\frac{180}{81}\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2531">
-            <jumpto>1129</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832511</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1129">
-        <prevpageid>1128</prevpageid>
-        <nextpageid>1130</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1659832705</timecreated>
-        <timemodified>1689634429</timemodified>
-        <title>4.18.3: Additional Resources </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="ba8bdd23-335f-4c02-b0c2-fe5c1456b4ce"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2532">
-            <jumpto>1128</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832705</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’d like to retry the self check.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2533">
             <jumpto>-1</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659832705</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1130">
-        <prevpageid>1129</prevpageid>
-        <nextpageid>1131</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1659832943</timecreated>
-        <timemodified>1689654082</timemodified>
-        <title>4.18.4: Interchanging between Formulas</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="c2e71b48-b036-417f-b76d-6687358c4ccb"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2534">
-            <jumpto>1127</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832943</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2535">
-            <jumpto>1131</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832943</timecreated>
+            <timecreated>1659797591</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1131">
-        <prevpageid>1130</prevpageid>
-        <nextpageid>1132</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1659833070</timecreated>
-        <timemodified>1689634448</timemodified>
-        <title>4.18.4: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="cf0d6c4e-f09e-4b77-a7e4-ffec54fd6f85"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2536">
-            <jumpto>1132</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659833070</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(g_n=6n+-3\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The common ratio should be raised to the power of \(n-1\), and the first term should be multiplied, not added. The answer is \(g_n=-3 \cdot 6^{n-1}\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2537">
-            <jumpto>1132</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659833070</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(g_n=-3 \cdot 6^n\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The first term using this formula is &amp;ndash;18. Use \(n-1\) for the exponent. The answer is \(g_n=-3 \cdot 6^{n-1}\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2538">
-            <jumpto>1133</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1659833070</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(g_n=-3 \cdot 6^{n-1}\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: The first term was &amp;ndash;3, and the common ratio is 6.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2539">
-            <jumpto>1132</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659833070</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(g_n=6(n-1)-3\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The first term should be multiplied by the common ratio. The answer is \(g_n=-3 \cdot 6^{n-1}\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2540">
-            <jumpto>1132</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659833070</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
             <attempts>
             </attempts>
           </answer>
@@ -612,34 +81,34 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659833212</timecreated>
-        <timemodified>1689634457</timemodified>
-        <title>4.18.4: Additional Resources </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="dcb3267b-443d-4f5c-897e-1b89e70b7dcc"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659797763</timecreated>
+        <timemodified>1689634771</timemodified>
+        <title>4.17.1: Define a Sequence</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="7be54f29-3ed2-436c-a8a1-05804e43e51c"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2541">
-            <jumpto>1131</jumpto>
+          <answer id="2524">
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659833212</timecreated>
+            <timecreated>1659797763</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>I’d like to retry the self check.</answer_text>
+            <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
-          <answer id="2542">
-            <jumpto>1133</jumpto>
+          <answer id="2525">
+            <jumpto>-1</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659833212</timecreated>
+            <timecreated>1659797763</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
+            <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
@@ -657,18 +126,18 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659833453</timecreated>
-        <timemodified>1689634467</timemodified>
-        <title>4.18.5: Different Types of Equations</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="f69da5a2-7218-4a72-95d0-67533258703c"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659799288</timecreated>
+        <timemodified>1689634783</timemodified>
+        <title>4.17.2: What Is a Recursive Definition?</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="e14b3c4c-857d-4d0f-85e8-95fd74ad4614"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2543">
-            <jumpto>1130</jumpto>
+          <answer id="2526">
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659833453</timecreated>
+            <timecreated>1659799288</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -677,12 +146,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="2544">
-            <jumpto>1134</jumpto>
+          <answer id="2527">
+            <jumpto>-1</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659833453</timecreated>
+            <timecreated>1659799288</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -702,18 +171,18 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659833518</timecreated>
-        <timemodified>1689634476</timemodified>
-        <title>4.18.6: Practice </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="48fae8e7-13e4-448a-a865-9bf352cf3e7a"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659806078</timecreated>
+        <timemodified>1689634800</timemodified>
+        <title>4.17.3: Ways to Represent a Sequence</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="859f0953-9245-4c8c-9168-46ded13d15b0"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2545">
-            <jumpto>1133</jumpto>
+          <answer id="2528">
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659833518</timecreated>
+            <timecreated>1659806078</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -722,12 +191,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="2546">
-            <jumpto>1135</jumpto>
+          <answer id="2529">
+            <jumpto>-1</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659833518</timecreated>
+            <timecreated>1659806078</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -742,23 +211,23 @@
       </page>
       <page id="1135">
         <prevpageid>1134</prevpageid>
-        <nextpageid>0</nextpageid>
+        <nextpageid>1136</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1659833748</timecreated>
-        <timemodified>1689634485</timemodified>
-        <title>4.18.7: Lesson Summary</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="c3240dcc-73c8-4004-9776-84a18696f044"&gt;&lt;/div&gt;</contents>
+        <timecreated>1659806430</timecreated>
+        <timemodified>1689634811</timemodified>
+        <title>4.17.4: Geometric Recursive Definitions</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="8d145a1e-57aa-4594-8a22-4812a0286629"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2547">
-            <jumpto>1134</jumpto>
+          <answer id="2530">
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659833748</timecreated>
+            <timecreated>1659806430</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -767,12 +236,102 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="2548">
+          <answer id="2531">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659806430</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1136">
+        <prevpageid>1135</prevpageid>
+        <nextpageid>1137</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659807430</timecreated>
+        <timemodified>1689634819</timemodified>
+        <title>4.17.5: Practice </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="c2300523-f0b8-448f-8e6d-e3fa7b61fcc2"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2532">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659807430</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2533">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659807430</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1137">
+        <prevpageid>1136</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659807590</timecreated>
+        <timemodified>1689634828</timemodified>
+        <title>4.17.6: Lesson Synthesis</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="74c2f540-6899-41b4-950e-0d5a3884477f"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2534">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659807590</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2535">
             <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659833748</timecreated>
+            <timecreated>1659807590</timecreated>
             <timemodified>0</timemodified>
             <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>
