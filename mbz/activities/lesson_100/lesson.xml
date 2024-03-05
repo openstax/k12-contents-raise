@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="75" moduleid="100" modulename="lesson" contextid="111">
-  <lesson id="75">
+<activity id="78" moduleid="100" modulename="lesson" contextid="111">
+  <lesson id="78">
     <course>2</course>
-    <name>Lesson 3.3: Residuals</name>
+    <name>Lesson 3.2 Teacher Guide: Fitting Lines</name>
     <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
@@ -24,7 +24,7 @@
     <maxpages>1</maxpages>
     <timelimit>0</timelimit>
     <retake>1</retake>
-    <activitylink>0</activitylink>
+    <activitylink>101</activitylink>
     <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
@@ -38,30 +38,255 @@
     <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1690400076</timemodified>
+    <timemodified>1690400037</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="694">
+      <page id="689">
         <prevpageid>0</prevpageid>
+        <nextpageid>690</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657553989</timecreated>
+        <timemodified>1659407407</timemodified>
+        <title>3.2.0: Lesson Overview</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="9b75f40a-0ed3-4bff-a8bb-857d379213a4"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1526">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657553989</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="690">
+        <prevpageid>689</prevpageid>
+        <nextpageid>691</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657554474</timecreated>
+        <timemodified>1658679754</timemodified>
+        <title>3.2.1: Selecting the Best Line</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="fef80c01-afb2-4af5-8748-fba7b3cb8b78"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1527">
+            <jumpto>689</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657554474</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1528">
+            <jumpto>691</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657554474</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="691">
+        <prevpageid>690</prevpageid>
+        <nextpageid>692</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657555697</timecreated>
+        <timemodified>1689656826</timemodified>
+        <title>3.2.2: Determining the Best Line That Fits the Data</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="53185bb2-edf3-4c6c-8dbe-003e1bb58b6f"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1529">
+            <jumpto>690</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657555697</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1530">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657555697</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="692">
+        <prevpageid>691</prevpageid>
+        <nextpageid>693</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1689656802</timecreated>
+        <timemodified>0</timemodified>
+        <title>3.2.3: Writing Linear Models without Technology</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ec91c8a0-effb-48d9-9912-78b117d3872f"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1539">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1689656802</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1540">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1689656802</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="693">
+        <prevpageid>692</prevpageid>
+        <nextpageid>694</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1657563042</timecreated>
+        <timemodified>1689656861</timemodified>
+        <title>3.2.4: Assessing the Fit of a Linear Model</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="25ed3bfa-ab94-416a-bfb3-65582b3e5235"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="1531">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657563042</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1532">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657563042</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="694">
+        <prevpageid>693</prevpageid>
         <nextpageid>695</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1658455034</timecreated>
-        <timemodified>1659027944</timemodified>
-        <title>3.3.0: Lesson Overview</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="e92c3ce3-32e1-4a4c-8f37-968f78ae17c8"&gt;&lt;/div&gt;</contents>
+        <timecreated>1657563914</timecreated>
+        <timemodified>1689656866</timemodified>
+        <title>3.2.5: Working with Fitted Lines</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="236c9455-64d0-49d6-b7bb-de067f955657"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1551">
+          <answer id="1533">
+            <jumpto>693</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1657563914</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="1534">
             <jumpto>695</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658455034</timecreated>
+            <timecreated>1657563914</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -81,18 +306,18 @@
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1658455172</timecreated>
-        <timemodified>1659031615</timemodified>
-        <title>3.3.1: Subtracting an Estimated Value from an Actual Value</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="624eeb99-7551-4cf2-9407-82f888a2db34"&gt;&lt;/div&gt;</contents>
+        <timecreated>1657564937</timecreated>
+        <timemodified>1689656872</timemodified>
+        <title>3.2.6: Practice </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="9d3a3ac2-3766-4254-94f0-39d98232e1bf"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1552">
+          <answer id="1535">
             <jumpto>694</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658455172</timecreated>
+            <timecreated>1657564937</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -101,12 +326,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="1553">
+          <answer id="1536">
             <jumpto>696</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658455172</timecreated>
+            <timecreated>1657564937</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -121,467 +346,23 @@
       </page>
       <page id="696">
         <prevpageid>695</prevpageid>
-        <nextpageid>697</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658455861</timecreated>
-        <timemodified>1659032214</timemodified>
-        <title>3.3.2: Plotting and Analyzing Residuals</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="826fd9f7-6dbe-4365-beff-8d29c691d716"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1554">
-            <jumpto>695</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658455861</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1555">
-            <jumpto>697</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658455861</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="697">
-        <prevpageid>696</prevpageid>
-        <nextpageid>698</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1658456407</timecreated>
-        <timemodified>1658752062</timemodified>
-        <title>3.3.2: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="4311eddc-3221-49e7-8045-f6075c6ecdf7"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1556">
-            <jumpto>698</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658456407</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(2.4\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Be sure to add the constant when evaluating the line of best fit at \(x = 3\). Then find the actual \(y\)-value &amp;ndash; estimated \(y\)-value. The answer is \(-1\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1557">
-            <jumpto>698</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658456407</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(1\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: To find the residual, subtract the actual value &amp;ndash; estimated value. Watch the order of the values and the signs when subtracting. The answer is \(-1\).&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1558">
-            <jumpto>699</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1658456407</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(-1\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself. Substitute \(x =3\) so that \(y=2.2(3)+3.4= 10\). This is the estimated value. The actual value at \(x=3\) is 9, so \(9-10 =-1\).&amp;nbsp;&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1559">
-            <jumpto>698</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658456407</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(14.2\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way. Substitute 3 in for \(x\), not 9, in the equation. The answer is \(-1\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1560">
-            <jumpto>698</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658456407</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="698">
-        <prevpageid>697</prevpageid>
-        <nextpageid>699</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658456596</timecreated>
-        <timemodified>1658752273</timemodified>
-        <title>3.3.2: Additional Resources</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="e75b3fba-e1a0-4914-bad3-94e8968e834c"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1561">
-            <jumpto>697</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658456596</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’d like to retry the self check.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1562">
-            <jumpto>699</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658456596</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="699">
-        <prevpageid>698</prevpageid>
-        <nextpageid>700</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658457074</timecreated>
-        <timemodified>1658752520</timemodified>
-        <title>3.3.3: Matching Residuals Graphs to Scatter Plots</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="a8bde270-d807-499e-94e4-7e8005fbd51e"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1563">
-            <jumpto>699</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658457074</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1564">
-            <jumpto>700</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658457074</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="700">
-        <prevpageid>699</prevpageid>
-        <nextpageid>701</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1658458382</timecreated>
-        <timemodified>1658752889</timemodified>
-        <title>3.3.3: Self Check </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="2815109e-2c5d-4a6e-afb5-10e531d8e30d"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1565">
-            <jumpto>701</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658458382</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/59c32c1a7c427cbda9da367abf7eac41ecddc741" width="215"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span&gt;Incorrect. Let&amp;rsquo;s try again a different way: The residual shows a good line of best fit if the points are scattered above and below the horizontal line of 0 without a pattern or curve. The answer is&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;p dir="ltr"&gt;&lt;span&gt;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" width="215"&gt;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1566">
-            <jumpto>701</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658458382</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/b41bf70fcf1fec0b55323d9f0376930008f37343" width="215"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The residual shows a good line of best fit if the points are scattered above and below the horizontal line of 0 without a pattern or curve. The answer is&amp;nbsp;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" width="215"&gt;&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1567">
-            <jumpto>702</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1658458382</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" width="215"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: The points in the residual are scattered randomly above and below the horizontal line that is 0. There is no curve or pattern.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1568">
-            <jumpto>701</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658458382</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/3c933e9a588ba22651de23e9237dd72a998aecd4" width="215"&gt;&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: The residual shows a good line of best fit if the points are scattered above and below the horizontal line of 0 without a pattern or curve. The answer is&amp;nbsp;&lt;img alt height="176" role="presentation" src="https://k12.openstax.org/contents/raise/resources/2ea7b5bc5457ce5ff8b45d136af951028a1d525a" width="215"&gt;&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1569">
-            <jumpto>701</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658458382</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="701">
-        <prevpageid>700</prevpageid>
-        <nextpageid>702</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658458557</timecreated>
-        <timemodified>1658752967</timemodified>
-        <title>3.3.3: Additional Resources</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="6edb2282-00c3-4799-86a4-1eb6fc5d305c"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1570">
-            <jumpto>700</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658458557</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’d like to retry the self check.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1571">
-            <jumpto>702</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658458557</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="702">
-        <prevpageid>701</prevpageid>
-        <nextpageid>703</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658458692</timecreated>
-        <timemodified>1659043946</timemodified>
-        <title>3.3.4: Identifying Best Fit Line for Residuals on a Graph </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="a43d93bb-22a8-44d9-9efe-1dcbc4d3d504"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1572">
-            <jumpto>701</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658458692</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1573">
-            <jumpto>703</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658458692</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text> Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="703">
-        <prevpageid>702</prevpageid>
-        <nextpageid>704</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1658459616</timecreated>
-        <timemodified>1659044156</timemodified>
-        <title>3.3.5: Practice</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="687e9086-4beb-4a6d-b7a8-832ddd07b55e"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1574">
-            <jumpto>702</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658459616</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1575">
-            <jumpto>704</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1658459616</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="704">
-        <prevpageid>703</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1658460689</timecreated>
-        <timemodified>1663877465</timemodified>
-        <title>3.3.6: Lesson Summary</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="a7b84959-85f5-4411-932d-cfc71a7c8ebb"&gt;&lt;/div&gt;</contents>
+        <timecreated>1657565149</timecreated>
+        <timemodified>1689656877</timemodified>
+        <title>3.2.7: Lesson Synthesis</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="c294557a-339d-4bb2-b51b-f8cc1c581bc9"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1576">
-            <jumpto>703</jumpto>
+          <answer id="1537">
+            <jumpto>695</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658460689</timecreated>
+            <timecreated>1657565149</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -590,12 +371,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="1577">
+          <answer id="1538">
             <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1658460689</timecreated>
+            <timecreated>1657565149</timecreated>
             <timemodified>0</timemodified>
             <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>

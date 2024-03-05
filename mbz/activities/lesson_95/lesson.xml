@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="70" moduleid="95" modulename="lesson" contextid="106">
-  <lesson id="70">
+<activity id="74" moduleid="95" modulename="lesson" contextid="106">
+  <lesson id="74">
     <course>2</course>
-    <name>Lesson 3.1 Teacher Guide: Linear Models</name>
+    <name>Unit 3 Teacher Guide</name>
     <intro></intro>
     <introformat>1</introformat>
-    <practice>1</practice>
-    <modattempts>0</modattempts>
+    <practice>0</practice>
+    <modattempts>1</modattempts>
     <usepassword>0</usepassword>
     <password></password>
     <dependency>0</dependency>
@@ -16,15 +16,15 @@
     <ongoing>0</ongoing>
     <usemaxgrade>0</usemaxgrade>
     <maxanswers>5</maxanswers>
-    <maxattempts>0</maxattempts>
-    <review>0</review>
+    <maxattempts>1</maxattempts>
+    <review>1</review>
     <nextpagedefault>0</nextpagedefault>
     <feedback>0</feedback>
     <minquestions>0</minquestions>
     <maxpages>1</maxpages>
     <timelimit>0</timelimit>
     <retake>1</retake>
-    <activitylink>96</activitylink>
+    <activitylink>0</activitylink>
     <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
@@ -38,210 +38,30 @@
     <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1690400008</timemodified>
+    <timemodified>1690469393</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="643">
+      <page id="653">
         <prevpageid>0</prevpageid>
-        <nextpageid>644</nextpageid>
+        <nextpageid>654</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1657473949</timecreated>
-        <timemodified>1658869152</timemodified>
-        <title>3.1.0: Lesson Overview</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="0e01d382-c0c0-4cd8-bc4e-23acf7cf58dc"&gt;&lt;/div&gt;</contents>
+        <timecreated>1657463196</timecreated>
+        <timemodified>1690469412</timemodified>
+        <title>Unit 3 Overview and Readiness</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="8617b423-741d-423a-bdf5-45f419e680e9"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="1437">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1657473949</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="644">
-        <prevpageid>643</prevpageid>
-        <nextpageid>645</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1657475302</timecreated>
-        <timemodified>1658622494</timemodified>
-        <title>3.1.1: Exploring Scatter Plots</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="8a520b7e-192f-4229-bf44-058c5798b477"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1438">
-            <jumpto>643</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1657475302</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1439">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1657475302</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="645">
-        <prevpageid>644</prevpageid>
-        <nextpageid>646</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1657478448</timecreated>
-        <timemodified>1658871677</timemodified>
-        <title>3.1.2: Creating a Scatter Plot Using Data</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="93417e34-e4ad-4240-8c67-f35fe01eb773"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1440">
-            <jumpto>644</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1657478448</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1441">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1657478448</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="646">
-        <prevpageid>645</prevpageid>
-        <nextpageid>647</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1657483205</timecreated>
-        <timemodified>1658927802</timemodified>
-        <title>3.1.3: Interpreting the Slope and Vertical Intercept of a Linear Model</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="f7913271-ce3f-4f4d-baf4-0c75a8790351"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1442">
-            <jumpto>645</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1657483205</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="1443">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1657483205</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="647">
-        <prevpageid>646</prevpageid>
-        <nextpageid>648</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1657494969</timecreated>
-        <timemodified>1658873930</timemodified>
-        <title>3.1.4: Interpreting the Slope and Vertical Intercept of a Scatter Plot</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="a1d98125-0fba-4dc3-9f1c-c45332e91545"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="1444">
-            <jumpto>646</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1657494969</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
           <answer id="1445">
             <jumpto>-1</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1657494969</timecreated>
+            <timecreated>1657463196</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -254,25 +74,25 @@
         <branches>
         </branches>
       </page>
-      <page id="648">
-        <prevpageid>647</prevpageid>
-        <nextpageid>649</nextpageid>
+      <page id="654">
+        <prevpageid>653</prevpageid>
+        <nextpageid>655</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1657496969</timecreated>
-        <timemodified>1658623261</timemodified>
-        <title>3.1.5: Using an Equation for a Fit Line </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="3142e865-b01e-4454-b0e4-95411a409889"&gt;&lt;/div&gt;</contents>
+        <timecreated>1657463299</timecreated>
+        <timemodified>1658843551</timemodified>
+        <title>Unit 3 Narrative</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="6ecfd860-22ab-45a9-ab31-c9c54d27b769"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1446">
-            <jumpto>647</jumpto>
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1657496969</timecreated>
+            <timecreated>1657463299</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -286,7 +106,7 @@
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1657496969</timecreated>
+            <timecreated>1657463299</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -299,25 +119,25 @@
         <branches>
         </branches>
       </page>
-      <page id="649">
-        <prevpageid>648</prevpageid>
-        <nextpageid>650</nextpageid>
+      <page id="655">
+        <prevpageid>654</prevpageid>
+        <nextpageid>656</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1657498377</timecreated>
-        <timemodified>1659019040</timemodified>
-        <title>3.1.6: Practice</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="3107b4b5-170a-4fc4-bc4f-dee2caa0e850"&gt;&lt;/div&gt;</contents>
+        <timecreated>1657464033</timecreated>
+        <timemodified>1659379752</timemodified>
+        <title>Unit 3 Family Support Materials</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="2dd5bbad-9cf2-4cf9-8866-158cabf9243f"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1448">
-            <jumpto>648</jumpto>
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1657498377</timecreated>
+            <timecreated>1657464033</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -331,7 +151,7 @@
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1657498377</timecreated>
+            <timecreated>1657464033</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -344,25 +164,25 @@
         <branches>
         </branches>
       </page>
-      <page id="650">
-        <prevpageid>649</prevpageid>
-        <nextpageid>0</nextpageid>
+      <page id="656">
+        <prevpageid>655</prevpageid>
+        <nextpageid>657</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1657498451</timecreated>
-        <timemodified>1663870438</timemodified>
-        <title>3.1.7: Lesson Synthesis</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="a2d622df-aa8a-49bc-8b87-e45200ee9a6a"&gt;&lt;/div&gt;</contents>
+        <timecreated>1657469192</timecreated>
+        <timemodified>1658867784</timemodified>
+        <title>Building Character: Purpose</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="f2dad4e6-157c-4ef9-9af0-10752d5e5e70"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="1450">
-            <jumpto>649</jumpto>
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1657498451</timecreated>
+            <timecreated>1657469192</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -371,14 +191,31 @@
             <attempts>
             </attempts>
           </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="657">
+        <prevpageid>656</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1689652313</timecreated>
+        <timemodified>1689652641</timemodified>
+        <title>Supporting English Language Proficiency Standards (ELPS)</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="4f70f7b4-5d55-41fe-81ee-bac4396655e5"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
           <answer id="1451">
-            <jumpto>-9</jumpto>
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1657498451</timecreated>
+            <timecreated>1689652313</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>End of Lesson</answer_text>
+            <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>

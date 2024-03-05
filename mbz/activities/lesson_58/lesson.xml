@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="45" moduleid="58" modulename="lesson" contextid="69">
-  <lesson id="45">
+<activity id="47" moduleid="58" modulename="lesson" contextid="69">
+  <lesson id="47">
     <course>2</course>
-    <name>Lesson 2.5 Teacher Guide: Solving Systems by Elimination, Part 2</name>
+    <name>Lesson 2.3: Solving Systems by Substitution</name>
     <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
@@ -24,7 +24,7 @@
     <maxpages>1</maxpages>
     <timelimit>0</timelimit>
     <retake>1</retake>
-    <activitylink>59</activitylink>
+    <activitylink>60</activitylink>
     <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
@@ -38,30 +38,519 @@
     <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1689623409</timemodified>
+    <timemodified>1690399334</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="403">
+      <page id="394">
         <prevpageid>0</prevpageid>
+        <nextpageid>395</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1638449716</timecreated>
+        <timemodified>1689628850</timemodified>
+        <title>2.3.0: Lesson Overview</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="efec898a-b2ae-48e0-af3e-451202fc0aba"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="869">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1638449716</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="395">
+        <prevpageid>394</prevpageid>
+        <nextpageid>396</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637349622</timecreated>
+        <timemodified>1689628857</timemodified>
+        <title>2.3.1: Finding Connections between Graphs and Equations</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="cac5969b-d28f-4d0f-8106-7e149549b9fd"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="865">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637349622</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="870">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637349622</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="396">
+        <prevpageid>395</prevpageid>
+        <nextpageid>397</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637350130</timecreated>
+        <timemodified>1689628864</timemodified>
+        <title>2.3.2: Checking Solutions in Systems</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="bd3d4e7a-d0d1-4c8a-b816-6592127b556a"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="866">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350130</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="871">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350130</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="397">
+        <prevpageid>396</prevpageid>
+        <nextpageid>398</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1656206148</timecreated>
+        <timemodified>1689777956</timemodified>
+        <title>2.3.2: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="8434f545-b617-4f83-a380-14f4c9cfeed1"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="876">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656206148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( x = 3 \), \( y = 1 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again in a different way: Did you switch the values for each variable? The answer is \(x = 1\) and \(y = 3\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="877">
+            <jumpto>398</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656206148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( x = -3 \), \( y = 5 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again in a different way: Do these values make the first equation true? The answer is \(x = 1\) and \(y = 3\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="878">
+            <jumpto>398</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656206148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;\( x = 3 \), \( y = -3 \)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again in a different way: Do these values make the second equation true? The answer is \(x = 1\) and \(y = 3\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="879">
+            <jumpto>399</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1656206148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( x = 1 \), \( y = 3 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Correct! Check yourself: Substituting 1 for \(x\) and 3 for \(y\) makes each equation true.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="889">
+            <jumpto>398</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656206148</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="398">
+        <prevpageid>397</prevpageid>
+        <nextpageid>399</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1654097725</timecreated>
+        <timemodified>1689628889</timemodified>
+        <title>2.3.2: Additional Resources </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="6697187e-ce4f-4977-9291-ea52f470993c"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="874">
+            <jumpto>397</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1654097725</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="875">
+            <jumpto>399</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1654097725</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="399">
+        <prevpageid>398</prevpageid>
+        <nextpageid>400</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637350342</timecreated>
+        <timemodified>1689628903</timemodified>
+        <title>2.3.3: Solving Equations Using Substitution</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="b5e3d11f-b4a2-43ae-a4d8-61af6ceb3a5b"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="867">
+            <jumpto>396</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350342</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="872">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350342</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="400">
+        <prevpageid>399</prevpageid>
+        <nextpageid>401</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1656207788</timecreated>
+        <timemodified>1690234090</timemodified>
+        <title>2.3.3: Self Check </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="9d18a26f-5c9c-464f-b76d-f88d7ad0c027"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="880">
+            <jumpto>402</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1656207788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( x = -2 \) &lt;br&gt; \( y = 0 \)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Correct! Check yourself: Substituting \(-2\) for \( x \) and 0 for \( y \) makes each equation true.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="881">
+            <jumpto>401</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656207788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( x = 0 \) &lt;br&gt; \( y = 3 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again in a different way: Did you solve the first equation for \(y\)? Did you substitute \( -2x - 4 \) into the second equation for \(y\)? The answer is \( x = -2 \) and \( y = 0 \).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="882">
+            <jumpto>401</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656207788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( x = -4 \) &lt;br&gt; \( y = 0 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again in a different way: Did you solve the first equation for \(y\)? Did you substitute \( -2x - 4 \) into the second equation for \(y\)? The answer is \( x = -2 \) and \( y = 0 \).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="883">
+            <jumpto>401</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656207788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\( x = -6 \) &lt;br&gt; \( y = 6 \)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again in a different way: Did you solve the first equation for \(y\)? Did you substitute \( -2x - 4 \) into the second equation for \(y\)? The answer is \( x = -2 \) and \( y = 0 \).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="890">
+            <jumpto>401</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656207788</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="401">
+        <prevpageid>400</prevpageid>
+        <nextpageid>402</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1656208060</timecreated>
+        <timemodified>1689628918</timemodified>
+        <title>2.3.3: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="8aee855f-c46d-4ba1-9b8a-06d3bd713121"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="884">
+            <jumpto>400</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656208060</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="885">
+            <jumpto>402</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656208060</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="402">
+        <prevpageid>401</prevpageid>
+        <nextpageid>403</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1637350447</timecreated>
+        <timemodified>1689628924</timemodified>
+        <title>2.3.4: Solving More Equations</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="3b42ce72-ea1e-4fa3-864e-69d9687036ad"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="868">
+            <jumpto>399</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350447</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="873">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1637350447</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="403">
+        <prevpageid>402</prevpageid>
         <nextpageid>404</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1638357583</timecreated>
-        <timemodified>1689629100</timemodified>
-        <title>2.5.0: Lesson Overview</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="34b04d10-5f80-4628-8e93-711e4d9bc250"&gt;&lt;/div&gt;</contents>
+        <timecreated>1656208470</timecreated>
+        <timemodified>1689628931</timemodified>
+        <title>2.3.5: Practice</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="b20d4627-5368-4e5d-87b2-356f4a558a55"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="901">
-            <jumpto>404</jumpto>
+          <answer id="886">
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1638357583</timecreated>
+            <timecreated>1656208470</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="887">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1656208470</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -76,262 +565,37 @@
       </page>
       <page id="404">
         <prevpageid>403</prevpageid>
-        <nextpageid>405</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1654288209</timecreated>
-        <timemodified>1689629109</timemodified>
-        <title>2.5.1: Writing and Evaluating New Equations</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="d73f0137-f866-4dda-9149-282ad1af7342"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="903">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1654288209</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="904">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1654288209</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="405">
-        <prevpageid>404</prevpageid>
-        <nextpageid>406</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1654288615</timecreated>
-        <timemodified>1689629115</timemodified>
-        <title>2.5.2: Adding Two Equations in a System</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="8bceb00e-777b-4e09-9f24-b3a47ddf92a8"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="905">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1654288615</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="906">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1654288615</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="406">
-        <prevpageid>405</prevpageid>
-        <nextpageid>407</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1654290868</timecreated>
-        <timemodified>1689629121</timemodified>
-        <title>2.5.3: Solving Systems of Linear Equations in Two Variables</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="ebc9ce5a-0de2-4e4e-8c78-5ddb08783df7"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="907">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1654290868</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="908">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1654290868</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="407">
-        <prevpageid>406</prevpageid>
-        <nextpageid>408</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1654292993</timecreated>
-        <timemodified>1689629127</timemodified>
-        <title>2.5.4: Solving Systems of Equations Using Real-World Examples </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="15c17242-46fd-4ad5-8739-8e2c335f5bf4"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="909">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1654292993</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="910">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1654292993</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="408">
-        <prevpageid>407</prevpageid>
-        <nextpageid>409</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1654293367</timecreated>
-        <timemodified>1689629134</timemodified>
-        <title>2.5.5: Practice </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="727e7e42-25aa-46a5-8b11-1ecd7ce05dd6"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="911">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1654293367</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="912">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1654293367</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="409">
-        <prevpageid>408</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1638364388</timecreated>
-        <timemodified>1689629140</timemodified>
-        <title>2.5.6: Lesson Synthesis</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="6413d708-9522-4476-82e6-db16d09590c8"&gt;&lt;/div&gt;</contents>
+        <timecreated>1656208568</timecreated>
+        <timemodified>1689628937</timemodified>
+        <title>2.3.6: Lesson Summary</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="b5109e67-18c9-4960-bc79-7005a232db23"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="902">
+          <answer id="888">
             <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1638364388</timecreated>
+            <timecreated>1656208568</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
+            <answer_text> Previous</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
-          <answer id="913">
+          <answer id="891">
             <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1638364388</timecreated>
+            <timecreated>1656208568</timecreated>
             <timemodified>0</timemodified>
             <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>
