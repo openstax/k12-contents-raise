@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <moodle_backup>
   <information>
-    <name>backup-moodle2-course-2-alg1_staging-20240305-1940-nu.mbz</name>
+    <name>backup-moodle2-course-2-alg1_staging-20240404-2211-nu.mbz</name>
     <moodle_version>2022112809</moodle_version>
     <moodle_release>4.1.9 (Build: 20240212)</moodle_release>
     <backup_version>2022112800</backup_version>
     <backup_release>4.1</backup_release>
-    <backup_date>1709667668</backup_date>
+    <backup_date>1712265114</backup_date>
     <mnet_remoteusers>0</mnet_remoteusers>
     <include_files>1</include_files>
     <include_file_references_to_external_content>0</include_file_references_to_external_content>
     <original_wwwroot>http://localhost:8000</original_wwwroot>
-    <original_site_identifier_hash>1b048a32b01d7a9f5f1f770611af4d82</original_site_identifier_hash>
+    <original_site_identifier_hash>704de78c4eec397f7683ac4bc3bc116d</original_site_identifier_hash>
     <original_course_id>2</original_course_id>
     <original_course_format>topics</original_course_format>
     <original_course_fullname>Algebra 1 - Staging</original_course_fullname>
@@ -21,7 +21,7 @@
     <original_course_contextid>11</original_course_contextid>
     <original_system_contextid>1</original_system_contextid>
     <details>
-      <detail backup_id="c2d715b3941234294e5716a30dafa151">
+      <detail backup_id="e92d64daa625173e474481ca7f683d76">
         <type>course</type>
         <format>moodle2</format>
         <interactive>1</interactive>
@@ -1793,14 +1793,14 @@
           <moduleid>252</moduleid>
           <sectionid>10</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 7.3 Teacher Guide: Building Quadratic Functions from Geometric Patterns</title>
+          <title>Lesson 7.3 Teacher Guide:  Determining if a Function is Quadratic</title>
           <directory>activities/lesson_252</directory>
         </activity>
         <activity>
           <moduleid>253</moduleid>
           <sectionid>10</sectionid>
           <modulename>lesson</modulename>
-          <title>Lesson 7.3: Building Quadratic Functions from Geometric Patterns</title>
+          <title>Lesson 7.3:  Determining if a Function is Quadratic</title>
           <directory>activities/lesson_253</directory>
         </activity>
         <activity>
@@ -2643,13 +2643,6 @@
           <title>Progress Monitoring</title>
           <directory>activities/lesson_373</directory>
         </activity>
-        <activity>
-          <moduleid>374</moduleid>
-          <sectionid>15</sectionid>
-          <modulename>lesson</modulename>
-          <title>Standards Snapshots</title>
-          <directory>activities/lesson_374</directory>
-        </activity>
       </activities>
       <sections>
         <section>
@@ -2738,7 +2731,7 @@
       <setting>
         <level>root</level>
         <name>filename</name>
-        <value>backup-moodle2-course-2-alg1_staging-20240305-1940-nu.mbz</value>
+        <value>backup-moodle2-course-2-alg1_staging-20240404-2211-nu.mbz</value>
       </setting>
       <setting>
         <level>root</level>
@@ -7494,18 +7487,6 @@
         <level>activity</level>
         <activity>lesson_373</activity>
         <name>lesson_373_userinfo</name>
-        <value>0</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>lesson_374</activity>
-        <name>lesson_374_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>lesson_374</activity>
-        <name>lesson_374_userinfo</name>
         <value>0</value>
       </setting>
     </settings>
