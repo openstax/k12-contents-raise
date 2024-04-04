@@ -2,16 +2,17 @@
 * Getting Started with RAISE
     * Teachers Start Here
         * [Quick Start](./html/127cdb41-226f-4d45-896f-3c696cc71e95.html)
-        * [Pacing Guide](./html/18add95e-5edd-4c66-a847-edbcd48707ab.html)
-        * [Using Desmos](./html/03703cf5-5000-4fdf-a3ad-61a1201f687e.html)
+        * [Using Desmos](./html/18add95e-5edd-4c66-a847-edbcd48707ab.html)
+        * [Additional Resources](./html/9aa0d600-65a9-4a25-bba8-6a22ad0ea132.html)
     * Students Start Here
         * [Quick Start](./html/d5070ffc-105b-4975-9319-761a2d56071e.html)
         * [Using Desmos](./html/73ce7888-89ba-41aa-84e4-60a7483c388c.html)
+        * [Additional Resources](./html/69c004fd-ea33-46a6-a9f0-a3083c113905.html)
     * [About RAISE](./html/26d5d10b-1ce2-4dcc-960f-43c424c93629.html)
 * Supporting All Learners
     * English Language Learners (ELL)
         * [Standards Overview](./html/6acfae4c-ded2-4440-890b-da46cf14b970.html)
-        * [Aligning RAISE to ELPS](./html/a50560e5-a424-43e3-a2b3-c0c575ab5a77.html)
+        * [Aligning to the ELPS](./html/a50560e5-a424-43e3-a2b3-c0c575ab5a77.html)
         * [Navigating Resources](./html/a8446223-fc56-4472-8f25-7b458e7ce29d.html)
         * [Theory of Action](./html/f901afff-0eb1-4a58-b465-781a01ef4bee.html)
         * [Mathematical Language Routines](./html/30d3918b-7d99-4a8a-a91e-2436f8280000.html)
@@ -22,7 +23,7 @@
         * [Navigating Resources](./html/742ff121-4b38-436c-8680-5f89c4d55b33.html)
         * [Curriculum Features Supporting Access](./html/6a1f61cb-4edb-4b18-bfc6-3c3689de20b1.html)
         * [Instructional Strategies Supporting Access](./html/c82b36fe-a1c7-4008-a5a1-065adf0175b5.html)
-        * [Access for Students with Disabilities](./html/d8226d5d-c121-4e84-a5da-a080fcc1d70a.html)
+        * [Strategies to Support Mathematical Processes](./html/d8226d5d-c121-4e84-a5da-a080fcc1d70a.html)
         * [Modifications & Accommodations for Specific Learning Disabilities](./html/80b4b752-effd-401b-b1ac-4736c4ea9483.html)
         * [Resources and References for Differentiated Math](./html/a9a4457b-e994-44da-a527-de0155e6c870.html)
     * Gifted Students
@@ -594,7 +595,7 @@
         * [2.10.1: Writing an Inequality to Represent a Constraint ](./html/c04f72bf-7b2f-46db-b35a-43acd3c53402.html)
         * [2.10.2: Using Inequalities to Solve a Problem](./html/cfe3019d-7c9c-497e-8cc6-34b83d1db0e3.html)
         * [2.10.3: Different Ways of Solving an Inequality ](./html/c1a773be-1568-4b0d-93f9-db446cf9d1e9.html)
-        * [2.10.4: Matching Inequalities and Solutions (Optional)](./html/2707a7f1-f99c-46e7-bbcd-b1a024fa26e2.html)
+        * [2.10.4: Matching Inequalities and Solutions](./html/2707a7f1-f99c-46e7-bbcd-b1a024fa26e2.html)
         * [2.10.5: Solving Inequalities ](./html/596f7cd9-ade6-4cd8-b077-19f60e00c943.html)
         * [2.10.6: Writing Inequalities to Represent a Situation ](./html/aee7717e-7ac4-4155-b0f4-f2ae0c55da68.html)
         * [2.10.7: Practice ](./html/2bcd410b-94bc-49db-9578-6487e82913be.html)
@@ -641,7 +642,7 @@
         * [2.12.1: Sketching a Graph to Represent an Equation](./html/5d15feaf-e487-4690-ac78-945ebd37bea1.html)
         * [2.12.2: Write an Inequality to Represent a Constraint](./html/f0145133-640f-4941-a134-c32b3cd37ffe.html)
         * [2.12.3: Graphing Solutions and Interpreting Points](./html/1ce58775-5910-4d22-ad95-005021c7d142.html)
-        * [2.12.4: Reasoning Points Along Boundary Line (Optional)](./html/d7da75aa-655b-4168-bbb3-b73ed85fa4d0.html)
+        * [2.12.4: Reasoning Points Along Boundary Line](./html/d7da75aa-655b-4168-bbb3-b73ed85fa4d0.html)
         * [2.12.5: Recognizing Points for an Inequality](./html/a892b9a1-7467-45ce-a35e-a192a1befa0a.html)
         * [2.12.6: Practice](./html/90edb2f6-d955-4f30-ba0e-c172057fd175.html)
         * [2.12.7: Lesson Synthesis](./html/de309d54-4f64-4c8e-aa22-9ab0a5fe98be.html)
@@ -1100,8 +1101,8 @@
         * [4.9.1: Analyzing and Comparing the Properties of Graphs](./html/12cff521-6713-4798-8f44-f1575a4f6c8b.html)
         * [4.9.2: Interpreting Graphs Without Units](./html/ab441afa-e134-4d3c-967c-7eecf9809c68.html)
         * [4.9.3: Sketching Graphs of Functions](./html/98945763-dd6a-4599-8ac4-8da745fb98e8.html)
-        * [4.9.4: Using Verbal Descriptions to Create Graphs of Functions](./html/f8f9bd6f-ca26-402c-b759-4d3854a4e199.html)
-        * [4.9.5: Representing Quantities in a Situation ](./html/41c06865-85de-4faf-9b19-44865f5b0b5e.html)
+        * [4.9.4: Representing Quantities in a Situation ](./html/41c06865-85de-4faf-9b19-44865f5b0b5e.html)
+        * [4.9.5: Using Verbal Descriptions to Create Graphs of Functions](./html/f8f9bd6f-ca26-402c-b759-4d3854a4e199.html)
         * [4.9.6: Practice](./html/2ea33264-a4a7-4d50-a185-764086ab180b.html)
         * [4.9.7: Lesson Synthesis](./html/d8b081e8-b328-443a-8cd3-773cebaca672.html)
     * Lesson 4.9: Interpreting and Creating Graphs
@@ -1113,8 +1114,8 @@
         * [4.9.3: Sketching Graphs of Functions ](./html/379b8e75-7503-4260-ae21-57f2efff442e.html)
         * [4.9.3: Self Check](./html/326795a6-940b-4af6-abe6-2d2e2d6ff469.html)
         * [4.9.3: Additional Resources ](./html/3a076ca3-abf1-4844-82d5-2f775876021f.html)
-        * [4.9.4: Using Verbal Descriptions to Create Graphs of Functions](./html/9af50897-7dd9-45b5-91d9-ffe115364957.html)
-        * [4.9.5: Representing Quantities in a Situation ](./html/8465a1e9-a78a-4055-b4b5-64548132d303.html)
+        * [4.9.4: Representing Quantities in a Situation ](./html/8465a1e9-a78a-4055-b4b5-64548132d303.html)
+        * [4.9.5: Using Verbal Descriptions to Create Graphs of Functions](./html/9af50897-7dd9-45b5-91d9-ffe115364957.html)
         * [4.9.6: Practice](./html/73aca0fe-2a88-4be3-bd5b-6c431f48f141.html)
         * [4.9.7: Lesson Summary](./html/1c895e25-d677-4cc6-890e-a1f6753933c4.html)
     * Lesson 4.10 Teacher Guide: Comparing Graphs
@@ -1168,14 +1169,14 @@
         * [4.11.5: Additional Resources](./html/a945b15e-aac4-48dd-a13d-c6c699025cbd.html)
         * [4.11.6: Graphing Using Transformations](./html/969a5431-73d3-4117-b165-8114bdf3fbdc.html)
         * [4.11.7: Practice](./html/c7292a8c-40af-4c74-bf59-a00394e86628.html)
-        * [4.11.8: Lesson Synthesis](./html/c1d773ea-b7c3-458b-9a3d-b2bc1aacb229.html)
+        * [4.11.8: Lesson Summary](./html/c1d773ea-b7c3-458b-9a3d-b2bc1aacb229.html)
     * [Unit 4 Section C Overview: A Closer Look at Inputs and Outputs](./html/cd1a386c-2202-4b15-9c6e-96fa13507801.html)
     * Lesson 4.12 Teacher Guide: Domain and Range, Part 1
         * [4.12.0: Lesson Overview](./html/a545fab4-a80a-4155-9b5a-7fb561e32c47.html)
         * [4.12.1: Determining Reasonable Inputs and Outputs](./html/16bffab0-690f-42af-a98e-4b7bf48c1932.html)
         * [4.12.2: Domain: The Input of a Function](./html/ee30b4dc-2278-40b8-bfc7-830e7c775c0d.html)
         * [4.12.3: Range: The Output of a Function](./html/7853fa11-5d78-4422-83b0-207ac4330026.html)
-        * [4.12.4: Using Graphs to Determine the Domain of a Function (Optional)](./html/69055bd4-81f6-4b12-91f5-03005d6b4fc4.html)
+        * [4.12.4: Using Graphs to Determine the Domain of a Function](./html/69055bd4-81f6-4b12-91f5-03005d6b4fc4.html)
         * [4.12.5: Using Functions to Answer Real-World Questions](./html/cb321838-6964-4d45-bc6e-27b9ac003093.html)
         * [4.12.6: Practice](./html/6b00e7e9-8f40-490b-be46-fe55048c4690.html)
         * [4.12.7: Lesson Synthesis](./html/7b74fc4f-da3e-4729-8602-dd3e2c152bca.html)
@@ -1943,7 +1944,7 @@
         * [7.2.5: Practice ](./html/07bc801b-3ab1-4603-8c9b-6081492f1097.html)
         * [7.2.6: Lesson Summary](./html/7703a1e1-bb6f-4108-9e94-c42da59e639d.html)
     * [Unit 7 Section B Overview: Quadratic Functions](./html/f6e07beb-8acc-4c2f-96e6-a9763cdb220a.html)
-    * Lesson 7.3 Teacher Guide: Building Quadratic Functions from Geometric Patterns
+    * Lesson 7.3 Teacher Guide:  Determining if a Function is Quadratic
         * [7.3.0: Lesson Overview](./html/70d43e24-da28-4e15-b0a0-e5f98104b6d4.html)
         * [7.3.1: Quadratic Expressions and Area](./html/4a1c96c3-f69c-4a51-b90c-7a3370419e62.html)
         * [7.3.2: Writing Equations for Patterns with Squares](./html/030ae31f-c3ab-4645-9770-89a76206876d.html)
@@ -1951,7 +1952,7 @@
         * [7.3.4: Quadratic Function?](./html/9d57ccc2-b516-4995-bfdc-f2c9fb19f496.html)
         * [7.3.5: Practice ](./html/86725229-1871-4523-9ac8-d7a0c60c0ddb.html)
         * [7.3.6: Lesson Synthesis ](./html/db3b053a-49ae-4b2a-a683-0e14704e270d.html)
-    * Lesson 7.3: Building Quadratic Functions from Geometric Patterns
+    * Lesson 7.3:  Determining if a Function is Quadratic
         * [7.3.0: Lesson Overview](./html/f9fadaad-1c70-4e80-af6b-93a8fd54f6ef.html)
         * [7.3.1: Quadratic Expressions and Area](./html/eeb152b0-50ef-487c-b82d-21a4a00d87ee.html)
         * [7.3.2: Writing Equations for Patterns with Squares](./html/c85982d3-2861-4d59-8753-d6e7897cde40.html)
@@ -2806,24 +2807,15 @@
 * Research in Practice
     * Productive Struggle
         * [Productive Failure](./html/572e3490-f86a-4157-ac29-6f59559ed747.html)
-        * [Inductive Reasoning](./html/2c22358d-dea2-4217-a8ae-7bdc1fecd56d.html)
-        * [Comparisons](./html/563fc8c6-9f6b-49e6-88dd-151db4167972.html)
     * Cooperative Learning and Productive Discourse
         * [Classroom Discussion](./html/51171e52-cfe2-4773-8430-7e2d97f525de.html)
-        * [Small Group Learning](./html/1a9aa5c3-b74c-46e7-8f84-1f3b1098cd33.html)
     * Motivation in the Classroom
         * [Growth Mindset](./html/954a8061-6d43-4f35-b729-da0a4a3eac48.html)
         * [Goal Setting ](./html/94a08a25-0bca-4c5b-ad1e-6fb85f41887c.html)
-        * [Mastery Strategy](./html/15c7c6b2-e502-4e7f-8054-d9992d62c8eb.html)
     * Metacognition
-        * [Metacognition](./html/e5627431-ba12-4a33-b13b-f7122a605499.html)
-        * [Self Explaination](./html/720aafbd-ab2f-46ab-abde-d4c2429818d5.html)
-        * [Reciprocal Teaching](./html/0610e056-0f00-4e78-a3be-316d3cf23638.html)
         * [Spaced Retrieval Practice](./html/894fbf8f-1387-4d92-81e8-94e2bb368efb.html)
     * Multimedia Learning Principle
         * [Multimedia Principle](./html/711dc0f3-7e84-4a0b-b771-e3375183a18f.html)
-        * [Pre-training Principle](./html/2eb233f4-305e-46bf-934a-947753de29d5.html)
-        * [Personalization Principle](./html/5931796b-dd1f-40e4-9e4d-326aa735056e.html)
         * [Generative Learning Principle](./html/f212a4f6-edf2-4e41-a9e6-1bcc4d64460c.html)
 * Appendix
     * Course Design
@@ -2836,7 +2828,3 @@
     * Progress Monitoring
         * [Reports and Measuring Progress](./html/4907c3c3-b487-4a60-bfef-772e526a83a9.html)
         * [Analyzing and Responding to Data](./html/ce458624-3fd9-4647-b05c-5046b8be20e1.html)
-    * Standards Snapshots
-        * [TEKS Snapshot](./html/aae420ce-0eaa-4e82-a9c8-f3365329fdee.html)
-        * [ELPS Snapshot](./html/feea5479-dc5f-4ee0-a2ce-d9309eb36968.html)
-        * [CCSS Snapshot](./html/0b202c52-756c-4b1d-95a8-25a95b30e26e.html)
