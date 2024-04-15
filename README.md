@@ -91,3 +91,4 @@ $ ./scripts/import_mbz.sh content.mbz
 
 The script will create the commit which includes the stages.
 
+Test change
