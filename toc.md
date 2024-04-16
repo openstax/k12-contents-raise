@@ -1,5 +1,6 @@
 # Table of Contents  
-* Getting Started with RAISE
+* Getting Started
+    * [About this Course](./html/26d5d10b-1ce2-4dcc-960f-43c424c93629.html)
     * Teachers Start Here
         * [Quick Start](./html/127cdb41-226f-4d45-896f-3c696cc71e95.html)
         * [Using Desmos](./html/18add95e-5edd-4c66-a847-edbcd48707ab.html)
@@ -8,19 +9,18 @@
         * [Quick Start](./html/d5070ffc-105b-4975-9319-761a2d56071e.html)
         * [Using Desmos](./html/73ce7888-89ba-41aa-84e4-60a7483c388c.html)
         * [Additional Resources](./html/69c004fd-ea33-46a6-a9f0-a3083c113905.html)
-    * [About RAISE](./html/26d5d10b-1ce2-4dcc-960f-43c424c93629.html)
 * Supporting All Learners
     * English Language Learners (ELL)
         * [Standards Overview](./html/6acfae4c-ded2-4440-890b-da46cf14b970.html)
         * [Aligning to the ELPS](./html/a50560e5-a424-43e3-a2b3-c0c575ab5a77.html)
-        * [Navigating Resources](./html/a8446223-fc56-4472-8f25-7b458e7ce29d.html)
+        * [Navigating Resources (ELL)](./html/a8446223-fc56-4472-8f25-7b458e7ce29d.html)
         * [Theory of Action](./html/f901afff-0eb1-4a58-b465-781a01ef4bee.html)
         * [Mathematical Language Routines](./html/30d3918b-7d99-4a8a-a91e-2436f8280000.html)
         * [Resources and References for ELL](./html/65cd6456-8a78-45e4-bf44-726015cf531c.html)
     * Students with Disabilities (SWD)
         * [Universal Design for Learning ](./html/db9e508b-2c58-439c-bebf-dc4e299ba086.html)
         * [Inclusion in Texas Learning Abilities](./html/35131a8b-f388-47cc-a2fa-129cd73a56d0.html)
-        * [Navigating Resources](./html/742ff121-4b38-436c-8680-5f89c4d55b33.html)
+        * [Navigating Resources (SWD)](./html/742ff121-4b38-436c-8680-5f89c4d55b33.html)
         * [Curriculum Features Supporting Access](./html/6a1f61cb-4edb-4b18-bfc6-3c3689de20b1.html)
         * [Instructional Strategies Supporting Access](./html/c82b36fe-a1c7-4008-a5a1-065adf0175b5.html)
         * [Strategies to Support Mathematical Processes](./html/d8226d5d-c121-4e84-a5da-a080fcc1d70a.html)
@@ -30,6 +30,10 @@
         * [Gifted and Talented Standards Overview](./html/ce64d8fd-ba49-4d41-ac57-2756723b0a1a.html)
         * [Extending the Learning](./html/40abb41f-c236-4529-921f-077390cba3f0.html)
         * [Resources and References ](./html/73109a57-bf71-4746-b188-093c015ac002.html)
+    * Preparing for Success
+        * [Study Tips](./html/1d00215a-4e57-470f-80c7-a3de82150911.html)
+        * [Creating Your Best Self](./html/5bf9624b-8ccb-4f82-8cc8-108e137a97c6.html)
+        * [Rebuilding Relationships](./html/be9905b8-fedb-42a2-8ab0-9c6b55d00ab0.html)
 * Unit 1: Linear Equations
     * Unit 1 Teacher Guide
         * [Unit 1 Overview and Readiness](./html/020533d8-ba31-49bb-83a1-e96a37c23c7b.html)
@@ -906,6 +910,14 @@
         * [Unit 4 Family Support Materials](./html/31bd737b-4ff5-404a-81dc-4a11ab0e88b1.html)
         * [Building Character: Creativity](./html/bfa6a630-c370-41b5-8324-d10ed313531b.html)
         * [Supporting English Language Proficiency Standards (ELPS)](./html/baec0f1e-c619-411e-9f43-fc25f89058cf.html)
+    * Unit 4 Inquiry Project Teacher Guide: Defining Functions
+        * [Activity IP4.1: Simulating Relationships ](./html/084876da-09d6-4e78-ae36-5aaabc730547.html)
+        * [Activity IP4.2: What is a function? ](./html/f0c199d1-c39e-41f6-841d-7ab94f677d27.html)
+        * [Activity IP4.3: Different Kinds of Functions](./html/11c39a8d-798b-4d05-b808-bc30217c4bd3.html)
+    * Unit 4 Inquiry Project: Defining Functions
+        * [Part 1: Simulating Relationships](./html/bff2fe03-f055-475a-9b89-11c859d2a115.html)
+        * [Part 2: What is a function?](./html/b68d9c6f-a76b-4b6e-827b-e5ff63a9d980.html)
+        * [Part 3: Different Kinds of Functions ](./html/e408d781-2d31-40f4-a489-b69840c4b917.html)
     * Unit 4 Overview and Readiness
         * [Unit 4 Overview: Why Should I Care?](./html/cb2d5bf8-af22-48e4-8a31-c9c20bf77f68.html)
         * [Unit 4 Overview: Am I Ready to Learn This?](./html/b94e160e-9e6b-4de7-96a5-1dc612c9374b.html)
@@ -916,8 +928,6 @@
         * [Question #3: Extend a Pattern](./html/7d37c329-e4fb-4672-8011-2f9a0da3b395.html)
         * [Extend a Pattern: Mini-Lesson Review](./html/81cd3ea6-bc7d-4462-ac1c-43ce43d53d04.html)
         * [Unit 4 Overview: Wrap Up](./html/f192e47f-eb7a-4ca7-9674-4b32823d5454.html)
-    * [Unit 4 Inquiry Project Teacher Guide: Defining Functions](./html/084876da-09d6-4e78-ae36-5aaabc730547.html)
-    * [Unit 4 Inquiry Project: Defining Functions](./html/bff2fe03-f055-475a-9b89-11c859d2a115.html)
     * [Unit 4 Section A Overview: Functions and Their Representations](./html/af12fc3c-bfef-480a-9a59-dd8a0b95eb01.html)
     * Lesson 4.1 Teacher Guide: Describing and Graphing Situations
         * [4.1.0: Lesson Overview](./html/4940fdf4-9544-47e8-aa18-25bc0f191729.html)
@@ -1710,8 +1720,16 @@
         * [Question #3: Find the Greatest Common Factor](./html/540cd96f-45d5-4348-85de-8039350acdbd.html)
         * [Find the Greatest Common Factor: Mini-Lesson Review](./html/9f389966-4855-430c-a1b5-14f9f62319b4.html)
         * [Unit 6 Overview: Wrap Up](./html/f70aec09-57b1-4a7d-b128-19207f0d4966.html)
-    * [Unit 6 Inquiry Project Teacher Guide: Area Model Multiplication](./html/4c18086f-40b4-46d3-a662-47fff955ec2b.html)
-    * [Unit 6 Inquiry Project: Area Model Multiplication](./html/038da545-167a-4011-b611-d433043ad412.html)
+    * Unit 6 Inquiry Project: Area Model Multiplication
+        * [Part 1: Discovering an Area Model](./html/8dbf8797-126e-47c7-8fdc-fc0a45a301f5.html)
+        * [Part 2: Understanding an Area Model](./html/07ad54f4-f97a-44cf-abda-2b104a51de6b.html)
+        * [Part 3: Using an Area Model](./html/cc92a813-0433-4351-ad4c-b00acbdc6fcb.html)
+        * [Part 4: Applying an Area Model ](./html/8f218b3e-7953-4e30-af8b-b0909544e23d.html)
+    * Unit 6 Inquiry Project Teacher Guide: Area Model Multiplication
+        * [Activity IP6.1: Discovering an Area Model ](./html/4c18086f-40b4-46d3-a662-47fff955ec2b.html)
+        * [Activity IP6.2: Understanding an Area Model ](./html/ec9f0bb1-37c1-4ed5-baf5-9eea082b1be1.html)
+        * [Activity IP6.3: Using an Area Model](./html/d2662d14-0c1a-48dd-891f-66bf4b7d5a7e.html)
+        * [Activity IP6.4: Applying an Area Model](./html/d483b99c-8f41-484c-839a-7ecd35cb0d11.html)
     * [Unit 6 Section A Overview: Operations with Polynomials](./html/46e448a1-9a4b-4ee0-b2c0-1184f1272c90.html)
     * Lesson 6.1 Teacher Guide: Add and Subtract Polynomials
         * [6.1.0: Lesson Overview](./html/b6383594-ab54-4cb3-9db0-eeb0d622fbab.html)
@@ -2821,7 +2839,7 @@
     * Course Design
         * [Unit Sequence and Resources](./html/fc6865f3-3ceb-4f2b-ba3d-507d70b0919d.html)
         * [Lesson Structure and Resources](./html/9070ecd2-fd3b-46a3-a42b-5068d9f195d7.html)
-    * Implementing RAISE
+    * Implementing This Course
         * [Pacing Guides](./html/004bd967-ac71-47c1-a948-c40b314d8660.html)
         * [Implementation Guides](./html/989d2a62-1018-49ec-b3fb-b98aa0467688.html)
         * [Coaching Guides](./html/d6ac0867-3e58-4ba7-acf0-a6e82ac696c1.html)

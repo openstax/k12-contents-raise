@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="265" moduleid="349" modulename="lesson" contextid="360">
-  <lesson id="265">
+<activity id="269" moduleid="349" modulename="lesson" contextid="360">
+  <lesson id="269">
     <course>2</course>
-    <name>Lesson 9.8: Deriving the Quadratic Formula</name>
+    <name>Lesson 9.8 Teacher Guide: Deriving the Quadratic Formula</name>
     <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
@@ -24,7 +24,7 @@
     <maxpages>1</maxpages>
     <timelimit>0</timelimit>
     <retake>1</retake>
-    <activitylink>0</activitylink>
+    <activitylink>350</activitylink>
     <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
@@ -38,429 +38,75 @@
     <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1686158202</timemodified>
+    <timemodified>1686158187</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="2400">
+      <page id="2411">
         <prevpageid>0</prevpageid>
-        <nextpageid>2401</nextpageid>
+        <nextpageid>2412</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1667468709</timecreated>
-        <timemodified>1686163708</timemodified>
+        <timecreated>1667458134</timecreated>
+        <timemodified>1686163649</timemodified>
         <title>9.8.0: Lesson Overview</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="9592ed75-6d89-46be-88a1-7a232f5f1fac"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5349">
-            <jumpto>2401</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667468709</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2401">
-        <prevpageid>2400</prevpageid>
-        <nextpageid>2402</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667468917</timecreated>
-        <timemodified>1686163719</timemodified>
-        <title>9.8.1: Deriving the Quadratic Formula, Part 1</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="b069ca70-6ec1-421b-b069-6d98a3e611af"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5350">
-            <jumpto>2400</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667468917</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5351">
-            <jumpto>2402</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667468917</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2402">
-        <prevpageid>2401</prevpageid>
-        <nextpageid>2403</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1667469051</timecreated>
-        <timemodified>1689619422</timemodified>
-        <title>9.8.1: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="6888a298-6fac-41fa-878a-6a8393c88f4b"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5352">
-            <jumpto>2403</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667469051</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Subtract 16 from both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The 16 was just added in to create the perfect square. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5353">
-            <jumpto>2403</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667469051</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Take the square root of both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The trinomial must be factored before taking the square root. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5354">
-            <jumpto>2404</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1667469051</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: After completing the square and adding the new value to both sides, factor the trinomial.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5355">
-            <jumpto>2403</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667469051</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Complete the square again.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The square only needs to be completed once to create a perfect square trinomial. The answer is to factor the perfect square trinomial.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5356">
-            <jumpto>2403</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667469051</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2403">
-        <prevpageid>2402</prevpageid>
-        <nextpageid>2404</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667469187</timecreated>
-        <timemodified>1686163728</timemodified>
-        <title>9.8.1: Additional Resources </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="332db8c6-7248-4cf1-b101-7427237c63b5"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5357">
-            <jumpto>2402</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667469187</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’d like to retry the self check.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5358">
-            <jumpto>2404</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667469187</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2404">
-        <prevpageid>2403</prevpageid>
-        <nextpageid>2405</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667469977</timecreated>
-        <timemodified>1686163745</timemodified>
-        <title>9.8.2: Deriving the Quadratic Formula, Part 2</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="ca68df7d-17ea-4ff6-941a-eafbdbabdb82"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5359">
-            <jumpto>2401</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667469977</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5360">
-            <jumpto>2405</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667469977</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2405">
-        <prevpageid>2404</prevpageid>
-        <nextpageid>2406</nextpageid>
-        <qtype>3</qtype>
-        <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1667470103</timecreated>
-        <timemodified>1689619456</timemodified>
-        <title>9.8.2: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="db8392ee-1172-4c2f-8819-4a96a12bfdb1"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5361">
-            <jumpto>2406</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667470103</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Complete the square.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This was already done for the perfect square trinomial to be factored. The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5362">
-            <jumpto>2407</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1667470103</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Take the square root of both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: To get rid of the power of 2, take the square root of both sides and remember the plus and minus sign on the right side.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5363">
-            <jumpto>2406</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667470103</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Multiply both sides by \(4a^2\).&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: In a previous step, both sides were already divided by \(4a^2\). The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5364">
-            <jumpto>2406</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667470103</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;Subtract \(\frac{b}{2a}\) from both sides.&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This cannot be done until after the square root is taken. The correct answer is to take the square root of both sides.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5365">
-            <jumpto>2406</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667470103</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response></response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2406">
-        <prevpageid>2405</prevpageid>
-        <nextpageid>2407</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667470246</timecreated>
-        <timemodified>1686163761</timemodified>
-        <title>9.8.2: Additional Resources</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="a4d4180a-fabf-4863-9a6b-a341ce6c6df2"&gt;&lt;/div&gt;</contents>
+        <contents>&lt;div class="os-raise-content" data-content-id="3342f40a-99f6-40fa-b492-2abec50bdb5f"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="5366">
-            <jumpto>2405</jumpto>
+            <jumpto>-1</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667470246</timecreated>
+            <timecreated>1667458134</timecreated>
             <timemodified>0</timemodified>
-            <answer_text> I’d like to retry the self check.</answer_text>
+            <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2412">
+        <prevpageid>2411</prevpageid>
+        <nextpageid>2413</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667459335</timecreated>
+        <timemodified>1686163660</timemodified>
+        <title>9.8.1: Deriving the Quadratic Formula, Part 1</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="2090dc06-30cc-4f2e-b1e2-ef1d931ee490"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
           <answer id="5367">
-            <jumpto>2407</jumpto>
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667470246</timecreated>
+            <timecreated>1667459335</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>I’m ready for the next activity.</answer_text>
+            <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2407">
-        <prevpageid>2406</prevpageid>
-        <nextpageid>2408</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667470526</timecreated>
-        <timemodified>1686163771</timemodified>
-        <title>9.8.3: Understanding That the Quadratic Formula Is the Combined Steps of Completing the Square</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="f91e56e6-74a3-4eb5-9298-abba227f4a23"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
           <answer id="5368">
-            <jumpto>2404</jumpto>
+            <jumpto>-1</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667470526</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5369">
-            <jumpto>2408</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667470526</timecreated>
+            <timecreated>1667459335</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -473,25 +119,25 @@
         <branches>
         </branches>
       </page>
-      <page id="2408">
-        <prevpageid>2407</prevpageid>
-        <nextpageid>2409</nextpageid>
+      <page id="2413">
+        <prevpageid>2412</prevpageid>
+        <nextpageid>2414</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1667470821</timecreated>
-        <timemodified>1686163782</timemodified>
-        <title>9.8.4: Practice</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="1d4ce12b-3379-4d86-b3b5-559542a8a29d"&gt;&lt;/div&gt;</contents>
+        <timecreated>1667464268</timecreated>
+        <timemodified>1686163668</timemodified>
+        <title>9.8.2: Deriving the Quadratic Formula, Part 2</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="0f871582-6bd3-471d-b33e-013bd7eacafc"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5370">
-            <jumpto>2407</jumpto>
+          <answer id="5369">
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667470821</timecreated>
+            <timecreated>1667464268</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -500,12 +146,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="5371">
-            <jumpto>2409</jumpto>
+          <answer id="5370">
+            <jumpto>-1</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667470821</timecreated>
+            <timecreated>1667464268</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -518,25 +164,115 @@
         <branches>
         </branches>
       </page>
-      <page id="2409">
-        <prevpageid>2408</prevpageid>
+      <page id="2414">
+        <prevpageid>2413</prevpageid>
+        <nextpageid>2415</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667466641</timecreated>
+        <timemodified>1686163676</timemodified>
+        <title>9.8.3: Understanding That the Quadratic Formula Is the Combined Steps of Completing the Square</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="551d865a-78fd-40f6-8752-431f4fdced04"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5371">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667466641</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5372">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667466641</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2415">
+        <prevpageid>2414</prevpageid>
+        <nextpageid>2416</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667468115</timecreated>
+        <timemodified>1686163685</timemodified>
+        <title>9.8.4: Practice</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="79408cc1-1530-404f-b70e-64b64d02a82d"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5373">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667468115</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5374">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667468115</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2416">
+        <prevpageid>2415</prevpageid>
         <nextpageid>0</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1667471017</timecreated>
-        <timemodified>1686163792</timemodified>
-        <title>9.8.5: Lesson Summary</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="fc926633-d8f8-4a48-8c1f-24b8e60deff6"&gt;&lt;/div&gt;</contents>
+        <timecreated>1667468431</timecreated>
+        <timemodified>1686163698</timemodified>
+        <title>9.8.5: Lesson Synthesis</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="96e9c3c3-42b7-4ae9-9413-8deb80df533e"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5372">
-            <jumpto>2408</jumpto>
+          <answer id="5375">
+            <jumpto>-40</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667471017</timecreated>
+            <timecreated>1667468431</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -545,12 +281,12 @@
             <attempts>
             </attempts>
           </answer>
-          <answer id="5373">
+          <answer id="5376">
             <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667471017</timecreated>
+            <timecreated>1667468431</timecreated>
             <timemodified>0</timemodified>
             <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>

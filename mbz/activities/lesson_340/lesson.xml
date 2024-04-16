@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity id="258" moduleid="340" modulename="lesson" contextid="351">
-  <lesson id="258">
+<activity id="262" moduleid="340" modulename="lesson" contextid="351">
+  <lesson id="262">
     <course>2</course>
-    <name>Lesson 9.5 Teacher Guide: Quadratic Equations with Irrational Solutions</name>
+    <name>Lesson 9.4: Completing the Square, Part 3</name>
     <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
@@ -24,7 +24,7 @@
     <maxpages>1</maxpages>
     <timelimit>0</timelimit>
     <retake>1</retake>
-    <activitylink>341</activitylink>
+    <activitylink>342</activitylink>
     <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
@@ -38,255 +38,30 @@
     <progressbar>0</progressbar>
     <available>0</available>
     <deadline>0</deadline>
-    <timemodified>1667557742</timemodified>
+    <timemodified>1667498190</timemodified>
     <completionendreached>0</completionendreached>
     <completiontimespent>0</completiontimespent>
     <allowofflineattempts>0</allowofflineattempts>
     <pages>
-      <page id="2340">
-        <prevpageid>0</prevpageid>
-        <nextpageid>2341</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667074086</timecreated>
-        <timemodified>1667651736</timemodified>
-        <title>9.5.0: Lesson Overview</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="38c43492-ee07-45e6-88e4-cd4367f79476"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5218">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667074086</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2341">
-        <prevpageid>2340</prevpageid>
-        <nextpageid>2342</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667074946</timecreated>
-        <timemodified>1667652003</timemodified>
-        <title>9.5.1: Roots of Squares</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="b0add828-c79c-4324-b076-2ee630403425"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5219">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667074946</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5220">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667074946</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2342">
-        <prevpageid>2341</prevpageid>
-        <nextpageid>2343</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667076223</timecreated>
-        <timemodified>1668021847</timemodified>
-        <title>9.5.2: Solutions Written as Square Roots</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="ee30ef0c-49ca-4389-9b1c-458cdd0c283e"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5221">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667076223</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5222">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667076223</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2343">
-        <prevpageid>2342</prevpageid>
-        <nextpageid>2344</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667087709</timecreated>
-        <timemodified>1668111456</timemodified>
-        <title>9.5.3: Finding Irrational Solutions by Completing the Square</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="7fb628cc-f4d9-4e65-9153-0a578cf35afd"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5223">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667087709</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5224">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667087709</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="2344">
-        <prevpageid>2343</prevpageid>
-        <nextpageid>2345</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1667091485</timecreated>
-        <timemodified>1667416224</timemodified>
-        <title>9.5.4: Finding Exact Solutions</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="1b15d7b5-c3a4-478c-b86f-17e1b94cb343"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="5225">
-            <jumpto>-40</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667091485</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5226">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667091485</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
       <page id="2345">
-        <prevpageid>2344</prevpageid>
+        <prevpageid>0</prevpageid>
         <nextpageid>2346</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1667091700</timecreated>
-        <timemodified>1668111133</timemodified>
-        <title>9.5.5: Practice </title>
-        <contents>&lt;div class="os-raise-content" data-content-id="7211ff48-ceec-41b3-a71c-c1077afff0b9"&gt;&lt;/div&gt;</contents>
+        <timecreated>1667067432</timecreated>
+        <timemodified>1667072590</timemodified>
+        <title>9.4.0: Lesson Overview</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="e1b0e7c4-c7ea-47c3-b87f-14e8775dc3f7"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5227">
-            <jumpto>-40</jumpto>
+          <answer id="5217">
+            <jumpto>2346</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667091700</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="5228">
-            <jumpto>-1</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1667091700</timecreated>
+            <timecreated>1667067432</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
@@ -301,23 +76,23 @@
       </page>
       <page id="2346">
         <prevpageid>2345</prevpageid>
-        <nextpageid>0</nextpageid>
+        <nextpageid>2347</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
         <display>1</display>
-        <timecreated>1667095153</timecreated>
-        <timemodified>1667655071</timemodified>
-        <title>9.5.6: Lesson Synthesis</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="b00fdeed-9872-4ee6-8282-772c5c93d985"&gt;&lt;/div&gt;</contents>
+        <timecreated>1667067806</timecreated>
+        <timemodified>1667416594</timemodified>
+        <title>9.4.1: Perfect Squares with Coefficients Other than 1 </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="8a79927c-250b-4d2a-b96b-586da831b98f"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="5229">
-            <jumpto>-40</jumpto>
+          <answer id="5218">
+            <jumpto>2345</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667095153</timecreated>
+            <timecreated>1667067806</timecreated>
             <timemodified>0</timemodified>
             <answer_text>Previous</answer_text>
             <response>$@NULL@$</response>
@@ -326,12 +101,546 @@
             <attempts>
             </attempts>
           </answer>
+          <answer id="5219">
+            <jumpto>2347</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667067806</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2347">
+        <prevpageid>2346</prevpageid>
+        <nextpageid>2348</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667068059</timecreated>
+        <timemodified>1668196056</timemodified>
+        <title>9.4.2: Rewrite Squared Expressions </title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ad9ad76b-db8f-4a74-8d4d-201ea3e8dd0a"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5220">
+            <jumpto>2346</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667068059</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5221">
+            <jumpto>2348</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667068059</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2348">
+        <prevpageid>2347</prevpageid>
+        <nextpageid>2349</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1667069026</timecreated>
+        <timemodified>1667072633</timemodified>
+        <title>9.4.2: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="5dec6c54-490a-485f-b0db-d6eabc2a6fec"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5222">
+            <jumpto>2349</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667069026</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(4(x^2+3x+9)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: While 4 is the greatest common factor (GCF) of the first two terms, it is not a factor of 9. The answer is \((2x+3)^2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5223">
+            <jumpto>2349</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667069026</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((2x-3)^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This is equivalent to \(4x^2-12x+9\). The answer is \((2x+3)^2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5224">
+            <jumpto>2350</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1667069026</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((2x+3)^2\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: When multiplied using distribution, \((2x + 3)(2x + 3)\) equals the given expression.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5225">
+            <jumpto>2349</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667069026</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\((2x+3)(2x-3)\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This is equivalent to \(4x^2-9\). The answer is \((2x+3)^2\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5235">
+            <jumpto>2349</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667069026</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2349">
+        <prevpageid>2348</prevpageid>
+        <nextpageid>2350</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667069101</timecreated>
+        <timemodified>1668196095</timemodified>
+        <title>9.4.2: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="fbfe6c3f-3d10-468a-8317-b5fe0231027a"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5226">
+            <jumpto>2348</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667069101</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5227">
+            <jumpto>2350</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667069101</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2350">
+        <prevpageid>2349</prevpageid>
+        <nextpageid>2351</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667069298</timecreated>
+        <timemodified>1667532713</timemodified>
+        <title>9.4.3: Standard Form and Squared Factors</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="7123b096-cc68-4e10-94e2-da1bdf864268"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5228">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667069298</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5229">
+            <jumpto>2351</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667069298</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2351">
+        <prevpageid>2350</prevpageid>
+        <nextpageid>2352</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1667070683</timecreated>
+        <timemodified>1667072677</timemodified>
+        <title>9.4.3: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="7f695d43-ee36-46c4-a99d-b32bd8c6d3ea"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
           <answer id="5230">
+            <jumpto>2352</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667070683</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=9\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: This is the number that is added to each side, but not the solution. The correct answer is \(x=\frac{1}{5}\), \(x= -\frac{7}{5}\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5231">
+            <jumpto>2353</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1667070683</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=\frac15\), \(x= -\frac75\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That's correct! Check yourself: 9 should be added to each side, then the new equation becomes \((5x+3)^2=16\). When solved, these are the two solutions.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5232">
+            <jumpto>2352</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667070683</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=\frac{13}{5}\), \(x=-\frac{19}{5}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: Make sure to take the square root of both sides of the equation. The correct answer is \(x=\frac15\), \(x= -\frac75\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5233">
+            <jumpto>2352</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667070683</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(x=-\frac{3}{5}\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let's try again a different way: The solution is not where the factor equals 0. The correct answer is \(x=\frac15\), \(x= -\frac75\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5234">
+            <jumpto>2352</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667070683</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&amp;nbsp;&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2352">
+        <prevpageid>2351</prevpageid>
+        <nextpageid>2353</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667070748</timecreated>
+        <timemodified>1667532886</timemodified>
+        <title>9.4.3: Additional Resources</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="b04ecb1e-996b-46f7-8eab-6c1f80389aac"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5236">
+            <jumpto>2351</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667070748</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’d like to retry the self check.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5237">
+            <jumpto>2353</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667070748</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I’m ready for the next activity.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2353">
+        <prevpageid>2352</prevpageid>
+        <nextpageid>2354</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667070972</timecreated>
+        <timemodified>1667649884</timemodified>
+        <title>9.4.4: Three Different Methods for Solving an Equation</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="c0c35346-23b4-48fd-a59e-6379f5187376"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5238">
+            <jumpto>2350</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667070972</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5239">
+            <jumpto>2354</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667070972</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2354">
+        <prevpageid>2353</prevpageid>
+        <nextpageid>2355</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667071906</timecreated>
+        <timemodified>1667535508</timemodified>
+        <title>9.4.5: Perfect Square and Squared Factors</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="52625a33-0089-44d8-a58d-11cb893e2b7a"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5240">
+            <jumpto>2353</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667071906</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5241">
+            <jumpto>2355</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667071906</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2355">
+        <prevpageid>2354</prevpageid>
+        <nextpageid>2356</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667072225</timecreated>
+        <timemodified>1667536078</timemodified>
+        <title>9.4.6: Practice</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="b0abcb42-300c-4824-b7dc-15021eadb41c"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5242">
+            <jumpto>2354</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667072225</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5243">
+            <jumpto>2356</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667072225</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="2356">
+        <prevpageid>2355</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1667072307</timecreated>
+        <timemodified>1667072577</timemodified>
+        <title>9.4.7: Lesson Summary</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="94f0a126-cb04-4eeb-93da-15973df2bd9c"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="5244">
+            <jumpto>2355</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1667072307</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="5245">
             <jumpto>-9</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1667095153</timecreated>
+            <timecreated>1667072307</timecreated>
             <timemodified>0</timemodified>
             <answer_text>End of Lesson</answer_text>
             <response>$@NULL@$</response>
