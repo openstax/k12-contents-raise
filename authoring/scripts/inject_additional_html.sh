@@ -2,8 +2,8 @@
 
 set -e
 
-ADDITONAL_HTML='<script type="module" crossorigin src="https://k12.openstax.org/apps/raise/index.authoring.iWErSaUB.js"></script>
-<link rel="stylesheet" href="https://k12.openstax.org/apps/raise/index.authoring.SYxLMU8L.css">'
+ADDITONAL_HTML='<script type="module" crossorigin src="https://k12.openstax.org/apps/raise/index.authoring.Z3fyFyMy.js"></script>
+<link rel="stylesheet" href="https://k12.openstax.org/apps/raise/index.authoring.nks30AJt.css">'
 
 docker compose exec postgres psql -U moodle -d moodle -c "insert into mdl_config (name, value) values('additionalhtmlhead', '$ADDITONAL_HTML') on conflict(name) do update set value='$ADDITONAL_HTML'"
 docker compose exec moodle php admin/cli/purge_caches.php
