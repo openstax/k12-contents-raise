@@ -33,7 +33,7 @@
     * Preparing for Success
         * [Study Tips](./html/1d00215a-4e57-470f-80c7-a3de82150911.html)
         * [Creating Your Best Self](./html/5bf9624b-8ccb-4f82-8cc8-108e137a97c6.html)
-        * [Rebuilding Relationships](./html/be9905b8-fedb-42a2-8ab0-9c6b55d00ab0.html)
+        * [Building Relationships](./html/be9905b8-fedb-42a2-8ab0-9c6b55d00ab0.html)
 * Unit 1: Linear Equations
     * Unit 1 Teacher Guide
         * [Unit 1 Overview and Readiness](./html/020533d8-ba31-49bb-83a1-e96a37c23c7b.html)
@@ -874,7 +874,7 @@
         * [3.5.4: Interpreting the Correlation Coefficient](./html/40cffb52-5326-4900-9d8f-248ff0c3b7d9.html)
         * [3.5.5: Practice](./html/c5aa1f14-ec89-4e44-a400-cc2acc15aa0b.html)
         * [3.5.6: Lesson Summary](./html/dc396953-f6d2-4eb7-8b40-3804776fe136.html)
-    * Lesson 3.6 Teacher Guide: Casual Relationships
+    * Lesson 3.6 Teacher Guide: Causal Relationships
         * [3.6.0: Lesson Overview](./html/e8239f18-9208-47d6-a8ab-7c9e7d44ba72.html)
         * [3.6.1: Describe the Relationship between Variables](./html/60a89eaa-953e-44d6-ad15-66a54b7244bb.html)
         * [3.6.2: Describing How Two Variables Are Related](./html/6cba26d6-1e45-4c5b-95f0-e53ffddb7c8c.html)
@@ -882,7 +882,7 @@
         * [3.6.4: Determining the Type of Relationship](./html/ea400c3c-cdf4-408a-a33c-d31d14e04639.html)
         * [3.6.5: Practice](./html/453ceb49-fdb7-47e5-bcd4-cedd59905969.html)
         * [3.6.6: Lesson Synthesis](./html/838cdf84-21f4-488f-a185-3c0b9ba50942.html)
-    * Lesson 3.6: Casual Relationships
+    * Lesson 3.6: Causal Relationships
         * [3.6.0: Lesson Overview](./html/7128819d-010b-4ca2-a6bf-c127336c67be.html)
         * [3.6.1: Describe the Relationship between Variables](./html/8c14434b-ba83-466f-ba4f-7a16687866ca.html)
         * [3.6.2: Describing How Two Variables Are Related](./html/a6f9108e-dc7d-478f-889a-2db60c7d15cc.html)
@@ -911,6 +911,7 @@
         * [Building Character: Creativity](./html/bfa6a630-c370-41b5-8324-d10ed313531b.html)
         * [Supporting English Language Proficiency Standards (ELPS)](./html/baec0f1e-c619-411e-9f43-fc25f89058cf.html)
     * Unit 4 Inquiry Project Teacher Guide: Defining Functions
+        * [Inquiry Project Unit 4 Overview](./html/e9bde82a-143f-4d72-8462-77455bd7f43b.html)
         * [Activity IP4.1: Simulating Relationships ](./html/084876da-09d6-4e78-ae36-5aaabc730547.html)
         * [Activity IP4.2: What is a function? ](./html/f0c199d1-c39e-41f6-841d-7ab94f677d27.html)
         * [Activity IP4.3: Different Kinds of Functions](./html/11c39a8d-798b-4d05-b808-bc30217c4bd3.html)
@@ -1268,7 +1269,7 @@
         * [4.15.4: Connecting the Common Ratio and the Term in a Sequence](./html/fab86db2-3a14-43c0-894e-9e1e3023c6e0.html)
         * [4.15.5: Practice](./html/e9b16c51-82db-43de-9882-7023bd00f303.html)
         * [4.15.6: Lesson Summary](./html/9504a6c1-28d3-49da-9a28-9cc9d8f79c4d.html)
-    * Lesson 4.16 Teacher Guide: Different Types of Sequences
+    * Lesson 4.16 Teacher Guide: Introducing Arithmetic Sequences
         * [4.16.0: Lesson Overview](./html/1240a678-1387-4267-98f9-c03c5dcfb417.html)
         * [4.16.1: Interpreting Function Notation](./html/2e4c45b6-1c68-4ba6-8c1e-c0410f491702.html)
         * [4.16.2: What Is an Arithmetic Sequence?](./html/111cfe12-3302-47e7-89c3-9bc58877cbee.html)
@@ -1276,7 +1277,7 @@
         * [4.16.4: Identify and Generate Sequences](./html/4878f468-6bc0-42d7-99ef-edad40ca1247.html)
         * [4.16.5: Practice ](./html/7826d6a6-57d6-4fa9-8c50-8931aa639a89.html)
         * [4.16.6: Lesson Synthesis](./html/2e0a0b83-0ac3-4222-9bbc-8fe2e97f87ae.html)
-    * Lesson 4.16: Different Types of Sequences
+    * Lesson 4.16: Introducing Arithmetic Sequences
         * [4.16.0: Lesson Overview](./html/0f3f7faa-086f-4ad3-8544-98d046be2392.html)
         * [4.16.1: Interpreting Function Notation](./html/fab80f4b-27c7-4368-b09f-c93a77ce0306.html)
         * [4.16.2: What Is an Arithmetic Sequence?](./html/f906cc5a-5292-4883-ac57-361b494cc556.html)
@@ -1288,7 +1289,7 @@
         * [4.16.4: Identify and Generate Sequences](./html/c9b462af-4df1-42f6-82b7-6157ef53c67b.html)
         * [4.16.5: Practice ](./html/38efa412-68f0-4b46-8f28-2e7d75955d94.html)
         * [ 4.16.6: Lesson Summary](./html/9ae4d4a7-37bc-483c-aa7a-7c3410ce2c67.html)
-    * Lesson 4.17 Teacher Guide: Sequences are Functions
+    * Lesson 4.17 Teacher Guide: Representing Sequences
         * [4.17.0: Lesson Overview](./html/bcf563f9-784a-4301-a12f-f6f95f945365.html)
         * [4.17.1: Define a Sequence](./html/7be54f29-3ed2-436c-a8a1-05804e43e51c.html)
         * [4.17.2: What Is a Recursive Definition?](./html/e14b3c4c-857d-4d0f-85e8-95fd74ad4614.html)
@@ -1296,7 +1297,7 @@
         * [4.17.4: Geometric Recursive Definitions](./html/8d145a1e-57aa-4594-8a22-4812a0286629.html)
         * [4.17.5: Practice ](./html/c2300523-f0b8-448f-8e6d-e3fa7b61fcc2.html)
         * [4.17.6: Lesson Synthesis](./html/74c2f540-6899-41b4-950e-0d5a3884477f.html)
-    * Lesson 4.17: Sequences are Functions
+    * Lesson 4.17: Representing Sequences
         * [4.17.0: Lesson Overview](./html/e22f666e-fdce-4f97-958b-db435e66bdd5.html)
         * [4.17.1: Define a Sequence](./html/029799fd-8168-463f-80c3-f0f6156d47b9.html)
         * [4.17.2: What Is a Recursive Definition?](./html/c7c6adb4-28f4-4188-a560-3b890f25a8f8.html)
@@ -1308,30 +1309,32 @@
         * [4.17.4: Geometric Recursive Definitions](./html/fbb1cf02-2be0-495f-b6b3-b85c8194c459.html)
         * [4.17.5: Practice ](./html/4297c1b8-5fa5-4027-8686-b300337348aa.html)
         * [4.17.6: Lesson Summary](./html/ea61f3d2-ee03-43f7-880d-5344fac151d6.html)
-    * Lesson 4.18 Teacher Guide: The nth Term of an Arithmetic Sequence
+    * Lesson 4.18 Teacher Guide: The nth Term of a Sequence
         * [4.18.0: Lesson Overview](./html/aba06993-6f5b-4bba-9098-851b59d063d5.html)
-        * [4.18.1: Repeated Addition Is Multiplication](./html/caa10741-217f-4575-ab60-a45a5689547f.html)
-        * [4.18.2: Define a Sequence by the nth Term](./html/e902ad49-1e26-424d-9604-6aa297484919.html)
-        * [4.18.3: Identify a Domain for a Function](./html/0151560d-a4ab-4859-9b31-ef8d060fe9b2.html)
-        * [4.18.4: Interchanging between Formulas](./html/fcef9b46-1cca-4853-83a7-9231ca20928d.html)
-        * [4.18.5: Different Types of Equations](./html/dfbada02-cdf7-45c0-ad0d-8a15912f7539.html)
-        * [4.18.6: Practice ](./html/94e91361-f719-4f7e-8932-91306b8ca04b.html)
-        * [4.18.7: Lesson Synthesis](./html/070dc81e-1a14-40d2-b450-a2cf2299fabe.html)
-    * Lesson 4.18: The nth Term of an Arithmetic Sequence
+        * [4.18.1: Repeated Operations](./html/caa10741-217f-4575-ab60-a45a5689547f.html)
+        * [4.18.2 Identifying a Domain for a Function](./html/842407ca-3e1a-4812-b12b-1e77c7d324e6.html)
+        * [4.18.3: Define an Arithmetic Sequence by the nth Term](./html/e902ad49-1e26-424d-9604-6aa297484919.html)
+        * [4.18.4: Define a Geometric Sequence by the nth Term](./html/0151560d-a4ab-4859-9b31-ef8d060fe9b2.html)
+        * [4.18.5: Interchanging between Formulas](./html/fcef9b46-1cca-4853-83a7-9231ca20928d.html)
+        * [4.18.6: Different Types of Equations](./html/dfbada02-cdf7-45c0-ad0d-8a15912f7539.html)
+        * [4.18.7: Practice ](./html/94e91361-f719-4f7e-8932-91306b8ca04b.html)
+        * [4.18.8: Lesson Synthesis](./html/070dc81e-1a14-40d2-b450-a2cf2299fabe.html)
+    * Lesson 4.18: The nth Term of a Sequence
         * [4.18.0: Lesson Overview](./html/e93a5fb9-54ef-4216-bb4e-4f05ee053f41.html)
         * [4.18.1: Repeated Addition Is Multiplication](./html/8151d66a-f79c-4031-9ba4-1a4dbf041f9a.html)
-        * [4.18.2: Define a Sequence by the nth Term](./html/c85320f3-e717-4607-99bf-5420380fc4f3.html)
-        * [4.18.2: Self Check](./html/ca01dd8c-16a2-4d6b-83c8-0e68c9a2ec95.html)
-        * [4.18.2: Additional Resources ](./html/ca6b2a3e-66aa-43b6-9487-037d1e961984.html)
-        * [4.18.3: Identify a Domain for a Function](./html/aec423ce-4269-4ce6-809f-d7c0c9558754.html)
-        * [4.18.3: Self Check ](./html/11583c30-ea4c-437a-926c-a39b1fa4f5b4.html)
-        * [4.18.3: Additional Resources ](./html/ba8bdd23-335f-4c02-b0c2-fe5c1456b4ce.html)
-        * [4.18.4: Interchanging between Formulas](./html/c2e71b48-b036-417f-b76d-6687358c4ccb.html)
-        * [4.18.4: Self Check](./html/cf0d6c4e-f09e-4b77-a7e4-ffec54fd6f85.html)
-        * [4.18.4: Additional Resources ](./html/dcb3267b-443d-4f5c-897e-1b89e70b7dcc.html)
-        * [4.18.5: Different Types of Equations](./html/f69da5a2-7218-4a72-95d0-67533258703c.html)
-        * [4.18.6: Practice ](./html/48fae8e7-13e4-448a-a865-9bf352cf3e7a.html)
-        * [4.18.7: Lesson Summary](./html/c3240dcc-73c8-4004-9776-84a18696f044.html)
+        * [4.18.2: Identifying Domain for a Function](./html/50a2ece7-8d59-4892-a08b-68d60487d6b6.html)
+        * [4.18.3: Define an Arithmetic Sequence by the nth Term](./html/c85320f3-e717-4607-99bf-5420380fc4f3.html)
+        * [4.18.3: Self Check](./html/ca01dd8c-16a2-4d6b-83c8-0e68c9a2ec95.html)
+        * [4.18.3: Additional Resources ](./html/ca6b2a3e-66aa-43b6-9487-037d1e961984.html)
+        * [4.18.4: Define a Geometric Sequence by the nth Term](./html/aec423ce-4269-4ce6-809f-d7c0c9558754.html)
+        * [4.18.4: Self Check ](./html/11583c30-ea4c-437a-926c-a39b1fa4f5b4.html)
+        * [4.18.4: Additional Resources ](./html/ba8bdd23-335f-4c02-b0c2-fe5c1456b4ce.html)
+        * [4.18.5: Interchanging between Formulas](./html/c2e71b48-b036-417f-b76d-6687358c4ccb.html)
+        * [4.18.5: Self Check](./html/cf0d6c4e-f09e-4b77-a7e4-ffec54fd6f85.html)
+        * [4.18.5: Additional Resources ](./html/dcb3267b-443d-4f5c-897e-1b89e70b7dcc.html)
+        * [4.18.6: Different Types of Equations](./html/f69da5a2-7218-4a72-95d0-67533258703c.html)
+        * [4.18.7: Practice ](./html/48fae8e7-13e4-448a-a865-9bf352cf3e7a.html)
+        * [4.18.8: Lesson Summary](./html/c3240dcc-73c8-4004-9776-84a18696f044.html)
     * Project 4 Teacher Guide: Using Functions to Model Battery Power
         * [Project 4 Overview](./html/2a2910de-e106-403c-8e6a-105d4eb7b6f7.html)
         * [Activity: P4.1: Estimate Time to Charge a Battery](./html/ff94c93c-2f8b-4a5e-bfd5-72037103853a.html)
@@ -1726,6 +1729,7 @@
         * [Part 3: Using an Area Model](./html/cc92a813-0433-4351-ad4c-b00acbdc6fcb.html)
         * [Part 4: Applying an Area Model ](./html/8f218b3e-7953-4e30-af8b-b0909544e23d.html)
     * Unit 6 Inquiry Project Teacher Guide: Area Model Multiplication
+        * [Inquiry Project Unit 6 Overview](./html/9b5460ca-935e-45a6-aece-f3e42b3565d3.html)
         * [Activity IP6.1: Discovering an Area Model ](./html/4c18086f-40b4-46d3-a662-47fff955ec2b.html)
         * [Activity IP6.2: Understanding an Area Model ](./html/ec9f0bb1-37c1-4ed5-baf5-9eea082b1be1.html)
         * [Activity IP6.3: Using an Area Model](./html/d2662d14-0c1a-48dd-891f-66bf4b7d5a7e.html)
@@ -1979,7 +1983,7 @@
         * [7.3.3: Quadratic Sequences](./html/096dc82c-2a51-43d4-97c4-989af757cad3.html)
         * [7.3.3: Self Check ](./html/8ea48023-d678-46fc-9521-2bebbc5dc63f.html)
         * [7.3.3: Additional Resources ](./html/808e6233-4518-45db-b937-09f987d27831.html)
-        * [7.3.4: Quadratic Function?](./html/65fa224a-2767-429c-9f7f-0ad3c0c7daac.html)
+        * [7.3.4: Is the Pattern a Quadratic Function?](./html/65fa224a-2767-429c-9f7f-0ad3c0c7daac.html)
         * [7.3.5: Practice ](./html/08beaebb-7305-459b-af5b-1e957dc945ea.html)
         * [7.3.6: Lesson Summary](./html/24a87260-8569-43db-9dff-c5cf542aa455.html)
     * Lesson 7.4 Teacher Guide: Comparing Quadratic and Exponential Functions
@@ -2839,6 +2843,7 @@
     * Course Design
         * [Unit Sequence and Resources](./html/fc6865f3-3ceb-4f2b-ba3d-507d70b0919d.html)
         * [Lesson Structure and Resources](./html/9070ecd2-fd3b-46a3-a42b-5068d9f195d7.html)
+        * [Assessment Types and Resources](./html/cc512f97-8144-4051-b32e-56b67bf697e0.html)
     * Implementing This Course
         * [Pacing Guides](./html/004bd967-ac71-47c1-a948-c40b314d8660.html)
         * [Implementation Guides](./html/989d2a62-1018-49ec-b3fb-b98aa0467688.html)
