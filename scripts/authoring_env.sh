@@ -71,8 +71,8 @@ if [ "$ACTION" == "set-variant" ]; then
 
     set -e
 
-    sed 's/CONTENT_VARIANT=.*/CONTENT_VARIANT='"$VARIANT"'/' .env > .env.variant
-    docker compose --env-file .env.variant up --build -d
+    sed 's/CONTENT_VARIANT=.*/CONTENT_VARIANT='"$VARIANT"'/' ./authoring/docker/.env > ./authoring/docker/.env.variant
+    docker compose --env-file ./authoring/docker/.env.variant up --build -d
 
     exit 0
 fi
