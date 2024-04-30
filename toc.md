@@ -1321,7 +1321,7 @@
         * [4.18.8: Lesson Synthesis](./html/070dc81e-1a14-40d2-b450-a2cf2299fabe.html)
     * Lesson 4.18: The nth Term of a Sequence
         * [4.18.0: Lesson Overview](./html/e93a5fb9-54ef-4216-bb4e-4f05ee053f41.html)
-        * [4.18.1: Repeated Addition Is Multiplication](./html/8151d66a-f79c-4031-9ba4-1a4dbf041f9a.html)
+        * [4.18.1: Repeated Operations](./html/8151d66a-f79c-4031-9ba4-1a4dbf041f9a.html)
         * [4.18.2: Identifying Domain for a Function](./html/50a2ece7-8d59-4892-a08b-68d60487d6b6.html)
         * [4.18.3: Define an Arithmetic Sequence by the nth Term](./html/c85320f3-e717-4607-99bf-5420380fc4f3.html)
         * [4.18.3: Self Check](./html/ca01dd8c-16a2-4d6b-83c8-0e68c9a2ec95.html)
@@ -1971,7 +1971,7 @@
         * [7.3.1: Quadratic Expressions and Area](./html/4a1c96c3-f69c-4a51-b90c-7a3370419e62.html)
         * [7.3.2: Writing Equations for Patterns with Squares](./html/030ae31f-c3ab-4645-9770-89a76206876d.html)
         * [7.3.3: Quadratic Sequences](./html/b4d2ed4e-8d4e-49a2-a42a-07b1465ccbaf.html)
-        * [7.3.4: Quadratic Function?](./html/9d57ccc2-b516-4995-bfdc-f2c9fb19f496.html)
+        * [7.3.4: Is the Pattern a Quadratic Function?](./html/9d57ccc2-b516-4995-bfdc-f2c9fb19f496.html)
         * [7.3.5: Practice ](./html/86725229-1871-4523-9ac8-d7a0c60c0ddb.html)
         * [7.3.6: Lesson Synthesis ](./html/db3b053a-49ae-4b2a-a683-0e14704e270d.html)
     * Lesson 7.3:  Determining if a Function is Quadratic
@@ -2511,7 +2511,7 @@
         * [8.10.3: Self Check](./html/3f10c52e-8cf0-41ab-826c-fb1391e7530c.html)
         * [8.10.3: Additional Resources ](./html/0d5804d1-e95c-4d05-b2cd-2f6412d511ab.html)
         * [8.10.4: Finding the Factors of Quadratic Expressions in Standard Form](./html/6ce578c6-81f9-4ee4-b793-defa87955dd3.html)
-        * [8.10.4: Self Check (Optional)](./html/952ece21-3764-435b-abb9-7e54d9a7b332.html)
+        * [8.10.4: Self Check](./html/952ece21-3764-435b-abb9-7e54d9a7b332.html)
         * [8.10.4: Additional Resources](./html/347190f2-d4f2-4644-9835-9bfd7466223a.html)
         * [8.10.5: Solving Quadratic Equations by Any Method](./html/c7b1a00d-966f-40b0-895f-fdd8130f6acd.html)
         * [8.10.6: Practice](./html/cecc7da7-9c40-4efd-8234-35cbe4dabb46.html)
