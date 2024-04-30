@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <activity id="130" moduleid="165" modulename="lesson" contextid="176">
   <lesson id="130">
     <course>2</course>
     <name>Lesson 4.18: The nth Term of a Sequence</name>
-    <intro/>
+    <intro></intro>
     <introformat>1</introformat>
     <practice>1</practice>
     <modattempts>0</modattempts>
     <usepassword>0</usepassword>
-    <password/>
+    <password></password>
     <dependency>0</dependency>
     <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
     <grade>0</grade>
@@ -25,7 +25,7 @@
     <timelimit>0</timelimit>
     <retake>1</retake>
     <activitylink>0</activitylink>
-    <mediafile/>
+    <mediafile></mediafile>
     <mediaheight>480</mediaheight>
     <mediawidth>640</mediawidth>
     <mediaclose>0</mediaclose>
@@ -82,8 +82,8 @@
         <layout>1</layout>
         <display>1</display>
         <timecreated>1659830474</timecreated>
-        <timemodified>1689634376</timemodified>
-        <title>4.18.1: Repeated Addition Is Multiplication</title>
+        <timemodified>1714456433</timemodified>
+        <title>4.18.1: Repeated Operations</title>
         <contents>&lt;div class="os-raise-content" data-content-id="8151d66a-f79c-4031-9ba4-1a4dbf041f9a"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
@@ -102,7 +102,7 @@
             </attempts>
           </answer>
           <answer id="2600">
-            <jumpto>1183</jumpto>
+            <jumpto>1172</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -121,7 +121,7 @@
       </page>
       <page id="1171">
         <prevpageid>1170</prevpageid>
-        <nextpageid>1183</nextpageid>
+        <nextpageid>1172</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -147,7 +147,7 @@
             </attempts>
           </answer>
           <answer id="2635">
-            <jumpto>1183</jumpto>
+            <jumpto>1172</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -164,9 +164,9 @@
         <branches>
         </branches>
       </page>
-      <page id="1183">
+      <page id="1172">
         <prevpageid>1171</prevpageid>
-        <nextpageid>1172</nextpageid>
+        <nextpageid>1173</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
         <layout>1</layout>
@@ -192,7 +192,7 @@
             </attempts>
           </answer>
           <answer id="2602">
-            <jumpto>1172</jumpto>
+            <jumpto>1173</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -211,6 +211,93 @@
       </page>
       <page id="1173">
         <prevpageid>1172</prevpageid>
+        <nextpageid>1183</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1659831762</timecreated>
+        <timemodified>1714144465</timemodified>
+        <title>4.18.3: Self Check</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="ca01dd8c-16a2-4d6b-83c8-0e68c9a2ec95"&gt;&lt;/div&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="2603">
+            <jumpto>1183</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831762</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(&amp;ndash;2\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Remember to multiply the difference by \(n-1\), not \(n\). Substitute the values into the nth term formula for arithmetic sequences. The answer is 0.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2604">
+            <jumpto>1183</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831762</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(&amp;ndash;22\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Make sure to add to the first term. The answer is 0.&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2605">
+            <jumpto>1174</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1659831762</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(0\)&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Substitute into the formula, \(a_n=a_1+(n-1)d\), so that \(a_{12}=22+(12-1)(-2)=22+(-22)=0\).&lt;br&gt;&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2606">
+            <jumpto>1183</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831762</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;\(&amp;ndash;45056\)&lt;br&gt;&lt;/p&gt;</answer_text>
+            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Use the formula for arithmetic sequences, not geometric. The answer is 0.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="2607">
+            <jumpto>1183</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1659831762</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
+            <response></response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="1183">
+        <prevpageid>1173</prevpageid>
         <nextpageid>1174</nextpageid>
         <qtype>20</qtype>
         <qoption>0</qoption>
@@ -223,7 +310,7 @@
         <contentsformat>1</contentsformat>
         <answers>
           <answer id="2608">
-            <jumpto>1172</jumpto>
+            <jumpto>1173</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
@@ -244,51 +331,6 @@
             <timecreated>1659831930</timecreated>
             <timemodified>0</timemodified>
             <answer_text>I’m ready for the next activity.</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-        </answers>
-        <branches>
-        </branches>
-      </page>
-      <page id="1174">
-        <prevpageid>1173</prevpageid>
-        <nextpageid>1175</nextpageid>
-        <qtype>20</qtype>
-        <qoption>0</qoption>
-        <layout>1</layout>
-        <display>1</display>
-        <timecreated>1659832403</timecreated>
-        <timemodified>1714144506</timemodified>
-        <title>4.18.4: Define a Geometric Sequence by the nth Term</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="aec423ce-4269-4ce6-809f-d7c0c9558754"&gt;&lt;/div&gt;</contents>
-        <contentsformat>1</contentsformat>
-        <answers>
-          <answer id="2610">
-            <jumpto>1183</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832403</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Previous</answer_text>
-            <response>$@NULL@$</response>
-            <answerformat>0</answerformat>
-            <responseformat>0</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2611">
-            <jumpto>1175</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659832403</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>Next</answer_text>
             <response>$@NULL@$</response>
             <answerformat>0</answerformat>
             <responseformat>0</responseformat>
@@ -376,7 +418,7 @@
             <timecreated>1659832511</timecreated>
             <timemodified>0</timemodified>
             <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response/>
+            <response></response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -553,7 +595,7 @@
             <timecreated>1659833070</timecreated>
             <timemodified>0</timemodified>
             <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response/>
+            <response></response>
             <answerformat>1</answerformat>
             <responseformat>1</responseformat>
             <attempts>
@@ -743,86 +785,44 @@
         <branches>
         </branches>
       </page>
-      <page id="1172">
+      <page id="1174">
         <prevpageid>1183</prevpageid>
-        <nextpageid>1173</nextpageid>
-        <qtype>3</qtype>
+        <nextpageid>1175</nextpageid>
+        <qtype>20</qtype>
         <qoption>0</qoption>
-        <layout>0</layout>
-        <display>0</display>
-        <timecreated>1659831762</timecreated>
-        <timemodified>1714144465</timemodified>
-        <title>4.18.3: Self Check</title>
-        <contents>&lt;div class="os-raise-content" data-content-id="ca01dd8c-16a2-4d6b-83c8-0e68c9a2ec95"&gt;&lt;/div&gt;</contents>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1659832403</timecreated>
+        <timemodified>1714144506</timemodified>
+        <title>4.18.4: Define a Geometric Sequence by the nth Term</title>
+        <contents>&lt;div class="os-raise-content" data-content-id="aec423ce-4269-4ce6-809f-d7c0c9558754"&gt;&lt;/div&gt;</contents>
         <contentsformat>1</contentsformat>
         <answers>
-          <answer id="2603">
-            <jumpto>1173</jumpto>
+          <answer id="2610">
+            <jumpto>1172</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659831762</timecreated>
+            <timecreated>1659832403</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(&amp;ndash;2\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Remember to multiply the difference by \(n-1\), not \(n\). Substitute the values into the nth term formula for arithmetic sequences. The answer is 0.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
+            <answer_text>Previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
-          <answer id="2604">
-            <jumpto>1173</jumpto>
+          <answer id="2611">
+            <jumpto>1175</jumpto>
             <grade>0</grade>
             <score>0</score>
             <flags>0</flags>
-            <timecreated>1659831762</timecreated>
+            <timecreated>1659832403</timecreated>
             <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(&amp;ndash;22\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Make sure to add to the first term. The answer is 0.&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2605">
-            <jumpto>1174</jumpto>
-            <grade>0</grade>
-            <score>1</score>
-            <flags>0</flags>
-            <timecreated>1659831762</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(0\)&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;That&amp;rsquo;s correct! Check yourself: Substitute into the formula, \(a_n=a_1+(n-1)d\), so that \(a_{12}=22+(12-1)(-2)=22+(-22)=0\).&lt;br&gt;&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2606">
-            <jumpto>1173</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659831762</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;\(&amp;ndash;45056\)&lt;br&gt;&lt;/p&gt;</answer_text>
-            <response>&lt;p dir="ltr"&gt;Incorrect. Let&amp;rsquo;s try again a different way: Use the formula for arithmetic sequences, not geometric. The answer is 0.&lt;/p&gt;</response>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
-            <attempts>
-            </attempts>
-          </answer>
-          <answer id="2607">
-            <jumpto>1173</jumpto>
-            <grade>0</grade>
-            <score>0</score>
-            <flags>0</flags>
-            <timecreated>1659831762</timecreated>
-            <timemodified>0</timemodified>
-            <answer_text>&lt;p dir="ltr"&gt;I am not sure.&lt;/p&gt;</answer_text>
-            <response/>
-            <answerformat>1</answerformat>
-            <responseformat>1</responseformat>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
             <attempts>
             </attempts>
           </answer>
