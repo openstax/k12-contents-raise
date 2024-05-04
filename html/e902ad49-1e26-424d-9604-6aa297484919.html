@@ -5,143 +5,86 @@
 <p>Arrange students in groups of 2. If using, distribute scissors and 2 sheets of grid paper to each group.</p>
 <p>Ask students to recall the paper cutting activity from an earlier lesson. In it, Clare takes a sheet of paper that is 8 inches by 10 inches, cuts the paper in half, stacks the pieces, cuts the pieces in half, then stacks them, etc. We can let C(n) be the area, in square inches, of each piece based on the number of cuts n. Display the table for all to see.</p>
 <table class="os-raise-midsizetable">
-  
   <thead>
     <tr>
-      <th scope="col">
-       \(n\)&nbsp;(number of cuts) 
-      </th>
-      <th scope="col">
-        \(C(n)\) (area in square inches of each piece)
-      </th>
-	  </tr></thead><tbody>
+      <th scope="col"> \(n\)&nbsp;(number of cuts) </th>
+      <th scope="col"> \(C(n)\) (area in square inches of each piece) </th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
-      <td>
-        <p>0</p>
-      </td>
-      <td>
-        <p>80</p>
-      </td>
+      <td><p>0</p></td>
+      <td><p>80</p></td>
     </tr>
     <tr>
-      <td>
-        <p>1</p>
-      </td>
-      <td>
-        <p>40</p>
-      </td>
+      <td><p>1</p></td>
+      <td><p>40</p></td>
     </tr>
     <tr>
-      <td>
-        <p>2</p>
-      </td>
-      <td>
-        <p>20</p>
-      </td>
+      <td><p>2</p></td>
+      <td><p>20</p></td>
     </tr>
     <tr>
-      <td>
-        <p>3</p>
-      </td>
-      <td>
-        <p>10</p>
-      </td>
+      <td><p>3</p></td>
+      <td><p>10</p></td>
     </tr>
     <tr>
-      <td>
-        <p>4</p>
-      </td>
-      <td>
-        <p>5</p>
-      </td>
+      <td><p>4</p></td>
+      <td><p>5</p></td>
     </tr>
   </tbody>
-</table><br>
+</table>
+<br>
 <p>Depending on time, either invite students to share their observations about \(C(n)\) or tell students that it is a geometric series with growth factor \(\frac12\). Say, &ldquo;This sequence starts with \(n=0\) since we start with a piece of paper with 0 cuts. How can we write a recursive definition for \(C(n)\)?&rdquo; \((C(0)=80,C(n)=C(n&minus;1) \cdot \frac12,n\geq1)\). Select students to share their definitions, paying particular attention to the starting term, \(C(0)\), and that \(n\geq1\) is used. An important takeaway from looking at this recursive definition is that the domain of a sequence is something that should be based on the situation and that sometimes starting with \(n=1\) doesn&rsquo;t make sense. Luckily, we can use the function notation to make clear that we are starting with \(n=0\) by beginning with \(C(0)\), and then we change \(n\geq2\) to \(n\geq1\) to match.</p>
 <p>It is likely students will need help making the association in 1a that \(80 \cdot \frac12 \cdot \frac12 \cdot \cdot \cdot \cdot \cdot \frac12\) with \(n\) multiplications of \(\frac12\) is the same as saying \(80\cdot{(\frac12)}^n.\) Discuss \({(\frac12)}^2=\frac12\times\frac12\), etc.</p>
 <h4>Student Activity </h4>
 <ol class="os-raise-noindent">
-  <li>
-    Clare takes a piece of paper with length 8 inches and width 10 inches and cuts it in half. Then she cuts it in half again, and again . . .
-  </li>
+  <li> Clare takes a piece of paper with length 8 inches and width 10 inches and cuts it in half. Then she cuts it in half again, and again . . . </li>
   <ol class="os-raise-noindent" type="a">
-    <li>
-      Instead of writing a recursive definition, Clare writes \(C(n)=80 \cdot(\frac12)^n\), where \(C\) is the area, in square inches, of the paper after \(n\) cuts. Explain where the different terms in her expression came from.
-    </li>
+    <li> Instead of writing a recursive definition, Clare writes \(C(n)=80 \cdot(\frac12)^n\), where \(C\) is the area, in square inches, of the paper after \(n\) cuts. Explain where the different terms in her expression came from. </li>
     <p><strong>Answer: </strong></p>
-
-    <p>
-      For example: Each cut halves the area, and there are \(n\) cuts. The original area is 80, so \(80 \cdot \frac12 \cdot \frac12 \cdot \cdot \cdot \cdot \cdot \frac12\) with \(n\) multiplications of \(\frac12\) is the same as saying \(80 \cdot (\frac{1}{2})^n\).
-    </p>
-    <li>
-      Approximately what is the area of the paper after 10 cuts?    <p><strong>Answer: </strong></p>
-
-    <p>
-      Approximately 0.078 square inches (exactly \(\frac{80}{1024}\) inches)</p><br>
-      <br>
+    <p> For example: Each cut halves the area, and there are \(n\) cuts. The original area is 80, so \(80 \cdot \frac12 \cdot \frac12 \cdot \cdot \cdot \cdot \cdot \frac12\) with \(n\) multiplications of \(\frac12\) is the same as saying \(80 \cdot (\frac{1}{2})^n\). </p>
+    <li> Approximately what is the area of the paper after 10 cuts?
+      <p><strong>Answer: </strong></p>
+      <p> Approximately 0.078 square inches (exactly \(\frac{80}{1024}\) inches)</p>
       <br>
     </li>
   </ol>
-
-
-  <li>
-    Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1 inch of the width. Then he does it again, and again . . .
-  </li>
+  <li> Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1 inch of the width. Then he does it again, and again . . . </li>
   <ol class="os-raise-noindent" type="a">
-    <li>
-      Complete the table for the area of Kiran&rsquo;s paper \(K(n)\), in square inches, after \(n\) cuts.
-    </li>
+    <li> Complete the table for the area of Kiran&rsquo;s paper \(K(n)\), in square inches, after \(n\) cuts. </li>
   </ol>
 </ol>
 <table class="os-raise-midsizetable">
- 
   <thead>
     <tr>
-      <th scope="col">
-       \(n\)
-      </th>
-      <th scope="col">
-       \(K(n)\)
-      </th>
-	  </tr></thead><tbody>
+      <th scope="col"> \(n\) </th>
+      <th scope="col"> \(K(n)\) </th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
-      <td>
-        <p>0</p>
-      </td>
-      <td>
-        <p>80</p>
-      </td>
+      <td><p>0</p></td>
+      <td><p>80</p></td>
     </tr>
     <tr>
-      <td>
-        <p>1</p>
-      </td>
+      <td><p>1</p></td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>2</p>
-      </td>
-      <td>
-        <p>\(80&minus;8&minus;8=80&minus;8(2)=64\)</p>
-      </td>
+      <td><p>2</p></td>
+      <td><p>\(80&minus;8&minus;8=80&minus;8(2)=64\)</p></td>
     </tr>
     <tr>
-      <td>
-        <p>3</p>
-      </td>
+      <td><p>3</p></td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>4</p>
-      </td>
+      <td><p>4</p></td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>5</p>
-      </td>
+      <td><p>5</p></td>
       <td></td>
     </tr>
   </tbody>
@@ -150,118 +93,70 @@
 <p> <strong>Answer: </strong> </p>
 </ol>
 <ol class="os-raise-noindent" start="2">
-  <li>
-    &nbsp;&nbsp;
-  </li>
+  <li> &nbsp;&nbsp; </li>
   <ol class="os-raise-noindent" type="a">
-    <li>
-    </li>
+    <li> </li>
   </ol>
 </ol>
 <table class="os-raise-skinnytable">
-
   <thead>
     <tr>
-      <th scope="col">
-       \(n\)
-      </th>
-      <th scope="col">
-       \(K(n)\)
-      </th>
-	  </tr></thead><tbody>
+      <th scope="col"> \(n\) </th>
+      <th scope="col"> \(K(n)\) </th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
-      <td>
-        <p>0</p>
-      </td>
-      <td>
-        <p>80</p>
-      </td>
+      <td><p>0</p></td>
+      <td><p>80</p></td>
     </tr>
     <tr>
-      <td>
-        <p>1</p>
-      </td>
-      <td>
-        <p>72</p>
-      </td>
+      <td><p>1</p></td>
+      <td><p>72</p></td>
     </tr>
     <tr>
-      <td>
-        <p>2</p>
-      </td>
-      <td>
-        <p>64</p>
-      </td>
+      <td><p>2</p></td>
+      <td><p>64</p></td>
     </tr>
     <tr>
-      <td>
-        <p>3</p>
-      </td>
-      <td>
-        <p>56</p>
-      </td>
+      <td><p>3</p></td>
+      <td><p>56</p></td>
     </tr>
     <tr>
-      <td>
-        <p>4</p>
-      </td>
-      <td>
-        <p>48</p>
-      </td>
+      <td><p>4</p></td>
+      <td><p>48</p></td>
     </tr>
     <tr>
-      <td>
-        <p>5</p>
-      </td>
-      <td>
-        <p>40</p>
-      </td>
+      <td><p>5</p></td>
+      <td><p>40</p></td>
     </tr>
   </tbody>
 </table>
 <br>
 <ol class="os-raise-noindent">
   <ol class="os-raise-noindent" start="2" type="a">
-    <li>
-      Kiran says the area after 6 cuts, in square inches, is \(80&minus;8 \cdot 6\). Explain where the different terms in his expression came from.
-    </li>
+    <li> Kiran says the area after 6 cuts, in square inches, is \(80&minus;8 \cdot 6\). Explain where the different terms in his expression came from. </li>
     <p> <strong>Answer: </strong> </p>
-    <p>
-      For example: Each cut removes 8 square inches, so 6 cuts removes 48 square inches. The original area was 80 square inches, so the remaining area, in square inches, is \(80&minus;8 \cdot 6\).
-    </p>
-    <li>
-      Write a definition for \(K(n)\) that is not recursive.<br>
+    <p> For example: Each cut removes 8 square inches, so 6 cuts removes 48 square inches. The original area was 80 square inches, so the remaining area, in square inches, is \(80&minus;8 \cdot 6\). </p>
+    <li> Write a definition for \(K(n)\) that is not recursive.<br>
       <br>
     </li>
     <p> <strong>Answer: </strong> </p>
-
     <p>\(
-      K(n)=80&minus;8n\) for integers \(0\leq n\leq9\) or equivalent.
-      <br>
-      <br>
-    </p>
+      K(n)=80&minus;8n\) for integers \(0\leq n\leq9\) or equivalent. </p>
   </ol>
-  </ol>
-  <ol class="os-raise-noindent" start="3">
-   <li>
-    Which is larger, \(K(6)\) or \(C(6)\)?
-    <br>
-    <strong>Answer:</strong> \(K(6)\) is larger.
-  </li>
+</ol>
+<ol class="os-raise-noindent" start="3">
+  <li> Which is larger, \(K(6)\) or \(C(6)\)? <br>
+    <strong>Answer:</strong> \(K(6)\) is larger. </li>
 </ol>
 <ol class="os-raise-noindent" start="4">
-  <li>
-    Is \(K\) arithmetic or geometric?
-    <br>
-    <strong>Answer:</strong>&nbsp;\(K(n)\) is arithmetic.
-  </li>
+  <li> Is \(K\) arithmetic or geometric? <br>
+    <strong>Answer:</strong>&nbsp;\(K(n)\) is arithmetic. </li>
 </ol>
 <ol class="os-raise-noindent" start="5">
-  <li>
-    Is \(C\) arithmetic or geometric?
-    <br>
-    <strong>Answer: </strong>\(C(n)\) is geometric.
-  </li>
+  <li> Is \(C\) arithmetic or geometric? <br>
+    <strong>Answer: </strong>\(C(n)\) is geometric. </li>
 </ol>
 <p>A recursive sequence is a sequence in which terms are defined using one or more of the previous terms. If you know the nth term of an arithmetic or geometric sequence and the common difference or factor, you can find the (n+1)th term by using the recursive formula.&nbsp;&nbsp;</p>
 <p>Different definitions can often create the same sequence. For arithmetic and geometric sequences, there are general rules, called explicit rules, that can be followed to help find any term in the sequences.&nbsp;</p>
@@ -280,159 +175,92 @@
 <p>Display the two definitions from this task for all to see: \(C(n)=80 \cdot(\frac{1}{2})^n\) and \(K(n)=80&minus;8n\). Begin the discussion by asking, &ldquo;How can you tell which of these defines a geometric sequence and which defines an arithmetic sequence?&rdquo; (A geometric sequence has a constant growth factor between terms, so \(C(n)\) must represent a geometric sequence since each term is half the value of the previous term. An arithmetic sequence has a constant rate of change, so \(K(n)\) must represent an arithmetic sequence since each term is 8 less than the previous term.)</p>
 <p>Tell students that \(C(n)\) and \(K(n)\) are examples of defining a sequence by the nth term, which is the type of definition students are most likely familiar with. These are sometimes known as a closed-form or explicit definition, but students do not need to use these terms. In future activities, if students are asked to represent a sequence with an equation for the nth term, then they are being asked for this type of equation, not to define the sequence recursively. In later lessons, students will have practice writing equations for linear and exponential functions from a variety of situations.</p>
 <p>Lastly, if time allows, ask students to calculate which is larger, \(K(10)\) or \(C(10)\). (\(C(10)\) is larger since \(K(10)=0\) and \(C(10)&gt;0\), or there can&rsquo;t be a comparison because \(K(10)\) does not exist since a tenth cut is not possible.) Select students to share their calculations. If no student points out that \(K(10)\) does not exist due to the constraints of the context when \(n\) is the number of cuts, make sure to bring up this point. Students will have more opportunities to think directly about domains given a specific situation in a later lesson.</p>
-
 <div class="os-raise-extrasupport">
   <div class="os-raise-extrasupport-header">
     <p class="os-raise-extrasupport-title">Support for Students with Disabilities</p>
   </div>
   <div class="os-raise-extrasupport-body">
-    <p>
-      Break the class into small group discussion groups and then invite a representative from each group to report back to the whole class. </p>
-    </div>
+    <p> Break the class into small group discussion groups and then invite a representative from each group to report back to the whole class. </p>
   </div>
+</div>
 <br>
 <h3>4.18.2: Self Check&nbsp;</h3>
-<p class="os-raise-text-bold"><em>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</em></p>
+<p class="os-raise-text-bold os-raise-text-italicize">After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</p>
 <p class="os-raise-text-bold">QUESTION:</p>
-        <p>What is the 12th term in an arithmetic sequence where the first term is 22 and the common difference is &ndash;2?</p>
+<p>What is the 12th term in an arithmetic sequence where the first term is 22 and the common difference is &ndash;2?</p>
 <table class="os-raise-textheavytable">
- 
   <thead>
-    
     <tr>
-     <th scope="col">
-      Answers
-      </th>
-     <th scope="col">
-       Feedback
-      </th>
-	  </tr></thead><tbody>
+      <th scope="col"> Answers </th>
+      <th scope="col"> Feedback </th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
-      <td>
-        <p>&ndash;2</p>
-      </td>
-      <td>
-        <p>Incorrect. Let&rsquo;s try again a different way: Remember to multiply the difference by \(n-1\), not \(n\). Substitute the values into the nth term formula for arithmetic sequences. The answer is 0.</p>
-      </td>
+      <td><p>&ndash;2</p></td>
+      <td><p>Incorrect. Let&rsquo;s try again a different way: Remember to multiply the difference by \(n-1\), not \(n\). Substitute the values into the nth term formula for arithmetic sequences. The answer is 0.</p></td>
     </tr>
     <tr>
-      <td>
-        <p>&ndash;22</p>
-      </td>
-      <td>
-        <p>Incorrect. Let&rsquo;s try again a different way: Make sure to add to the first term. The answer is 0.&nbsp;</p>
-      </td>
+      <td><p>&ndash;22</p></td>
+      <td><p>Incorrect. Let&rsquo;s try again a different way: Make sure to add to the first term. The answer is 0.&nbsp;</p></td>
     </tr>
     <tr>
-      <td>
-        <p>0</p>
-      </td>
-      <td>
-        <p>That&rsquo;s correct! Check yourself: Substitute into the formula, \(a_n=a_1+(n-1)d\), so that \(a_{12}=22+(12-1)(-2)=22+(-22)=0\).</p>
-      </td>
+      <td><p>0</p></td>
+      <td><p>That&rsquo;s correct! Check yourself: Substitute into the formula, \(a_n=a_1+(n-1)d\), so that \(a_{12}=22+(12-1)(-2)=22+(-22)=0\).</p></td>
     </tr>
     <tr>
-      <td>
-        <p>&ndash;45056</p>
-      </td>
-      <td>
-        <p>Incorrect. Let&rsquo;s try again a different way: Use the formula for arithmetic sequences, not geometric. The answer is 0.</p>
-      </td>
+      <td><p>&ndash;45056</p></td>
+      <td><p>Incorrect. Let&rsquo;s try again a different way: Use the formula for arithmetic sequences, not geometric. The answer is 0.</p></td>
     </tr>
   </tbody>
 </table>
 <br>
 <h3>4.18.2: Additional Resources</h3>
-<p><strong><em>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&nbsp;</em></strong></p>
-<h4>The nth Term of Arithmetic Sequences</h4>
-<div>
-  <p><strong> GENERAL TERM (NTH TERM) OF AN ARITHMETIC SEQUENCE
-    </strong></p>
-  <hr>
-  <p>The general term of an arithmetic sequence with first term \(a_1\) and common difference \(d\) is:&nbsp;<span>\(a_n=a_1+(n-1)d\).</span><br></p>
+<p class="os-raise-text-bold os-raise-text-italicize">The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.&nbsp;</p>
+<div class="os-raise-extrasupport">
+  <div class="os-raise-extrasupport-header">
+    <p class="os-raise-extrasupport-title">The nth Term of Arithmetic Sequences</p>
+    <p class="os-raise-extrasupport-name"><!--Extra Support Name--> GENERAL TERM (NTH TERM) OF AN ARITHMETIC SEQUENCE</p>
+  </div>
+  <div class="os-raise-extrasupport-body"> 
+    <!--Support Content-->
+    <p>The general term of an arithmetic sequence with first term \(a_1\) and common difference \(d\) is: \(a_n=a_1+(n-1)d\).</p>
+    <!-- Extra Support Content--> 
+  </div>
 </div>
 <br>
-<p>We will use this formula in the next example to find the 15th term of a sequence.</p>
-<div>
-  <p> Find the 15th term of a sequence where the first term is 3 and the common difference is 6. </p>
-  <hr>
-  <table class="os-raise-horizontaltable">
-    <thead></thead>
-    <tbody>
-      <tr>
-       <th scope="row">
-          To find the fifteenth term,&nbsp;\(a_{15}\), use the<br>
-            formula with&nbsp;\(a_1=3\) and \(d=6\). 
-        </th>
-        <td>
-         \(a_n=a_1+(n&minus;1)d\) 
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">
-        Substitute in the values.
-        </th>
-        <td>
-         \(a_{15}=3+(15&minus;1)6\) 
-        </td>
-      </tr>
-      <tr>
-       <th scope="row">
-       Simplify.
-        </th>
-        <td>
-         \(a_{15}=3+(14)6\)
-        </td>
-      </tr>
-      <tr>
-      <th scope="row"></th>
-        <td>
-         \(a_{15}=87\) 
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<p class="os-raise-text-bold">Example 1</p>
+<p>Write the explicit formula for the sequence given by the terms 18, 21, 24, 27, ...</p>
+<p><strong>Solution:&nbsp;</strong></p>
+<p><strong>Step 1-</strong> Write the general formula.<br>
+  \(a_n = a_1 + (n - 1)d\)</p>
+<p><strong>Step 2 -</strong> Substitute values for the first term, common difference/ratio, term number.&nbsp;<br>
+  \(a_1 = 18\), \(d = 3\)<br>
+  \(a_n = 18 + (n - 1)^3\)</p>
+<br />
+<p>So, the explicit formula for the sequence 18, 21, 24, 27… is \(a_n = 18 + (n - 1)^3\).</p>
+<p>Now any term can more easily be determined - even the 1000th term!</p>
+<br>
+<p class="os-raise-text-bold">Example 2</p>
+<p> Find the 15th term of a sequence where the first term is 3 and the common difference is 6. </p>
+<p><strong>Step 1 - </strong>Write the general formula.<br>
+  \(a_n=a_1+(n&minus;1)d\) </p>
+<p><strong>Step 2 -</strong> Substitute values for the first term, common difference/ratio, term number. <br>
+  \(a_1 = 3, d = 6\), \(n = 15\)<br>
+  \(a_{15} = 3 + (15 - 1)6\) </p>
+<p><strong>Step 3 -</strong> Simplify the expression. <br>
+  \(a_{15} = 3 + (14)6\) <br>
+  \(a_{15} = 3 + 84\)<br>
+  \(a_15 = 87\) </p>
+<p>If the explicit formula for this question was needed, we would not have substituted \(n = 15\) and the \(n\)th term formula would have been \(a_n = 3 + (n - 1)6\). This formula is also equivalent to </p>
+<p>\(a_n = 3 + 6(n - 1)\). </p>
 <br>
 <h4> Try It: The nth Term of Arithmetic Sequences</h4>
-<p>Find the 27th term of a sequence where the first term is 7 and the common difference is 9.</p>
-<p>Write down your answer, then select the <strong>solution</strong> button to compare your work.</p>
-<h5>Solution</h5>
-<p>Here is how to find the 27th term of the sequence:</p>
-<table class="os-raise-horizontaltable">
-<thead></thead>
-  <tbody>
-    <tr>
-      <th scope="row">
-        Write the formula.
-      </th>
-      <td>
-        \(a_n=a_1+(n&minus;1)d\) 
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">
-        Substitute \(a_1=7\), \(d=9\), \(n=27\).
-      </th>
-      <td>
-      \(a_{27}=7+(27-1)9\)
-      </td>
-    </tr>
-    <tr>
-     <th scope="row">
-        Simplify inside the parentheses.
-      </th>
-      <td>
-        \(a_{27}=7+(26)9\)
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">
-       Simplify to find \(a_{27}\).
-      </th>
-      <td>
-       \(a_{27}=241\)
-      </td>
-    </tr>
-  </tbody>
-</table><br>
+<p>Find the formula for the \(n\)th term of a sequence where the first term is 7 and the common difference is 9.</p>
+<p>Write down your answer, then select the <strong>solution</strong> button to compare your work. </p>
+<h5 class="os-raise-text-bold">Solution:</h5>
+<p><strong>Step 1 -</strong> Write the general formula.<br>
+  \(a_n=a_1+(n&minus;1)d\) </p>
+<p><strong>Step 2 - </strong>Substitute values for the first term, common difference/ratio, term number. <br>
+  \(a_1 = 7\), \(d = 9\)<br>
+  \(a_n = 7 + (n - 1)^9\) </p>
