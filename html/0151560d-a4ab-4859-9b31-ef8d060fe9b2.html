@@ -6,33 +6,67 @@
 <h4>Launch</h4>
 <p>Arrange students in groups of 2.</p>
 <h4>Student Activity </h4>
-<p>A Sierpinski triangle can be created by starting with an equilateral triangle, breaking the triangle into 4 congruent equilateral triangles, and then removing the middle triangle. Starting from a single black equilateral triangle:</p>
-<p><img height="101" src="https://k12.openstax.org/contents/raise/resources/cc04aad943cd903e2c4a06aa58e7f1a7017403af" width="624"></p>
 <ol class="os-raise-noindent">
   <li>
-    Let \(S\) be the number of black triangles in Step \(n\). Define \(S(n)\) recursively.
+    In 2015, the number of wildcats in a national park was 284. It was estimated that the wildcat population increased by 4% each year. A researcher for the park writes \(W_n = 284(1.04)^n\), where \(W\) is the projected wildcat population \(n\) years after 2015. Explain where the different factors in her expression came from.<br>
+    <p><strong>Answer:</strong> <br>The 284 is the starting population of the wildcats in 2015. The 1.04 represents that the population grows by 4% or 0.04 each year. The 1.04 comes from 100% of the population plus 4% growth, which equals 104% or 1.04. The \(n\) represents the number of years since 2015.</p>
   </li>
-  <p> <strong>Answer: </strong>
-    \(S(1)=3,S(n)=3 \cdot S(n&minus;1)\) for \(n\geq2\).
-  </p>
 </ol>
-<ol class="os-raise-noindent" start="2">
-  <li>
-    Andre and Lin are asked to write an equation for \(S\) that isn&rsquo;t recursive. Andre writes \(S(n)=3^n\) for \(n\geq0\), while Lin writes \(S(n)=3^n&minus;1\) for \(n\geq1\). Whose equation do you think is correct? Be prepared to show your reasoning.
-  </li>
-  <p> <strong>Answer: </strong>
-    They are both correct. For example: Lin is correct because if the image shows Steps 1 to 4, her equation gives the correct number of triangles for each step. Andre is correct since if we start with the black triangle, which is like Step 0, then Step 1 is the one with three triangles and Step 2 has 9 triangles, and those numbers match his equation.
-  </p>
-</ol>
-<h4>Video: Learning About Sierpinski&rsquo;s Triangle</h4>
-<p>Watch the following video to learn more about how to write a pattern as an nth term.</p>
-<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
-  <div class="os-raise-video-container"><video controls="true" crossorigin="anonymous">
-      <source src="https://k12.openstax.org/contents/raise/resources/17bb2699a589cb2724aca3802df06b559f5373eb">
-      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/aeab0f85286e27de1337914f956fe61048555c9a" srclang="en_us">https://k12.openstax.org/contents/raise/resources/17bb2699a589cb2724aca3802df06b559f5373eb
-    </video></div>
-</div>
+
+<ol class="os-raise-noindent" start="2"><li>Create a table of values to estimate the projected wildcat population over the next 7 years.</li></ol>
+<table class="os-raise-wideequaltable">
+  <thead>
+    <tr>
+      <th scope="col">Year</th>
+      <th scope="col">n</th>
+      <th scope="col">Wildcat Population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>2015</td><td>0</td><td>284</td></tr>
+    <tr><td>2016</td><td>1</td><td>295</td></tr>
+    <tr><td>2017</td><td>2</td><td>307</td></tr>
+    <tr><td>2018</td><td>3</td><td>319</td></tr>
+    <tr><td>2019</td><td>4</td><td>332</td></tr>
+    <tr><td>2020</td><td>5</td><td>346</td></tr>
+    <tr><td>2021</td><td>6</td><td>359</td></tr>
+    <tr><td>2022</td><td>7</td><td>374</td></tr>
+  </tbody>
+</table>
 <br>
+<ol class="os-raise-noindent" start="3">
+  <li>
+    Use a graphing tool or technology outside the course to graph the data that represents the population projections for this scenario.<br>
+    <p><strong>Answer:</strong> <br><img height="400" src="https://k12.openstax.org/contents/raise/resources/53fb8c9a6e0a4dc461223a472fbf2e25bf23a7a7"></p>
+  </li>
+</ol>
+
+<ol class="os-raise-noindent" start="4">
+  <li>
+    Calculate and determine the year when the wildcat population will exceed 500 members.<br>
+    <p><strong>Answer:</strong> <br>The wildcat population is expected to exceed 500 members in 2030 when they are projected to have 511 wildcats.</p>
+  </li>
+</ol>
+
+<ol class="os-raise-noindent" start="5">
+  <li>
+    Is the data that represents this scenario an arithmetic or geometric sequence? Explain your reasoning.<br>
+    <p><strong>Answer:</strong> <br>The data represents a geometric sequence because the equation has a common ratio of 1.04. The graph also does not depict a straight line, indicating a constant rate of increase typical of geometric sequences.</p>
+  </li>
+</ol>
+
+<p>Remember that a recursive formula defines terms using one or more of the previous terms. Different definitions can often create the same sequence but are more generalizable. These are called general rules or explicit rules. These formulas can be used to find any term in the sequence and may also be referred to as the rule to find the nth term.</p>
+
+<div class="os-raise-graybox">
+  <h5>Arithmetic Sequence Formulas</h5>
+<br>
+  <h6>Recursive Formula</h6>
+  <p>\(a_n = a_{n-1} + d\), where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</p>
+  <br>
+  <h6>Explicit General Formula</h6>
+  <p>\(a_n = a_1 + (n-1)d\)</p>
+  <p>Where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</p>
+</div>
 <br>
 <h4>Student Facing Extension</h4>
 <h5> Are you ready for more?</h5>
