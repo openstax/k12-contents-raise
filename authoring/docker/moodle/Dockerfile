@@ -1,10 +1,12 @@
 FROM moodlehq/moodle-php-apache:8.0
 
 ARG MOODLE_VERSION=v4.1.10
+ARG LOCAL_RAISE_VERSION=2024050900
 
 # Install Moodle and plugins
 RUN rmdir /var/www/html
 RUN git clone --depth 1 https://github.com/moodle/moodle --branch $MOODLE_VERSION /var/www/html
+RUN git clone --depth 1 https://github.com/openstax/moodle-local_raise.git --branch $LOCAL_RAISE_VERSION /var/www/html/local/raise
 RUN find /var/www/html/. -name .git | xargs rm -rf
 RUN chown -R www-data:www-data /var/www/html/
 
