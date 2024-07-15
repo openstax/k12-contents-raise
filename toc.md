@@ -248,7 +248,7 @@
         * [1.10.3: Writing and Graphing Equations in Standard Form](./html/498dec10-4a57-4e68-9571-b05b64f0cf00.html)
         * [1.10.4: Matching Equations and Graphs](./html/07479387-8821-480a-8e0d-99e588273682.html)
         * [1.10.5: Practice](./html/7edde188-0d58-4ae8-a64e-c47140551c4a.html)
-        * [1.10: Lesson Synthesis](./html/aefff0cf-4ac8-4c4f-8951-c65b93be2f01.html)
+        * [1.10.6: Lesson Synthesis](./html/aefff0cf-4ac8-4c4f-8951-c65b93be2f01.html)
     * Lesson 1.10: Connecting Equations to Graphs, Part 1
         * [1.10.0: Lesson Overview](./html/8e900b85-7308-4446-a7d8-6de1517dbc86.html)
         * [1.10.1: Interpreting Equations in Context](./html/ca423271-63c5-482c-bd1b-8a622d1cc20c.html)
@@ -379,13 +379,13 @@
         * [1.15.5: Practice](./html/9868762f-4882-4669-8112-2d7099214674.html)
         * [1.15.6: Lesson Summary](./html/b256503a-adce-4567-81d8-5691e1049e9b.html)
     * Project 1 Teacher Guide: Slopes and Intercepts
-        * [Unit 1 Project Overview](./html/93f34e21-cde7-4be9-8c34-44b7b0be89e1.html)
-        * [Activity P.1: Notice and Wonder: Sugar and Flour](./html/5dc8ae3d-972e-4003-9ea1-76f9c2f8658c.html)
-        * [Activity P.2: Matching Matching](./html/1e645399-9709-42da-b574-f1a1a4464682.html)
-    * Project 1: Slopes and Intercepts
+        * [Project 1 Overview](./html/93f34e21-cde7-4be9-8c34-44b7b0be89e1.html)
+        * [Notice and Wonder: Graph Features](./html/5dc8ae3d-972e-4003-9ea1-76f9c2f8658c.html)
+        * [Matching Graphs and Equations](./html/1e645399-9709-42da-b574-f1a1a4464682.html)
+    * Project 1 Overview
         * [Unit 1 Project Overview](./html/8e1190a2-5e3f-4aac-810b-0c432c00103a.html)
-        * [Activity P.1: Notice and Wonder: Sugar and Flour](./html/05a02a4b-73e7-49d9-9375-5f1050612a7b.html)
-        * [Activity P.2: Matching Matching](./html/fb149f8d-7732-479f-ad40-e35454e4899b.html)
+        * [Notice and Wonder Graph Features](./html/05a02a4b-73e7-49d9-9375-5f1050612a7b.html)
+        * [Matching Graph and Equations](./html/fb149f8d-7732-479f-ad40-e35454e4899b.html)
     * [Unit 1 Wrap Up](./html/8ae10605-333d-47c1-b1be-8d22e1d6a53f.html)
 * Unit 2: Linear Inequalities and Systems
     * Unit 2 Teacher Guide
@@ -734,14 +734,14 @@
         * [2.15.6: Lesson Summary](./html/09059e77-04b5-4ffe-8f52-bfdbd270c4b2.html)
     * Project 2 Teacher Guide: Modeling with Systems of Inequalities in Two Variables
         * [Project 2 Overview](./html/9e62a9ad-a1ee-468a-a834-c0ac2de70388.html)
-        * [Activity P2.1: Determine a Solution to Inequalities](./html/a24a1223-f8bd-4c9d-af48-0b05d4d42c41.html)
-        * [Activity P2.2: Interpret a Set of Mathematical Models](./html/7533221e-bd2c-48e6-b8fc-c87a7acc7586.html)
-        * [Activity P2.3: Perform Mathematical Modeling](./html/0927af67-5caa-4fcd-b571-dd93f9d10d22.html)
+        * [Determine a Solution to Inequalities](./html/a24a1223-f8bd-4c9d-af48-0b05d4d42c41.html)
+        * [Interpret a Set of Mathematical Models](./html/7533221e-bd2c-48e6-b8fc-c87a7acc7586.html)
+        * [Perform Mathematical Modeling](./html/0927af67-5caa-4fcd-b571-dd93f9d10d22.html)
     * Project 2: Modeling with Systems of Inequalities in Two Variables
         * [Project 2 Overview](./html/0c258631-7b57-4135-a81f-2cd463e07148.html)
-        * [Activity P2.1: Determine a Solution to Inequalities](./html/85b15ef8-da43-4486-b78c-dbf7b8786307.html)
-        * [Activity P2.2: Interpret a Set of Mathematical Models](./html/ba6502ca-26f7-4cd4-800a-c8af8ed811d2.html)
-        * [Activity P2.3: Perform Mathematical Modeling](./html/afbaa505-5cb6-4f02-ac5f-62e297b7824f.html)
+        * [Determine a Solution to Inequalities](./html/85b15ef8-da43-4486-b78c-dbf7b8786307.html)
+        * [Interpret a Set of Mathematical Models](./html/ba6502ca-26f7-4cd4-800a-c8af8ed811d2.html)
+        * [Perform Mathematical Modeling](./html/afbaa505-5cb6-4f02-ac5f-62e297b7824f.html)
     * [Unit 2 Wrap Up](./html/802bd472-f8d0-4dc3-9acb-fadfddba8515.html)
 * Unit 3: Two-Variable Statistics
     * Unit 3 Teacher Guide
@@ -896,12 +896,12 @@
         * [3.6.6: Lesson Summary](./html/368f3630-d586-472a-9407-1200e28046d1.html)
     * Project 3 Teacher Guide: Two-Variable Statistics
         * [Project 3 Overview](./html/e6f602e6-66b3-436d-8b9a-655dfe988523.html)
-        * [Activity P3.1: Estimate Lengths](./html/bb07a9cd-2ef6-4c33-8649-51b80849bb55.html)
-        * [Activity P3.2: Analyze Data ](./html/5b903215-2162-40b6-920b-7827044c8e26.html)
+        * [Estimate Lengths](./html/bb07a9cd-2ef6-4c33-8649-51b80849bb55.html)
+        * [Analyze Data ](./html/5b903215-2162-40b6-920b-7827044c8e26.html)
     * Project 3: Two-Variable Statistics
         * [Project 3 Overview](./html/2724bfba-1483-4075-aeff-9cc6085ddc17.html)
-        * [Activity P3.1: Estimate Lengths](./html/0fe2ebb0-0122-49ca-8981-41ee365862d9.html)
-        * [Activity P3.2: Analyze Data ](./html/2d0c2c2d-aa56-49f6-9238-a367299dc2e3.html)
+        * [Estimate Lengths](./html/0fe2ebb0-0122-49ca-8981-41ee365862d9.html)
+        * [Analyze Data ](./html/2d0c2c2d-aa56-49f6-9238-a367299dc2e3.html)
     * [Unit 3 Wrap Up](./html/3a94bcd5-6a25-44dd-9f26-b733b1ac1013.html)
 * Unit 4: Functions
     * Unit 4 Teacher Guide
@@ -912,9 +912,9 @@
         * [Supporting English Language Proficiency Standards (ELPS)](./html/baec0f1e-c619-411e-9f43-fc25f89058cf.html)
     * Unit 4 Inquiry Project Teacher Guide: Defining Functions
         * [Inquiry Project Unit 4 Overview](./html/e9bde82a-143f-4d72-8462-77455bd7f43b.html)
-        * [Activity IP4.1: Simulating Relationships ](./html/084876da-09d6-4e78-ae36-5aaabc730547.html)
-        * [Activity IP4.2: What is a function? ](./html/f0c199d1-c39e-41f6-841d-7ab94f677d27.html)
-        * [Activity IP4.3: Different Kinds of Functions](./html/11c39a8d-798b-4d05-b808-bc30217c4bd3.html)
+        * [Simulating Relationships ](./html/084876da-09d6-4e78-ae36-5aaabc730547.html)
+        * [What is a function? ](./html/f0c199d1-c39e-41f6-841d-7ab94f677d27.html)
+        * [Different Kinds of Functions](./html/11c39a8d-798b-4d05-b808-bc30217c4bd3.html)
     * Unit 4 Inquiry Project: Defining Functions
         * [Part 1: Simulating Relationships](./html/bff2fe03-f055-475a-9b89-11c859d2a115.html)
         * [Part 2: What is a function?](./html/b68d9c6f-a76b-4b6e-827b-e5ff63a9d980.html)
@@ -1337,9 +1337,9 @@
         * [4.18.8: Lesson Summary](./html/c3240dcc-73c8-4004-9776-84a18696f044.html)
     * Project 4 Teacher Guide: Using Functions to Model Battery Power
         * [Project 4 Overview](./html/2a2910de-e106-403c-8e6a-105d4eb7b6f7.html)
-        * [Activity: P4.1: Estimate Time to Charge a Battery](./html/ff94c93c-2f8b-4a5e-bfd5-72037103853a.html)
-        * [Activity: P4.2: Analyze Percent Change Over Time](./html/d42f14c9-e7f5-42ab-a6d3-f7e6dacfff66.html)
-        * [Activity: P4.3: Write an Equation to Model Data](./html/7cce28be-76bf-4030-a44a-839e68db4f5e.html)
+        * [Estimate Time to Charge a Battery](./html/ff94c93c-2f8b-4a5e-bfd5-72037103853a.html)
+        * [Analyze Percent Change Over Time](./html/d42f14c9-e7f5-42ab-a6d3-f7e6dacfff66.html)
+        * [Write an Equation to Model Data](./html/7cce28be-76bf-4030-a44a-839e68db4f5e.html)
     * Project 4: Using Functions to Model Battery Power
         * [Project 4 Overview](./html/5d87b49d-ab8c-4f00-943e-03874bbaa27d.html)
         * [Activity: P4.1: Estimate Time to Charge a Battery](./html/c78483bb-df6d-4985-9c3e-5bedbcdb0a62.html)
@@ -1696,9 +1696,9 @@
         * [5.15.6: Lesson Summary](./html/72f0bf0b-8fed-46fa-bee9-5078962ed121.html)
     * Project 5 Teacher Guide: Introduction to Exponential Functions
         * [Project 5 Overview](./html/3dc9550c-44e3-46a9-bdae-27ef6f9e0b03.html)
-        * [Activity P5.1: Analyze Data](./html/096a4469-5cd8-4786-9a7c-b59febaa2e73.html)
-        * [Activity P5.2: Write Equations to Model Populations](./html/cbad4720-d3ee-4374-94f9-706bb08ec811.html)
-        * [Activity P5.3: Open-ended Modeling with Data Investigation ](./html/35c7c190-d131-4f32-b67e-0bfac6341ae7.html)
+        * [Analyze Data](./html/096a4469-5cd8-4786-9a7c-b59febaa2e73.html)
+        * [Write Equations to Model Populations](./html/cbad4720-d3ee-4374-94f9-706bb08ec811.html)
+        * [Open-ended Modeling with Data Investigation ](./html/35c7c190-d131-4f32-b67e-0bfac6341ae7.html)
     * Project 5: Introduction to Exponential Functions
         * [Project 5 Overview](./html/5d0f5c89-4b42-4b16-9025-5c50ff3ec1ae.html)
         * [Activity P5.1: Analyze Data](./html/e3050640-f992-4bb2-897e-f13b8e646f64.html)
@@ -1730,10 +1730,10 @@
         * [Part 4: Applying an Area Model ](./html/8f218b3e-7953-4e30-af8b-b0909544e23d.html)
     * Unit 6 Inquiry Project Teacher Guide: Area Model Multiplication
         * [Inquiry Project Unit 6 Overview](./html/9b5460ca-935e-45a6-aece-f3e42b3565d3.html)
-        * [Activity IP6.1: Discovering an Area Model ](./html/4c18086f-40b4-46d3-a662-47fff955ec2b.html)
-        * [Activity IP6.2: Understanding an Area Model ](./html/ec9f0bb1-37c1-4ed5-baf5-9eea082b1be1.html)
-        * [Activity IP6.3: Using an Area Model](./html/d2662d14-0c1a-48dd-891f-66bf4b7d5a7e.html)
-        * [Activity IP6.4: Applying an Area Model](./html/d483b99c-8f41-484c-839a-7ecd35cb0d11.html)
+        * [Discovering an Area Model ](./html/4c18086f-40b4-46d3-a662-47fff955ec2b.html)
+        * [Understanding an Area Model ](./html/ec9f0bb1-37c1-4ed5-baf5-9eea082b1be1.html)
+        * [Using an Area Model](./html/d2662d14-0c1a-48dd-891f-66bf4b7d5a7e.html)
+        * [Applying an Area Model](./html/d483b99c-8f41-484c-839a-7ecd35cb0d11.html)
     * [Unit 6 Section A Overview: Operations with Polynomials](./html/46e448a1-9a4b-4ee0-b2c0-1184f1272c90.html)
     * Lesson 6.1 Teacher Guide: Add and Subtract Polynomials
         * [6.1.0: Lesson Overview](./html/b6383594-ab54-4cb3-9db0-eeb0d622fbab.html)
@@ -1898,14 +1898,14 @@
         * [6.7.6: Lesson Summary](./html/e2f44f9c-85a0-4b69-97e9-a78a4c61e74c.html)
     * Project 6 Teacher Guide: Polynomials and Rectangles
         * [Project 6 Overview](./html/60775a99-585a-4d8e-af06-2dafa58ec6fa.html)
-        * [Activity: P6.1: Areas of Rectangles](./html/38356d39-7d49-41a8-8c40-616d2ae2034f.html)
-        * [Activity: P6.2: Dimensions and Areas of Rectangles](./html/12556aca-8d8f-44ef-9988-11abf8621c38.html)
-        * [Activity: P6.3: Create Your Own Rectangles](./html/5f7b5898-364f-4e8d-be69-367de678ca25.html)
+        * [Areas of Rectangles](./html/38356d39-7d49-41a8-8c40-616d2ae2034f.html)
+        * [Dimensions and Areas of Rectangles](./html/12556aca-8d8f-44ef-9988-11abf8621c38.html)
+        * [Create Your Own Rectangles](./html/5f7b5898-364f-4e8d-be69-367de678ca25.html)
     * Project 6: Polynomials and Rectangles
         * [Project 6 Overview](./html/c4f92f86-91e4-4338-8723-92352e3b3d1b.html)
-        * [Activity: P6.1: Areas of Rectangles](./html/22942bee-9c0b-4778-8d8b-4ae494e650f6.html)
-        * [Activity: P6.2: Dimensions and Areas of Rectangles](./html/39092b52-accc-49e2-ba3d-2edbdd6fde1b.html)
-        * [Activity: P6.3: Create Your Own Rectangles](./html/55263ddf-1deb-4714-b62c-08c4eb8b5d84.html)
+        * [Areas of Rectangles](./html/22942bee-9c0b-4778-8d8b-4ae494e650f6.html)
+        * [Dimensions and Areas of Rectangles](./html/39092b52-accc-49e2-ba3d-2edbdd6fde1b.html)
+        * [Create Your Own Rectangles](./html/55263ddf-1deb-4714-b62c-08c4eb8b5d84.html)
     * [Unit 6 Wrap Up](./html/88d608f8-b364-4721-9c9c-473688fa7bfd.html)
 * Unit 7: Introduction to Quadratic Functions
     * Unit 7 Teacher Guide
@@ -2286,12 +2286,12 @@
         * [7.17.7: Lesson Summary](./html/30d3101c-0f45-49bc-b4af-da2fdb250555.html)
     * Project 7 Teacher Guide: Design a Fountain
         * [Project 7 Overview](./html/afaa4095-7825-4283-b8a1-e0e2781298f0.html)
-        * [Activity P7.1: Introduction to Fountain Design](./html/e39a5f15-9508-4ff9-9d00-5200ceb11b50.html)
-        * [Activity P7.2: Design a Fountain](./html/c444dfed-197c-4de6-b23a-2a6d02770ed1.html)
+        * [Introduction to Fountain Design](./html/e39a5f15-9508-4ff9-9d00-5200ceb11b50.html)
+        * [Design a Fountain](./html/c444dfed-197c-4de6-b23a-2a6d02770ed1.html)
     * Project 7: Design a Fountain
         * [Project 7 Overview](./html/f63ff810-1afe-464e-a75d-c954466aba31.html)
-        * [Activity P7.1: Introduction to Fountain Design](./html/f802bc8a-ffdf-4fbe-b123-07c272247571.html)
-        * [Activity P7.2: Design a Fountain](./html/4c71d1a7-c980-4e61-a6fa-5f38802635a1.html)
+        * [Introduction to Fountain Design](./html/f802bc8a-ffdf-4fbe-b123-07c272247571.html)
+        * [Design a Fountain](./html/4c71d1a7-c980-4e61-a6fa-5f38802635a1.html)
     * [Unit 7 Wrap Up](./html/ed02f2eb-98c8-45e7-abc8-970752bd581c.html)
 * Unit 8: Quadratic Equations
     * Unit 8 Teacher Guide
@@ -2559,14 +2559,14 @@
         * [8.12.6: Lesson Summary](./html/2e1c609b-a3f1-4a93-852a-9429bffb723e.html)
     * Project 8 Teacher Guide: Modeling Rocket Flight
         * [Project 8 Overview](./html/480ee58d-c117-411d-be58-9ac70ca4045f.html)
-        * [Activity P8.1: Relate Zeros to the Factored Form of Quadratic Equations](./html/ba751958-f991-453d-9762-c4509bb7a3e7.html)
-        * [Activity P8.2: Convert between Factored Form and Standard Form](./html/43e79918-40de-4f86-baa0-7e40ddaa6cb5.html)
-        * [Activity P8.3: Model a Rocket Flight Using a Quadratic Equation](./html/c5def5ac-51fd-4961-bcd7-2d23170f3217.html)
+        * [Relate Zeros to the Factored Form of Quadratic Equations](./html/ba751958-f991-453d-9762-c4509bb7a3e7.html)
+        * [Convert between Factored Form and Standard Form](./html/43e79918-40de-4f86-baa0-7e40ddaa6cb5.html)
+        * [Model a Rocket Flight Using a Quadratic Equation](./html/c5def5ac-51fd-4961-bcd7-2d23170f3217.html)
     * Project 8: Modeling Rocket Flight
         * [Project 8 Overview](./html/c9aa0e69-e024-4f8a-b9cc-dc29b5c5009f.html)
-        * [Activity P8.1: Relate Zeros to the Factored Form of Quadratic Equations](./html/73552909-ce34-4456-b15a-3fdcf8a18447.html)
-        * [Activity P8.2: Convert between Factored Form and Standard Form](./html/aa2c59ff-2503-4011-b3ee-5750820539df.html)
-        * [Activity P8.3: Model a Rocket Flight Using a Quadratic Equation](./html/ab3d96c3-f3f8-4df0-8544-7b849787def6.html)
+        * [Relate Zeros to the Factored Form of Quadratic Equations](./html/73552909-ce34-4456-b15a-3fdcf8a18447.html)
+        * [Convert between Factored Form and Standard Form](./html/aa2c59ff-2503-4011-b3ee-5750820539df.html)
+        * [Model a Rocket Flight Using a Quadratic Equation](./html/ab3d96c3-f3f8-4df0-8544-7b849787def6.html)
     * [Unit 8 Wrap Up](./html/d0ceeb97-0d2d-4cee-9793-24665304a582.html)
 * Unit 9: More Quadratic Equations
     * Unit 9 Teacher Guide
@@ -2814,16 +2814,16 @@
         * [9.11.6: Lesson Summary](./html/83ec46a2-86e2-4d7f-9652-b543a3899bbf.html)
     * Project 9 Teacher Guide: Using Quadratic Equations to Model Situations and Solve Problems
         * [Project 9 Overview](./html/07fef9d8-6c68-40d7-8402-043b1ad92fba.html)
-        * [Activity: P9.1: Equations of Two Lines and a Curve](./html/870e9ad7-c694-479c-885c-3e0bd62efdd0.html)
-        * [Activity: P9.2: Analyze a Dive](./html/b713138d-315b-459c-b4e4-aabd9882b10d.html)
-        * [Activity: P9.3: A Linear Function and a Quadratic Function](./html/9cb4fa10-0293-443d-b08d-9b1323bd4364.html)
-        * [Activity: P9.4: Profit from a River Cruise](./html/ccc37bd2-6d34-4660-9a48-98de8aff4a20.html)
+        * [Equations of Two Lines and a Curve](./html/870e9ad7-c694-479c-885c-3e0bd62efdd0.html)
+        * [Analyze a Dive](./html/b713138d-315b-459c-b4e4-aabd9882b10d.html)
+        * [A Linear Function and a Quadratic Function](./html/9cb4fa10-0293-443d-b08d-9b1323bd4364.html)
+        * [Profit from a River Cruise](./html/ccc37bd2-6d34-4660-9a48-98de8aff4a20.html)
     * Project 9: Using Quadratic Equations to Model Situations and Solve Problems
         * [Project 9 Overview](./html/c151655d-270c-4686-8570-b6342468049d.html)
-        * [Activity: P9.1: Equations of Two Lines and a Curve](./html/735553fb-3753-4a44-b164-aa454bca72fe.html)
-        * [Activity: P9.2: Analyze a Dive](./html/6455920d-9270-4c96-8bab-7164d9754fab.html)
-        * [Activity: P9.3: A Linear Function and a Quadratic Function](./html/c331c42e-f506-4f35-9e75-cd9d83e34933.html)
-        * [Activity: P9.4: Profit from a River Cruise](./html/325ea039-905d-43b7-b34e-16b026d2c3c9.html)
+        * [Equations of Two Lines and a Curve](./html/735553fb-3753-4a44-b164-aa454bca72fe.html)
+        * [Analyze a Dive](./html/6455920d-9270-4c96-8bab-7164d9754fab.html)
+        * [A Linear Function and a Quadratic Function](./html/c331c42e-f506-4f35-9e75-cd9d83e34933.html)
+        * [Profit from a River Cruise](./html/325ea039-905d-43b7-b34e-16b026d2c3c9.html)
     * [Unit 9 Wrap Up](./html/3da470b2-4e50-4df0-87b6-e28b01271fc6.html)
 * Spring STAAR Review
 * Research in Practice
