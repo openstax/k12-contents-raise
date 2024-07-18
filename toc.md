@@ -380,10 +380,10 @@
         * [1.15.6: Lesson Summary](./html/b256503a-adce-4567-81d8-5691e1049e9b.html)
     * Project 1 Teacher Guide: Slopes and Intercepts
         * [Project 1 Overview](./html/93f34e21-cde7-4be9-8c34-44b7b0be89e1.html)
-        * [Notice and Wonder: Graph Features](./html/5dc8ae3d-972e-4003-9ea1-76f9c2f8658c.html)
+        * [Notice and Wonder Graph Features](./html/5dc8ae3d-972e-4003-9ea1-76f9c2f8658c.html)
         * [Matching Graphs and Equations](./html/1e645399-9709-42da-b574-f1a1a4464682.html)
-    * Project 1 Overview
-        * [Unit 1 Project Overview](./html/8e1190a2-5e3f-4aac-810b-0c432c00103a.html)
+    * Project 1: Slopes and Intercepts
+        * [Project 1 Overview](./html/8e1190a2-5e3f-4aac-810b-0c432c00103a.html)
         * [Notice and Wonder Graph Features](./html/05a02a4b-73e7-49d9-9375-5f1050612a7b.html)
         * [Matching Graph and Equations](./html/fb149f8d-7732-479f-ad40-e35454e4899b.html)
     * [Unit 1 Wrap Up](./html/8ae10605-333d-47c1-b1be-8d22e1d6a53f.html)
@@ -910,15 +910,16 @@
         * [Unit 4 Family Support Materials](./html/31bd737b-4ff5-404a-81dc-4a11ab0e88b1.html)
         * [Building Character: Creativity](./html/bfa6a630-c370-41b5-8324-d10ed313531b.html)
         * [Supporting English Language Proficiency Standards (ELPS)](./html/baec0f1e-c619-411e-9f43-fc25f89058cf.html)
-    * Unit 4 Inquiry Project Teacher Guide: Defining Functions
-        * [Inquiry Project Unit 4 Overview](./html/e9bde82a-143f-4d72-8462-77455bd7f43b.html)
+    * Inquiry Project Teacher Guide: Defining Functions
+        * [Inquiry Project Overview](./html/e9bde82a-143f-4d72-8462-77455bd7f43b.html)
         * [Simulating Relationships ](./html/084876da-09d6-4e78-ae36-5aaabc730547.html)
         * [What is a function? ](./html/f0c199d1-c39e-41f6-841d-7ab94f677d27.html)
         * [Different Kinds of Functions](./html/11c39a8d-798b-4d05-b808-bc30217c4bd3.html)
-    * Unit 4 Inquiry Project: Defining Functions
-        * [Part 1: Simulating Relationships](./html/bff2fe03-f055-475a-9b89-11c859d2a115.html)
-        * [Part 2: What is a function?](./html/b68d9c6f-a76b-4b6e-827b-e5ff63a9d980.html)
-        * [Part 3: Different Kinds of Functions ](./html/e408d781-2d31-40f4-a489-b69840c4b917.html)
+    * Inquiry Project: Defining Functions
+        * [Inquiry Project Overview](./html/e40ef55a-a005-460f-bce3-bcef3cfc0d37.html)
+        * [Simulating Relationships](./html/bff2fe03-f055-475a-9b89-11c859d2a115.html)
+        * [What is a function?](./html/b68d9c6f-a76b-4b6e-827b-e5ff63a9d980.html)
+        * [Different Kinds of Functions ](./html/e408d781-2d31-40f4-a489-b69840c4b917.html)
     * Unit 4 Overview and Readiness
         * [Unit 4 Overview: Why Should I Care?](./html/cb2d5bf8-af22-48e4-8a31-c9c20bf77f68.html)
         * [Unit 4 Overview: Am I Ready to Learn This?](./html/b94e160e-9e6b-4de7-96a5-1dc612c9374b.html)
@@ -1342,9 +1343,9 @@
         * [Write an Equation to Model Data](./html/7cce28be-76bf-4030-a44a-839e68db4f5e.html)
     * Project 4: Using Functions to Model Battery Power
         * [Project 4 Overview](./html/5d87b49d-ab8c-4f00-943e-03874bbaa27d.html)
-        * [Activity: P4.1: Estimate Time to Charge a Battery](./html/c78483bb-df6d-4985-9c3e-5bedbcdb0a62.html)
-        * [Activity: P4.2: Analyze Percent Change Over Time](./html/11131447-b0a8-4075-8a7f-fab69098a4f4.html)
-        * [Activity: P4.3: Write an Equation to Model Data](./html/4dbe1dd7-693e-49b0-9379-e14c50b59ec6.html)
+        * [Estimate Time to Charge a Battery](./html/c78483bb-df6d-4985-9c3e-5bedbcdb0a62.html)
+        * [Analyze Percent Change Over Time](./html/11131447-b0a8-4075-8a7f-fab69098a4f4.html)
+        * [Write an Equation to Model Data](./html/4dbe1dd7-693e-49b0-9379-e14c50b59ec6.html)
     * [Unit 4 Wrap Up](./html/0ba34e29-14e0-4252-9bef-db1924725ac6.html)
 * Unit 5: Introduction to Exponential Functions
     * Unit 5 Teacher Guide
@@ -1701,9 +1702,9 @@
         * [Open-ended Modeling with Data Investigation ](./html/35c7c190-d131-4f32-b67e-0bfac6341ae7.html)
     * Project 5: Introduction to Exponential Functions
         * [Project 5 Overview](./html/5d0f5c89-4b42-4b16-9025-5c50ff3ec1ae.html)
-        * [Activity P5.1: Analyze Data](./html/e3050640-f992-4bb2-897e-f13b8e646f64.html)
-        * [Activity P5.2: Write Equations to Model Populations](./html/1b8d1c95-5f8a-478c-aec2-315d3608d2ac.html)
-        * [Activity P5.3: Open-ended Modeling with Data Investigation ](./html/8aff1570-1b82-45c1-9b87-70d6bbd0c4b2.html)
+        * [Analyze Data](./html/e3050640-f992-4bb2-897e-f13b8e646f64.html)
+        * [Write Equations to Model Populations](./html/1b8d1c95-5f8a-478c-aec2-315d3608d2ac.html)
+        * [Open-ended Modeling with Data Investigation ](./html/8aff1570-1b82-45c1-9b87-70d6bbd0c4b2.html)
     * [Unit 5 Wrap Up](./html/408a0c99-4128-42a8-bc69-9a2dab2d20d8.html)
 * Fall STAAR Review
 * Unit 6: Working with Polynomials
@@ -1723,17 +1724,18 @@
         * [Question #3: Find the Greatest Common Factor](./html/540cd96f-45d5-4348-85de-8039350acdbd.html)
         * [Find the Greatest Common Factor: Mini-Lesson Review](./html/9f389966-4855-430c-a1b5-14f9f62319b4.html)
         * [Unit 6 Overview: Wrap Up](./html/f70aec09-57b1-4a7d-b128-19207f0d4966.html)
-    * Unit 6 Inquiry Project: Area Model Multiplication
-        * [Part 1: Discovering an Area Model](./html/8dbf8797-126e-47c7-8fdc-fc0a45a301f5.html)
-        * [Part 2: Understanding an Area Model](./html/07ad54f4-f97a-44cf-abda-2b104a51de6b.html)
-        * [Part 3: Using an Area Model](./html/cc92a813-0433-4351-ad4c-b00acbdc6fcb.html)
-        * [Part 4: Applying an Area Model ](./html/8f218b3e-7953-4e30-af8b-b0909544e23d.html)
-    * Unit 6 Inquiry Project Teacher Guide: Area Model Multiplication
-        * [Inquiry Project Unit 6 Overview](./html/9b5460ca-935e-45a6-aece-f3e42b3565d3.html)
+    * Inquiry Project Teacher Guide: Area Model Multiplication
+        * [Inquiry Project Overview](./html/9b5460ca-935e-45a6-aece-f3e42b3565d3.html)
         * [Discovering an Area Model ](./html/4c18086f-40b4-46d3-a662-47fff955ec2b.html)
         * [Understanding an Area Model ](./html/ec9f0bb1-37c1-4ed5-baf5-9eea082b1be1.html)
         * [Using an Area Model](./html/d2662d14-0c1a-48dd-891f-66bf4b7d5a7e.html)
-        * [Applying an Area Model](./html/d483b99c-8f41-484c-839a-7ecd35cb0d11.html)
+        * [Applying an Area Model to Polynomials](./html/d483b99c-8f41-484c-839a-7ecd35cb0d11.html)
+    * Inquiry Project: Area Model Multiplication
+        * [Inquiry Project Overview](./html/54d2f132-4050-447a-9ad9-cc30016135c0.html)
+        * [Discovering an Area Model](./html/8dbf8797-126e-47c7-8fdc-fc0a45a301f5.html)
+        * [Understanding an Area Model](./html/07ad54f4-f97a-44cf-abda-2b104a51de6b.html)
+        * [Using an Area Model](./html/cc92a813-0433-4351-ad4c-b00acbdc6fcb.html)
+        * [Applying an Area Model to Polynomials](./html/8f218b3e-7953-4e30-af8b-b0909544e23d.html)
     * [Unit 6 Section A Overview: Operations with Polynomials](./html/46e448a1-9a4b-4ee0-b2c0-1184f1272c90.html)
     * Lesson 6.1 Teacher Guide: Add and Subtract Polynomials
         * [6.1.0: Lesson Overview](./html/b6383594-ab54-4cb3-9db0-eeb0d622fbab.html)
