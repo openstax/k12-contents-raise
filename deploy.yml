@@ -7,7 +7,7 @@ env:
 phases:
   build:
     commands:
-      - pip install git+https://github.com/openstax/raise-mbtools@739706b
+      - pip install git+https://github.com/openstax/raise-mbtools@9515a3f
       - html-to-json html json
       - aws s3 cp --cache-control no-cache --recursive json/ "s3://$CONTENT_S3_BUCKET/contents/raise/latest/"
       - export VERSION=${COMMIT_ID:0:8}
