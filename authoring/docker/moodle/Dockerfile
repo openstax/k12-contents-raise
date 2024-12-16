@@ -1,6 +1,6 @@
 FROM moodlehq/moodle-php-apache:8.0
 
-ARG MOODLE_VERSION=v4.1.14
+ARG MOODLE_VERSION=v4.1.15
 ARG LOCAL_RAISE_VERSION=2024050900
 
 # Install Moodle and plugins
