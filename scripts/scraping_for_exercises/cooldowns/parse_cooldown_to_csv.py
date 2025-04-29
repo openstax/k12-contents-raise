@@ -5,8 +5,8 @@ import json
 from bs4 import BeautifulSoup, Comment
 from pathlib import Path
 
-INPUT_DIR = '../../../grouped_html/cooldowns/thinslice'
-OUTPUT_CSV = 'cooldown_thinslice.csv'
+INPUT_DIR = '../../../grouped_html/cooldowns/all'
+OUTPUT_CSV = 'CD_all_no_TEKS.csv'
 LOG_FILE = 'parse_log.txt'
 
 FIELDNAMES = [
@@ -91,6 +91,13 @@ def extract_feedback(problem, pset_correct, pset_encourage):
 
     return clean_and_strip(correct_html), clean_and_strip(encourage_html)
 
+def strip_surrounding_br_tags(html_str):
+    soup = BeautifulSoup(html_str, 'html.parser')
+    while soup.contents and soup.contents[0].name == 'br':
+        soup.contents[0].decompose()
+    while soup.contents and soup.contents[-1].name == 'br':
+        soup.contents[-1].decompose()
+    return str(soup.prettify())
 
 def process_interactive_block(block, filename, multi_step_id, block_index_start, background, lead_in_buffer, logs):
     from copy import deepcopy
@@ -98,6 +105,10 @@ def process_interactive_block(block, filename, multi_step_id, block_index_start,
         soup = BeautifulSoup(html, 'html.parser')
         for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
             comment.extract()
+        while soup.contents and soup.contents[0].name == 'br':
+            soup.contents[0].decompose()
+        while soup.contents and soup.contents[-1].name == 'br':
+            soup.contents[-1].decompose()
         return soup.decode_contents().strip()
 
     rows = []
@@ -255,13 +266,14 @@ def process_file(filepath, multi_step_index, logs):
         if not found_first_interactive:
             if is_interactive:
                 found_first_interactive = True
-                background = ''.join(background_parts).strip()
+                background = strip_surrounding_br_tags(''.join(background_parts).strip())
                 rows_from_block = process_interactive_block(elem, filename, multi_step_id, block_index, background, lead_in_buffer, logs)
                 rows.extend(rows_from_block)
                 block_index += len(rows_from_block)
                 lead_in_buffer.clear()
             else:
-                background_parts.append(str(elem))
+                if elem.name not in ['h1', 'h2', 'h3', 'h4']:
+                    background_parts.append(str(elem))
         else:
             if is_interactive:
                 rows_from_block = process_interactive_block(elem, filename, multi_step_id, block_index, background, lead_in_buffer, logs)

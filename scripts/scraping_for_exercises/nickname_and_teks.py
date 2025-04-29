@@ -20,8 +20,8 @@ def parse_toc(toc_path):
             if match:
                 _, numeric_prefix, _, filename = match.groups()
                 toc_map[filename] = {
-                    'full': numeric_prefix,
-                    'section': '.'.join(numeric_prefix.split('.')[:2]),
+                    'full': numeric_prefix,  # e.g., 4.6.1
+                    'section': '.'.join(numeric_prefix.split('.')[:2]),  # e.g., 4.6
                     'nickname_middle': numeric_prefix.replace('.', '_')
                 }
     return toc_map
@@ -41,29 +41,42 @@ def load_teks_mapping(teks_path):
             mapping[lesson]['machine_readable_teks'].append(machine)
     return mapping
 
+# === Section UUID Mapping ===
+
+def load_section_uuid_mapping(uuid_path):
+    section_uuid_map = {}
+    with open(uuid_path, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            section = row['Section'].strip()
+            uuid = row['UUID'].strip()
+            section_uuid_map[section] = uuid
+    return section_uuid_map
+
 # === CSV Processing ===
 
-def process_csv(input_csv, toc_map, teks_map, output_csv):
+def process_csv(input_csv, toc_map, teks_map, uuid_map, output_csv):
     errors = []
 
     with open(input_csv, 'r', encoding='utf-8') as infile, \
          open(output_csv, 'w', encoding='utf-8', newline='') as outfile:
 
         reader = csv.DictReader(infile)
-        fieldnames = reader.fieldnames + ['nickname', 'TEKS', 'machine_readable_teks']
+        fieldnames = reader.fieldnames + ['nickname', 'TEKS', 'machine_readable_teks', 'section_UUID']
         writer = csv.DictWriter(outfile, fieldnames=fieldnames)
         writer.writeheader()
 
         for row in reader:
             filename = row.get('filename', '').strip()
             multi_step_id = row.get('multi_step_id', '').strip()
-            nickname, teks, machine_teks = '', '', ''
+            nickname, teks, machine_teks, section_uuid = '', '', '', ''
 
             if not multi_step_id:
                 errors.append(f"Missing multi_step_id for filename: {filename}")
             
             if filename in toc_map:
                 toc_info = toc_map[filename]
+                numeric_prefix = toc_info['full']
                 nickname = f"{NICKNAME_PREFIX}{toc_info['nickname_middle']}_{multi_step_id}"
                 lesson_key = toc_info['section']
 
@@ -72,12 +85,18 @@ def process_csv(input_csv, toc_map, teks_map, output_csv):
                     machine_teks = ','.join(sorted(set(teks_map[lesson_key]['machine_readable_teks'])))
                 else:
                     errors.append(f"No TEKS mapping found for lesson section: {lesson_key}")
+
+                if numeric_prefix in uuid_map:
+                    section_uuid = uuid_map[numeric_prefix]
+                else:
+                    errors.append(f"No UUID mapping found for full section: {numeric_prefix}")
             else:
                 errors.append(f"Filename not found in TOC: {filename}")
 
             row['nickname'] = nickname
             row['TEKS'] = teks
             row['machine_readable_teks'] = machine_teks
+            row['section_UUID'] = section_uuid
             writer.writerow(row)
 
     if errors:
@@ -90,16 +109,18 @@ def process_csv(input_csv, toc_map, teks_map, output_csv):
 # === Entry Point ===
 
 if __name__ == "__main__":
-    if len(sys.argv) != 5:
-        print("Usage: python nickname_and_teks.py <input_csv> <toc_md> <teks_mapping_csv> <output_csv>")
+    if len(sys.argv) != 6:
+        print("Usage: python nickname_and_teks.py <input_csv> <toc_md> <teks_mapping_csv> <uuid_csv> <output_csv>")
         sys.exit(1)
 
     input_csv = Path(sys.argv[1])
     toc_md = Path(sys.argv[2])
     teks_csv = Path(sys.argv[3])
-    output_csv = Path(sys.argv[4])
+    uuid_csv = Path(sys.argv[4])
+    output_csv = Path(sys.argv[5])
 
     toc_map = parse_toc(toc_md)
     teks_map = load_teks_mapping(teks_csv)
-    process_csv(input_csv, toc_map, teks_map, output_csv)
+    uuid_map = load_section_uuid_mapping(uuid_csv)
+    process_csv(input_csv, toc_map, teks_map, uuid_map, output_csv)
     print(f"✅ Output written to {output_csv}")

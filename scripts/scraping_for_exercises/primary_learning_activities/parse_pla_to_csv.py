@@ -2,11 +2,11 @@ import os
 import csv
 import hashlib
 import json
-from bs4 import BeautifulSoup, Comment
+from bs4 import BeautifulSoup, Comment, Tag
 from pathlib import Path
 
-INPUT_DIR = 'warmups_test'
-OUTPUT_CSV = 'multi_step_problems_test.csv'
+INPUT_DIR = '../../../grouped_html/primary_learning_activities/all'
+OUTPUT_CSV = 'PLA_all_no_TEKS.csv'
 LOG_FILE = 'parse_log.txt'
 
 FIELDNAMES = [
@@ -91,13 +91,23 @@ def extract_feedback(problem, pset_correct, pset_encourage):
 
     return clean_and_strip(correct_html), clean_and_strip(encourage_html)
 
+def strip_surrounding_br_tags(html_str):
+    soup = BeautifulSoup(html_str, 'html.parser')
+    while soup.contents and soup.contents[0].name == 'br':
+        soup.contents[0].decompose()
+    while soup.contents and soup.contents[-1].name == 'br':
+        soup.contents[-1].decompose()
+    return str(soup.prettify())
 
 def process_interactive_block(block, filename, multi_step_id, block_index_start, background, lead_in_buffer, logs):
-    from copy import deepcopy
     def clean_html(html):
         soup = BeautifulSoup(html, 'html.parser')
         for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
             comment.extract()
+        while soup.contents and soup.contents[0].name == 'br':
+            soup.contents[0].decompose()
+        while soup.contents and soup.contents[-1].name == 'br':
+            soup.contents[-1].decompose()
         return soup.decode_contents().strip()
 
     rows = []
@@ -217,17 +227,45 @@ def process_interactive_block(block, filename, multi_step_id, block_index_start,
 
     return rows
 
+def split_by_ready_for_more(soup):
+    rfm_blocks = [
+        tag for tag in soup.find_all('div', class_='os-raise-ib-cta')
+        if 'are you ready for more' in tag.get('data-button-text', '').lower()
+    ]
 
+    if len(rfm_blocks) > 1:
+        return 'MULTIPLE_RFM', None, None
+    elif len(rfm_blocks) == 0:
+        return 'NO_RFM', soup, None
 
-# Main parsing function
-def process_file(filepath, multi_step_index, logs):
-    from bs4 import BeautifulSoup
+    split_block = rfm_blocks[0]
+    before = BeautifulSoup('', 'html.parser')
+    after = BeautifulSoup('', 'html.parser')
+    seen_split = False
 
-    with open(filepath, 'r', encoding='utf-8') as f:
-        soup = BeautifulSoup(f, 'html.parser')
+    for el in soup.contents:
+        if not isinstance(el, Tag):
+            continue
+        if el is split_block:
+            seen_split = True
+            continue  # skip the RFM block itself
+        if seen_split:
+            after.append(el)
+        else:
+            before.append(el)
 
-    filename = os.path.basename(filepath)
-    multi_step_id = str(multi_step_index)
+    return 'SPLIT', before, after
+
+def has_interactive_blocks(soup):
+    if not soup:
+        return False
+    for tag in soup.find_all(True):
+        classes = tag.get('class', [])
+        if any(cls in classes for cls in ['os-raise-ib-pset', 'os-raise-ib-input', 'os-raise-ib-cta']):
+            return True
+    return False
+
+def process_section(soup, filename, multi_step_id, logs):
     rows = []
     block_index = 0
     lead_in_buffer = []
@@ -238,52 +276,71 @@ def process_file(filepath, multi_step_index, logs):
         if isinstance(elem, str):
             continue
 
-        # Tooltip unwrap
-        if elem.select_one('.os-raise-ib-tooltip'):
-            for tooltip in elem.select('.os-raise-ib-tooltip'):
-                tooltip.unwrap()
-
-        # Replace Desmos blocks
-        if elem.name == 'div' and 'os-raise-ib-desmos-gc' in elem.get('class', []):
-            elem.replace_with(BeautifulSoup('<p>This requires a Desmos calculator</p>', 'html.parser'))
-            continue
-
         is_interactive = elem.name == 'div' and any(cls in elem.get('class', []) for cls in [
-            'os-raise-ib-pset', 'os-raise-ib-input', 'os-raise-ib-cta'
-        ])
+            'os-raise-ib-pset', 'os-raise-ib-input', 'os-raise-ib-cta']
+        )
 
         if not found_first_interactive:
             if is_interactive:
-                found_first_interactive = True
-                background = ''.join(background_parts).strip()
-                rows_from_block = process_interactive_block(elem, filename, multi_step_id, block_index, background, lead_in_buffer, logs)
+                background = strip_surrounding_br_tags(''.join(background_parts).strip())
+                rows_from_block = process_interactive_block(
+                    elem, filename, multi_step_id, block_index, background, lead_in_buffer, logs)
                 rows.extend(rows_from_block)
                 block_index += len(rows_from_block)
                 lead_in_buffer.clear()
             else:
-                background_parts.append(str(elem))
+                if elem.name not in ['h1', 'h2', 'h3', 'h4']:
+                    background_parts.append(str(elem))
         else:
             if is_interactive:
-                rows_from_block = process_interactive_block(elem, filename, multi_step_id, block_index, background, lead_in_buffer, logs)
+                rows_from_block = process_interactive_block(
+                    elem, filename, multi_step_id, block_index, background, lead_in_buffer, logs)
                 rows.extend(rows_from_block)
                 block_index += len(rows_from_block)
                 lead_in_buffer.clear()
             else:
                 lead_in_buffer.append(str(elem))
-
     return rows
 
-
-# Entry point
 def main():
     all_rows = []
     logs = []
     multi_step_counter = 1
 
     for file in sorted(Path(INPUT_DIR).glob('*.html')):
-        rows = process_file(file, "PLA_" + str(multi_step_counter), logs)
-        all_rows.extend(rows)
-        multi_step_counter += 1
+        with open(file, 'r', encoding='utf-8') as f:
+            soup = BeautifulSoup(f, 'html.parser')
+
+        filename = file.name
+        status, before_soup, after_soup = split_by_ready_for_more(soup)
+
+        if status == 'MULTIPLE_RFM':
+            log_issue(logs, f"Multiple 'Are you ready for more?' CTA blocks found in file {filename}. Skipping.")
+            continue
+
+        if status == 'NO_RFM':
+            if has_interactive_blocks(before_soup):
+                multi_step_id = f"PLA_{multi_step_counter}"
+                rows = process_section(before_soup, filename, multi_step_id, logs)
+                all_rows.extend(rows)
+                multi_step_counter += 1
+            else:
+                log_issue(logs, f"No interactive blocks in file {filename}. Skipping.")
+            continue
+
+        if has_interactive_blocks(before_soup):
+            multi_step_id = f"PLA_{multi_step_counter}"
+            rows = process_section(before_soup, filename, multi_step_id, logs)
+            all_rows.extend(rows)
+            multi_step_counter += 1
+
+        if has_interactive_blocks(after_soup):
+            multi_step_id = f"PLA_{multi_step_counter}"
+            rows = process_section(after_soup, filename, multi_step_id, logs)
+            all_rows.extend(rows)
+            multi_step_counter += 1
+        else:
+            log_issue(logs, f"No interactive blocks found after 'Are you ready for more?' in {filename}. Skipping second section.")
 
     with open(OUTPUT_CSV, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
@@ -293,7 +350,7 @@ def main():
     if logs:
         with open(LOG_FILE, 'w', encoding='utf-8') as f:
             f.write('\n'.join(logs))
-    print(f"✅ Finished. Parsed {len(all_rows)} rows across {multi_step_counter-1} files.")
+    print(f"✅ Finished. Parsed {len(all_rows)} rows across {multi_step_counter - 1} multi-step entries.")
 
 if __name__ == "__main__":
     main()
