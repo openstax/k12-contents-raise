@@ -129,7 +129,7 @@ def process_interactive_block(block, filename, multi_step_id, block_index_start,
                 'background': background,
             })
 
-            data_id = problem.get('data-content-id') or f"{Path(filename).stem}__block{block_index_start + i}"
+            data_id = problem.get('data-content-id')
             if not problem.get('data-content-id'):
                 log_issue(logs, f"Missing data-content-id in file {filename}, block {block_index_start + i}")
             row['data_content_id'] = data_id
@@ -185,7 +185,7 @@ def process_interactive_block(block, filename, multi_step_id, block_index_start,
             'rex_type': 'open_ended',
             'background': background,
         })
-        row['data_content_id'] = block.get('data-content-id') or f"{Path(filename).stem}__block{block_index_start}"
+        row['data_content_id'] = block.get('data-content-id')
 
         content = block.select_one('.os-raise-ib-cta-content')
         prompt = block.select_one('.os-raise-ib-cta-prompt')
@@ -210,7 +210,7 @@ def process_interactive_block(block, filename, multi_step_id, block_index_start,
             'rex_type': 'open_ended',
             'background': background,
         })
-        row['data_content_id'] = block.get('data-content-id') or f"{Path(filename).stem}__block{block_index_start}"
+        row['data_content_id'] = block.get('data-content-id')
 
         content = block.select_one('.os-raise-ib-input-content')
         prompt = block.select_one('.os-raise-ib-input-prompt')

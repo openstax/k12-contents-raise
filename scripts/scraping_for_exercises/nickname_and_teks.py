@@ -12,7 +12,7 @@ LOG_FILE = "nickname_teks_log.txt"
 
 def parse_toc(toc_path):
     toc_map = {}
-    pattern = re.compile(r'\[(.*?)(\d+\.\d+\.\d+): (.*?)\]\(\./html/([a-f0-9\-]+\.html)\)')
+    pattern = re.compile(r'\[(.*?)(\d+\.\d+\.\d+):?\s+(.*?)\]\(\./html/([a-f0-9\-]+\.html)\)')
 
     with open(toc_path, 'r', encoding='utf-8') as f:
         for line in f:
