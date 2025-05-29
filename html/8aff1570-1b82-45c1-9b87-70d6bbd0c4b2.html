@@ -7,7 +7,7 @@
 
     <tr>
      <th scope="row">
-        Year
+        year
       </th>
       <td>
         1804
@@ -33,7 +33,7 @@
     </tr>
     <tr>
       <th scope="row">
-        World population in billions
+        world population in billions
       </th>
       <td>
         1
@@ -79,33 +79,3 @@
 
 </li>
 </ol>
-
-<br>
-<br>
-<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<div class="os-raise-ib-cta" data-button-text="Are you ready for more?" data-fire-event="RFM1"
-  data-schema-version="1.0">
-  <div class="os-raise-ib-cta-content">
-    <!-- INSERT ANY VALID HTML HERE -->
-  </div>
-  <div class="os-raise-ib-cta-prompt">
-    <!-- INSERT ANY VALID HTML HERE -->
-  </div>
-</div>
-<!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<div class="os-raise-ib-input" data-button-text="Solution" 
-  data-schema-version="1.0" data-wait-for-event="RFM1">
-  <div class="os-raise-ib-input-content">
-    <h4>Extending Your Thinking</h4>
-    <p>Another common model for population growth, which fixes some of the improbable predictions of the exponential model, is called a logistic model. A sample function \(f\) of this type is the function \(f(t)=\frac {10}{1+50 \cdot 2^{-t}}\)</p>
-<p>Evaluate this function for integer values of \(t\) between 0 and 15. Describe qualitatively how this function differs from an exponential one. What happens to the world population in the long run according to this model?</p>
-  </div>
-  <div class="os-raise-ib-input-prompt">
-    <p>Enter your answer here:</p>
-  </div>
-  <div class="os-raise-ib-input-ack">
-    <p>Compare your answer:</p>
-    <p>We have \(f(0) \approx 0.2\), after which the outputs of \(f\) gradually increase toward 10. Jumping to the end, we find \(f(13) \approx 9.939\), \(f(14) \approx 9.969\), and \(f(15) \approx 9.984\). We can see that the larger that \(t\) gets, the smaller \(2^{-t}\) gets, and so the denominator gets closer to 1, and the overall fraction approaches 10. So according to this model, in the long run, the world population would stabilize at around 10 billion.</p>
-  </div>
-</div>
-<!--End interaction-->
