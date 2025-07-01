@@ -1,187 +1,185 @@
 <h4>Finding Residuals</h4>
-<p><span>The gestation time for an animal is the typical duration between conception and birth. The longevity of an animal is the typical lifespan for that animal. The gestation times, in days, and longevities, in years, for 13 types of animals are shown in the table below.&nbsp;</span><br></p>
+<p><span>The gestation time for an animal is the typical duration between conception and birth. The longevity of an animal is the typical lifespan for that animal. The gestation times, in days, and longevities, in years, for 13 types of animals are shown in the table below. </span><br/></p>
 <table class="os-raise-midsizetable">
-  <thead>
-    <tr>
-      <th scope="col">Animal </th>
-      <th scope="col">Gestation Time
+<thead>
+<tr>
+<th scope="col">Animal </th>
+<th scope="col">Gestation Time
         (Days) </th>
-      <th scope="col">Longevity
+<th scope="col">Longevity
         (Years)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <p>Baboon</p>
-      </td>
-      <td>
-        <p>187</p>
-      </td>
-      <td>
-        <p>20</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Black Bear</p>
-      </td>
-      <td>
-        <p>219</p>
-      </td>
-      <td>
-        <p>18</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Beaver</p>
-      </td>
-      <td>
-        <p>105</p>
-      </td>
-      <td>
-        <p>5</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Bison</p>
-      </td>
-      <td>
-        <p>285</p>
-      </td>
-      <td>
-        <p>15</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Cat</p>
-      </td>
-      <td>
-        <p>63</p>
-      </td>
-      <td>
-        <p>12</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Chimpanzee</p>
-      </td>
-      <td>
-        <p>23</p>
-      </td>
-      <td>
-        <p>20</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Cow</p>
-      </td>
-      <td>
-        <p>284</p>
-      </td>
-      <td>
-        <p>15</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Dog</p>
-      </td>
-      <td>
-        <p>61</p>
-      </td>
-      <td>
-        <p>12</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Fox (Red)</p>
-      </td>
-      <td>
-        <p>52</p>
-      </td>
-      <td>
-        <p>7</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Goat</p>
-      </td>
-      <td>
-        <p>151</p>
-      </td>
-      <td>
-        <p>8</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Lion</p>
-      </td>
-      <td>
-        <p>100</p>
-      </td>
-      <td>
-        <p>15</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Sheep</p>
-      </td>
-      <td>
-        <p>154</p>
-      </td>
-      <td>
-        <p>12</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Wolf</p>
-      </td>
-      <td>
-        <p>63</p>
-      </td>
-      <td>
-        <p>5</p>
-      </td>
-    </tr>
-  </tbody>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Baboon</p>
+</td>
+<td>
+<p>187</p>
+</td>
+<td>
+<p>20</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Black Bear</p>
+</td>
+<td>
+<p>219</p>
+</td>
+<td>
+<p>18</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Beaver</p>
+</td>
+<td>
+<p>105</p>
+</td>
+<td>
+<p>5</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Bison</p>
+</td>
+<td>
+<p>285</p>
+</td>
+<td>
+<p>15</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Cat</p>
+</td>
+<td>
+<p>63</p>
+</td>
+<td>
+<p>12</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Chimpanzee</p>
+</td>
+<td>
+<p>23</p>
+</td>
+<td>
+<p>20</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Cow</p>
+</td>
+<td>
+<p>284</p>
+</td>
+<td>
+<p>15</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Dog</p>
+</td>
+<td>
+<p>61</p>
+</td>
+<td>
+<p>12</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Fox (Red)</p>
+</td>
+<td>
+<p>52</p>
+</td>
+<td>
+<p>7</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Goat</p>
+</td>
+<td>
+<p>151</p>
+</td>
+<td>
+<p>8</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Lion</p>
+</td>
+<td>
+<p>100</p>
+</td>
+<td>
+<p>15</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Sheep</p>
+</td>
+<td>
+<p>154</p>
+</td>
+<td>
+<p>12</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Wolf</p>
+</td>
+<td>
+<p>63</p>
+</td>
+<td>
+<p>5</p>
+</td>
+</tr>
+</tbody>
 </table>
- <br>
-<p>The equation of a line of best fit is \(y = 9.875 + 0.02039x\), where \(x\) represents the gestational time, in days, and \(y\) represents longevity, in years.&nbsp;</p>
-<p><img alt class="img-fluid atto_image_button_text-bottom" height="339" role="presentation"
-    src="https://k12.openstax.org/contents/raise/resources/69b023d797f371f2dd27d011d5c66c2303d2ef6f" width="540"><br></p>
-<p>A lion&rsquo;s gestation time is 100 days, and its longevity is 15 years. What does this line of best fit predict the lion&rsquo;s longevity to be?</p>
-<br>
+<br/>
+<p>The equation of a line of best fit is \(y = 9.875 + 0.02039x\), where \(x\) represents the gestational time, in days, and \(y\) represents longevity, in years. </p>
+<p><img alt="A scatter plot with red data points and a blue trendline showing a slight positive correlation between the variables on the x-axis (0 to 300) and y-axis (0 to 25)." class="img-fluid atto_image_button_text-bottom" height="339" role="presentation" src="https://k12.openstax.org/contents/raise/resources/69b023d797f371f2dd27d011d5c66c2303d2ef6f" width="540"/><br/></p>
+<p>A lion’s gestation time is 100 days, and its longevity is 15 years. What does this line of best fit predict the lion’s longevity to be?</p>
+<br/>
 <p><strong>Solution</strong></p>
 <p>The line of best fit is \(𝑦=9.875 + 0.02039(100)=11.9\)</p>
-<p>The residual would be: actual value &ndash; estimated value or \(15−11.9=3.1\).</p>
+<p>The residual would be: actual value – estimated value or \(15−11.9=3.1\).</p>
 <p>The residual value is 3.1.</p>
 <h4>Try It: Finding Residuals</h4>
 <p>In the table above, a dog has a gestation time of 61 days and a longevity of 12 years.</p>
 <div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="Reveal1" data-schema-version="1.0">
-  <div class="os-raise-ib-cta-content">
-    <p>Using the same equation, \(y = 9.875 + 0.02039x\), what would the residual value be?</p>
-  </div>
-  <div class="os-raise-ib-cta-prompt">
-    <p>Write down your answer, then select the <strong>solution</strong> button to compare your work.
+<div class="os-raise-ib-cta-content">
+<p>Using the same equation, \(y = 9.875 + 0.02039x\), what would the residual value be?</p>
+</div>
+<div class="os-raise-ib-cta-prompt">
+<p>Write down your answer, then select the <strong>solution</strong> button to compare your work.
     </p>
-  </div>
+</div>
 </div>
 <div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1">
-  <p>Compare your answer:</p>
-  <p>Substitute \(x =61\) into the equation, \(𝑦=9.875 + 0.02039(61)=11.1\).</p>
-  <p>So, the residual is the (actual value &ndash; estimated value):</p>
-  <p>\(12−11.1=0.9\).</p>
-  
+<p>Compare your answer:</p>
+<p>Substitute \(x =61\) into the equation, \(𝑦=9.875 + 0.02039(61)=11.1\).</p>
+<p>So, the residual is the (actual value – estimated value):</p>
+<p>\(12−11.1=0.9\).</p>
 </div>
-<br>
+<br/>
