@@ -151,16 +151,19 @@
   </div>
 </div>
 <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<div class="os-raise-ib-input" data-button-text="Solution" data-content-id="744051d7-4ac1-4dc4-8cfa-8a578379a6fa" data-schema-version="1.0" data-wait-for-event="RFM1">
-  <div class="os-raise-ib-input-content">
-    <h4>Extending Your Thinking</h4>
-    <p>A ball is thrown upward from the top of a 40 foot high building at a speed of 80 feet per second. The ball&rsquo;s height above ground can be modeled by the equation \(H(t)=-16t^2+80t+40\). What is the maximum height?</p>
+<div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="RFM1" data-schema-version="1.0">
+  <div class="os-raise-ib-cta-content">
+        <h4>Extending Your Thinking</h4>
+    <ol class="os-raise-noindent">
+      <li>A ball is thrown upward from the top of a 40 foot high building at a speed of 80 feet per second. The ball&rsquo;s height above ground can be modeled by the equation \(H(t)=-16t^2+80t+40\). What is the maximum height?</li>
+	  </ol>     
   </div>
-  <div class="os-raise-ib-input-prompt">
-    <p>Enter your answer here:</p>
+  <div class="os-raise-ib-cta-prompt">
+    <p>Write down your answer, then select the <strong>solution</strong> button to compare your work.</p>
   </div>
-  <div class="os-raise-ib-input-ack">
-    <p>Compare your answer:</p>
+</div>
+<div class="os-raise-ib-content" data-wait-for-event="Reveal7" data-schema-version="1.0">
+<p>Compare your answer:</p>
     <p>To find the maximum height, find the vertex. Write the function in vertex form.</p>
     <p>\(H(t)=-16t^2+80t+40\)</p>
     <p><strong>Step 1</strong> - Factor -16 out of the first two terms.<br>
@@ -171,12 +174,11 @@
       \(H(t)=-16(t^2-5t+\frac{25}{4})+40-(-100)&nbsp;\)<br>
       \(H(t)=-16(t^2-5t+\frac{25}{4})+40+100&nbsp;\)</p>
     <p><strong>Step 4</strong> - Factor and simplify.<br>
-      \(H(t)=-16(t+\frac{-5}{2})^2+140\)</p>
+      \(H(t)=-16(t-\frac{5}{2})^2+140\)</p>
     <p><strong>Step 5</strong> - Find the vertex.<br>
       \((\frac{5}{2}, 140)\)<br>
       Therefore, the maximum height is 140 feet. (It reaches this high point after 2.5 seconds.) 
     </p>
-  </div>
 </div>
 <!--End interaction-->
 <br>
